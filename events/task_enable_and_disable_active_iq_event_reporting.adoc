@@ -1,0 +1,45 @@
+---
+permalink: events/task_enable_and_disable_active_iq_event_reporting.html 
+sidebar: sidebar 
+keywords: enable, disable, active iq, event, report 
+summary: 'Os eventos da plataforma Active IQ são gerados e exibidos na interface de usuário do Gerenciador Unificado por padrão. Se você achar que esses eventos são muito "barulhentos" ou que não deseja exibir esses eventos no Unified Manager, poderá desativar esses eventos de serem gerados. Você pode ativá-los posteriormente se quiser continuar recebendo essas notificações.' 
+---
+= Ativar e desativar relatórios de eventos do Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Os eventos da plataforma Active IQ são gerados e exibidos na interface de usuário do Gerenciador Unificado por padrão. Se você achar que esses eventos são muito "barulhentos" ou que não deseja exibir esses eventos no Unified Manager, poderá desativar esses eventos de serem gerados. Você pode ativá-los posteriormente se quiser continuar recebendo essas notificações.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações.
+
+Quando você desativa esse recurso, o Unified Manager pára de receber eventos da plataforma Active IQ imediatamente.
+
+Quando você ativa esse recurso, o Unified Manager começa a receber eventos da plataforma Active IQ logo após a meia-noite, com base no fuso horário do cluster. A hora de início é baseada em quando o Unified Manager recebe mensagens do AutoSupport de cada cluster.
+
+.Passos
+. No painel de navegação à esquerda, clique em *Geral* > *Definições da funcionalidade*.
+. Na página *Definições de funcionalidades*, desative ou ative eventos da plataforma Active IQ escolhendo uma das seguintes opções:
++
+|===
+| Se você quiser... | Então faça isso... 
+
+
+ a| 
+Desativar eventos da plataforma Active IQ
+ a| 
+No painel *Eventos do Portal Active IQ*, mova o botão deslizante para a esquerda.
+
+
+
+ a| 
+Ativar eventos da plataforma Active IQ
+ a| 
+No painel *Eventos do Portal Active IQ*, mova o botão deslizante para a direita.
+
+|===
+

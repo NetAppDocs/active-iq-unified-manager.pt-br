@@ -1,0 +1,25 @@
+---
+permalink: reporting/concept_report_access_points.html 
+sidebar: sidebar 
+keywords: access, points, generating, reports 
+summary: Você pode coletar informações no Unified Manager sobre seus clusters para criar relatórios a partir da IU, consultas de banco de dados MySQL e APIs REST. 
+---
+= Pontos de acesso para geração de relatórios
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode coletar informações no Unified Manager sobre seus clusters para criar relatórios a partir da IU, consultas de banco de dados MySQL e APIs REST.
+
+Essas seções descrevem os relatórios e o agendamento do Unified Manager por meio da IU.
+
+Há três maneiras de acessar as funcionalidades de relatórios fornecidas pelo Unified Manager:
+
+* Extraindo dados diretamente das páginas de inventário na IU.
+* Usando as ferramentas ODBC (Open Database Connectivity) e ODBC para acessar todos os objetos disponíveis.
+* Executando as APIs REST do Unified Manager para retornar as informações que você deseja revisar.
+
+
+Essas seções descrevem os relatórios e o agendamento do Unified Manager por meio da IU.

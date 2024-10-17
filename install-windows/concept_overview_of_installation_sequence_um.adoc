@@ -1,0 +1,18 @@
+---
+permalink: install-windows/concept_overview_of_installation_sequence_um.html 
+sidebar: sidebar 
+keywords: overview, installation, sequence 
+summary: O fluxo de trabalho de instalação descreve as tarefas que você deve executar antes de usar o Unified Manager. 
+---
+= Descrição geral da sequência de instalação
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+O fluxo de trabalho de instalação descreve as tarefas que você deve executar antes de usar o Unified Manager.
+
+Estas seções descrevem cada um dos itens mostrados no fluxo de trabalho abaixo.
+
+image::../media/overall_um_install_flow.png[fluxo geral de instalação de um]

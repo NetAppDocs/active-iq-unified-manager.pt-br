@@ -1,0 +1,59 @@
+---
+permalink: storage-mgmt/task_create_and_edit_psls.html 
+sidebar: sidebar 
+keywords: create, edit, performance, service, Levels 
+summary: Quando os níveis de Serviço de performance definidos pelo sistema não correspondem aos requisitos de workload, você pode criar seus próprios níveis de Serviço de performance otimizados para seus workloads. 
+---
+= Criando e editando níveis de Serviço de desempenho
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Quando os níveis de Serviço de performance definidos pelo sistema não correspondem aos requisitos de workload, você pode criar seus próprios níveis de Serviço de performance otimizados para seus workloads.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações.
+* O nome do nível de Serviço de desempenho deve ser exclusivo e você não pode usar as seguintes palavras-chave reservadas:
++
+`Prime` `Extreme`, , `Performance` `Value` , `Unassigned`, , , `Learning` `Idle`, , , `Default` e `None`.
+
+
+
+Você cria e edita níveis de Serviço de Performance personalizados na página níveis de Serviço de Performance definindo os objetivos de nível de serviço necessários para os aplicativos que acessarão o storage.
+
+[NOTE]
+====
+Não é possível modificar um nível de Serviço de Performance se ele estiver atualmente atribuído a uma carga de trabalho.
+
+====
+.Passos
+. No painel de navegação à esquerda em *Settings*, selecione *Policies* > *Performance Service Levels*.
+. Na página *níveis de serviço de desempenho*, clique no botão apropriado, dependendo se você deseja criar um novo nível de serviço de desempenho ou se deseja editar um nível de serviço de desempenho existente.
++
+|===
+| Para... | Siga estes passos... 
+
+
+ a| 
+Crie um novo nível de Serviço de Performance
+ a| 
+Clique em *Add*.
+
+
+
+ a| 
+Editar um nível de Serviço de desempenho existente
+ a| 
+Selecione um nível de Serviço de desempenho existente e clique em *Editar*.
+
+|===
++
+É apresentada a página para adicionar ou editar um nível de Serviço de desempenho.
+
+. Personalize o nível de Serviço de desempenho especificando os objetivos de desempenho e clique em *Enviar* para salvar o nível de Serviço de desempenho.
+
+
+É possível aplicar o nível de Serviço de Performance novo ou alterado a workloads (LUNs, compartilhamentos de arquivos NFS, compartilhamentos CIFS) da página de workloads ou ao provisionar um novo workload.

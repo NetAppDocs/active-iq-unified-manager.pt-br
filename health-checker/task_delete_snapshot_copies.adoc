@@ -1,0 +1,46 @@
+---
+permalink: health-checker/task_delete_snapshot_copies.html 
+sidebar: sidebar 
+keywords: delete, snapshot copies 
+summary: Você pode excluir uma cópia Snapshot para economizar espaço ou liberar espaço em disco, ou excluir a cópia Snapshot se ela não for mais necessária. 
+---
+= Exclusão de cópias Snapshot
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode excluir uma cópia Snapshot para economizar espaço ou liberar espaço em disco, ou excluir a cópia Snapshot se ela não for mais necessária.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+O volume deve estar online.
+
+Para excluir uma cópia Snapshot ocupada ou bloqueada, você deve ter liberado a cópia Snapshot do aplicativo que a estava usando.
+
+* Não é possível excluir a cópia Snapshot base em um volume pai se um volume FlexClone estiver usando essa cópia Snapshot.
++
+A cópia Snapshot de base é a cópia Snapshot usada para criar o volume FlexClone e exibe o status `Busy` e a dependência do aplicativo como `Busy, Vclone` no volume pai.
+
+* Não é possível excluir uma cópia Snapshot bloqueada usada em uma relação do SnapMirror.
++
+A cópia Snapshot está bloqueada e é necessária para a próxima atualização.
+
+
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *volumes*.
+. Na exibição *Saúde: Todos os volumes*, selecione o volume que contém as cópias Snapshot que deseja exibir.
++
+A lista de cópias Snapshot é exibida.
+
+. Na página de detalhes *volume / Saúde*, clique na guia *capacidade*.
+. No painel *Detalhes* da guia *capacidade*, na seção outros detalhes, clique no link ao lado de *cópias instantâneas*.
++
+O número de cópias Snapshot é um link que exibe a lista de cópias snapshot.
+
+. No modo de exibição *cópias Snapshot*, selecione as cópias Snapshot que deseja excluir e clique em *Excluir selecionadas*.
+

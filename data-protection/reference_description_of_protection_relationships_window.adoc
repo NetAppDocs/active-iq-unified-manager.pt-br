@@ -1,0 +1,14 @@
+---
+permalink: data-protection/reference_description_of_protection_relationships_window.html 
+sidebar: sidebar 
+keywords: description, protect, relationships, windows, dialog boxes 
+summary: Você pode visualizar e gerenciar detalhes relacionados à proteção, como pools de recursos, associações de SVM e tarefas de proteção. Você pode usar a página limites de integridade apropriados para configurar valores de limites globais de integridade para agregados, volumes e relacionamentos. 
+---
+= Descrição das janelas de relacionamentos de proteção e caixas de diálogo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode visualizar e gerenciar detalhes relacionados à proteção, como pools de recursos, associações de SVM e tarefas de proteção. Você pode usar a página limites de integridade apropriados para configurar valores de limites globais de integridade para agregados, volumes e relacionamentos.

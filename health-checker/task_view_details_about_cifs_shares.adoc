@@ -1,0 +1,54 @@
+---
+permalink: health-checker/task_view_details_about_cifs_shares.html 
+sidebar: sidebar 
+keywords: smb, cifs, view, shares, details 
+summary: 'Você pode exibir detalhes sobre todos os compartilhamentos SMB/CIFS, como nome do compartilhamento, caminho de junção, contendo objetos, configurações de segurança e políticas de exportação definidas para o compartilhamento. Use a visualização integridade: Todos os compartilhamentos SMB para ver todos os compartilhamentos SMB em todos os clusters monitorados e use a página de detalhes de integridade/VM de storage para exibir todos os compartilhamentos SMB em uma máquina virtual de storage específica (SVM).' 
+---
+= Exibindo detalhes sobre compartilhamentos SMB/CIFS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode exibir detalhes sobre todos os compartilhamentos SMB/CIFS, como nome do compartilhamento, caminho de junção, contendo objetos, configurações de segurança e políticas de exportação definidas para o compartilhamento. Use a visualização integridade: Todos os compartilhamentos SMB para ver todos os compartilhamentos SMB em todos os clusters monitorados e use a página de detalhes de integridade/VM de storage para exibir todos os compartilhamentos SMB em uma máquina virtual de storage específica (SVM).
+
+*O que você vai precisar*
+
+* A licença CIFS deve estar ativada no cluster.
+* As interfaces de rede que atendem aos compartilhamentos SMB/CIFS devem ser configuradas.
+* Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+
+
+[NOTE]
+====
+Compartilhamentos em pastas não são exibidos.
+
+====
+.Passo
+. No painel de navegação à esquerda, siga as etapas abaixo, dependendo se você deseja exibir todos os compartilhamentos SMB/CIFS ou apenas os compartilhamentos de um SVM específico.
++
+[cols="2*"]
+|===
+| Para... | Siga estes passos... 
+
+
+ a| 
+Ver todos os compartilhamentos SMB/CIFS
+ a| 
+Clique em *Storage* > *SMB shares*
+
+
+
+ a| 
+Veja compartilhamentos de SMB/CIFS em uma única SVM
+ a| 
+.. Clique em *Storage* > *Storage VMs*
+.. Clique no SVM para o qual você deseja exibir os detalhes do compartilhamento SMB/CIFS.
+.. Na página Storage VM / Health details, clique na guia *SMB shares*.
+
+
+|===
+
+
+Para obter mais informações, link:../api-automation/concept_provision_file_share.html["Provisionamento de compartilhamentos de arquivos CIFS e NFS com o uso de APIs"]consulte .

@@ -1,0 +1,41 @@
+---
+permalink: storage-mgmt/task_create_rules_to_generate_email_addresses.html 
+sidebar: sidebar 
+keywords: create, rules, generate, email, addresses 
+summary: 'Você pode criar regras para especificar o endereço de e-mail com base na cota de usuário associada a clusters, máquinas virtuais de armazenamento (SVMs), volumes, qtrees, usuários ou grupos de usuários. Uma notificação é enviada para o endereço de e-mail especificado quando há uma violação de cota.' 
+---
+= Criando regras para gerar endereços de e-mail
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode criar regras para especificar o endereço de e-mail com base na cota de usuário associada a clusters, máquinas virtuais de armazenamento (SVMs), volumes, qtrees, usuários ou grupos de usuários. Uma notificação é enviada para o endereço de e-mail especificado quando há uma violação de cota.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+* Você deve ter revisado as diretrizes na página regras para gerar Endereço de e-mail de cota de usuário e grupo.
+
+
+Você deve definir as regras para endereços de e-mail de cota e inseri-los na ordem em que deseja executá-los. Por exemplo, se você quiser usar o endereço de e-mail abc@xyz.com para receber notificações sobre violações de cota para abc e usar o endereço de e-mail para todos os outros grupos, as regras devem ser listadas na seguinte ordem:
+
+* Se ("abc") o abc@xyz.com
+* Se (
+
+
+Se nenhum dos critérios para as regras especificadas for atendido, a regra padrão será usada:
+
+SE ("USER_OR_GROUP" * ), ENTÃO O DOMÍNIO "USER_OR_GROUP"
+
+.Passos
+. No painel de navegação esquerdo, clique em *Geral* > *regras de e-mail de cota*.
+. Introduza a regra com base nos seus critérios.
+. Clique em *Validar* para validar a sintaxe da regra.
++
+Uma mensagem de erro é exibida se a sintaxe da regra estiver incorreta. Você deve corrigir a sintaxe e clicar em *Validar* novamente.
+
+. Clique em *Salvar*.
+. Verifique se o endereço de e-mail que você criou é exibido na guia *cotas de usuário e grupo* da página de detalhes Storage *VM / Health*.
+

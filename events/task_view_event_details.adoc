@@ -1,0 +1,32 @@
+---
+permalink: events/task_view_event_details.html 
+sidebar: sidebar 
+keywords: view, events, details 
+summary: Você pode exibir detalhes sobre um evento que é acionado pelo Unified Manager para tomar medidas corretivas. Por exemplo, se houver um volume off-line de eventos de integridade, você pode clicar nesse evento para exibir os detalhes e executar ações corretivas. 
+---
+= Visualização de eventos e detalhes do evento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode exibir detalhes sobre um evento que é acionado pelo Unified Manager para tomar medidas corretivas. Por exemplo, se houver um volume off-line de eventos de integridade, você pode clicar nesse evento para exibir os detalhes e executar ações corretivas.
+
+*O que você vai precisar*
+
+Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+
+Os detalhes do evento incluem informações como a origem do evento, a causa do evento e quaisquer notas relacionadas ao evento.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Gerenciamento de eventos*.
++
+Por padrão, a exibição todos os eventos ativos exibe os eventos novos e confirmados (ativos) que foram gerados nos últimos 7 dias que têm um nível de impactos de Incidente ou risco.
+
+. Se você quiser exibir uma determinada categoria de eventos, por exemplo, eventos de capacidade ou eventos de desempenho, clique em *Exibir* e selecione no menu de tipos de eventos.
+. Clique no nome do evento para o qual deseja exibir os detalhes.
++
+Os detalhes do evento são exibidos na página de detalhes do evento.
+
+

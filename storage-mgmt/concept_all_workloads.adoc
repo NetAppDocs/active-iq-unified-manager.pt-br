@@ -1,0 +1,76 @@
+---
+permalink: storage-mgmt/concept_all_workloads.html 
+sidebar: sidebar 
+keywords: view, workloads, add, provision, storage, filter, analyze, performance, capacity, criteria 
+summary: A visualização todos os workloads exibe a lista de todos os workloads disponíveis nos clusters de um data center. 
+---
+= Visualização de workloads
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Quando você adiciona clusters ao Unified Manager, os workloads de storage em cada cluster são automaticamente descobertos e exibidos na página cargas de trabalho.
+
+O Unified Manager começa a analisar os workloads para recomendação (PSLs recomendadas) somente após o início das operações de e/S nos workloads de storage.
+
+Os volumes FlexGroup e seus componentes estão excluídos.
+
+
+
+== Visão geral dos workloads
+
+A página Visão geral das cargas de trabalho exibe a visão geral das cargas de trabalho no data center e a visão geral de espaço e desempenho do data center.
+
+* Painel *Visão geral das cargas de trabalho*: Exibe o número total de cargas de trabalho e o número de cargas de trabalho com ou sem PSLs atribuídas a elas. A separação da contagem de carga de trabalho para cada PSL também é exibida. Clicar nas contagens leva você para a visualização *todas as cargas de trabalho* com as cargas de trabalho filtradas. Você também pode ver o número de cargas de trabalho que não estão em conformidade com a recomendação do sistema e atribuir as PSLs recomendadas pelo sistema a elas clicando no botão *Assign System-Recommended PSLs* (atribuir PSLs recomendados pelo sistema).
+* *Painel de Visão geral do data center*: Exibe o espaço disponível e usado (TIB) e o desempenho (IOPS) do data center. Também é exibida uma separação entre o espaço disponível e usado (TIB) e o desempenho (IOPS) de todos os workloads em cada PSL.
+
+
+
+
+== Visualização de todos os workloads
+
+A página *armazenamento > cargas de trabalho > todas as cargas de trabalho* lista as cargas de trabalho de armazenamento associadas aos clusters do ONTAP gerenciados pelo Unified Manager.
+
+Para as cargas de trabalho de storage recém-descobertas nas quais não houve operações de e/S, o status é "'aguardando pela e/S'". Depois que as operações de e/S começam nas cargas de trabalho de storage, o Unified Manager inicia a análise e o status da carga de trabalho muda para "'Learning...'". Após a conclusão da análise (dentro de 24 horas a partir do início das operações de e/S), as PSLs recomendadas são exibidas para as cargas de trabalho de storage.
+
+A página também permite que você atribua políticas de eficiência de storage (SEPs) e níveis de serviço de performance (PSLs) a workloads de storage. Você pode executar várias tarefas:
+
+* Adicionar ou provisionar workloads de storage
+* Visualize e filtre a lista de cargas de trabalho
+* Atribuir PSLs a workloads de storage
+* Avalie as PSLs recomendadas pelo sistema e atribua-as a cargas de trabalho
+* Atribuir SEPs a workloads de storage
+
+
+
+
+=== Adição ou provisionamento de workloads de storage
+
+Você pode adicionar ou provisionar os workloads de storage a LUNs compatíveis (compatíveis com protocolos iSCSI e FCP), compartilhamentos de arquivos NFS e compartilhamentos de SMB.
+
+.Passos
+. Clique em *armazenamento > cargas de trabalho > todas as cargas de trabalho > criar*.
+. Crie workloads. Para obter informações, link:../storage-mgmt/concept_provision_and_manage_workloads.html["Provisionamento e gerenciamento de workloads"]consulte .
+
+
+
+
+=== Visualização e filtragem de workloads
+
+Na tela todos os workloads, você pode visualizar todos os workloads no data center ou pesquisar workloads de storage específicos com base nas PSLs ou nos nomes deles. Pode utilizar o ícone de filtro para introduzir condições específicas para a sua pesquisa. Você pode pesquisar por diferentes condições de filtro, como pelo cluster de host ou VM de armazenamento. A opção *Capacity Total* permite a filtragem pela capacidade total das cargas de trabalho (por MB). No entanto, nesse caso, o número de cargas de trabalho retornadas pode variar, porque a capacidade total é comparada em um nível de byte.
+
+Para cada carga de trabalho, são exibidas informações, como o cluster de host e a VM de armazenamento, juntamente com o PSL e o SEP atribuídos.
+
+A página também permite visualizar os detalhes de performance de um workload. Você pode exibir informações detalhadas sobre o IOPS, a capacidade e a latência da carga de trabalho clicando no botão *escolher / pedir colunas* e selecionando colunas específicas para exibir. A coluna Exibição de desempenho exibe as IOPS média e pico de uma carga de trabalho e você pode clicar no ícone do analisador de carga de trabalho para exibir a análise detalhada de IOPS.
+
+
+
+=== Análise de critérios de performance e capacidade de um workload
+
+O botão *Analyze Workload* (analisar carga de trabalho) na janela pop-up *IOPS Analysis* (análise de carga de trabalho) leva você à página Workload Analysis (análise de carga de trabalho), onde você pode selecionar um intervalo de tempo e exibir as tendências de latência, taxa de transferência e capacidade para a carga de trabalho selecionada. Para obter mais informações sobre o analisador de carga de trabalho, link:..//performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html["Solução de problemas de cargas de trabalho usando o analisador de carga de trabalho"]consulte .
+
+Você pode exibir informações de desempenho sobre uma carga de trabalho para ajudar na solução de problemas clicando no ícone do gráfico de barras na coluna *Exibição de desempenho*. Para visualizar gráficos de desempenho e capacidade na página análise de workload para analisar o objeto, clique no botão *Analyze Workload*.
+
+Para obter mais informações, link:../performance-checker/reference_what_data_does_workload_analyzer_display.html["Quais dados o analisador de carga de trabalho exibe"]consulte .

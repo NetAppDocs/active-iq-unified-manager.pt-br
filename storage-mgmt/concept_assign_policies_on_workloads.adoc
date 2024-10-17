@@ -1,0 +1,67 @@
+---
+permalink: storage-mgmt/concept_assign_policies_on_workloads.html 
+sidebar: sidebar 
+keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls 
+summary: 'Você pode atribuir políticas de eficiência de storage (SEPs) e níveis de serviço de performance (PSLs) a workloads de storage na página todos os workloads usando as diferentes opções de navegação.' 
+---
+= Atribuindo políticas a cargas de trabalho
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode atribuir políticas de eficiência de storage (SEPs) e níveis de serviço de performance (PSLs) a workloads de storage na página todos os workloads usando as diferentes opções de navegação.
+
+
+
+== Atribuição de políticas a uma única carga de trabalho
+
+Você pode atribuir um PSL ou um SEP ou ambos a uma única carga de trabalho. Siga estes passos:
+
+. Selecione a carga de trabalho.
+. Clique no ícone de edição ao lado da linha e, em seguida, clique em *Editar*.
++
+Os campos *nível de Serviço de desempenho atribuído* e *Política de eficiência de armazenamento* estão ativados.
+
+. Selecione o PSL ou SEP pretendido ou ambos.
+. Clique no ícone de verificação para aplicar as alterações.
+
+
+[NOTE]
+====
+Você também pode selecionar uma carga de trabalho e clicar em *mais ações* para atribuir as políticas.
+
+====
+
+
+== Atribuição de políticas a vários workloads de storage
+
+Você pode atribuir uma PSL ou uma SEP a vários workloads de storage juntos. Siga estes passos:
+
+. Marque as caixas de seleção das cargas de trabalho às quais você deseja atribuir a política ou selecione todas as cargas de trabalho em seu data center.
+. Clique em *mais ações*.
+. Para atribuir um PSL, selecione *Assign Performance Service Level*. Para atribuir uma SEP, selecione *Assign Storage Efficiency Policy*. É apresentado um pop-up para selecionar a política.
+. Selecione a política apropriada e clique em *Apply*. O número de cargas de trabalho nas quais as políticas são atribuídas é exibido. As cargas de trabalho nas quais as políticas não são atribuídas também são listadas, com a causa.
++
+[NOTE]
+====
+A aplicação de políticas em cargas de trabalho em massa pode levar algum tempo, dependendo do número de cargas de trabalho selecionadas. Você pode clicar no botão *Executar em segundo plano* e continuar com outras tarefas enquanto a operação é executada em segundo plano. Quando a atribuição em massa estiver concluída, você poderá exibir o status de conclusão. Se você estiver aplicando um PSL em várias cargas de trabalho, não poderá acionar outra solicitação quando a tarefa anterior de atribuição em massa estiver em execução.
+
+====
+
+
+
+
+== Atribuição de PSLs recomendadas pelo sistema a cargas de trabalho
+
+Você pode atribuir PSLs recomendados pelo sistema a essas cargas de trabalho de storage em um data center que não tenha PSLs atribuídas ou as PSLs atribuídas não correspondem à recomendação do sistema. Para usar essa funcionalidade, clique no botão *Assign System Recommended PSLs* (atribuir PSLs recomendados pelo sistema). Não é necessário selecionar cargas de trabalho específicas.
+
+A recomendação é determinada internamente pela análise do sistema e é ignorada para as cargas de trabalho cujos IOPS e outros parâmetros não coincidem com as definições de qualquer PSL disponível. Os workloads de storage com `Waiting for I/O` status e aprendizado também são excluídos.
+
+[NOTE]
+====
+Há palavras-chave especiais que o Unified Manager procura no nome da carga de trabalho para substituir a análise do sistema e recomendar um PSL diferente para a carga de trabalho. Quando a carga de trabalho tem as letras "ora" no nome, o **Extreme Performance**PSL é recomendado. E quando a carga de trabalho tem as letras "vm" no nome, o **Performance**PSL é recomendado.
+
+====
+Veja também o artigo da base de conhecimento (KB) https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Performance_Service_Level'_is_not_adaptive_to_a_highly_variable_workload["O ActiveIQ Unified Manager "atribuir nível de serviço de performance recomendado pelo sistema" não é adaptável a um workload altamente variável"]

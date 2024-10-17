@@ -1,0 +1,32 @@
+---
+permalink: health-checker/task_view_encryption_status_of_all_volumes.html 
+sidebar: sidebar 
+keywords: view, encryption status, volumes 
+summary: Você pode exibir uma lista de todos os volumes e seu status de criptografia atual para determinar se os dados em seus volumes estão adequadamente protegidos contra o acesso de usuários não autorizados. 
+---
+= Exibindo o status de criptografia de todos os volumes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode exibir uma lista de todos os volumes e seu status de criptografia atual para determinar se os dados em seus volumes estão adequadamente protegidos contra o acesso de usuários não autorizados.
+
+*O que você vai precisar*
+
+Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+
+Os tipos de criptografia que podem ser aplicados a um volume são:
+
+* Software - volumes protegidos com as soluções de criptografia de software NVE (NetApp volume Encryption) ou NetApp Aggregate Encryption (NAE).
+* Hardware - volumes que são protegidos com a criptografia de hardware do NetApp Storage Encryption (NSE).
+* Software e hardware - volumes protegidos pela criptografia de software e hardware.
+* Nenhum - volumes que não são criptografados.
+
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *volumes*.
+. No menu Exibir, selecione *Saúde* > *criptografia volumes*
+. Na exibição *Health: Volumes Encryption*, classifique no campo *Encryption Type* ou use o filtro para exibir volumes que tenham um tipo de criptografia específico ou que não estejam criptografados (Encryption Type of "'None'").
+

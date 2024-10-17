@@ -1,0 +1,28 @@
+---
+permalink: storage-mgmt/concept_typical_window_layouts_um_6_x.html 
+sidebar: sidebar 
+keywords: typical, window, layouts, object, list, details 
+summary: 'Entender os layouts típicos de janelas ajuda você a navegar e usar o Active IQ Unified Manager de forma eficaz. A maioria das janelas do Unified Manager é semelhante a um dos dois layouts gerais: Lista de objetos ou detalhes. A configuração de exibição recomendada é de pelo menos 1280 por 1024 pixels.' 
+---
+= Layouts de janela típicos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Entender os layouts típicos de janelas ajuda você a navegar e usar o Active IQ Unified Manager de forma eficaz. A maioria das janelas do Unified Manager é semelhante a um dos dois layouts gerais: Lista de objetos ou detalhes. A configuração de exibição recomendada é de pelo menos 1280 por 1024 pixels.
+
+Nem todas as janelas contêm todos os elementos nos diagramas a seguir.
+
+
+
+== Layout da janela da lista de objetos
+
+image::../media/object_list.png[lista de objetos]
+
+
+
+== Layout da janela de detalhes do objeto
+
+image::../media/object_details.gif[detalhes do objeto]

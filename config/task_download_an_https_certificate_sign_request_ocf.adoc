@@ -1,0 +1,26 @@
+---
+permalink: config/task_download_an_https_certificate_sign_request_ocf.html 
+sidebar: sidebar 
+keywords: download, https, certificate, signing, request 
+summary: Você pode baixar uma solicitação de assinatura de certificação para o certificado de segurança HTTPS atual para que você possa fornecer o arquivo a uma autoridade de certificação para assinar. Um certificado assinado pela CA ajuda a evitar ataques man-in-the-middle e fornece melhor proteção de segurança do que um certificado autoassinado. 
+---
+= Transferir uma solicitação de assinatura de certificado HTTPS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode baixar uma solicitação de assinatura de certificação para o certificado de segurança HTTPS atual para que você possa fornecer o arquivo a uma autoridade de certificação para assinar. Um certificado assinado pela CA ajuda a evitar ataques man-in-the-middle e fornece melhor proteção de segurança do que um certificado autoassinado.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Geral* > *certificado HTTPS*.
+. Clique em *Download de solicitação de assinatura de certificado HTTPS*.
+. Salve o `<hostname>.csr` arquivo.
+
+
+Você pode fornecer o arquivo a uma autoridade de certificação para assinar e, em seguida, instalar o certificado assinado.

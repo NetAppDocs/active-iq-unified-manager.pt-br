@@ -1,0 +1,32 @@
+---
+permalink: health-checker/concept_um_interfaces_used_to_manage_storage_system_health.html 
+sidebar: sidebar 
+keywords: unified manager, interfaces, manage, storage system, health 
+summary: Esta seção contém informações sobre as duas interfaces de usuário fornecidas pelo Active IQ Unified Manager para solucionar problemas de capacidade, disponibilidade e proteção de storage de dados. As duas UIs são a IU da Web do Unified Manager e o console de manutenção. 
+---
+= Interfaces do Unified Manager usadas para gerenciar a integridade do sistema de storage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead lead"]
+Essas seções contêm informações sobre as duas interfaces de usuário fornecidas pelo Active IQ Unified Manager para solucionar problemas de capacidade, disponibilidade e proteção de storage de dados. As duas UIs são a IU da Web do Unified Manager e o console de manutenção.
+
+Se você quiser usar os recursos de proteção no Unified Manager, também deverá instalar e configurar o OnCommand Workflow Automation (WFA).
+
+
+
+== IU da Web do Unified Manager
+
+A IU da Web do Unified Manager permite que um administrador monitore e solucione problemas de cluster relacionados à capacidade, disponibilidade e proteção de storage de dados.
+
+Essas seções descrevem alguns fluxos de trabalho comuns que um administrador pode seguir para solucionar problemas de capacidade de storage, disponibilidade de dados ou proteção exibidos na IU da Web do Unified Manager.
+
+
+
+== Consola de manutenção
+
+O console de manutenção do Unified Manager permite que um administrador monitore, diagnostique e solucione problemas do sistema operacional, problemas de atualização de versão, problemas de acesso do usuário e problemas de rede relacionados ao próprio servidor do Unified Manager. Se a IU da Web do Unified Manager não estiver disponível, o console de manutenção será a única forma de acesso ao Unified Manager.
+
+Você pode usar essas informações para acessar o console de manutenção e usá-lo para resolver problemas relacionados ao funcionamento do servidor do Unified Manager.

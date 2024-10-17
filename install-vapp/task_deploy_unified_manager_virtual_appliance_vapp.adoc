@@ -1,0 +1,122 @@
+---
+permalink: install-vapp/task_deploy_unified_manager_virtual_appliance_vapp.html 
+sidebar: sidebar 
+keywords: deploy, unified manager, virtual appliance 
+summary: Depois de fazer o download do arquivo de instalação, você implanta o Unified Manager como um dispositivo virtual. Use o vSphere Web Client para implantar o dispositivo virtual em um servidor ESXi. Quando você implementa o dispositivo virtual, uma máquina virtual é criada. 
+---
+= Implantando o dispositivo virtual do Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Depois de fazer o download do arquivo de instalação, você implanta o Unified Manager como um dispositivo virtual. Use o vSphere Web Client para implantar o dispositivo virtual em um servidor ESXi. Quando você implementa o dispositivo virtual, uma máquina virtual é criada.
+
+*O que você vai precisar*
+
+Deve rever os requisitos do sistema. Faça as alterações necessárias antes de implantar o dispositivo virtual do Unified Manager.
+
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Requisitos de infraestrutura virtual"]Consulte .
+
+link:reference_vmware_software_and_installation_requirements.html["Requisitos de software e instalação da VMware"]Consulte .
+
+Se utilizar o DHCP (Dynamic Host Configuration Protocol), certifique-se de que o servidor DHCP está disponível e que as configurações do adaptador de rede DHCP e máquina virtual (VM) estão corretas. O DHCP é configurado por padrão.
+
+Se você usar uma configuração de rede estática, verifique se o endereço IP não está duplicado na mesma sub-rede e se as entradas apropriadas do servidor DNS foram configuradas.
+
+Obtenha as seguintes informações antes de implantar o dispositivo virtual:
+
+* Credenciais para acessar o VMware vCenter Server e o vSphere Web Client
+* Endereço IP do servidor ESXi no qual você está implantando o dispositivo virtual do Unified Manager
+* Detalhes sobre o data center, como disponibilidade de espaço de storage
+* Se você não estiver usando DHCP, obtenha os endereços IPv4 ou IPv6 para os dispositivos de rede aos quais você está planejando se conetar:
++
+** Nome de domínio totalmente qualificado (FQDN) do host
+** Endereço IP do host
+** Máscara de rede
+** Endereço IP do gateway padrão
+** Endereços DNS primário e secundário
+** Pesquisar domínios
+
+
+
+
+A partir do Unified Manager 9,8, o VMware Tools foi substituído por Open VM Tools  `_open-vm-tools_`). Você não precisa instalar o VMware Tools como parte do processo de instalação porque `_open-vm-tools_` está incluído no pacote de instalação do Unified Manager.
+
+Quando o dispositivo virtual é implantado, um certificado autoassinado exclusivo para acesso HTTPS é gerado. Ao acessar a IU da Web do Unified Manager, você pode ver um aviso do navegador sobre certificados não confiáveis.
+
+O VMware High Availability para o dispositivo virtual do Unified Manager é compatível.
+
+.Passos
+. No vSphere Client, clique em *File* > *Deploy OVF Template*.
+. Conclua o assistente implantar modelo OVF para implantar o dispositivo virtual do Unified Manager.
++
+Na página Detalhes da revisão:
+
++
+** Verifique os detalhes da seção Publisher. A mensagem *Entrust Code Signing - OVCS2 (certificado confiável)* confirma a integridade do arquivo baixado `OVA`. Se você vir a mensagem *Entrust Code Signing - OVCS2 (Invalid certificate)*, atualize o VMware vCenter Server para a versão 7.0U3E ou superior.
+
+
++
+Na página Personalizar modelo:
+
++
+** Deixe todos os campos em branco ao usar endereçamento DHCP e IPv4.
+** Marque a caixa ""Ativar endereçamento IPv6 automático"" e deixe todos os outros campos em branco ao usar endereçamento DHCP e IPv6.
+** Se você quiser usar uma configuração de rede estática, você pode preencher os campos nesta página e essas configurações serão aplicadas durante a implantação. Certifique-se de que o endereço IP é exclusivo para o host no qual ele é implantado, que ele ainda não está em uso e que ele tem uma entrada DNS válida.
+
+
+. Depois que o dispositivo virtual do Unified Manager for implantado no servidor ESXi, ligue a VM clicando com o botão direito do Mouse na VM e, em seguida, selecionando *ligar*.
++
+[NOTE]
+====
+Se a operação de ativação falhar devido a recursos insuficientes, adicione recursos e tente novamente a instalação.
+
+====
+. Clique na guia *Console*.
++
+O processo de inicialização inicial leva alguns minutos para ser concluído.
+
+. Para configurar seu fuso horário, insira sua área geográfica e sua cidade ou região conforme solicitado na janela Console da VM.
++
+Todas as informações de data exibidas usam o fuso horário configurado para o Unified Manager, independentemente da configuração de fuso horário nos dispositivos gerenciados. Se os seus sistemas de armazenamento e o servidor de gestão estiverem configurados com o mesmo servidor NTP, referem-se ao mesmo instante a tempo, mesmo que pareçam diferentes. Por exemplo, se você criar uma cópia Snapshot usando um dispositivo configurado usando um fuso horário diferente do servidor de gerenciamento, o carimbo de hora será a hora do servidor de gerenciamento.
+
+. Se não houver serviços DHCP disponíveis ou se houver um erro nos detalhes da configuração de rede estática, selecione uma das seguintes opções:
++
+[cols="2*"]
+|===
+| Se você usar... | Então faça isso... 
+
+
+ a| 
+DHCP
+ a| 
+Selecione *Repetir DHCP*. Se pretende utilizar o DHCP, deve certificar-se de que está configurado corretamente.
+
+Se você usar uma rede habilitada para DHCP, as entradas do FQDN e do servidor DNS serão dadas automaticamente ao dispositivo virtual. Se o DHCP não estiver configurado corretamente com o DNS, o nome do host "'UnifiedManager'" será atribuído automaticamente e associado ao certificado de segurança. Se não tiver configurado uma rede com DHCP, deverá introduzir manualmente as informações de configuração da rede.
+
+
+
+ a| 
+Uma configuração de rede estática
+ a| 
+.. Selecione *Introduza os detalhes para a configuração de rede estática*.
++
+O processo de configuração leva alguns minutos para ser concluído.
+
+.. Confirme os valores que introduziu e selecione *Y*.
+
+
+|===
+. No prompt, insira um nome de usuário de manutenção e clique em *Enter*.
++
+O nome do usuário de manutenção deve começar com uma letra de a-z, seguida de qualquer combinação de -, a-z ou 0-9.
+
+. No prompt, digite uma senha e clique em *Enter*.
++
+O console da VM exibe o URL da IU da Web do Unified Manager.
+
+
+
+Você pode acessar a IU da Web para executar a configuração inicial do Unified Manager, conforme descrito no link:../config/concept_configure_unified_manager.html["Configurando o Active IQ Unified Manager"].

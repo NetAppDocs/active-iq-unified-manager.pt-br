@@ -1,0 +1,70 @@
+---
+permalink: performance-checker/reference_what_data_does_workload_analyzer_display.html 
+sidebar: sidebar 
+keywords: workload analyzer, charts, display, data 
+summary: A página do analisador de carga de trabalho exibe informações sobre quaisquer eventos atuais que possam estar afetando a carga de trabalho, recomendações para corrigir potencialmente o problema que causa o evento e gráficos para analisar o histórico de desempenho e capacidade. 
+---
+= Quais dados o analisador de carga de trabalho exibe
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+A página do analisador de carga de trabalho exibe informações sobre quaisquer eventos atuais que possam estar afetando a carga de trabalho, recomendações para corrigir potencialmente o problema que causa o evento e gráficos para analisar o histórico de desempenho e capacidade.
+
+Na parte superior da página, você especifica o nome da carga de trabalho (volume ou LUN) que deseja analisar e o período de tempo sobre o qual deseja ver as estatísticas. Você pode alterar o período de tempo a qualquer momento, se quiser ver um período de tempo mais curto ou mais longo.
+
+As outras áreas da página exibem os resultados da análise e os gráficos de desempenho e capacidade.
+
+[NOTE]
+====
+Os gráficos de workload de LUNs não fornecem o mesmo nível de estatísticas que os gráficos de volumes. Assim, você notará diferenças ao analisar esses dois tipos de workloads.
+
+====
+* *Área de resumo de eventos*
++
+Exibe uma breve visão geral do número e tipos de eventos que ocorreram durante o período de tempo. Quando há eventos de diferentes áreas de impactos (por exemplo, desempenho e capacidade), essas informações são exibidas para que você possa selecionar detalhes para o tipo de evento em que você está interessado. Clique no tipo de evento para exibir uma lista dos nomes dos eventos.
+
++
+Se houver apenas um evento durante o período de tempo, uma lista de recomendações para corrigir o problema será listada para alguns eventos.
+
+* *Linha do tempo do evento*
++
+Mostra todas as ocorrências de eventos durante o período de tempo especificado. Passe o cursor sobre cada evento para ver o nome do evento.
+
++
+Se você chegou a esta página clicando no botão *Analyze Workload* na página de detalhes do evento, o ícone do evento selecionado aparece maior para que você possa identificar o evento.
+
+* *Área dos gráficos de desempenho*
++
+Exibe gráficos de latência, taxa de transferência (IOPS e MB/s) e utilização (para o nó e agregado) com base no período de tempo selecionado. Você pode clicar no link Exibir detalhes de desempenho para exibir a página do Performance Explorer para a carga de trabalho, caso queira realizar análises adicionais.
+
++
+** *Latência* exibe a latência da carga de trabalho no período de tempo selecionado. O gráfico tem três visualizações que permitem ver:
++
+*** *Latência total*
+*** *Breakdown* latência (dividido por leituras, gravações e outros processos)
+*** * Latência de componentes de cluster* (dividido por componente de cluster)
+
+
+
+
+
+
+link:concept_cluster_components_and_why_they_can_be_in_contention.html["Componentes do cluster e por que eles podem estar na contenção"]Consulte para obter uma descrição dos componentes do cluster que são apresentados aqui. ** *Throughput* exibe IOPS e MB/s throughput para a carga de trabalho no período selecionado. O gráfico tem quatro visualizações que permitem ver: *** *Taxa de transferência total* *** *taxa de transferência detalhada* (dividida por leituras, gravações e outros processos) *** *taxa de transferência em nuvem* (os MB/s que estão sendo usados para gravar dados e ler dados da nuvem; para aquelas cargas de trabalho que estão em camadas de capacidade para a nuvem) *** *com previsão* (uma previsão do que os valores de taxa de taxa de transferência mínima, se você também pode ser configurados para o limite de tempo de taxa de taxa de taxa de transferência). ** *Utilização* exibe a utilização tanto para o agregado quanto para o nó em que a carga de trabalho está sendo executada durante o período de tempo selecionado. A partir daqui, você pode ver se seu agregado ou nó está sobreutilizado, possivelmente causando alta latência. Ao analisar volumes do FlexGroup, há vários nós e agregados listados nos gráficos de utilização.
+
+* * Área do gráfico de capacidade*
++
+Exibe gráficos para capacidade de dados e capacidade Snapshot do último mês para o workload.
+
++
+Para volumes, você pode clicar no link Exibir detalhes da capacidade para exibir a página Detalhes de integridade da carga de trabalho, caso queira realizar análises adicionais. Os LUNs não fornecem esse link porque não há página de Detalhes de integridade para LUNs.
+
++
+** *Capacity View* exibe o espaço disponível total alocado para a carga de trabalho e o espaço lógico usado (após todas as otimizações do NetApp).
+** *Exibição Snapshot* exibe o espaço total reservado para cópias Snapshot e a quantidade de espaço atualmente sendo usado. Observe que os LUNs não fornecem uma Exibição Snapshot.
+** *O Cloud Tier View* exibe a quantidade de capacidade que está sendo usada no nível de desempenho local e a quantidade que está sendo usada no nível de nuvem. Esses gráficos incluem uma estimativa do tempo restante antes que a capacidade esteja cheia para essa carga de trabalho. Esta informação baseia-se no uso histórico e requer um mínimo de 10 dias de dados. Quando restam menos de 30 dias de capacidade, o Unified Manager identifica o storage como "quase cheio".
+
+
+

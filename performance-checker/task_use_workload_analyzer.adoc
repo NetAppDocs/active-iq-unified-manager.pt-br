@@ -1,0 +1,25 @@
+---
+permalink: performance-checker/task_use_workload_analyzer.html 
+sidebar: sidebar 
+keywords: workload analyzer 
+summary: Há muitas maneiras de iniciar o analisador de carga de trabalho a partir da interface do usuário. Aqui descrevemos o lançamento da ferramenta a partir do painel de navegação à esquerda. 
+---
+= Usando o analisador de carga de trabalho
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Há muitas maneiras de iniciar o analisador de carga de trabalho a partir da interface do usuário. Aqui descrevemos o lançamento da ferramenta a partir do painel de navegação à esquerda.
+
+.Passos
+. No painel de navegação esquerdo, clique em *análise de carga de trabalho*.
++
+É apresentada a página análise de carga de trabalho.
+
+. Se souber o nome da carga de trabalho, introduza o nome. Se você não tiver certeza do nome completo, insira um mínimo de 3 carateres e o sistema exibirá uma lista de cargas de trabalho que correspondem à cadeia de carateres.
+. Selecione o intervalo de tempo se pretender ver estatísticas durante mais de 2 horas e clique em *Apply* (aplicar).
+. Visualize a área Resumo para ver os eventos que ocorreram durante o período de tempo.
+. Visualize os gráficos de desempenho e capacidade para ver quando qualquer uma das métricas está anormal e veja se algum evento está alinhado com a entrada anormal.
+

@@ -1,0 +1,44 @@
+---
+permalink: health-checker/task_view_volume_list_and_details.html 
+sidebar: sidebar 
+keywords: view, volume list, details 
+summary: 'Na visualização Saúde: Todos os volumes, você pode monitorar seu inventário de volumes. A visualização capacidade: Todos os volumes permite visualizar informações sobre a capacidade e a utilização de volumes em um cluster.' 
+---
+= Visualizar a lista de volumes e os detalhes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Na visualização Saúde: Todos os volumes, você pode monitorar seu inventário de volumes. A visualização capacidade: Todos os volumes permite visualizar informações sobre a capacidade e a utilização de volumes em um cluster.
+
+*O que você vai precisar*
+
+Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+
+Você também pode usar a página Detalhes de volume / Saúde para visualizar informações detalhadas sobre volumes monitorados, incluindo a capacidade, eficiência, configuração e proteção dos volumes. Você também pode exibir informações sobre os dispositivos relacionados e alertas relacionados para um volume específico.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *volumes*.
+. Escolha uma das seguintes formas de visualizar os detalhes do volume:
++
+** Para exibir informações detalhadas sobre a integridade dos volumes em um cluster, no menu Exibir, selecione Saúde: Exibição todos os volumes.
+** Para exibir informações detalhadas sobre a capacidade e a utilização de volumes em um cluster, no menu Exibir, selecione capacidade: Exibição todos os volumes.
+** Para ver os detalhes completos, clique no nome do volume.
++
+Você também pode visualizar os detalhes completos clicando em *Exibir detalhes* na caixa de diálogo Detalhes mínimos.
+
+
+
+. *Opcional:* Veja os objetos relacionados ao volume clicando em *Exibir relacionado* na caixa de diálogo Detalhes mínimos.
+
+
+*Informações relacionadas*
+
+* link:../health-checker/reference_health_volume_details_page.html["Volume: Página de detalhes de saúde"]
+* link:../performance-checker/performance-view-all.html#performance-all-volumes-view["Performance: Visualização de todos os volumes"]
+* link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html#view-security-details-of-all-volumes-with-anti-ransomware-detection["Segurança: Vista anti-ransomware"]
+* link:../data-protection/task_view_volume_protection_relationships.html["Exibindo relações de proteção de volume"]
+* link:../reporting/task_create_report_to_view_available_volume_capacity_charts.html["Criando um relatório para exibir gráficos de capacidade de volume disponíveis"]
+

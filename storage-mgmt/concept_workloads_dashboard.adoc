@@ -1,0 +1,74 @@
+---
+permalink: storage-mgmt/concept_workloads_dashboard.html 
+sidebar: sidebar 
+keywords: workloads, overview, data center, sections 
+summary: 'Um workload representa as operações de entrada/saída (e/S) de um objeto de storage, como um volume ou LUN. A maneira como o storage é provisionado é baseada nos requisitos de workload esperados. As estatísticas de workload são controladas pelo Active IQ Unified Manager somente depois que houver tráfego de e para o objeto de storage. Por exemplo, os valores de IOPS e latência do workload ficam disponíveis depois que os usuários começam a usar um banco de dados ou um aplicativo de e-mail.' 
+---
+= Visão geral dos workloads
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Um workload representa as operações de entrada/saída (e/S) de um objeto de storage, como um volume ou LUN. A maneira como o storage é provisionado é baseada nos requisitos de workload esperados. As estatísticas de workload são controladas pelo Active IQ Unified Manager somente depois que houver tráfego de e para o objeto de storage. Por exemplo, os valores de IOPS e latência do workload ficam disponíveis depois que os usuários começam a usar um banco de dados ou um aplicativo de e-mail.
+
+A página workloads exibe um resumo dos workloads de storage dos clusters do ONTAP gerenciados pelo Unified Manager. Ele fornece informações gerais cumulativas sobre os workloads de storage que estão em conformidade com o nível de Serviço de Performance e com os workloads de storage que não estão em conformidade. Ele também permite avaliar a capacidade e a performance (IOPS) totais, disponíveis e usadas dos clusters no data center.
+
+[NOTE]
+====
+Recomenda-se que você avalie o número de workloads de storage que não estão em conformidade, não estão disponíveis ou não gerenciados por nenhum nível de Serviço de Performance e tome as medidas necessárias para garantir a conformidade, o uso da capacidade e o IOPS.
+
+====
+A página cargas de trabalho tem as duas seções a seguir:
+
+* Visão geral de workloads: Fornece uma visão geral do número de workloads de storage nos clusters do ONTAP gerenciados pelo Unified Manager.
+* Visão geral do data center: Fornece uma visão geral da capacidade e IOPS dos workloads de storage no data center. Os dados relevantes são exibidos em um nível de data center e para o indivíduo .
+
+
+
+
+== Seção de visão geral das cargas de trabalho
+
+A seção visão geral de cargas de trabalho fornece informações gerais cumulativas sobre as cargas de trabalho de storage. O status dos workloads de storage é exibido com base nos níveis de Serviço de desempenho atribuídos e não atribuídos.
+
+* *Assigned*: Os seguintes status são relatados para cargas de trabalho de armazenamento nas quais os níveis de Serviço de desempenho foram atribuídos:
++
+** *Conformidade*: O desempenho dos workloads de storage é baseado nos níveis de Serviço de desempenho atribuídos a eles. Se os workloads de storage estiverem dentro do limite de latência definido nos níveis de Serviço de desempenho associados, eles serão marcados como "'conformes'". Os workloads conformes são marcados em azul.
+** *Não-conforme*: Durante o monitoramento de desempenho, os workloads de storage são marcados como "não-conformes" se a latência dos workloads de storage exceder o limite de latência definido no nível de Serviço de desempenho associado. Os workloads que não estão em conformidade são marcados com laranja.
+** *Indisponível*: As cargas de trabalho de armazenamento são marcadas como "indisponíveis" se estiverem offline ou se o cluster correspondente não estiver acessível. As cargas de trabalho indisponíveis estão marcadas em vermelho.
+
+
+* *Não atribuído*: Cargas de trabalho de armazenamento que não tenham um nível de Serviço de desempenho atribuído a elas, são relatadas como ""não atribuídas"". O número é transmitido pelo ícone de informação.
+
+
+A contagem total de workloads é a soma total das cargas de trabalho atribuídas e não atribuídas.
+
+Você pode clicar no número total de cargas de trabalho exibidas nesta seção e visualizá-las na página cargas de trabalho.
+
+A subseção conformidade por níveis de serviço de desempenho exibe o número total de cargas de trabalho de storage disponíveis:
+
+* Em conformidade com cada tipo de nível de Serviço de Performance
+* Para a qual há uma incompatibilidade entre os níveis de Serviço de desempenho atribuídos e recomendados
+
+
+
+
+== Seção de visão geral do data center
+
+A seção de visão geral do data center representa graficamente a capacidade disponível e usada e as IOPS de todos os clusters no data center. Usando esses dados, você deve gerenciar a capacidade e o IOPS dos workloads de storage. A seção também exibe as seguintes informações para os workloads de storage em todos os clusters:
+
+* A capacidade total, disponível e usada de todos os clusters no data center
+* O total, disponível e usado IOPS em todos os clusters no data center
+* A capacidade disponível e usada com base em cada nível de Serviço de Performance
+* O IOPS disponível e usado com base em cada nível de serviço de performance
+* O espaço total e o IOPS usados pelos workloads que não têm nível de Serviço de Performance atribuído
+
+
+*Como a capacidade e o desempenho do data center são calculados com base nos níveis de Serviço de desempenho*
+
+A capacidade usada e o IOPS são recuperados em termos da capacidade total usada e da performance de todos os workloads de storage nos clusters.
+
+O IOPS disponível é calculado com base na latência esperada e nos níveis de Serviço de desempenho recomendados nos nós. Ele inclui o IOPS disponível para todos os níveis de serviço de performance cuja latência esperada é menor ou igual à sua própria latência esperada.
+
+A capacidade disponível é calculada com base na latência esperada e nos níveis de Serviço de desempenho recomendados em agregados. Ele inclui a capacidade disponível para todos os níveis de Serviço de Performance cuja latência esperada é menor ou igual a sua própria latência esperada.

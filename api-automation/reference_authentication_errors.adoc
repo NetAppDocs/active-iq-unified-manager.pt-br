@@ -1,0 +1,111 @@
+---
+permalink: api-automation/reference_authentication_errors.html 
+sidebar: sidebar 
+keywords: http, status, code, active iq, unified manager 
+summary: Ao executar as APIs ou solucionar problemas, você deve estar ciente dos vários códigos de status HTTP e códigos de erro usados pelas APIs do Active IQ Unified Manager. 
+---
+= Códigos de status HTTP usados no Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Ao executar as APIs ou solucionar problemas, você deve estar ciente dos vários códigos de status HTTP e códigos de erro usados pelas APIs do Active IQ Unified Manager.
+
+A tabela a seguir lista os códigos de erro relacionados à autenticação:
+
+[cols="3*"]
+|===
+| Código de status HTTP | Título do código de status | Descrição 
+
+
+ a| 
+200
+ a| 
+OK
+ a| 
+Retornado na execução bem-sucedida de chamadas de API síncronas.
+
+
+
+ a| 
+201
+ a| 
+Criado
+ a| 
+Criação de novos recursos por chamadas síncronas, como a configuração do ative Directory.
+
+
+
+ a| 
+202
+ a| 
+Aceito
+ a| 
+Retornado na execução bem-sucedida de chamadas assíncronas para funções de provisionamento, como a criação de LUNs e compartilhamentos de arquivos.
+
+
+
+ a| 
+400
+ a| 
+Pedido inválido
+ a| 
+Indica falha na validação da entrada. O usuário tem que corrigir as entradas, por exemplo, chaves válidas em um corpo de solicitação.
+
+
+
+ a| 
+401
+ a| 
+Solicitação não autorizada
+ a| 
+Você não está autorizado a visualizar o recurso/não autorizado.
+
+
+
+ a| 
+403
+ a| 
+Pedido proibido
+ a| 
+O acesso ao recurso que você estava tentando acessar é proibido.
+
+
+
+ a| 
+404
+ a| 
+Recurso não encontrado
+ a| 
+O recurso que você está tentando acessar não foi encontrado.
+
+
+
+ a| 
+405
+ a| 
+Método não permitido
+ a| 
+Método não permitido.
+
+
+
+ a| 
+429
+ a| 
+Demasiados pedidos
+ a| 
+Retornado quando o usuário envia muitas solicitações dentro de um tempo específico.
+
+
+
+ a| 
+500
+ a| 
+Erro interno do servidor
+ a| 
+Erro interno do servidor. Falha ao obter a resposta do servidor. Este erro interno do servidor pode ou não ser permanente. Por exemplo, se executar uma `GET` operação ou `GET ALL` e receber este erro, recomenda-se que repita esta operação por um mínimo de cinco tentativas. Se for um erro permanente, o código de status retornado continuará sendo 500. Se a operação for bem-sucedida, o código de estado devolvido é 200.
+
+|===

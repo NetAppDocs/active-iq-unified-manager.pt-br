@@ -1,0 +1,29 @@
+---
+permalink: reporting/concept_understand_view_and_reports_relationship.html 
+sidebar: sidebar 
+keywords: understand, view, report, relationship 
+summary: Visualizações e páginas de inventário tornam-se relatórios quando você baixa ou os agenda. 
+---
+= Compreender a relação de visualização e relatório
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Visualizações e páginas de inventário tornam-se relatórios quando você baixa ou os agenda.
+
+Você pode personalizar e salvar visualizações e páginas de inventário para reutilização. Quase tudo o que você pode visualizar no Unified Manager pode ser salvo, reutilizado, personalizado, agendado e compartilhado como um relatório.
+
+Na lista suspensa Exibir, os itens com o ícone excluir são exibições personalizadas existentes que você ou outro usuário criou. Itens sem um ícone são exibições padrão fornecidas com o Unified Manager. As vistas predefinidas não podem ser modificadas ou eliminadas.
+
+[NOTE]
+====
+* Se você excluir uma exibição personalizada da lista, ela também excluirá os arquivos do Excel ou os relatórios programados que usam essa exibição.
+* Se você alterar uma exibição personalizada, os relatórios que usam essa exibição refletirão a alteração na próxima vez que o relatório for gerado e enviado por e-mail de acordo com a programação do relatório. Ao alterar exibições, verifique se as alterações funcionam com qualquer personalização associada do Excel usada para os relatórios. Se necessário, você pode atualizar o arquivo do Excel baixando-o, fazendo as alterações necessárias e carregando-o como uma nova personalização do Excel para a exibição.
+
+
+====
+image::../media/view_drop_down_3.png[Uma captura de tela da interface do usuário do menu suspenso Exibir.]
+
+Apenas os utilizadores com a função Administrador de aplicações ou Administrador de armazenamento podem ver o ícone de eliminação, alterar ou eliminar uma vista, ou alterar ou eliminar um relatório agendado.

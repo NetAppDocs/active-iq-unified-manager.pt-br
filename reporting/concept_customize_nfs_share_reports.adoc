@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept_customize_nfs_share_reports.html 
+sidebar: sidebar 
+keywords: customize, nfs, share, reports 
+summary: Você pode personalizar relatórios de compartilhamento NFS para analisar informações sobre políticas e regras de exportação de NFS para volumes em seus sistemas de storage. Por exemplo, você pode personalizar relatórios para exibir volumes com caminhos de montagem inacessíveis e volumes com a política de exportação padrão. 
+---
+= Personalizar relatórios de compartilhamento NFS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode personalizar relatórios de compartilhamento NFS para analisar informações sobre políticas e regras de exportação de NFS para volumes em seus sistemas de storage. Por exemplo, você pode personalizar relatórios para exibir volumes com caminhos de montagem inacessíveis e volumes com a política de exportação padrão.

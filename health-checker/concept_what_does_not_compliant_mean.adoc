@@ -1,0 +1,23 @@
+---
+permalink: health-checker/concept_what_does_not_compliant_mean.html 
+sidebar: sidebar 
+keywords: not compliant, compliant 
+summary: 'Os clusters e as máquinas virtuais de armazenamento (SVMs) são considerados não compatíveis quando nenhum dos critérios de segurança que está sendo avaliado em relação às recomendações definidas no Guia de endurecimento de Segurança do NetApp para ONTAP 9 não for atendido. Além disso, um cluster é considerado não compatível quando qualquer SVM é sinalizado como não compatível.' 
+---
+= O que não está em conformidade significa
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Os clusters e as máquinas virtuais de armazenamento (SVMs) são considerados não compatíveis quando nenhum dos critérios de segurança que está sendo avaliado em relação às recomendações definidas no _Guia de endurecimento de Segurança do NetApp para ONTAP 9_ não for atendido. Além disso, um cluster é considerado não compatível quando qualquer SVM é sinalizado como não compatível.
+
+Os ícones de status nos cartões de segurança têm os seguintes significados em relação à sua conformidade:
+
+* image:../media/sev_normal_um60.png["ícone de visto verde normal"] - O parâmetro é configurado como recomendado.
+* image:../media/sev_warning_um60.png["ícone de aviso"] - O parâmetro não está configurado como recomendado.
+* image:../media/sev_information_um60.gif["ícone de informação"] - Ou a funcionalidade não está ativada no cluster, ou o parâmetro não está configurado como recomendado, mas este parâmetro não contribui para a conformidade do objeto.
+
+
+Observe que o status de criptografia de volume não contribui para se o cluster ou SVM são considerados em conformidade.

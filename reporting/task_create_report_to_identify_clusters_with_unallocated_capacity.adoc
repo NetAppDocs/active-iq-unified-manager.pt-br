@@ -1,0 +1,40 @@
+---
+permalink: reporting/task_create_report_to_identify_clusters_with_unallocated_capacity.html 
+sidebar: sidebar 
+keywords: clusters, unallocated, LUN, capacity, indentify, additional, workloads 
+summary: Você pode criar um relatório para localizar os clusters com a capacidade LUN mais não alocada, maior que .5 TB, para ajudar a identificar onde é possível adicionar cargas de trabalho adicionais. 
+---
+= Criação de um relatório para identificar clusters com a capacidade LUN mais não alocada
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode criar um relatório para localizar os clusters com a capacidade LUN mais não alocada, maior que .5 TB, para ajudar a identificar onde é possível adicionar cargas de trabalho adicionais.
+
+*O que você precisará* * você deve ter a função Administrador de aplicativos ou Administrador de armazenamento.
+
+Use as etapas a seguir para criar uma exibição personalizada que exiba clusters com a capacidade LUN mais não alocada e, em seguida, programe um relatório a ser gerado para essa exibição.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *clusters*.
+. No menu Exibir, selecione *capacidade* > *todos os clusters*.
+. Selecione *Mostrar/Ocultar* para remover as colunas que não deseja no relatório.
+. Arraste a coluna "capacidade LUN não alocada" perto da coluna "par de HA".
+. Clique no ícone de filtro, adicione o seguinte filtro e clique em *Apply Filter*:
++
+** Capacidade LUN não alocada superior a 0,5 TB
+
+
+. Clique na parte superior da coluna "capacidade LUN não alocada" para classificar os resultados pela maior quantidade de capacidade LUN não alocada.
+. Salve a exibição com um nome específico que reflita o que a exibição está mostrando, por exemplo ""capacidade LUN não alocada mais""" e clique na marca de seleção (image:../media/blue_check.gif[""]).
+. Clique no botão *relatórios programados* na página de inventário.
+. Clique em *Add Schedule* (Adicionar agendamento) para adicionar uma nova linha à página Report Schedules (agendas de relatórios) para que você possa definir as caraterísticas de agendamento para o novo relatório.
+. Introduza um nome para a agenda do relatório e preencha os outros campos do relatório e, em seguida, clique na marca de verificação (image:../media/blue_check.gif[""]) no final da linha.
++
+O relatório é enviado imediatamente como um teste. Depois disso, o relatório gera e é enviado por e-mail para os destinatários listados usando a frequência especificada.
+
+
+
+Com base nos resultados mostrados no relatório, talvez você queira usar a capacidade de LUN não alocada do cluster.

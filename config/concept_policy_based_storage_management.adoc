@@ -1,0 +1,31 @@
+---
+permalink: config/concept_policy_based_storage_management.html 
+sidebar: sidebar 
+keywords: slo, storage efficiency policy, storage workloads 
+summary: 'A opção de gerenciamento de storage baseado em políticas permite o gerenciamento de storage com base em SLOs (Objetivos de nível de serviço). Esta opção está ativada por predefinição.' 
+---
+= Habilitando o gerenciamento de storage baseado em políticas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+A opção *Gerenciamento de armazenamento baseado em políticas* permite o gerenciamento de armazenamento com base nos objetivos de nível de serviço (SLOs). Esta opção está ativada por predefinição.
+
+Ao ativar esse recurso, você pode provisionar workloads de storage nos clusters do ONTAP adicionados à sua instância do Active IQ Unified Manager e gerenciar esses workloads com base nos níveis de Serviço de desempenho atribuídos e nas políticas de eficiência de storage.
+
+Pode optar por ativar ou desativar esta funcionalidade a partir de *Geral* > *Definições de funcionalidade* > *Gestão de armazenamento baseada em políticas*. Ao ativar este recurso, as seguintes páginas estão disponíveis para operação e monitoramento:
+
+* Provisionamento (provisionamento de workload de storage)
+* *Políticas* > *níveis de Serviço de desempenho*
+* *Políticas* > *eficiência de armazenamento*
+* Coluna cargas de trabalho gerenciadas pela coluna Performance Service Level (nível de Serviço de Performance) na página clusters Setup (Configuração dos clusters)
+* Painel desempenho da carga de trabalho no *Dashboard*
+
+
+Você pode usar as telas para criar níveis de Serviço de Performance e políticas de eficiência de storage e provisionar workloads de storage. Também é possível monitorar os workloads de storage que estão em conformidade com os níveis de Serviço de performance atribuídos e os que não estão em conformidade. O painel Performance de workload e Workload IOPS também permite avaliar a capacidade e a performance (IOPS) totais, disponíveis e usadas dos clusters no data center com base nos workloads de storage provisionados neles.
+
+Depois de ativar esse recurso, você pode executar as APIs REST do Unified Manager para executar algumas dessas funções da categoria *barra de menus* > *botão Ajuda* > *Documentação da API* > *provedor de armazenamento*. Como alternativa, você pode inserir o nome do host ou o endereço IP e o URL para acessar a página da API REST no formato .https://<hostname>/docs/api/
+
+Para obter mais informações sobre as APIs, link:../api-automation/concept_get_started_with_um_apis.html["Primeiros passos com as APIS REST do Active IQ Unified Manager"]consulte .

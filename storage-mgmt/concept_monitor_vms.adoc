@@ -1,0 +1,73 @@
+---
+permalink: storage-mgmt/concept_monitor_vms.html 
+sidebar: sidebar 
+keywords: monitor, virtual, machines, view, summary, topology, expand 
+summary: 'Para qualquer problema de latência nas aplicações de máquina virtual (VM), talvez seja necessário monitorar as VMs para analisar e solucionar a causa. As VMs ficam disponíveis quando os clusters do vCenter Server e do ONTAP que hospedam o armazenamento de VM são adicionados ao Unified Manager.' 
+---
+= Monitoramento de máquinas virtuais
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Para qualquer problema de latência nas aplicações de máquina virtual (VM), talvez seja necessário monitorar as VMs para analisar e solucionar a causa. As VMs ficam disponíveis quando os clusters do vCenter Server e do ONTAP que hospedam o armazenamento de VM são adicionados ao Unified Manager.
+
+Você vê os detalhes das VMs na página *VMware* > > *máquinas virtuais*. Informações, como disponibilidade, status, capacidade usada e alocada, latência de rede e IOPS e latência da VM, armazenamento de dados e host são exibidas. Para uma VM com suporte a vários datastores, a grade mostra as métricas do datastore com a pior latência, com um ícone de asterisco (*) indicando datastores adicionais. Se você clicar no ícone, as métricas do datastore adicional serão exibidas. Algumas dessas colunas não estão disponíveis para classificação e filtragem.
+
+[NOTE]
+====
+Para visualizar uma VM e seus detalhes, a descoberta (polling ou coleta de métricas) do cluster do ONTAP deve estar concluída. Se o cluster for removido do Unified Manager, a VM não estará mais disponível após o próximo ciclo de descoberta.
+
+====
+Nessa página, você também pode visualizar a topologia detalhada de uma VM, exibindo os componentes aos quais a VM está relacionada, por exemplo, o host, o disco virtual e o datastore conetado a ela. A visualização de topologia exibe os componentes subjacentes em suas camadas específicas, na seguinte ordem: *Virtual Disk* > *VM* > *Host* > *Network* > *datastore* > *VMDK*.
+
+Você pode determinar o caminho de e/S e latências em nível de componente de um aspeto topológico e identificar se o storage é a causa do problema de performance. A exibição de resumo da topologia exibe o caminho de e/S e destaca o componente que tem problemas de IOPS e latência para você decidir sobre as etapas de solução de problemas. Você também pode ter uma visualização expandida da topologia que mostra cada componente separadamente, juntamente com a latência desse componente. Você pode selecionar um componente para determinar o caminho de e/S destacado através das camadas.
+
+
+
+== Exibindo a topologia de resumo
+
+Para determinar problemas de performance visualizando as VMs em uma topologia de resumo:
+
+. Vá para *VMware* > *máquinas virtuais*.
+. PESQUISE sua VM digitando o nome na caixa de pesquisa. Você também pode filtrar seus resultados de pesquisa com base em critérios específicos clicando no botão *filtro*. No entanto, se você não conseguir encontrar sua VM, verifique se o vCenter Server correspondente foi adicionado e descoberto.
++
+[NOTE]
+====
+O vCenter Servers permite carateres especiais (como %, &, *, dólar, número, em, !, /, :, *, ?, ", ", >, |, ;, ") nos nomes de entidades do vSphere, como VM, cluster, datastore, pasta ou arquivo. O VMware vCenter Server e o ESX/ESXi Server não escapam aos carateres especiais usados nos nomes de exibição. No entanto, quando o nome é processado no Unified Manager, ele é exibido de forma diferente. Por exemplo, uma VM nomeada como  `%$VC_AIQUM_clone_191124%` no vCenter Server é exibida como `%25$VC_AIQUM_clone_191124%25` no Unified Manager. Você deve manter uma nota desse problema quando você consulta uma VM com um nome com carateres especiais nela.
+
+====
+. Verifique o status da VM. Os status da VM são recuperados do vCenter Server. Estão disponíveis os seguintes Estados. Para obter mais informações sobre esses status, consulte a documentação da VMware.
++
+** Normal
+** Aviso
+** Alerta
+** Não monitorizado
+** Desconhecido
+
+
+. Clique na seta para baixo ao lado da VM para ver a visualização de resumo da topologia dos componentes nas camadas de computação, rede e armazenamento. O nó que tem problemas de latência é destacado. A exibição de resumo exibe a pior latência dos componentes. Por exemplo, se uma VM tiver mais de um disco virtual, essa exibição exibirá o disco virtual que tem a pior latência entre todos os discos virtuais.
+. Para analisar a latência e a taxa de transferência do datastore durante um período de tempo, clique no botão *Workload Analyzer* na parte superior do ícone do objeto datastore. Vá para a página análise de workload, onde você pode selecionar um intervalo de tempo e exibir os gráficos de desempenho do datastore. Para obter mais informações sobre o analisador de carga de trabalho, consulte _Troubleshooting cargas de trabalho usando o analisador de carga de trabalho_.
+
+
+
+
+== Visualização da topologia expandida
+
+Você pode detalhar cada componente separadamente visualizando a topologia expandida da VM.
+
+.Passos
+. Na visualização de topologia de resumo, clique em *expandir topologia*. Você pode ver a topologia detalhada de cada componente separadamente com os números de latência para cada objeto. Se houver vários nós em uma categoria, por exemplo, vários nós no datastore ou VMDK, o nó com pior latência será realçado em vermelho.
+. Para verificar o caminho de e/S de um objeto específico, clique nesse objeto para ver o caminho de e/S e o mapeamento correspondente. Por exemplo, para ver o mapeamento de um disco virtual, clique no disco virtual para visualizar o mapeamento realçado para o respetivo VMDK. No caso de um atraso de desempenho desses componentes, você pode coletar mais dados do ONTAP e solucionar o problema.
++
+[NOTE]
+====
+As métricas não são relatadas para VMDKs. Na topologia, apenas os nomes VMDK são exibidos, e não as métricas.
+
+====
+
+
+*Informações relacionadas*
+
+link:../performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html["Solução de problemas de workloads usando o analisador de workload"]

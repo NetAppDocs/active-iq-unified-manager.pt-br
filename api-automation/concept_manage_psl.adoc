@@ -1,0 +1,114 @@
+---
+permalink: api-automation/concept_manage_psl.html 
+sidebar: sidebar 
+keywords: manage, performance, service, level 
+summary: Você pode exibir, criar, modificar e excluir níveis de Serviço de desempenho usando as APIs do provedor de armazenamento no Active IQ Unified Manager. 
+---
+= Gerenciamento de níveis de serviço de performance usando APIs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode exibir, criar, modificar e excluir níveis de Serviço de desempenho usando as APIs do provedor de armazenamento no Active IQ Unified Manager.
+
+
+
+== Ver níveis de Serviço de desempenho
+
+Você pode usar o método a seguir para exibir os níveis de Serviço de Performance para atribuí-los a cargas de trabalho de storage. A API lista todos os níveis de Serviço de desempenho definidos pelo sistema e criados pelo usuário e recupera os atributos de todos os níveis de Serviço de desempenho. Se pretender consultar um nível de Serviço de desempenho específico, tem de introduzir a ID exclusiva do nível de Serviço de desempenho para obter os respetivos detalhes.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Caminho 
+
+
+ a| 
+fornecedor de storage
+ a| 
+OBTER
+ a| 
+`/storage-provider/performance-service-levels`
+
+`/storage-provider/performance-service-levels/\{key}`
+
+|===
+
+
+== Adicione níveis de serviço de desempenho
+
+Use o método a seguir para criar níveis de serviço de performance personalizados e atribuí-los aos workloads de storage se os níveis de serviço de performance definidos pelo sistema não atenderem aos objetivos de nível de serviço (SLOs) necessários para os workloads de storage. Insira os detalhes do nível de Serviço de desempenho que você deseja criar. Para as propriedades IOPS, certifique-se de inserir um intervalo válido de valores.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Caminho 
+
+
+ a| 
+fornecedor de storage
+ a| 
+POST
+ a| 
+`/storage-provider/performance-service-levels`
+
+|===
+
+
+== Eliminar níveis de Serviço de desempenho
+
+Você pode usar o seguinte método para excluir um nível de Serviço de desempenho específico. Não é possível excluir um nível de Serviço de desempenho se ele for atribuído a uma carga de trabalho ou se for o único nível de Serviço de desempenho disponível. Você precisa fornecer o ID exclusivo do nível de Serviço de desempenho como um parâmetro de entrada para excluir um nível de Serviço de desempenho específico.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Caminho 
+
+
+ a| 
+fornecedor de storage
+ a| 
+ELIMINAR
+ a| 
+`/storage-provider/performance-service-levels/\{key}`
+
+|===
+
+
+== Modificar níveis de Serviço de desempenho
+
+Você pode usar o seguinte método para modificar um nível de Serviço de desempenho e atualizar suas propriedades. Não é possível modificar um nível de Serviço de Performance definido pelo sistema ou atribuído a uma carga de trabalho. Você precisa fornecer o ID exclusivo do para modificar um nível de Serviço de desempenho específico. Você também deve inserir a propriedade IOPS que deseja atualizar, juntamente com um valor válido.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Caminho 
+
+
+ a| 
+fornecedor de storage
+ a| 
+PATCH
+ a| 
+`/storage-provider/performance-service-levels/\{key}`
+
+|===
+
+
+== Visualização de recursos agregados com base nos níveis de Serviço de Performance
+
+Você pode usar o método a seguir para consultar os recursos agregados com base nos níveis de Serviço de desempenho. Essa API retorna a lista de agregados disponíveis em seu data center e indica os recursos em termos de níveis de Serviço de desempenho que podem ser suportados nesses agregados. Ao provisionar workloads em um volume, você pode visualizar a funcionalidade de um agregado para dar suporte a um nível de Serviço de Performance específico e provisionar workloads com base nessa funcionalidade. Sua capacidade de especificar o agregado está disponível somente quando você está provisionando uma carga de trabalho usando APIs. Essa funcionalidade não está disponível na IU da Web do Unified Manager.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Caminho 
+
+
+ a| 
+fornecedor de storage
+ a| 
+OBTER
+ a| 
+`/storage-provider/aggregate-capabilities`
+
+`/storage-provider/aggregate-capabilities/\{key}`
+
+|===

@@ -1,0 +1,77 @@
+---
+permalink: health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html 
+sidebar: sidebar 
+keywords: check, health, clusters, metrocluster, configuration 
+summary: Use o Unified Manager para verificar a integridade operacional dos clusters e seus componentes em uma configuração do MetroCluster. Se os clusters estiveram envolvidos em um evento de desempenho detetado pelo Unified Manager, o status de integridade pode ajudá-lo a determinar se um problema de hardware ou software contribuiu para o evento. 
+---
+= Verificação da integridade dos clusters em uma configuração do MetroCluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode usar o Active IQ Unified Manager (Unified Manager) para verificar a integridade operacional dos clusters e seus componentes, nas configurações MetroCluster em FC e MetroCluster em IP. Se os clusters estiveram envolvidos em um evento de desempenho detetado pelo Unified Manager, o status de integridade pode ajudá-lo a determinar se um problema de hardware ou software contribuiu para o evento.
+
+*O que você vai precisar*
+
+* Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+* Você deve ter analisado um evento de desempenho para uma configuração do MetroCluster e obtido o nome do cluster envolvido.
+* Ambos os clusters na configuração do MetroCluster por FC e IP precisam ser monitorados pela mesma instância do Unified Manager.
+
+
+
+
+== Determinando a integridade do cluster na configuração de MetroCluster em FC
+
+Siga estas etapas para determinar a integridade do cluster em uma configuração MetroCluster sobre FC.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Gerenciamento de eventos* para exibir a lista de eventos.
+. No painel de filtro, selecione todos os filtros MetroCluster na categoria *tipo de fonte*. Você vê todos os eventos criados no seu ambiente para todas as configurações do MetroCluster.
+. Ao lado de um evento do MetroCluster, clique no nome do cluster.
++
+[NOTE]
+====
+Se não forem apresentados eventos MetroCluster, pode utilizar a barra de pesquisa para procurar o nome do cluster envolvido no evento relacionado com a configuração MetroCluster sobre FC.
+
+====
++
+A exibição Saúde: Todos os clusters é exibida com informações detalhadas sobre o evento.
+
+. Selecione a guia *conetividade MetroCluster* para exibir a integridade da conexão entre o cluster selecionado e seu cluster de parceiros.
++
+image::../media/opm_um_mcc_connectivity_tab_png.gif[Guia de conetividade do Unified Manager MetroCluster]
+
++
+Neste exemplo, são apresentados os nomes e os componentes do cluster local e do respetivo cluster de parceiros. Um ícone amarelo ou vermelho indica um evento de saúde para o componente realçado. O ícone conetividade representa o link entre os clusters. Você pode apontar o cursor do Mouse para um ícone para exibir informações de eventos ou clicar no ícone para exibir os eventos. Um problema de integridade em qualquer cluster pode ter contribuído para o evento de desempenho.
+
++
+O Unified Manager monitora o componente NVRAM do link entre os clusters. Se o ícone de switches FC no cluster local ou de parceiros ou o ícone de conetividade estiver vermelho, um problema de integridade do link pode ter causado o evento de desempenho.
+
+. Selecione a guia *replicação MetroCluster*.
++
+image::../media/opm_um_mcc_replication_tab_png.gif[Guia replicação do Unified Manager MetroCluster]
+
++
+Neste exemplo, se o ícone NVRAM no cluster local ou de parceiros estiver amarelo ou vermelho, um problema de integridade com o NVRAM pode ter causado o evento de desempenho. Se não houver ícones vermelhos ou amarelos na página, um problema de desempenho no cluster de parceiros pode ter causado o evento de desempenho.
+
+
+
+
+
+== Determinando a integridade do cluster na configuração MetroCluster sobre IP
+
+Siga estas etapas para determinar a integridade do cluster em uma configuração MetroCluster sobre IP.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Gerenciamento de eventos* para exibir a lista de eventos.
+. No painel de filtro, na categoria *tipo de fonte*, selecione o `MetroCluster Relationship` filtro. Você vê todos os eventos criados no seu ambiente para todas as configurações do MetroCluster.
++
+[NOTE]
+====
+Se não conseguir ver os eventos MetroCluster reportados, pode utilizar a barra de pesquisa para pesquisar pelo nome do cluster envolvido no evento relacionado com a configuração MetroCluster sobre IP.
+
+====
+. Ao lado do evento MetroCluster relevante, clique no nome do cluster. A página clusters é exibida com os detalhes desse cluster. Para obter informações sobre como determinar problemas de saúde, link:../storage-mgmt/task_monitor_metrocluster_configurations.html["Monitore problemas de conetividade na configuração MetroCluster sobre IP"]consulte .
+

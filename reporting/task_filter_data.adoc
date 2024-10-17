@@ -1,0 +1,22 @@
+---
+permalink: reporting/task_filter_data.html 
+sidebar: sidebar 
+keywords: filtering, data 
+summary: Filtre os dados para garantir que os resultados correspondem aos requisitos do relatório. A filtragem permite exibir apenas os dados nos quais você está interessado. 
+---
+= Filtragem de dados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Filtre os dados para garantir que os resultados correspondem aos requisitos do relatório. A filtragem permite exibir apenas os dados nos quais você está interessado.
+
+.Passos
+. Clique no ícone de filtro para adicionar filtros para focar os resultados que deseja exibir e clique em *aplicar filtro*.
++
+image::../media/filter_cold_data_2.png[Uma captura de tela da IU que mostra como você pode adicionar e aplicar filtro.]
+
+. Atribua um nome à vista não guardada para guardar as alterações.
+

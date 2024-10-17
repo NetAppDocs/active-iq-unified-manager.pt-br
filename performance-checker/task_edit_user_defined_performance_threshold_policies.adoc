@@ -1,0 +1,39 @@
+---
+permalink: performance-checker/task_edit_user_defined_performance_threshold_policies.html 
+sidebar: sidebar 
+keywords: edit, user-defined, performance, threshold, policies 
+summary: Você pode editar as configurações de limite para as políticas de limite de desempenho existentes. Isso pode ser útil se você achar que está recebendo muitos ou poucos alertas para determinadas condições de limite. 
+---
+= Editando políticas de limite de performance definidas pelo usuário
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode editar as configurações de limite para as políticas de limite de desempenho existentes. Isso pode ser útil se você achar que está recebendo muitos ou poucos alertas para determinadas condições de limite.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações.
+
+Não é possível alterar o nome da política ou o tipo de objeto de armazenamento que está sendo monitorado para políticas de limite existentes.
+
+.Passos
+. No painel de navegação esquerdo, selecione *limiares de eventos* > *desempenho*.
++
+A página limites de desempenho é exibida.
+
+. Selecione a política de limite que deseja alterar e clique em *Editar*.
++
+A página Editar política de limite de desempenho é exibida.
+
+. Faça suas alterações na política de limite e clique em *Salvar*.
++
+Você retorna à página limites de desempenho.
+
+
+
+Depois que eles são salvos, as alterações são atualizadas imediatamente em todos os objetos de armazenamento que usam a diretiva.
+
+Dependendo do tipo de alterações feitas na política, talvez você queira revisar as configurações de alerta configuradas para os objetos que usam a política na página Configuração de alerta.

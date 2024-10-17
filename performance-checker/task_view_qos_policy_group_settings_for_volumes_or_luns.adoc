@@ -1,0 +1,31 @@
+---
+permalink: performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html 
+sidebar: sidebar 
+keywords: view, qos, policy, group, settings, applied, specific, volumes, luns 
+summary: Você pode exibir os grupos de políticas de QoS que foram aplicados aos volumes e LUNs e pode vincular a exibição grupos de políticas de desempenho/QoS para exibir as configurações detalhadas de cada política de QoS. 
+---
+= Exibindo as configurações do grupo de políticas de QoS aplicadas a volumes ou LUNs específicos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode exibir os grupos de políticas de QoS que foram aplicados aos volumes e LUNs e pode vincular a exibição grupos de políticas de desempenho/QoS para exibir as configurações detalhadas de cada política de QoS.
+
+As etapas para exibir a política de QoS aplicada a um volume são mostradas abaixo. As etapas para exibir essas informações para um LUN são semelhantes.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *volumes*.
++
+A exibição Saúde: Todos os volumes é exibida por padrão.
+
+. No menu Exibir, selecione *desempenho: Volumes no Grupo de políticas QoS*.
+. Localize o volume que deseja revisar e role para a direita até ver a coluna *Grupo de políticas QoS*.
+. Clique no nome do grupo de políticas de QoS.
++
+A página qualidade do serviço correspondente é exibida dependendo se é uma política de QoS tradicional, uma política de QoS adaptável ou uma política de QoS criada usando os níveis de serviço de desempenho do Unified Manager.
+
+. Exiba as configurações detalhadas do grupo de políticas de QoS.
+. Clique no botão expandir (image:../media/chevron_down.gif[""]) ao lado do nome do grupo de políticas de QoS para ver mais detalhes sobre o grupo de políticas.
+

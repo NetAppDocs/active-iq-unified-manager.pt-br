@@ -1,0 +1,59 @@
+---
+permalink: health-checker/concept_manage_backup_and_restore_operations.html 
+sidebar: sidebar 
+keywords: backup, types, manage, restore, operations 
+summary: 'Você pode criar backups do Active IQ Unified Manager e usar o recurso de restauração para restaurar o backup para o mesmo sistema (local) ou um novo sistema (remoto) em caso de falha do sistema ou perda de dados.' 
+---
+= Gerenciamento de operações de backup e restauração
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode criar backups do Active IQ Unified Manager e usar o recurso de restauração para restaurar o backup para o mesmo sistema (local) ou um novo sistema (remoto) em caso de falha do sistema ou perda de dados.
+
+Há três métodos de backup e restauração dependendo do sistema operacional no qual você instalou o Unified Manager e com base no número de clusters e nós sendo gerenciados:
+
+[cols="3*"]
+|===
+| Sistema operacional | Tamanho da implantação | Método de backup recomendado 
+
+
+ a| 
+VMware vSphere
+ a| 
+Qualquer
+ a| 
+Snapshot da VMware do dispositivo virtual Unified Manager
+
+
+
+.2+| Red Hat Enterprise Linux ou CentOS Linux  a| 
+Pequeno
+ a| 
+Despejo de banco de dados MySQL do Unified Manager
+
+
+
+ a| 
+Grande
+ a| 
+Snapshot do NetApp do banco de dados do Unified Manager
+
+
+
+.2+| Microsoft Windows  a| 
+Pequeno
+ a| 
+Despejo de banco de dados MySQL do Unified Manager
+
+
+
+ a| 
+Grande
+ a| 
+NetApp Snapshot do banco de dados do Unified Manager com protocolo iSCSI
+
+|===
+Esses diferentes métodos são descritos nas seções a seguir.

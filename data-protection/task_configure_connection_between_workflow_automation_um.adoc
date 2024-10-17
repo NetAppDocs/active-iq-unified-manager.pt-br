@@ -1,0 +1,51 @@
+---
+permalink: data-protection/task_configure_connection_between_workflow_automation_um.html 
+sidebar: sidebar 
+keywords: configure, connection, workflow, automation, unified manager 
+summary: 'Você pode configurar uma conexão segura entre o OnCommand Workflow Automation (WFA) e o Unified Manager. A conexão com o Workflow Automation permite que você use recursos de proteção, como fluxos de trabalho de configuração do SnapMirror e do SnapVault, bem como comandos para gerenciar relacionamentos do SnapMirror.' 
+---
+= Configurando uma conexão entre o Workflow Automation e o Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode configurar uma conexão segura entre o OnCommand Workflow Automation (WFA) e o Unified Manager. A conexão com o Workflow Automation permite que você use recursos de proteção, como fluxos de trabalho de configuração do SnapMirror e do SnapVault, bem como comandos para gerenciar relacionamentos do SnapMirror.
+
+*O que você vai precisar*
+
+* A versão instalada do Workflow Automation deve ser 5,1 ou superior.
++
+[NOTE]
+====
+O pacote "WFA para gerenciar o Clustered Data ONTAP" está incluído no WFA 5,1, portanto, não há necessidade de baixar este pacote da Loja de Automação NetAppStorage e instalá-lo separadamente em seu servidor WFA, como era necessário no passado.  https://automationstore.netapp.com/pack-list.shtml["Pacote WFA para gerenciar ONTAP"]
+
+====
+* Você deve ter o nome do usuário do banco de dados que criou no Unified Manager para oferecer suporte às conexões DO WFA e do Unified Manager.
++
+Esse usuário do banco de dados deve ter sido atribuído a função de usuário do esquema de integração.
+
+* Você deve ser atribuído a função Administrador ou a função arquiteto no Workflow Automation.
+* Você deve ter o endereço do host, o número da porta 443, o nome de usuário e a senha para a configuração do Workflow Automation.
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+.Passos
+. No painel de navegação esquerdo, clique em *Geral* > *Workflow Automation*.
+. Na área *Database User* da página *Workflow Automation*, selecione o nome e insira a senha do usuário do banco de dados que você criou para oferecer suporte às conexões Unified Manager e Workflow Automation.
+. Na área *credenciais de automação do fluxo de trabalho* da página, insira o nome do host ou o endereço IP (IPv4 ou IPv6) e o nome de usuário e a senha para a configuração do Workflow Automation.
++
+Você deve usar a porta de servidor do Unified Manager (porta 443).
+
+. Clique em *Salvar*.
+. Se você usar um certificado autoassinado, clique em *Sim* para autorizar o certificado de segurança.
++
+A página Workflow Automation (Automação do fluxo de trabalho) é exibida
+
+. Clique em *Yes* para recarregar a IU da Web e adicionar os recursos do Workflow Automation.
+
+
+*Informações relacionadas*
+
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550["Documentação do NetApp: OnCommand Workflow Automation (versões atuais)"]

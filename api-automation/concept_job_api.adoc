@@ -1,0 +1,72 @@
+---
+permalink: api-automation/concept_job_api.html 
+sidebar: sidebar 
+keywords: jobs, view 
+summary: Você pode usar a API jobs na categoria Management-server os detalhes de execução das operações assíncronas. 
+---
+= Visualização de trabalhos e detalhes do sistema
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode usar a `jobs` API `management-server` na categoria para exibir os detalhes de execução das operações assíncronas. A `system` API `management-server` na categoria permite exibir os detalhes da instância no ambiente do Active IQ Unified Manager.
+
+
+
+== Exibindo trabalhos
+
+No Active IQ Unified Manager, operações como adicionar e modificar recursos são executadas por invocações de API síncronas e assíncronas. As invocações agendadas para execução assíncrona podem ser rastreadas por um objeto Job criado para essa invocação. Cada objeto trabalho tem uma chave exclusiva para identificação. Cada objeto Job retorna o URI de objeto Job para você acessar e acompanhar o andamento do trabalho. Você pode usar essa API para recuperar os detalhes de cada execução.
+
+Usando esta API, você pode consultar todos os objetos de trabalho para o seu data center, incluindo dados históricos. A consulta de todos os trabalhos, por padrão, retorna os detalhes dos últimos 20 trabalhos acionados através da interface web e API. Utilize os filtros incorporados para ver trabalhos específicos. Você também pode usar a tecla trabalho para consultar os detalhes de uma tarefa específica e executar o próximo conjunto de operações nos recursos.
+
+[cols="4*"]
+|===
+| Categoria | Verbo HTTP | Caminho | Descrição 
+
+
+ a| 
+servidor de gerenciamento
+ a| 
+OBTER
+ a| 
+`/management-server/jobs`
+ a| 
+Retorna os detalhes do trabalho de todos os trabalhos. Sem qualquer ordem de classificação, o último objeto trabalho enviado é devolvido no topo.
+
+
+
+ a| 
+servidor de gerenciamento
+ a| 
+OBTER
+ a| 
+`/management-server/jobs/\{key}`
+
+Introduza a chave do trabalho do objeto trabalho para visualizar os detalhes específicos desse trabalho.
+ a| 
+Retorna os detalhes do objeto Job específico.
+
+|===
+
+
+== Visualização dos detalhes do sistema
+
+Usando a `/management-server/system` API, você pode consultar os detalhes específicos da instância do seu ambiente do Unified Manager. A API retorna informações sobre o produto e os serviços, como a versão do Unified Manager instalada no sistema, UUID, nome do fornecedor, sistema operacional do host e o nome, descrição e status dos serviços executados na instância do Unified Manager.
+
+[cols="4*"]
+|===
+| Categoria | Verbo HTTP | Caminho | Descrição 
+
+
+ a| 
+servidor de gerenciamento
+ a| 
+OBTER
+ a| 
+`/management-server/system`
+ a| 
+Nenhum parâmetro de entrada é necessário para executar esta API. Os detalhes do sistema da instância atual do Unified Manager são retornados por padrão.
+
+|===

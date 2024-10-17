@@ -1,0 +1,22 @@
+---
+permalink: reporting/concept_sample_custom_reports.html 
+sidebar: sidebar 
+keywords: sample, custom, reports 
+summary: Esses exemplos de relatórios personalizados são comumente usados para ajudá-lo a identificar possíveis problemas e responder a possíveis problemas antes que ocorram. 
+---
+= Exemplos de relatórios personalizados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Esses exemplos de relatórios personalizados são comumente usados para ajudá-lo a identificar possíveis problemas e responder a possíveis problemas antes que ocorram.
+
+A lista de relatórios nesta seção não é exaustiva e crescerá ao longo do tempo. Você pode sugerir relatórios personalizados para adicionar a esta seção fornecendo feedback de documentação.
+
+[NOTE]
+====
+Você deve ter a função Administrador de aplicativos ou Administrador de armazenamento para gerenciar relatórios.
+
+====

@@ -1,0 +1,40 @@
+---
+permalink: data-protection/task_create_cascade_or_fanout_relationships_to_extend_protection.html 
+sidebar: sidebar 
+keywords: create, cascade fanout, relationships, extend protection, existing protection relationship 
+summary: Você pode estender a proteção de um relacionamento existente criando um fanout do volume de origem ou uma cascata do volume de destino de um relacionamento existente. Você pode fazer isso quando precisar copiar dados de um site para muitos sites ou fornecer proteção adicional criando mais backups. 
+---
+= Criando relações em cascata ou fanout para estender a proteção de uma relação de proteção existente
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode estender a proteção de um relacionamento existente criando um fanout do volume de origem ou uma cascata do volume de destino de um relacionamento existente. Você pode fazer isso quando precisar copiar dados de um site para muitos sites ou fornecer proteção adicional criando mais backups.
+
+Você pode estender a proteção a volumes usando o grupo consistência, que é um contêiner que contém vários volumes para que você possa gerenciar todos os volumes como uma entidade. Você pode exibir o grupo de consistência de sincronização ativa do SnapMirror e a relação de grupo de consistência síncrona na página relacionamentos do Gerenciador Unificado.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+* Você deve ter configurado o Workflow Automation.
+
+
+.Passos
+. Clique em *proteção* > *relacionamentos*. Como alternativa, você visualiza as relações na página Detalhes do volume.
+. Na página *relacionamentos de volume*, selecione a relação SnapMirror a partir da qual deseja estender a proteção.
+. Na barra de ação, clique em *Extend Protection*.
+. No menu, selecione *de origem* ou *de destino*, dependendo se você está criando uma relação de fanout da fonte ou uma relação em cascata do destino.
+. Selecione *com SnapMirror* ou *com SnapVault* dependendo do tipo de relação de proteção que você está criando.
++
+A caixa de diálogo *Configurar proteção* é exibida.
+
++
+[NOTE]
+====
+Isto pode ser conseguido a partir da página de detalhes de relação unificada/relação de volume e volume/Saúde.
+
+====
+. Preencha as informações conforme indicado na caixa de diálogo *Configurar proteção*.
+

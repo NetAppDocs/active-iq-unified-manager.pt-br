@@ -1,0 +1,75 @@
+---
+permalink: reporting/task_schedule_report.html 
+sidebar: sidebar 
+keywords: report, schedule 
+summary: Depois de ter um arquivo de exibição ou Excel que você deseja agendar para geração e distribuição regulares, você pode agendar o relatório. 
+---
+= Agendar um relatório
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Depois de ter um arquivo de exibição ou Excel que você deseja agendar para geração e distribuição regulares, você pode agendar o relatório.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+* Você deve ter configurado as configurações do servidor SMTP na página *Geral* > *notificações* para que o mecanismo de relatórios possa enviar relatórios como anexos de e-mail para a lista de destinatários do servidor Unified Manager.
+* O servidor de e-mail deve estar configurado para permitir que anexos sejam enviados com os e-mails gerados.
+
+
+Use as etapas a seguir para testar e agendar um relatório a ser gerado para uma exibição. Selecione ou personalize a vista que pretende utilizar. O procedimento a seguir usa uma exibição de rede que mostra o desempenho de suas interfaces de rede, mas você pode usar qualquer exibição desejada.
+
+.Passos
+. Abra a vista. Este exemplo usa a exibição de rede padrão que mostra o desempenho de LIF. No painel de navegação esquerdo, clique em *rede > interfaces de rede*.
+. Personalize a exibição conforme necessário usando os recursos integrados do Unified Manager.
+. Depois de personalizar a exibição, você pode fornecer um nome exclusivo no campo *Exibir* e clicar na marca de seleção para salvá-la.
++
+image::../media/view_save.gif[Uma captura de tela da IU que mostra como salvar uma exibição.]
+
+. Você pode usar os recursos avançados do Microsoft Excel para personalizar seu relatório. Para obter detalhes, link:task_use_excel_to_customize_your_report.html["Usando o Excel para personalizar seu relatório"]consulte .
+. Para ver a saída antes de programá-la ou compartilhá-la:
++
+[cols="2*"]
+|===
+| Opção | Descrição 
+
+
+ a| 
+*Se você usou o Excel para personalizar o relatório*
+ a| 
+Ver o ficheiro Excel transferido existente.
+
+
+
+ a| 
+*Se você não usou o Excel para personalizar o relatório*
+ a| 
+Faça o download do relatório como um arquivo *CSV*, *PDF* ou *XLSX*.
+
+|===
++
+Abra o arquivo com um aplicativo instalado, como Microsoft Excel (CSV/XSLX) ou Adobe Acrobat (PDF).
+
+. Se estiver satisfeito com o relatório, clique em *relatórios programados*.
+. Na página Agenda de relatórios, clique em *Adicionar programação*.
+. Aceite o nome padrão, que é uma combinação do nome da vista e da frequência, ou personalize o *nome da programação*.
+. Para testar o relatório agendado pela primeira vez, adicione-se apenas como *destinatário*. Quando estiver satisfeito, adicione os endereços de e-mail para todos os destinatários do relatório.
+. Especifique com que frequência o relatório será gerado e enviado aos destinatários. Você pode escolher *Daily*, *Weekly* ou *Monthly*.
+. Selecione o formato *PDF*, *CSV* ou *XSLX*.
++
+[NOTE]
+====
+Para relatórios em que você usou o Excel para personalizar o conteúdo, selecione sempre *XSLX*.
+
+====
+. Clique na marca de seleção (image:../media/blue_check.gif[""]) para salvar a programação do relatório.
++
+image::../media/scheduled_reports.gif[Uma captura de tela da IU que mostra como salvar a programação do relatório.]
+
++
+O relatório é enviado imediatamente como um teste. Depois disso, o relatório gera e é enviado por e-mail para os destinatários listados usando a frequência programada.
+
+

@@ -1,0 +1,56 @@
+---
+permalink: health-checker/task_add_annotations_manually_to_individual_storage_objects.html 
+sidebar: sidebar 
+keywords: add, annotations, manually, individual, storage objects 
+summary: Você pode anotar manualmente volumes, clusters e SVMs selecionados sem usar regras de anotação. Você pode anotar um único objeto de armazenamento ou vários objetos de armazenamento e especificar a combinação de par de nome-valor necessária para a anotação. 
+---
+= Adicionar anotações manualmente a objetos de armazenamento individuais
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode anotar manualmente volumes, clusters e SVMs selecionados sem usar regras de anotação. Você pode anotar um único objeto de armazenamento ou vários objetos de armazenamento e especificar a combinação de par de nome-valor necessária para a anotação.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+.Passos
+. Navegue até os objetos de armazenamento que deseja anotar:
++
+[cols="2*"]
+|===
+| Para adicionar anotação a... | Faça isso... 
+
+
+ a| 
+Clusters
+ a| 
+.. Clique em *Storage* > *clusters*.
+.. Selecione um ou mais clusters.
+
+
+
+
+ a| 
+Volumes
+ a| 
+.. Clique em *Storage* > *volumes*.
+.. Selecione um ou mais volumes.
+
+
+
+
+ a| 
+SVMs
+ a| 
+.. Clique em *Storage* > *SVMs*.
+.. Selecione um ou mais SVMs.
+
+
+|===
+. Clique em *Annotate* e selecione um par de nome-valor.
+. Clique em *aplicar*.
+

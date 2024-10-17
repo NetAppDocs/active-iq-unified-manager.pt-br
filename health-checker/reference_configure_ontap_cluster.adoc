@@ -1,0 +1,37 @@
+---
+permalink: health-checker/reference_configure_ontap_cluster.html 
+sidebar: sidebar 
+keywords: netapp, snapshot copy, copies, backup, windows, configure, ontap, cluster 
+summary: Você precisa executar algumas etapas de pré-configuração nos clusters do ONTAP antes de fazer backup e restaurar o Active IQ Unified Manager usando a cópia Snapshot em sistemas Windows. 
+---
+= Configurando o cluster ONTAP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você precisa executar algumas etapas de pré-configuração nos clusters do ONTAP antes de fazer backup e restaurar o Active IQ Unified Manager usando a cópia Snapshot em sistemas Windows.
+
+Você pode configurar o cluster do ONTAP usando o prompt de comando ou a interface do usuário do Gerenciador do sistema. A configuração do cluster ONTAP envolve a configuração de LIFs de dados para estarem disponíveis para serem atribuídos como LIFs iSCSI à VM de armazenamento. A próxima etapa é configurar uma VM de armazenamento habilitada para iSCSI usando a interface do usuário do System Manager. Você precisará configurar uma rota de rede estática para essa VM de armazenamento para controlar como os LIFs usam a rede para o tráfego de saída.
+
+[NOTE]
+====
+Você deve ter um volume dedicado e um LUN para configuração de backup. O volume selecionado deve incluir apenas um LUN. O tamanho do LUN deve ser pelo menos o dobro do tamanho de dados esperado para ser Tratado pelo Active IQ Unified Manager.
+
+====
+Você precisa executar a seguinte configuração:
+
+.Passos
+. Configure uma VM de armazenamento habilitada para iSCSI ou use uma VM de armazenamento existente que tenha a mesma configuração.
+. Configure uma rota de rede para a VM de armazenamento configurada.
+. Configure um volume de capacidade adequada e um único LUN no interior, garantindo que o volume seja dedicado apenas a este LUN.
++
+
+NOTE: Em um cenário em que o LUN é criado no System Manager, o desmapeamento do LUN pode excluir o grupo e a restauração pode falhar. Para evitar esse cenário, certifique-se de que, ao criar um LUN, ele seja criado explicitamente e não seja excluído quando o LUN não for mapeado.
+
+. Configure um grupo de iniciadores na VM de armazenamento.
+. Configurar um conjunto de portas.
+. Integre o igrop com o portset.
+. Mapeie o LUN para o grupo.
+

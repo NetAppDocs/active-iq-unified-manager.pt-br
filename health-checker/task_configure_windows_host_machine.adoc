@@ -1,0 +1,30 @@
+---
+permalink: health-checker/task_configure_windows_host_machine.html 
+sidebar: sidebar 
+keywords: netapp, snapshot copy, copies windows, configure, windows host machine 
+summary: 'Você precisa configurar sua máquina host do Windows antes de poder usar a captura Instantânea do NetApp para fazer backup e restaurar o Active IQ Unified Manager. Para iniciar o iniciador iSCSI da Microsoft em uma máquina host do Windows, digite "iscsi" na barra de pesquisa e clique em Iniciador iSCSI.' 
+---
+= Configurando a máquina host do Windows
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você precisa configurar sua máquina host do Windows antes de poder usar a captura Instantânea do NetApp para fazer backup e restaurar o Active IQ Unified Manager. Para iniciar o iniciador iSCSI da Microsoft em uma máquina host do Windows, digite "iscsi" na barra de pesquisa e clique em *Iniciador iSCSI*.
+
+*O que você vai precisar*
+
+Você deve limpar todas as configurações anteriores na máquina host.
+
+Se você estiver tentando iniciar o iniciador iSCSI em uma nova instalação do Windows, será solicitado a confirmação e, na confirmação, a caixa de diálogo Propriedades iSCSI será exibida. Se for uma instalação do Windows existente, a caixa de diálogo Propriedades iSCSI será exibida com um destino inativo ou tentando se conetar. Portanto, você precisará garantir que todas as configurações anteriores no host do Windows sejam removidas.
+
+.Passos
+. Limpe todas as configurações anteriores na máquina host.
+. Descubra o portal de destino.
+. Conete-se ao portal de destino.
+. Conecte-se usando multipath ao portal de destino.
+. Descubra os dois LIFs.
+. Descubra o LUN configurado na máquina Windows como um dispositivo.
+. Configure o LUN descoberto como uma nova unidade de volume no Windows.
+

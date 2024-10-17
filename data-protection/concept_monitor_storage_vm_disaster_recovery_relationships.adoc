@@ -1,0 +1,18 @@
+---
+permalink: data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html 
+sidebar: sidebar 
+keywords: disaster recovery, monitor, storage vm protection, relationships 
+summary: O Active IQ Unified Manager é compatível com o monitoramento de relacionamentos de recuperação de desastres de VM de storage, que oferece recuperação de desastres na granularidade de um nível de VM de storage. A recuperação de desastres da VM de armazenamento permite a recuperação de dados presentes nos volumes constituintes da VM de armazenamento e a recuperação da configuração da VM de armazenamento. 
+---
+= Monitoramento de relacionamentos de proteção de recuperação de desastres da VM Storage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+O Active IQ Unified Manager é compatível com o monitoramento de relacionamentos de recuperação de desastres de VM de storage, que oferece recuperação de desastres na granularidade de um nível de VM de storage. A recuperação de desastres da VM de armazenamento permite a recuperação de dados presentes nos volumes constituintes da VM de armazenamento e a recuperação da configuração da VM de armazenamento.
+
+Uma relação de recuperação de desastres de VM de storage é criada da VM de storage de origem para a VM de storage de destino, a fim de fornecer recuperação assíncrona de desastres. Você pode selecionar para replicar toda ou um subconjunto da configuração da VM de armazenamento (excluindo a configuração de rede e protocolo) juntamente com os volumes de dados baseados na configuração do cluster.
+
+Após a configuração do relacionamento de recuperação de desastres da VM de armazenamento, quando a VM de armazenamento de origem fica indisponível devido a falha de hardware ou desastre ambiental, a VM de armazenamento de destino é iniciada, o que fornece acesso aos dados com o mínimo de interrupção. Da mesma forma, quando a VM de armazenamento de origem fica disponível, ela é ressincronizada com a VM de armazenamento de destino e, em seguida, a fonte reinicia para fornecer dados. Você pode usar os comandos SnapMirror para configurar e gerenciar o relacionamento de recuperação de desastres da VM de storage.

@@ -1,0 +1,28 @@
+---
+permalink: data-protection/task_view_protection_relationships_from_storage_vms_page.html 
+sidebar: sidebar 
+keywords: storage vm, viewing protection relationships 
+summary: Usando a página Storage VMs, você pode visualizar o status dos relacionamentos de recuperação de desastres das VMs de storage existentes. 
+---
+= Exibindo relacionamentos de proteção da página Storage VMs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Usando a página Storage VMs, você pode visualizar o status das relações de recuperação de desastres das VMs de storage existentes.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+Você também pode examinar detalhes dos relacionamentos de proteção, incluindo status de transferência e atraso, detalhes de origem e destino. Você pode agendar relatórios ou fazer download de relatórios existentes no formato desejado. O botão *Mostrar/Ocultar* permite que você adicione as colunas necessárias aos relatórios, pois elas não são exibidas por padrão.
+
+.Passos
+. No painel de navegação esquerdo, clique em *STORAGE* > *Storage VMs*.
+. No menu *VIEW*, selecione *Relationship* > *All relationships*.
++
+A visualização relacionamento: Todas as relações é exibida com todas as VMs de armazenamento configuradas.
+
+

@@ -1,0 +1,24 @@
+---
+permalink: events/task_delete_alerts.html 
+sidebar: sidebar 
+keywords: delete, alerts 
+summary: Você pode excluir um alerta quando ele não for mais necessário. Por exemplo, você pode excluir um alerta criado para um recurso específico quando esse recurso não for mais monitorado pelo Unified Manager. 
+---
+= Eliminar alertas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode excluir um alerta quando ele não for mais necessário. Por exemplo, você pode excluir um alerta criado para um recurso específico quando esse recurso não for mais monitorado pelo Unified Manager.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Gerenciamento de armazenamento* > *Configuração de alerta*.
+. Na página *Configuração de alerta*, selecione os alertas que deseja excluir e clique em *Excluir*.
+. Clique em *Yes* para confirmar a solicitação de exclusão.
+

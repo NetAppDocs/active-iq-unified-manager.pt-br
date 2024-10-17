@@ -1,0 +1,54 @@
+---
+permalink: events/task_test_script_execution.html 
+sidebar: sidebar 
+keywords: test, script, execution 
+summary: Você pode verificar se o script é executado corretamente quando um alerta é gerado para um objeto de armazenamento. 
+---
+= Testando a execução de script
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode verificar se o script é executado corretamente quando um alerta é gerado para um objeto de armazenamento.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+* Você deve ter carregado um script no formato de arquivo suportado para o Unified Manager.
+
+
+.Passos
+. No painel de navegação esquerdo, clique em *Gerenciamento de armazenamento* > *Scripts*.
+. Na página *Scripts*, adicione seu script de teste.
+. No painel de navegação esquerdo, clique em *Gerenciamento de armazenamento* > *Configuração de alerta*.
+. Na página *Configuração de alerta*, execute uma das seguintes ações:
++
+|===
+| Para... | Faça isso... 
+
+
+ a| 
+Adicione um alerta
+ a| 
+.. Clique em *Add*.
+.. Na seção ações, associe o alerta ao script de teste.
+
+
+
+
+ a| 
+Edite um alerta
+ a| 
+.. Selecione um alerta e clique em *Editar*.
+.. Na seção ações, associe o alerta ao script de teste.
+
+
+|===
+. Clique em *Salvar*.
+. Na página *Configuração de alerta*, selecione o alerta que você adicionou ou modificou e clique em *Teste*.
++
+O script é executado com o argumento "-teste", e um alerta de notificação é enviado para os endereços de e-mail que foram especificados quando o alerta foi criado.
+
+

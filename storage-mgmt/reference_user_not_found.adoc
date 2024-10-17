@@ -1,0 +1,25 @@
+---
+permalink: storage-mgmt/reference_user_not_found.html 
+sidebar: sidebar 
+keywords: user, not, found 
+summary: 'Solução de problemas: Usuário não encontrado' 
+---
+= Utilizador não encontrado
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Quando você está executando uma operação relacionada à autenticação, como adicionar, editar, excluir ou testar usuários ou grupos remotos, a seguinte mensagem de erro é exibida: `User not found.`
+
+*Causa*
+
+Este problema pode ocorrer se o utilizador existir no servidor AD ou no servidor LDAP e se tiver definido o nome distinto base para um valor incorreto.
+
+*Ações corretivas*
+
+. No painel de navegação esquerdo, clique em *Geral* > *Autenticação remota*.
+. Introduza as informações adequadas para o nome distinto da base.
+. Clique em *Salvar*.
+

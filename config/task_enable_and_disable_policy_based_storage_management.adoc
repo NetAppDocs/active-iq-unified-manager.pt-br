@@ -1,0 +1,78 @@
+---
+permalink: config/task_enable_and_disable_policy_based_storage_management.html 
+sidebar: sidebar 
+keywords: provisioning, performance service levels, storage management, enable, disable, policy-based 
+summary: 'A partir do Unified Manager 9,7, você pode provisionar workloads de storage (volumes e LUNs) nos clusters do ONTAP e gerenciar esses workloads com base em níveis de serviço de performance atribuídos. Essa funcionalidade é semelhante à criação de workloads no ONTAP System Manager e à inclusão de políticas de QoS, mas, quando aplicada usando o Unified Manager, você pode provisionar e gerenciar workloads em todos os clusters que sua instância do Unified Manager está monitorando.' 
+---
+= Ativar e desativar o gerenciamento de armazenamento baseado em políticas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+A partir do Unified Manager 9,7, você pode provisionar workloads de storage (volumes e LUNs) nos clusters do ONTAP e gerenciar esses workloads com base em níveis de serviço de performance atribuídos. Essa funcionalidade é semelhante à criação de workloads no ONTAP System Manager e à inclusão de políticas de QoS, mas, quando aplicada usando o Unified Manager, você pode provisionar e gerenciar workloads em todos os clusters que sua instância do Unified Manager está monitorando.
+
+Tem de ter a função Administrador de aplicações.
+
+Essa opção está ativada por padrão, mas você pode desativá-la se não quiser provisionar e gerenciar cargas de trabalho usando o Unified Manager.
+
+Quando ativada, esta opção fornece muitos itens novos na interface do utilizador:
+
+[cols="2*"]
+|===
+| Novo conteúdo | Localização 
+
+
+ a| 
+Uma página para provisionar novos workloads
+ a| 
+Disponível em *Common Tasks* > *Provisioning*
+
+
+
+ a| 
+Uma página para criar políticas de nível de serviço de desempenho
+ a| 
+Disponível a partir de *Definições* > *políticas* > *níveis de Serviço de desempenho*
+
+
+
+ a| 
+Uma página para criar políticas de eficiência de storage de performance
+ a| 
+Disponível a partir de *Definições* > *políticas* > *eficiência de armazenamento*
+
+
+
+ a| 
+Painéis que descrevem o desempenho atual de workload e o IOPS de workload
+ a| 
+Disponível a partir do Dashboard
+
+|===
+Consulte a ajuda on-line do produto para obter mais informações sobre essas páginas e sobre essa funcionalidade.
+
+.Passos
+. No painel de navegação à esquerda, clique em *Geral* > *Definições da funcionalidade*.
+. Na página *Configurações de recursos*, desative ou ative o gerenciamento de armazenamento baseado em políticas escolhendo uma das seguintes opções:
++
+[cols="2*"]
+|===
+| Se você quiser... | Então faça isso... 
+
+
+ a| 
+Desative o gerenciamento de storage baseado em políticas
+ a| 
+No painel *Gerenciamento de armazenamento baseado em políticas*, mova o botão deslizante para a esquerda.
+
+
+
+ a| 
+Habilite o gerenciamento de storage baseado em políticas
+ a| 
+No painel *Gerenciamento de armazenamento baseado em políticas*, mova o botão deslizante para a direita.
+
+|===
+

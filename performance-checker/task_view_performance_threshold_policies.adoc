@@ -1,0 +1,25 @@
+---
+permalink: performance-checker/task_view_performance_threshold_policies.html 
+sidebar: sidebar 
+keywords: view, performance, threshold, policies 
+summary: Você pode exibir todas as políticas de limite de desempenho definidas atualmente na página limites de desempenho. 
+---
+= Exibindo políticas de limite de desempenho
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode exibir todas as políticas de limite de desempenho definidas atualmente na página limites de desempenho.
+
+A lista de políticas de limite é ordenada alfabeticamente por nome de política e inclui políticas para todos os tipos de objetos de storage. Você pode clicar em um cabeçalho de coluna para classificar as políticas por essa coluna. Se você estiver procurando uma política específica, use os mecanismos de filtro e pesquisa para refinar a lista de políticas de limite que aparecem na lista de inventário.
+
+Você pode passar o cursor sobre o Nome da política e o nome da condição para ver os detalhes de configuração da política. Além disso, você pode usar os botões fornecidos para criar, clonar, editar e excluir políticas de limite definidas pelo usuário.
+
+.Passo
+. No painel de navegação esquerdo, selecione *limiares de eventos* > *desempenho*.
++
+É apresentada a página limites de desempenho.
+
+

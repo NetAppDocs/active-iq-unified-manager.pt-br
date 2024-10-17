@@ -1,0 +1,76 @@
+---
+permalink: events/task_add_scripts.html 
+sidebar: sidebar 
+keywords: add, scripts 
+summary: Você pode adicionar scripts no Unified Manager e associar os scripts a alertas. Esses scripts são executados automaticamente quando um alerta é gerado e permitem obter informações sobre objetos de armazenamento para os quais o evento é gerado. 
+---
+= Adicionando scripts
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode adicionar scripts no Unified Manager e associar os scripts a alertas. Esses scripts são executados automaticamente quando um alerta é gerado e permitem obter informações sobre objetos de armazenamento para os quais o evento é gerado.
+
+*O que você vai precisar*
+
+* Você deve ter criado e salvo os scripts que deseja adicionar ao servidor do Unified Manager.
+* Os formatos de arquivo suportados para scripts são Perl, Shell, PowerShell, Python e `.bat` arquivos.
++
+|===
+| Plataforma na qual o Unified Manager está instalado | Idiomas suportados 
+
+
+ a| 
+VMware
+ a| 
+Scripts Perl e Shell
+
+
+
+ a| 
+Linux
+ a| 
+Scripts Perl, Python e Shell
+
+
+
+ a| 
+Windows
+ a| 
+Scripts PowerShell, Perl, Python e .bat
+
+|===
++
+** Para scripts Perl, Perl deve ser instalado no servidor Unified Manager. Para instalações VMware, o Perl 5 é instalado por padrão e os scripts suportam apenas o que o Perl 5 suporta. Se o Perl foi instalado após o Unified Manager, você deve reiniciar o servidor do Unified Manager.
+** Para scripts do PowerShell, a política de execução apropriada do PowerShell deve ser definida no servidor Windows para que os scripts possam ser executados.
+
+
++
+[NOTE]
+====
+Se o script criar arquivos de log para acompanhar o andamento do script de alerta, você deve garantir que os arquivos de log não sejam criados em qualquer lugar na pasta de instalação do Unified Manager.
+
+====
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+Você pode fazer upload de scripts personalizados e reunir detalhes do evento sobre o alerta.
+
+[NOTE]
+====
+Se você não vir esse recurso disponível na interface do usuário, é porque a funcionalidade foi desativada pelo administrador. Se necessário, pode ativar esta funcionalidade a partir de *Gestão de armazenamento* > *Definições de funcionalidade*.
+
+====
+.Passos
+. No painel de navegação esquerdo, clique em *Gerenciamento de armazenamento* > *Scripts*.
+. Na página *Scripts*, clique em *Add*.
+. Na caixa de diálogo *Add Script*, clique em *Browse* para selecionar seu arquivo de script.
+. Insira uma descrição para o script selecionado.
+. Clique em *Add*.
+
+
+*Informações relacionadas*
+
+link:../config/task_enable_and_disable_ability_to_upload_scripts.html["Ativar e desativar a capacidade de carregar scripts"]

@@ -1,0 +1,32 @@
+---
+permalink: data-protection/task_remove_protection_relationship_voldtls.html 
+sidebar: sidebar 
+keywords: remove, protection, relationship,  volume, health details page 
+summary: 'Você pode remover uma relação de proteção para excluir permanentemente uma relação existente entre a origem e o destino selecionados: Por exemplo, quando você deseja criar uma relação usando um destino diferente. Esta operação remove todos os metadados e não pode ser desfeita.' 
+---
+= Remover uma relação de proteção da página de detalhes de volume / Saúde
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode remover uma relação de proteção para excluir permanentemente uma relação existente entre a origem e o destino selecionados: Por exemplo, quando você deseja criar uma relação usando um destino diferente. Esta operação remove todos os metadados e não pode ser desfeita.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+* Você deve ter configurado o Workflow Automation.
+
+
+.Passos
+. Na guia *proteção* da página de detalhes *volume / Saúde*, selecione na topologia a relação SnapMirror que deseja remover.
+. Clique com o botão direito do rato no nome do destino e selecione *Remover* no menu.
++
+A caixa de diálogo Remover relacionamento é exibida.
+
+. Clique em *continuar* para remover o relacionamento.
++
+A relação é removida da página de detalhes de volume / Saúde.
+
+

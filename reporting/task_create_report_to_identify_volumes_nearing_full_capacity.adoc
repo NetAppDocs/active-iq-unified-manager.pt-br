@@ -1,0 +1,43 @@
+---
+permalink: reporting/task_create_report_to_identify_volumes_nearing_full_capacity.html 
+sidebar: sidebar 
+keywords: create, report, identify, volumes, full capacity, snapshot, autodelete, turned off 
+summary: Você pode criar um relatório que contenha a lista de volumes que estão se aproximando da capacidade total com o recurso Snapshot Autodelete desativado. Os resultados podem ajudar a identificar volumes onde você pode querer configurar o Snapshot Autodelete. 
+---
+= Criação de um relatório para identificar volumes que estão próximos de capacidade total que têm o Snapshot Autodelete desativado
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode criar um relatório que contenha a lista de volumes que estão se aproximando da capacidade total com o recurso Snapshot Autodelete desativado. Os resultados podem ajudar a identificar volumes onde você pode querer configurar o Snapshot Autodelete.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+Siga as etapas abaixo para criar uma exibição personalizada que exiba as colunas necessárias na ordem correta e, em seguida, programe um relatório a ser gerado para essa exibição.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *volumes*.
+. No menu Exibir, selecione *capacidade* > *todos os volumes*.
+. Selecione *Mostrar/Ocultar* para remover as colunas que não deseja no relatório.
+. Arraste e solte as colunas "Snapshot Autodelete" e "Days to Full" perto da coluna "Available Data Capacity" (capacidade de dados disponível).
+. Clique no ícone de filtro, adicione os dois filtros a seguir e clique em *Apply Filter*:
++
+** Dias para completar menos de 30 dias
+** O Snapshot Autodelete está desativado
+
+
+. Clique na parte superior da coluna *Days to Full* para que os volumes com o menor número de dias restantes apareçam no topo da lista.
+. Salve a exibição com um nome específico que reflita o que a exibição está mostrando, por exemplo ""Vols near Capacity"".
+. Clique no botão *relatórios programados* na página de inventário.
+. Introduza um nome para a agenda do relatório e preencha os outros campos do relatório e, em seguida, clique na marca de verificação (image:../media/blue_check.gif[""]) no final da linha.
++
+O relatório é enviado imediatamente como um teste. Depois disso, o relatório gera e é enviado por e-mail para os destinatários listados usando a frequência especificada.
+
+
+
+Com base nos resultados mostrados no relatório, você pode querer habilitar o Snapshot Autodelete nos volumes ou encontrar uma maneira de aumentar o espaço disponível.

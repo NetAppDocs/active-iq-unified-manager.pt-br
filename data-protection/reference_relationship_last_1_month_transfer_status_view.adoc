@@ -1,0 +1,73 @@
+---
+permalink: data-protection/reference_relationship_last_1_month_transfer_status_view.html 
+sidebar: sidebar 
+keywords: relationship, 1 month, transfer status, view 
+summary: 'O modo de exibição relacionamento: Último status de transferência de 1 meses permite analisar as tendências de transferência ao longo de um período de tempo para volumes e VMs de armazenamento em relacionamentos assíncronos. Esta página também mostra se a transferência foi um sucesso ou uma falha.' 
+---
+= Relação: Último 1 mês visualização do Status da transferência
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+O modo de exibição relacionamento: Último status de transferência de 1 meses permite analisar as tendências de transferência ao longo de um período de tempo para volumes e VMs de armazenamento em relacionamentos assíncronos. Esta página também mostra se a transferência foi um sucesso ou uma falha.
+
+Os controles ao longo da parte superior da página permitem que você execute pesquisas para localizar objetos específicos, criar e aplicar filtros para restringir a lista de dados exibidos, adicionar/remover/reordenar colunas na página e exportar os dados na página para um `.csv` arquivo , ou `.xlsx` . `.pdf` Depois de personalizar a página, você pode salvar os resultados como uma visualização personalizada e, em seguida, agendar um relatório desses dados para ser gerado e enviado por e-mail regularmente. Você pode usar a opção *filtro* para exibir somente sistemas de armazenamento selecionados, como somente volumes ou somente VMs de armazenamento. O mesmo relatório é exibido na página armazenamento e somente para a entidade de armazenamento selecionada. Por exemplo, se você quiser ver as relações de volume, você pode acessar o relatório de status de transferência dos últimos 1 meses para as VMs de armazenamento a partir do menu *armazenamento* > *VMs de armazenamento* > *relação: Último 1 mês Status de transferência* ou do menu *proteção* > *relacionamentos* > *relação: Último 1 mês Status de transferência* e usar o *filtro* para visualizar somente os dados para volumes.
+
+* *Volume da fonte*
++
+Exibe o nome do volume de origem.
+
+* *Volume de destino*
++
+Apresenta o nome do volume de destino.
+
+* *Tipo de operação*
++
+Apresenta o tipo de transferência de volume.
+
+* *Resultado da operação*
++
+Apresenta se a transferência de volume foi bem-sucedida.
+
+* *Hora de início da transferência*
++
+Apresenta a hora de início da transferência de volume.
+
+* * Tempo de término da transferência*
++
+Apresenta a hora de fim da transferência de volume.
+
+* *Duração da transferência*
++
+Apresenta o tempo necessário (em horas) para concluir a transferência de volume.
+
+* * Tamanho da transferência*
++
+Exibe o tamanho (em MB) do volume transferido.
+
+* *Fonte SVM*
++
+Exibe o nome da máquina virtual de storage (SVM).
+
+* *Cluster de origem*
++
+Exibe o nome do cluster de origem.
+
+* *SVM de destino*
++
+Exibe o nome do SVM de destino.
+
+* *Cluster de destino*
++
+Exibe o nome do cluster de destino.
+
+
+
+*Informações relacionadas*
+
+* Para obter informações sobre a visualização *relacionamento: Todas as relações*, link:../data-protection/reference_relationship_all_relationships_view.html["Relacionamento: Todos os relacionamentos são exibidos"]consulte .
+* Para obter informações sobre a visualização *relação:MetroCluster*, link:../storage-mgmt/task_monitor_metrocluster_configurations.html["Monitoramento de configurações do MetroCluster"]consulte .
+* Para obter informações sobre a visualização *relacionamento: Todas as relações*, link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["Relação: Último 1 mês visualização da taxa de transferência"]consulte .
+

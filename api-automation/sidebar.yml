@@ -1,0 +1,88 @@
+---
+section: api-automation
+title: Gerenciar o storage usando APIS REST
+entries:
+- title: Introdução ao Active IQ Unified Manager
+  url: "/api-automation/concept_get_started_with_um_apis.html"
+  entries:
+  - title: Público-alvo para este conteúdo
+    url: "/api-automation/reference_intended_audience_for_this_guide.html"
+  - title: Acesso à API Active IQ Unified Manager e categorias
+    url: "/api-automation/concept_api_url_and_categories.html"
+  - title: Serviços REST oferecidos em Active IQ Unified Manager
+    url: "/api-automation/concept_rest_services_offered_in_unified_manager_apis.html"
+  - title: Versão da API no Active IQ Unified Manager
+    url: "/api-automation/concept_rest_api_versioning_in_unified_manager_apis.html"
+  - title: Recursos de storage no ONTAP
+    url: "/api-automation/concept_storage_resource_model.html"
+- title: Acesso à API REST e autenticação no Active IQ Unified Manager
+  url: "/api-automation/concept_rest_api_access_and_authentication_in_um_apis.html"
+  entries:
+  - title: Códigos de status HTTP usados no Active IQ Unified Manager
+    url: "/api-automation/reference_authentication_errors.html"
+  - title: Recomendações para o uso das APIs para Active IQ Unified Manager
+    url: "/api-automation/reference_recommendations_to_use_um_apis.html"
+  - title: Registos para resolução de problemas
+    url: "/api-automation/concept_api_logs.html"
+  - title: Objetos de trabalho processos assíncronos
+    url: "/api-automation/concept_async_run.html"
+  - title: Olá servidor API
+    url: "/api-automation/concept_hello_api_server.html"
+- title: APIs REST do Unified Manager
+  url: "/api-automation/concept_um_apis_list_intro.html"
+  entries:
+  - title: Gerenciamento de objetos de storage em um data center
+    url: "/api-automation/concept_data_center_apis.html"
+  - title: Acessando APIs do ONTAP por meio de acesso proxy
+    url: "/api-automation/concept_gateway_apis.html"
+  - title: Execução de tarefas administrativas
+    url: "/api-automation/concept_administration_apis.html"
+  - title: Gerenciando usuários
+    url: "/api-automation/concept_security_apis.html"
+  - title: Visualização de métricas de desempenho
+    url: "/api-automation/concept_metrics_apis.html"
+  - title: Visualização de trabalhos e detalhes do sistema
+    url: "/api-automation/concept_job_api.html"
+  - title: Gerenciamento de eventos e alertas
+    url: "/api-automation/concept_events_api.html"
+  - title: Gerenciamento de workloads
+    url: "/api-automation/concept_manage_storage_workloads.html"
+    entries:
+    - title: Visualização de workloads de storage
+      url: "/api-automation/concept_view_workloads.html"
+    - title: Gerenciamento de endpoints de acesso
+      url: "/api-automation/concept_manage_access_endpoint.html"
+    - title: Gerenciando o mapeamento do ative Directory
+      url: "/api-automation/concept_manage_active_directory.html"
+    - title: Gerenciamento de compartilhamentos de arquivos
+      url: "/api-automation/concept_manage_fileshares_api.html"
+    - title: Gerenciamento de LUNs
+      url: "/api-automation/concept_manage_lun.html"
+    - title: Gerenciando níveis de serviço de performance
+      url: "/api-automation/concept_manage_psl.html"
+    - title: Gerenciamento de políticas de eficiência de storage
+      url: "/api-automation/concept_manage_sep.html"
+- title: Workflows comuns para gerenciamento de storage
+  url: "/api-automation/concept_workflow_intro.html"
+  entries:
+  - title: Determinando problemas de espaço em agregados
+    url: "/api-automation/concept_workflow_space_issue.html"
+  - title: Determinando problemas em objetos de storage usando eventos
+    url: "/api-automation/concept_events_workflows.html"
+  - title: Solução de problemas de volumes do ONTAP usando APIs de gateway
+    url: "/api-automation/concept_ontap_troubleshooting_workflow.html"
+  - title: Workflows para gerenciamento de workload
+    url: "/api-automation/concept_provision_workflow.html"
+    entries:
+    - title: Verificando SVMs nos clusters
+      url: "/api-automation/concept_verify_svm_workflow.html"
+    - title: Provisionamento de compartilhamentos de arquivos CIFS e NFS
+      url: "/api-automation/concept_provision_file_share.html"
+    - title: Provisionamento de LUNs
+      url: "/api-automation/concept_provision_luns.html"
+    - title: Modificação de workloads de storage
+      url: "/api-automation/concept_modify_workloads_workflow.html"
+      entries:
+      - title: Modificação de um compartilhamento de arquivos NFS para oferecer suporte
+          a CIFS
+        url: "/api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html"

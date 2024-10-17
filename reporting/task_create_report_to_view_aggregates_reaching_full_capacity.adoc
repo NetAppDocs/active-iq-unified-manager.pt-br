@@ -1,0 +1,42 @@
+---
+permalink: reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html 
+sidebar: sidebar 
+keywords: create, report, view, aggregates, reaching, full capacity 
+summary: Você pode criar um relatório para localizar os agregados que estão atingindo a capacidade máxima para adicionar mais capacidade ou mover workloads para outros agregados. 
+---
+= Criação de um relatório para visualizar agregados que atingem a capacidade total
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode criar um relatório para localizar os agregados que estão atingindo a capacidade máxima para adicionar mais capacidade ou mover workloads para outros agregados.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+Use as etapas a seguir para criar uma exibição personalizada que exiba agregados que atingem a capacidade total e, em seguida, agende um relatório a ser gerado para essa exibição.
+
+.Passos
+. No painel de navegação à esquerda, clique em *Storage* > *Aggregates*.
+. No menu Exibir, selecione *capacidade* > *todos os agregados*.
+. Selecione *Mostrar/Ocultar* para remover as colunas que não deseja no relatório.
+. Clique no ícone de filtro, adicione o seguinte filtro e clique em *Apply Filter*:
++
+** Dias para completar menos de 45 dias
+
+
+. Clique na parte superior da coluna ""dias a cheio"" para classificar os resultados pelo menor número de dias restantes para alcançar a capacidade total.
+. Salve a exibição com um nome específico que reflita o que a exibição está mostrando, por exemplo, ""dias para capacidade agregada total"" e clique na marca de seleção (image:../media/blue_check.gif[""]).
+. Clique no botão *relatórios programados* na página de inventário.
+. Clique em *Add Schedule* (Adicionar agendamento) para adicionar uma nova linha à página *Report Schedules* para que você possa definir as caraterísticas de agendamento para o novo relatório.
+. Introduza um nome para a agenda do relatório e preencha os outros campos do relatório e, em seguida, clique na marca de verificação (image:../media/blue_check.gif[""]) no final da linha.
++
+O relatório é enviado imediatamente como um teste. Depois disso, o relatório gera e é enviado por e-mail para os destinatários listados usando a frequência especificada.
+
+
+
+Com base nos resultados mostrados no relatório, você pode querer aumentar o storage em agregados que alcançam a capacidade total. Além disso, você pode querer aumentar o limite dias até capacidade total para mais do que os 7 dias padrão para receber eventos que fornecem mais tempo para reagir ao espaço ficando baixo em agregados.

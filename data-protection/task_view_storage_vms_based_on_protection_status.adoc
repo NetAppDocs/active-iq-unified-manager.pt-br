@@ -1,0 +1,63 @@
+---
+permalink: data-protection/task_view_storage_vms_based_on_protection_status.html 
+sidebar: sidebar 
+keywords: storage vm, view protection status 
+summary: Você pode usar a página Storage VMs do Inventário para visualizar todas as VMs de storage no Active IQ Unified Manager e filtrar as VMs de storage com base em seu status de proteção. 
+---
+= Visualização de VMs de armazenamento com base no status de proteção
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode usar a página Storage VMs do Inventário para visualizar todas as VMs de storage no Active IQ Unified Manager e filtrar as VMs de storage com base em seu status de proteção.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+Uma nova função de proteção de coluna é adicionada à visualização de VMs de storage que fornece informações sobre se a VM de storage está protegida ou não protegida.
+
+[NOTE]
+====
+Se um cluster de origem não for adicionado ao Active IQ Unified Manager, todas as informações relacionadas a esse cluster não estarão disponíveis nas grades.
+
+====
+.Passos
+. No painel de navegação esquerdo, clique em *STORAGE* > *Storage VMs*.
+. No menu *VIEW*, selecione *Health* > *All Storage VMs*.
++
+O estado: Todas as VMs de armazenamento é exibido.
+
+. Clique em *Filter* para visualizar uma das seguintes VMs de armazenamento.
++
+[cols="2*"]
+|===
+| Para ver | Valor do filtro 
+
+
+ a| 
+*VMs de armazenamento protegidas*
+ a| 
+*Função de proteção* é *protegida*
+
+
+
+ a| 
+*VMs de armazenamento desprotegidas*
+ a| 
+*A função de proteção* é *desprotegida*
+
+|===
++
+[NOTE]
+====
+Você não pode visualizar as VMs de storage protegidas e não protegidas ao mesmo tempo. Você precisará limpar o filtro existente para reaplicar uma nova opção de filtro.
+
+====
+. Clique em *Apply Filter* (aplicar filtro).
++
+A visualização não salva exibe todas as VMs de storage protegidas ou desprotegidas pela recuperação de desastres da VM de storage com base nas seleções de filtros.
+
+

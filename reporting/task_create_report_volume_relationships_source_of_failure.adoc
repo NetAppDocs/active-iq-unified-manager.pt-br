@@ -1,0 +1,45 @@
+---
+permalink: reporting/task_create_report_volume_relationships_source_of_failure.html 
+sidebar: sidebar 
+keywords: create, report, group, volume, relationships, source, failure 
+summary: Você pode criar um relatório que agrupa volumes pelo motivo pelo qual o relacionamento está em um estado não saudável. 
+---
+= Criar um relatório para agrupar relações de volume por origem da falha
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode criar um relatório que agrupa volumes pelo motivo pelo qual o relacionamento está em um estado não saudável.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+Use as etapas a seguir para criar uma exibição personalizada que agrupe volumes por origem da falha e, em seguida, programe um relatório a ser gerado para essa exibição.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *volumes*.
+. No menu Exibir, selecione *relacionamento* > *todos os relacionamentos*.
+. Selecione *Mostrar/Ocultar* para se certificar de que as colunas ""Saúde do relacionamento"" e ""razão não saudável"" aparecem na exibição.
++
+Adicione ou remova outras colunas para criar uma exibição importante para o relatório.
+
+. Arraste as colunas "'Saúde do relacionamento" e "'razão não saudável" perto da coluna "'Estado'".
+. Clique no ícone de filtro, adicione o seguinte filtro e clique em *Apply Filter*:
++
+** A saúde do relacionamento é ruim
+
+
+. Clique na parte superior da coluna "motivo não saudável" para agrupar as relações de volume por origem da falha.
+. Salve a exibição com um nome específico que reflita o que a exibição está mostrando, por exemplo, "'relacionamentos vol por falha'".
+. Clique no botão *relatórios programados* na página de inventário.
+. Introduza um nome para a agenda do relatório e preencha os outros campos do relatório e, em seguida, clique na marca de verificação (image:../media/blue_check.gif[""]) no final da linha.
++
+O relatório é enviado imediatamente como um teste. Depois disso, o relatório gera e é enviado por e-mail para os destinatários listados usando a frequência especificada.
+
+
+
+Com base nos resultados mostrados no relatório, você pode investigar a origem e o impactos de cada tipo de falha.

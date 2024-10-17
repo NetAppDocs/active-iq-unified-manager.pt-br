@@ -1,0 +1,44 @@
+---
+permalink: reporting/task_delete_scheduled_reports.html 
+sidebar: sidebar 
+keywords: delete, reports 
+summary: Depois que os relatórios forem agendados, você poderá excluí-los da página Agenda de relatórios. 
+---
+= Eliminar relatórios programados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Depois que os relatórios forem agendados, você poderá excluí-los da página Agenda de relatórios.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+.Passos
+. No painel de navegação à esquerda, clique em *Gerenciamento de armazenamento* > *horários de relatórios*.
++
+image::../media/scheduled_reports_2.gif[Uma captura de tela da IU que mostra relatórios programados.]
+
++
+[NOTE]
+====
+Se você tiver as permissões apropriadas, poderá remover qualquer relatório e sua programação no sistema.
+
+====
+. Clique no ícone mais image:../media/more_icon.gif[""]da agenda que deseja remover.
+. Clique em *Excluir*.
+. Confirme a sua decisão.
++
+O relatório agendado é removido da lista e não será mais gerado e distribuído na programação definida.
+
++
+[NOTE]
+====
+Se você excluir uma exibição personalizada da página de inventário, todos os arquivos personalizados do Excel ou relatórios programados que usam essa exibição também serão excluídos.
+
+====
+

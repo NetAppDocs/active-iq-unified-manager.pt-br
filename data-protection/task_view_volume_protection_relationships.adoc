@@ -1,0 +1,41 @@
+---
+permalink: data-protection/task_view_volume_protection_relationships.html 
+sidebar: sidebar 
+keywords: view, volume, protection relationships 
+summary: 'Na visualização relacionamento: Todas as relações e na página relacionamentos de volume, você pode exibir o status das relações SnapMirror e SnapVault de volume existentes. Você também pode examinar detalhes sobre relacionamentos de proteção, incluindo status de transferência e atraso, detalhes de origem e destino, informações de programação e política, etc.' 
+---
+= Exibindo relações de proteção de volume
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Na visualização relacionamento: Todas as relações e na página relacionamentos de volume, você pode exibir o status das relações SnapMirror e SnapVault de volume existentes. Você também pode examinar detalhes sobre relacionamentos de proteção, incluindo status de transferência e atraso, detalhes de origem e destino, informações de programação e política, etc.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+Você também pode iniciar comandos de relacionamento a partir desta página.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *volumes*.
+. No menu Exibir, selecione *relacionamento* > *todos os relacionamentos*.
++
+A visualização relacionamento: Todas as relações é exibida.
+
+. Escolha uma das seguintes formas de visualizar os detalhes de proteção de volume:
++
+** Para exibir informações atuais sobre todas as relações de volume, permaneça na página padrão *todas as relações*.
+** Para exibir informações detalhadas sobre as tendências de transferência de volume durante um período de tempo, no menu Exibir, selecione relação: Exibição Status da transferência de 1 meses.
+** Para ver informações detalhadas sobre a atividade de transferência de volume dia a dia, no menu Ver, selecione relação: Visualização da taxa de transferência de 1 meses.
+
+
++
+[NOTE]
+====
+As exibições de transferência de volume exibem informações somente para volumes em relacionamentos assíncronos - volumes em relacionamentos síncronos não são exibidos.
+
+====
+

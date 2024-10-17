@@ -1,0 +1,16 @@
+---
+permalink: health-checker/reference_security_events.html 
+sidebar: sidebar 
+keywords: security events 
+summary: 'Os eventos de segurança fornecem informações sobre o status de segurança dos clusters do ONTAP, das máquinas virtuais de armazenamento (SVMs) e dos volumes com base nos parâmetros definidos no Guia de endurecimento de segurança do NetApp para ONTAP 9. Esses eventos notificam você sobre possíveis problemas para que você possa avaliar a gravidade deles e corrigir o problema, se necessário.' 
+---
+= Eventos de segurança
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Os eventos de segurança fornecem informações sobre o status de segurança de clusters do ONTAP, máquinas virtuais de armazenamento (SVMs) e volumes com base nos parâmetros definidos no _Guia de endurecimento de Segurança do NetApp para ONTAP 9_. Esses eventos notificam você sobre possíveis problemas para que você possa avaliar a gravidade deles e corrigir o problema, se necessário.
+
+Os eventos de segurança são agrupados por tipo de origem e incluem o nome do evento e da armadilha, o nível de impactos e a gravidade. Esses eventos aparecem nas categorias de eventos de VM de armazenamento e cluster.

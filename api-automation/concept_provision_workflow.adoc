@@ -1,0 +1,37 @@
+---
+permalink: api-automation/concept_provision_workflow.html 
+sidebar: sidebar 
+keywords: workflow, workload, management 
+summary: 'Com o Active IQ Unified Manager, você pode provisionar e modificar workloads de storage (LUNs, compartilhamentos de arquivos NFS e compartilhamentos CIFS). O provisionamento consiste em várias etapas, desde a criação da Storage Virtual Machine (SVM) até a aplicação de políticas de nível de serviço de performance e eficiência de storage nos workloads de storage. A modificação de cargas de trabalho consiste nas etapas para modificar parâmetros específicos e habilitar recursos adicionais neles.' 
+---
+= Workflows de API para gerenciamento de workload
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Com o Active IQ Unified Manager, você pode provisionar e modificar workloads de storage (LUNs, compartilhamentos de arquivos NFS e compartilhamentos CIFS). O provisionamento consiste em várias etapas, desde a criação da Storage Virtual Machine (SVM) até a aplicação de políticas de nível de serviço de performance e eficiência de storage nos workloads de storage. A modificação de cargas de trabalho consiste nas etapas para modificar parâmetros específicos e habilitar recursos adicionais neles.
+
+Os seguintes fluxos de trabalho são descritos:
+
+* Fluxo de trabalho para provisionar máquinas virtuais de storage (SVMs) no Unified Manager.
++
+[NOTE]
+====
+Esse fluxo de trabalho deve ser executado antes de provisionar LUNs ou compartilhamentos de arquivos no Unified Manager.
+
+====
+* Provisionamento de compartilhamentos de arquivo.
+* Provisionamento de LUNs.
+* Modificação de LUNs e compartilhamentos de arquivos (usando o exemplo para atualizar o parâmetro Performance Service Level para os workloads de storage).
+* Modificação de um compartilhamento de arquivos NFS para dar suporte ao protocolo CIFS
+* Modificação de workloads para atualizar a QoS para AQoS
+
+
+[NOTE]
+====
+Para cada fluxo de trabalho de provisionamento (LUN e compartilhamentos de arquivos), certifique-se de que você tenha concluído o fluxo de trabalho para verificar os SVMs nos clusters.
+
+====
+Você também deve ler as recomendações e limitações antes de usar cada API nos fluxos de trabalho. Os detalhes relevantes das APIs estão disponíveis em suas seções individuais listadas nos conceitos e referências relacionados.

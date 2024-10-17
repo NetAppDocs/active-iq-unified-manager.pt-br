@@ -1,0 +1,30 @@
+---
+permalink: storage-mgmt/reference_unknown_authentication_error.html 
+sidebar: sidebar 
+keywords: unknown, authentication, error 
+summary: 'Solução de problemas: Erro de autenticação desconhecido' 
+---
+= Erro de autenticação desconhecido
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Quando você está executando uma operação relacionada à autenticação, como adicionar, editar, excluir ou testar usuários ou grupos remotos, a seguinte mensagem de erro pode ser exibida: `Unknown authentication error.`
+
+*Causa*
+
+Esse problema pode ocorrer se você tiver definido um valor incorreto para as seguintes opções:
+
+* Nome do administrador do serviço de autenticação do ative Directory
+* Vincular Nome distinto do serviço de autenticação OpenLDAP
+
+
+*Ações corretivas*
+
+. No painel de navegação esquerdo, clique em *Geral* > *Autenticação remota*.
+. Com base no serviço de autenticação que selecionou, introduza as informações adequadas para Nome de administrador ou Nome distinto vincular.
+. Clique em *Test Authentication* para testar a autenticação com os detalhes especificados.
+. Clique em *Salvar*.
+

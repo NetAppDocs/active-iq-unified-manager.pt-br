@@ -1,0 +1,29 @@
+---
+permalink: health-checker/task_delete_groups.html 
+sidebar: sidebar 
+keywords: delete, groups 
+summary: Você pode excluir um grupo do Unified Manager quando o grupo não for mais necessário. 
+---
+= Eliminar grupos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode excluir um grupo do Unified Manager quando o grupo não for mais necessário.
+
+*O que você vai precisar*
+
+* Nenhum dos objetos de storage (clusters, SVMs ou volumes) deve estar associado a qualquer regra de grupo associada ao grupo que você deseja excluir.
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+.Passos
+. No painel de navegação esquerdo, clique em *Gerenciamento de armazenamento* > *grupos*.
+. Na guia *Groups*, selecione o grupo que deseja excluir e clique em *Delete*.
+. Na caixa de diálogo *Aviso*, confirme a exclusão clicando em *Sim*.
++
+A exclusão de um grupo não exclui as ações de grupo associadas ao grupo. No entanto, essas ações de grupo não serão mapeadas após o grupo ser excluído.
+
+

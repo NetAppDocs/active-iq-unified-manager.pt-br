@@ -1,0 +1,42 @@
+---
+permalink: health-checker/task_resolve_capacity_issues.html 
+sidebar: sidebar 
+keywords: resolve, capacity issues 
+summary: Este fluxo de trabalho fornece um exemplo de como você pode resolver um problema de capacidade. Nesse cenário, você é um administrador ou operador e acessa a página Painel do Unified Manager para ver se algum dos objetos de armazenamento monitorados tem problemas de capacidade. Você deseja determinar a possível causa e resolução do problema. 
+---
+= Resolução de problemas de capacidade
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Este fluxo de trabalho fornece um exemplo de como você pode resolver um problema de capacidade. Nesse cenário, você é um administrador ou operador e acessa a página do Unified ManagerDashboard para ver se algum dos objetos de storage monitorados tem problemas de capacidade. Você deseja determinar a possível causa e resolução do problema.
+
+*O que você vai precisar*
+
+Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+
+Na página Painel, você procura um evento de erro ""espaço de volume cheio"" no painel capacidade na lista suspensa eventos.
+
+.Passos
+. No painel *Capacity* da página *Dashboard*, clique no nome do evento de erro espaço em volume cheio.
++
+A página de detalhes do evento para o erro é exibida.
+
+. Na página de detalhes do *evento*, você pode executar uma ou mais das seguintes tarefas:
++
+** Reveja a mensagem de erro no campo causa e clique nas sugestões em ações corretivas sugeridas para rever as descrições de possíveis correções.
+** Clique no nome do objeto, neste caso um volume, no campo fonte para obter detalhes sobre o objeto.
+** Procure por notas que possam ter sido adicionadas sobre este evento.
+** Adicione uma nota ao evento.
+** Atribua o evento a outro usuário.
+** Confirme o evento.
+** Marque o evento como resolvido.
+
+
+
+
+*Informações relacionadas*
+
+link:../events/reference_event_details_page.html["Página de detalhes do evento"]

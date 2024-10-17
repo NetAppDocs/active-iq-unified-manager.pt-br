@@ -1,0 +1,42 @@
+---
+permalink: config/task_enable_and_disable_ability_to_upload_scripts.html 
+sidebar: sidebar 
+keywords: script upload, enable, disable 
+summary: A capacidade de carregar scripts para o Unified Manager e executá-los é ativada por padrão. Se a sua organização não quiser permitir esta atividade por motivos de segurança, pode desativar esta funcionalidade. 
+---
+= Ativar e desativar o carregamento de scripts
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+A capacidade de carregar scripts para o Unified Manager e executá-los é ativada por padrão. Se a sua organização não quiser permitir esta atividade por motivos de segurança, pode desativar esta funcionalidade.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações.
+
+.Passos
+. No painel de navegação à esquerda, clique em *Geral* > *Definições da funcionalidade*.
+. Na página *Configurações de recursos*, desative ou habilite o script escolhendo uma das seguintes opções:
++
+[cols="2*"]
+|===
+| Se você quiser... | Então faça isso... 
+
+
+ a| 
+Desativar scripts
+ a| 
+No painel *Script Upload*, mova o botão deslizante para a esquerda.
+
+
+
+ a| 
+Ativar scripts
+ a| 
+No painel *Script Upload*, mova o botão deslizante para a direita.
+
+|===
+

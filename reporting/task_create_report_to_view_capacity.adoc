@@ -1,0 +1,96 @@
+---
+permalink: reporting/task_create_report_to_view_capacity.html 
+sidebar: sidebar 
+keywords: create, report, show, aggregate, capacity, table, chart 
+summary: Você pode criar um relatório para analisar a capacidade em um arquivo do Excel usando totais somados e o formato de gráfico de colunas agrupadas. 
+---
+= Criando um relatório para mostrar uma tabela de capacidade agregada e um gráfico
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode criar um relatório para analisar a capacidade em um arquivo do Excel usando totais somados e o formato de gráfico de colunas agrupadas.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+Use as etapas a seguir para abrir uma exibição Saúde: Todos os agregados, baixar a exibição no Excel, criar um gráfico de capacidade disponível, fazer o upload do arquivo Excel personalizado e agendar o relatório final.
+
+.Passos
+. No painel de navegação à esquerda, clique em *Storage* > *Aggregates*.
+. Selecione *relatórios* > *Download Excel*.
++
+image::../media/download_excel_menu.png[Uma captura de tela da IU que mostra como baixar o excel a partir de relatórios.]
+
++
+Dependendo do navegador, talvez seja necessário clicar em *OK* para salvar o arquivo.
+
+. Se necessário, clique em *Ativar Edição*.
+. No Excel, abra o arquivo baixado.
+. Crie uma nova folha (image:../media/excel_new_sheet_icon.png[""]) após a `data` folha e nomeie-a *capacidade total de dados*.
+. Adicione as seguintes colunas na nova folha capacidade total de dados:
++
+.. Capacidade total de dados (GB)
+.. Capacidade comprometida (GB)
+.. Capacidade de dados usada (GB)
+.. Capacidade de dados disponível (GB)
+
+
+. Na primeira linha de cada coluna, insira a seguinte fórmula, certificando-se de que ela faz referência à folha de dados (dados!), e faz referência aos especificadores de coluna e linha corretos para os dados capturados (Total Data Capacity puxa dados da coluna e, linhas 2 a 20).
++
+.. (Dados!e USD 2:dados!e USD 20)
+.. SOMA(data!F 2:data!F 50)
+.. SOMA(data!2:data!50)
+.. SOMA(data!H 2:data!H 50)
+
+
++
+A fórmula totaliza cada coluna com base nos dados atuais.
+
+
+
+image::../media/capacitysums.png[Uma captura de tela da IU de uma folha de dados que mostra a capacidade total com base nos dados atuais.]
+
+. Na folha de dados, selecione as colunas *capacidade total de dados (GB)* e *capacidade comprometida (GB)*.
+. Selecione *gráficos recomendados* no menu *Inserir* e selecione o gráfico *coluna agrupada*.
+. Clique com o botão direito do rato no gráfico e selecione *mover gráfico* para mover o gráfico para a `Total Data Capacity` folha.
+. Usando os menus *Design* e *Format*, que estão disponíveis quando o gráfico é selecionado, você pode personalizar a aparência do gráfico.
+. Quando estiver satisfeito, salve o arquivo com suas alterações. Não altere o nome ou a localização do ficheiro.
++
+image::../media/cluster_column_chart_2.png[Uma captura de tela da IU de um gráfico que mostra o total de dados e a capacidade comprometida.]
+
+. No Unified Manager, selecione *relatórios* > *carregar Excel*.
++
+[NOTE]
+====
+Certifique-se de que você está na mesma exibição em que você baixou o arquivo do Excel.
+
+====
+. Selecione o ficheiro Excel que modificou.
+. Clique em *abrir*.
+. Clique em *Enviar*.
++
+Uma marca de seleção aparece ao lado do item de menu *relatórios* > *carregar Excel*.
+
++
+image::../media/upload_excel.png[Uma captura de tela da IU que mostra como fazer upload do excel para relatórios.]
+
+. Clique em *relatórios programados*.
+. Clique em *Add Schedule* (Adicionar agendamento) para adicionar uma nova linha à página Report Schedules (agendas de relatórios) para que você possa definir as caraterísticas de agendamento para o novo relatório.
++
+[NOTE]
+====
+Selecione o formato *XLSX* para o relatório.
+
+====
+. Introduza um nome para a agenda do relatório e preencha os outros campos do relatório e, em seguida, clique na marca de verificação (image:../media/blue_check.gif[""]) no final da linha.
++
+O relatório é enviado imediatamente como um teste. Depois disso, o relatório gera e é enviado por e-mail para os destinatários listados usando a frequência especificada.
+
+
+
+Com base nos resultados mostrados no relatório, você pode querer investigar como usar melhor a capacidade disponível em toda a rede.

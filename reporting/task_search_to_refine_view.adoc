@@ -1,0 +1,23 @@
+---
+permalink: reporting/task_search_to_refine_view.html 
+sidebar: sidebar 
+keywords: search, refine, view 
+summary: Depois de ter a visualização desejada, você pode refinar ainda mais os resultados usando o campo pesquisar para se concentrar nos resultados que deseja incluir no relatório. 
+---
+= Usando a pesquisa para refinar sua visualização
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Depois de ter a visualização desejada, você pode refinar ainda mais os resultados usando o campo pesquisar para se concentrar nos resultados que deseja incluir no relatório.
+
+.Passos
+. Abra o modo de exibição personalizado ou padrão que você deseja usar como base do relatório.
+. Digite o campo pesquisar para refinar os dados listados na exibição. Pode introduzir dados parciais em qualquer uma das colunas apresentadas. Por exemplo, se você quiser pesquisar nós que incluem "US_East" no nome, você pode refinar a lista completa de nós.
++
+Os resultados da pesquisa são salvos na exibição personalizada e usados no relatório agendado resultante.
+
+. Atribua um nome à vista não guardada para guardar as alterações.
+

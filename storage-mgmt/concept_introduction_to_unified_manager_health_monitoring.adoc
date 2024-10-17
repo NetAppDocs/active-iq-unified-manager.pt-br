@@ -1,0 +1,90 @@
+---
+permalink: storage-mgmt/concept_introduction_to_unified_manager_health_monitoring.html 
+sidebar: sidebar 
+keywords: introduction, active iq unified manager, throughput, Mbps, Kbps, GiB, TiB, logical capacity, PiB, Capacity measurement units 
+summary: Capacidade física e lógica das unidades de medição de capacidade 
+---
+= Introdução ao monitoramento da saúde do Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+O Active IQ Unified Manager (antigo Gerenciador Unificado de OnCommand) ajuda você a monitorar um grande número de sistemas que executam o software ONTAP por meio de uma interface de usuário centralizada. A infraestrutura de servidor do Unified Manager oferece escalabilidade, capacidade de suporte e recursos aprimorados de monitoramento e notificação.
+
+Os principais recursos do Unified Manager incluem monitoramento, alerta, gerenciamento de disponibilidade e capacidade dos clusters, gerenciamento de recursos de proteção e agrupamento de dados de diagnóstico e envio para o suporte técnico.
+
+Você pode usar o Unified Manager para monitorar os clusters. Quando ocorrem problemas no cluster, o Unified Manager notifica você sobre os detalhes de tais problemas por meio de eventos. Alguns eventos também fornecem uma ação corretiva que você pode tomar para corrigir os problemas. Você pode configurar alertas para eventos para que, quando os problemas ocorrem, você seja notificado por e-mail e traps SNMP.
+
+Você pode usar o Unified Manager para gerenciar objetos de storage em seu ambiente associando-os a anotações. Você pode criar anotações personalizadas e associar dinamicamente clusters, máquinas virtuais de armazenamento (SVMs) e volumes às anotações por meio de regras.
+
+Você também pode Planejar os requisitos de armazenamento dos objetos de cluster usando as informações fornecidas nos gráficos de capacidade e integridade para o respetivo objeto de cluster.
+
+
+
+== Capacidade física e lógica
+
+O Unified Manager faz uso dos conceitos de espaço físico e lógico usados para objetos de storage do ONTAP.
+
+* Capacidade física: O espaço físico refere-se aos blocos físicos de armazenamento utilizados no volume. "Capacidade física usada" geralmente é menor que a capacidade lógica usada devido à redução de dados de recursos de eficiência de storage (como deduplicação e compactação).
+* Capacidade lógica: O espaço lógico refere-se ao espaço utilizável (os blocos lógicos) em um volume. O espaço lógico refere-se a como o espaço teórico pode ser usado, sem levar em conta os resultados da deduplicação ou compressão. "Espaço lógico usado" é o espaço físico usado, além da economia com recursos de eficiência de storage (como deduplicação e compactação) que foram configurados. Essa medida geralmente parece maior do que a capacidade física usada, pois isso não reflete a compressão de dados e outras reduções no espaço físico. Assim, a capacidade lógica total poderia ser maior do que o espaço provisionado.
+
+
+
+
+== Unidades de medição da capacidade
+
+O Unified Manager calcula a capacidade de armazenamento com base em unidades binárias de 1024 (2,10) bytes. No ONTAP 9.10,0 e anterior, essas unidades foram exibidas como KB, MB, GB, TB e PB. A partir do ONTAP 9.10,1, eles são exibidos no Gerenciador Unificado como KiB, MIB, GiB, TIB e PIB.
+
+
+NOTE: As unidades usadas para a taxa de transferência continuam a ser kilobytes por segundo (Kbps), megabytes por segundo (Mbps), Gigabytes por segundo (Gbps) ou Terabytes por segundo (Tbps) e assim por diante, para todas as versões do ONTAP.
+
+[cols="4*"]
+|===
+| Unidade de capacidade exibida no Gerenciador Unificado para ONTAP 9.10,0 e anterior | Unidade de capacidade exibida no Gerenciador Unificado para o ONTAP 9.10,1 | Cálculo | Valor em bytes 
+
+
+ a| 
+KB
+ a| 
+KiB
+ a| 
+1024
+ a| 
+1024 bytes
+
+
+
+ a| 
+MB
+ a| 
+MIB
+ a| 
+1024 * 1024
+ a| 
+1.048.576 bytes
+
+
+
+ a| 
+GB
+ a| 
+Gib
+ a| 
+1024 * 1024 * 1024
+ a| 
+1.073.741.824 bytes
+
+
+
+ a| 
+TB
+ a| 
+TIB
+ a| 
+1024 * 1024 * 1024 * 1024
+ a| 
+1.099.511.627.776 bytes
+
+|===

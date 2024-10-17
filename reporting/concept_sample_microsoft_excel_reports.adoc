@@ -1,0 +1,22 @@
+---
+permalink: reporting/concept_sample_microsoft_excel_reports.html 
+sidebar: sidebar 
+keywords: sample, microsoft, excel, reports 
+summary: Esses relatórios de exemplo do Microsoft Excel destinam-se a introduzir opções de relatórios disponíveis usando recursos avançados do Excel. 
+---
+= Exemplos de relatórios do Microsoft Excel
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Esses relatórios de exemplo do Microsoft Excel destinam-se a introduzir opções de relatórios disponíveis usando recursos avançados do Excel.
+
+A funcionalidade avançada do Excel pode criar uma grande variedade de relatórios específicos às suas necessidades. Para obter informações completas sobre como usar o Excel, consulte a documentação do produto.
+
+[NOTE]
+====
+Você deve ter a função Administrador de aplicativos ou Administrador de armazenamento para gerenciar relatórios.
+
+====

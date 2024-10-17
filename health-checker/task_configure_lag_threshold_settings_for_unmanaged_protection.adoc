@@ -1,0 +1,33 @@
+---
+permalink: health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html 
+sidebar: sidebar 
+keywords: configure, lag, threshold settings, unmanaged, protection, relationships 
+summary: Você pode editar as configurações de aviso de atraso padrão global e limite de integridade de erro para relacionamentos de proteção não gerenciados para que os eventos sejam gerados em intervalos adequados às suas necessidades. 
+---
+= Configuração de configurações de limite de atraso para relacionamentos de proteção não gerenciados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode editar as configurações de aviso de atraso padrão global e limite de integridade de erro para relacionamentos de proteção não gerenciados para que os eventos sejam gerados em intervalos adequados às suas necessidades.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+O tempo de atraso não deve ser superior ao intervalo de programação de transferência definido. Por exemplo, se o agendamento de transferência for de hora em hora, o tempo de atraso não deve ser superior a uma hora. O limite de atraso especifica uma porcentagem que o tempo de atraso não deve exceder. Usando o exemplo de uma hora, se o limite de atraso for definido como 150%, você receberá um evento quando o tempo de atraso for superior a 1,5 horas.
+
+As configurações descritas nesta tarefa são aplicadas globalmente a todos os relacionamentos de proteção não gerenciados. As configurações não podem ser especificadas e aplicadas exclusivamente a uma relação de proteção não gerenciada.
+
+.Passos
+. No painel de navegação à esquerda, clique em *limiares de eventos* > *relacionamento*.
+. Aumente ou diminua a percentagem de tempo de atraso de aviso ou erro padrão global, conforme necessário.
+. Para desativar o acionamento de um evento de aviso ou erro a partir de qualquer valor limite de atraso, desmarque a caixa ao lado de *Enabled*.
+. Clique em *Salvar*.
+
+
+*Informações relacionadas*
+
+link:../config/task_add_users.html["Adicionando usuários"]

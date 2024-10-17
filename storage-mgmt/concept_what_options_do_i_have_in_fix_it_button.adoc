@@ -1,0 +1,81 @@
+---
+permalink: storage-mgmt/concept_what_options_do_i_have_in_fix_it_button.html 
+sidebar: sidebar 
+keywords: fix it,fix all 
+summary: A página ações de gerenciamento fornece o botão corrigir ou corrigir tudo para corrigir problemas sobre os quais o Unified Manager foi notificado por meio de um evento. 
+---
+= Que opções tenho quando vejo o botão corrigir ou corrigir tudo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+A página ações de gerenciamento fornece o botão *Fix it* ou *Fix All* para corrigir problemas sobre os quais o Unified Manager foi notificado por meio de um evento.
+
+Recomendamos que você clique nos botões para corrigir um problema, conforme necessário. No entanto, se você não tiver certeza de que deseja resolver o problema conforme recomendado pelo Unified Manager, poderá executar as seguintes ações:
+
+|===
+| O que você quer fazer? | *Ação* 
+
+
+ a| 
+Solicite ao Unified Manager que corrija o problema em todos os objetos identificados.
+ a| 
+Clique no botão *Fix All*.
+
+
+
+ a| 
+Não corrija o problema de nenhum dos objetos identificados neste momento e oculte essa ação de gerenciamento até que o evento seja levantado novamente.
+ a| 
+Clique na seta para baixo e clique em *Descartar tudo*.
+
+
+
+ a| 
+Corrija o problema apenas em alguns dos objetos identificados.
+ a| 
+Clique no nome da ação de gerenciamento para expandir a lista e mostrar todas as ações individuais *Fix it*.em seguida, siga as etapas para corrigir ou descartar ações individuais de gerenciamento.
+
+|===
+|===
+| O que você quer fazer? | Ação 
+
+
+ a| 
+Peça ao Unified Manager para corrigir o problema.
+ a| 
+Clique no botão *Fix it*.
+
+
+
+ a| 
+Não corrija o problema neste momento e oculte essa ação de gerenciamento até que o evento seja levantado novamente.
+ a| 
+Clique na seta para baixo e clique em *Descartar*.
+
+
+
+ a| 
+Exiba os detalhes deste evento para que você possa entender melhor o problema.
+ a| 
+* Clique no botão *Fix it* e revise a correção que será aplicada na caixa de diálogo resultante.
+* Clique na seta para baixo e clique em *Exibir detalhes do evento* para exibir a página de detalhes do evento.
+
+
+Em seguida, clique em *Fix it* de qualquer uma dessas páginas resultantes se você quiser corrigir o problema.
+
+
+
+ a| 
+Exiba os detalhes desse objeto de armazenamento para que você possa entender melhor o problema.
+ a| 
+Clique no nome do objeto de armazenamento para exibir detalhes na página Performance Explorer ou Health Details.
+
+|===
+Em alguns casos, a correção é refletida na próxima sondagem de configuração de 15 minutos. Em outros casos, pode levar até muitas horas para que a alteração de configuração seja verificada e para que o evento seja obsoleto.
+
+Para ver a lista de ações de gerenciamento concluídas ou em andamento, clique no ícone de filtro e selecione *Concluído* ou *em andamento*.
+
+Corrigir todas as operações executadas de forma serial, portanto, quando você visualizar o painel *em andamento* alguns objetos terão o Status *em andamento* enquanto outros terão o Status *agendado*; o que significa que eles ainda estão aguardando para serem implementados.

@@ -1,0 +1,22 @@
+---
+permalink: health-checker/concept_manage_cluster_security_objectives.html 
+sidebar: sidebar 
+keywords: cluster, security, manage, objectives 
+summary: 'O Unified Manager fornece um dashboard que identifica a segurança dos clusters, das máquinas virtuais de storage (SVMs) e dos volumes do ONTAP com base nas recomendações definidas no Guia de endurecimento de segurança da NetApp para ONTAP 9.' 
+---
+= Gerenciamento dos objetivos de segurança do cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+O Unified Manager fornece um dashboard que identifica a segurança dos clusters do ONTAP, das máquinas virtuais de storage (SVMs) e dos volumes com base nas recomendações definidas no _Guia de endurecimento de segurança do NetApp para ONTAP 9_.
+
+O objetivo do dashboard de segurança é mostrar todas as áreas em que os clusters do ONTAP não estejam alinhados às diretrizes recomendadas do NetApp para que você possa corrigir esses possíveis problemas. Na maioria dos casos, você corrigirá os problemas usando o Gerenciador de sistema do ONTAP ou a CLI do ONTAP. Sua organização pode não seguir todas as recomendações, então, em alguns casos, você não precisará fazer alterações.
+
+Consulte o https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf["Guia de endurecimento de segurança da NetApp para ONTAP 9"^] (TR-4569) para obter recomendações e resoluções detalhadas.
+
+Além de informar o status de segurança, o Unified Manager também gera eventos de segurança para qualquer cluster ou SVM que tenha violações de segurança. Você pode rastrear esses problemas na página de inventário do Gerenciamento de Eventos e configurar alertas para esses eventos para que o administrador de armazenamento seja notificado quando novos eventos de segurança ocorrerem.
+
+Para obter mais informações, link:../health-checker/concept_what_security_criteria_is_being_evaluated.html["Quais critérios de segurança estão sendo avaliados"]consulte .

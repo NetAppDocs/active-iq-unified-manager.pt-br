@@ -1,0 +1,37 @@
+---
+permalink: reporting/task_create_report_to_view_failed_or_successful_volume_transfers.html 
+sidebar: sidebar 
+keywords: create, report, view, failed, successful, volume, transfer 
+summary: Você pode criar um relatório que exibe o status das transferências de volume. Pode visualizar transferências de volume falhadas e bem-sucedidas neste relatório. 
+---
+= A criação de um relatório para visualizar a transferência de volume falhou ou bem-sucedida
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode criar um relatório que exibe o status das transferências de volume. Pode visualizar transferências de volume falhadas e bem-sucedidas neste relatório.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+Use as etapas a seguir para criar uma exibição personalizada para mostrar quais transferências falharam e quais foram bem-sucedidas e, em seguida, agendar um relatório a ser gerado para essa exibição.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *volumes*.
+. No menu Exibir, selecione *relacionamento* > *último Status da transferência de 1 meses*.
+. Selecione *Mostrar/Ocultar* para remover as colunas que não deseja no relatório.
+. Arraste a coluna "resultado da operação" perto da coluna "Estado".
+. Clique na parte superior da coluna "resultado da operação" para classificar os volumes pelo status.
+. Salve a exibição com um nome específico que reflita o que a exibição está mostrando, por exemplo "'volumes por status de transferência".
+. Clique no botão *relatórios programados* na página de inventário.
+. Introduza um nome para a agenda do relatório e preencha os outros campos do relatório e, em seguida, clique na marca de verificação (image:../media/blue_check.gif[""]) no final da linha.
++
+O relatório é enviado imediatamente como um teste. Depois disso, o relatório gera e é enviado por e-mail para os destinatários listados usando a frequência especificada.
+
+
+
+Com base nos resultados apresentados no relatório, pode investigar o estado da transferência.

@@ -1,0 +1,27 @@
+---
+permalink: storage-mgmt/task_view_user_and_user_group_quotas.html 
+sidebar: sidebar 
+keywords: view, user, user, group, quotas 
+summary: A página de detalhes de VM/integridade de storage exibe informações sobre as cotas de usuário e grupo de usuários configuradas no SVM. Você pode exibir o nome do usuário ou grupo de usuários, os limites definidos nos discos e arquivos, o espaço usado em disco e arquivo e o endereço de e-mail para notificação. 
+---
+= Exibindo cotas de usuário e grupo de usuários
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+A página de detalhes de VM/integridade de storage exibe informações sobre as cotas de usuário e grupo de usuários configuradas no SVM. Você pode exibir o nome do usuário ou grupo de usuários, os limites definidos nos discos e arquivos, o espaço usado em disco e arquivo e o endereço de e-mail para notificação.
+
+*O que você vai precisar*
+
+Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *Storage VMs*.
+. Na exibição *Saúde: Todas as VMs de armazenamento*, selecione uma VM de armazenamento e clique na guia *cotas de usuário e grupo*.
+
+
+*Informações relacionadas*
+
+link:../config/task_add_users.html["Adicionando usuários"]

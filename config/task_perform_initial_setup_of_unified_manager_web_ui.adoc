@@ -1,0 +1,54 @@
+---
+permalink: config/task_perform_initial_setup_of_unified_manager_web_ui.html 
+sidebar: sidebar 
+keywords: perform, initial, setup, unified manager web ui 
+summary: Para usar o Unified Manager, você deve primeiro configurar as opções de configuração inicial, incluindo o servidor NTP, o endereço de e-mail do usuário de manutenção, o host do servidor SMTP e a adição de clusters ONTAP. 
+---
+= Executando a configuração inicial da IU da Web do Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Para usar o Unified Manager, você deve primeiro configurar as opções de configuração inicial, incluindo o servidor NTP, o endereço de e-mail do usuário de manutenção, o host do servidor SMTP e a adição de clusters ONTAP.
+
+*O que você vai precisar*
+
+Você deve ter realizado as seguintes operações:
+
+* Inicie a IU da Web do Unified Manager usando o URL fornecido após a instalação
+* Logado usando o nome de usuário de manutenção e senha (usuário umadmin para instalações Linux) criados durante a instalação
+
+
+A página Gerenciamento Unificado do Active IQ é exibida somente quando você acessa a IU da Web pela primeira vez. A página abaixo é de uma instalação na VMware.
+
+image::../media/first_experience_wizard.JPG[Uma captura de tela da IU que mostra uma página da instalação no VMware.]
+
+Se você quiser alterar qualquer uma dessas opções posteriormente, selecione sua opção nas opções Gerais no painel de navegação esquerdo do Unified Manager. Observe que a configuração NTP é somente para instalações VMware e pode ser alterada posteriormente usando o console de manutenção do Unified Manager.
+
+.Passos
+. Na página Configuração inicial do Active IQ Unified Manager, insira o endereço de e-mail do usuário de manutenção, o nome do host do servidor SMTP e quaisquer opções adicionais de SMTP e o servidor NTP (somente instalações VMware). Em seguida, clique em *continuar*.
++
+[NOTE]
+====
+Se você tiver selecionado a opção *Use STARTTLS* ou *Use SSL*, uma página de certificado será exibida após clicar no botão *Continue*. Verifique os detalhes do certificado e aceite o certificado para continuar com as configurações iniciais da IU da Web.
+
+====
+. Na página AutoSupport, clique em *Concordo e continuar* para ativar o envio de mensagens do AutoSupport do Unified Manager para o NetAppactive IQ.
++
+Se você precisar designar um proxy para fornecer acesso à Internet para enviar conteúdo AutoSupport ou se quiser desativar o AutoSupport, use a opção *Geral* > *AutoSupport* na interface da Web.
+
+. Nos sistemas Red Hat e CentOS, altere a senha do usuário umadmin da cadeia padrão "'admin" para uma cadeia personalizada.
+. Na página Configurar gateway de API, selecione se deseja usar o recurso de gateway de API que permite ao Gerenciador Unificado gerenciar os clusters do ONTAP que você está planejando monitorar usando APIs REST do ONTAP. Em seguida, clique em *continuar*.
++
+Você pode ativar ou desativar essa configuração posteriormente na IU da Web em *Geral* > *Configurações de recursos* > *Gateway de API*. Para obter mais informações sobre as APIs, link:../api-automation/concept_get_started_with_um_apis.html["Primeiros passos com as APIS REST do Active IQ Unified Manager"]consulte .
+
+. Adicione os clusters que você deseja que o Unified Manager gerencie e clique em *Avançar*. Para cada cluster que você pretende gerenciar, você deve ter o nome do host ou o endereço IP de gerenciamento de cluster (IPv4 ou IPv6) juntamente com as credenciais de nome de usuário e senha - o usuário deve ter a função ""admin"".
++
+Este passo é opcional. Você pode adicionar clusters mais tarde na IU da Web em *Gerenciamento de armazenamento* > *Configuração de cluster*.
+
+. Na página Resumo, verifique se todas as configurações estão corretas e clique em *concluir*.
+
+
+A página Introdução fecha-se e a página Painel do Unified Manager é exibida.

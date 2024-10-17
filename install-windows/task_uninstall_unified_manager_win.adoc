@@ -1,0 +1,57 @@
+---
+permalink: install-windows/task_uninstall_unified_manager_win.html 
+sidebar: sidebar 
+keywords: uninstall, unified manager 
+summary: Você pode desinstalar o Unified Manager usando o assistente programas e recursos ou executando uma desinstalação autônoma da interface da linha de comando. 
+---
+= Desinstalar o Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+:pp: &#43;&#43;
+
+
+[role="lead"]
+Você pode desinstalar o Unified Manager usando o assistente programas e recursos ou executando uma desinstalação autônoma da interface da linha de comando.
+
+*O que você vai precisar*
+
+* Você deve ter o Privileges administrador do Windows.
+* Todos os clusters (fontes de dados) devem ser removidos do servidor do Unified Manager antes de desinstalar o software.
+* Você deve excluir manualmente as regras de firewall criadas para permitir ou bloquear a porta MySQL 3306. As regras de firewall não são excluídas automaticamente.
+
+
+.Passos
+. Desinstale o Unified Manager escolhendo uma das seguintes opções:
++
+** Se você desinstalar o Unified Manager do assistente *programas e recursos*, execute estas etapas:
++
+... Navegue até *Painel de Controle* > *Programa e recursos*.
+... Selecione Active IQ Unified Manager e clique em *Desinstalar*.
+
+
+** Se você desinstalar o Unified Manager da linha de comando, execute estas etapas:
++
+... Faça login na linha de comando do Windows usando o administrador Privileges.
+... Navegue até o diretório Active IQ Unified Manager e execute o seguinte comando:
++
+`+msiexec /x {A78760DB-7EC0-4305-97DB-E4A89CDFF4E1} /qn /l*v %systemdrive%\UmUnInstall.log+`
+
++
+Se o Controle de conta de Usuário (UAC) estiver ativado no servidor e você estiver conetado como um usuário de domínio, você deverá usar o método de desinstalação da linha de comando.
+
++
+O Unified Manager é desinstalado do sistema.
+
+
+
+
+
+. Desinstale os seguintes pacotes e dados de terceiros que não são removidos durante a desinstalação do Unified Manager:
++
+** Pacotes de terceiros: JRE, MySQL, Microsoft Visual C& n.o 43;& n.o 43; 2015 Redistributable, Python e 7zip
+** Dados da aplicação MySQL gerados pelo Unified Manager
+** Registos de aplicações e conteúdos do diretório de dados da aplicação
+
+
+

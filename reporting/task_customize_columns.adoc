@@ -1,0 +1,23 @@
+---
+permalink: reporting/task_customize_columns.html 
+sidebar: sidebar 
+keywords: customize, columns 
+summary: Use Mostrar/Ocultar para escolher as colunas que deseja usar no relatório. Arraste as colunas na página de inventário para reorganizá-las. 
+---
+= Personalizar colunas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Use *Mostrar/Ocultar* para escolher as colunas que deseja usar no relatório. Arraste as colunas na página de inventário para reorganizá-las.
+
+.Passos
+. Clique em *Mostrar/Ocultar* para adicionar ou remover colunas.
++
+image::../media/show_hide_3.png[Uma captura de tela da IU que mostra como adicionar ou remover colunas.]
+
+. Na página de inventário, arraste colunas para reorganizá-las na ordem desejada no relatório.
+. Atribua um nome à vista não guardada para guardar as alterações.
+

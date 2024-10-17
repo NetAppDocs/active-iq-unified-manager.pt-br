@@ -1,0 +1,36 @@
+---
+permalink: events/task_schedule_maintenance_window_to_disable_cluster_notifications.html 
+sidebar: sidebar 
+keywords: schedule, maintenance, window, disable, cluster, event, notifications 
+summary: Se você tiver um tempo de inatividade planejado para um cluster, por exemplo, para atualizar o cluster ou mover um dos nós, poderá suprimir os eventos e alertas que normalmente seriam gerados durante esse período agendando uma janela de manutenção do Unified Manager. 
+---
+= Agendar uma janela de manutenção para desativar as notificações de eventos do cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Se você tiver um tempo de inatividade planejado para um cluster, por exemplo, para atualizar o cluster ou mover um dos nós, poderá suprimir os eventos e alertas que normalmente seriam gerados durante esse período agendando uma janela de manutenção do Unified Manager.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+Durante uma janela de manutenção, os eventos relacionados a todos os objetos nesse cluster ainda são gerados, mas eles não aparecem na página de eventos e nenhum alerta ou outro tipo de notificação são enviados para esses eventos.
+
+A hora que você inserir para a janela de manutenção é baseada na hora no servidor do Unified Manager.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Gerenciamento de armazenamento* > *Configuração do cluster*.
+. Na coluna *Maintenance Mode* do cluster, selecione o botão deslizante e mova-o para a direita.
++
+É apresentada a janela de calendário.
+
+. Selecione a data e a hora de início e fim da janela de manutenção e clique em *Apply*.
++
+A mensagem "agendado" aparece ao lado do botão deslizante.
+
+
+
+Quando a hora de início é atingida, o cluster entra no modo de manutenção e é gerado um evento "janela de manutenção de objetos iniciada".

@@ -1,0 +1,42 @@
+---
+permalink: reporting/task_create_report_to_view_qtrees_that_are_nearly_full.html 
+sidebar: sidebar 
+keywords: create, report, view, qtrees, full 
+summary: Você pode criar um relatório para analisar a capacidade de armazenamento e a utilização de qtrees e para visualizar qtrees que estão quase cheios. 
+---
+= Criando um relatório para visualizar qtrees que estão quase cheios
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode criar um relatório para analisar a capacidade de armazenamento e a utilização de qtrees e para visualizar qtrees que estão quase cheios.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+Use as etapas a seguir para criar uma exibição personalizada que exiba qtrees quase cheios e, em seguida, programe um relatório a ser gerado para essa exibição.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *Qtrees*.
+. Selecione *Mostrar/Ocultar* para remover as colunas que não deseja no relatório.
+. Arraste a coluna "Disk Used %" (disco usado %) perto da coluna "Qtrees".
+. Clique no ícone de filtro, adicione os seguintes filtros e clique em *Apply Filter*:
++
+** O disco utilizado % é superior a 75%
+
+
+. Clique na parte superior da coluna "disco usado %" para classificar os resultados por porcentagem de capacidade.
+. Salve a exibição com um nome específico que reflita o que a exibição está mostrando, por exemplo, "Qtrees se aproximando completamente" e clique na marca de seleção (image:../media/blue_check.gif[""]).
+. Clique no botão *relatórios programados* na página de inventário.
+. Clique em *Add Schedule* (Adicionar agendamento) para adicionar uma nova linha à página *Report Schedules* para que você possa definir as caraterísticas de agendamento para o novo relatório.
+. Introduza um nome para a agenda do relatório e preencha os outros campos do relatório e, em seguida, clique na marca de verificação (image:../media/blue_check.gif[""]) no final da linha.
++
+O relatório é enviado imediatamente como um teste. Depois disso, o relatório gera e é enviado por e-mail para os destinatários listados usando a frequência especificada.
+
+
+
+Com base nos resultados mostrados no relatório, você pode querer ajustar os limites rígidos e flexíveis do disco (se definido), ou equilibrar os dados entre os qtrees.

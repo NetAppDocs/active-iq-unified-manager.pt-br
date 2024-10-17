@@ -1,0 +1,28 @@
+---
+permalink: performance-checker/concept_monitor_cluster_performance_navigation.html 
+sidebar: sidebar 
+keywords: monitor, cluster, performance, navigation 
+summary: Você pode monitorar o desempenho de todos os clusters gerenciados pelo Unified Manager. O monitoramento dos clusters fornece uma visão geral do desempenho do cluster e do objeto, além de incluir o monitoramento de eventos de performance. Você pode visualizar o desempenho e os eventos em um alto nível ou investigar mais detalhes sobre eventos de desempenho e desempenho do cluster e do objeto. 
+---
+= Monitorar a navegação do desempenho do cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode monitorar o desempenho de todos os clusters gerenciados pelo Unified Manager. O monitoramento dos clusters fornece uma visão geral do desempenho do cluster e do objeto, além de incluir o monitoramento de eventos de performance. Você pode visualizar o desempenho e os eventos em um alto nível ou investigar mais detalhes sobre eventos de desempenho e desempenho do cluster e do objeto.
+
+Este é um exemplo de muitos caminhos de navegação possíveis de desempenho de cluster:
+
+. No painel de navegação à esquerda, clique em *Storage* > *Aggregates*.
+. Para exibir informações sobre o desempenho nesses agregados, selecione a visualização desempenho: Todos os agregados.
+. Identifique o agregado que você deseja investigar e clique nesse nome agregado para navegar para a página agregar/Explorador de desempenho.
+. Opcionalmente, selecione outros objetos para comparar com esse agregado no menu Exibir e comparar e, em seguida, adicione um dos objetos ao painel comparar.
++
+As estatísticas para ambos os objetos aparecerão nos gráficos do contador para comparação.
+
+. No painel de comparação à direita na página Explorer, clique em *Zoom View* em um dos gráficos de contador para exibir detalhes sobre o histórico de desempenho desse agregado.
+
+
+image::../media/monitor_cluster_performance.png[Uma captura de tela da IU que mostra como você pode investigar um agregado específico.]

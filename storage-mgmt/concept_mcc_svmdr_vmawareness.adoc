@@ -1,0 +1,91 @@
+---
+permalink: storage-mgmt/concept_mcc_svmdr_vmawareness.html 
+sidebar: sidebar 
+keywords: view, virtual, infrastructure, disaster, recovery, setup, datastores, metrocluster configuration 
+summary: 'Você pode visualizar as métricas de configuração e performance dos datastores hospedados em uma configuração do MetroCluster ou na configuração de recuperação de desastres (SVM DR) de máquina virtual de storage (Storage VM).' 
+---
+= Visualização da infraestrutura virtual em uma configuração de recuperação de desastres
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode visualizar as métricas de configuração e performance dos datastores hospedados em uma configuração do MetroCluster ou na configuração de recuperação de desastres (SVM DR) de máquina virtual de storage (Storage VM).
+
+No Unified Manager, você pode visualizar os volumes nas ou LUNs em uma configuração do MetroCluster que são anexados como datastores no vCenter Server. Os datastores hospedados em uma configuração MetroCluster são representados na mesma visualização topológica que um datastore em um ambiente padrão.
+
+Você também pode visualizar os volumes nas ou LUNs em uma configuração de recuperação de desastres da VM de storage que é mapeada para os datastores no vCenter Server.
+
+
+
+== Visualização de datastores na configuração do MetroCluster
+
+Observe os seguintes pré-requisitos antes de visualizar datastores em uma configuração do MetroCluster:
+
+* Em caso de switchover e switchback, a descoberta dos clusters primário e secundário do par de HA e do vCenter Servers deve ser concluída.
+* Os clusters primário e secundário do par de HA e vCenter Servers precisam ser gerenciados pelo Unified Manager.
+* A configuração necessária deve ser concluída no ONTAP e no vCenter Server. Para obter informações, consulte a documentação do ONTAP e do vCenter.
++
+https://docs.netapp.com/ontap-9/index.jsp["Centro de Documentação do ONTAP 9"]
+
+
+
+Siga estas etapas para visualizar armazenamentos de dados:
+
+. Na página *VMware* > *máquinas virtuais*, clique na VM que hospeda o datastore. Clique no link *Workload Analyzer* ou no objeto datastore. No cenário padrão, quando o site principal que hospeda o volume ou LUN está funcionando como esperado, você pode ver os detalhes do cluster do SVM do site principal.
+. Em caso de desastre e um switchover consecutivo para o local secundário, o link do armazenamento de dados aponta para as métricas de desempenho do volume ou LUN no cluster secundário. Isso é refletido depois que o próximo ciclo de clusters e a descoberta de SVM (aquisição) é concluída.
+. Depois de um switchback bem-sucedido, o link do datastore reflete novamente as métricas de desempenho do volume ou LUN no cluster primário. Isso é refletido depois que o próximo ciclo de clusters e a descoberta de SVM estiver concluída.
+
+
+
+
+== Visualização de armazenamentos de dados na configuração de recuperação de desastres da VM de storage
+
+Observe os seguintes pré-requisitos antes de visualizar armazenamentos de dados em uma configuração de recuperação de desastres da VM de storage:
+
+* Em caso de switchover e switchback, a descoberta dos clusters primário e secundário do par de HA e do vCenter Servers deve ser concluída.
+* Tanto o cluster de origem quanto o de destino e os pares de VM de storage devem ser gerenciados pelo Unified Manager.
+* A configuração necessária deve ser concluída no ONTAP e no vCenter Server.
++
+** Para armazenamentos de dados nas (NFS e VMFS), em caso de desastre, as etapas incluem a criação da VM de storage secundário, a verificação das LIFs e rotas de dados, o estabelecimento de conexões perdidas no vCenter Server e a inicialização das VMs.
++
+Para um switchback para o site principal, os dados entre os volumes devem ser sincronizados antes que o site principal comece a fornecer os dados.
+
+** Para armazenamentos de dados SAN (iSCSI e FC para VMFS), o vCenter Server formata o LUN montado em um formato VMFS. Em caso de desastre, as etapas incluem a criação da VM de storage secundário, a verificação das LIFs e rotas de dados. Se os IPs de destino iSCSI forem diferentes dos LIFs primários, eles precisam ser adicionados manualmente. Os novos LUNs devem estar disponíveis como dispositivos sob o adaptador iSCSI do adaptador de armazenamento do host. Depois disso, novos datastores VMFS com as novas LUNs devem ser criados e as VMs antigas registradas com novos nomes. As VMs devem estar ativas e em funcionamento.
++
+Em caso de recuperação, os dados entre os volumes devem ser sincronizados. Novos datastores VMFS devem ser criados novamente usando as LUNs e as VMs antigas registradas com novos nomes.
+
++
+Para obter informações sobre a configuração, consulte a documentação do ONTAP e do vCenter Server.
+
++
+https://docs.netapp.com/ontap-9/index.jsp["Centro de Documentação do ONTAP 9"]
+
+
+
+
+
+Siga estas etapas para visualizar armazenamentos de dados:
+
+. Na página *VMware* > *máquinas virtuais*, clique no inventário da VM que hospeda o datastore. Clique no link do objeto datastore. No cenário padrão, você pode ver os dados de performance dos volumes e LUNs na VM de storage primário.
+. Em caso de desastre e um switchover consecutivo para a VM de storage secundário, o link do armazenamento de dados aponta para as métricas de desempenho do volume ou LUN na VM de storage secundário. Isso é refletido depois que o próximo ciclo de clusters e a descoberta de SVM (aquisição) é concluída.
+. Depois de um switchback bem-sucedido, o link do datastore reflete novamente as métricas de desempenho do volume ou LUN na VM de storage primário. Isso é refletido depois que o próximo ciclo de clusters e a descoberta de SVM estiver concluída.
+
+
+
+
+== Cenários não suportados
+
+* Para uma configuração do MetroCluster, observe as seguintes limitações:
++
+** Aglomerados em apenas os `NORMAL` estados e `SWITCHOVER` são ocupados. outros estados, como `PARTIAL_SWITCHOVER, PARTIAL_SWITCHBACK` , e `NOT_REACHABLE` não são suportados.
+** A menos que o comutador automático (ASO) esteja ativado, se o cluster primário cair, o cluster secundário não pode ser descoberto e a topologia continua a apontar para o volume ou LUN no cluster primário.
+
+
+* Para uma configuração de recuperação de desastres de VM de armazenamento, observe a seguinte limitação:
++
+** Não é suportada uma configuração com o Site Recovery Manager (SRM) ou o Storage Replication Adapter (SRA) ativado para um ambiente de armazenamento SAN.
+
+
+

@@ -1,0 +1,14 @@
+---
+permalink: events/concept_manage_events.html 
+sidebar: sidebar 
+keywords: manage, events 
+summary: Os eventos ajudam a identificar problemas nos clusters monitorados. 
+---
+= Gerenciamento de eventos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Os eventos ajudam a identificar problemas nos clusters monitorados.

@@ -1,0 +1,66 @@
+---
+permalink: performance-checker/task_filter_on_object_inventory_performance_pages.html 
+sidebar: sidebar 
+keywords: filter, data, object, inventory, performance, pages 
+summary: Você pode filtrar dados nas páginas desempenho do inventário de objetos para localizar rapidamente dados com base em critérios específicos. Você pode usar a filtragem para restringir o conteúdo das páginas desempenho do inventário de objetos para mostrar apenas os resultados especificados. Isso fornece um método muito eficiente de exibir apenas os dados de desempenho em que você está interessado. 
+---
+= Filtrando dados nas páginas desempenho do inventário de objetos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode filtrar dados nas páginas desempenho do inventário de objetos para localizar rapidamente dados com base em critérios específicos. Você pode usar a filtragem para restringir o conteúdo das páginas desempenho do inventário de objetos para mostrar apenas os resultados especificados. Isso fornece um método muito eficiente de exibir apenas os dados de desempenho em que você está interessado.
+
+Você pode usar o painel filtragem para personalizar a exibição de grade com base em suas preferências. As opções de filtro disponíveis são baseadas no tipo de objeto que está sendo visualizado na grade. Se os filtros forem aplicados atualmente, o número de filtros aplicados será exibido à direita do botão filtro.
+
+Três tipos de parâmetros de filtro são suportados.
+
+|===
+| Parâmetro | Validação 
+
+
+ a| 
+Cadeia de carateres (texto)
+ a| 
+Os operadores são *contém*, *começa com*, *termina com* e *não contém*.
+
+
+
+ a| 
+Número
+ a| 
+Os operadores são *maiores que*, *menos que*, *no último* e *entre*.
+
+
+
+ a| 
+Enum (texto)
+ a| 
+Os operadores são *is* e *não*.
+
+|===
+Os campos coluna, Operador e valor são necessários para cada filtro; os filtros disponíveis refletem as colunas filtráveis na página atual. O número máximo de filtros que você pode aplicar é de quatro. Os resultados filtrados são baseados em parâmetros de filtro combinados. Os resultados filtrados aplicam-se a todas as páginas da pesquisa filtrada, não apenas à página exibida atualmente.
+
+Você pode adicionar filtros usando o painel filtragem.
+
+. Na parte superior da página, clique no botão *filtro*. O painel filtragem é exibido.
+. Clique na lista suspensa esquerda e selecione um objeto; por exemplo, _Cluster_ ou um contador de desempenho.
+. Clique na lista pendente central e selecione o operador que pretende utilizar.
+. Na última lista, selecione ou insira um valor para concluir o filtro para esse objeto.
+. Para adicionar outro filtro, clique em * Adicionar filtro*. É apresentado um campo de filtro adicional. Conclua este filtro usando o processo descrito nas etapas anteriores. Observe que ao adicionar seu quarto filtro, o botão * Adicionar filtro * não é mais exibido.
+. Clique em *Apply Filter* (aplicar filtro). As opções de filtro são aplicadas à grade e o número de filtros é exibido à direita do botão filtro.
+. Use o painel filtragem para remover filtros individuais clicando no ícone de lixo à direita do filtro a ser removido.
+. Para remover todos os filtros, clique em *Reset* na parte inferior do painel de filtragem.
+
+
+
+
+== Exemplo de filtragem
+
+A ilustração mostra o painel filtragem com três filtros. O botão * Adicionar filtro * é exibido quando você tem menos do que o máximo de quatro filtros.
+
+image::../media/opm_filtering_panel_draft_3.gif[Uma captura de tela da IU que mostra o painel filtragem com três filtros.]
+
+Depois de clicar em *Apply Filter*, o painel Filtering fecha, aplica os filtros e mostra o número de filtros aplicados (image:../media/opm_filters_applied.gif[""]).

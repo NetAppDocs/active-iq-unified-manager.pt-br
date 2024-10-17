@@ -1,0 +1,47 @@
+---
+permalink: install-vapp/task_deploy_unified_manager_vapp.html 
+sidebar: sidebar 
+keywords: deploy, unified manager 
+summary: A implantação do Unified Manager inclui o download de software, a implantação do dispositivo virtual, a criação de um nome de usuário e senha de manutenção e a execução da configuração inicial na interface da Web. 
+---
+= Implantando o Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+A implantação do Unified Manager inclui o download de software, a implantação do dispositivo virtual, a criação de um nome de usuário e senha de manutenção e a execução da configuração inicial na interface da Web.
+
+*O que você vai precisar*
+
+* Você deve verificar e completar os requisitos do sistema para implantação.
++
+link:concept_requirements_for_installing_unified_manager.html["Requisitos do sistema"]Consulte .
+
+* Certifique-se de que tem as seguintes informações:
++
+** Credenciais de login para o site de suporte da NetApp
+** Credenciais para acessar o VMware vCenter Server e o vSphere Web Client
+** Endereço IP do servidor ESXi no qual você está implantando o dispositivo virtual do Unified Manager
+** Detalhes sobre o data center, como espaço de armazenamento no armazenamento de dados e requisitos de memória
+** IPv6 deve ser ativado no host se você estiver planejando usar endereçamento IPv6.
+
+
+
+
+Você pode implantar o Unified Manager como um dispositivo virtual em um servidor VMware ESXi.
+
+Você deve acessar o console de manutenção usando o console VMware e não usando SSH.
+
+[NOTE]
+====
+A partir do Unified Manager 9,8, o VMware Tools foi substituído por Open VM Tools  `open-vm-tools`). Você não precisa mais instalar o VMware Tools como parte da instalação porque `open-vm-tools` está incluído no pacote de instalação do Unified Manager.
+
+====
+Depois de concluir a implantação e a configuração inicial, você pode adicionar clusters ou configurar configurações de rede adicionais no console de manutenção e acessar a IU da Web.
+
+.Passos
+. Siga as etapas em link:task_download_unified_manager_ova_file.html["Faça download do Unified Manager"].
+. Além disso, siga as etapas em link:task_deploy_unified_manager_virtual_appliance_vapp.html["Implante o dispositivo virtual do Unified Manager"].
+

@@ -1,0 +1,44 @@
+---
+permalink: reporting/task_download_reports.html 
+sidebar: sidebar 
+keywords: download, reports 
+summary: 'Você pode baixar relatórios e salvar os dados em uma unidade local ou de rede como um arquivo CSV (valores separados por vírgulas), um arquivo do Microsoft Excel (.XLSX) ou um arquivo PDF. Você pode abrir arquivos CSV e XLSX com aplicativos de Planilha, como o Microsoft Excel, e arquivos PDF com leitores como o Adobe Acrobat.' 
+---
+= A transferir relatórios
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode baixar relatórios e salvar os dados em uma unidade local ou de rede como um arquivo CSV (valores separados por vírgulas), um arquivo do Microsoft Excel (.XLSX) ou um arquivo PDF. Você pode abrir arquivos CSV e XLSX com aplicativos de Planilha, como o Microsoft Excel, e arquivos PDF com leitores como o Adobe Acrobat.
+
+.Passos
+. Clique no botão *relatórios* para fazer o download do relatório como um dos seguintes:
++
+[cols="2*"]
+|===
+| Escolha | Para... 
+
+
+ a| 
+Faça o download da CSV
+ a| 
+Salve o relatório como um arquivo CSV (valores separados por vírgula).
+
+
+
+ a| 
+Faça o download da PDF
+ a| 
+Salve o relatório como um arquivo .pdf.
+
+
+
+ a| 
+Baixe o Excel
+ a| 
+Salve o relatório como um arquivo do Microsoft Excel (XLSX).
+
+|===
+

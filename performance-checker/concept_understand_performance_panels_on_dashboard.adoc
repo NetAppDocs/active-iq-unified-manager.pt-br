@@ -1,0 +1,42 @@
+---
+permalink: performance-checker/concept_understand_performance_panels_on_dashboard.html 
+sidebar: sidebar 
+keywords: understand, performance, panels, dashboard 
+summary: O Unified Manager Dashboard fornece alguns painéis que exibem o status de desempenho de alto nível para todos os clusters que estão sendo monitorados no ambiente. Você pode optar por exibir o status de todos os clusters ou de um cluster individual. 
+---
+= Compreender os painéis de desempenho no painel de instrumentos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+O Unified Manager Dashboard fornece alguns painéis que exibem o status de desempenho de alto nível para todos os clusters que estão sendo monitorados no ambiente. Você pode optar por exibir o status de todos os clusters ou de um cluster individual.
+
+Além de mostrar informações de desempenho, a maioria dos painéis também exibe o número de eventos ativos nessa categoria e o número de novos eventos adicionados nas 24 horas anteriores. Essas informações ajudam você a decidir quais clusters você pode precisar analisar mais para resolver eventos relatados. Clicar nos eventos exibe os principais eventos e fornece um link para a página de inventário do Gerenciamento de Eventos filtrada para mostrar os eventos nessa categoria.
+
+Os painéis a seguir fornecem status de desempenho.
+
+* *Painel de capacidade de desempenho*
++
+Ao visualizar todos os clusters, esse painel exibe o valor da capacidade de desempenho para cada cluster (média sobre as 1 horas anteriores) e o número de dias até que a capacidade de desempenho atinja o limite superior (com base na taxa de crescimento diária). Clicar no gráfico de barras leva você à página de inventário de nós para esse cluster. Observe que a página de inventário de nós exibe a média da capacidade de desempenho nas 72 horas anteriores, portanto, esse valor pode não corresponder ao valor do Dashboard.
+
++
+Ao exibir um único cluster, esse painel exibe a capacidade de desempenho do cluster, o total de IOPS e os valores de taxa de transferência total.
+
+* *Painel de IOPS de carga de trabalho*
++
+Quando o gerenciamento de workload ativo está ativado e, ao visualizar um único cluster, esse painel exibe o número total de workloads que estão atualmente em execução em um determinado intervalo de IOPS.
+
+* *Painel de desempenho de carga de trabalho*
++
+Quando o gerenciamento do workload ativo é ativado, esse painel exibe o número total de workloads em conformidade e não conformes atribuídos a cada nível de Serviço de Performance definido. Clicar em um gráfico de barras leva você às cargas de trabalho atribuídas a essa política na página cargas de trabalho.
+
+* *Painel de visão geral de uso*
++
+Ao visualizar todos os clusters, você pode optar por exibir clusters classificados por IOPS ou taxa de transferência mais alta (MB/s).
+
++
+Ao visualizar um único cluster, você pode optar por exibir workloads nesse cluster classificados por IOPS ou taxa de transferência mais alta (MB/s).
+
+

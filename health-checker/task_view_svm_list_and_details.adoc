@@ -1,0 +1,43 @@
+---
+permalink: health-checker/task_view_svm_list_and_details.html 
+sidebar: sidebar 
+keywords: view, storage vm list, details 
+summary: 'Na visualização integridade: Todas as VMs de armazenamento, você pode monitorar seu inventário de máquinas virtuais de armazenamento (SVMs). Você pode usar a página Storage VM / Health details para exibir informações detalhadas sobre SVMs que são monitoradas.' 
+---
+= Exibindo a lista e os detalhes da VM de armazenamento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Na visualização integridade: Todas as VMs de armazenamento, você pode monitorar seu inventário de máquinas virtuais de armazenamento (SVMs). Você pode usar a página Storage VM / Health details para exibir informações detalhadas sobre SVMs que são monitoradas.
+
+*O que você vai precisar*
+
+Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+
+É possível visualizar os detalhes do SVM, como capacidade, eficiência e configuração de um SVM. Você também pode exibir informações sobre os dispositivos relacionados e alertas relacionados para esse SVM.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *Storage VMs*.
+. Escolha uma das seguintes maneiras de exibir os detalhes do SVM:
++
+** Para exibir informações sobre a integridade de todos os SVMs em todos os clusters, no menu Exibir, selecione integridade: Exibição de todas as VMs de armazenamento.
+** Para exibir os detalhes completos, clique no nome da VM de armazenamento.
++
+Você também pode visualizar os detalhes completos clicando em *Exibir detalhes* na caixa de diálogo Detalhes mínimos.
+
+
+
+. Visualize os objetos relacionados ao SVM clicando em *Exibir relacionado* na caixa de diálogo Detalhes mínimos.
+
+
+*Informações relacionadas*
+
+* link:../health-checker/reference_health_svm_details_page.html["VM de storage: Página de detalhes de integridade"]
+* link:../performance-checker/performance-view-all.html#performance-all-storage-vms-view["Performance: Visualização de todas as VMs de storage"]
+* link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html#view-security-details-of-all-volumes-with-anti-ransomware-detection["Segurança: Vista anti-ransomware"]
+* link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["Visualização do status de segurança dos clusters e das VMs de storage"]
+* link:../data-protection/reference_relationship_all_relationships_view.html["Relacionamento: Todos os relacionamentos são exibidos"]
+

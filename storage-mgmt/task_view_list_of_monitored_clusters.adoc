@@ -1,0 +1,25 @@
+---
+permalink: storage-mgmt/task_view_list_of_monitored_clusters.html 
+sidebar: sidebar 
+keywords: view, list, monitored, clusters 
+summary: Você pode usar a página Configuração de cluster para exibir seu inventário de clusters. Você pode exibir detalhes sobre os clusters, como nome ou endereço IP e status de comunicação. 
+---
+= Visualização da lista de clusters monitorados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode usar a página Configuração de cluster para exibir seu inventário de clusters. Você pode exibir detalhes sobre os clusters, como nome ou endereço IP e status de comunicação.
+
+*O que você vai precisar*
+
+Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+
+.Passo
+. No painel de navegação esquerdo, clique em *Gerenciamento de armazenamento* > *Configuração do cluster*.
++
+Todos os clusters no ambiente de storage gerenciado pelo Unified Manager são exibidos. A lista de clusters é classificada pela coluna nível de gravidade do estado de coleta. Você pode clicar em um cabeçalho de coluna para classificar os clusters por diferentes colunas.
+
+

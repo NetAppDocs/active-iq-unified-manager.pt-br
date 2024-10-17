@@ -1,0 +1,939 @@
+---
+permalink: events/reference_volume_events.html 
+sidebar: sidebar 
+keywords: volume, events, impact area, availability, capacity, configuration, performance 
+summary: Os eventos de volume fornecem informações sobre o status dos volumes, o que permite monitorar possíveis problemas. Os eventos são agrupados por área de impactos e incluem o nome do evento, o nome da armadilha, o nível de impactos, o tipo de origem e a gravidade. 
+---
+= Eventos de volume
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Os eventos de volume fornecem informações sobre o status dos volumes, o que permite monitorar possíveis problemas. Os eventos são agrupados por área de impactos e incluem o nome do evento, o nome da armadilha, o nível de impactos, o tipo de origem e a gravidade.
+
+Um asterisco (*) identifica eventos EMS que foram convertidos para eventos do Unified Manager.
+
+
+
+== Área de impactos: Disponibilidade
+
+|===
+| Nome do evento (Nome da armadilha) | Nível de impactos | Tipo de origem | Gravidade 
+
+
+ a| 
+Volume restrito (ocumEvtVolumeRestricted)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Volume off-line (ocumEvtVolumeOffline)
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Crítico
+
+
+
+ a| 
+Volume parcialmente disponível (ocumEvtVolumePartiallyDisponível)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Erro
+
+
+
+ a| 
+Volume não montado (não aplicável)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+Volume montado (não aplicável)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+Volume remontado (não aplicável)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+Caminho de junção de volume inativo(ocumEvtVolumeJunctionPathInactive)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Volume Autosize ativado (não aplicável)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+Volume Autosize-Disabled (tamanho automático do volume) (não aplicável)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+Volume Autosize capacidade máxima Modificada (não aplicável)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+Volume Autosize Increment tamanho modificado (não aplicável)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+|===
+
+
+== Área de impactos: Capacidade
+
+|===
+| Nome do evento (Nome da armadilha) | Nível de impactos | Tipo de origem | Gravidade 
+
+
+ a| 
+Espaço em volume provisionado por thin em risco (ocumThinProvenVolumeSpaceAtRisk)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Erro de operação de eficiência de volume (ocumEvtVolumeEfficienciaOperationError)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Erro
+
+
+
+ a| 
+Volume espaço cheio (ocumEvtVolumeFull)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Erro
+
+
+
+ a| 
+Volume espaço quase cheio (ocumEvtVolumeNearlyFull)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Volume espaço lógico completo * (volumeLogicalSpaceFull)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Erro
+
+
+
+ a| 
+Volume espaço lógico quase completo * (volumeLogicalSpaceNearlyFull)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Volume espaço lógico normal *(volumeLogicalSpaceAllOK)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+Volume Snapshot Reserve Space Full(ocumEvtSnapshotFull)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Demasiadas cópias Snapshot (ocumEvtSnapshotTooMany)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Erro
+
+
+
+ a| 
+Volume Qtree quota overcommitted (ocumEvtVolumeQtreeQuotaOvercommitted)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Erro
+
+
+
+ a| 
+Volume Qtree quota quase sobrecomprometida (ocumEvtVolumeQtreeQuotaAlmostOvercommitted)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Taxa de crescimento de volume anormal (ocumEvtVolumeGrowthRateAbnormal)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Volume dias até completo (ocumEvtVolumeDaysUntilFullSoon)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Erro
+
+
+
+ a| 
+Garantia de espaço de volume desativada (não aplicável)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+Garantia de espaço de volume ativada (não aplicável)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+Garantia de espaço de volume modificada (não aplicável)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+Volume Snapshot Reserve dias até cheio(ocumEvtVolumeSnapshotReserveDaysUntilFullSoon)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Erro
+
+
+
+ a| 
+Os eleitores do FlexGroup têm questões espaciais *(flexGroupConstituentsHaveSpaceIssues)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Erro
+
+
+
+ a| 
+FlexGroup constituintes Estado do espaço tudo OK *(flexGroupConstituentsSpaceStatusAll OK)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+Os constituintes do FlexGroup têm inodes issues *(flexGroupConstituentsHaveInodesIssues)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Erro
+
+
+
+ a| 
+FlexGroup constituintes inodes Status tudo OK *(flexGroupConstituentsInodesStatusAllOK)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+WAFL volume AutoSize Fail * (waflVolAutoSizeFail)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Erro
+
+
+
+ a| 
+WAFL volume AutoSize Done * (waflVolAutoSizeDone)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+O volume FlexGroup é mais de 80% utilizado*
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Erro
+
+
+
+ a| 
+O volume FlexGroup é mais de 90% utilizado*
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Crítico
+
+
+
+ a| 
+Anomalia de eficiência de storage de volume (ocumVolumeAbnormalStorageEfficiencyWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Reserva de snapshot de volume subutilizada (volumeSnaphotReserveUnderutilizzedWarning)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Reserva de snapshot de volume subutilizada (volumeSnaphotReserveUnderutilised)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Aviso
+
+|===
+
+
+== Área de impactos: Configuração
+
+|===
+| Nome do evento (Nome da armadilha) | Nível de impactos | Tipo de origem | Gravidade 
+
+
+ a| 
+Volume renomeado (não aplicável)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+Volume descoberto (não aplicável)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+Volume eliminado (não aplicável)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+|===
+
+
+== Área de impactos: Desempenho
+
+|===
+| Nome do evento (Nome da armadilha) | Nível de impactos | Tipo de origem | Gravidade 
+
+
+ a| 
+Limite de aviso de IOPS máximo de volume de QoS violado (ocumQosVolumeMaxIopsWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Limite máximo de aviso de MB/s de volume QoS violado (ocumQosVolumeMaxMbpsWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Limite máximo de aviso de IOPS/TB de volume QoS violado (ocumQosVolumeMaxIopsPerTbWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Limite de latência de volume de carga de trabalho violado conforme definido pela Política de nível de Serviço de desempenho (ocumConformanceLatencyWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Limite crítico de IOPS de volume violado (ocumVolumeIopsIncident)
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Crítico
+
+
+
+ a| 
+Limite de aviso de IOPS de volume violado (ocumVolumeIopsWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Volume MB/s limite crítico violado(ocumVolumeMbpsIncidente)
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Crítico
+
+
+
+ a| 
+Volume MB/s limiar de aviso violado(ocumVolumeMbpsWarning )
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Limite crítico de latência de volume violado (ocumVolumeLatencyIncident)
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Crítico
+
+
+
+ a| 
+Limite de aviso de latência de volume violado (ocumVolumeLatencyWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Limiar crítico de perda de cache de volume violado (ocumVolumeCacheMissRatioIncident)
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Crítico
+
+
+
+ a| 
+Limite de aviso de taxa de perda de volume violado(ocumVolumeCacheMissRatioWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Latência de volume e limite crítico de IOPS violado (ocumVolumeLatencyIopsIncident)
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Crítico
+
+
+
+ a| 
+Limite de aviso de latência de volume e IOPS violado (ocumVolumeLatencyIopsWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Latência de volume e limite crítico de MB/s violado(ocumVolumeLatencyMbpsIncident)
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Crítico
+
+
+
+ a| 
+Latência de volume e limite de aviso de MB/s violado(ocumVolumeLatencyMbpsWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Latência de volume e capacidade de desempenho agregado usada limiar crítico violado (ocumVolumeLatencyAggregatePerfCapacityUsedIncident)
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Crítico
+
+
+
+ a| 
+Latência de volume e capacidade de desempenho agregado usada limiar de aviso violado (ocumVolumeLatencyAggregatePerfCapacityUsedWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Latência de volume e utilização agregada limiar crítico violado (ocumVolumeLatencyAggregateUtilizationIncident)
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Crítico
+
+
+
+ a| 
+Limite de aviso de latência de volume e utilização agregada violado (ocumVolumeLatencyAggregateUtilizationWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Latência de volume e capacidade de desempenho do nó usada limiar crítico violado (ocumVolumeLatencyNodePerfCapacityUsedIncident)
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Crítico
+
+
+
+ a| 
+Latência de volume e capacidade de desempenho do nó usada limiar de aviso violado (ocumVolumeLatentyNodePerfCapacityUsedWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Latência de volume e capacidade de desempenho do nó usada - limite crítico de aquisição violado (ocumVolumeLatencyAggregatePerfCapacityUsedTakeOverIncident)
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Crítico
+
+
+
+ a| 
+Latência de volume e capacidade de desempenho do nó usada - limite de aviso de aquisição violado (ocumVolumeLatencyAggregatePerfCapacityUsedTakoOverWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Limite crítico de latência e utilização de nó violado (ocumVolumeLatencyNodeUtilizationIncident)
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Crítico
+
+
+
+ a| 
+Limite de aviso de latência de volume e utilização de nó violado (ocumVolumeLatencyNodeUtilizationWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+|===
+
+
+== Área de impactos: Segurança
+
+|===
+| Nome do evento (Nome da armadilha) | Nível de impactos | Tipo de origem | Gravidade 
+
+
+ a| 
+O monitoramento anti-ransomware de volume está ativado (modo Ativo) (antiRansomwareVolumeStateEnabled)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+O monitoramento anti-ransomware de volume está desativado (antiRansomwareVolumeStatesDisabled)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+O monitoramento anti-ransomware de volume está ativado (modo de Aprendizagem) (antiRansomwareVolumeStateDryrun)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+O monitoramento de volume anti-ransomware é pausado (modo de Aprendizagem) (antiRansomwareVolumeStateDryrunPaused)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+O monitoramento de volume anti-ransomware é pausado (modo Ativo) (antiRansomwareVolumeStateEnablePaused)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+O monitoramento anti-ransomware de volume está desabilitado (antiRansomwareVolumeStatesDisableInProgress)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Atividade de ransomware vista (callHomeRansomwareActivitySeen)
+ a| 
+Incidente
+ a| 
+Volume
+ a| 
+Crítico
+
+
+
+ a| 
+Volume adequado para monitorização anti-ransomware (modo de Aprendizagem) (ocumEvtVolumeArwCandidate)
+ a| 
+Evento
+ a| 
+Volume
+ a| 
+Informações
+
+
+
+ a| 
+Volume adequado para monitoramento anti-ransomware (modo Ativo) (ocumVolumeSuitedForActiveAntiRansomwareDetection)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+Volume exibe um alerta anti-ransomware ruidoso (antiRansomwareFeatureNoisyvolume)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+|===
+
+
+== Área de impactos: Proteção de dados
+
+|===
+| Nome do evento (Nome da armadilha) | Nível de impactos | Tipo de origem | Gravidade 
+
+
+ a| 
+O volume não tem proteção local Snapshot (VolumeLacksLocalProtectionWarning)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+
+
+ a| 
+O volume não tem proteção local Snapshot (VolumeLacksLocalProtectionCleared)
+ a| 
+Risco
+ a| 
+Volume
+ a| 
+Aviso
+
+|===

@@ -1,0 +1,26 @@
+---
+permalink: health-checker/task_delete_group_rules.html 
+sidebar: sidebar 
+keywords: delete, group rules 
+summary: Você pode excluir uma regra de grupo do Active IQ Unified Manager quando a regra de grupo não for mais necessária. 
+---
+= Eliminar regras de grupo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode excluir uma regra de grupo do Active IQ Unified Manager quando a regra de grupo não for mais necessária.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+Quando uma regra de grupo é excluída, os objetos de armazenamento associados serão removidos do grupo.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Gerenciamento de armazenamento* > *grupos*.
+. Na guia *regras de grupo*, selecione a regra de grupo que deseja excluir e clique em *Excluir*.
+. Na caixa de diálogo *Aviso*, confirme a exclusão clicando em *Sim*.
+

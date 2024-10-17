@@ -1,0 +1,59 @@
+---
+permalink: api-automation/concept_rest_services_offered_in_unified_manager_apis.html 
+sidebar: sidebar 
+keywords: rest, services, offer, active iq, unified, manager 
+summary: Você deve estar ciente dos serviços e operações REST oferecidos antes de começar a usar as APIs do Active IQ Unified Manager. 
+---
+= Serviços REST oferecidos em Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você deve estar ciente dos serviços e operações REST oferecidos antes de começar a usar as APIs do Active IQ Unified Manager.
+
+As APIs de provisionamento e administrativas usadas para configurar o servidor de API suportam as operações de leitura (GET) ou gravação (POST, PATCH, DELETE). A seguir estão alguns exemplos das operações GET, PATCH, POST e DELETE que são suportadas pelas APIs:
+
+* Exemplo para GET: `GET /datacenter/cluster/clusters` Recupera os detalhes do cluster em seu data center. O número máximo de Registros retornados pela `GET` operação é 1000.
++
+[NOTE]
+====
+As APIs permitem filtrar, classificar e ordenar os Registros por atributos suportados.
+
+====
+* Exemplo para POST `POST /datacenter/svm/svms`: Cria uma máquina virtual de storage (SVM) personalizada.
+* Exemplo para PATCH: `PATCH /datacenter/svm/svms/{key}` Modifica as propriedades de um SVM, usando sua chave exclusiva.
+* Exemplo de EXCLUSÃO: `DELETE /storage-provider/access-endpoints/{key}` Exclui um ponto de extremidade de acesso de um LUN, SVM ou compartilhamento de arquivos usando sua chave exclusiva.
+
+
+As OPERAÇÕES REST que podem ser executadas usando as APIs dependem da função do usuário Operador, Administrador de armazenamento ou Administrador de aplicativos.
+
+[cols="2*"]
+|===
+| Função de utilizador | Método REST suportado 
+
+
+ a| 
+Operador
+ a| 
+Acesso somente leitura aos dados. Os usuários com essa função podem executar todas as SOLICITAÇÕES GET.
+
+
+
+ a| 
+Administrador de armazenamento
+ a| 
+Acesso de leitura a todos os dados. Os usuários com essa função podem executar todas as SOLICITAÇÕES GET.
+
+Além disso, eles têm acesso de gravação (para executar SOLICITAÇÕES DE PATCH, POST e EXCLUSÃO) para executar atividades específicas, como gerenciamento, objetos de serviço de armazenamento e opções de gerenciamento de armazenamento.
+
+
+
+ a| 
+Administrador de aplicativos
+ a| 
+Acesso de leitura e gravação a todos os dados. Os usuários com essa função podem executar solicitações GET, PATCH, POST E DELETE para todas as funções.
+
+|===
+Para obter mais informações sobre todas as OPERAÇÕES REST, consulte a documentação da API _Online_.

@@ -1,0 +1,57 @@
+---
+permalink: api-automation/concept_api_logs.html 
+sidebar: sidebar 
+keywords: logs, troubleshooting 
+summary: Os logs do sistema permitem analisar as causas de falhas e problemas de solução de problemas que podem surgir durante a execução das APIs. 
+---
+= Registos para resolução de problemas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Os logs do sistema permitem analisar as causas de falhas e problemas de solução de problemas que podem surgir durante a execução das APIs.
+
+Recupere os logs do seguinte local para solucionar problemas relacionados às chamadas de API.
+
+[cols="2*"]
+|===
+| Localização do registo | Utilização 
+
+
+ a| 
+`/var/log/ocie/access_log.log`
+ a| 
+Contém todos os detalhes da chamada da API, como o nome de usuário do usuário que invoca a API, hora de início, hora de execução, status e URL.
+
+Você pode usar esse arquivo de log para verificar as APIs usadas com frequência ou solucionar problemas de qualquer fluxo de trabalho de GUI. Você também pode usá-lo para dimensionar a análise, com base no tempo de execução.
+
+
+
+ a| 
+`/var/log/ocum/ocumserver.log`
+ a| 
+Contém todos os logs de execução da API.
+
+Você pode usar esse arquivo de log para solucionar problemas e depurar as chamadas de API.
+
+
+
+ a| 
+`/var/log/ocie/server.log`
+ a| 
+Contém todas as implantações de servidor Wildfly e logs relacionados ao serviço de início/parada.
+
+Você pode usar esse arquivo de log para encontrar a causa raiz de qualquer problema que ocorra durante o início, parada ou implantação do servidor Wildfly.
+
+
+
+ a| 
+`/var/log/ocie/au.log`
+ a| 
+Contém registos relacionados com a unidade de aquisição.
+
+Você pode usar esse arquivo de log quando criar, modificar ou excluir quaisquer objetos no ONTAP, mas eles não são refletidos nas APIs REST do Active IQ Unified Manager.
+
+|===

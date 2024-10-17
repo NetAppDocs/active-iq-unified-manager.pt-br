@@ -1,0 +1,50 @@
+---
+permalink: health-checker/concept_configure_destination_and_schedule_for_database_dump_backups.html 
+sidebar: sidebar 
+keywords: configure, destination, schedule, database dump, backups, snapshot copy, copies 
+summary: Você pode configurar as configurações de backup de despejo de banco de dados do Unified Manager para definir o caminho de backup do banco de dados, a contagem de retenção e o agendamento de backup. Você pode ativar backups programados diários ou semanais. Por padrão, os backups programados são desativados, mas você deve definir uma programação de backup. 
+---
+= Configurando o destino e o agendamento para backups de despejo de banco de dados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode configurar as configurações de backup de despejo de banco de dados do Unified Manager para definir o caminho de backup do banco de dados, a contagem de retenção e o agendamento de backup. Você pode ativar backups programados diários ou semanais. Por padrão, os backups programados são desativados, mas você deve definir uma programação de backup.
+
+*O que você vai precisar*
+
+* Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+* Você deve ter um mínimo de 150 GB de espaço disponível no local que você definir como caminho de backup.
++
+É recomendável usar um local remoto externo ao sistema host do Unified Manager.
+
+* Quando o Unified Manager estiver instalado em um sistema Linux e usando o backup do MySQL, verifique se as permissões e os proprietários a seguir estão definidos no diretório de backup.
++
+Permissões: 0750, propriedade: jboss:maintenance
+
+* Quando o Unified Manager estiver instalado em um sistema Windows e usando o backup MySQL, verifique se somente o administrador tem acesso ao diretório de backup.
+
+
+Mais tempo é necessário na primeira vez que um backup é executado do que para backups subsequentes, porque o primeiro backup é um backup completo. Um backup completo pode ter mais de 1 GB e pode levar de três a quatro horas. Backups subsequentes são incrementais e exigem menos tempo.
+
+[NOTE]
+====
+* Se você achar que o número de arquivos de backup incremental é muito grande para o espaço alocado para backups, poderá fazer um backup completo periodicamente para substituir o backup antigo e seus arquivos incrementais. Como outra opção, você pode fazer um backup usando cópias Snapshot.
+* O backup realizado durante os 15 dias iniciais de uma nova adição de cluster pode não ser preciso o suficiente para obter os dados históricos de desempenho.
+
+
+====
+.Passos
+. No painel de navegação à esquerda, clique em *Geral* > *Backup do banco de dados*.
+. Na página *Backup do banco de dados*, clique em *Backup Settings*.
+. Configure os valores apropriados para um caminho de backup, contagem de retenção e agendamento.
++
+O valor padrão para a contagem de retenção é 10; você pode usar 0 para criar backups ilimitados.
+
+. Selecione o botão *programado diariamente* ou *programado semanal* e especifique os detalhes da programação.
+. Clique em *aplicar*.
+
+
+Os arquivos de backup de despejo de banco de dados são criados com base na programação. Você pode ver os arquivos de backup disponíveis na página Backup do banco de dados.

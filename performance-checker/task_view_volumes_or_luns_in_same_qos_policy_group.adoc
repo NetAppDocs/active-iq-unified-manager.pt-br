@@ -1,0 +1,31 @@
+---
+permalink: performance-checker/task_view_volumes_or_luns_in_same_qos_policy_group.html 
+sidebar: sidebar 
+keywords: view, volumes, luns, same. qos, policy, group 
+summary: É possível exibir uma lista dos volumes e LUNs atribuídos ao mesmo grupo de políticas de QoS. 
+---
+= Exibindo volumes ou LUNs que estão no mesmo grupo de políticas de QoS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+É possível exibir uma lista dos volumes e LUNs atribuídos ao mesmo grupo de políticas de QoS.
+
+No caso de grupos de políticas de QoS tradicionais que são "compartilhados" entre vários volumes, isso pode ser útil para ver se certos volumes estão sobreusando o throughput definido para o grupo de políticas. Ele também pode ajudá-lo a decidir se você pode adicionar outros volumes ao grupo de políticas sem afetar negativamente os outros volumes.
+
+No caso de políticas de QoS adaptáveis e políticas de níveis de Serviço de Performance do Unified Manager, isso pode ser útil para exibir todos os volumes ou LUNs que estão usando um grupo de políticas, para que você possa ver quais objetos seriam afetados se você alterou as configurações da política de QoS.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *QoS Policy Groups*.
++
+A exibição desempenho: Grupos de políticas de QoS tradicionais é exibida por padrão.
+
+. Se você está interessado em grupo político tradicional, fique nesta página. Caso contrário, selecione uma das opções de visualização adicionais para exibir todos os grupos de políticas de QoS adaptáveis ou todos os grupos de políticas de QoS criados pelos níveis de Serviço de desempenho do Unified Manager.
+. Na política de QoS em que você está interessado, clique no botão expandir (image:../media/chevron_down.gif["ícone do botão expandir"]) ao lado do nome do grupo de políticas de QoS para exibir mais detalhes.image:../media/adaptive_qos_expanded.gif["Uma captura de tela da IU que mostra todos os grupos de políticas de QoS criados pelos níveis de Serviço de Performance do Unified Manager."]
+. Clique no link volumes ou LUNs para exibir os objetos usando essa política de QoS.
++
+A página de inventário de desempenho para volumes ou LUNs é exibida com a lista ordenada de objetos que estão usando a política de QoS.
+
+

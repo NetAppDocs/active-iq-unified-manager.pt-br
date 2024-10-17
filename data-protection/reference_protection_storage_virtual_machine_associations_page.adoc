@@ -1,0 +1,102 @@
+---
+permalink: data-protection/reference_protection_storage_virtual_machine_associations_page.html 
+sidebar: sidebar 
+keywords: svm, association, page 
+summary: A página de associação Storage VM permite visualizar associações de VM de armazenamento existentes entre VMs de armazenamento de origem e destino. 
+---
+= Noções básicas sobre associações de VM de armazenamento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Associações de máquina virtual de armazenamento (VM de armazenamento) são mapeamentos de uma VM de armazenamento de origem para uma VM de armazenamento de destino que são usados por aplicativos parceiros para seleção de recursos e provisionamento de volume secundário.
+
+Associações são criadas entre uma VM de armazenamento de origem e uma VM de armazenamento de destino, independentemente de a VM de armazenamento de destino ser um destino secundário ou um destino terciário. Você não pode usar uma VM de armazenamento de destino secundário como fonte para criar uma associação com uma VM de armazenamento de destino terciário.
+
+Como Administrador de aplicativo ou Administrador de armazenamento, você pode visualizar as associações de VM de armazenamento em seu ambiente na página *proteção* > *associações de VM de armazenamento*.
+
+Você pode associar SVMs de três maneiras:
+
+* *Associar qualquer VM de armazenamento*: Você pode criar uma associação entre qualquer VM de armazenamento de origem primária e um ou mais SVMs de destino. Isso significa que todos os SVMs existentes que atualmente exigem proteção, bem como quaisquer SVMs criadas no futuro, estão associados aos SVMs de destino especificados. Por exemplo, você pode querer que aplicativos de várias fontes diferentes em locais diferentes sejam copiados para um ou mais SVMs de destino em um local.
+* *Associar uma VM de armazenamento específica*: Você pode criar uma associação entre uma VM de armazenamento de origem específica e um ou mais SVMs de destino específicas. Por exemplo, se você estiver fornecendo serviços de armazenamento para muitos clientes cujos dados devem ser separados um do outro, você pode escolher essa opção para associar uma VM de armazenamento de origem específica a uma VM de armazenamento de destino específica atribuída apenas a esse cliente.
+* *Associar a uma VM de armazenamento externo*: Você pode criar uma associação entre uma VM de armazenamento de origem e um volume flexível externo de uma VM de armazenamento de destino.
+
+
+
+
+== Crie associações de VM de armazenamento
+
+O assistente criar associações de máquinas virtuais de armazenamento permite que aplicativos de proteção de parceiros associem uma VM de armazenamento de origem a uma VM de armazenamento de destino para uso com relacionamentos SnapMirror e SnapVault. Os aplicativos de parceiros usam essas associações no momento do provisionamento inicial de volumes de destino para determinar quais recursos selecionar.dd
+
+*O que você vai precisar*
+
+* A VM de storage que você está associando já deve existir.
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+Para qualquer VM de armazenamento de origem e tipo de relacionamento, você pode escolher apenas uma VM de armazenamento de destino em cada cluster de destino.
+
+Alterar associações usando as funções delete e create afeta apenas operações futuras de provisionamento. Ele não move volumes de destino existentes.
+
+.Passos
+. No painel de navegação esquerdo, clique em *proteção* > *associações de VM de armazenamento*.
+. Na página *associações de VM de armazenamento*, clique em *criar*.
++
+O assistente *Create Storage Virtual Machine Associations* é iniciado.
+
+. Selecione uma das seguintes fontes:
++
+** * Qualquer *
++
+Escolha essa opção quando quiser criar uma associação entre qualquer fonte de VM de storage primário para uma ou mais VM de armazenamento de destino. Isso significa que todas as VMs de storage existentes que atualmente exigem proteção, bem como qualquer VM de storage criada no futuro, estão associadas à VM de storage de destino especificada. Por exemplo, você pode querer que aplicativos de várias fontes diferentes em locais diferentes façam backup de uma ou mais VM de armazenamento de destino em um local.
+
+** *Single*
++
+Escolha esta opção quando quiser selecionar uma VM de armazenamento de origem específica associada a uma ou mais VM de armazenamento de destino. Por exemplo, se você estiver fornecendo serviços de armazenamento para muitos clientes cujos dados devem ser separados um do outro, escolha esta opção para associar uma fonte de VM de armazenamento específica a um destino de VM de armazenamento específico atribuído apenas a esse cliente.
+
+** *Nenhuma (externa)*
++
+Escolha essa opção quando quiser criar uma associação entre uma VM de armazenamento de origem e um volume flexível externo de uma VM de armazenamento de destino.
+
+
+
+. Selecione um ou ambos os tipos de relação de proteção que deseja criar:
++
+** *SnapMirror*
+** *SnapVault*
+
+
+. Clique em *seguinte*.
+. Selecione um ou mais destinos de proteção da VM de storage.
+. Clique em *Finish*.
+
+
+
+
+== Excluir associações de VM de armazenamento
+
+Você pode excluir associações de VM de armazenamento para aplicativos parceiros para remover a relação de provisionamento secundário entre VM de armazenamento de origem e destino; por exemplo, você pode fazer isso quando a VM de armazenamento de destino estiver cheia e desejar criar novas associações de proteção de VM de armazenamento.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+O botão *Delete* é desativado até que pelo menos uma associação de VM de armazenamento seja selecionada. Alterar associações usando as funções excluir e criar afeta apenas operações futuras de provisionamento; ele não move volumes de destino existentes.
+
+.Passos
+. No painel de navegação esquerdo, clique em *proteção* > *associações de VM de armazenamento*.
+. Selecione pelo menos uma associação de VM de armazenamento.
++
+O botão *Delete* está ativado.
+
+. Clique em *Excluir.*
++
+É apresentada uma caixa de diálogo de aviso.
+
+. Clique em *Yes* para continuar.
++
+A associação de VM de armazenamento selecionada é removida da lista.
+
+

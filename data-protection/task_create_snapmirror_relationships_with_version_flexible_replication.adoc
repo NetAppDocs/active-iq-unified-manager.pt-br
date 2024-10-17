@@ -1,0 +1,52 @@
+---
+permalink: data-protection/task_create_snapmirror_relationships_with_version_flexible_replication.html 
+sidebar: sidebar 
+keywords: create, snapmirror, relationships, version-flexible, replication, backup, option 
+summary: Você pode criar um relacionamento do SnapMirror com a funcionalidade de opção de replicação flexível e backup. A funcionalidade de opção de backup permite que você implemente a proteção SnapMirror e também retenha várias versões de cópias de backup no local de destino. 
+---
+= Criando relacionamentos do SnapMirror com replicação flexível com versão com opção de backup
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode criar um relacionamento do SnapMirror com a funcionalidade de opção de replicação flexível e backup. A funcionalidade de opção de backup permite que você implemente a proteção SnapMirror e também retenha várias versões de cópias de backup no local de destino.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+* Você deve ter configurado o Workflow Automation.
+* As SVMs de origem e destino devem ter uma licença SnapMirror ativada.
+* As SVMs de origem e destino devem ter uma licença SnapVault ativada.
+* As SVMs de origem e destino devem ser executadas em uma versão do software ONTAP que ofereça suporte à replicação flexível da versão.
+
+
+A configuração do SnapMirror com a funcionalidade de opção de backup permite proteger seus dados com recursos de recuperação de desastres do SnapMirror, como a capacidade de failover de volume, e ao mesmo tempo fornecer recursos de SnapVault, como proteção de várias cópias de backup.
+
+.Passos
+. Exiba a caixa de diálogo *Configurar proteção* para o volume que você deseja proteger.
++
+** Se estiver a visualizar o separador proteção da página de detalhes de volume / Saúde, clique com o botão direito do rato na topologia para visualizar o nome de um volume que pretende proteger e selecione *Protect* > *SnapMirror* no menu.
+** Se você estiver visualizando a exibição Saúde: Todos os volumes, localize um volume que você deseja proteger e clique nele com o botão direito; em seguida, selecione *Protect* > *SnapMirror* no menu. A caixa de diálogo Configurar proteção é exibida.
+
+
+. Clique em *SnapMirror* para visualizar o separador *SnapMirror*.
+. Preencha a área *informações de destino* e a área *Configurações de relacionamento* na caixa de diálogo *Configurar proteção*.
+. Clique em *Avançado* para exibir a caixa de diálogo *Configurações avançadas de destino*.
+. Se a caixa de verificação *replicação flexível da versão* ainda não estiver selecionada, selecione-a agora.
+. Marque a caixa de seleção *with backup option* para habilitar o recurso de opção de backup; em seguida, clique em *Apply*.
+. Clique em *aplicar*.
++
+Regressa à página de detalhes de volume / Saúde.
+
+. Clique no link do trabalho de configuração de proteção na parte superior da página de detalhes *volume / Saúde*.
++
+As tarefas e os detalhes dos trabalhos são apresentados na página Detalhes do trabalho.
+
+. Na página de detalhes do *trabalho*, clique em *Atualizar* para atualizar a lista de tarefas e os detalhes da tarefa associados ao trabalho de configuração de proteção e para determinar quando o trabalho está concluído.
+. Quando as tarefas de trabalho estiverem concluídas, clique em *voltar* no seu navegador para retornar à página de detalhes *volume / Saúde*.
++
+A nova relação é apresentada na vista de topologia da página de detalhes de volume/Saúde.
+
+

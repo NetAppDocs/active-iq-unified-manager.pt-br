@@ -1,0 +1,38 @@
+---
+permalink: reporting/task_create_report_to_view_capacity_by_cluster_model.html 
+sidebar: sidebar 
+keywords: create, report, view, capacity, cluster, model 
+summary: É possível criar um relatório para analisar a capacidade de storage e a utilização de clusters com base no modelo de sistema de storage. 
+---
+= Criando um relatório para exibir a capacidade por modelo de cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+É possível criar um relatório para analisar a capacidade de storage e a utilização de clusters com base no modelo de sistema de storage.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+Siga as etapas a seguir para criar uma exibição personalizada que exiba a capacidade por modelo de cluster e, em seguida, agende um relatório a ser gerado para essa exibição.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *clusters*.
+. No menu Exibir, selecione *capacidade* > *todos os clusters*.
+. Selecione *Mostrar/Ocultar* para remover quaisquer colunas, como "'Cluster FQDN'" e "'versão do sistema operacional'", que você não deseja no relatório.
+. Arraste a "capacidade bruta total", o "modelo/família" e as três colunas agregadas perto da coluna "Cluster".
+. Clique na parte superior da coluna "modelo/Família" para classificar os resultados por tipo de cluster.
+. Salve a exibição com um nome específico que reflita o que a exibição está mostrando, por exemplo, ""capacidade por modelo de cluster"".
+. Clique no botão *relatórios programados* na página de inventário.
+. Clique em *Add Schedule* (Adicionar agendamento) para adicionar uma nova linha à página *Report Schedules* para que você possa definir as caraterísticas de agendamento para o novo relatório.
+. Introduza um nome para a agenda do relatório e preencha os outros campos do relatório e, em seguida, clique na marca de verificação (image:../media/blue_check.gif[""]) no final da linha.
++
+O relatório é enviado imediatamente como um teste. Depois disso, o relatório gera e é enviado por e-mail para os destinatários listados usando a frequência especificada.
+
+
+
+Com base nos resultados mostrados no relatório, você pode querer adicionar mais capacidade a determinados clusters ou atualizar modelos de cluster mais antigos.

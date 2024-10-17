@@ -1,0 +1,22 @@
+---
+permalink: install-vapp/concept_browser_and_platform_requirements.html 
+sidebar: sidebar 
+keywords: supported browsers 
+summary: Para acessar a IU da Web do Unified Manager, use um navegador compatível. 
+---
+= Navegadores suportados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Para acessar a IU da Web do Unified Manager, use um navegador compatível.
+
+A Matriz de interoperabilidade tem a lista de versões suportadas do navegador.
+
+http://mysupport.netapp.com/matrix["mysupport.NetApp.com/matrix"]
+
+Para todos os navegadores, a desativação dos bloqueadores pop-up garante que os recursos do software sejam exibidos corretamente.
+
+Se você planeja configurar o Unified Manager para autenticação SAML, para que um provedor de identidade (IDP) possa autenticar usuários, você deve verificar a lista de navegadores suportados pelo IDP também.

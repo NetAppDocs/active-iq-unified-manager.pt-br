@@ -1,0 +1,221 @@
+---
+permalink: health-checker/reference_cluster_compliance_categories.html 
+sidebar: sidebar 
+keywords: cluster compliance, categories 
+summary: Esta tabela descreve os parâmetros de conformidade de segurança do cluster que o Unified Manager avalia, a recomendação do NetApp e se o parâmetro afeta a determinação geral do cluster que está sendo queixa ou não. 
+---
+= Categorias de conformidade de cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Esta tabela descreve os parâmetros de conformidade de segurança do cluster que o Unified Manager avalia, a recomendação do NetApp e se o parâmetro afeta a determinação geral do cluster que está sendo queixa ou não.
+
+Ter SVMs não compatíveis em um cluster afetará o valor de conformidade do cluster. Então, em alguns casos, você pode precisar corrigir problemas de segurança com um SVM antes que a segurança do cluster seja considerada em conformidade.
+
+Note que nem todos os parâmetros listados abaixo aparecem para todas as instalações. Por exemplo, se você não tiver clusters com peering ou se tiver desabilitado o AutoSupport em um cluster, não verá os itens de emparelhamento de cluster ou Transporte HTTPS AutoSupport na página da IU.
+
+[cols="4*"]
+|===
+| Parâmetro | Descrição | Recomendação | Afeta a conformidade do cluster 
+
+
+ a| 
+FIPS global
+ a| 
+Indica se o modo de conformidade Global FIPS (Federal Information Processing Standard) 140-2 está ativado ou desativado. Quando o FIPS está ativado, TLSv1 e SSLv3 são desativados e apenas TLSv1,1 e TLSv1,2 são permitidos.
+ a| 
+Ativado
+ a| 
+Sim
+
+
+
+ a| 
+Telnet
+ a| 
+Indica se o acesso Telnet ao sistema está ativado ou desativado. A NetApp recomenda o Shell seguro (SSH) para acesso remoto seguro.
+ a| 
+Desativado
+ a| 
+Sim
+
+
+
+ a| 
+Configurações SSH inseguras
+ a| 
+Indica se o SSH usa cifras inseguras, por exemplo cifras que começam com *cbc.
+ a| 
+Não
+ a| 
+Sim
+
+
+
+ a| 
+Banner de login
+ a| 
+Indica se o banner Login está ativado ou desativado para os usuários que acessam o sistema.
+ a| 
+Ativado
+ a| 
+Sim
+
+
+
+ a| 
+Peering de clusters
+ a| 
+Indica se a comunicação entre clusters com permissões está encriptada ou não encriptada. A criptografia deve ser configurada nos clusters de origem e destino para que esse parâmetro seja considerado compatível.
+ a| 
+Encriptado
+ a| 
+Sim
+
+
+
+ a| 
+Protocolo de hora de rede
+ a| 
+Indica se o cluster tem um ou mais servidores NTP configurados. Para redundância e melhor serviço, a NetApp recomenda que você associe pelo menos três servidores NTP ao cluster.
+ a| 
+Configurado
+ a| 
+Sim
+
+
+
+ a| 
+OCSP
+ a| 
+Indica se existem aplicações no ONTAP que não estão configuradas com OCSP (Protocolo de estado de certificado online) e, por conseguinte, as comunicações não estão encriptadas. As aplicações não compatíveis estão listadas.
+ a| 
+Ativado
+ a| 
+Não
+
+
+
+ a| 
+Registo de auditoria remota
+ a| 
+Indica se o encaminhamento de registos (Syslog) está encriptado ou não encriptado.
+ a| 
+Encriptado
+ a| 
+Sim
+
+
+
+ a| 
+Transporte AutoSupport HTTPS
+ a| 
+Indica se o HTTPS é usado como o protocolo de transporte padrão para enviar mensagens AutoSupport ao suporte do NetApp.
+ a| 
+Ativado
+ a| 
+Sim
+
+
+
+ a| 
+Usuário Administrador padrão
+ a| 
+Indica se o Usuário Admin padrão (interno) está ativado ou desativado. A NetApp recomenda bloquear (desativar) quaisquer contas internas desnecessárias.
+ a| 
+Desativado
+ a| 
+Sim
+
+
+
+ a| 
+Usuários SAML
+ a| 
+Indica se o SAML está configurado. O SAML permite configurar a autenticação multifator (MFA) como um método de login para logon único.
+ a| 
+Não
+ a| 
+Não
+
+
+
+ a| 
+Usuários do ative Directory
+ a| 
+Indica se o ative Directory está configurado. O ative Directory e o LDAP são os mecanismos de autenticação preferenciais para usuários que acessam clusters.
+ a| 
+Não
+ a| 
+Não
+
+
+
+ a| 
+Utilizadores LDAP
+ a| 
+Indica se o LDAP está configurado. O ative Directory e o LDAP são os mecanismos de autenticação preferidos para usuários que gerenciam clusters em usuários locais.
+ a| 
+Não
+ a| 
+Não
+
+
+
+ a| 
+Usuários de certificados
+ a| 
+Indica se um utilizador de certificado está configurado para iniciar sessão no cluster.
+ a| 
+Não
+ a| 
+Não
+
+
+
+ a| 
+Usuários locais
+ a| 
+Indica se os utilizadores locais estão configurados para iniciar sessão no cluster.
+ a| 
+Não
+ a| 
+Não
+
+
+
+ a| 
+Shell remoto
+ a| 
+Indica se o RSH está ativado. Por razões de segurança, o RSH deve ser desativado. O Secure Shell (SSH) para acesso remoto seguro é o preferido.
+ a| 
+Desativado
+ a| 
+Sim
+
+
+
+ a| 
+MD5 em uso
+ a| 
+Indica se as contas de usuário do ONTAP usam a função Hash MD5 menos segura. A migração de contas de usuário com hash MD5 para a função hash criptográfica mais segura, como SHA-512, é preferível.
+ a| 
+Não
+ a| 
+Sim
+
+
+
+ a| 
+Tipo de emissor de certificado
+ a| 
+Indica o tipo de certificado digital utilizado.
+ a| 
+Assinado pela CA
+ a| 
+Não
+
+|===

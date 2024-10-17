@@ -1,0 +1,53 @@
+---
+permalink: api-automation/concept_view_workloads.html 
+sidebar: sidebar 
+keywords: view, storage, workloads 
+summary: 'As APIs listadas aqui permitem visualizar uma lista consolidada de workloads de storage para todos os clusters do ONTAP no data center. As APIs também fornecem uma visualização resumida do número de workloads de storage provisionados no ambiente Active IQ Unified Manager e das estatísticas de capacidade e performance (IOPS).' 
+---
+= Visualização de workloads de storage usando APIs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+As APIs listadas aqui permitem visualizar uma lista consolidada de workloads de storage para todos os clusters do ONTAP no data center. As APIs também fornecem uma visualização resumida do número de workloads de storage provisionados no ambiente Active IQ Unified Manager e das estatísticas de capacidade e performance (IOPS).
+
+
+
+== Visualizar workloads de storage
+
+Use o método a seguir para visualizar todos os workloads de storage em todos os clusters do data center. Para obter informações sobre como filtrar a resposta com base em colunas específicas, consulte a documentação de referência da API disponível na instância do Unified Manager.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Caminho 
+
+
+ a| 
+fornecedor de storage
+ a| 
+OBTER
+ a| 
+`/storage-provider/workloads`
+
+|===
+
+
+== Veja o resumo dos workloads de storage
+
+Use o método a seguir para avaliar a capacidade usada, a capacidade disponível, o IOPS usado, o IOPS disponível e o número de workloads de storage gerenciados por cada nível de Serviço de Performance. Os workloads de storage exibidos podem ser para qualquer LUN, compartilhamento de arquivos NFS ou compartilhamento CIFS. A API fornece uma visão geral dos workloads de storage, uma visão geral dos workloads de storage provisionados pelo Unified Manager, uma visão geral do data center, uma visão geral do espaço total, usado e disponível e IOPS no data center, em termos de níveis de serviço de performance atribuídos. As informações recebidas em resposta a essa API são usadas para preencher o painel na IU do Unified Manager.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Caminho 
+
+
+ a| 
+fornecedor de storage
+ a| 
+OBTER
+ a| 
+`/storage-provider/workloads-summary`
+
+|===

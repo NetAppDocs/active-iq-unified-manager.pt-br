@@ -1,0 +1,22 @@
+---
+permalink: health-checker/reference_description_of_cluster_object_windows_and_dialog_boxes.html 
+sidebar: sidebar 
+keywords: description, cluster, object, windows, dialog boxes 
+summary: É possível exibir todos os clusters e objetos de cluster na respetiva página de objetos de storage. Você também pode visualizar os detalhes na página de detalhes do objeto de armazenamento correspondente. Agora você pode iniciar a interface de usuário do System Manager nas seguintes seções DE ARMAZENAMENTO e PROTEÇÃO DO INVENTÁRIO. 
+---
+= Descrição das janelas de objetos de cluster e caixas de diálogo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+É possível exibir todos os clusters e objetos de cluster na respetiva página de objetos de storage. Você também pode visualizar os detalhes na página de detalhes do objeto de armazenamento correspondente. Agora você pode iniciar a interface de usuário do System Manager nas seguintes seções DE ARMAZENAMENTO e PROTEÇÃO DO INVENTÁRIO.
+
+* Páginas de inventário de cluster, integridade de cluster e desempenho de cluster
+* Agregue as páginas de inventário, integridade agregada e desempenho agregado
+* Páginas de inventário de volume, volume Health e volume Performance
+* Páginas de inventário de nós e desempenho de nós
+* Páginas de inventário do StorageVM, integridade do StorageVM e desempenho do StorageVM
+* Páginas de relacionamento de proteção
+

@@ -1,0 +1,45 @@
+---
+permalink: health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html 
+sidebar: sidebar 
+keywords: view, anti-ransomware status, volumes, storage VMs, SVMs 
+summary: Você pode ver uma lista de todos os volumes e VMs de storage e seu status atual anti-ransomware para determinar se os dados nos volumes estão protegidos adequadamente contra ataques de ransomware. 
+---
+= Visualização do status anti-ransomware de todos os volumes e VMs de storage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode ver uma lista de todos os volumes e VMs de storage (SVMs) e seu status atual anti-ransomware para determinar se os dados nos seus volumes e SVMs estão protegidos adequadamente contra ataques de ransomware.
+
+*O que você vai precisar*
+
+Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+
+Para obter mais informações sobre os diferentes status anti-ransomware, link:https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html#system-manager-procedure["ONTAP: Ative a anti-ransomware"]consulte .
+
+
+
+== Veja os detalhes de segurança de todos os volumes com a detecção antirransomware
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *volumes*.
+. No menu Exibir, selecione *Saúde* > *Segurança* > *Anti-ransomware*
+. Na visualização *Segurança: Anti-ransomware*, você pode classificar pelos vários campos ou usar o filtro.
+
+
+
+NOTE: O antirransomware não é compatível com volumes off-line, volumes restritos, volumes SnapLock, volumes FlexGroup, volumes FlexCache, volumes somente SAN, volumes de VMs de storage interrompidas, volumes raiz de VMs de storage ou volumes de proteção de dados.
+
+
+
+== Veja os detalhes de segurança de todas as VMs de storage com a detecção antirransomware
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage > Storage VMs*.
+. Selecione *View > Security > Anti-ransomware*. Uma lista de SVMs com o status anti-ransomware é exibida.
+
+
+
+NOTE: O monitoramento anti-ransomware não é compatível com VMs de storage que não têm o protocolo nas ativado.

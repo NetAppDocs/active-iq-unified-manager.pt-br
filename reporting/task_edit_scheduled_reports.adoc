@@ -1,0 +1,36 @@
+---
+permalink: reporting/task_edit_scheduled_reports.html 
+sidebar: sidebar 
+keywords: editing, schedule, reports 
+summary: Depois que os relatórios forem agendados, você poderá editá-los na página Agenda de relatórios. 
+---
+= Editar relatórios programados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Depois que os relatórios forem agendados, você poderá editá-los na página Agenda de relatórios.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+.Passos
+. No painel de navegação à esquerda, clique em *Gerenciamento de armazenamento* > *horários de relatórios*.
++
+image::../media/scheduled_reports_2.gif[Uma captura de tela da IU que mostra relatórios programados.]
+
++
+[NOTE]
+====
+Se você tiver as permissões apropriadas, você pode alterar qualquer relatório e sua programação no sistema.
+
+====
+. Clique no ícone mais image:../media/more_icon.gif[""]da agenda que deseja alterar.
+. Clique em *Editar*.
+. Você pode alterar a lista *Nome da programação*, *destinatário*, *frequência* e *formato* para a programação do relatório.
+. Quando terminar, clique na marca de verificação para guardar as alterações.
+

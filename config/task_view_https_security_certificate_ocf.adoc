@@ -1,0 +1,29 @@
+---
+permalink: config/task_view_https_security_certificate_ocf.html 
+sidebar: sidebar 
+keywords: view, https, security, certificate 
+summary: Você pode comparar os detalhes do certificado HTTPS com o certificado recuperado em seu navegador para garantir que a conexão criptografada do navegador com o Unified Manager não esteja sendo intercetada. 
+---
+= Exibindo o certificado de segurança HTTPS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode comparar os detalhes do certificado HTTPS com o certificado recuperado em seu navegador para garantir que a conexão criptografada do navegador com o Unified Manager não esteja sendo intercetada.
+
+*O que você vai precisar*
+
+Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+
+A exibição do certificado permite verificar o conteúdo de um certificado regenerado ou exibir nomes Alt de assunto (SAN) a partir dos quais você pode acessar o Unified Manager.
+
+.Passo
+. No painel de navegação esquerdo, clique em *Geral* > *certificado HTTPS*.
++
+O certificado HTTPS é exibido na parte superior da página
+
+
+
+Se você precisar exibir informações mais detalhadas sobre o certificado de segurança do que as exibidas na página certificado HTTPS, poderá exibir o certificado de conexão no navegador.

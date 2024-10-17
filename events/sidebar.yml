@@ -1,0 +1,212 @@
+---
+section: events
+title: Gerenciar eventos e alertas
+entries:
+- title: Gerenciamento de eventos
+  url: "/events/concept_manage_events.html"
+  entries:
+  - title: Quais são os eventos da plataforma Active IQ
+    url: "/events/concept_what_active_iq_platform_events_are.html"
+  - title: Quais são os eventos do sistema de Gestão de Eventos
+    url: "/events/concept_what_event_management_system_events_are.html"
+    entries:
+    - title: Eventos EMS que são adicionados automaticamente ao Unified Manager
+      url: "/events/reference_ems_events_that_are_added_automatically_to_um.html"
+    - title: Subscrever eventos ONTAP EMS
+      url: "/events/task_subscribe_to_ontap_ems_events.html"
+  - title: O que acontece quando um evento é recebido
+    url: "/events/concept_what_happens_when_an_event_is_received.html"
+  - title: Visualização de eventos e detalhes do evento
+    url: "/events/task_view_event_details.html"
+  - title: Exibindo eventos não atribuídos
+    url: "/events/task_view_unassigned_events.html"
+  - title: Reconhecer e resolver eventos
+    url: "/events/task_acknowledge_and_resolve_events.html"
+  - title: Atribuindo eventos a usuários específicos
+    url: "/events/task_assign_events_to_specific_users.html"
+  - title: Desativar eventos indesejados
+    url: "/events/task_disable_unwanted_events.html"
+  - title: Correção de problemas usando as correções automáticas do Unified Manager
+    url: "/events/task_fix_issues_using_um_automatic_remediations.html"
+  - title: Ativar e desativar relatórios de eventos do Active IQ
+    url: "/events/task_enable_and_disable_active_iq_event_reporting.html"
+  - title: Carregar um novo ficheiro de regras do Active IQ
+    url: "/events/task_upload_new_active_iq_rules_file.html"
+  - title: Como os eventos da plataforma Active IQ são gerados
+    url: "/events/concept_how_active_iq_platform_events_are_generated.html"
+  - title: Resolvendo eventos da plataforma Active IQ
+    url: "/events/concept_resolve_active_iq_platform_events.html"
+  - title: Configuração das configurações de retenção de eventos
+    url: "/events/task_configure_event_retention_settings.html"
+  - title: O que é uma janela de manutenção do Unified Manager
+    url: "/events/concept_what_um_maintenance_window_is.html"
+    entries:
+    - title: Agendar uma janela de manutenção para desativar as notificações de eventos
+        do cluster
+      url: "/events/task_schedule_maintenance_window_to_disable_cluster_notifications.html"
+    - title: Alterar ou cancelar uma janela de manutenção agendada
+      url: "/events/task_change_or_cancel_scheduled_maintenance_window.html"
+    - title: Visualização de eventos que ocorreram durante uma janela de manutenção
+      url: "/events/task_view_events_that_occurred_during_maintenance_window.html"
+  - title: Gerenciamento de eventos de recursos do sistema host
+    url: "/events/task_manage_host_system_resource_events.html"
+  - title: Compreender mais sobre eventos
+    url: "/events/concept_understand_more_about_events.html"
+    entries:
+    - title: Definições de estado do evento
+      url: "/events/concept_event_state_definitions.html"
+    - title: Descrição dos tipos de gravidade do evento
+      url: "/events/reference_description_of_event_severity_types.html"
+    - title: Descrição dos níveis de impactos do evento
+      url: "/events/reference_description_of_event_impact_levels.html"
+    - title: Descrição das áreas de impactos de eventos
+      url: "/events/reference_description_of_event_impact_areas.html"
+    - title: Como o status do objeto é calculado
+      url: "/events/concept_how_object_status_is_computed.html"
+    - title: Detalhes do gráfico de eventos de desempenho dinâmico
+      url: "/events/reference_dynamic_performance_event_chart_details.html"
+    - title: Alterações de configuração detetadas pelo Unified Manager
+      url: "/events/concept_cluster_configuration_changes_detected_by_um.html"
+  - title: Lista de eventos e tipos de gravidade
+    url: "/events/reference_list_of_events_and_severity_types.html"
+    entries:
+    - title: Agregar eventos
+      url: "/events/reference_aggregate_events.html"
+    - title: Eventos de cluster
+      url: "/events/reference_cluster_events.html"
+    - title: Eventos de discos
+      url: "/events/reference_disk_events.html"
+    - title: Eventos de cercos
+      url: "/events/reference_enclosures_events.html"
+    - title: Eventos de fãs
+      url: "/events/reference_fans_events.html"
+    - title: Eventos do cartão flash
+      url: "/events/reference_flash_card_events.html"
+    - title: Inodes eventos
+      url: "/events/reference_inodes_events.html"
+    - title: Eventos de interface de rede (LIF)
+      url: "/events/reference_logical_interface_events.html"
+    - title: Eventos LUN
+      url: "/events/reference_lun_events.html"
+    - title: Eventos da estação de gerenciamento
+      url: "/events/reference_management_station_events.html"
+    - title: Rio de Janeiro events MetroCluster
+      url: "/events/reference_metrocluster_bridge_events.html"
+    - title: Eventos de conetividade MetroCluster
+      url: "/events/reference_metrocluster_connectivity_events.html"
+    - title: Eventos do switch MetroCluster
+      url: "/events/reference_metrocluster_switch_events.html"
+    - title: Eventos de namespace NVMe
+      url: "/events/reference_nvme_namespace_events.html"
+    - title: Eventos do nó
+      url: "/events/reference_node_events.html"
+    - title: Eventos da bateria do NVRAM
+      url: "/events/reference_nvram_battery_events.html"
+    - title: Eventos portuários
+      url: "/events/reference_port_events.html"
+    - title: Eventos de fontes de alimentação
+      url: "/events/reference_power_supplies_events.html"
+    - title: Eventos de proteção
+      url: "/events/reference_protection_events.html"
+    - title: Eventos de Qtree
+      url: "/events/reference_qtree_events.html"
+    - title: Eventos do processador de serviço
+      url: "/events/reference_service_processor_events.html"
+    - title: Eventos de relacionamento do SnapMirror
+      url: "/events/reference_snapmirror_relationship_events.html"
+    - title: Eventos de relacionamento com o Asynchronous Mirror e o Vault
+      url: "/events/reference_snapmirror_and_vault_relationship_events.html"
+    - title: Eventos de snapshot
+      url: "/events/reference_snapshot_events.html"
+    - title: Eventos de relacionamento do SnapVault
+      url: "/events/reference_snapvault_relationship_events.html"
+    - title: Eventos de configurações de failover de storage
+      url: "/events/reference_storage_failover_settings_events.html"
+    - title: Eventos de serviços de armazenamento
+      url: "/events/reference_storage_services_events.html"
+    - title: Eventos de prateleira de armazenamento
+      url: "/events/reference_storage_shelf_events.html"
+    - title: Eventos de VM de storage
+      url: "/events/reference_storage_vm_events.html"
+    - title: Eventos de quota de utilizador e grupo
+      url: "/events/reference_user_and_group_quota_events.html"
+    - title: Eventos de volume
+      url: "/events/reference_volume_events.html"
+    - title: Eventos de status de movimentação de volume
+      url: "/events/reference_volume_move_status_events.html"
+  - title: Descrição das janelas de eventos e caixas de diálogo
+    url: "/events/reference_description_of_event_windows_and_dialog_boxes.html"
+    entries:
+    - title: Página de notificações
+      url: "/events/reference_notifications_page.html"
+    - title: Página de inventário do Gerenciamento de Eventos
+      url: "/events/reference_event_management_inventory_page.html"
+    - title: Página de detalhes do evento
+      url: "/events/reference_event_details_page.html"
+      entries:
+      - title: O que a seção informações do evento exibe
+        url: "/events/reference_what_event_information_section_displays.html"
+      - title: O que a seção ações sugeridas é exibida
+        url: "/events/reference_what_suggested_actions_section_displays.html"
+      - title: O que é apresentado na secção Diagnóstico do sistema
+        url: "/events/reference_what_system_diagnosis_section_displays.html"
+    - title: Página Configuração do evento
+      url: "/events/reference_event_setup_page.html"
+    - title: Caixa de diálogo Desativar eventos
+      url: "/events/reference_disable_events_dialog_box.html"
+- title: Gerenciamento de alertas
+  url: "/events/concept_manage_alerts.html"
+  entries:
+  - title: Quais são os alertas
+    url: "/events/concept_what_alerts_are.html"
+  - title: Quais informações estão contidas em um e-mail de alerta
+    url: "/events/concept_what_information_is_contained_in_an_alert_email.html"
+  - title: Adicionar alertas
+    url: "/events/task_add_alerts.html"
+    entries:
+    - title: Diretrizes para adicionar alertas
+      url: "/events/concept_guidelines_for_adding_alerts.html"
+  - title: Adição de alertas para eventos de desempenho
+    url: "/events/task_add_alerts_for_performance_events.html"
+  - title: Testando alertas
+    url: "/events/task_test_alerts.html"
+  - title: Ativar e desativar alertas para eventos resolvidos e obsoletos
+    url: "/events/task_disable_alerts_for_resolved_and_obsolete_events.html"
+  - title: Exclusão da geração de alertas de volumes de destino de recuperação de
+      desastres
+    url: "/events/task_exclude_disaster_recovery_destination_volumes_from_alerts.html"
+  - title: Visualização de alertas
+    url: "/events/task_view_alerts.html"
+  - title: Editar alertas
+    url: "/events/task_edit_alerts.html"
+  - title: Eliminar alertas
+    url: "/events/task_delete_alerts.html"
+  - title: Descrição das janelas de alerta e caixas de diálogo
+    url: "/events/reference_description_of_health_alert_windows_and_dialog_boxes.html"
+    entries:
+    - title: Página Configuração de alerta
+      url: "/events/reference_alert_setup_page.html"
+    - title: Caixa de diálogo Adicionar alerta
+      url: "/events/reference_add_alert_dialog_box.html"
+    - title: Caixa de diálogo Editar alerta
+      url: "/events/reference_edit_alert_dialog_box.html"
+- title: Gerenciamento de scripts
+  url: "/events/concept_manage_scripts.html"
+  entries:
+  - title: Como os scripts funcionam com alertas
+    url: "/events/concept_how_scripts_work_with_alerts.html"
+  - title: Adicionando scripts
+    url: "/events/task_add_scripts.html"
+  - title: Eliminar scripts
+    url: "/events/task_delete_scripts.html"
+  - title: Testando a execução de script
+    url: "/events/task_test_script_execution.html"
+  - title: Comandos de CLI do Unified Manager compatíveis
+    url: "/events/reference_supported_unified_manager_cli_commands.html"
+  - title: Descrição das janelas de script e caixas de diálogo
+    url: "/events/reference_description_of_script_windows_and_dialog_boxes.html"
+    entries:
+    - title: Página de scripts
+      url: "/events/reference_management_scripts_page.html"
+    - title: Caixa de diálogo Add Script (Adicionar script)
+      url: "/events/reference_add_script_dialog_box.html"

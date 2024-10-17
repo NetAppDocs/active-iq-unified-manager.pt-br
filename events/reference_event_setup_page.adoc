@@ -1,0 +1,60 @@
+---
+permalink: events/reference_event_setup_page.html 
+sidebar: sidebar 
+keywords: event, setup, page, command, buttons, list, view 
+summary: A página Configuração do evento exibe a lista de eventos desativados e fornece informações como o tipo de objeto associado e a gravidade do evento. Você também pode executar tarefas como desabilitar ou habilitar eventos globalmente. 
+---
+= Página Configuração do evento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+A página Configuração do evento exibe a lista de eventos desativados e fornece informações como o tipo de objeto associado e a gravidade do evento. Você também pode executar tarefas como desabilitar ou habilitar eventos globalmente.
+
+Você só pode acessar esta página se tiver a função Administrador de aplicativos ou Administrador de armazenamento.
+
+
+
+== Botões de comando
+
+Os botões de comando permitem executar as seguintes tarefas para eventos selecionados:
+
+* *Desativar*
++
+Inicia a caixa de diálogo Desativar eventos, que pode ser utilizada para desativar eventos.
+
+* *Ativar*
++
+Ativa eventos selecionados que você escolheu para desativar anteriormente.
+
+* *Regras de upload*
++
+Inicia a caixa de diálogo regras de carregamento, que permite que sites sem acesso à rede externa carreguem manualmente o arquivo de regras do Active IQ para o Gerenciador Unificado. As regras são executadas em mensagens do cluster AutoSupport para gerar eventos para configuração do sistema, cabeamento, práticas recomendadas e disponibilidade, conforme definido pela plataforma Active IQ.
+
+* *Subscribe to EMS Events*
++
+Inicia a caixa de diálogo assinar eventos EMS, que permite que você se inscreva para receber eventos específicos do sistema de gerenciamento de eventos (EMS) dos clusters que você está monitorando. O EMS recolhe informações sobre eventos que ocorrem no cluster. Quando uma notificação é recebida para um evento EMS subscrito, um evento do Unified Manager é gerado com a gravidade apropriada.
+
+
+
+
+
+== Vista de lista
+
+O modo de exibição Lista exibe informações (em formato tabular) sobre eventos desativados. Você pode usar os filtros de coluna para personalizar os dados exibidos.
+
+* *Evento*
++
+Exibe o nome do evento que está desativado.
+
+* *Gravidade*
++
+Exibe a gravidade do evento. A gravidade pode ser Crítica, erro, Aviso ou Informação.
+
+* *Tipo de fonte*
++
+Exibe o tipo de origem para o qual o evento é gerado.
+
+

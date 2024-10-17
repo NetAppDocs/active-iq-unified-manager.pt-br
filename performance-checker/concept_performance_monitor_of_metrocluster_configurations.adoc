@@ -1,0 +1,45 @@
+---
+permalink: performance-checker/concept_performance_monitor_of_metrocluster_configurations.html 
+sidebar: sidebar 
+keywords: performance, monitor, metrocluster, throughput 
+summary: Com o Unified Manager, você monitora a taxa de transferência de gravação entre clusters em uma configuração do MetroCluster para identificar workloads com uma taxa de transferência de gravação alta. Se esses workloads de alta performance fizerem com que outros volumes no cluster local tenham tempos de resposta de e/S altos, o Unified Manager acionará eventos de desempenho para notificá-lo. 
+---
+= Monitoramento de desempenho das configurações do MetroCluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Com o Unified Manager, você monitora a taxa de transferência de gravação entre clusters em uma configuração do MetroCluster para identificar workloads com uma taxa de transferência de gravação alta.
+
+Se esses workloads de alta performance fizerem com que outros volumes no cluster local tenham tempos de resposta de e/S altos, o Unified Manager acionará eventos de desempenho para notificá-lo.
+
+
+NOTE: O Unified Manager trata os clusters em uma configuração do MetroCluster como clusters individuais. Isso não faz distinção entre clusters que são parceiros ou correlacionam a taxa de transferência de gravação de cada cluster.
+
+Quando um cluster local em uma configuração do MetroCluster espelha seus dados em seu cluster de parceiros, os dados são gravados no NVRAM e transferidos pelos links de interswitch (ISLs) para os agregados remotos. O Unified Manager analisa o NVRAM para identificar workloads cuja alta taxa de transferência de gravação sobreutiliza o NVRAM, colocando o NVRAM na contenção.
+
+Cargas de trabalho cujo desvio no tempo de resposta excedeu o limite de desempenho são chamadas _vítimas_ e cargas de trabalho cujo desvio no throughput de gravação para o NVRAM é maior do que o habitual, causando a contenção, são chamadas _bullies_. Como apenas as solicitações de gravação são espelhadas no cluster de parceiros, o Unified Manager não analisa a taxa de transferência de leitura.
+
+É possível visualizar a taxa de transferência de qualquer um dos clusters em uma configuração do MetroCluster analisando os workloads das LUNs e volumes correspondentes nas telas a seguir. Você pode filtrar os resultados pelo cluster. A partir do painel de navegação esquerdo:
+
+* *Storage > clusters > desempenho: Exibição todos os clusters*. Consulte
+* *Armazenamento > volumes > desempenho: Visualização de todos os volumes*.
+* *Armazenamento > LUNs > desempenho: Todos os LUNs* são exibidos.
+* *Análise de cargas de trabalho > todas as cargas de trabalho*
+
+
+*Informações relacionadas*
+
+link:../performance-checker/reference_performance_event_analysis_and_notification.html["Análise e notificação de eventos de performance"]
+
+link:../performance-checker/concept_performance_incident_analysis_for_metrocluster_configuration.html["Análise de eventos de performance para uma configuração do MetroCluster"]
+
+link:../performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html["Funções dos workloads envolvidos em um evento de desempenho"]
+
+link:../performance-checker/task_identify_victim_workloads_involved_in_performance_event.html["Identificação das cargas de trabalho das vítimas envolvidas em um evento de desempenho"]
+
+link:../performance-checker/task_identify_bully_workloads_involved_in_performance_event.html["Identificação de cargas de trabalho bully envolvidas em um evento de desempenho"]
+
+link:../performance-checker/task_identify_shark_workloads_involved_in_performance_event.html["Identificação de cargas de trabalho do SHARK envolvidas em um evento de desempenho"]

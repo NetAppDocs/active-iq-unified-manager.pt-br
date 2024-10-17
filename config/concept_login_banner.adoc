@@ -1,0 +1,16 @@
+---
+permalink: config/concept_login_banner.html 
+sidebar: sidebar 
+keywords: login banner, feature settings 
+summary: Este recurso permite que sua organização exiba qualquer informação, como, quem tem permissão de acesso ao sistema e os termos e condições de uso durante o login e logout. 
+---
+= Adicionando banner de login
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Adicionar um banner de login permite que sua organização exiba qualquer informação, como, quem tem permissão de acesso ao sistema e os termos e condições de uso durante o login e logout.
+
+Qualquer usuário, como operadores de armazenamento ou administradores, pode visualizar este banner pop-up de login durante o login, logout e tempo limite da sessão.

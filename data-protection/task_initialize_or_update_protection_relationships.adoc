@@ -1,0 +1,54 @@
+---
+permalink: data-protection/task_initialize_or_update_protection_relationships.html 
+sidebar: sidebar 
+keywords: initialize, update, protection, relationships, volume, page 
+summary: Na página relacionamentos de volume, você pode executar uma transferência de linha de base pela primeira vez em um novo relacionamento de proteção ou atualizar um relacionamento se ele já estiver inicializado e você quiser executar uma atualização incremental manual e não programada para transferir imediatamente. 
+---
+= Inicializando ou atualizando relacionamentos de proteção a partir da página relacionamentos de volume
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Na página relacionamentos de volume, você pode executar uma transferência de linha de base pela primeira vez em um novo relacionamento de proteção ou atualizar um relacionamento se ele já estiver inicializado e você quiser executar uma atualização incremental manual e não programada para transferir imediatamente.
+
+
+NOTE: Não é possível inicializar ou atualizar volumes protegidos por grupos de consistência.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+* Tem de ter configurado o OnCommand Workflow Automation.
+
+
+.Passos
+. Na página *relacionamentos de volume*, clique com o botão direito do Mouse em um volume e selecione um ou mais volumes com relacionamentos que você deseja atualizar ou inicializar e, na barra de ferramentas, clique em *Inicializar/Atualizar*.
++
+A caixa de diálogo *Inicializar/Atualizar* é exibida.
+
+. Na guia *Opções de transferência*, selecione uma prioridade de transferência e a taxa de transferência máxima.
+. Clique em *cópias snapshot de origem*; em seguida, na coluna *cópia Snapshot*, clique em *predefinição*.
++
+A caixa de diálogo Selecionar cópia Snapshot de origem é exibida.
+
+. Se você quiser especificar uma cópia Snapshot existente em vez de transferir a cópia Snapshot padrão, clique em *cópia Snapshot existente* e selecione uma cópia Snapshot na lista.
+. Clique em *Enviar*.
++
+Você será retornado à caixa de diálogo *Inicializar/Atualizar*.
+
+. Se você selecionou mais de uma fonte para inicializar ou atualizar, clique em *Default* para a próxima fonte para a qual deseja especificar uma cópia Snapshot existente.
+. Clique em *Enviar* para iniciar o trabalho de inicialização ou atualização.
++
+O trabalho de inicialização ou atualização é iniciado, você retorna à página relacionamentos de volume e um link trabalhos é exibido na parte superior da página.
+
+. *Opcional:* clique em *Exibir trabalhos* na exibição *Saúde: Todos os volumes* para rastrear o status de cada tarefa de inicialização ou atualização.
++
+É apresentada uma lista filtrada de trabalhos.
+
+. *Opcional:* clique em cada trabalho para ver seus detalhes.
+. *Opcional:* clique na seta *voltar* no seu navegador para retornar à página *relacionamentos por volume*.
++
+A operação de inicialização ou atualização é concluída quando todas as tarefas são concluídas com êxito.
+
+

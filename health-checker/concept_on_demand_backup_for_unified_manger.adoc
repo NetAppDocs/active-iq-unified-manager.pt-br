@@ -1,0 +1,16 @@
+---
+permalink: health-checker/concept_on_demand_backup_for_unified_manger.html 
+sidebar: sidebar 
+keywords: backup, on-demand, unified manager 
+summary: Você pode usar a interface de usuário do Active IQ Unified Manager para gerar backup sob demanda sempre que necessário. O backup sob demanda permite que você crie instantaneamente um backup usando o método de backup existente. O backup sob demanda não diferencia entre o MySQL ou o backup baseado no NetApp Snapshot. 
+---
+= Backup sob demanda para Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode usar a interface de usuário do Active IQ Unified Manager para gerar backup sob demanda sempre que necessário. O backup sob demanda permite que você crie instantaneamente um backup usando o método de backup existente. O backup sob demanda não diferencia entre o MySQL ou o backup baseado no NetApp Snapshot.
+
+Você pode executar o backup sob demanda usando o botão *Backup Now* na página Backup do banco de dados. O backup sob demanda não depende das programações que você configurou para o Active IQ Unified Manager.

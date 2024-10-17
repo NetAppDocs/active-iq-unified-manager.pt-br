@@ -1,0 +1,14 @@
+---
+permalink: events/reference_description_of_health_alert_windows_and_dialog_boxes.html 
+sidebar: sidebar 
+keywords: description, alert, windows, dialog boxes 
+summary: Você deve configurar alertas para receber notificações sobre eventos usando a caixa de diálogo Adicionar alerta. Também pode ver a lista de alertas na página Configuração de alertas. 
+---
+= Descrição das janelas de alerta e caixas de diálogo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você deve configurar alertas para receber notificações sobre eventos usando a caixa de diálogo Adicionar alerta. Também pode ver a lista de alertas na página Configuração de alertas.

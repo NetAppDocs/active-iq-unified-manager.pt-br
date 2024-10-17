@@ -1,0 +1,86 @@
+---
+permalink: api-automation/concept_administration_apis.html 
+sidebar: sidebar 
+keywords: perform, administrative, tasks 
+summary: Você pode usar as APIs na categoria administração para modificar configurações de backup, verificar as informações do arquivo de backup e certificados de cluster e também gerenciar clusters do ONTAP como fontes de dados do Active IQ Unified Manager. 
+---
+= Executar tarefas administrativas usando APIs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode usar as APIs `administration` na categoria para modificar configurações de backup, verificar as informações do arquivo de backup e certificados de cluster e também gerenciar clusters do ONTAP como fontes de dados do Active IQ Unified Manager.
+
+[NOTE]
+====
+Você deve ter a função Administrador do aplicativo para executar essas operações. Você também pode usar a IU da Web do Unified Manager para configurar essas configurações.
+
+====
+[cols="3*"]
+|===
+| Verbo HTTP | Caminho | Descrição 
+
+
+ a| 
+`GET`
+
+`PATCH`
+ a| 
+`/admin/backup-settings`
+
+`/admin/backup-settings`
+ a| 
+Você pode usar o `GET` método para exibir as configurações do agendamento de backup configurado no Unified Manager por padrão. Você pode verificar o seguinte:
+
+* Se a programação está ativada ou desativada
+* Frequência da cópia de segurança agendada (diária ou semanal)
+* Hora do backup
+* Número máximo de arquivos de backup que devem ser mantidos no aplicativo
+
+
+A hora do backup está no fuso horário do servidor.
+
+As configurações de backup do banco de dados estão disponíveis no Unified Manager por padrão e você não pode criar um agendamento de backup. No entanto, você pode usar o `PATCH` método para modificar as configurações padrão.
+
+
+
+ a| 
+`GET`
+ a| 
+`/admin/backup-file-info`
+ a| 
+Um arquivo de despejo de backup é gerado sempre que o agendamento de backup é modificado para o Unified Manager. Pode utilizar este método para verificar se o ficheiro de cópia de segurança é gerado de acordo com as definições de cópia de segurança modificadas e se as informações no ficheiro correspondem às definições modificadas.
+
+
+
+ a| 
+`GET`
+ a| 
+`/admin/datasource-certificate`
+ a| 
+Você pode usar este método para exibir o certificado da fonte de dados (cluster) do armazenamento de confiança. A validação do certificado é necessária antes de adicionar um cluster do ONTAP como uma fonte de dados do Unified Manager.
+
+
+
+ a| 
+`GET`
+
+`POST`
+
+`PATCH`
+
+`DELETE`
+ a| 
+`/admin/datasources/clusters`
+
+`/admin/datasources/clusters/\{key}`
+ a| 
+Você pode usar o `GET` método para recuperar os detalhes das fontes de dados (clusters do ONTAP) gerenciadas pelo Unified Manager.
+
+Você também pode adicionar um novo cluster ao Unified Manager como uma fonte de dados. Para adicionar um cluster, você deve saber seu nome de host, nome de usuário e senha.
+
+Para modificar e excluir um cluster gerenciado como uma fonte de dados pelo Unified Manager, use a chave de cluster do ONTAP.
+
+|===

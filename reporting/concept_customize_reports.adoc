@@ -1,0 +1,26 @@
+---
+permalink: reporting/concept_customize_reports.html 
+sidebar: sidebar 
+keywords: customize, reports 
+summary: Há muitas maneiras de personalizar as exibições para criar um relatório que contenha todas as informações necessárias para gerenciar os clusters do ONTAP. 
+---
+= Personalizar relatórios
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Há muitas maneiras de personalizar as exibições para criar um relatório que contenha todas as informações necessárias para gerenciar os clusters do ONTAP.
+
+Comece com uma página de inventário padrão ou uma exibição personalizada e, em seguida, personalize-a adicionando ou removendo colunas, alterando a ordem da coluna, filtrando os dados ou classificando em uma coluna específica em ordem ascendente ou descendente.
+
+A partir do Unified Manager 9,8, você também pode baixar a exibição no Excel para personalizá-la usando recursos avançados. Quando terminar, carregue o ficheiro Excel personalizado. Se você agendar um relatório usando essa exibição, ele usará o arquivo Excel personalizado para criar relatórios robustos que você pode compartilhar.
+
+Para obter mais informações sobre como personalizar relatórios usando o Excel, consulte _exemplos de relatórios do Microsoft Excel_.
+
+[NOTE]
+====
+Você deve ter a função Administrador de aplicativos ou Administrador de armazenamento para gerenciar relatórios.
+
+====

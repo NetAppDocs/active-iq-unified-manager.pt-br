@@ -1,0 +1,121 @@
+---
+indexpage:
+  title: Documentação do Active IQ Unified Manager
+  summary: Documentação para Active IQ Unified Manager
+  keywords: aiqum docs, um docs, unified manager, active iq, oncommand, storage, windows,
+    linux,  vmware vsphere, vapp, configure
+  lead: Com o Active IQ Unified Manager (Unified Manager e anteriormente OnCommand
+    Unified Manager), você monitora e gerencia a integridade e a performance dos sistemas
+    de storage da ONTAP em uma única interface. Esta biblioteca de documentação inclui
+    informações para a versão 9,14.
+  tiles:
+  - title: Comece agora
+    links:
+    - title: Visão geral do produto
+      url: "/storage-mgmt/concept_introduction_to_unified_manager.html"
+    - title: Notas de versão
+      url: reference_release_notes.html
+    - title: Instalação rápida do VMware vSphere
+      url: "/install-vapp/qsg-vapp.html"
+    - title: Instalação rápida para Linux
+      url: "/install-linux/qsg-linux.html"
+    - title: Instalação rápida para Windows
+      url: "/install-windows/qsg-windows.html"
+  - title: Instalar e configurar o Unified Manager
+    links:
+    - title: Instalar e atualizar em sistemas VMware vSphere
+      url: "/install-vapp/concept_requirements_for_installing_unified_manager.html"
+    - title: Instale e atualize em sistemas Linux
+      url: "/install-linux/concept_requirements_for_install_unified_manager.html"
+    - title: Instalar e atualizar em sistemas Windows
+      url: "/install-windows/concept_requirements_for_installing_unified_manager.html"
+    - title: Configurar o Unified Manager
+      url: "/config/concept_configure_unified_manager.html"
+    - title: Gerir definições de funcionalidades
+      url: "/config/concept_manage_feature_settings.html"
+    - title: Gerenciar o acesso baseado em funções
+      url: "/config/concept_manage_user_access.html"
+  - title: Monitoramento de desempenho
+    links:
+    - title: Limites de performance
+      url: "/performance-checker/concept_manage_performance_thresholds.html"
+    - title: Desempenho do cluster
+      url: "/performance-checker/concept_monitor_cluster_performance_from_dashboard.html"
+    - title: Grupo de políticas de QoS
+      url: "/performance-checker/concept_manage_performance_using_qos_policy_group_information.html"
+    - title: Analisador de carga de trabalho
+      url: "/performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html"
+    - title: Performance do workload
+      url: "/performance-checker/concept_collect_data_and_monitor_workload_performance.html"
+    - title: Gerenciar o desempenho
+      url: "/performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html"
+  - title: Monitoramento de integridade de objetos e storage
+    links:
+    - title: Workloads
+      url: "/storage-mgmt/concept_provision_and_manage_workloads.html"
+    - title: Infraestrutura virtual
+      url: "/storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html"
+    - title: Configurações do MetroCluster
+      url: "/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html"
+    - title: Integridade de objetos de cluster e clusters
+      url: "/health-checker/concept_manage_and_monitor_clusters_and_cluster_object_health.html"
+    - title: Limites de integridade
+      url: "/health-checker/concept_manage_health_thresholds.html"
+    - title: Envie mensagens AutoSupport e pacotes de suporte
+      url: "/health-checker/task_send_asup_to_technical_support.html"
+  - title: Monitoramento de proteção de dados
+    links:
+    - title: Configure a relação de proteção
+      url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
+    - title: Executar failover e failback
+      url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
+    - title: Gerenciar o relacionamento de proteção
+      url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
+    - title: Monitorar relacionamentos de recuperação de desastres
+      url: "/data-protection/task_monitor_storage_vms_using_relationships_page.html"
+    - title: Monitore as configurações do MetroCluster
+      url: "/storage-mgmt/task_monitor_metrocluster_configurations.html"
+    - title: Gerar relatórios
+      url: "/reporting/concept_unified_manager_reporting.html"
+  - title: Use APIS REST
+    links:
+    - title: Comece agora
+      url: "/api-automation/concept_api_url_and_categories.html"
+    - title: Acesse as APIs do Unified Manager
+      url: "/api-automation/concept_rest_api_access_and_authentication_in_um_apis.html"
+    - title: Gerenciar objetos de storage
+      url: "/api-automation/concept_data_center_apis.html"
+    - title: Acesse APIs do ONTAP
+      url: "/api-automation/concept_gateway_apis.html"
+    - title: Fluxos de trabalho comuns
+      url: "/api-automation/concept_workflow_intro.html"
+    - title: Provisionamento de storage
+      url: "/api-automation/concept_provision_workflow.html"
+    - title: Referência de API para Unified Manager
+      url: https://library.netapp.com/ecmdocs/ECMLP2886876/html/index.html
+  - title: Eventos e alertas
+    links:
+    - title: Painel de instrumentos
+      url: "/storage-mgmt/reference_dashboard_page.html"
+    - title: Fluxo de trabalho do evento
+      url: "/events/concept_what_happens_when_an_event_is_received.html"
+    - title: Eventos da plataforma Active IQ
+      url: "/events/concept_how_active_iq_platform_events_are_generated.html"
+    - title: Eventos e tipos de gravidade
+      url: "/events/reference_list_of_events_and_severity_types.html"
+    - title: Eventos de correção
+      url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
+    - title: Remediação automática
+      url: "/storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html"
+  - title: Mais recursos
+    links:
+    - title: Vídeos do Unified Manager
+      url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
+    - title: Blogs do Unified Manager
+      url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
+    - title: Documentação para o Active IQ Unified Manager 9,9 ou anterior
+      url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791
+    - title: Base de informações de gerenciamento do Unified Manager (MIB)
+      url: https://mysupport.netapp.com/site/tools/tool-eula/aiqum-mib
+    - title: Esquema do banco de dados do Unified Manager
+      url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791

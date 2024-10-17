@@ -1,0 +1,54 @@
+---
+permalink: health-checker/task_define_schedule_for_snapshot_backups.html 
+sidebar: sidebar 
+keywords: define, backup, schedule, linux, windows, snapshot copy, copies 
+summary: Você pode configurar a programação em que as cópias Snapshot do Unified Manager são criadas usando a IU do Unified Manager. 
+---
+= Definir uma agenda de backup para Linux e Windows
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode configurar a programação em que as cópias Snapshot do Unified Manager são criadas usando a IU do Unified Manager.
+
+*O que você vai precisar*
+
+* Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+* Você deve ter configurado as configurações para criar cópias Snapshot a partir do console de manutenção para identificar o destino onde os snapshots serão criados.
+
+
+As cópias snapshot são criadas em apenas alguns minutos, e o banco de dados do Unified Manager fica bloqueado apenas por alguns segundos.
+
+[NOTE]
+====
+O backup realizado durante os 15 dias iniciais de uma nova adição de cluster pode não ser preciso o suficiente para obter os dados históricos de desempenho.
+
+====
+.Passos
+. No painel de navegação à esquerda, clique em *Geral* > *Backup do banco de dados*.
+. Na página *Backup do banco de dados*, clique em *Backup Settings*.
+. Introduza o número máximo de cópias Snapshot que pretende manter no campo *contagem de retenção*.
++
+O valor padrão para a contagem de retenção é 10. O número máximo de cópias Snapshot é determinado pela versão do software ONTAP no cluster. Você pode deixar este campo em branco para implementar o valor máximo independentemente da versão do ONTAP.
+
+. Selecione o botão *programado diariamente* ou *programado semanal* e especifique os detalhes da programação.
+. Clique em *aplicar*.
+
+
+As cópias snapshot são criadas com base na programação. Você pode ver os arquivos de backup disponíveis na página Backup do banco de dados.
+
+Devido à importância desse volume e dos instantâneos, você pode querer criar um ou dois alertas para esse volume para que você seja notificado quando:
+
+* O espaço de volume está 90% cheio. Use o evento *espaço de volume cheio* para configurar o alerta.
++
+Você pode adicionar capacidade ao volume usando o Gerenciador de sistema do ONTAP ou a CLI do ONTAP para que o banco de dados do Unified Manager não fique sem espaço.
+
+* O número de instantâneos está próximo de atingir o número máximo. Use o evento *muitas cópias Snapshot* para configurar o alerta.
++
+Você pode excluir snapshots mais antigos usando o Gerenciador de sistemas do ONTAP ou a CLI do ONTAP para que sempre haja espaço para novas cópias Snapshot.
+
+
+
+Configure alertas na página Configuração de alertas.

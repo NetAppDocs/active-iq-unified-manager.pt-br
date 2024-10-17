@@ -1,0 +1,21 @@
+---
+permalink: config/concept_manage_feature_settings.html 
+sidebar: sidebar 
+keywords: uploading scripts, api gateway, slo or policy-based storage management, timeout, active iq platform events 
+summary: A página Configurações de recursos permite ativar e desativar recursos específicos no Active IQ Unified Manager. Isso inclui criar e gerenciar objetos de armazenamento com base em políticas, ativar o gateway da API, carregar scripts para gerenciar alertas, cronometrar uma sessão da IU da Web com base no tempo de inatividade e desativar o recebimento de eventos da plataforma Active IQ. 
+---
+= Gerir definições de funcionalidades
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+A página Configurações de recursos permite ativar e desativar recursos específicos no Active IQ Unified Manager. Isso inclui criar e gerenciar objetos de armazenamento com base em políticas, ativar o gateway de API e o banner de login, fazer upload de scripts para gerenciar alertas, agendar uma sessão de IU da Web com base no tempo de inatividade e desativar o recebimento de eventos da plataforma Active IQ.
+
+[NOTE]
+====
+A página Configurações de recursos só está disponível para usuários com função Administrador de aplicativos.
+
+====
+Para obter informações sobre o carregamento de scripts, link:task_enable_and_disable_ability_to_upload_scripts.html["Ativar e desativar o carregamento de scripts"]consulte .

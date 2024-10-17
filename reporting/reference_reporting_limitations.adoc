@@ -1,0 +1,52 @@
+---
+permalink: reporting/reference_reporting_limitations.html 
+sidebar: sidebar 
+keywords: reporting, limitations 
+summary: Existem algumas limitações com a nova funcionalidade de relatórios do Active IQ Unified Manager, das quais você deve estar ciente. 
+---
+= Limitações de relatórios
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Existem algumas limitações com a nova funcionalidade de relatórios do Active IQ Unified Manager, das quais você deve estar ciente.
+
+
+
+== Relatórios existentes de versões anteriores do Unified Manager
+
+Você só pode editar a programação e os destinatários dos relatórios existentes que foram criados e importados (como arquivos .rptdesign) no Unified Manager 9,5 e versões anteriores. Se você personalizou qualquer um dos relatórios padrão fornecidos com o Unified Manager 9,5 ou anterior, esses relatórios personalizados não serão importados para a nova ferramenta de relatórios.
+
+Se você precisar editar relatórios existentes importados de arquivos .rptdesign, siga um destes procedimentos e remova o relatório importado:
+
+* criar uma nova visualização e agendar um relatório a partir dessa visualização (preferencial)
+* Passe o Mouse sobre o relatório, copie o SQL e puxe os dados usando uma ferramenta externa
+
+
+As visualizações padrão podem ser geradas como relatórios sem a necessidade de qualquer personalização. Você pode usar a nova solução de relatórios para recriar todos os relatórios personalizados.
+
+
+
+== Agendar e relatar relacionamento
+
+Você pode criar muitas agendas diferentes com qualquer combinação de destinatários para cada relatório salvo. No entanto, não é possível reutilizar a programação para vários relatórios.
+
+
+
+== Relatório de proteção
+
+Qualquer usuário com as permissões apropriadas pode editar ou excluir relatórios. Não há nenhuma maneira de impedir que outros usuários removam ou façam alterações em visualizações ou programações salvas.
+
+
+
+== Relatórios de eventos
+
+Embora você possa personalizar a exibição de eventos e fazer o download do relatório resultante no formato CSV, não é possível agendar relatórios de eventos recorrentes para geração e distribuição.
+
+
+
+== Anexos de relatório
+
+Os relatórios não podem ser enviados no corpo de um e-mail. Em vez disso, os relatórios são enviados apenas como anexos PDF, Excel ou CSV.

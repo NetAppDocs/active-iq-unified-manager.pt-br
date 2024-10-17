@@ -1,0 +1,103 @@
+---
+permalink: api-automation/concept_manage_sep.html 
+sidebar: sidebar 
+keywords: manage, storage, efficiency, policy 
+summary: Você pode exibir, criar, modificar e excluir políticas de eficiência de storage usando as APIs do provedor de storage. 
+---
+= Gerenciamento de políticas de eficiência de storage usando APIs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode exibir, criar, modificar e excluir políticas de eficiência de storage usando as APIs do provedor de storage.
+
+[NOTE]
+====
+Observe os seguintes pontos:
+
+* Não é obrigatório atribuir uma Política de eficiência de storage ao criar um workload no Unified Manager.
+* Não é possível anular a atribuição de uma Política de eficiência de armazenamento de uma carga de trabalho depois de uma política ser atribuída a ela.
+* Se um workload tiver algumas configurações de storage especificadas em volumes do ONTAP, como deduplicação e compactação, essas configurações poderão ser sobrescritas pelas configurações especificadas na Política de eficiência de storage aplicada quando você adicionar os workloads de storage no Unified Manager.
+
+
+====
+
+
+== Ver políticas de eficiência de storage
+
+Você pode usar o método a seguir para visualizar as políticas de eficiência de storage antes de atribuí-las a workloads de storage. Esta API lista todas as políticas de eficiência de armazenamento definidas pelo sistema e criadas pelo usuário e recupera os atributos de todas as políticas de eficiência de armazenamento. Se você quiser consultar uma Política de eficiência de armazenamento específica, você precisa inserir o ID exclusivo da política para recuperar seus detalhes.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Caminho 
+
+
+ a| 
+fornecedor de storage
+ a| 
+OBTER
+ a| 
+`/storage-provider/storage-efficiency-policies`
+
+`/storage-provider/storage-efficiency-policies/\{key}`
+
+|===
+
+
+== Adicione políticas de eficiência de storage
+
+Use o método a seguir para criar políticas de eficiência de storage personalizadas e atribuí-las aos workloads de storage se as políticas definidas pelo sistema não atenderem aos requisitos de provisionamento para seus workloads de storage. Insira os detalhes da Política de eficiência de armazenamento que você deseja criar, como parâmetros de entrada.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Caminho 
+
+
+ a| 
+fornecedor de storage
+ a| 
+POST
+ a| 
+`/storage-provider/storage-efficiency-policies`
+
+|===
+
+
+== Excluir políticas de eficiência de storage
+
+Você pode usar o seguinte método para excluir uma Política de eficiência de armazenamento específica. Não é possível excluir uma Política de eficiência de storage se ela for atribuída a uma carga de trabalho ou se for a única Política de eficiência de storage disponível. Você precisa fornecer o ID exclusivo da Política de eficiência de armazenamento como um parâmetro de entrada para excluir uma Política de eficiência de armazenamento específica.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Caminho 
+
+
+ a| 
+fornecedor de storage
+ a| 
+ELIMINAR
+ a| 
+`/storage-provider/storage-efficiency-policies/\{key}`
+
+|===
+
+
+== Modificar políticas de eficiência de storage
+
+Você pode usar o seguinte método para modificar uma Política de eficiência de armazenamento e atualizar suas propriedades. Não é possível modificar uma Política de eficiência de storage definida pelo sistema ou atribuída a uma carga de trabalho. Você precisa fornecer o ID exclusivo da Política de eficiência de storage para modificar uma Política de eficiência de storage específica. Além disso, você precisa fornecer a propriedade que você deseja atualizar, juntamente com seu valor.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Caminho 
+
+
+ a| 
+fornecedor de storage
+ a| 
+PATCH
+ a| 
+`/storage-provider/storage-efficiency-policies/\{key}`
+
+|===

@@ -1,0 +1,14 @@
+---
+permalink: api-automation/concept_manage_storage_workloads.html 
+sidebar: sidebar 
+keywords: manage, workloads 
+summary: As APIs descritas aqui abrangem várias funções de administração de storage, como visualização de workloads de storage, criação de LUNs e compartilhamentos de arquivos, gerenciamento de níveis de Serviço de Performance e políticas de eficiência de storage e atribuição de políticas para workloads de storage. 
+---
+= Gerenciamento de workloads usando APIs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+As APIs descritas aqui abrangem várias funções de administração de storage, como visualização de workloads de storage, criação de LUNs e compartilhamentos de arquivos, gerenciamento de níveis de Serviço de Performance e políticas de eficiência de storage e atribuição de políticas para workloads de storage.

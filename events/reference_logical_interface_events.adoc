@@ -1,0 +1,157 @@
+---
+permalink: events/reference_logical_interface_events.html 
+sidebar: sidebar 
+keywords: 'network, interface, (lif) events, impact area, availability, configuration, performance' 
+summary: 'Os eventos de interface de rede fornecem informações sobre o status de sua interface de rede (LIFs), para que você possa monitorar possíveis problemas. Os eventos são agrupados por área de impactos e incluem o nome do evento e da armadilha, o nível de impactos, o tipo de origem e a gravidade.' 
+---
+= Eventos de interface de rede (LIF)
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Os eventos de interface de rede fornecem informações sobre o status de sua interface de rede (LIFs), para que você possa monitorar possíveis problemas. Os eventos são agrupados por área de impactos e incluem o nome do evento e da armadilha, o nível de impactos, o tipo de origem e a gravidade.
+
+
+
+== Área de impactos: Disponibilidade
+
+|===
+| Nome do evento (Nome da armadilha) | Nível de impactos | Tipo de origem | Gravidade 
+
+
+ a| 
+Status da interface de rede para baixo (ocumEvtLifStatusDown)
+ a| 
+Risco
+ a| 
+Interface
+ a| 
+Erro
+
+
+
+ a| 
+Status da interface de rede FC/FCoE para baixo (ocumEvtFCLifStatusDown)
+ a| 
+Risco
+ a| 
+Interface
+ a| 
+Erro
+
+
+
+ a| 
+Failover de interface de rede não possível (ocumEvtLifFailoverNotPossible)
+ a| 
+Risco
+ a| 
+Interface
+ a| 
+Aviso
+
+
+
+ a| 
+Interface de rede não na porta de casa (ocumEvtLifNotAtHomePort)
+ a| 
+Risco
+ a| 
+Interface
+ a| 
+Aviso
+
+|===
+
+
+== Área de impactos: Configuração
+
+|===
+| Nome do evento (Nome da armadilha) | Nível de impactos | Tipo de origem | Gravidade 
+
+
+ a| 
+Rota da interface de rede não configurada (não aplicável)
+ a| 
+Evento
+ a| 
+Interface
+ a| 
+Informações
+
+|===
+
+
+== Área de impactos: Desempenho
+
+|===
+| Nome do evento (Nome da armadilha) | Nível de impactos | Tipo de origem | Gravidade 
+
+
+ a| 
+Limite crítico de MB/s violado(ocumNetworkLifMbpsIncident)
+ a| 
+Incidente
+ a| 
+Interface
+ a| 
+Crítico
+
+
+
+ a| 
+Limite de aviso de MB/s de interface de rede violado(ocumNetworkLifMbpsWarning)
+ a| 
+Risco
+ a| 
+Interface
+ a| 
+Aviso
+
+
+
+ a| 
+Limite crítico de MB/s de interface de rede FC violado(ocumFcpLifMbpsIncident)
+ a| 
+Incidente
+ a| 
+Interface
+ a| 
+Crítico
+
+
+
+ a| 
+Limite de aviso de MB/s de interface de rede FC violado(ocumFcpLifMbpsWarning)
+ a| 
+Risco
+ a| 
+Interface
+ a| 
+Aviso
+
+
+
+ a| 
+Interface de rede NVMe FC limiar crítico violado (ocumNvmfFcLifMbpsIncident)
+ a| 
+Incidente
+ a| 
+Interface
+ a| 
+Crítico
+
+
+
+ a| 
+Limite de aviso de MB/s da interface de rede NVMe FC violado(ocumNvmfFcLifMbpsWarning)
+ a| 
+Risco
+ a| 
+Interface
+ a| 
+Aviso
+
+|===

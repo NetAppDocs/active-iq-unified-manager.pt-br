@@ -1,0 +1,50 @@
+---
+permalink: config/task_enable_remote_logging_of_audit_logs.html 
+sidebar: sidebar 
+keywords: enable, remote, logging, audit, logs 
+summary: Pode selecionar a caixa de verificação Ativar registo remoto na caixa de diálogo Configurar registos de auditoria para ativar o registo de auditoria remota. Você pode usar esse recurso para transferir logs de auditoria para um servidor Syslog remoto. Isso permitirá que você gerencie seus logs de auditoria quando houver restrições de espaço. 
+---
+= Ativar o registo remoto de registos de auditoria
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Pode selecionar a caixa de verificação *Ativar registo remoto* na caixa de diálogo Configurar registos de auditoria para ativar o registo de auditoria remota. Você pode usar esse recurso para transferir logs de auditoria para um servidor Syslog remoto. Isso permitirá que você gerencie seus logs de auditoria quando houver restrições de espaço.
+
+O Registro remoto de logs de auditoria fornece um backup à prova de violação no caso de os arquivos de log de auditoria no servidor Active IQ Unified Manager serem adulterados.
+
+.Passos
+. Na caixa de diálogo *Configurar registos de auditoria*, selecione a caixa de verificação *Ativar registo remoto*.
++
+São apresentados campos adicionais para configurar o registo remoto.
+
+. Introduza *HOSTNAME* e *PORT* do servidor remoto ao qual pretende ligar.
+. No campo *CERTIFICADO de CA DO SERVIDOR*, clique em *PROCURAR* para selecionar um certificado público do servidor de destino.
++
+O certificado deve ser carregado em `.pem` formato. Este certificado deve ser obtido a partir do servidor Syslog de destino e não deve ter expirado. O certificado deve conter o nome do host selecionado como parte do `SubjectAltName` atributo (SAN).
+
+. Insira os valores para os seguintes campos: *CHARSET*, *TEMPO LIMITE DE CONEXÃO*, *ATRASO DE CONEXÃO*.
++
+Os valores devem estar em milissegundos para esses campos.
+
+. Selecione o formato Syslog e a versão do protocolo TLS necessários nos campos *FORMAT* e *PROTOCOL*.
+. Marque a caixa de seleção *Ativar autenticação do cliente* se o servidor Syslog de destino exigir autenticação baseada em certificado.
++
+Você precisará baixar o certificado de autenticação do cliente e enviá-lo para o servidor Syslog antes de salvar a configuração do Log de auditoria, caso contrário a conexão falhará. Dependendo do tipo de servidor Syslog, talvez seja necessário criar um hash do certificado de autenticação do cliente.
+
++
+Exemplo: O syslog-ng requer que um <hash> do certificado seja criado usando o comando `openssl x509 -noout -hash -in cert.pem`e, em seguida, você deve vincular simbolicamente o certificado de autenticação do cliente a um arquivo nomeado após o <hash> .0.
+
+. Clique em *Salvar* para configurar a conexão com o servidor e ativar o Registro remoto.
++
+Você será redirecionado para a página Logs de auditoria.
+
++
+[NOTE]
+====
+O valor *tempo limite da conexão* pode afetar a configuração. Se a configuração demorar mais tempo a responder do que o valor definido, pode resultar em falha de configuração devido a um erro de conexão. Para estabelecer uma conexão bem-sucedida, aumente o valor *tempo limite da conexão* e tente a configuração novamente.
+
+====
+

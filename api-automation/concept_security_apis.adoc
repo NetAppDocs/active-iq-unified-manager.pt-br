@@ -1,0 +1,54 @@
+---
+permalink: api-automation/concept_security_apis.html 
+sidebar: sidebar 
+keywords: manage, user 
+summary: Você pode usar as APIs na categoria de segurança para controlar o acesso do usuário a objetos de cluster selecionados no Active IQ Unified Manager. Você pode adicionar usuários locais ou usuários de banco de dados. Você também pode adicionar usuários remotos ou grupos que pertencem a um servidor de autenticação. Com base no Privileges das funções atribuídas aos usuários, eles podem gerenciar os objetos de storage ou exibir os dados no Unified Manager. 
+---
+= Gerenciamento de usuários usando APIs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode usar as APIs `security` na categoria para controlar o acesso do usuário a objetos de cluster selecionados no Active IQ Unified Manager. Você pode adicionar usuários locais ou usuários de banco de dados. Você também pode adicionar usuários remotos ou grupos que pertencem a um servidor de autenticação. Com base no Privileges das funções atribuídas aos usuários, eles podem gerenciar os objetos de storage ou exibir os dados no Unified Manager.
+
+[NOTE]
+====
+Você deve ter a função Administrador do aplicativo para executar essas operações. Você também pode usar a IU da Web do Unified Manager para configurar essas configurações.
+
+====
+As APIs sob a `security` categoria usam o parâmetro usuários, que é o nome do usuário, e não o parâmetro chave como o identificador exclusivo para a entidade do usuário.
+
+[cols="3*"]
+|===
+| Verbo HTTP | Caminho | Descrição 
+
+
+ a| 
+`GET`
+
+`POST`
+ a| 
+`/security/users`
+
+`/security/users`
+ a| 
+Você pode usar esses métodos para obter os detalhes dos usuários ou adicionar novo usuário ao Unified Manager.
+
+Você pode adicionar funções específicas aos usuários com base em seus tipos de usuário. Ao adicionar usuários, você deve fornecer senhas para o usuário local, usuário de manutenção e usuário de banco de dados.
+
+
+
+ a| 
+`GET`
+
+`PATCH`
+
+`DELETE`
+ a| 
+`/security/users/\{name}`
+ a| 
+O método GET permite recuperar todos os detalhes de um usuário, como nome, endereço de e-mail, função, tipo de autorização. O método DE PATCH permite atualizar os detalhes. O método DE ELIMINAÇÃO permite-lhe remover o utilizador.
+
+|===

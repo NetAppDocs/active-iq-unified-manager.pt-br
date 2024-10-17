@@ -1,0 +1,24 @@
+---
+permalink: config/task_configure_audit_logs.html 
+sidebar: sidebar 
+keywords: configure, audit logs 
+summary: Você pode usar o botão Configurar na seção Logs de auditoria para configurar a política de rolagem para arquivos de log de auditoria e também ativar o log remoto para os Logs de auditoria. 
+---
+= Configurando logs de auditoria
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode usar o botão *Configurar* na seção Logs de auditoria para configurar a política de rolagem para arquivos de log de auditoria e também ativar o log remoto para os Logs de auditoria.
+
+Você pode definir os valores nos DIAS DE RETENÇÃO DO REGISTRO *MAX* e *DIAS DE RETENÇÃO DO LOG DE AUDITORIA* de acordo com a quantidade e a frequência desejadas dos dados que deseja armazenar no sistema. O valor no campo *TAMANHO TOTAL DO LOG DE AUDITORIA* é o tamanho dos dados totais do log de auditoria presentes no sistema. A política de rolagem é determinada pelos valores no campo *DIAS DE RETENÇÃO DO LOG DE AUDITORIA*, *TAMANHO DO ARQUIVO MAX* e *TAMANHO TOTAL DO LOG DE AUDITORIA*. Quando o tamanho do backup do log de auditoria atinge o valor configurado em *TAMANHO TOTAL DO LOG DE AUDITORIA*, o arquivo que foi arquivado primeiro é excluído. Isso significa que o arquivo mais antigo é excluído. Mas a entrada de arquivo continua disponível no banco de dados e é marcada como "Rollover Delete". O valor *AUDIT LOG RETENT DAYS* é para o número de dias em que os arquivos de log de auditoria são preservados. Qualquer arquivo mais antigo que o valor definido neste campo é rolado.
+
+.Passos
+. Clique em *Logs de auditoria* > *Configurar*.
+. Insira valores em *TAMANHO DO ARQUIVO MAX*, *TAMANHO TOTAL DO LOG DE AUDITORIA* e *DIAS DE RETENÇÃO DO LOG DE AUDITORIA*.
++
+Se pretender ativar o registo remoto, deve selecionar *Ativar registo remoto*.
+
+

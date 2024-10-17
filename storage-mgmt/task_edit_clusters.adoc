@@ -1,0 +1,38 @@
+---
+permalink: storage-mgmt/task_edit_clusters.html 
+sidebar: sidebar 
+keywords: edit, clusters 
+summary: Você pode modificar as configurações de um cluster existente, como nome do host ou endereço IP, nome de usuário, senha e porta, usando a caixa de diálogo Editar cluster. 
+---
+= Edição de clusters
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode modificar as configurações de um cluster existente, como nome do host ou endereço IP, nome de usuário, senha e porta, usando a caixa de diálogo Editar cluster.
+
+*O que você vai precisar*
+
+Você deve ter a função Administrador do aplicativo ou a função Administrador do armazenamento.
+
+[NOTE]
+====
+A partir do Unified Manager 9,7, os clusters podem ser adicionados apenas usando HTTPS.
+
+====
+.Passos
+. No painel de navegação esquerdo, clique em *Gerenciamento de armazenamento* > *Configuração do cluster*.
+. Na página *Configuração de cluster*, selecione o cluster que deseja editar e clique em *Editar*.
+. Na caixa de diálogo *Editar Cluster*, modifique os valores conforme necessário. Se você tiver modificado os detalhes de um cluster adicionado ao Unified Manager, poderá exibir os detalhes do certificado para comunicação TLS mútua, com base na versão do ONTAP. Para obter mais informações sobre a versão do ONTAP, link:../storage-mgmt/task_add_clusters.html["Certificados para comunicação TLS mútua"]consulte . Você pode ver os detalhes do certificado clicando em *Detalhes do certificado*. Se o certificado tiver expirado, clique no botão *regenerar* para incorporar o novo certificado.
+. Clique em *Enviar*.
+. Na caixa de diálogo autorizar host, clique em *Exibir certificado* para exibir as informações do certificado sobre o cluster.
+. Clique em *Sim*.
+
+
+*Informações relacionadas*
+
+link:../config/task_add_users.html["Adicionando usuários"]
+
+link:../health-checker/task_view_cluster_list_and_details.html["Visualizar a lista de cluster e os detalhes"]

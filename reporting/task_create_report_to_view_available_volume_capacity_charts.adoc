@@ -1,0 +1,89 @@
+---
+permalink: reporting/task_create_report_to_view_available_volume_capacity_charts.html 
+sidebar: sidebar 
+keywords: create, report, view, available, volume, capacity, charts 
+summary: Você pode criar um relatório para analisar a capacidade de volume disponível em um gráfico do Excel. 
+---
+= Criando um relatório para exibir gráficos de capacidade de volume disponíveis
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode criar um relatório para analisar a capacidade de volume disponível em um gráfico do Excel.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+Siga as etapas a seguir para abrir uma exibição Saúde: Todos os volumes, baixar a exibição no Excel, criar um gráfico de capacidade disponível, fazer o upload do arquivo personalizado do Excel e agendar o relatório final.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *volumes*.
+. Selecione *relatórios* > *Download Excel*.
++
+image::../media/download_excel_menu.png[Uma captura de tela da IU que mostra como baixar o excel a partir de relatórios.]
+
++
+Dependendo do navegador, talvez seja necessário clicar em *OK* para salvar o arquivo.
+
+. Se necessário, clique em *Ativar Edição*.
+. No Excel, abra o arquivo baixado.
+. Na `data` folha, selecione os dados que pretende utilizar nas `Volume` colunas e `Available Data` %.
+. No menu *Insert*, selecione a `3-D piechart.`
++
+O gráfico mostra quais volumes têm o maior espaço disponível. O gráfico é apresentado na folha de dados.
+
++
+[NOTE]
+====
+Dependendo da configuração da rede, selecionar as colunas inteiras ou muitas linhas de dados pode tornar o gráfico de pizza ilegível. Esta amostra usa o gráfico de pizza 3-D, mas você pode usar qualquer tipo de gráfico. Use o gráfico que melhor exibe os dados que deseja capturar.
+
+====
+. Nomeie o título do gráfico *capacidade disponível*.
+. Clique com o botão direito do rato no gráfico e selecione *mover Gráfico*.
+. Selecione *Nova folha* e nomeie a folha *gráficos de volume de armazenamento*.
++
+[NOTE]
+====
+Certifique-se de que a nova folha é apresentada após as folhas de informação e dados.
+
+====
++
+image::../media/move_chart.png[Uma captura de tela da IU que mostra como nomear uma nova Planilha.]
+
+. Usando os menus *Design* e *Format*, disponíveis quando o gráfico é selecionado, você pode personalizar a aparência do gráfico.
+. Quando estiver satisfeito, salve o arquivo com suas alterações.
+. No Unified Manager, selecione *relatórios* > *carregar Excel*.
++
+[NOTE]
+====
+Certifique-se de que você está na mesma exibição em que você baixou o arquivo do Excel.
+
+====
+. Selecione o ficheiro Excel que modificou.
+. Clique em *abrir*.
+. Clique em *Enviar*.
++
+Uma marca de seleção aparece ao lado do item de menu *relatórios* > *carregar Excel*.
+
++
+image::../media/upload_excel.png[Uma captura de tela da IU que mostra como fazer upload do excel para relatórios.]
+
+. Clique em *relatórios programados*.
+. Clique em *Add Schedule* (Adicionar agendamento) para adicionar uma nova linha à página *Report Schedules* para que você possa definir as caraterísticas de agendamento para o novo relatório.
+. Introduza um nome para a agenda do relatório e preencha os outros campos do relatório e, em seguida, clique na marca de verificação (image:../media/blue_check.gif[""]) no final da linha.
++
+[NOTE]
+====
+Selecione o formato *XLSX* para o relatório.
+
+====
++
+O relatório é enviado imediatamente como um teste. Depois disso, o relatório gera e é enviado por e-mail para os destinatários listados usando a frequência especificada.
+
+
+
+Com base nos resultados mostrados no relatório, você pode querer equilibrar a carga em seus volumes.

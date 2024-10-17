@@ -1,0 +1,25 @@
+---
+permalink: events/task_configure_event_retention_settings.html 
+sidebar: sidebar 
+keywords: configure, event, retention, settings 
+summary: Você pode especificar o número de meses em que um evento é retido no servidor do Unified Manager antes de ser excluído automaticamente. 
+---
+= Configuração das configurações de retenção de eventos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode especificar o número de meses em que um evento é retido no servidor do Unified Manager antes de ser excluído automaticamente.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações.
+
+A retenção de eventos por mais de 6 meses pode afetar o desempenho do servidor e não é recomendada.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Geral* > *retenção de dados*.
+. Na página *retenção de dados*, selecione o controle deslizante na área retenção de eventos e mova-o para o número de meses em que os eventos devem ser mantidos e clique em *Salvar*.
+

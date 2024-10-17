@@ -1,0 +1,50 @@
+---
+permalink: health-checker/concept_common_unified_manager_administrative_workflows_and_tasks.html 
+sidebar: sidebar 
+keywords: Common, unified, manager, health, workflows, tasks 
+summary: 'Alguns fluxos de trabalho administrativos e tarefas comuns associados ao Unified Manager incluem a seleção dos clusters de storage que devem ser monitorados; o diagnóstico de condições que afetam negativamente a disponibilidade, a capacidade e a proteção dos dados; a restauração de dados perdidos; a configuração e o gerenciamento de volumes; e o agrupamento e o envio de dados de diagnóstico para o suporte técnico (quando necessário).' 
+---
+= Tarefas e workflows de integridade do Unified Manager comuns
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Alguns fluxos de trabalho administrativos e tarefas comuns associados ao Unified Manager incluem a seleção dos clusters de storage que devem ser monitorados; o diagnóstico de condições que afetam negativamente a disponibilidade, a capacidade e a proteção dos dados; a restauração de dados perdidos; a configuração e o gerenciamento de volumes; e o agrupamento e o envio de dados de diagnóstico para o suporte técnico (quando necessário).
+
+Com o Unified Manager, os administradores de storage podem visualizar um dashboard, avaliar a capacidade geral, a disponibilidade e a integridade de proteção dos clusters de storage gerenciado e identificar, localizar, diagnosticar e atribuir rapidamente problemas específicos que possam surgir.
+
+Os problemas mais importantes relacionados a um cluster, máquina virtual de armazenamento (SVM), volume ou volume FlexGroup que afetam a capacidade de armazenamento ou a disponibilidade de dados de seus objetos de armazenamento gerenciados são exibidos nos gráficos e eventos de integridade do sistema na página Painel. Quando problemas críticos são identificados, esta página fornece links para suportar fluxos de trabalho de solução de problemas apropriados.
+
+O Unified Manager também pode ser incluído em fluxos de trabalho que incluem ferramentas de gerenciamento relacionadas, como o OnCommand Workflow Automation (WFA), para oferecer suporte à configuração direta de recursos de storage.
+
+Fluxos de trabalho comuns relacionados às seguintes tarefas administrativas são descritos neste documento:
+
+* Diagnosticar e gerenciar problemas de disponibilidade
++
+Se problemas de configuração de recursos de armazenamento ou falha de hardware causarem a exibição de eventos de disponibilidade de dados na página Painel, os administradores de armazenamento podem seguir os links incorporados para exibir informações de conetividade sobre o recurso de armazenamento afetado, exibir conselhos de solução de problemas e atribuir resolução de problemas a outros administradores.
+
+* Configuração e monitoramento de incidentes de desempenho
++
+O administrador pode monitorar e gerenciar o desempenho dos recursos do sistema de armazenamento que estão sendo monitorados. Consulte link:../performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html["Introdução ao monitoramento de desempenho do Active IQ Unified Manager"] para obter mais informações.
+
+* Diagnósticos e gerenciamento de problemas de capacidade de volume
++
+Se os problemas de capacidade de armazenamento de volume forem exibidos na página Painel, os administradores de armazenamento poderão seguir os links incorporados para exibir as tendências atuais e históricas relacionadas à capacidade de armazenamento do volume afetado, exibir conselhos de solução de problemas e atribuir resolução de problemas a outros administradores.
+
+* Configuração, monitoramento e diagnóstico de problemas de relacionamento de proteção
++
+Depois de criar e configurar relações de proteção, os administradores de armazenamento podem visualizar os potenciais problemas relacionados às relações de proteção, o estado atual das relações de proteção, as informações de sucesso do trabalho de proteção atual e histórico sobre as relações afetadas e conselhos para resolução de problemas. Consulte link:../data-protection/concept_create_and_monitor_protection_relationships.html["Criação, monitoramento e solução de problemas de relacionamentos de proteção"] para obter mais informações.
+
+* Criar arquivos de backup e restaurar dados de arquivos de backup.
+* Associar objetos de armazenamento a anotações
++
+Ao associar objetos de storage a anotações, os administradores de storage podem filtrar e exibir os eventos relacionados aos objetos de storage, o que permite que os administradores de storage priorizem e resolvam os problemas associados aos eventos.
+
+* Uso de APIs REST para ajudar a gerenciar clusters visualizando as informações de integridade, capacidade e desempenho capturadas pelo Unified Manager. Consulte link:../api-automation/concept_get_started_with_um_apis.html["Primeiros passos com as APIS REST do Active IQ Unified Manager"] para obter mais informações.
+* Envio de um pacote de suporte ao suporte técnico
++
+Os administradores de armazenamento podem recuperar e enviar um pacote de suporte ao suporte técnico usando o console de manutenção. Os pacotes de suporte devem ser enviados para o suporte técnico quando o problema exigir diagnóstico e solução de problemas mais detalhados do que o que uma mensagem do AutoSupport fornece.
+
+

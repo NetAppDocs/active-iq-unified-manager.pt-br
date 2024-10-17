@@ -1,0 +1,19 @@
+---
+permalink: reporting/task_sort_data.html 
+sidebar: sidebar 
+keywords: sort, data 
+summary: Para classificar os resultados, clique em uma coluna e indique a ordem ascendente ou descendente. A classificação de dados prioriza as informações necessárias para o relatório. 
+---
+= Ordenar dados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Para classificar os resultados, clique em uma coluna e indique a ordem ascendente ou descendente. A classificação de dados prioriza as informações necessárias para o relatório.
+
+.Passos
+. Clique na parte superior de uma coluna para classificar os resultados para que as informações mais importantes sejam exibidas na parte superior da exibição.
+. Atribua um nome à vista não guardada para guardar as alterações.
+

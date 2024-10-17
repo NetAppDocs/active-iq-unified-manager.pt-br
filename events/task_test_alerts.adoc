@@ -1,0 +1,32 @@
+---
+permalink: events/task_test_alerts.html 
+sidebar: sidebar 
+keywords: test, alerts 
+summary: Pode testar um alerta para verificar se o configurou corretamente. Quando um evento é acionado, um alerta é gerado e um e-mail de alerta é enviado aos destinatários configurados. Você pode verificar se a notificação é enviada e se o script é executado usando o alerta de teste. 
+---
+= Testando alertas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Pode testar um alerta para verificar se o configurou corretamente. Quando um evento é acionado, um alerta é gerado e um e-mail de alerta é enviado aos destinatários configurados. Você pode verificar se a notificação é enviada e se o script é executado usando o alerta de teste.
+
+*O que você vai precisar*
+
+* Você deve ter configurado configurações de notificação, como o endereço de e-mail dos destinatários, servidor SMTP e trap SNMP.
++
+O servidor do Unified Manager pode usar essas configurações para enviar notificações aos usuários quando um evento é gerado.
+
+* Você deve ter atribuído um script e configurado o script para ser executado quando o alerta é gerado.
+* Tem de ter a função Administrador de aplicações.
+
+
+.Passos
+. No painel de navegação esquerdo, clique em *Gerenciamento de armazenamento* > *Configuração de alerta*.
+. Na página *Configuração de alerta*, selecione o alerta que deseja testar e clique em *Teste*.
++
+Um e-mail de alerta de teste é enviado para os endereços de e-mail especificados durante a criação do alerta.
+
+

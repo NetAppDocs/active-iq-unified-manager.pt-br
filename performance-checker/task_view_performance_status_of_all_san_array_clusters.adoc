@@ -1,0 +1,38 @@
+---
+permalink: performance-checker/task_view_performance_status_of_all_san_array_clusters.html 
+sidebar: sidebar 
+keywords: all san, array, performance, clusters 
+summary: 'Você pode usar a visualização desempenho: Todos os clusters para exibir o status de desempenho dos clusters All SAN Array.' 
+---
+= Visualização do desempenho de todos os clusters do SAN Array
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode usar a visualização desempenho: Todos os clusters para exibir o status de desempenho dos clusters All SAN Array.
+
+*O que você vai precisar*
+
+Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+
+Você pode exibir informações gerais de todos os clusters de storage SAN na exibição desempenho: Todos os clusters e detalhes na página Cluster / Performance Explorer.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *clusters*.
+. Certifique-se de que a coluna "personalidade" seja exibida na visualização *Saúde: Todos os clusters* ou adicione-a usando o controle *Mostrar / Ocultar*.
++
+Essa coluna exibe "'All SAN Array'" para os clusters All SAN Array.
+
+. Para exibir informações sobre o desempenho nesses clusters, selecione a exibição *desempenho: Todos os clusters*.
++
+Veja as informações de desempenho do cluster All SAN Array.
+
+. Para exibir informações detalhadas sobre o desempenho nesses clusters, clique no nome de um cluster All SAN Array.
+. Clique na guia *Explorer*.
+. Na página *Cluster / Performance Explorer*, selecione *nós neste Cluster* no menu *Exibir e comparar*.
++
+Você pode comparar as estatísticas de desempenho de ambos os nós nesse cluster para garantir que a carga seja quase idêntica em ambos os nós. Se houver grandes discrepâncias entre os dois nós, você pode adicionar o segundo nó aos gráficos e comparar os valores em um período de tempo mais longo para identificar quaisquer problemas de configuração.
+
+

@@ -1,0 +1,100 @@
+---
+permalink: reporting/task_create_report_to_view_aggregate_capacity_charts.html 
+sidebar: sidebar 
+keywords: create, report, show, aggregate, total, available, capacity, charts 
+summary: Você pode criar um relatório para analisar a capacidade total e comprometida do armazenamento em um formato de gráfico do Excel. 
+---
+= Criando um relatório para mostrar gráficos de capacidade total agregado versus disponível
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode criar um relatório para analisar a capacidade total e comprometida do armazenamento em um formato de gráfico do Excel.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+Use as etapas a seguir para abrir uma exibição Saúde: Todos os agregados, baixar a exibição no Excel, criar um gráfico de capacidade total e comprometida, fazer o upload do arquivo Excel personalizado e agendar o relatório final.
+
+.Passos
+. No painel de navegação à esquerda, clique em *Storage* > *Aggregates*.
+. Selecione *relatórios* > *Download Excel*.
++
+image::../media/download_excel_menu.png[Uma captura de tela da IU que mostra como baixar o excel a partir de relatórios.]
+
++
+Dependendo do navegador, talvez seja necessário clicar em *OK* para salvar o arquivo.
+
+. No Excel, abra o arquivo baixado.
+. Se necessário, clique em *Ativar Edição*.
+. Na folha de dados, clique com o botão direito do rato na coluna tipo e selecione *Ordenar* > *Ordenar A A Z*.
++
+image::../media/sort_01.png[Uma captura de tela da IU que mostra como selecionar a classificação na coluna tipo.]
+
++
+Isso organizará seus dados por tipo de armazenamento, como:
+
++
+** HDD
+** Híbrida
+** SSD
+** SSD (FabricPool)
+
+
+. Selecione `Type, Total Data Capacity,` as colunas e. `Available Data Capacity`
+. No menu *Inserir*, selecione um `3-D column` gráfico.
++
+O gráfico é apresentado na folha de dados.
+
++
+image::../media/3d_column_01.png[Uma captura de tela da IU que mostra o gráfico de colunas 3D.]
+
+. Clique com o botão direito do rato no gráfico e selecione *mover Gráfico*.
+. Selecione *Nova folha* e nomeie a folha *gráficos totais de armazenamento*.
++
+[NOTE]
+====
+Certifique-se de que a nova folha é apresentada após as folhas de informação e dados.
+
+====
+. Nomeie o título do gráfico *Total versus capacidade disponível*.
+. Usando os menus *Design* e *Format*, disponíveis quando o gráfico é selecionado, você pode personalizar a aparência do gráfico.
+. Quando estiver satisfeito, salve o arquivo com suas alterações. Não altere o nome ou a localização do ficheiro.
++
+image::../media/total_vs_available_capacity.png[Uma captura de tela da IU que mostra o gráfico de capacidade total versus disponível.]
+
+. No Unified Manager, selecione *relatórios* > *carregar Excel*.
++
+[NOTE]
+====
+Certifique-se de que você está na mesma exibição em que você baixou o arquivo do Excel.
+
+====
+. Selecione o ficheiro Excel que modificou.
+. Clique em *abrir*.
+. Clique em *Enviar*.
++
+Uma marca de seleção aparece ao lado do item de menu *relatórios* > *carregar Excel*.
+
++
+image::../media/upload_excel.png[Uma captura de tela da IU que mostra como fazer upload do excel para relatórios.]
+
+. Clique em *relatórios programados*.
+. Clique em *Add Schedule* (Adicionar agendamento) para adicionar uma nova linha à página *Report Schedules* para que você possa definir as caraterísticas de agendamento para o novo relatório.
++
+[NOTE]
+====
+Selecione o formato *XLSX* para o relatório.
+
+====
+. Introduza um nome para a agenda do relatório e preencha os outros campos do relatório e, em seguida, clique na marca de verificação (image:../media/blue_check.gif[""]) no final da linha.
++
+O relatório é enviado imediatamente como um teste. Depois disso, o relatório gera e é enviado por e-mail para os destinatários listados usando a frequência especificada.
+
+
+
+Com base nos resultados mostrados no relatório, você pode querer equilibrar a carga em seus agregados.

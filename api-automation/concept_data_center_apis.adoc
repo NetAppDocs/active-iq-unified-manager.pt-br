@@ -1,0 +1,257 @@
+---
+permalink: api-automation/concept_data_center_apis.html 
+sidebar: sidebar 
+keywords: manage, storage, objects, data center 
+summary: As APIS REST na categoria de data center permitem gerenciar objetos de storage em seu data center, como clusters, nós, agregados, VMs de storage, volumes, LUNs, compartilhamentos de arquivos e namespaces. Essas APIs estão disponíveis para consultar a configuração dos objetos, enquanto algumas delas permitem que você execute as operações de adição, exclusão ou modificação desses objetos. 
+---
+= Gerenciamento de objetos de storage em um data center usando APIs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+As APIs REST `datacenter` na categoria permitem gerenciar objetos de storage em seu data center, como clusters, nós, agregados, VMs de storage, volumes, LUNs, compartilhamentos de arquivos e namespaces. Essas APIs estão disponíveis para consultar a configuração dos objetos, enquanto algumas delas permitem que você execute as operações de adição, exclusão ou modificação desses objetos.
+
+A maioria dessas APIs são chamadas que fornecem agregação entre clusters com suporte a filtragem, classificação e paginação. Ao executar essas APIs, elas retornam dados do banco de dados. Portanto, os recém-criados-objetos precisam ser descobertos pelo próximo ciclo de aquisição para aparecer na resposta.
+
+Se você quiser consultar os detalhes de um objeto específico, você precisa inserir o ID exclusivo desse objeto para visualizar seus detalhes. Por exemplo, para obter informações sobre métricas e análises dos objetos de storage, link:concept_metrics_apis.html["Visualização de métricas de desempenho"]consulte .
+
+[listing]
+----
+curl -X GET "https://<hostname>/api/datacenter/cluster/clusters/4c6bf721-2e3f-11e9-a3e2-00a0985badbb" -H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>"
+----
+[NOTE]
+====
+Os comandos CURL, exemplos, solicitações e respostas às APIs estão disponíveis na interface da API Swagger. Você pode filtrar e encomendar os resultados por parâmetros específicos, como indicado no Swagger. Essas APIs permitem filtrar os resultados para objetos de storage específicos, como cluster, volume ou VM de storage.
+
+====
+
+
+== APIs para objetos de storage em seu data center
+
+[cols="3*"]
+|===
+| Verbo HTTP | Caminho | Descrição 
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/clusters`
+
+`/datacenter/cluster/clusters/\{key}`
+ a| 
+Use esse método para visualizar os detalhes dos clusters do ONTAP no data center. A API retorna informações, como o endereço IPv4 ou IPv6 do cluster, informações sobre o nó, como integridade do nó, capacidade de desempenho e par de alta disponibilidade (HA), e indica se o cluster é All SAN Array.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/licensing/licenses /datacenter/cluster/licensing/licenses/\{key}`
+ a| 
+Retorna os detalhes das licenças instaladas nos clusters do seu data center. Você pode filtrar seus resultados com base nos critérios necessários. Informações, como a chave de licença, a chave do cluster, a data de expiração e o escopo da licença são retornadas. Você pode inserir uma chave de licença para recuperar os detalhes de uma licença específica.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/nodes`
+
+`/datacenter/cluster/nodes/\{key}`
+ a| 
+Você pode usar esse método para exibir os detalhes dos nós no data center. É possível exibir informações sobre o cluster, a integridade do nó, a capacidade de performance e o par de alta disponibilidade (HA) para o nó.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/protocols/cifs/shares`
+
+`/datacenter/protocols/cifs/shares/\{key}`
+ a| 
+Você pode usar esse método para visualizar os detalhes dos compartilhamentos CIFS no data center. Além dos detalhes do cluster, SVM e volume, as informações sobre a ACL (Access Control List) também são retornadas.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/protocols/nfs/export-policies`
+
+`/datacenter/protocols/nfs/export-policies/\{key}`
+ a| 
+Você pode usar esse método para exibir os detalhes das políticas de exportação dos serviços NFS compatíveis.
+
+Você pode consultar as políticas de exportação de um cluster ou VM de storage e reutilizar a chave de política de exportação para provisionar compartilhamentos de arquivos NFS. Para obter mais informações sobre a atribuição e a reutilização de políticas de exportação em workloads, consulte "'Aprovisionamento de compartilhamentos de arquivos CIFS e NFS".
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/aggregates`
+
+`/datacenter/storage/aggregates/\{key}`
+ a| 
+Use esse método para visualizar a coleção de agregados no data center ou um agregado específico para provisionar workloads ou monitorar. As informações, como detalhes de cluster e nó, capacidade de performance usada, espaço disponível e usado, e eficiência de storage, são retornadas.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/luns`
+
+`/datacenter/storage/luns/\{key}`
+ a| 
+Você pode usar esse método para exibir a coleta de LUNs em todo o data center. Você pode exibir informações sobre o LUN, como detalhes do cluster e SVM, políticas de QoS e grupos de pessoas.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/qos/policies`
+
+`/datacenter/storage/qos/policies/\{key}`
+ a| 
+Você pode usar esse método para exibir os detalhes de todas as políticas de QoS aplicáveis aos objetos de storage no data center. As informações, como os detalhes do cluster e do SVM, os detalhes da política fixa ou adaptável e o número de objetos aplicáveis a essa política, são retornadas.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/qtrees`
+
+`/datacenter/storage/qtrees/\{key}`
+ a| 
+Use esse método para visualizar os detalhes de qtree no data center de todos os volumes do FlexVol ou volumes do FlexGroup. Informações, como os detalhes do cluster e da SVM, FlexVol volume e política de exportação, são retornadas.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/volumes`
+
+`/datacenter/storage/volumes/{key}`
+ a| 
+Você pode usar esse método para exibir a coleta de volumes no data center. Informações sobre os volumes, como SVM e detalhes de cluster, QoS e políticas de exportação, independentemente de o volume ser do tipo leitura-gravação, proteção de dados ou compartilhamento de carga, são retornadas.
+
+Para volumes FlexVol e FlexClone, é possível visualizar as informações sobre os respetivos agregados. Para um volume FlexGroup, a consulta retorna a lista de agregados constituintes.
+
+
+
+ a| 
+`GET`
+
+`POST`
+
+`DELETE`
+
+`PATCH`
+ a| 
+`/datacenter/protocols/san/igroups`
+
+`/datacenter/protocols/san/igroups/{key}`
+ a| 
+Você pode atribuir grupos de iniciadores (grupos de iniciadores) autorizados a acessar determinados destinos de LUN. Se houver um grupo existente, você pode atribuí-lo. Você também pode criar grupos e atribuí-los aos LUNs.
+
+Você pode usar esses métodos para consultar, criar, excluir e modificar grupos, respetivamente.
+
+Pontos a observar:
+
+* `POST:` Ao criar um grupo, você pode designar a VM de armazenamento na qual deseja atribuir acesso.
+* `DELETE:` Você precisa fornecer a chave do grupo como um parâmetro de entrada para excluir um determinado grupo. Se você já tiver atribuído um grupo a um LUN, não poderá excluir esse grupo.
+* `PATCH:` Você precisa fornecer a chave do grupo como um parâmetro de entrada para modificar um determinado grupo. Você também deve inserir a propriedade que deseja atualizar, juntamente com seu valor.
+
+
+
+
+ a| 
+`GET`
+
+`POST`
+
+`DELETE`
+
+`PATCH`
+ a| 
+`/datacenter/svm/svms`
+
+`/datacenter/svm/svms/\{key}`
+ a| 
+Você pode usar esses métodos para exibir, criar, excluir e modificar máquinas virtuais de armazenamento (VMs de armazenamento).
+
+* `POST:` Você deve inserir o objeto de VM de storage que deseja criar como parâmetro de entrada. Você pode criar uma VM de armazenamento personalizada e, em seguida, atribuir as propriedades necessárias a ela.
+* `DELETE:` Você precisa fornecer a chave de VM de armazenamento para excluir uma VM de armazenamento específica.
+* `PATCH:` Você precisa fornecer a chave de VM de storage para modificar uma VM de storage específica. Você também precisa inserir as propriedades que deseja atualizar, juntamente com seus valores.
+
+
+|===
+
+NOTE: Pontos a observar:
+
+Se você tiver ativado o provisionamento de workload baseado em SLO no seu ambiente enquanto cria a VM de storage, garanta que ela seja compatível com todos os protocolos necessários para provisionamento de LUNs e compartilhamentos de arquivos neles, por exemplo, CIFS ou SMB, NFS, FCP e iSCSI. Os fluxos de trabalho de provisionamento podem falhar se a VM de storage não oferecer suporte aos serviços necessários. Recomenda-se que os serviços para os respetivos tipos de cargas de trabalho também estejam ativados na VM de storage.
+
+Se você ativou o provisionamento de workload baseado em SLO no seu ambiente, não poderá excluir essa VM de storage na qual as cargas de trabalho de storage foram provisionadas. Quando você exclui uma VM de armazenamento em que um servidor CIFS ou SMB foi configurado, essa API também exclui o servidor CIFS ou SMB, juntamente com a configuração local do ative Directory. No entanto, o nome do servidor CIFS ou SMB continua na configuração do ative Directory que você deve excluir manualmente do servidor do ative Directory.
+
+
+
+== APIs para elementos de rede em seu data center
+
+As seguintes APIs na categoria de data center recuperam informações sobre as portas e interfaces de rede em seu ambiente, especificamente as portas FC, interfaces FC, portas ethernet e interfaces IP.
+
+[cols="3*"]
+|===
+| Verbo HTTP | Caminho | Descrição 
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/ethernet/ports`
+
+`/datacenter/network/ethernet/ports/{key}`
+ a| 
+Recupera informações sobre todas as portas ethernet em seu ambiente de data center. Com uma chave de porta como parâmetro de entrada, você pode exibir as informações dessa porta específica. As informações, como detalhes do cluster, domínio de broadcast, detalhes da porta, como estado, velocidade e tipo, e se a porta está ativada, são recuperadas.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/fc/interfaces`
+
+`/datacenter/network/fc/interfaces/{key}`
+ a| 
+Use esse método para visualizar os detalhes das interfaces FC no ambiente de data center. Com uma chave de interface como parâmetro de entrada, você pode visualizar as informações dessa interface específica. As informações, como detalhes do cluster, detalhes do nó inicial e detalhes da porta inicial, são recuperadas.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/fc/ports`
+
+`/datacenter/network/fc/ports/{key}`
+ a| 
+Recupera informações sobre todas as portas FC usadas nos nós do ambiente do data center. Com uma chave de porta como parâmetro de entrada, você pode exibir as informações dessa porta específica. Informações, como detalhes do cluster, descrição da porta, protocolo suportado e o estado da porta são recuperadas.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/ip/interfaces`
+
+`/datacenter/network/ip/interfaces/{key}`
+ a| 
+Você pode usar esse método para exibir os detalhes das interfaces IP em seu ambiente de data center. Com uma chave de interface como parâmetro de entrada, você pode visualizar as informações dessa interface específica. As informações, como detalhes do cluster, detalhes do espaço IP, detalhes do nó inicial, se o failover está ativado, são recuperadas.
+
+|===

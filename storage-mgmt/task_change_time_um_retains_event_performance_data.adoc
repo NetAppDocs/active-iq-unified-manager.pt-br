@@ -1,0 +1,39 @@
+---
+permalink: storage-mgmt/task_change_time_um_retains_event_performance_data.html 
+sidebar: sidebar 
+keywords: change, length, time, unified manager, retains, event, performance, data 
+summary: Por padrão, o Unified Manager armazena dados de eventos e dados de performance por 6 meses para todos os clusters monitorados. Após esse tempo, os dados mais antigos são excluídos automaticamente para dar espaço para novos dados. Esse período de tempo padrão funciona bem para a maioria das configurações, mas configurações muito grandes, com muitos clusters e nós, podem precisar reduzir o período de retenção para que o Unified Manager funcione de forma otimizada. 
+---
+= Alterar a duração do tempo em que o Unified Manager retém os dados de eventos e performance
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Por padrão, o Unified Manager armazena dados de eventos e dados de performance por 6 meses para todos os clusters monitorados. Após esse tempo, os dados mais antigos são excluídos automaticamente para dar espaço para novos dados. Esse período de tempo padrão funciona bem para a maioria das configurações, mas configurações muito grandes, com muitos clusters e nós, podem precisar reduzir o período de retenção para que o Unified Manager funcione de forma otimizada.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações.
+
+Você pode alterar os períodos de retenção desses dois tipos de dados na página retenção de dados. Essas configurações afetam a retenção de dados de todos os clusters que essa instância do Unified Manager está monitorando.
+
+[NOTE]
+====
+O Unified Manager coleta estatísticas de performance a cada 5 minutos. Todos os dias, as estatísticas de 5 minutos são resumidas em estatísticas de desempenho por hora. Ele retém 30 dias de dados de performance histórica de 5 minutos e 6 meses de dados de performance resumidos por hora (por padrão).
+
+====
+Você deve reduzir o período de retenção somente se estiver sem espaço ou se o backup e outras operações estiverem demorando muito tempo para serem concluídas. Reduzir o período de retenção tem os seguintes efeitos:
+
+* Os dados de desempenho antigos são excluídos do banco de dados do Unified Manager após a meia-noite.
+* Os dados de eventos antigos são excluídos imediatamente do banco de dados do Unified Manager.
+* Os eventos anteriores ao período de retenção deixarão de estar disponíveis para visualização na interface do utilizador.
+* Os locais na IU onde as estatísticas de desempenho por hora são exibidas ficarão em branco antes do período de retenção.
+* Se o período de retenção de eventos exceder o período de retenção de dados de desempenho, uma mensagem será exibida sob o controle deslizante de desempenho, avisando que eventos de desempenho mais antigos podem não ter dados de backup em seus gráficos associados.
+
+
+.Passos
+. No painel de navegação esquerdo, clique em *políticas* > *retenção de dados*.
+. Na página *retenção de dados*, selecione a ferramenta de controle deslizante na área retenção de eventos ou retenção de dados de desempenho e mova-a para o número de meses em que os dados devem ser mantidos e clique em *Salvar*.
+

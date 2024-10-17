@@ -1,0 +1,31 @@
+---
+permalink: health-checker/task_edit_group_rules.html 
+sidebar: sidebar 
+keywords: edit, group rules 
+summary: Você pode editar regras de grupo para modificar os grupos de condição e as condições dentro de um grupo de condições para adicionar ou remover objetos de armazenamento de ou para um grupo específico. 
+---
+= Editando regras de grupo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode editar regras de grupo para modificar os grupos de condição e as condições dentro de um grupo de condições para adicionar ou remover objetos de armazenamento de ou para um grupo específico.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Gerenciamento de armazenamento* > *grupos*.
+. Na guia *regras de grupo*, selecione a regra de grupo que deseja editar e clique em *Editar*.
+. Na caixa de diálogo *Editar regra de grupo*, altere o nome da regra de grupo, o nome do grupo associado, os grupos de condição e as condições conforme necessário.
++
+[NOTE]
+====
+Não é possível alterar o tipo de objeto de destino para uma regra de grupo.
+
+====
+. Clique em *Salvar*.
+

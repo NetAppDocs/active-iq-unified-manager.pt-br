@@ -1,0 +1,39 @@
+---
+permalink: reporting/task_create_report_to_identify_space_with_thin_provisioning_disabled.html 
+sidebar: sidebar 
+keywords: volume, provision, disk, volume, thin-provisioning 
+summary: Quando um volume não é thin Provisioning, ele ocupa a quantidade total de espaço no disco, conforme definido quando o volume foi criado. A identificação de volumes com thin Provisioning desativado ajuda a decidir se deseja ativar o thin Provisioning em determinados volumes. 
+---
+= Criação de um relatório para identificar o espaço usado por volumes com thin Provisioning desativado
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Quando um volume não é thin Provisioning, ele ocupa a quantidade total de espaço no disco, conforme definido quando o volume foi criado. A identificação de volumes com thin Provisioning desativado ajuda a decidir se deseja ativar o thin Provisioning em determinados volumes.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+Siga as etapas abaixo para criar uma exibição personalizada que exiba as colunas necessárias na ordem correta e, em seguida, programe um relatório a ser gerado para essa exibição.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *volumes*.
+. No menu Exibir, selecione *capacidade* > *todos os volumes*.
+. Selecione *Mostrar/Ocultar* para remover as colunas que não deseja no relatório.
+. Arraste e solte as colunas "'Used Data %'" e as colunas "thin Provisioning" perto da coluna "Available Data Capacity" (capacidade de dados disponível).
+. Clique no ícone de filtro, adicione o seguinte filtro, *thin Provisioning* é *no* e clique em *Apply Filter*.
+. Clique na parte superior da coluna "dados usados %" para classificar os resultados de modo que os volumes com a porcentagem mais alta apareçam no topo da lista.
+. Salve a exibição com um nome para refletir o que a exibição está mostrando, por exemplo ""Vols no thin Provisioning"".
+. Clique no botão *relatórios programados* na página de inventário.
+. Clique em *Add Schedule* (Adicionar agendamento) para adicionar uma nova linha à página *Report Schedules* para que você possa definir as caraterísticas de agendamento para o novo relatório.
+. Digite um nome para a programação do relatório e preencha os outros campos do relatório e clique na marca de seleção (image:../media/blue_check.gif[""]) no final da linha.
++
+O relatório é enviado imediatamente como um teste. Depois disso, o relatório gera e é enviado por e-mail para os destinatários listados usando a frequência especificada.
+
+
+
+Com base nos resultados mostrados no relatório, você pode querer habilitar o provisionamento de thin Provisioning em determinados volumes.

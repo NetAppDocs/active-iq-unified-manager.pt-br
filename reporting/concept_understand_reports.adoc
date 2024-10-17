@@ -1,0 +1,25 @@
+---
+permalink: reporting/concept_understand_reports.html 
+sidebar: sidebar 
+keywords: understanding, reports 
+summary: Os relatórios exibem informações detalhadas sobre armazenamento, rede, qualidade de serviço e relacionamentos de proteção, ajudando você a identificar e resolver possíveis problemas antes que eles ocorram. 
+---
+= Entendendo relatórios
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Os relatórios exibem informações detalhadas sobre armazenamento, rede, qualidade de serviço e relacionamentos de proteção, ajudando você a identificar e resolver possíveis problemas antes que eles ocorram.
+
+Quando você personaliza uma exibição, você pode salvá-la com um nome exclusivo para uso futuro. Você pode agendar um relatório com base nessa visualização para ser executado regularmente e compartilhá-lo com outras pessoas. Você também pode baixar a exibição no Excel para personalizá-la usando recursos avançados do Excel e, em seguida, fazer o upload desse arquivo de volta para o Unified Manager . Se você agendar um relatório usando essa exibição, ele usará o arquivo do Excel que você enviou para criar relatórios robustos que você pode compartilhar.
+
+Você pode gerenciar todos os relatórios que foram agendados na página Agenda de relatórios.
+
+[NOTE]
+====
+Você deve ter a função Administrador de aplicativos ou Administrador de armazenamento para gerenciar relatórios.
+
+====
+Você pode fazer o download de relatórios como valores separados por vírgulas (CSV), Excel ou arquivos PDF.

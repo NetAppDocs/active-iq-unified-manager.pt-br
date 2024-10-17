@@ -1,0 +1,33 @@
+---
+permalink: health-checker/concept_what_database_restore_is.html 
+sidebar: sidebar 
+keywords: unified manager, database, restore 
+summary: Uma restauração de banco de dados MySQL é o processo de restauração de um arquivo de backup do Unified Manager existente no mesmo ou em um servidor do Unified Manager diferente. Execute a operação de restauração a partir do console de manutenção do Unified Manager. 
+---
+= O que é uma restauração de banco de dados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Uma restauração de banco de dados MySQL é o processo de restauração de um arquivo de backup do Unified Manager existente no mesmo ou em um servidor do Unified Manager diferente. Execute a operação de restauração a partir do console de manutenção do Unified Manager.
+
+Se estiver a executar uma operação de restauro no mesmo sistema (local) e os ficheiros de cópia de segurança estiverem todos armazenados localmente, pode executar a opção de restauro utilizando a localização predefinida. Se você estiver executando uma operação de restauração em um sistema Unified Manager diferente (um sistema remoto), copie o arquivo de backup ou arquivos do armazenamento secundário para o disco local antes de executar a opção de restauração.
+
+Durante o processo de restauração, você será desconetado do Unified Manager. Pode iniciar sessão no sistema após o processo de restauro estar concluído.
+
+Se você estiver restaurando a imagem de backup para um novo servidor, após a conclusão da operação de restauração, será necessário gerar um novo certificado de segurança HTTPS e reiniciar o servidor do Unified Manager. Você também precisará reconfigurar as configurações de autenticação SAML, se forem necessárias, ao restaurar a imagem de backup para um novo servidor.
+
+[NOTE]
+====
+Os ficheiros de cópia de segurança antigos não podem ser utilizados para restaurar uma imagem depois de o Unified Manager ter sido atualizado para uma versão mais recente do software. Para economizar espaço, todos os arquivos de backup antigos, exceto o arquivo mais recente, são removidos automaticamente quando você atualiza o Unified Manager.
+
+====
+*Informações relacionadas*
+
+link:../config/task_generate_an_https_security_certificate_ocf.html["Gerando um certificado de segurança HTTPS"]
+
+link:../config/task_enable_saml_authentication_um.html["Habilitando a autenticação SAML"]
+
+link:../config/concept_authentication_with_active_directory_or_openldap.html["Autenticação com ative Directory ou OpenLDAP"]

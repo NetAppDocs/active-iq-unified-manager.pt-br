@@ -1,0 +1,49 @@
+---
+permalink: health-checker/task_configure_backup_location_for_windows_snapshot_backup.html 
+sidebar: sidebar 
+keywords: configure, backup, location, windows, snapshot copy, copies 
+summary: Você deve configurar o volume para armazenar cópias Snapshot após fazer backup do Unified Manager no Windows. 
+---
+= Configurando o local de backup para Windows
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você deve configurar o volume para armazenar cópias Snapshot após fazer backup do Unified Manager no Windows.
+
+*O que você vai precisar*
+
+O cluster, a VM de storage e o volume devem atender aos seguintes requisitos:
+
+* Requisitos do cluster:
++
+** O ONTAP 9 .3 ou superior deve ser instalado
+** Ele deve estar geograficamente perto do servidor do Unified Manager
+** Ele é monitorado pelo Unified Manager
+
+
+* Requisitos da VM de storage:
++
+** Conetividade iSCSI no cluster ONTAP
+** O protocolo iSCSI deve estar ativado para a máquina configurada
+** Você deve ter um volume dedicado e LUN para configuração de backup. O volume selecionado deve conter apenas um LUN e nada mais.
+** O tamanho do LUN deve ser pelo menos o dobro do tamanho de dados esperado para ser Tratado no 9,9 Active IQ Unified Manager.
++
+Isso também define o mesmo requisito de tamanho no volume.
+
+** Certifique-se de que todos os acessos de leitura/escrita estão selecionados
+** Certifique-se de que o acesso ao superusuário está definido como "'any'" na política de exportação
+
+
+* Requisitos de volume e LUN:
++
+** O volume deve ser pelo menos o dobro do tamanho do diretório de dados MySQL do Unified Manager.
+** O estilo de segurança deve ser definido para Windows
+** A política de instantâneos locais tem de ser desativada
+** O dimensionamento automático do volume deve estar ativado
+** O nível de serviço de desempenho deve ser definido para uma política com IOPS alto e baixa latência, como o "Extreme"
+
+
+

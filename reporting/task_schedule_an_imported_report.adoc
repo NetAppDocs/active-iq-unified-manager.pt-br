@@ -1,0 +1,40 @@
+---
+permalink: reporting/task_schedule_an_imported_report.html 
+sidebar: sidebar 
+keywords: schedule, imported, reports 
+summary: Você pode agendar relatórios existentes que foram criados e importados em uma versão anterior do Unified Manager. 
+---
+= Programação de relatórios .rptdesign importados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode agendar relatórios existentes que foram criados e importados em uma versão anterior do Unified Manager.
+
+A programação de relatórios importados requer o seguinte:
+
+* Relatórios de arquivo .rptdesign criados pelo BIRT importados em uma versão anterior do Unified Manager
+* Aplicável ao atualizar para o Unified Manager 9,6 GA ou posterior
+
+
+Depois de atualizar para o Unified Manager 9,6 GA ou posterior, a página Agenda de relatórios lista os relatórios importados. Você pode editar a programação desses relatórios para especificar os endereços de e-mail do destinatário, a frequência e o formato (PDF ou CSV). Caso contrário, esses relatórios não podem ser editados ou visualizados na IU do Unified Manager.
+
+.Passos
+. Abra a página Agenda de relatórios. Se você tiver importado relatórios, uma mensagem será exibida.
++
+image::../media/message_non_scehduled_reports.png[Uma captura de tela da interface do usuário que mostra a mensagem será exibida se houver relatórios importados.]
+
+. Clique no nome *View* para exibir a consulta SQL que está sendo usada para gerar o relatório.
++
+image::../media/importedreport1.png[Uma captura de tela da IU que mostra a consulta SQL usada para gerar o relatório.]
+
+. Clique no ícone mais image:../media/more_icon.gif[""], clique em *Editar*, defina os detalhes da programação do relatório e salve o relatório.
++
+[NOTE]
+====
+Você também pode excluir quaisquer relatórios indesejados do ícone mais image:../media/more_icon.gif[""].
+
+====
+

@@ -1,0 +1,49 @@
+---
+permalink: reporting/task_create_report_volumes_that_should_move_data_to_cloud_tier.html 
+sidebar: sidebar 
+keywords: create, report, identify, volumes, FabricPool, aggregates, data, cloud tier 
+summary: 'Você pode criar um relatório que contenha a lista de volumes que atualmente residem em agregados FabricPool, que tenham uma recomendação de nuvem de categoria e que tenham uma grande quantidade de dados inativos. Esse relatório pode ajudar você a decidir se você deve alterar a política de disposição em categorias de certos volumes para "automático" ou "tudo" para transferir mais dados inativos (inativos) para a categoria de nuvem.' 
+---
+= Criar um relatório para identificar volumes em agregados FabricPool que devem migrar dados para a camada de nuvem
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode criar um relatório que contenha a lista de volumes que atualmente residem em agregados FabricPool, que tenham uma recomendação de nuvem de categoria e que tenham uma grande quantidade de dados inativos. Este relatório pode ajudá-lo a decidir se você deve alterar a política de disposição em categorias de certos volumes para "'auto'" ou "'all'" para descarregar mais dados inativos (inativos) para a camada de nuvem.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+* Você precisa ter agregados FabricPool configurados e ter volumes nesses agregados.
+
+
+Siga as etapas abaixo para criar uma exibição personalizada que exiba as colunas necessárias na ordem correta e, em seguida, programe um relatório a ser gerado para essa exibição.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *volumes*.
+. No menu Exibir, selecione *desempenho* > *todos os volumes*.
+. No seletor de colunas, certifique-se de que a coluna "Disk Type" (tipo de disco) seja exibida na exibição.
++
+Adicione ou remova outras colunas para criar uma exibição importante para o relatório.
+
+. Arraste e solte a coluna "Disk Type" (tipo de disco) perto da coluna "Cloud Recommendation" (Recomendação da nuvem).
+. Clique no ícone de filtro, adicione os três filtros a seguir e clique em *Apply Filter*:
++
+** Tipo de disco contém FabricPool
+** A recomendação de nuvem contém nível
+** Dados inativos superiores a 10 GB image:../media/filter_cold_data.gif["Uma captura de tela da IU que mostra como você pode adicionar e aplicar filtro."]
+
+
+. Clique na parte superior da coluna dados inativos para que os volumes com mais dados inativos apareçam na parte superior da visualização.
+. Salve a exibição com um nome para refletir o que a exibição está mostrando, por exemplo, "'Vols Change Tiering policy'".image:../media/report_vol_cold_data.gif["Uma captura de tela da interface do usuário que mostra a página de diretiva de disposição em camadas da Vols alterar com as colunas necessárias na ordem correta."]
+. Clique no botão *relatórios programados* na página de inventário.
+. Clique em *Add Schedule* (Adicionar agendamento) para adicionar uma nova linha à página Report Schedules (agendas de relatórios) para que você possa definir as caraterísticas de agendamento para o novo relatório.
+. Introduza um nome para a agenda do relatório e preencha os outros campos do relatório e, em seguida, clique na marca de verificação (image:../media/blue_check.gif[""]) no final da linha.
++
+O relatório é enviado imediatamente como um teste. Depois disso, o relatório gera e é enviado por e-mail para os destinatários listados usando a frequência especificada.
+
+
+
+Com base nos resultados mostrados no relatório, você pode querer usar o Gerenciador de sistema ou a CLI do ONTAP para alterar a política de disposição em categorias para "auto" ou "all" para certos volumes para descarregar mais dados inativos na camada de nuvem.

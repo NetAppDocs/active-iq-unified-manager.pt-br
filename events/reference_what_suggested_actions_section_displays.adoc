@@ -1,0 +1,26 @@
+---
+permalink: events/reference_what_suggested_actions_section_displays.html 
+sidebar: sidebar 
+keywords: suggest, actions, section, displays 
+summary: A seção ações sugeridas da página de detalhes do evento fornece possíveis razões para o evento e sugere algumas ações para que você possa tentar resolver o evento por conta própria. As ações sugeridas são personalizadas com base no tipo de evento ou tipo de limite que foi violado. 
+---
+= O que a seção ações sugeridas é exibida
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+A seção ações sugeridas da página de detalhes do evento fornece possíveis razões para o evento e sugere algumas ações para que você possa tentar resolver o evento por conta própria. As ações sugeridas são personalizadas com base no tipo de evento ou tipo de limite que foi violado.
+
+Esta área é apresentada apenas para alguns tipos de eventos.
+
+Em alguns casos, há links *Ajuda* fornecidos na página que fazem referência a informações adicionais para muitas ações sugeridas, incluindo instruções para executar uma ação específica. Algumas das ações podem envolver o uso dos comandos do Unified Manager, do ONTAP System Manager, do OnCommand Workflow Automation, da CLI do ONTAP ou uma combinação dessas ferramentas.
+
+Você deve considerar as ações sugeridas aqui como apenas uma orientação para resolver este evento. A ação que você toma para resolver este evento deve ser baseada no contexto do seu ambiente.
+
+Se você quiser analisar o objeto e o evento com mais detalhes, clique no botão *Analyze Workload* para exibir a página análise de carga de trabalho.
+
+Há certos eventos que o Unified Manager pode diagnosticar cuidadosamente e fornecer uma única resolução. Quando disponíveis, essas resoluções são exibidas com um botão *Fix it*. Clique neste botão para que o Unified Manager corrija o problema que causa o evento.
+
+Para eventos da plataforma Active IQ, esta seção pode conter um link para um artigo da base de conhecimento do NetApp, quando disponível, que descreve o problema e possíveis resoluções. Em sites sem acesso à rede externa, um PDF do artigo da base de conhecimento é aberto localmente; o PDF faz parte do arquivo de regras que você baixa manualmente para a instância do Unified Manager.

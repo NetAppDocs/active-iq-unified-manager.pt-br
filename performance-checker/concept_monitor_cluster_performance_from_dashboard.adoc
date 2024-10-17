@@ -1,0 +1,14 @@
+---
+permalink: performance-checker/concept_monitor_cluster_performance_from_dashboard.html 
+sidebar: sidebar 
+keywords: monitor, cluster, performance, dashboard 
+summary: O Unified Manager Dashboard fornece alguns painéis que exibem o status de desempenho de alto nível de todos os clusters sendo monitorados por essa instância do Unified Manager. Ele permite avaliar o desempenho geral dos clusters gerenciados e anotar, localizar ou atribuir rapidamente para resolução quaisquer eventos específicos identificados. 
+---
+= Monitoramento do desempenho do cluster no Dashboard
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+O Unified Manager Dashboard fornece alguns painéis que exibem o status de desempenho de alto nível de todos os clusters sendo monitorados por essa instância do Unified Manager. Ele permite avaliar o desempenho geral dos clusters gerenciados e anotar, localizar ou atribuir rapidamente para resolução quaisquer eventos específicos identificados.

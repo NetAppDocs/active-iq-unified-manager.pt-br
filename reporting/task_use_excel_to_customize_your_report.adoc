@@ -1,0 +1,55 @@
+---
+permalink: reporting/task_use_excel_to_customize_your_report.html 
+sidebar: sidebar 
+keywords: excel, customize, report 
+summary: 'Depois de salvar a exibição, você pode baixá-la no formato Excel Workbook (.xlsx). Ao abrir o arquivo Excel, você pode usar recursos avançados do Excel para personalizar o relatório.' 
+---
+= Usando o Excel para personalizar seu relatório
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Depois de salvar a exibição, você pode baixá-la no formato Excel Workbook (.xlsx). Ao abrir o arquivo Excel, você pode usar recursos avançados do Excel para personalizar o relatório.
+
+*O que você vai precisar*
+
+Você só pode carregar um arquivo do Excel Workbook com a extensão .xlsx.
+
+Por exemplo, alguns recursos avançados do Excel que você pode usar no relatório incluem:
+
+* Ordenação de várias colunas
+* Filtragem complexa
+* Tabelas dinâmicas
+* Gráficos
+
+
+[NOTE]
+====
+* O ficheiro Excel transferido utiliza o nome de ficheiro predefinido para a vista, não o nome guardado.
++
+** O formato é `<View Area>-<Day>-<Month>-<Year>-<Hour>-<Minute>-<Second>.xlsx.`
+** Por exemplo, um modo de exibição personalizado salvo chamado `Volumes-not online` tem um nome de arquivo de `health-volumes-05-May-2020-19-18-00.xlsx` se salvo naquele dia e hora.
+
+
+* Pode adicionar folhas ao ficheiro Excel, mas não alterar folhas existentes.
++
+** Não altere as folhas, dados e informações existentes. Em vez disso, copie os dados para uma nova página que você criar.
+** Uma exceção à regra acima é que você pode criar fórmulas na página "data". Use as fórmulas da página de dados para criar gráficos em novas páginas.
+** Não atribua um nome a uma nova folha de dados ou informações.
+
+
+* Se existir um ficheiro Excel personalizado, existe uma marca de verificação ao lado do item de menu *relatórios* > *carregar Excel*. Ao baixar o arquivo do Excel, a versão com as personalizações é usada.image:../media/upload_excel.png["Uma captura de tela da IU que mostra como fazer upload do excel para relatórios."]
+
+
+====
+.Passos
+. Abra o modo de exibição padrão, personalizado ou salvo que você deseja usar como base do relatório.
+. Selecione *relatórios* > *Download Excel*.
+. Salve o arquivo. O ficheiro é guardado na pasta de transferências.
+. Abra o arquivo salvo no Excel. Não mova o arquivo para um novo local ou, se você fizer seu trabalho em outro local, salve o arquivo de volta para o local original usando o nome do arquivo original antes de fazer o upload do arquivo.
+. Personalize o arquivo usando recursos do Excel, como tipos complexos, filtros em camadas, tabelas dinâmicas ou gráficos. Para obter mais informações, consulte a documentação do Microsoft Excel.
+. Selecione *relatórios* > *carregar Excel* e selecione o ficheiro que modificou. O arquivo baixado mais recentemente é carregado a partir do mesmo local do arquivo.
+. Envie um relatório de teste usando o recurso *relatórios programados*.
+

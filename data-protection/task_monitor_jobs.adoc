@@ -1,0 +1,30 @@
+---
+permalink: data-protection/task_monitor_jobs.html 
+sidebar: sidebar 
+keywords: monitor, jobs 
+summary: Pode utilizar a página trabalhos para monitorizar o estado da tarefa e para ver as propriedades da tarefa, tais como tipo de serviço de armazenamento, estado, tempo de envio e tempo de conclusão, para determinar se uma tarefa foi concluída com êxito ou não. 
+---
+= Tarefas de monitorização
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Pode utilizar a página trabalhos para monitorizar o estado da tarefa e para ver as propriedades da tarefa, tais como tipo de serviço de armazenamento, estado, tempo de envio e tempo de conclusão, para determinar se uma tarefa foi concluída com êxito ou não.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+.Passos
+. No painel de navegação esquerdo, clique em *proteção* > *empregos*.
++
+É apresentada a página trabalhos.
+
+. Exiba a coluna *Estado* para determinar o status dos trabalhos atualmente em execução.
+. Clique no nome de um trabalho para ver detalhes sobre esse trabalho específico.
++
+É apresentada a página Detalhes do trabalho.
+
+

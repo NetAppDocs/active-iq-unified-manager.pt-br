@@ -1,0 +1,28 @@
+---
+permalink: performance-checker/task_identify_bully_workloads_involved_in_performance_event.html 
+sidebar: sidebar 
+keywords: identify, bully workloads, dynamic, performance, event 
+summary: 'No Unified Manager, é possível identificar quais workloads têm o maior desvio no uso de um componente de cluster na contenção. A identificação desses workloads ajuda a entender por que certos volumes no cluster têm tempos de resposta (latência) lentos.' 
+---
+= Identificação de workloads bully envolvidos em um evento de performance dinâmico
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+No Unified Manager, é possível identificar quais workloads têm o maior desvio no uso de um componente de cluster na contenção. A identificação desses workloads ajuda a entender por que certos volumes no cluster têm tempos de resposta (latência) lentos.
+
+*O que você vai precisar*
+
+* Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
+* Deve haver eventos de desempenho dinâmico novos, reconhecidos ou obsoletos.
+
+
+A página de detalhes do evento exibe uma lista das cargas de trabalho definidas pelo usuário e definidas pelo sistema classificadas pelo uso mais alto do componente ou mais afetadas pelo evento. Os valores são baseados nos picos identificados pelo Unified Manager quando o evento foi detetado e analisado pela última vez.
+
+.Passos
+. Exiba a página de detalhes do evento para exibir informações sobre o evento.
+. Nos gráficos latência de workload e atividade de workload, selecione *cargas de trabalho*.
+. Passe o cursor sobre os gráficos para ver as principais cargas de trabalho bully definidas pelo usuário que estão afetando o componente.
+

@@ -1,0 +1,28 @@
+---
+permalink: events/task_edit_alerts.html 
+sidebar: sidebar 
+keywords: edit, alerts 
+summary: Você pode editar propriedades de alerta, como o recurso com o qual o alerta está associado, eventos, destinatários, opções de notificação, frequência de notificação e scripts associados. 
+---
+= Editar alertas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode editar propriedades de alerta, como o recurso com o qual o alerta está associado, eventos, destinatários, opções de notificação, frequência de notificação e scripts associados.
+
+*O que você vai precisar*
+
+Tem de ter a função Administrador de aplicações.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Gerenciamento de armazenamento* > *Configuração de alerta*.
+. Na página *Configuração de alerta*, selecione o alerta que deseja editar e clique em *Editar*.
+. Na caixa de diálogo *Editar alerta*, edite as seções nome, recursos, eventos e ações, conforme necessário.
++
+Você pode alterar ou remover o script associado ao alerta.
+
+. Clique em *Salvar*.
+

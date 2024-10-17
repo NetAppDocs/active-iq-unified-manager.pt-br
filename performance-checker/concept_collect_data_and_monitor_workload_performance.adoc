@@ -1,0 +1,24 @@
+---
+permalink: performance-checker/concept_collect_data_and_monitor_workload_performance.html 
+sidebar: sidebar 
+keywords: collect, data, monitor, workload, performance 
+summary: O Unified Manager coleta e analisa a atividade do workload a cada 5 minutos para identificar eventos de performance e detecta alterações de configuração a cada 15 minutos. Ele retém um máximo de 30 dias de dados de eventos e performance históricos de 5 minutos e usa esses dados para prever o intervalo de latência esperado para todos os workloads monitorados. 
+---
+= Coleta de dados e monitoramento do desempenho da carga de trabalho
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+O Unified Manager coleta e analisa a atividade do workload a cada 5 minutos para identificar eventos de performance e detecta alterações de configuração a cada 15 minutos. Ele retém um máximo de 30 dias de dados de eventos e performance históricos de 5 minutos e usa esses dados para prever o intervalo de latência esperado para todos os workloads monitorados.
+
+O Unified Manager deve coletar no mínimo 3 dias de atividade do workload antes que ele possa começar a análise e antes que a previsão de latência do tempo de resposta de e/S possa ser exibida na página análise do workload e na página de detalhes do evento. Enquanto essa atividade está sendo coletada, a previsão de latência não exibe todas as alterações que ocorrem na atividade da carga de trabalho. Após coletar 3 dias de atividade, o Unified Manager ajusta a previsão de latência a cada 24 horas às 12:00 da manhã, para refletir as alterações nas atividades do workload e estabelecer um limite de performance dinâmico mais preciso.
+
+Durante os primeiros 4 dias em que o Unified Manager está monitorando uma carga de trabalho, se mais de 24 horas passaram desde a última coleta de dados, os gráficos de latência não exibirão a previsão de latência para essa carga de trabalho. Os eventos detetados antes da última coleção ainda estão disponíveis.
+
+[NOTE]
+====
+O horário de verão (DST) altera a hora do sistema, o que altera a previsão de latência das estatísticas de desempenho para cargas de trabalho monitoradas. O Unified Manager começa imediatamente a corrigir a previsão de latência, que leva aproximadamente 15 dias para ser concluída. Durante esse período, você pode continuar usando o Unified Manager, mas, como o Unified Manager usa a previsão de latência para detetar eventos dinâmicos, alguns eventos podem não ser precisos. Os eventos detetados antes da alteração de hora não são afetados.
+
+====

@@ -1,0 +1,22 @@
+---
+permalink: events/concept_resolve_active_iq_platform_events.html 
+sidebar: sidebar 
+keywords: active iq, resolve, events 
+summary: Os incidentes e riscos da plataforma Active IQ são semelhantes a outros eventos do Unified Manager porque eles podem ser atribuídos a outros usuários para resolução e têm os mesmos estados disponíveis. No entanto, quando você resolve esses tipos de eventos usando o botão corrigir, você pode verificar a resolução em horas. 
+---
+= Resolvendo eventos da plataforma Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Os incidentes e riscos da plataforma Active IQ são semelhantes a outros eventos do Unified Manager porque eles podem ser atribuídos a outros usuários para resolução e têm os mesmos estados disponíveis. No entanto, quando você resolve esses tipos de eventos usando o botão *Fix it*, você pode verificar a resolução em horas.
+
+O diagrama a seguir mostra as ações que você deve executar (em verde) e a ação que o Gerenciador Unificado executa (em preto) ao resolver eventos que foram gerados a partir da plataforma Active IQ.
+
+image::../media/aiq_and_um_event_resolution.png[Uma captura de tela da interface do usuário que mostra as ações que você deve executar e a ação que o Unified Manager executa ao resolver eventos.]
+
+Ao executar uma resolução manual, você deve fazer login no Gerenciador do sistema ou na interface da linha de comando do ONTAP para corrigir o problema. Você poderá verificar o problema somente depois que o cluster gerar uma nova mensagem do AutoSupport à meia-noite.
+
+Ao executar uma resolução semi-automática usando o botão *Fix it*, você pode verificar se a correção foi bem-sucedida em poucas horas.

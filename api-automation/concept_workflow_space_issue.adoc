@@ -1,0 +1,74 @@
+---
+permalink: api-automation/concept_workflow_space_issue.html 
+sidebar: sidebar 
+keywords: determine, space, issue, aggregate 
+summary: Use as APIs do data center no Active IQ Unified Manager para monitorar a disponibilidade e a utilização do espaço nos volumes. Você pode determinar problemas de espaço em seu volume e identificar recursos de storage que estão sobreutilizados ou subutilizados. 
+---
+= Determinando problemas de espaço em agregados usando APIs
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Use as APIs do data center no Active IQ Unified Manager para monitorar a disponibilidade e a utilização do espaço nos volumes. Você pode determinar problemas de espaço em seu volume e identificar recursos de storage que estão sobreutilizados ou subutilizados.
+
+As APIs de data center para agregados recuperam as informações relevantes sobre o espaço disponível e usado e as configurações de eficiência de economia de espaço. Você também pode filtrar as informações recuperadas com base em atributos especificados.
+
+Um método para determinar a falta de espaço em seus agregados é verificar se há volumes em seu ambiente com o modo automático ativado. Em seguida, você deve identificar quais volumes estão sendo sobreutilizados e executar quaisquer ações corretivas.
+
+O fluxograma a seguir ilustra o processo de recuperação de informações sobre volumes com o modo automático ativado:
+
+image::../media/space_utilization.gif[utilização de espaço]
+
+Esse fluxo pressupõe que os clusters já tenham sido criados no ONTAP e adicionados ao Unified Manager.
+
+. Obtenha a chave do cluster, a menos que você saiba o valor:
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Caminho 
+
+
+ a| 
+data center
+ a| 
+OBTER
+ a| 
+`/datacenter/cluster/clusters`
+
+|===
+. Usando a chave de cluster como parâmetro de filtro, consulte os agregados nesse cluster.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Caminho 
+
+
+ a| 
+data center
+ a| 
+OBTER
+ a| 
+`/datacenter/storage/aggregates`
+
+|===
+. A partir da resposta, analisar o uso do espaço dos agregados e determinar quais agregados têm problemas de espaço. Para cada agregado com problema de espaço, obtenha a chave agregada da mesma saída JSON.
+. Usando cada chave agregada, filtre todos os volumes que têm o valor para o parâmetro automático.modo como `grow.`
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Caminho 
+
+
+ a| 
+data center
+ a| 
+OBTER
+ a| 
+`/datacenter/storage/volumes`
+
+|===
+. Analise quais volumes estão sendo sobreutilizados.
+. Execute qualquer ação corretiva necessária, como mover o volume entre agregados, para resolver os problemas de espaço em seu volume. Você pode executar essas ações na IU da Web do ONTAP ou do Unified Manager.
+

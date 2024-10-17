@@ -1,0 +1,50 @@
+---
+permalink: data-protection/task_resynchronize_protection_relationships.html 
+sidebar: sidebar 
+keywords: resynchronize, protection, relationships, volume, relationships page 
+summary: Na página relacionamentos de volume, você pode ressincronizar um relacionamento para recuperar de um evento que desabilitou o volume de origem ou quando deseja alterar a fonte atual para um volume diferente. 
+---
+= Ressincronizar relacionamentos de proteção a partir da página relacionamentos de volume
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Na página relacionamentos de volume, você pode ressincronizar um relacionamento para recuperar de um evento que desabilitou o volume de origem ou quando deseja alterar a fonte atual para um volume diferente.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+* Você deve ter configurado o Workflow Automation.
+
+
+.Passos
+. Na página *relacionamentos de volume*, selecione um ou mais volumes com relacionamentos quiesced e, na barra de ferramentas, clique em *Resynchronize*.
++
+A caixa de diálogo Resyncronizar é exibida.
+
+. Na guia *Opções de ressincronização*, selecione uma prioridade de transferência e a taxa de transferência máxima.
+. Clique em *cópias snapshot de origem*; em seguida, na coluna *cópia Snapshot*, clique em *predefinição*.
++
+A caixa de diálogo Selecionar cópia Snapshot de origem é exibida.
+
+. Se você quiser especificar uma cópia Snapshot existente em vez de transferir a cópia Snapshot padrão, clique em *cópia Snapshot existente* e selecione uma cópia Snapshot na lista.
+. Clique em *Enviar*.
++
+Você será retornado à caixa de diálogo Resyncronizar.
+
+. Se você selecionou mais de uma fonte para ressincronizar, clique em *Default* para a próxima fonte para a qual deseja especificar uma cópia Snapshot existente.
+. Clique em *Enviar* para iniciar o trabalho de ressincronização.
++
+O trabalho de ressincronização é iniciado, você retorna à página relacionamentos de volume e um link trabalhos é exibido na parte superior da página.
+
+. *Opcional:* clique em *Exibir trabalhos* na página *relacionamentos de volume* para rastrear o status de cada trabalho de ressincronização.
++
+É apresentada uma lista filtrada de trabalhos.
+
+. *Opcional:* clique na seta *voltar* no seu navegador para retornar à página *relacionamentos por volume*.
++
+A operação de ressincronização é concluída quando todas as tarefas de trabalho forem concluídas com êxito.
+
+

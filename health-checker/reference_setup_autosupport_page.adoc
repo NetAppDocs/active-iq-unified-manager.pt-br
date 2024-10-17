@@ -1,0 +1,99 @@
+---
+permalink: health-checker/reference_setup_autosupport_page.html 
+sidebar: sidebar 
+keywords: autosupport, messages, support bundles, technical support 
+summary: A página do AutoSupport permite enviar mensagens AutoSupport predefinidas e sob demanda para sua equipe de suporte técnico, a fim de garantir uma operação correta do seu ambiente e ajudá-lo a manter a integridade do seu ambiente. O AutoSupport está habilitado por padrão e não deve ser desativado, para que você receba os benefícios do NetAppactive IQ. 
+---
+= Envio de mensagens AutoSupport e pacotes de suporte para o suporte técnico
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+A página do AutoSupport permite enviar mensagens AutoSupport predefinidas e sob demanda para sua equipe de suporte técnico, a fim de garantir uma operação correta do seu ambiente e ajudá-lo a manter a integridade do seu ambiente. O AutoSupport está habilitado por padrão e não deve ser desativado, para que você receba os benefícios do NetAppactive IQ.
+
+Você pode enviar informações do sistema de diagnóstico e dados detalhados sobre o servidor do Unified Manager em uma mensagem como e quando necessário, agendar uma mensagem para ser enviada periodicamente ou até mesmo gerar e enviar pacotes de suporte para a equipe de suporte técnico.
+
+[NOTE]
+====
+Um usuário com função de administrador de storage pode gerar e enviar mensagens AutoSupport sob demanda e pacotes de suporte para o suporte técnico. No entanto, somente um administrador ou usuário de manutenção pode ativar ou desativar o AutoSupport periódico e configurar as configurações HTTP conforme descrito na seção Configuração do servidor proxy HTTP. Em um ambiente que precisa usar um servidor proxy HTTP, a configuração deve ser concluída antes que um administrador de armazenamento possa enviar mensagens AutoSupport sob demanda e pacotes de suporte para suporte técnico.
+
+====
+
+
+== Envio de mensagens AutoSupport sob demanda
+
+Você pode gerar e enviar uma mensagem sob demanda para o suporte técnico, para um destinatário de e-mail especificado ou para ambos.
+
+.Passos
+. Navegue até *Geral* > *AutoSupport* e execute uma ou ambas as seguintes ações:
+. Se quiser enviar a mensagem AutoSupport para o suporte técnico, marque a caixa de seleção *Enviar para o suporte técnico*.
+. Se quiser enviar a mensagem AutoSupport para um destinatário de e-mail específico, marque a caixa de seleção *Enviar para destinatário de e-mail* e insira o endereço de e-mail do destinatário.
+. Clique em *Salvar*.
+. Clique em *Generate and Send AutoSupport*.
+
+
+
+
+== Habilitando o AutoSupport periódico
+
+Você pode enviar mensagens específicas e predefinidas para o suporte técnico para diagnóstico e resolução de problemas periodicamente. Esta funcionalidade está ativada por predefinição. Se estiver desativado, um administrador ou utilizador de manutenção pode ativar as definições.
+
+.Passos
+. Navegue até *Geral* > *AutoSupport*.
+. Na seção AutoSupport Periódico, marque a caixa de seleção *Ativar envio periódico de dados AutoSupport para Active IQ* .
+. Se necessário, defina o nome, a porta e as informações de autenticação para o servidor proxy HTTP, conforme descrito na seção Configuração do servidor proxy HTTP.
+. Clique em *Salvar*.
+
+
+
+
+== Carregar pacote de suporte sob demanda
+
+Você pode gerar e enviar um pacote de suporte para o suporte técnico com base no requisito de solução de problemas. O Unified Manager armazena apenas os dois pacotes de suporte gerados mais recentemente. Pacotes de suporte mais antigos são excluídos do sistema.
+
+Como alguns tipos de dados de suporte podem usar uma grande quantidade de recursos de cluster ou levar muito tempo para serem concluídos, ao selecionar o pacote de suporte completo, você pode incluir ou excluir tipos de dados específicos para reduzir o tamanho do pacote de suporte. Você também tem a opção de criar um pacote de suporte leve que contém apenas 30 dias de Registros e Registros de banco de dados de configuração -- exclui dados de desempenho, arquivos de gravação de aquisição e despejo de heap do servidor.
+
+.Passos
+. Navegue até *Geral* > *AutoSupport*.
+. Na seção Pacote de suporte sob demanda, clique em *Generate and Send Support Bundle*.
+. Para enviar um pacote de suporte leve ao suporte técnico, no pop-up Generate and Send Support Bundle, marque a caixa de seleção Generate light support bundle** (gerar e enviar pacote de suporte leve).
+. Como alternativa, para enviar um pacote de suporte completo, marque a caixa de seleção *Generate full support bundle* (gerar pacote de suporte completo). Selecione os tipos de dados específicos a incluir ou excluir no pacote de suporte.
++
+[NOTE]
+====
+Mesmo que você não selecione nenhum tipo de dados, o pacote de suporte ainda será gerado com outros dados do Unified Manager.
+
+====
+. Marque a caixa de seleção *Enviar o pacote para suporte técnico* para gerar e enviar o pacote para suporte técnico. Se você não selecionar essa caixa de seleção, o pacote será gerado e armazenado localmente no servidor do Unified Manager. O pacote de suporte gerado está disponível para uso posterior no diretório /support em sistemas VMware, em `/opt/netapp/data/support/` sistemas Linux e em `ProgramData\NetApp\OnCommandAppData\ocum\support` sistemas Windows.
+. Clique em *Enviar*.
+
+
+
+
+== Configurando o servidor proxy HTTP
+
+Você pode designar um proxy para fornecer acesso à Internet para enviar conteúdo do AutoSupport para suporte se o seu ambiente não fornecer acesso direto do servidor do Gerenciador Unificado. Esta seção está disponível apenas para usuários de administrador e manutenção.
+
+* *Use proxy HTTP*
++
+Marque esta caixa para identificar o servidor que está sendo usado como proxy HTTP.
+
++
+Insira o nome do host ou o endereço IP do servidor proxy e o número da porta usada para se conetar ao servidor.
+
+* *Use autenticação*
++
+Marque esta caixa se precisar fornecer informações de autenticação para acessar o servidor que está sendo usado como proxy HTTP.
+
++
+Introduza o nome de utilizador e a palavra-passe necessários para a autenticação com o proxy HTTP.
+
+
+
+[NOTE]
+====
+Os proxies HTTP que fornecem somente a Autenticação básica não são suportados.
+
+====

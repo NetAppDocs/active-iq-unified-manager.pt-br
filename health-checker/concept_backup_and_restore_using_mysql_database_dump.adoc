@@ -1,0 +1,34 @@
+---
+permalink: health-checker/concept_backup_and_restore_using_mysql_database_dump.html 
+sidebar: sidebar 
+keywords: backup, restore, using, mysql, database, dump, snapshot copy, copies 
+summary: Um backup de despejo de banco de dados MySQL é uma cópia do banco de dados Active IQ Unified Manager e arquivos de configuração que você pode usar em caso de falha do sistema ou perda de dados. Pode programar uma cópia de segurança para ser escrita num destino local ou num destino remoto. É altamente recomendável que você defina um local remoto externo ao sistema host Active IQ Unified Manager. 
+---
+= Faça backup e restauração usando um despejo de banco de dados MySQL
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Um backup de despejo de banco de dados MySQL é uma cópia do banco de dados Active IQ Unified Manager e arquivos de configuração que você pode usar em caso de falha do sistema ou perda de dados. Pode programar uma cópia de segurança para ser escrita num destino local ou num destino remoto. É altamente recomendável que você defina um local remoto externo ao sistema host Active IQ Unified Manager.
+
+[NOTE]
+====
+O despejo de banco de dados MySQL é o mecanismo de backup padrão quando o Unified Manager é instalado em um servidor Linux e Windows. No entanto, se o Unified Manager estiver gerenciando um grande número de clusters e nós ou se os backups do MySQL estiverem demorando muitas horas para serem concluídos, você poderá fazer backup usando cópias Snapshot. Essa funcionalidade está disponível nos sistemas Red Hat Enterprise Linux, CentOS Linux e Windows.
+
+====
+Um backup de despejo de banco de dados consiste em um único arquivo no diretório de backup e um ou mais arquivos no diretório de repositório de banco de dados. O arquivo no diretório de backup é muito pequeno porque contém apenas um ponteiro para os arquivos localizados no diretório de repositório de banco de dados que são necessários para recriar o backup.
+
+Na primeira vez que você gera um backup de banco de dados, um único arquivo é criado no diretório de backup e um arquivo de backup completo é criado no diretório de repositório de banco de dados. Da próxima vez que você gerar um backup, um único arquivo é criado no diretório de backup e um arquivo de backup incremental é criado no diretório de repositório de banco de dados que contém as diferenças do arquivo de backup completo. Esse processo continua à medida que você cria backups adicionais, até a configuração de retenção máxima, como mostrado na figura a seguir.
+
+image::../media/database_backup.gif[backup de banco de dados]
+
+[NOTE]
+====
+Não renomeie ou remova nenhum dos arquivos de backup nesses dois diretórios ou qualquer operação de restauração subsequente falhará.
+
+====
+Se você gravar seus arquivos de backup no sistema local, você deve iniciar um processo para copiar os arquivos de backup para um local remoto para que eles estejam disponíveis caso você tenha um problema de sistema que exija uma restauração completa.
+
+Antes de iniciar uma operação de backup, o Active IQ Unified Manager executa uma verificação de integridade para verificar se todos os arquivos de backup e diretórios de backup necessários existem e são graváveis. Ele também verifica se há espaço suficiente no sistema para criar o arquivo de backup.

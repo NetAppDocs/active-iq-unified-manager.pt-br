@@ -1,0 +1,32 @@
+---
+permalink: data-protection/task_break_snapmirror_relationship.html 
+sidebar: sidebar 
+keywords: break, snapmirror, relationship, volume, relationship page 
+summary: É possível interromper uma relação de proteção para interromper as transferências de dados entre um volume de origem e um volume de destino em uma relação do SnapMirror. Você pode interromper um relacionamento quando quiser migrar dados, para recuperação de desastres ou para teste de aplicações. O volume de destino é alterado para um volume de leitura/gravação. Você não pode quebrar um relacionamento SnapVault. 
+---
+= Quebrar uma relação de SnapMirror a partir da página relacionamentos de volume
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+É possível interromper uma relação de proteção para interromper as transferências de dados entre um volume de origem e um volume de destino em uma relação do SnapMirror. Você pode interromper um relacionamento quando quiser migrar dados, para recuperação de desastres ou para teste de aplicações. O volume de destino é alterado para um volume de leitura/gravação. Você não pode quebrar um relacionamento SnapVault.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+* Você deve ter configurado o Workflow Automation.
+
+
+.Passos
+. Na página *relacionamentos de volume*, selecione um ou mais volumes com relacionamentos de proteção para os quais você deseja interromper as transferências de dados e, na barra de ferramentas, clique em *quebrar*.
++
+É apresentada a caixa de diálogo Break Relationship (interromper relação).
+
+. Clique em *continuar* para quebrar o relacionamento.
+. Na página *relacionamentos de volume*, verifique na coluna *Estado do relacionamento* se o relacionamento está quebrado.
++
+A coluna Estado do relacionamento está oculta por padrão, portanto, talvez seja necessário selecioná-la na lista Mostrar/ocultar coluna image:../media/icon_columnshowhide_sm_onc.gif[""].
+
+

@@ -1,0 +1,28 @@
+---
+permalink: performance-checker/reference_how_expected_range_is_used_in_performance_analysis.html 
+sidebar: sidebar 
+keywords: latency, forecast, performance, analysis 
+summary: 'O Unified Manager usa a previsão de latência para representar a atividade típica de latência de e/S (tempo de resposta) dos workloads monitorados. Ele alerta quando a latência real de um workload está acima dos limites superiores da previsão de latência, que aciona um evento de performance dinâmico, para que você possa analisar o problema de performance e tomar medidas corretivas para resolvê-lo.' 
+---
+= Como a previsão de latência é usada na análise de desempenho
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+O Unified Manager usa a previsão de latência para representar a atividade típica de latência de e/S (tempo de resposta) dos workloads monitorados. Ele alerta quando a latência real de um workload está acima dos limites superiores da previsão de latência, que aciona um evento de performance dinâmico, para que você possa analisar o problema de performance e tomar medidas corretivas para resolvê-lo.
+
+A previsão de latência define a linha de base de desempenho para a carga de trabalho. Com o tempo, o Unified Manager aprende com medições de desempenho anteriores para prever os níveis de desempenho e atividade esperados para a carga de trabalho. O limite superior do intervalo esperado estabelece o limite de desempenho dinâmico. O Unified Manager usa a linha de base para determinar quando a latência real está acima ou abaixo de um limite ou fora dos limites de seu intervalo esperado. A comparação entre os valores reais e os valores esperados cria um perfil de performance para a carga de trabalho.
+
+Quando a latência real de um workload excede o limite dinâmico de performance, devido à contenção em um componente do cluster, a latência é alta e o workload opera mais lentamente do que o esperado. O desempenho de outras cargas de trabalho que compartilham os mesmos componentes de cluster também pode ser mais lento do que o esperado.
+
+O Unified Manager analisa o evento de cruzamento de limites e determina se a atividade é um evento de desempenho. Se a atividade de alto workload permanecer consistente por um longo período de tempo, como várias horas, o Unified Manager considera a atividade normal e ajusta dinamicamente a previsão de latência para formar o novo limite dinâmico de performance.
+
+Algumas cargas de trabalho podem ter atividades consistentemente baixas, em que a previsão de latência para latência não tem uma alta taxa de alteração ao longo do tempo. Para minimizar o número de eventos durante a análise de eventos de performance, o Unified Manager aciona um evento apenas para volumes de baixa atividade cujas operações e latências são muito maiores do que o esperado.
+
+image::../media/opm_expected_range_jpg.png[Intervalo esperado para latência no Unified Manager]
+
+Neste exemplo, a latência de um volume tem uma previsão de latência, em cinza, de 3,5 milissegundos por operação (ms/op) no menor e 5,5 ms/op no máximo. Se a latência real, em azul, aumentar repentinamente para 10 ms/op, devido a um pico intermitente no tráfego de rede ou contenção em um componente de cluster, ela fica então acima da previsão de latência e excedeu o limite de desempenho dinâmico.
+
+Quando o tráfego de rede diminuiu ou o componente do cluster não está mais na contenção, a latência retorna dentro da previsão de latência. Se a latência permanecer em ou acima de 10 ms/op por um longo período de tempo, talvez seja necessário tomar medidas corretivas para resolver o evento.

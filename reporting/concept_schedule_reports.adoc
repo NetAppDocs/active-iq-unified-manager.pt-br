@@ -1,0 +1,20 @@
+---
+permalink: reporting/concept_schedule_reports.html 
+sidebar: sidebar 
+keywords: scheduling, reports 
+summary: Depois de ter uma exibição que deseja reutilizar e compartilhar como um relatório, você pode programá-la usando o Active IQ Unified Manager. Você pode gerenciar relatórios programados, alterar os destinatários e a frequência de distribuição para cada agendamento de relatório. 
+---
+= Agendar relatórios
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Depois de ter uma exibição que deseja reutilizar e compartilhar como um relatório, você pode programá-la usando o Active IQ Unified Manager. Você pode gerenciar relatórios programados, alterar os destinatários e a frequência de distribuição para cada agendamento de relatório.
+
+Você pode agendar a maioria das visualizações ou páginas de inventário no Unified Manager. Exceções são eventos, que são relatórios que você pode baixar como arquivos CSV, mas você não pode agendar eventos para regeneração e compartilhamento. Você também não pode baixar ou agendar os painéis, favoritos ou páginas de configuração.
+
+A partir do Active IQ Unified Manager 9,8, você pode baixar visualizações no formato Microsoft Excel e personalizá-las. Você pode usar recursos avançados do Excel, como sortes complexos, filtros em camadas, tabelas dinâmicas e gráficos. Quando estiver satisfeito com o relatório do Excel resultante, você pode fazer o upload do arquivo do Excel para uso sempre que o relatório for agendado e compartilhado.
+
+Você pode agendar as visualizações incorporadas ou exibições personalizadas. Você pode escolher qual tipo de arquivo enviar, seja CSV, PDF ou XSLX. Quando você agendar um relatório pela primeira vez, você pode baixá-lo e atribuir-se como o único destinatário para ver o relatório como seus destinatários o verão.

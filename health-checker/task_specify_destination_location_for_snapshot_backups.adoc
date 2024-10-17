@@ -1,0 +1,44 @@
+---
+permalink: health-checker/task_specify_destination_location_for_snapshot_backups.html 
+sidebar: sidebar 
+keywords: specify, destination location, snapshot copies, copy 
+summary: Você deve configurar o local de destino para cópias Snapshot do Active IQ Unified Manager em um volume que já tenha configurado em um de seus clusters do ONTAP. Você deve usar o console de manutenção para definir a localização. 
+---
+= Especificando o local de destino para cópias Snapshot
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você deve configurar o local de destino para cópias Snapshot do Active IQ Unified Manager em um volume que já tenha configurado em um de seus clusters do ONTAP. Você deve usar o console de manutenção para definir a localização.
+
+* Você deve ter as credenciais de usuário raiz para o host Linux no qual o Active IQ Unified Manager está instalado.
+* Você deve ter uma ID de usuário e senha autorizados para fazer login no console de manutenção do servidor do Unified Manager.
+* Você deve ter o endereço IP de gerenciamento de cluster, o nome da VM de armazenamento, o nome do volume e o nome de usuário e senha do sistema de armazenamento.
+* Você deve ter montado o volume no host Active IQ Unified Manager e deve ter o caminho de montagem.
+
+
+.Passos
+. Use Shell seguro para se conetar ao endereço IP ou FQDN do sistema Active IQ Unified Manager.
+. Inicie sessão no sistema com o nome e a palavra-passe do utilizador de manutenção (umadmin).
+. Digite o comando `maintenance_console` e pressione Enter.
+. No console de manutenção *Menu Principal*, digite o número da opção *Backup Restore*.
+. Digite o número para *Configurar cópia de segurança de instantâneo do NetApp*.
+. Introduza o número para configurar o NFS.
+. Revise as informações que você precisará fornecer e insira o número de *Digite os detalhes da configuração de backup*.
+. Para identificar o volume em que o instantâneo será gravado, insira o endereço IP da interface de gerenciamento de cluster, o nome da VM de armazenamento, o nome do volume, o nome do LUN, o nome do usuário e a senha do sistema de armazenamento e o caminho de montagem.
+. Verifique essas informações e `y` digite .
++
+O sistema executa as seguintes tarefas:
+
++
+** Estabelece a conexão com o cluster
+** Pára todos os serviços
+** Cria um novo diretório no volume e copia os arquivos de configuração do banco de dados Active IQ Unified Manager
+** Exclui os arquivos do Active IQ Unified Manager e cria um link simbólico para o novo diretório de banco de dados
+** Reinicia todos os serviços
+
+
+. Saia do console de manutenção e inicie a interface do Active IQ Unified Manager para criar um agendamento para a cópia Snapshot se você ainda não tiver feito isso.
+

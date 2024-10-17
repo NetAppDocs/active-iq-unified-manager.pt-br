@@ -1,0 +1,42 @@
+---
+permalink: reporting/task_create_report_to_view_stopped_svms.html 
+sidebar: sidebar 
+keywords: create, report, view, stopped, storage VMs 
+summary: Você pode criar um relatório para exibir uma lista de todos os SVMs paradas. 
+---
+= Criando um relatório para exibir VMs de armazenamento interrompidas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode criar um relatório para exibir uma lista de todos os SVMs paradas.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
+
+Use as etapas a seguir para criar uma exibição personalizada que exiba VMs de armazenamento interrompidas e, em seguida, agende um relatório a ser gerado para essa exibição.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Storage* > *Storage VMs*.
+. No menu Exibir, selecione *Saúde* > *todas as VMs de armazenamento*.
+. Selecione *Mostrar/Ocultar* para remover as colunas que não deseja no relatório.
+. Arraste a coluna "Estado" perto da coluna "Storage VM".
+. Clique no ícone de filtro, adicione o seguinte filtro e clique em *Apply Filter*:
++
+** Estado parado
+
+
+. Salve a exibição com um nome específico que reflita o que a exibição está mostrando, por exemplo "'SVMs paradas'" e clique na marca de seleção (image:../media/blue_check.gif[""]).
+. Clique no botão *relatórios programados* na página de inventário.
+. Clique em *Add Schedule* (Adicionar agendamento) para adicionar uma nova linha à página *Report Schedules* para que você possa definir as caraterísticas de agendamento para o novo relatório.
+. Introduza um nome para a agenda do relatório e preencha os outros campos do relatório e, em seguida, clique na marca de verificação (image:../media/blue_check.gif[""]) no final da linha.
++
+O relatório é enviado imediatamente como um teste. Depois disso, o relatório gera e é enviado por e-mail para os destinatários listados usando a frequência especificada.
+
+
+
+Com base nos resultados mostrados no relatório, você pode querer investigar por que o SVM está parado para ver se você deve reiniciar os SVMs parados.

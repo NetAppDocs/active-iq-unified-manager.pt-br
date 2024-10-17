@@ -1,0 +1,61 @@
+---
+permalink: install-linux/task_download_unified_manager.html 
+sidebar: sidebar 
+keywords: download, Unified Manager 
+summary: 'Você deve fazer download do arquivo do Gerenciador Unificado `.zip` no site de suporte da NetApp para instalar o Gerenciador unificado.' 
+---
+= A transferir o Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você deve fazer download do arquivo do Gerenciador Unificado `.zip` no site de suporte da NetApp para instalar o Gerenciador unificado.
+
+*O que você vai precisar*
+
+Você deve ter credenciais de login para o site de suporte da NetApp.
+
+Faça o download do mesmo pacote de instalação do Unified Manager para os sistemas Red Hat Enterprise Linux e CentOS.
+
+.Passos
+. Faça login no site de suporte da NetApp e navegue até a página de download do Gerenciador Unificado:
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["Site de suporte da NetApp"]
+
+. Selecione a versão necessária do Unified Manager e aceite o contrato de licença de usuários finais (EULA).
+. Faça o download do arquivo do instalador do Unified Manager para Linux e salve o `.zip` arquivo em um diretório no sistema de destino.
++
+[NOTE]
+====
+** Certifique-se de baixar a versão correta do arquivo de instalação para o seu sistema Red Hat Enterprise Linux. Com base se você tem o Red Hat Enterprise Linux 7 ou 8 instalado, certifique-se de baixar a versão apropriada do arquivo Unified Manager `.zip`.
+** A NetApp recomenda que você baixe o certificado de assinatura de código (`.pem`) e a assinatura digital (`.sig`) junto com o `.zip` arquivo.
+
+
+====
+. Verifique a integridade do software transferido na soma de verificação.
+. Se você tiver baixado o certificado de assinatura de código e a assinatura digital, poderá verificar a integridade do arquivo do instalador. Você pode usar os seguintes comandos para verificar a integridade do arquivo do instalador:
++
+** Este comando cria um arquivo com a chave pública a partir do certificado de assinatura de código:
++
+[listing]
+----
+openssl x509 -pubkey -noout -in AIQUM-RHEL-CLIENT-INTER-ROOT.pem > <public_key_file_name>
+----
++
+*** Onde *AIQUM-RHEL-CLIENT-INTER-ROOT.pem* é o arquivo que contém o certificado de assinatura de código.
+
+
+** Este comando verifica a assinatura no arquivo do instalador:
++
+[listing]
+----
+openssl dgst -sha256 -verify <public_key_file_name> -signature <signature_file_name> ActiveIQUnifiedManager-<version>.zip
+----
++
+A mensagem semelhante a `Verified Ok` confirma que o arquivo do instalador é seguro de usar.
+
+
+
+

@@ -1,0 +1,30 @@
+---
+permalink: performance-checker/concept_metrocluster_configuration_verification.html 
+sidebar: sidebar 
+keywords: metrocluster, configuration, verification 
+summary: Você pode evitar problemas de desempenho de workloads espelhados em uma configuração do MetroCluster garantindo que a configuração do MetroCluster esteja configurada corretamente. Você também pode melhorar a performance do workload alterando a configuração ou atualizando componentes de software ou hardware. 
+---
+= Verificação da configuração do MetroCluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode evitar problemas de performance de workloads espelhados em configurações MetroCluster em FC e IP garantindo que a configuração MetroCluster esteja configurada corretamente. Você também pode melhorar a performance do workload alterando a configuração ou atualizando componentes de software ou hardware.
+
+Consulte a https://docs.netapp.com/us-en/ontap-metrocluster/index.html["Documentação do MetroCluster"] para obter instruções sobre como configurar os clusters na configuração MetroCluster, incluindo os switches Fibre Channel (FC), cabos e ISLs (links entre switches). Ele também ajuda a configurar o software MetroCluster para que os clusters locais e remotos possam se comunicar com dados de volume espelhado. Para obter informações específicas sobre a configuração do MetroCluster sobre IP, https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/index.html["Instale uma configuração IP do MetroCluster"] consulte .
+
+Você pode comparar a configuração do MetroCluster com os requisitos do https://docs.netapp.com/us-en/ontap-metrocluster/index.html["Documentação do MetroCluster"] para determinar se a alteração ou atualização de componentes na configuração do MetroCluster pode melhorar a performance do workload. Esta comparação pode ajudá-lo a responder às seguintes perguntas:
+
+* Os controladores são apropriados para seus workloads?
+* Você precisa atualizar seus pacotes ISL para uma largura de banda maior para lidar com mais throughput?
+* Você pode ajustar os créditos buffer-to-buffer (BBC) em seus switches para aumentar a largura de banda?
+* Se seus workloads tiverem taxa de transferência de gravação alta no storage de unidade de estado sólido (SSD), você precisará atualizar suas pontes FC para SAS para acomodar a taxa de transferência?
+
+
+*Informações relacionadas*
+
+* Para obter informações sobre como substituir ou atualizar componentes do MetroCluster, consulte https://docs.netapp.com/us-en/ontap-metrocluster/index.html["Documentação do MetroCluster"].
+* Para obter informações sobre como atualizar controladores, https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/task_upgrade_controllers_in_a_four_node_fc_mcc_us_switchover_and_switchback_mcc_fc_4n_cu.html["Atualização de controladores em uma configuração MetroCluster FC usando switchover e switchback"] consulte e. https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/task_upgrade_controllers_in_a_four_node_ip_mcc_us_switchover_and_switchback_mcc_ip.html["Atualização de controladores em uma configuração MetroCluster IP usando switchover e switchback"]
+

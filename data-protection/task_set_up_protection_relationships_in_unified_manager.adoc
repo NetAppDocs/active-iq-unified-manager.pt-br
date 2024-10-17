@@ -1,0 +1,42 @@
+---
+permalink: data-protection/task_set_up_protection_relationships_in_unified_manager.html 
+sidebar: sidebar 
+keywords: set, protection, relationships, unified manager 
+summary: Há várias etapas que você deve executar para usar o Gerenciador Unificado e o OnCommand Workflow Automation para configurar relacionamentos do SnapMirror e do SnapVault para proteger seus dados. 
+---
+= Configuração de relacionamentos de proteção no Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Há várias etapas que você deve executar para usar o Gerenciador Unificado e o OnCommand Workflow Automation para configurar relacionamentos do SnapMirror e do SnapVault para proteger seus dados.
+
+*O que você vai precisar*
+
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+* Você precisa ter relacionamentos de pares estabelecidos entre dois clusters ou duas máquinas virtuais de storage (SVMs).
+* O OnCommand Workflow Automation precisa ser integrado ao Unified Manager:
++
+** link:task_configure_connection_between_workflow_automation_um.html["Configure o OnCommand Workflow Automation"].
+** link:task_verify_um_data_source_caching_in_workflow_automation.html["Verificando o armazenamento em cache da fonte de dados do Unified Manager no Workflow Automation"].
+
+
+
+
+.Passos
+. Dependendo do tipo de relação de proteção que você deseja criar, execute um dos seguintes procedimentos:
++
+** link:task_create_snapmirror_relationship_from_health_volume.html["Crie uma relação de proteção SnapMirror"].
+** link:task_create_snapvault_protection_relationship_from_health_volume_details.html["Crie uma relação de proteção SnapVault"].
+
+
+. Se você quiser criar uma política para o relacionamento, dependendo do tipo de relacionamento que você está criando, siga um destes procedimentos:
++
+** link:task_create_snapvault_policy_to_maximize_transfer_efficiency.html["Crie uma política do SnapVault"].
+** link:task_create_snapmirror_policy_to_maximize_transfer_efficiency.html["Crie uma política do SnapMirror"].
+
+
+. link:task_create_snapmirror_and_snapvault_schedules.html["Crie uma agenda SnapMirror ou SnapVault"].
+
