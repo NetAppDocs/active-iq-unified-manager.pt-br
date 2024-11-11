@@ -2,7 +2,7 @@
 permalink: install-linux/task_remove_unified_manager.html 
 sidebar: sidebar 
 keywords: remove, unified manager 
-summary: É possível parar e desinstalar o Unified Manager do host Red Hat Enterprise Linux ou CentOS com um único comando. 
+summary: Você pode parar e desinstalar o Unified Manager do host Red Hat Enterprise Linux com um único comando. 
 ---
 = Remoção do Unified Manager
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: É possível parar e desinstalar o Unified Manager do host Red Hat Ente
 
 
 [role="lead"]
-É possível parar e desinstalar o Unified Manager do host Red Hat Enterprise Linux ou CentOS com um único comando.
+Você pode parar e desinstalar o Unified Manager do host Red Hat Enterprise Linux com um único comando.
 
 *O que você vai precisar*
 

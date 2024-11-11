@@ -13,4 +13,4 @@ summary: Em sistemas Linux, você pode instalar o software Unified Manager, atua
 [role="lead"]
 Em sistemas Linux, você pode instalar o software Unified Manager, atualizar para uma versão mais recente do software ou remover o Unified Manager.
 
-O Unified Manager pode ser instalado em servidores Red Hat Enterprise Linux ou CentOS. O servidor Linux no qual você instala o Unified Manager pode ser executado em uma máquina física ou em uma máquina virtual em execução no VMware ESXi, Microsoft Hyper-V ou Citrix XenServer.
+O Unified Manager pode ser instalado em servidores Red Hat Enterprise Linux. O servidor Linux no qual você instala o Unified Manager pode ser executado em uma máquina física ou em uma máquina virtual em execução no VMware ESXi, Microsoft Hyper-V ou Citrix XenServer.

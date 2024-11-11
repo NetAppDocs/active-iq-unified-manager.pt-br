@@ -11,7 +11,7 @@ summary: Você pode atualizar o Unified Manager baixando e executando o arquivo 
 
 
 [role="lead"]
-Você pode atualizar do Unified Manager 9,12 ou 9,13 para 9,14 baixando e executando o arquivo de instalação na plataforma Linux.
+Você pode atualizar do Unified Manager 9,13 ou 9,14 para 9,16 baixando e executando o arquivo de instalação na plataforma Linux.
 
 *O que você vai precisar*
 
@@ -34,7 +34,7 @@ link:task_upgrade_openjdk_on_linux_ocum.html["Atualizando o JRE no Linux"]Consul
 
 
 .Passos
-. Faça login no servidor Red Hat Enterprise Linux ou CentOS de destino.
+. Faça login no servidor Red Hat Enterprise Linux de destino.
 . Faça o download do pacote Unified Manager para o servidor.
 +
 link:task_download_unified_manager.html["Baixando Unified Manager para Linux"]Consulte .

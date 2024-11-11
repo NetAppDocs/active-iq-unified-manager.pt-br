@@ -1,14 +1,16 @@
 ---
 settings:
-  name: Active IQ Unified Manager 9.14
+  name: Active IQ Unified Manager 9.16
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: false
   versions:
-  - version-number: '9.14'
+  - version-number: '9.16'
     url: "/active-iq-unified-manager"
+  - version-number: '9.14'
+    url: "/active-iq-unified-manager-914"
   - version-number: '9.13'
     url: "/active-iq-unified-manager-913"
   - version-number: '9.12'
@@ -20,7 +22,7 @@ settings:
   langs: pt-br,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: Documentos do Active IQ Unified Manager 9,14
+  - title: Documentos do Active IQ Unified Manager 9,16
     url: "/index.html"
   - title: Notas de lançamento
     url: "/reference_release_notes.html"

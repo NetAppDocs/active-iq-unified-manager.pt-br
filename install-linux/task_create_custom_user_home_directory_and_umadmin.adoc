@@ -16,7 +16,7 @@ Você pode criar um diretório inicial personalizado e definir sua própria senh
 *O que você vai precisar*
 
 * O sistema deve satisfazer os requisitos descritos na link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Requisitos do sistema de hardware"].
-* Você deve ser capaz de fazer login como usuário raiz no sistema Red Hat Enterprise Linux ou CentOS.
+* Você deve ser capaz de fazer login como usuário raiz no sistema Red Hat Enterprise Linux.
 
 
 A instalação padrão do Unified Manager executa as seguintes tarefas:

@@ -15,7 +15,7 @@ Um backup de despejo de banco de dados MySQL é uma cópia do banco de dados Act
 
 [NOTE]
 ====
-O despejo de banco de dados MySQL é o mecanismo de backup padrão quando o Unified Manager é instalado em um servidor Linux e Windows. No entanto, se o Unified Manager estiver gerenciando um grande número de clusters e nós ou se os backups do MySQL estiverem demorando muitas horas para serem concluídos, você poderá fazer backup usando cópias Snapshot. Essa funcionalidade está disponível nos sistemas Red Hat Enterprise Linux, CentOS Linux e Windows.
+O despejo de banco de dados MySQL é o mecanismo de backup padrão quando o Unified Manager é instalado em um servidor Linux e Windows. No entanto, se o Unified Manager estiver gerenciando um grande número de clusters e nós ou se os backups do MySQL estiverem demorando muitas horas para serem concluídos, você poderá fazer backup usando cópias Snapshot. Esta funcionalidade está disponível no Red Hat Enterprise Linux e Windows.
 
 ====
 Um backup de despejo de banco de dados consiste em um único arquivo no diretório de backup e um ou mais arquivos no diretório de repositório de banco de dados. O arquivo no diretório de backup é muito pequeno porque contém apenas um ponteiro para os arquivos localizados no diretório de repositório de banco de dados que são necessários para recriar o backup.

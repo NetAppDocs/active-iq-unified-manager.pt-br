@@ -2,7 +2,7 @@
 permalink: health-checker/task_restore_mysql_db_on_linux_or_centos.html 
 sidebar: sidebar 
 keywords: restore, linux system, mysql, database, backup 
-summary: Se ocorrer perda de dados ou corrupção de dados, você poderá restaurar o Unified Manager para o estado estável anterior com perda mínima de dados. É possível restaurar o banco de dados do Unified Manager para um sistema Red Hat Enterprise Linux ou CentOS local ou remoto usando o console de manutenção do Unified Manager. 
+summary: Se ocorrer perda de dados ou corrupção de dados, você poderá restaurar o Unified Manager para o estado estável anterior com perda mínima de dados. Você pode restaurar o banco de dados do Unified Manager para um sistema Red Hat Enterprise Linux local ou remoto usando o console de manutenção do Unified Manager. 
 ---
 = Restaurar um backup de banco de dados MySQL em um sistema Linux
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Se ocorrer perda de dados ou corrupção de dados, você poderá restau
 
 
 [role="lead"]
-Se ocorrer perda de dados ou corrupção de dados, você poderá restaurar o Unified Manager para o estado estável anterior com perda mínima de dados. É possível restaurar o banco de dados do Unified Manager para um sistema Red Hat Enterprise Linux ou CentOS local ou remoto usando o console de manutenção do Unified Manager.
+Se ocorrer perda de dados ou corrupção de dados, você poderá restaurar o Unified Manager para o estado estável anterior com perda mínima de dados. Você pode restaurar o banco de dados do Unified Manager para um sistema Red Hat Enterprise Linux local ou remoto usando o console de manutenção do Unified Manager.
 
 *O que você vai precisar*
 
@@ -24,7 +24,7 @@ Se ocorrer perda de dados ou corrupção de dados, você poderá restaurar o Uni
 * Os ficheiros de cópia de segurança têm de ser `.7z` do tipo.
 
 
-O recurso de restauração é específico da plataforma e específico da versão. Você pode restaurar um backup do Unified Manager somente na mesma versão do Unified Manager. É possível restaurar um arquivo de backup do Linux ou um arquivo de backup de dispositivo virtual para um sistema Red Hat Enterprise Linux ou CentOS.
+O recurso de restauração é específico da plataforma e específico da versão. Você pode restaurar um backup do Unified Manager somente na mesma versão do Unified Manager. Você pode restaurar um arquivo de backup do Linux ou um arquivo de backup de dispositivo virtual para um sistema Red Hat Enterprise Linux.
 
 [TIP]
 ====

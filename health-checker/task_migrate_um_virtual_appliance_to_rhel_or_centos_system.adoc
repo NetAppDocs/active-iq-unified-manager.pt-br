@@ -2,7 +2,7 @@
 permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html 
 sidebar: sidebar 
 keywords: unified manager, migrate, virtual, appliance, linux system 
-summary: É possível restaurar um backup de despejo de banco de dados MySQL do Unified Manager de um dispositivo virtual para um sistema Red Hat Enterprise Linux ou CentOS Linux se quiser alterar o sistema operacional de host no qual o Unified Manager está sendo executado. 
+summary: Você pode restaurar um backup de despejo de banco de dados MySQL do Unified Manager de um dispositivo virtual para um sistema Red Hat Enterprise Linux se quiser alterar o sistema operacional do host no qual o Unified Manager está sendo executado. 
 ---
 = Migração de um dispositivo virtual do Unified Manager para um sistema Linux
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: É possível restaurar um backup de despejo de banco de dados MySQL do 
 
 
 [role="lead"]
-É possível restaurar um backup de despejo de banco de dados MySQL do Unified Manager de um dispositivo virtual para um sistema Red Hat Enterprise Linux ou CentOS Linux se quiser alterar o sistema operacional de host no qual o Unified Manager está sendo executado.
+Você pode restaurar um backup de despejo de banco de dados MySQL do Unified Manager de um dispositivo virtual para um sistema Red Hat Enterprise Linux se quiser alterar o sistema operacional do host no qual o Unified Manager está sendo executado.
 
 *O que você vai precisar*
 
@@ -31,7 +31,7 @@ summary: É possível restaurar um backup de despejo de banco de dados MySQL do 
 
 
 
-Estas etapas descrevem como criar um arquivo de backup no dispositivo virtual, copiar os arquivos de backup para o sistema Red Hat Enterprise Linux ou CentOS e restaurar o backup do banco de dados para o novo sistema.
+Estas etapas descrevem como criar um arquivo de backup no dispositivo virtual, copiar os arquivos de backup para o Red Hat Enterprise Linux e restaurar o backup do banco de dados para o novo sistema.
 
 .Passos
 . No dispositivo virtual, clique em *Management* > *Database Backup*.

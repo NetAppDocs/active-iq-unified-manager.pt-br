@@ -17,7 +17,7 @@ Os tipos de usuário do Unified Manager são os seguintes:
 
 * *Usuário de manutenção*
 +
-Criado durante a configuração inicial do Unified Manager. O usuário de manutenção cria usuários adicionais e atribui funções. O utilizador de manutenção é também o único utilizador com acesso à consola de manutenção. Quando o Unified Manager é instalado em um sistema Red Hat Enterprise Linux ou CentOS, o usuário de manutenção recebe o nome de usuário "umadmin".
+Criado durante a configuração inicial do Unified Manager. O usuário de manutenção cria usuários adicionais e atribui funções. O utilizador de manutenção é também o único utilizador com acesso à consola de manutenção. Quando o Unified Manager é instalado em um sistema Red Hat Enterprise Linux, o usuário de manutenção recebe o nome de usuário "umadmin".
 
 * *Usuário local*
 +

@@ -15,7 +15,7 @@ O menu Network Configuration (Configuração de rede) permite gerir as definiç�
 
 [NOTE]
 ====
-Esse menu não está disponível se o Unified Manager estiver instalado no Red Hat Enterprise Linux, CentOS ou no Microsoft Windows.
+Esse menu não estará disponível se o Unified Manager estiver instalado no Red Hat Enterprise Linux ou no Microsoft Windows.
 
 ====
 Estão disponíveis as seguintes opções de menu.

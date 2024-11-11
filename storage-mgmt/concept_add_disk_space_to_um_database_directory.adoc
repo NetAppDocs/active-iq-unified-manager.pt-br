@@ -20,4 +20,4 @@ Por exemplo, o diretório do banco de dados pode ficar cheio se o Unified Manage
 Nenhum dado adicional é coletado de clusters depois que o diretório atinge 95% cheio.
 
 ====
-As etapas necessárias para adicionar capacidade ao diretório de dados são diferentes dependendo se o Unified Manager está sendo executado em um servidor VMware ESXi, em um servidor Red Hat ou CentOS Linux ou em um servidor Microsoft Windows.
+As etapas necessárias para adicionar capacidade ao diretório de dados são diferentes dependendo se o Unified Manager está sendo executado em um servidor VMware ESXi, em um servidor Red Hat Linux ou em um servidor Microsoft Windows.

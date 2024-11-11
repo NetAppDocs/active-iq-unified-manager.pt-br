@@ -29,7 +29,7 @@ Snapshot da VMware do dispositivo virtual Unified Manager
 
 
 
-.2+| Red Hat Enterprise Linux ou CentOS Linux  a| 
+.2+| Red Hat Enterprise Linux  a| 
 Pequeno
  a| 
 Despejo de banco de dados MySQL do Unified Manager

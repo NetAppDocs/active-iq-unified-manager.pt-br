@@ -11,13 +11,13 @@ summary: Guia de início rápido para Unified Manager na plataforma Linux.
 
 
 [role="lead"]
-É possível fazer download do pacote de instalação e instalar o Unified Manager em uma plataforma Red Hat Enterprise Linux ou CentOS física ou virtual.
+Você pode baixar o pacote de instalação e instalar o Unified Manager em uma plataforma física ou virtual Red Hat Enterprise Linux.
 
 
 
 == Requisitos do sistema
 
-* Sistema operacional: Red Hat Enterprise Linux versões 7.x e 8,0 a 8,9, ou CentOS versão 7.x baseado na arquitetura x86_64, instalado usando o ambiente base "servidor com GUI" da opção *seleção de Software* do instalador do SO
+* Sistema operacional: Red Hat Enterprise Linux versões 8.x e 9,4, baseado na arquitetura x86_64, instalado usando o ambiente base "servidor com GUI" da opção *seleção de Software* do instalador do SO
 * RAM: 12 GB, CPU: 9572 MHz total
 * Espaço livre em disco: 100 GB de espaço em disco no `/opt/netapp/data` diretório, 50 GB na partição raiz. Para diretórios e `/var/log` montados separadamente `/opt`, certifique-se de que `/opt` tem 15 GB, `/var/log` tem 16 GB e `/tmp` tem 10 GB de espaço livre.
 
@@ -53,7 +53,7 @@ Execute os seguintes comandos para verificar a integridade do pacote de instala�
 
 === Verifique a configuração do repositório
 
-Os procedimentos para configurar repositórios Red Hat Enterprise Linux ou CentOS são específicos do site. Você pode usar o `pre_install_check.sh` script incluído no pacote de instalação para verificar a configuração do seu sistema operacional. Se o sistema estiver conetado à Internet, você receberá automaticamente instruções para configurar os repositórios Red Hat Enterprise Linux ou CentOS.
+Os procedimentos para configurar um repositório Red Hat Enterprise Linux são específicos do site. Você pode usar o `pre_install_check.sh` script incluído no pacote de instalação para verificar a configuração do seu sistema operacional. Se o seu sistema estiver conetado à Internet, você receberá automaticamente instruções para configurar o repositório Red Hat Enterprise Linux.
 
 `# sudo ./pre_install_check.sh`
 
@@ -61,7 +61,7 @@ Os procedimentos para configurar repositórios Red Hat Enterprise Linux ou CentO
 
 === Instale o Unified Manager
 
-O Unified Manager usa `yum` o utilitário para instalar o software e qualquer software dependente. Como existem várias imagens do Red Hat Enterprise Linux ou CentOS, os pacotes instalados dependem do software presente nas imagens. O `yum` utilitário determina os pacotes de software dependentes para instalação. Se precisar de mais informações sobre os pacotes de software dependentes, consulte o link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Requisitos de software e instalação do Linux"].
+O Unified Manager usa `yum` o utilitário para instalar o software e qualquer software dependente. Como existem várias imagens do Red Hat Enterprise Linux, os pacotes instalados dependem do software presente nas imagens. O `yum` utilitário determina os pacotes de software dependentes para instalação. Se precisar de mais informações sobre os pacotes de software dependentes, consulte o link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Requisitos de software e instalação do Linux"].
 
 Para instalar o Unified Manager, execute o seguinte comando, como usuário raiz ou usando `sudo`, no diretório em que o arquivo de instalação foi descompactado:
 

@@ -29,6 +29,7 @@ A partir do Unified Manager 9,5, o OpenJDK é fornecido no pacote de instalaçã
 
 ====
 * Você deve ter o administrador do Windows Privileges. Certifique-se de que o seu nome de utilizador não começa com um ponto de exclamação "!`". Installation of Unified Manager might fail if the user name of user running the installation begins with "`" !".
+* Todos os clusters são compatíveis, com exceção dos sistemas ASA R2.
 * Você deve ter um navegador da Web compatível.
 * A senha do usuário de manutenção do Unified Manager deve ter entre 8 e 20 carateres, deve conter letras maiúsculas ou minúsculas, números e carateres especiais.
 * Os seguintes carateres especiais não são permitidos na cadeia de carateres de senha para o usuário de manutenção ou para o usuário raiz MySQL: "
@@ -44,8 +45,8 @@ Os seguintes carateres especiais são permitidos: * - ? . Selecione a opção
 https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["Site de suporte da NetApp"^]
 
 . Selecione a versão necessária do Unified Manager e aceite o contrato de licença de usuários finais (EULA).
-. Transfira o ficheiro de instalação do Unified Manager Windows para um diretório de destino no sistema Windows.
-. Navegue até o diretório onde o arquivo de instalação está localizado.
+. Transfira o ficheiro de instalação do Unified Manager Windows ou o ficheiro zip para um diretório de destino no sistema Windows.
+. Extraia o arquivo zip, se necessário, e navegue até o diretório onde o arquivo de instalação está localizado.
 . Clique com o botão direito do rato e execute o ficheiro executável (.exe) do instalador do Unified Manager como administrador.
 +
 O Unified Manager deteta pacotes de terceiros ausentes ou pré-instalados e os lista. Se os pacotes de terceiros necessários não estiverem instalados no sistema, o Unified Manager os instalará como parte da instalação.
