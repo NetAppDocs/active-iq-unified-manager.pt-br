@@ -8212,8 +8212,6 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código aberto</block>
   <block id="55d42c07c7a3bf8612627277cc3d1372" category="paragraph">Informações sobre direitos autorais de terceiros e licenças usadas neste produto.</block>
-  <block id="6e6893b593d627add14e7a987c9dea2d" category="inline-link">Aviso para Active IQ Unified Manager 9,14</block>
-  <block id="4b72586187e7bd694fd5d9d2189fcc3f" category="paragraph"><block ref="4b72586187e7bd694fd5d9d2189fcc3f" category="inline-link-rx"></block></block>
   <block id="66fefe9bb2e35a24e0e67e7bbef1b7ad" category="summary">Você pode adicionar discos a um agregado para aumentar a capacidade de storage e o desempenho desse agregado. Depois de adicionar os discos, você só verá uma melhoria no desempenho após a reconstrução do agregado.</block>
   <block id="7c48a0120101491ea5a781058b5716de" category="doc">Adicione discos e execute a reconstrução de layout agregado</block>
   <block id="fdf3b7352c190d213c24db064ec3a78e" category="paragraph">Quando você recebe um evento de limite definido pelo sistema na página de detalhes do evento, o texto de descrição do evento lista o nome do agregado que está tendo o problema. Você pode adicionar discos e reconstruir dados nesse agregado.</block>
@@ -10188,7 +10186,6 @@
   <block id="62f8662ca1ad633f186e31e0d4873505" category="paragraph">Para obter mais informações sobre como ajustar as configurações de QoS, consulte<block ref="8b5b4dee150c1781ecff4cc00d8b0ae8" category="inline-link-rx"></block></block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="doc">Notas de lançamento</block>
   <block id="12dc360fa3d8165171389ee06172a133" category="inline-link">Notas de versão do Active IQ Unified Manager</block>
-  <block id="72ad43fc7a8d740f98987759e25205fd" category="paragraph">Para obter mais informações, consulte<block ref="6bb46765ad444f2cca095cf3f36f15dd" category="inline-link-rx"></block> .</block>
   <block id="f869c5ebf4dab96af5c925d450b297fc" category="summary">Esses relatórios personalizados de amostra são usados para ajudá-lo a identificar e responder a possíveis problemas relacionados à capacidade de armazenamento agregado.</block>
   <block id="3d9f8138f17e1d3282f0e4926b433f0d" category="paragraph">Os relatórios nesta seção são apenas exemplos para ajudá-lo a entender como criar relatórios sobre capacidade agregada para ajudá-lo a monitorar os recursos do sistema de armazenamento.</block>
   <block id="96aeeb6ea929356f485d93717faef0eb" category="summary">Os exemplos de relatórios de armazenamento de cluster nesta seção são apenas exemplos para ajudá-lo a entender como criar relatórios sobre a capacidade do cluster para ajudá-lo a monitorar os recursos do sistema de armazenamento.</block>
@@ -11963,7 +11960,6 @@
   <block id="b71bc857cc2265ac2904750b41b56a3f" category="paragraph">Você deve ter acesso de usuário raiz ao servidor Red Hat Enterprise Linux no qual o Unified Manager está instalado.</block>
   <block id="03e62ce635e27d3eae3fc7eb1fdb7d43" category="paragraph">Você pode atualizar do Unified Manager 9,13 ou 9,14 para 9,16 baixando e executando o arquivo de instalação na plataforma Linux.</block>
   <block id="3066d6a2a21e06439438c95e8f0a78ab" category="list-text">Faça login no servidor Red Hat Enterprise Linux de destino.</block>
-  <block id="1af6d75cb215145d2b721ba6d31196de" category="paragraph">Você pode atualizar o Active IQ Unified Manager para a versão 9,16 apenas a partir da versão 9,12 ou 9,13.</block>
   <block id="85e1cde38f7710ac3710a0ca4b341ad5" category="list-text">Todos os clusters são compatíveis, com exceção dos sistemas ASA R2.</block>
   <block id="a6f8396e876411d4ce52d9a1c9c7726e" category="list-text">Transfira o ficheiro de instalação do Unified Manager Windows ou o ficheiro zip para um diretório de destino no sistema Windows.</block>
   <block id="8f1edca040f984e1b9d6867249003ff5" category="list-text">Extraia o arquivo zip, se necessário, e navegue até o diretório onde o arquivo de instalação está localizado.</block>
@@ -11984,4 +11980,8 @@
   <block id="9d8f72b258db1905ee26b8543db626af" category="paragraph">As etapas necessárias para adicionar capacidade ao diretório de dados são diferentes dependendo se o Unified Manager está sendo executado em um servidor VMware ESXi, em um servidor Red Hat Linux ou em um servidor Microsoft Windows.</block>
   <block id="7a7c62cdb283859bf82dbc6d358c3473" category="sidebar">Com o Active IQ Unified Manager (Unified Manager e anteriormente OnCommand Unified Manager), você monitora e gerencia a integridade e a performance dos sistemas de storage da ONTAP em uma única interface. Esta biblioteca de documentação inclui informações para a versão 9,16.</block>
   <block id="5d0df7caff39f371f91e7b06354eb3b0" category="sidebar">Documentos do Active IQ Unified Manager 9,16</block>
+  <block id="d9f6c085dd395f22b9dc3195122f05fb" category="paragraph">Você pode atualizar o Active IQ Unified Manager para a versão 9,16 apenas a partir da versão 9,13 ou 9,14.</block>
+  <block id="91804ef74bc975f4a628c4e14934bd25" category="inline-link">Aviso para Active IQ Unified Manager 9,16</block>
+  <block id="4312f256415ac9316c181d6509543043" category="paragraph"><block ref="4312f256415ac9316c181d6509543043" category="inline-link-rx"></block></block>
+  <block id="fba32ed5ef4b0254843c57fba4656cfe" category="paragraph">Para obter mais informações, consulte<block ref="2392cb263ac956dff7e4bed674b7b943" category="inline-link-rx"></block> .</block>
 </blocks>

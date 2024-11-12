@@ -13,4 +13,4 @@ summary: Fornece um resumo de novos recursos, limitações e problemas conhecido
 [role="lead"]
 Fornece um resumo de novos recursos, limitações e problemas conhecidos do Active IQ Unified Manager 9,16.
 
-Para obter mais informações, consulte https://library.netapp.com/ecm/ecm_download_file/ECMLP2886866["Notas de versão do Active IQ Unified Manager"] .
+Para obter mais informações, consulte https://library.netapp.com/ecm/ecm_download_file/ECMLP3330868["Notas de versão do Active IQ Unified Manager"] .
