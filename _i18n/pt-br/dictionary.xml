@@ -8059,10 +8059,6 @@
   <block id="8d6a739fdd6cb955643a976d6419979f" category="paragraph">O servidor deve ser dedicado à execução do Unified Manager. Nenhum outro aplicativo deve ser instalado no servidor. É possível que um software antivírus ativo esteja instalado em seu sistema Windows por causa dos regulamentos da empresa. Você deve desativar o software antivírus antes de instalar o Unified Manager para evitar que a instalação falhe.</block>
   <block id="ffbed9334b8ec87b5d47c862a02cb5ec" category="paragraph">Os seguintes pacotes de terceiros são empacotados com o Unified Manager. Se esses pacotes de terceiros não estiverem instalados no sistema, o Unified Manager os instalará como parte da instalação.</block>
   <block id="f036a764432b8b9592c8463741728fec" category="list-text">Microsoft Visual C&amp; n.o 43;&amp; n.o 43; 2015 Redistributable package versão 14.26.28720.3</block>
-  <block id="b7bc4a8db8f6fcae60ca624f6b4cd972" category="list-text">Microsoft Visual C&amp; n.o 43;&amp; n.o 43; Redistributable Packages for Visual Studio 2013 versão 12.0.40660.0</block>
-  <block id="f40472cbd758b6598c019a5411b70a20" category="list-text">MySQL Community Edition versão 8.0.34</block>
-  <block id="101ed5d45d39d829253fdd5f84c4d9d7" category="list-text">Python 3.11.6</block>
-  <block id="18b8e2dd4de2bb94ea0dce1e4606ffc4" category="list-text">OpenJDK versão 11.0.20</block>
   <block id="3d89b288e65d6d87dbc31d2d93a06f41" category="list-text">p7zip versão 23,01 ou posterior</block>
   <block id="7a296bb9772806c9ddf9f83ed9bb3d5f" category="paragraph">A partir do Unified Manager 9,5, o OpenJDK é fornecido no pacote de instalação do Unified Manager e instalado automaticamente. O Oracle Java não é suportado a partir do Unified Manager 9,5.</block>
   <block id="dd2148991fe37222c2cd074a08be9207" category="paragraph">Se o MySQL estiver pré-instalado, você deve garantir que:</block>
@@ -11984,4 +11980,8 @@
   <block id="91804ef74bc975f4a628c4e14934bd25" category="inline-link">Aviso para Active IQ Unified Manager 9,16</block>
   <block id="4312f256415ac9316c181d6509543043" category="paragraph"><block ref="4312f256415ac9316c181d6509543043" category="inline-link-rx"></block></block>
   <block id="fba32ed5ef4b0254843c57fba4656cfe" category="paragraph">Para obter mais informações, consulte<block ref="2392cb263ac956dff7e4bed674b7b943" category="inline-link-rx"></block> .</block>
+  <block id="54ff3f05b478604e2dbd1f521328559d" category="list-text">Microsoft Visual C&amp; n.o 43;&amp; n.o 43; Redistributable Packages for Visual Studio 2015 versão 14.26.28720.3</block>
+  <block id="0f70ab196de9d7142f2acb96c17e5f25" category="list-text">MySQL Community Edition versão 8.0.37</block>
+  <block id="fdbcf1b7ae01feab7a0a53d81c7205ce" category="list-text">Python 3,12x</block>
+  <block id="08759e76d989173a95ffac75dd374ef2" category="list-text">OpenJDK versão 11.0.23</block>
 </blocks>
