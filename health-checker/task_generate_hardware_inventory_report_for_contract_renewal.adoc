@@ -13,8 +13,7 @@ summary: 'Você pode gerar um relatório que contém uma lista completa de infor
 [role="lead"]
 Você pode gerar um relatório que contém uma lista completa de informações de cluster e nó, como números de modelo de hardware e números de série, tipos e contagens de disco, licenças instaladas e muito mais. Este relatório é útil para a renovação de contratos em sites seguros ("dark" sites) que não estão conetados à plataforma NetAppactive IQ.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 .Passos

@@ -13,8 +13,7 @@ summary: Você pode fazer login na IU do Unified Manager usando um navegador da 
 [role="lead"]
 Você pode fazer login na IU do Unified Manager usando um navegador da Web compatível.
 
-*O que você vai precisar*
-
+.Antes de começar
 * O navegador da Web deve atender aos requisitos mínimos.
 +
 Consulte a Matriz de interoperabilidade em http://mysupport.netapp.com/matrix["mysupport.NetApp.com/matrix"] para obter a lista completa de versões de navegador suportadas.

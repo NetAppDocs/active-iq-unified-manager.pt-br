@@ -13,8 +13,7 @@ summary: Você pode criar um relatório para localizar os agregados que estão a
 [role="lead"]
 Você pode criar um relatório para localizar os agregados que estão atingindo a capacidade máxima para adicionar mais capacidade ou mover workloads para outros agregados.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

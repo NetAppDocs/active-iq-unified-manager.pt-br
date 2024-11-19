@@ -13,8 +13,7 @@ summary: Você pode atribuir eventos não atribuídos a você mesmo ou a outros 
 [role="lead"]
 Você pode atribuir eventos não atribuídos a você mesmo ou a outros usuários, incluindo usuários remotos. Você pode reatribuir eventos atribuídos a outro usuário, se necessário. Por exemplo, quando ocorrem problemas frequentes em um objeto de storage, você pode atribuir os eventos para esses problemas ao usuário que gerencia esse objeto.
 
-*O que você vai precisar*
-
+.Antes de começar
 * O nome e o ID de e-mail do usuário devem estar configurados corretamente.
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 

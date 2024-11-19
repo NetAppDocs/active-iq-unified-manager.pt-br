@@ -13,8 +13,7 @@ summary: 'Depois de salvar a exibição, você pode baixá-la no formato Excel W
 [role="lead"]
 Depois de salvar a exibição, você pode baixá-la no formato Excel Workbook (.xlsx). Ao abrir o arquivo Excel, você pode usar recursos avançados do Excel para personalizar o relatório.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você só pode carregar um arquivo do Excel Workbook com a extensão .xlsx.
 
 Por exemplo, alguns recursos avançados do Excel que você pode usar no relatório incluem:

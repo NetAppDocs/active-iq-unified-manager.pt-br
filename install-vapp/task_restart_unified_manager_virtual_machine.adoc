@@ -13,8 +13,7 @@ summary: 'É possível reiniciar a máquina virtual (VM) do Unified Manager a pa
 [role="lead"]
 É possível reiniciar a máquina virtual (VM) do Unified Manager a partir do console de manutenção. Você deve reiniciar a VM depois de gerar um novo certificado de segurança ou se houver um problema com a VM.
 
-*O que você vai precisar*
-
+.Antes de começar
 * O dispositivo virtual deve ser ligado.
 * Você deve estar conetado ao console de manutenção do Unified Manager como usuário de manutenção.
 

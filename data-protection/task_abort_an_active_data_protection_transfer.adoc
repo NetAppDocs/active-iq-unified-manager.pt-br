@@ -16,8 +16,7 @@ Você pode cancelar uma transferência de proteção de dados ativa quando quise
 
 NOTE: Não é possível abortar relacionamentos de volumes protegidos pelo Grupo de consistência.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter configurado o Workflow Automation.
 

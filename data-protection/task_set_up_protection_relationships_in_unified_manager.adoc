@@ -13,8 +13,7 @@ summary: Há várias etapas que você deve executar para usar o Gerenciador Unif
 [role="lead"]
 Há várias etapas que você deve executar para usar o Gerenciador Unificado e o OnCommand Workflow Automation para configurar relacionamentos do SnapMirror e do SnapVault para proteger seus dados.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você precisa ter relacionamentos de pares estabelecidos entre dois clusters ou duas máquinas virtuais de storage (SVMs).
 * O OnCommand Workflow Automation precisa ser integrado ao Unified Manager:

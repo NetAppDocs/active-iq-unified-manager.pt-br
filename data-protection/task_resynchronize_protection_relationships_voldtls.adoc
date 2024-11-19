@@ -13,8 +13,7 @@ summary: É possível ressincronizar dados em um relacionamento SnapMirror ou Sn
 [role="lead"]
 É possível ressincronizar dados em um relacionamento SnapMirror ou SnapVault que foi quebrado e, em seguida, o destino foi feito leitura/gravação para que os dados na origem correspondam aos dados no destino. Você também pode ressincronizar quando uma cópia Snapshot comum necessária no volume de origem for excluída, causando falha nas atualizações do SnapMirror ou do SnapVault.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Tem de ter configurado o OnCommand Workflow Automation.
 

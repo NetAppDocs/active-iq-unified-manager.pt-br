@@ -13,8 +13,7 @@ summary: 'Você pode usar a IU da Web do Unified Manager para confirmar ou elimi
 [role="lead"]
 Você pode usar a IU da Web do Unified Manager para confirmar ou eliminar a possibilidade de um volume ficar off-line, pois sua máquina virtual de storage de host (SVM) é interrompida devido ao nó que hospeda o volume raiz desse SVM estar inativo.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Para determinar se a condição de volume off-line está interrompida porque o nó que hospeda o volume raiz do SVM está inativo, execute as seguintes ações:

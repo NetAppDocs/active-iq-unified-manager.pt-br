@@ -13,8 +13,7 @@ summary: Se você tiver um tempo de inatividade planejado para um cluster, por e
 [role="lead"]
 Se você tiver um tempo de inatividade planejado para um cluster, por exemplo, para atualizar o cluster ou mover um dos nós, poderá suprimir os eventos e alertas que normalmente seriam gerados durante esse período agendando uma janela de manutenção do Unified Manager.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Durante uma janela de manutenção, os eventos relacionados a todos os objetos nesse cluster ainda são gerados, mas eles não aparecem na página de eventos e nenhum alerta ou outro tipo de notificação são enviados para esses eventos.

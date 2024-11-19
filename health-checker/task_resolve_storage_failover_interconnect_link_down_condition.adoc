@@ -13,8 +13,7 @@ summary: Este fluxo de trabalho fornece um exemplo de como você pode procurar, 
 [role="lead"]
 Este fluxo de trabalho fornece um exemplo de como você pode procurar, avaliar e resolver condições de link de interconexão de failover de armazenamento downed. Nesse cenário, você é um administrador que usa o Unified Manager para procurar riscos de failover de storage antes de iniciar uma atualização da versão do ONTAP nos nós.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Se as interconexões de failover de storage entre nós de par de HA falharem durante uma tentativa de atualização sem interrupções, a atualização falhará. Portanto, a prática comum é que o administrador monitore e confirme a confiabilidade do failover de storage nos nós de cluster direcionados para atualização antes do início de uma atualização.

@@ -13,8 +13,7 @@ summary: Quando um volume de origem em sua relação de proteção é desativado
 [role="lead"]
 Quando um volume de origem em sua relação de proteção é desativado devido a uma falha de hardware ou a um desastre, você pode usar os recursos de relação de proteção no Unified Manager para tornar o destino de proteção leitura/gravação acessível e fazer failover para esse volume até que a origem esteja on-line novamente. Em seguida, você pode retornar à fonte original quando ela estiver disponível para fornecer dados.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Tem de ter configurado o OnCommand Workflow Automation para executar esta operação.
 

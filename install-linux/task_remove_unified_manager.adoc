@@ -13,8 +13,7 @@ summary: Você pode parar e desinstalar o Unified Manager do host Red Hat Enterp
 [role="lead"]
 Você pode parar e desinstalar o Unified Manager do host Red Hat Enterprise Linux com um único comando.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Você deve ter acesso de usuário raiz ao servidor a partir do qual deseja remover o Unified Manager.
 * O Security-Enhanced Linux (SELinux) deve ser desativado no sistema Linux. Altere o modo de tempo de execução do SELinux para "permissivo" usando o `setenforce 0` comando.
 * Todos os clusters (fontes de dados) devem ser removidos do servidor do Unified Manager antes de remover o software.

@@ -13,8 +13,7 @@ summary: 'Você pode exibir detalhes sobre todos os compartilhamentos SMB/CIFS, 
 [role="lead"]
 Você pode exibir detalhes sobre todos os compartilhamentos SMB/CIFS, como nome do compartilhamento, caminho de junção, contendo objetos, configurações de segurança e políticas de exportação definidas para o compartilhamento. Use a visualização integridade: Todos os compartilhamentos SMB para ver todos os compartilhamentos SMB em todos os clusters monitorados e use a página de detalhes de integridade/VM de storage para exibir todos os compartilhamentos SMB em uma máquina virtual de storage específica (SVM).
 
-*O que você vai precisar*
-
+.Antes de começar
 * A licença CIFS deve estar ativada no cluster.
 * As interfaces de rede que atendem aos compartilhamentos SMB/CIFS devem ser configuradas.
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.

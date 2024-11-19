@@ -15,8 +15,7 @@ Você pode monitorar e diagnosticar a condição geral de integridade das conex�
 
 O Unified Manager usa alertas de integridade do sistema para monitorar o status dos componentes e a conectividade na configuração do MetroCluster.
 
-*O que você vai precisar*
-
+.Antes de começar
 O cluster local e remoto na configuração do MetroCluster deve ser adicionado ao Unified Manager
 
 

@@ -13,8 +13,7 @@ summary: Você pode usar as páginas de inventário de cluster para exibir o sta
 [role="lead"]
 Você pode usar as páginas de inventário de cluster para exibir o status de integridade e capacidade dos clusters de todos os Arrays SAN.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Você pode exibir informações gerais de todos os clusters de storage SAN na exibição integridade: Todos os clusters e capacidade: Todos os clusters. Além disso, você pode exibir detalhes na página de detalhes do Cluster / Health.

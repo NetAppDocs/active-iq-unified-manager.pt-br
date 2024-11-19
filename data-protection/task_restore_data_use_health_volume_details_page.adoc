@@ -13,8 +13,7 @@ summary: Você pode restaurar arquivos, diretórios ou um volume inteiro sobresc
 [role="lead"]
 Você pode restaurar arquivos, diretórios ou um volume inteiro sobrescritos ou excluídos de uma cópia Snapshot usando o recurso de restauração nas páginas de detalhes de volume e volume / integridade.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

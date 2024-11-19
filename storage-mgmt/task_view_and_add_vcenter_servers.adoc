@@ -13,8 +13,7 @@ summary: 'Para visualizar e solucionar problemas de desempenho das máquinas vir
 [role="lead"]
 Para visualizar e solucionar problemas de desempenho das máquinas virtuais (VMs), os vCenter Servers associados devem ser adicionados à sua instância do Active IQ Unified Manager.
 
-*O que você vai precisar*
-
+.Antes de começar
 Antes de adicionar ou visualizar o vCenter Servers, verifique o seguinte:
 
 * Você está ciente dos nomes do vCenter Server.

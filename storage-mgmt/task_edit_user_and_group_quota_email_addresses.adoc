@@ -13,8 +13,7 @@ summary: 'É possível modificar os endereços de e-mail com base na cota de usu
 [role="lead"]
 É possível modificar os endereços de e-mail com base na cota de usuário associada a clusters, máquinas virtuais de armazenamento (SVMs), volumes, qtrees, usuários ou grupos de usuários. Você pode modificar o endereço de e-mail quando quiser substituir o endereço de e-mail gerado pelas regras especificadas na caixa de diálogo regras para gerar Endereço de e-mail de cota de usuário e grupo.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 * Tem de ter revisto a link:reference_rules_to_generate_user_and_group_quota.html["diretrizes para a criação de regras"].
 

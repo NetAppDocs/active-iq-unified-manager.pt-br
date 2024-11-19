@@ -13,8 +13,7 @@ summary: Você pode usar o Unified Manager para ajudar a identificar um agregado
 [role="lead"]
 Você pode usar o Unified Manager para ajudar a identificar um agregado em um nó diferente que esteja menos ocupado do que o nó em que seus workloads estão atualmente em execução e, em seguida, mover volumes selecionados para esse agregado. Mover workloads de alta performance para um agregado em um nó menos ocupado permite que as cargas de trabalho em ambos os nós tenham desempenho mais eficiente.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter registrado o nome do nó que está tendo um problema de desempenho no momento.
 * Você precisa ter registrado a data e a hora em que o nó recebeu o evento de performance.

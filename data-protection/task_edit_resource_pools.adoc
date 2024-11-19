@@ -13,8 +13,7 @@ summary: Você pode editar um pool de recursos existente quando quiser alterar o
 [role="lead"]
 Você pode editar um pool de recursos existente quando quiser alterar o nome do pool de recursos e a descrição.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 O botão *Editar* é ativado somente quando um pool de recursos é selecionado. Se for selecionado mais de um pool de recursos, o botão *Editar* será desativado.

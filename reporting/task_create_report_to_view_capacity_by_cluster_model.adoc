@@ -13,8 +13,7 @@ summary: É possível criar um relatório para analisar a capacidade de storage 
 [role="lead"]
 É possível criar um relatório para analisar a capacidade de storage e a utilização de clusters com base no modelo de sistema de storage.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

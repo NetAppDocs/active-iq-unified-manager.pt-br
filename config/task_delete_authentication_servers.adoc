@@ -13,8 +13,7 @@ summary: Você pode excluir um servidor de autenticação se quiser impedir que 
 [role="lead"]
 Você pode excluir um servidor de autenticação se quiser impedir que o servidor do Unified Manager se comunique com o servidor de autenticação. Por exemplo, se pretender alterar um servidor de autenticação com o qual o servidor de gestão está a comunicar, pode eliminar o servidor de autenticação e adicionar um novo servidor de autenticação.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações.
 
 Quando você exclui um servidor de autenticação, usuários remotos ou grupos do servidor de autenticação não poderão mais acessar o Unified Manager.

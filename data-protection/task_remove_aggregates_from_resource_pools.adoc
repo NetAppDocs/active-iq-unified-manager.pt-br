@@ -13,8 +13,7 @@ summary: 'Você pode remover agregados de um pool de recursos existente: Por exe
 [role="lead"]
 Você pode remover agregados de um pool de recursos existente: Por exemplo, quando você deseja usar um agregado para algum outro propósito.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Os membros do pool de recursos são exibidos somente quando um pool de recursos é selecionado.

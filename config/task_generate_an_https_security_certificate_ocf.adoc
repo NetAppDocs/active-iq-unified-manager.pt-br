@@ -13,8 +13,7 @@ summary: Quando o Active IQ Unified Manager é instalado pela primeira vez, um c
 [role="lead"]
 Quando o Active IQ Unified Manager é instalado pela primeira vez, um certificado HTTPS padrão é instalado. Você pode gerar um novo certificado de segurança HTTPS que substitui o certificado existente.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações.
 
 Pode haver vários motivos para regenerar o certificado, como se você quiser ter melhores valores para Nome distinto (DN) ou se quiser um tamanho de chave maior, ou um período de validade mais longo ou se o certificado atual expirou.

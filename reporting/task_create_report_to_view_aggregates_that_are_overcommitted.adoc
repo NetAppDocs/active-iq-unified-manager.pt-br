@@ -13,8 +13,7 @@ summary: Você pode criar um relatório para analisar a capacidade de storage e 
 [role="lead"]
 Você pode criar um relatório para analisar a capacidade de storage e o uso de agregados e visualizar agregados com excesso de comprometimento.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

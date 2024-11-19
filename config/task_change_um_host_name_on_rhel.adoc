@@ -1,5 +1,5 @@
 ---
-permalink: config/task_change_um_host_name_on_rhel_or_centos.html 
+permalink: config/task_change_um_host_name_on_rhel.html 
 sidebar: sidebar 
 keywords: change, unified manager, host name, linux systems 
 summary: Em algum momento, você pode querer alterar o nome do host da máquina Red Hat Enterprise Linux na qual você instalou o Unified Manager. Por exemplo, você pode querer renomear o host para identificar mais facilmente seus servidores do Unified Manager por tipo, grupo de trabalho ou grupo de cluster monitorado quando você listar suas máquinas Linux. 
@@ -13,8 +13,7 @@ summary: Em algum momento, você pode querer alterar o nome do host da máquina 
 [role="lead"]
 Em algum momento, você pode querer alterar o nome do host da máquina Red Hat Enterprise Linux na qual você instalou o Unified Manager. Por exemplo, você pode querer renomear o host para identificar mais facilmente seus servidores do Unified Manager por tipo, grupo de trabalho ou grupo de cluster monitorado quando você listar suas máquinas Linux.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ter acesso de usuário raiz ao sistema Linux no qual o Unified Manager está instalado.
 
 Você pode usar o nome do host (ou o endereço IP do host) para acessar a IU da Web do Unified Manager. Se você configurou um endereço IP estático para sua rede durante a implantação, então você teria designado um nome para o host de rede. Se você configurou a rede usando DHCP, o nome do host deve ser retirado do servidor DNS.

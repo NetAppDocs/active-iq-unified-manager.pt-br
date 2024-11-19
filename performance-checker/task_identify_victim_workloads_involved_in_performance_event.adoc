@@ -13,8 +13,7 @@ summary: 'No Unified Manager, você pode identificar quais workloads de volume t
 [role="lead"]
 No Unified Manager, você pode identificar quais workloads de volume têm o maior desvio no tempo de resposta (latência) causado por um componente de storage na contenção. Identificar essas cargas de trabalho ajuda você a entender por que os aplicativos clientes que os acessam têm tido um desempenho mais lento do que o normal.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 * Deve haver eventos de desempenho dinâmico novos, reconhecidos ou obsoletos.
 

@@ -13,8 +13,7 @@ summary: O host de rede recebe um nome quando o dispositivo virtual do Unified M
 [role="lead"]
 O host de rede recebe um nome quando o dispositivo virtual do Unified Manager é implantado pela primeira vez. Você pode alterar o nome do host após a implantação. Se você alterar o nome do host, você também deve regenerar o certificado HTTPS.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve estar conetado ao Unified Manager como usuário de manutenção ou ter a função Administrador de aplicativos atribuída a você para executar essas tarefas.
 
 Você pode usar o nome do host (ou o endereço IP do host) para acessar a IU da Web do Unified Manager. Se você configurou um endereço IP estático para sua rede durante a implantação, então você teria designado um nome para o host de rede. Se você configurou a rede usando DHCP, o nome do host deve ser retirado do DNS. Se o DHCP ou DNS não estiver configurado corretamente, o nome do host "'Unified Manager'" será atribuído automaticamente e associado ao certificado de segurança.

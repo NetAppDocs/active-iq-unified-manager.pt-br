@@ -13,8 +13,7 @@ summary: Você pode criar um relatório para localizar SVMs que estão atingindo
 [role="lead"]
 Você pode criar um relatório para localizar SVMs que estão atingindo o limite máximo de volume.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

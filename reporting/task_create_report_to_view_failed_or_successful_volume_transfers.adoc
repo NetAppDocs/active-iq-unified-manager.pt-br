@@ -13,8 +13,7 @@ summary: Você pode criar um relatório que exibe o status das transferências d
 [role="lead"]
 Você pode criar um relatório que exibe o status das transferências de volume. Pode visualizar transferências de volume falhadas e bem-sucedidas neste relatório.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

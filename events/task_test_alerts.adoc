@@ -13,8 +13,7 @@ summary: Pode testar um alerta para verificar se o configurou corretamente. Quan
 [role="lead"]
 Pode testar um alerta para verificar se o configurou corretamente. Quando um evento é acionado, um alerta é gerado e um e-mail de alerta é enviado aos destinatários configurados. Você pode verificar se a notificação é enviada e se o script é executado usando o alerta de teste.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Você deve ter configurado configurações de notificação, como o endereço de e-mail dos destinatários, servidor SMTP e trap SNMP.
 +
 O servidor do Unified Manager pode usar essas configurações para enviar notificações aos usuários quando um evento é gerado.

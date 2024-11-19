@@ -13,8 +13,7 @@ summary: 'É possível criar grupos para combinar clusters, volumes e máquinas 
 [role="lead"]
 É possível criar grupos para combinar clusters, volumes e máquinas virtuais de storage (SVMs) para facilitar o gerenciamento.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Você pode definir regras de grupo para adicionar ou remover membros do grupo e modificar ações de grupo para o grupo.

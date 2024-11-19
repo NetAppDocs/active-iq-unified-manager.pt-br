@@ -13,8 +13,7 @@ summary: Use o Unified Manager para verificar a integridade operacional dos clus
 [role="lead"]
 Você pode usar o Active IQ Unified Manager (Unified Manager) para verificar a integridade operacional dos clusters e seus componentes, nas configurações MetroCluster em FC e MetroCluster em IP. Se os clusters estiveram envolvidos em um evento de desempenho detetado pelo Unified Manager, o status de integridade pode ajudá-lo a determinar se um problema de hardware ou software contribuiu para o evento.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter analisado um evento de desempenho para uma configuração do MetroCluster e obtido o nome do cluster envolvido.
 * Ambos os clusters na configuração do MetroCluster por FC e IP precisam ser monitorados pela mesma instância do Unified Manager.

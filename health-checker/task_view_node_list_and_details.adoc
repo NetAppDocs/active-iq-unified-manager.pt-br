@@ -13,8 +13,7 @@ summary: 'Você pode usar a visualização integridade: Todos os nós para exibi
 [role="lead"]
 Você pode usar a visualização integridade: Todos os nós para exibir a lista de nós nos clusters. Você pode usar a página de detalhes de Cluster / Health para exibir informações detalhadas sobre nós que fazem parte do cluster monitorado.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Você pode visualizar detalhes como o estado do nó, o cluster que contém o nó, os detalhes de capacidade agregada (usada e total) e os detalhes de capacidade bruta (utilizável, sobressalente e total). Você também pode obter informações sobre pares de HA, compartimentos de discos e portas.

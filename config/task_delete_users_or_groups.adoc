@@ -13,8 +13,7 @@ summary: É possível excluir um ou mais usuários do banco de dados do servidor
 [role="lead"]
 É possível excluir um ou mais usuários do banco de dados do servidor de gerenciamento para impedir que usuários específicos acessem o Unified Manager. Você também pode excluir grupos para que todos os usuários do grupo não possam mais acessar o servidor de gerenciamento.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Ao excluir grupos remotos, você deve ter reatribuído os eventos atribuídos aos usuários dos grupos remotos.
 +
 Se você estiver excluindo usuários locais ou usuários remotos, os eventos atribuídos a esses usuários serão automaticamente não atribuídos.

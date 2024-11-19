@@ -13,8 +13,7 @@ summary: O Unified Manager gera recursos de nó eventos de advertência sobreuti
 [role="lead"]
 O Unified Manager gera recursos de nó eventos de advertência sobreutilizados quando um único nó está operando acima dos limites de sua eficiência operacional e, portanto, potencialmente afetando as latências de workload. Esses eventos definidos pelo sistema oferecem a oportunidade de corrigir possíveis problemas de desempenho antes que muitos workloads sejam afetados pela latência.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 * Deve haver eventos de desempenho novos ou obsoletos.
 

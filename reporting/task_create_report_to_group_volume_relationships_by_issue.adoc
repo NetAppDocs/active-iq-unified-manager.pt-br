@@ -13,8 +13,7 @@ summary: Você pode criar um relatório que agrupa as relações de volume por p
 [role="lead"]
 Você pode criar um relatório que agrupa as relações de volume por problema.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/task_upgrade_host_os_from_rhel_6_x_to_7_x.html 
+permalink: install-linux/task_upgrade_host_os.html 
 sidebar: sidebar 
 keywords: upgrade, host OS, red hat enterprise, linux 7.x, 8.x 
 summary: Se você já instalou o Unified Manager em um sistema Red Hat Enterprise Linux 7.x e precisa atualizar para o Red Hat Enterprise Linux 8.x, siga um dos procedimentos listados neste tópico. Em ambos os casos, você deve criar um backup do Unified Manager no sistema Red Hat Enterprise Linux 7.x e, em seguida, restaurar o backup em um sistema Red Hat Enterprise Linux 8.x. 
@@ -11,7 +11,7 @@ summary: Se você já instalou o Unified Manager em um sistema Red Hat Enterpris
 
 
 [role="lead"]
-Se você já instalou o Unified Manager em um sistema Red Hat Enterprise Linux 7.x e precisa atualizar para o Red Hat Enterprise Linux 8.x, siga um dos procedimentos listados neste tópico. Em ambos os casos, você deve criar um backup do Unified Manager no sistema Red Hat Enterprise Linux 7.x e, em seguida, restaurar o backup em um sistema Red Hat Enterprise Linux 8.x. Observe que as versões suportadas do Red Hat Enterprise Linux são de 8,0 a 8,9.
+Se você já instalou o Unified Manager em um sistema Red Hat Enterprise Linux 7.x e precisa atualizar para o Red Hat Enterprise Linux 8.x, siga um dos procedimentos listados neste tópico. Em ambos os casos, você deve criar um backup do Unified Manager no sistema Red Hat Enterprise Linux 7.x e, em seguida, restaurar o backup em um sistema Red Hat Enterprise Linux 8.x. Observe que as versões suportadas do Red Hat Enterprise Linux são de 8,0 a 8,10.
 
 A diferença entre as duas opções listadas abaixo é que, em um caso, você está executando a restauração do Unified Manager em um novo servidor 8.x e, no outro caso, você está executando a operação de restauração no mesmo servidor.
 
@@ -23,11 +23,11 @@ Siga estas etapas se você tiver um sistema sobressalente no qual possa instalar
 
 . Instale e configure um novo servidor com o software Red Hat Enterprise Linux 8.x.
 +
-link:reference_red_hat_and_centos_software_and_installation_requirements.html["Requisitos de software e instalação do Linux"]Consulte .
+link:reference_red_hat_software_and_installation_requirements.html["Requisitos de software e instalação do Linux"]Consulte .
 
 . No sistema Red Hat Enterprise Linux 8.x, instale a mesma versão do software Unified Manager que você tem no sistema Red Hat Enterprise Linux 7.x.
 +
-link:concept_install_unified_manager_on_rhel_or_centos.html["Instalar o Unified Manager no Linux"]Consulte .
+link:concept_install_unified_manager_on_rhel.html["Instalar o Unified Manager no Linux"]Consulte .
 
 +
 Não inicie a IU nem configure clusters, usuários ou configurações de autenticação quando a instalação estiver concluída. O arquivo de backup preenche essas informações durante o processo de restauração.
@@ -52,11 +52,11 @@ Siga estas etapas se você não tiver um sistema sobressalente no qual você pod
 . Remova a imagem Red Hat Enterprise Linux 7.x do sistema e limpe completamente o sistema.
 . Instale e configure o software Red Hat Enterprise Linux 8.x no mesmo sistema.
 +
-link:reference_red_hat_and_centos_software_and_installation_requirements.html["Requisitos de software e instalação do Linux"]Consulte .
+link:reference_red_hat_software_and_installation_requirements.html["Requisitos de software e instalação do Linux"]Consulte .
 
 . No sistema Red Hat Enterprise Linux 8.x, instale a mesma versão do software Unified Manager que você tinha no sistema Red Hat Enterprise Linux 7.x.
 +
-link:concept_install_unified_manager_on_rhel_or_centos.html["Instalar o Unified Manager no Linux"]Consulte .
+link:concept_install_unified_manager_on_rhel.html["Instalar o Unified Manager no Linux"]Consulte .
 
 +
 Não inicie a IU nem configure clusters, usuários ou configurações de autenticação quando a instalação estiver concluída. O arquivo de backup preenche essas informações durante o processo de restauração.

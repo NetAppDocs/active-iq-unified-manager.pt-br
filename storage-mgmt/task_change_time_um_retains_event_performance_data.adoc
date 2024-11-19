@@ -13,8 +13,7 @@ summary: Por padrão, o Unified Manager armazena dados de eventos e dados de per
 [role="lead"]
 Por padrão, o Unified Manager armazena dados de eventos e dados de performance por 6 meses para todos os clusters monitorados. Após esse tempo, os dados mais antigos são excluídos automaticamente para dar espaço para novos dados. Esse período de tempo padrão funciona bem para a maioria das configurações, mas configurações muito grandes, com muitos clusters e nós, podem precisar reduzir o período de retenção para que o Unified Manager funcione de forma otimizada.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações.
 
 Você pode alterar os períodos de retenção desses dois tipos de dados na página retenção de dados. Essas configurações afetam a retenção de dados de todos os clusters que essa instância do Unified Manager está monitorando.

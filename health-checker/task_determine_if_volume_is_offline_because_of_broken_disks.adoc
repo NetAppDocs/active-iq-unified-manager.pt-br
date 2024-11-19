@@ -13,8 +13,7 @@ summary: Você pode usar a IU da Web do Unified Manager para confirmar ou elimin
 [role="lead"]
 Você pode usar a IU da Web do Unified Manager para confirmar ou eliminar a possibilidade de um volume estar offline porque os problemas de disco RAID tornaram seu agregado de host offline.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Para determinar se a condição off-line do volume é causada por problemas de disco RAID que estão tomando o agregado de hospedagem offline, execute as seguintes ações:

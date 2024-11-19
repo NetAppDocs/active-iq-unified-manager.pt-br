@@ -13,8 +13,7 @@ summary: 'Pode utilizar o rato para reduzir o intervalo de tempo para focar num 
 [role="lead"]
 Pode utilizar o rato para reduzir o intervalo de tempo para focar num determinado período de tempo no painel Counter Chart ou na janela Counter Charts Zoom View (visualização de zoom de gráficos de contador). Isso permite que você veja uma visão mais granular e microscópica de qualquer parte do cronograma de dados, eventos e limites de desempenho.
 
-*O que você vai precisar*
-
+.Antes de começar
 O cursor deve ter mudado para uma lupa para indicar que esta funcionalidade está ativa.
 
 [NOTE]

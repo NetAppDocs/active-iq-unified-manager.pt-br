@@ -13,8 +13,7 @@ summary: Você pode especificar o número de meses em que um evento é retido no
 [role="lead"]
 Você pode especificar o número de meses em que um evento é retido no servidor do Unified Manager antes de ser excluído automaticamente.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações.
 
 A retenção de eventos por mais de 6 meses pode afetar o desempenho do servidor e não é recomendada.

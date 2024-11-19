@@ -13,8 +13,7 @@ summary: Você pode criar um relatório para exibir a versão do software ONTAP 
 [role="lead"]
 Você pode criar um relatório para exibir a versão do software ONTAP instalada em todos os nós de cluster para que você possa ver quais nós deve atualizar.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

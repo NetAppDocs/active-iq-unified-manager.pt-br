@@ -13,8 +13,7 @@ summary: Ao exibir a página de detalhes do evento de um evento relacionado ao f
 [role="lead"]
 Ao exibir a página de detalhes do evento de um evento relacionado ao failover de armazenamento, você pode revisar as informações resumidas da página para determinar a urgência do evento, a possível causa do problema e a possível resolução do problema.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Neste cenário de exemplo, o resumo de eventos fornecido na página de detalhes do evento contém as seguintes informações sobre a condição de inatividade do link de interconexão de failover de armazenamento:

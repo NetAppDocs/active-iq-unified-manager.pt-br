@@ -13,8 +13,7 @@ summary: Você pode excluir anotações personalizadas e seus valores quando nã
 [role="lead"]
 Você pode excluir anotações personalizadas e seus valores quando não forem mais necessários.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Os valores de anotação não devem ser utilizados noutras anotações ou regras de grupo.
 

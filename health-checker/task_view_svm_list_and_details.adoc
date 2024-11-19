@@ -13,8 +13,7 @@ summary: 'Na visualização integridade: Todas as VMs de armazenamento, você po
 [role="lead"]
 Na visualização integridade: Todas as VMs de armazenamento, você pode monitorar seu inventário de máquinas virtuais de armazenamento (SVMs). Você pode usar a página Storage VM / Health details para exibir informações detalhadas sobre SVMs que são monitoradas.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 É possível visualizar os detalhes do SVM, como capacidade, eficiência e configuração de um SVM. Você também pode exibir informações sobre os dispositivos relacionados e alertas relacionados para esse SVM.

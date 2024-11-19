@@ -13,8 +13,7 @@ summary: 'É possível criar um relatório para localizar os pares de alta dispo
 [role="lead"]
 É possível criar um relatório para localizar os pares de alta disponibilidade (HA) com mais capacidade para provisionar novos volumes e LUNs.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

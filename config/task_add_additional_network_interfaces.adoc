@@ -13,8 +13,7 @@ summary: Você pode adicionar novas interfaces de rede se precisar separar o tr�
 [role="lead"]
 Você pode adicionar novas interfaces de rede se precisar separar o tráfego de rede.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ter adicionado a interface de rede ao dispositivo virtual usando o vSphere.
 
 O dispositivo virtual deve estar ligado.

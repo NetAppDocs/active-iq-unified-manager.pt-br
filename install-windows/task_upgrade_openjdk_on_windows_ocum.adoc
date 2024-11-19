@@ -13,8 +13,7 @@ summary: Você pode atualizar para uma versão mais recente do OpenJDK no servid
 [role="lead"]
 Você pode atualizar para uma versão mais recente do OpenJDK no servidor Windows no qual o Unified Manager está instalado para obter correções para vulnerabilidades de segurança.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ter o Privileges de administrador do Windows para o sistema no qual o Unified Manager está instalado.
 
 Você pode atualizar as versões do OpenJDK dentro das famílias de lançamento. Por exemplo, você pode atualizar do OpenJDK 11.0.16 para o OpenJDK 11,0.18, mas não pode atualizar diretamente do OpenJDK 11 para o OpenJDK 12.

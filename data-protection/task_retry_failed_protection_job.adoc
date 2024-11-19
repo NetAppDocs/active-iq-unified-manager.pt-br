@@ -13,8 +13,7 @@ summary: Depois de tomar medidas para corrigir um trabalho de proteção com fal
 [role="lead"]
 Depois de tomar medidas para corrigir um trabalho de proteção com falha, você pode usar *Repetir* para executar o trabalho novamente. Tentar novamente um trabalho cria um novo trabalho usando o ID do trabalho original.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Você pode tentar novamente apenas um trabalho com falha de cada vez. Selecionar mais de um trabalho desativa o botão *Repetir*. Apenas os trabalhos do tipo Configuração de proteção e operação de relação de proteção podem ser tentados novamente.

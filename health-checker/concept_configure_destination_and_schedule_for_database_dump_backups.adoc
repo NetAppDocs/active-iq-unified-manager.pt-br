@@ -13,8 +13,7 @@ summary: Você pode configurar as configurações de backup de despejo de banco 
 [role="lead"]
 Você pode configurar as configurações de backup de despejo de banco de dados do Unified Manager para definir o caminho de backup do banco de dados, a contagem de retenção e o agendamento de backup. Você pode ativar backups programados diários ou semanais. Por padrão, os backups programados são desativados, mas você deve definir uma programação de backup.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter um mínimo de 150 GB de espaço disponível no local que você definir como caminho de backup.
 +

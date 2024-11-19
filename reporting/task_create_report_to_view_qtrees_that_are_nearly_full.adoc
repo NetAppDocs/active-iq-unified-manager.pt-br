@@ -13,8 +13,7 @@ summary: Você pode criar um relatório para analisar a capacidade de armazename
 [role="lead"]
 Você pode criar um relatório para analisar a capacidade de armazenamento e a utilização de qtrees e para visualizar qtrees que estão quase cheios.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

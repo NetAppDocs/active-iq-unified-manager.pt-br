@@ -13,8 +13,7 @@ summary: Depois que os relatórios forem agendados, você poderá editá-los na 
 [role="lead"]
 Depois que os relatórios forem agendados, você poderá editá-los na página Agenda de relatórios.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

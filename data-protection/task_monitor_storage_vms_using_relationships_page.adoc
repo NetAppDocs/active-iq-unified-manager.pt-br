@@ -13,8 +13,7 @@ summary: Você pode monitorar as relações de recuperação de desastres da VM 
 [role="lead"]
 Você pode monitorar as relações de recuperação de desastres da VM de storage na página relacionamentos na SEÇÃO PROTEÇÃO do INVENTÁRIO. Por padrão, a página relacionamentos lista apenas as relações de nível superior à medida que o filtro relações constituintes é aplicado.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Você usa filtros para exibir os relacionamentos de recuperação de desastres da VM de storage.

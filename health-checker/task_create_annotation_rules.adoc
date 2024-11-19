@@ -13,8 +13,7 @@ summary: 'Você pode criar regras de anotação que o Unified Manager usa para a
 [role="lead"]
 Você pode criar regras de anotação que o Unified Manager usa para anotar dinamicamente objetos de armazenamento, como volumes, clusters ou máquinas virtuais de armazenamento (SVMs).
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Os objetos de armazenamento atualmente monitorizados são anotados assim que a regra de anotação é criada. Os novos objetos são anotados apenas após o ciclo de monitorização ser concluído.

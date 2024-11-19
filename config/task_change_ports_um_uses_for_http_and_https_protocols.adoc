@@ -13,8 +13,7 @@ summary: As portas padrão que o Unified Manager usa para protocolos HTTP e HTTP
 [role="lead"]
 As portas padrão que o Unified Manager usa para protocolos HTTP e HTTPS podem ser alteradas após a instalação, se necessário para segurança. As portas padrão são 80 para HTTP e 443 para HTTPS.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ter uma ID de usuário e senha autorizados para fazer login no console de manutenção do servidor do Unified Manager.
 
 [NOTE]

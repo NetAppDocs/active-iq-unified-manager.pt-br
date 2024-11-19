@@ -13,8 +13,7 @@ summary: Você pode excluir pools de recursos quando eles não forem mais necess
 [role="lead"]
 Você pode excluir pools de recursos quando eles não forem mais necessários. Por exemplo, você pode querer redistribuir os agregados de membros de um pool de recursos para vários outros pools de recursos, tornando o pool de recursos original obsoleto.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 O botão *Delete* é ativado somente quando pelo menos um pool de recursos estiver selecionado.

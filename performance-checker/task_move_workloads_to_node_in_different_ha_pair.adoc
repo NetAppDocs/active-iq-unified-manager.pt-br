@@ -13,8 +13,7 @@ summary: 'Use o Unified Manager para ajudar a identificar um agregado em um nó 
 [role="lead"]
 Use o Unified Manager para ajudar a identificar um agregado em um nó em um par de alta disponibilidade (HA) diferente que tenha mais capacidade de performance livre do que o par de HA em que seus workloads estão em execução no momento. Depois, você pode mover volumes selecionados para agregados no novo par de HA.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 * O cluster precisa consistir em, no mínimo, dois pares de HA
 +

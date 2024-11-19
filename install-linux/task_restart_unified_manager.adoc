@@ -13,8 +13,7 @@ summary: Talvez seja necessário reiniciar o Unified Manager depois de fazer alt
 [role="lead"]
 Talvez seja necessário reiniciar o Unified Manager depois de fazer alterações de configuração.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ter acesso de usuário raiz ao servidor Red Hat Enterprise Linux no qual o Unified Manager está instalado.
 
 .Passos

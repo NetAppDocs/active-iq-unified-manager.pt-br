@@ -13,8 +13,7 @@ summary: Você pode criar um relatório para exibir uma lista de todos os SVMs p
 [role="lead"]
 Você pode criar um relatório para exibir uma lista de todos os SVMs paradas.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

@@ -13,8 +13,7 @@ summary: Você pode criar agendas básicas ou avançadas de SnapMirror e SnapVau
 [role="lead"]
 Você pode criar agendas básicas ou avançadas de SnapMirror e SnapVault para permitir transferências automáticas de proteção de dados em uma fonte ou volume primário para que as transferências ocorram com mais frequência ou com menos frequência, dependendo da frequência com que os dados mudam em seus volumes.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você já deve ter concluído a área informações de destino na caixa de diálogo Configurar proteção.
 * Você deve ter configurado o Workflow Automation para executar esta tarefa.

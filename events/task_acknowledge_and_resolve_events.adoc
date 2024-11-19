@@ -13,8 +13,7 @@ summary: Você deve reconhecer um evento antes de começar a trabalhar no proble
 [role="lead"]
 Você deve reconhecer um evento antes de começar a trabalhar no problema que gerou o evento para que você não continue a receber notificações de alerta repetidas. Depois de tomar medidas corretivas para um evento específico, você deve marcar o evento como resolvido.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Você pode reconhecer e resolver vários eventos simultaneamente.

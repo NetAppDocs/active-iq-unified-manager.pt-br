@@ -13,8 +13,7 @@ summary: 'Você pode criar um relatório para destacar os agregados que estão 8
 [role="lead"]
 Você pode criar um relatório para destacar os agregados que estão 80% ou mais completos.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

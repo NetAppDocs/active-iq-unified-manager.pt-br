@@ -13,8 +13,7 @@ summary: Você pode visualizar os detalhes do pool de storage para monitorar a i
 [role="lead"]
 Você pode visualizar os detalhes do pool de storage para monitorar a integridade do pool de storage, o cache total e disponível e as alocações usadas e disponíveis.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 .Passos

@@ -15,8 +15,7 @@ Você pode remover o vCenter Servers da sua instância do Active IQ Unified Mana
 
 A remoção de um vCenter Server também exclui todas as máquinas virtuais (VMs) hospedadas nesse vCenter e seus dados de configuração. Depois que o vCenter Server for removido, ele não será mais monitorado, juntamente com seus objetos associados e dados históricos. Essas alterações serão refletidas nas páginas de inventário do vCenter e da máquina virtual.
 
-*O que você vai precisar*
-
+.Antes de começar
 Antes de remover o vCenter Servers, verifique o seguinte:
 
 * Você tem a função Administrador de aplicativos ou a função Administrador de armazenamento.

@@ -13,8 +13,7 @@ summary: Se você tiver configurado uma janela de manutenção do Unified Manage
 [role="lead"]
 Se você tiver configurado uma janela de manutenção do Unified Manager para ocorrer no futuro, poderá alterar as horas de início e término ou cancelar a ocorrência da janela de manutenção.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 O cancelamento de uma janela de manutenção atualmente em execução é útil se você tiver concluído a manutenção do cluster antes da hora de término da janela de manutenção programada e quiser começar a receber eventos e alertas do cluster novamente.

@@ -13,8 +13,7 @@ summary: Quando as políticas de eficiência de storage definidas pelo sistema n
 [role="lead"]
 Quando as políticas de eficiência de storage definidas pelo sistema não correspondem aos requisitos de workload, você pode criar suas próprias políticas de eficiência de storage otimizadas para seus workloads.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações.
 * O nome da Política de eficiência de armazenamento deve ser exclusivo e você não pode usar as seguintes palavras-chave reservadas:
 +

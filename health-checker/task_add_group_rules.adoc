@@ -13,8 +13,7 @@ summary: 'É possível criar regras de grupo para que um grupo adicione dinamica
 [role="lead"]
 É possível criar regras de grupo para que um grupo adicione dinamicamente objetos de storage, como volumes, clusters ou máquinas virtuais de armazenamento (SVMs) ao grupo. Você deve configurar pelo menos um grupo de condições com pelo menos uma condição para criar uma regra de grupo.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Os objetos de armazenamento atualmente monitorados são adicionados assim que a regra de grupo é criada. Novos objetos são adicionados somente após o ciclo de monitoramento ser concluído.

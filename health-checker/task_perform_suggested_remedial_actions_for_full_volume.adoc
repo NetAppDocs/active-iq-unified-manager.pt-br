@@ -13,8 +13,7 @@ summary: 'Depois de receber um evento de erro "volume Space Full" (espaço de vo
 [role="lead"]
 Depois de receber um evento de erro "volume Space Full", você analisa as ações corretivas sugeridas na página de detalhes do evento e decide executar uma das ações sugeridas.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Um usuário com qualquer função pode executar todas as tarefas desse fluxo de trabalho que usam o Unified Manager.

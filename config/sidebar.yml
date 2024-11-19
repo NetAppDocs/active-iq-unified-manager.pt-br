@@ -45,7 +45,7 @@ entries:
       - title: Reiniciando a máquina virtual do Unified Manager
         url: "/config/task_restart_unified_manager_virtual_machine.html"
     - title: Alteração do nome de host do Unified Manager em sistemas Linux
-      url: "/config/task_change_um_host_name_on_rhel_or_centos.html"
+      url: "/config/task_change_um_host_name_on_rhel.html"
   - title: Ativar e desativar o gerenciamento de armazenamento baseado em políticas
     url: "/config/task_enable_and_disable_policy_based_storage_management.html"
 - title: Configuração do backup do Unified Manager

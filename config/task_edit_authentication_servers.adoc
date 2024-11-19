@@ -13,8 +13,7 @@ summary: Você pode alterar a porta que o servidor do Unified Manager usa para s
 [role="lead"]
 Você pode alterar a porta que o servidor do Unified Manager usa para se comunicar com o servidor de autenticação.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações.
 
 .Passos

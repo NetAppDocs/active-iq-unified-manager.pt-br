@@ -13,8 +13,7 @@ summary: Você pode criar um relatório para analisar a capacidade em um arquivo
 [role="lead"]
 Você pode criar um relatório para analisar a capacidade em um arquivo do Excel usando totais somados e o formato de gráfico de colunas agrupadas.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

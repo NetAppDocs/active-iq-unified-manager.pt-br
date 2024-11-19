@@ -13,8 +13,7 @@ summary: Este relatório mostra quais agregados têm o IOPS mais disponível por
 [role="lead"]
 Este relatório mostra quais agregados têm o IOPS mais disponível por tipo de agregado nos quais você pode provisionar novos workloads.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

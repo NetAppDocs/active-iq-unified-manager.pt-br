@@ -13,8 +13,7 @@ summary: 'Você pode criar LUNs compatíveis com os protocolos CIFS/SMB e NFS, e
 [role="lead"]
 Você pode criar LUNs compatíveis com os protocolos CIFS/SMB e NFS, em um cluster existente e Storage Virtual Machine (storage VM) na página provisionar Workload.
 
-*O que você vai precisar*
-
+.Antes de começar
 * A VM de storage deve ter espaço para provisionar o LUN.
 * Tanto o iSCSI como o FCP devem estar ativados na VM de storage na qual você cria o LUN.
 * Para selecionar e atribuir o nível de Serviço de desempenho (PSL) e a Política de eficiência de armazenamento (SEP) na carga de trabalho, as políticas devem ter sido criadas antes de começar a criar a carga de trabalho.

@@ -13,8 +13,7 @@ summary: Você pode criar um relatório para exibir volumes com uma grande quant
 [role="lead"]
 Você pode criar um relatório para exibir volumes com uma grande quantidade de dados inativos em um agregado que não seja da FabricPool. Isso pode ajudar a identificar volumes que devem ser movidos para um agregado do FabricPool.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

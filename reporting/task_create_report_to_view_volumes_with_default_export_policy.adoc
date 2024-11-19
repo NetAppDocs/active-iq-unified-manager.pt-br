@@ -13,8 +13,7 @@ summary: Você pode criar um relatório para localizar volumes que estejam usand
 [role="lead"]
 Você pode criar um relatório para localizar volumes que estejam usando a política de exportação padrão.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

@@ -13,8 +13,7 @@ summary: Se ocorrer perda de dados ou corrupção de dados, você poderá restau
 [role="lead"]
 Se ocorrer perda de dados ou corrupção de dados, você poderá restaurar o Unified Manager para o estado estável anterior com perda mínima de dados. Você pode restaurar o banco de dados Snapshot do Unified Manager para um sistema operacional local ou remoto usando o console de manutenção do Unified Manager.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Você deve ter as credenciais de usuário raiz para o host Linux e o Privileges administrativo para a máquina host Windows na qual o Unified Manager está instalado.
 * Você deve ter uma ID de usuário e senha autorizados para fazer login no console de manutenção do servidor do Unified Manager.
 

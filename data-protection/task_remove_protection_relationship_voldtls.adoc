@@ -13,8 +13,7 @@ summary: 'Você pode remover uma relação de proteção para excluir permanente
 [role="lead"]
 Você pode remover uma relação de proteção para excluir permanentemente uma relação existente entre a origem e o destino selecionados: Por exemplo, quando você deseja criar uma relação usando um destino diferente. Esta operação remove todos os metadados e não pode ser desfeita.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter configurado o Workflow Automation.
 

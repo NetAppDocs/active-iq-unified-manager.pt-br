@@ -13,8 +13,7 @@ summary: Você pode editar as configurações de limite de integridade para a ca
 [role="lead"]
 Você pode editar as configurações de limite de integridade para a capacidade de qtree para um ou mais qtrees. Quando um limite é cruzado, os alertas são gerados e você recebe notificações. Essas notificações ajudam você a tomar medidas preventivas com base no evento gerado.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Com base nas alterações nos valores de limite, os eventos são gerados ou obsoletos no próximo ciclo de monitoramento.

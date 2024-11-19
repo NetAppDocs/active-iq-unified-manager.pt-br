@@ -13,8 +13,7 @@ summary: 'Você pode especificar o valor de tempo limite de inatividade do Unifi
 [role="lead"]
 Você pode especificar o valor de tempo limite de inatividade do Unified Manager para que a sessão seja encerrada automaticamente após um determinado período de tempo. Por padrão, o tempo limite é definido para 4.320 minutos (72 horas).
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações.
 
 Esta definição afeta todas as sessões de utilizador com sessão iniciada.

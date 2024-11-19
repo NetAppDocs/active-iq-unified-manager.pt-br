@@ -13,8 +13,7 @@ summary: Este fluxo de trabalho fornece um exemplo de como você pode resolver u
 [role="lead"]
 Este fluxo de trabalho fornece um exemplo de como você pode resolver um problema de atraso. Nesse cenário, você é um administrador ou operador acessando a página do Unified ManagerDashboard para ver se há algum problema com seus relacionamentos de proteção e, se existirem, para encontrar soluções.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Na página Painel, você analisa a área incidentes e riscos não resolvidos e vê um erro de atraso do SnapMirror no painel proteção em riscos de proteção.

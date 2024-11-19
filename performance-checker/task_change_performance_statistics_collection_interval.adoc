@@ -13,8 +13,7 @@ summary: O intervalo de coleta padrão para estatísticas de desempenho é de 5 
 [role="lead"]
 O intervalo de coleta padrão para estatísticas de desempenho é de 5 minutos. Você pode alterar esse intervalo para 10 ou 15 minutos se achar que coleções de clusters grandes não estão finalizadas dentro do tempo padrão. Essa configuração afeta a coleção de estatísticas de todos os clusters que essa instância do Unified Manager está monitorando.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ter uma ID de usuário e senha autorizados para fazer login no console de manutenção do servidor do Unified Manager.
 
 A emissão de coleções de estatísticas de desempenho que não terminam no prazo é indicada pelas mensagens de banner `Unable to consistently collect from cluster <cluster_name>` ou `Data collection is taking too long on cluster <cluster_name>`.

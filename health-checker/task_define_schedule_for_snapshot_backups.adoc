@@ -13,8 +13,7 @@ summary: Você pode configurar a programação em que as cópias Snapshot do Uni
 [role="lead"]
 Você pode configurar a programação em que as cópias Snapshot do Unified Manager são criadas usando a IU do Unified Manager.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter configurado as configurações para criar cópias Snapshot a partir do console de manutenção para identificar o destino onde os snapshots serão criados.
 

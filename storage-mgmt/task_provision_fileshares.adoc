@@ -13,8 +13,7 @@ summary: 'Você pode criar volumes de compartilhamento de arquivos compatíveis 
 [role="lead"]
 Você pode criar volumes de compartilhamento de arquivos compatíveis com os protocolos CIFS/SMB e NFS, em um cluster existente e Storage Virtual Machine (storage VM) na página provisionar workloads.
 
-*O que você vai precisar*
-
+.Antes de começar
 * A VM de storage deve ter espaço para provisionar o volume de compartilhamento de arquivos.
 * Um ou ambos os serviços SMB e NFS devem estar ativados na VM de storage.
 * Para selecionar e atribuir o nível de Serviço de desempenho (PSL) e a Política de eficiência de armazenamento (SEP) na carga de trabalho, as políticas devem ter sido criadas antes de começar a criar a carga de trabalho.

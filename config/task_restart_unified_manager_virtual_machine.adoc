@@ -13,8 +13,7 @@ summary: Você pode reiniciar a máquina virtual a partir do console de manuten�
 [role="lead"]
 Você pode reiniciar a máquina virtual a partir do console de manutenção do Unified Manager. Você deve reiniciar depois de gerar um novo certificado de segurança ou se houver um problema com a máquina virtual.
 
-*O que você vai precisar*
-
+.Antes de começar
 O dispositivo virtual está ligado.
 
 Você está conetado ao console de manutenção como usuário de manutenção.

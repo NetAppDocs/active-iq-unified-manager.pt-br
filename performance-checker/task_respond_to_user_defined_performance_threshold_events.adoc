@@ -13,8 +13,7 @@ summary: Você pode usar o Unified Manager para investigar eventos de desempenho
 [role="lead"]
 Você pode usar o Unified Manager para investigar eventos de desempenho causados por um contador de desempenho que atravessa um aviso definido pelo usuário ou um limite crítico. Você também pode usar o Unified Manager para verificar a integridade do componente do cluster para ver se eventos recentes de integridade detetados no componente contribuíram para o evento de desempenho.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 * Deve haver eventos de desempenho novos ou obsoletos.
 

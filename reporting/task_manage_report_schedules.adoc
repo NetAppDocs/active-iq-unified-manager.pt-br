@@ -13,9 +13,8 @@ summary: Você pode gerenciar suas programações de relatórios na página agen
 [role="lead"]
 Você pode gerenciar suas programações de relatórios na página agendas de relatórios. Você pode exibir, modificar ou excluir programações existentes.
 
-*O que você vai precisar*
-
 [NOTE]
+.Antes de começar
 ====
 Não é possível programar novos relatórios a partir da página agendas de relatórios. Você só pode adicionar relatórios programados das páginas de inventário de objetos.
 

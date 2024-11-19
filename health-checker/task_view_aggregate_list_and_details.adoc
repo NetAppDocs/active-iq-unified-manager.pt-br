@@ -13,8 +13,7 @@ summary: 'Na visualização Saúde: Todos os agregados, você pode monitorar seu
 [role="lead"]
 Na visualização Saúde: Todos os agregados, você pode monitorar seu inventário de agregados. A visualização capacidade: Todos os agregados permite visualizar informações sobre a capacidade e a utilização de agregados em todos os clusters.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Você pode exibir detalhes como capacidade e configuração de agregados e informações de disco na página de detalhes de agregado / integridade. Você pode usar esses detalhes antes de configurar as configurações de limite, se necessário.

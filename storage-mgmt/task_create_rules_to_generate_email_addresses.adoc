@@ -13,8 +13,7 @@ summary: 'Você pode criar regras para especificar o endereço de e-mail com bas
 [role="lead"]
 Você pode criar regras para especificar o endereço de e-mail com base na cota de usuário associada a clusters, máquinas virtuais de armazenamento (SVMs), volumes, qtrees, usuários ou grupos de usuários. Uma notificação é enviada para o endereço de e-mail especificado quando há uma violação de cota.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter revisado as diretrizes na página regras para gerar Endereço de e-mail de cota de usuário e grupo.
 

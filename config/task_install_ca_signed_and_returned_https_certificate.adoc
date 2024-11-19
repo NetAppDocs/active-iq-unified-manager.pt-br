@@ -13,7 +13,7 @@ summary: Você pode fazer o upload e instalar um certificado de segurança depoi
 [role="lead"]
 Você pode fazer o upload e instalar um certificado de segurança depois que uma Autoridade de certificação o tiver assinado e retornado. O arquivo que você carregar e instalar deve ser uma versão assinada do certificado autoassinado existente. Um certificado assinado pela CA ajuda a evitar ataques man-in-the-middle e fornece melhor proteção de segurança do que um certificado autoassinado.
 
-*O que você vai precisar*
+* O que. Antes de começar
 
 Você deve ter concluído as seguintes ações:
 

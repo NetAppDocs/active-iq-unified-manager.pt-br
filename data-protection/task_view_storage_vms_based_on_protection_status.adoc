@@ -13,8 +13,7 @@ summary: Você pode usar a página Storage VMs do Inventário para visualizar to
 [role="lead"]
 Você pode usar a página Storage VMs do Inventário para visualizar todas as VMs de storage no Active IQ Unified Manager e filtrar as VMs de storage com base em seu status de proteção.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Uma nova função de proteção de coluna é adicionada à visualização de VMs de storage que fornece informações sobre se a VM de storage está protegida ou não protegida.

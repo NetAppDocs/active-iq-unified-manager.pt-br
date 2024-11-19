@@ -13,8 +13,7 @@ summary: Você pode configurar limites de integridade do volume em nível de gru
 [role="lead"]
 Você pode configurar limites de integridade do volume em nível de grupo para capacidade, cópias Snapshot, cotas de qtree, crescimento e inodes.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 O tipo de limite de integridade do volume de ação de grupo é aplicado apenas em volumes de um grupo.

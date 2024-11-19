@@ -13,8 +13,7 @@ summary: 'Existem certos eventos de segurança que têm uma área de impactos de
 [role="lead"]
 Existem certos eventos de segurança que têm uma área de impactos do "Upgrade". Esses eventos são relatados da plataforma Active IQ e identificam problemas em que a resolução exige que você atualize o software ONTAP, o firmware do nó ou o software do sistema operacional (para avisos de segurança).
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Você pode querer executar ações corretivas imediatas para alguns desses problemas, enquanto outros problemas podem esperar até a próxima manutenção programada. Você pode visualizar todos esses eventos e atribuí-los a usuários que podem resolver os problemas. Além disso, se houver certos eventos de atualização de segurança sobre os quais você não deseja ser notificado, esta lista pode ajudá-lo a identificar esses eventos para que você possa desativá-los.

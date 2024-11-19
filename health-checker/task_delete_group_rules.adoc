@@ -13,8 +13,7 @@ summary: Você pode excluir uma regra de grupo do Active IQ Unified Manager quan
 [role="lead"]
 Você pode excluir uma regra de grupo do Active IQ Unified Manager quando a regra de grupo não for mais necessária.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Quando uma regra de grupo é excluída, os objetos de armazenamento associados serão removidos do grupo.

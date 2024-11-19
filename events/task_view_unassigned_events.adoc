@@ -13,8 +13,7 @@ summary: Você pode exibir eventos não atribuídos e, em seguida, atribuir cada
 [role="lead"]
 Você pode exibir eventos não atribuídos e, em seguida, atribuir cada um deles a um usuário que pode resolvê-los.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 .Passos

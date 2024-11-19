@@ -13,8 +13,7 @@ summary: 'Você deve fazer download do arquivo do Gerenciador Unificado `.zip` n
 [role="lead"]
 Você deve fazer download do arquivo do Gerenciador Unificado `.zip` no site de suporte da NetApp para instalar o Gerenciador unificado.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ter credenciais de login para o site de suporte da NetApp.
 
 Você faz o download do pacote de instalação do Unified Manager para o sistema Red Hat Enterprise Linux.
@@ -29,7 +28,7 @@ https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/
 +
 [NOTE]
 ====
-** Certifique-se de baixar a versão correta do arquivo de instalação para o seu sistema Red Hat Enterprise Linux. Com base se você tem o Red Hat Enterprise Linux 7 ou 8 instalado, certifique-se de baixar a versão apropriada do arquivo Unified Manager `.zip`.
+** Certifique-se de baixar a versão correta do arquivo de instalação para o seu sistema Red Hat Enterprise Linux. Com base se você tem o Red Hat Enterprise Linux 8 ou 9 instalado, certifique-se de baixar a versão apropriada do arquivo Unified Manager `.zip`.
 ** A NetApp recomenda que você baixe o certificado de assinatura de código (`.pem`) e a assinatura digital (`.sig`) junto com o `.zip` arquivo.
 
 

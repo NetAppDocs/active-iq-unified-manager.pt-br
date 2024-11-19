@@ -13,8 +13,7 @@ summary: Você pode criar um relacionamento do SnapMirror com a funcionalidade d
 [role="lead"]
 Você pode criar um relacionamento do SnapMirror com a funcionalidade de opção de replicação flexível e backup. A funcionalidade de opção de backup permite que você implemente a proteção SnapMirror e também retenha várias versões de cópias de backup no local de destino.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter configurado o Workflow Automation.
 * As SVMs de origem e destino devem ter uma licença SnapMirror ativada.

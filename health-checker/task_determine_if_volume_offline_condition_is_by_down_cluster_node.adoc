@@ -13,8 +13,7 @@ summary: Você pode usar a IU da Web do Unified Manager para confirmar ou elimin
 [role="lead"]
 Você pode usar a IU da Web do Unified Manager para confirmar ou eliminar a possibilidade de um volume estar offline porque o nó do host está inativo e o failover de storage para seu parceiro de par de HA não tem êxito.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Para determinar se a condição de volume off-line é causada por falha do nó de hospedagem e subsequente failover de armazenamento mal-sucedido, execute as seguintes ações:

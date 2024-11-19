@@ -13,8 +13,7 @@ summary: Você pode usar a página Configuração de cluster para exibir seu inv
 [role="lead"]
 Você pode usar a página Configuração de cluster para exibir seu inventário de clusters. Você pode exibir detalhes sobre os clusters, como nome ou endereço IP e status de comunicação.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 .Passo

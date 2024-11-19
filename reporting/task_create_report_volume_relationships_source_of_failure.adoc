@@ -13,8 +13,7 @@ summary: Você pode criar um relatório que agrupa volumes pelo motivo pelo qual
 [role="lead"]
 Você pode criar um relatório que agrupa volumes pelo motivo pelo qual o relacionamento está em um estado não saudável.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

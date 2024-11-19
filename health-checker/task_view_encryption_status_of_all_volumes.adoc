@@ -13,8 +13,7 @@ summary: Você pode exibir uma lista de todos os volumes e seu status de criptog
 [role="lead"]
 Você pode exibir uma lista de todos os volumes e seu status de criptografia atual para determinar se os dados em seus volumes estão adequadamente protegidos contra o acesso de usuários não autorizados.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Os tipos de criptografia que podem ser aplicados a um volume são:

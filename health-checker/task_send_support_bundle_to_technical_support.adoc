@@ -13,8 +13,7 @@ summary: Quando um problema requer informações de diagnóstico e solução de 
 [role="lead"]
 Quando um problema requer informações de diagnóstico e solução de problemas mais detalhadas do que uma mensagem do AutoSupport fornece, você pode enviar um pacote de suporte para o suporte técnico.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você precisa ter acesso ao pacote de suporte para enviá-lo ao suporte técnico.
 
 Você deve ter um número de caso gerado através do site de suporte técnico.

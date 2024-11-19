@@ -13,8 +13,7 @@ summary: Talvez seja necessário desativar a autenticação SAML do console de m
 [role="lead"]
 Talvez seja necessário desativar a autenticação SAML do console de manutenção quando não houver acesso à GUI do Unified Manager. Isso pode acontecer em casos de má configuração ou se o IDP não estiver acessível.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ter acesso ao console de manutenção como usuário de manutenção.
 
 Quando a autenticação SAML está desativada, os provedores de serviços de diretório configurados, como o ative Directory ou LDAP, executam a autenticação de logon. Usuários locais e usuários de manutenção poderão acessar a interface gráfica do usuário além de usuários remotos configurados.

@@ -13,8 +13,7 @@ summary: 'Ao criar anotações personalizadas, o Unified Manager associa dinamic
 [role="lead"]
 Ao criar anotações personalizadas, o Unified Manager associa dinamicamente clusters, máquinas virtuais de armazenamento (SVMs) e volumes às anotações usando regras. Essas regras atribuem automaticamente as anotações a objetos de armazenamento.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 .Passos

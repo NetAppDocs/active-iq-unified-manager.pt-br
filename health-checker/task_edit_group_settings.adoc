@@ -13,8 +13,7 @@ summary: Você pode editar o nome e a descrição de um grupo criado no Unified 
 [role="lead"]
 Você pode editar o nome e a descrição de um grupo criado no Unified Manager.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Quando você edita um grupo para atualizar o nome, você deve especificar um nome exclusivo; você não pode usar um nome de grupo existente.

@@ -13,8 +13,7 @@ summary: Você pode modificar as configurações de um cluster existente, como n
 [role="lead"]
 Você pode modificar as configurações de um cluster existente, como nome do host ou endereço IP, nome de usuário, senha e porta, usando a caixa de diálogo Editar cluster.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ter a função Administrador do aplicativo ou a função Administrador do armazenamento.
 
 [NOTE]

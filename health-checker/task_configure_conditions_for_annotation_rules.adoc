@@ -13,8 +13,7 @@ summary: Você pode configurar uma ou mais condições para criar regras de anot
 [role="lead"]
 Você pode configurar uma ou mais condições para criar regras de anotação que o Unified Manager aplica aos objetos de armazenamento. Os objetos de armazenamento que satisfazem a regra de anotação são anotados com o valor especificado na regra.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 .Passos

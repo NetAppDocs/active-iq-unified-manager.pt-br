@@ -13,8 +13,7 @@ summary: Usando a página Storage VMs, você pode visualizar o status dos relaci
 [role="lead"]
 Usando a página Storage VMs, você pode visualizar o status das relações de recuperação de desastres das VMs de storage existentes.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Você também pode examinar detalhes dos relacionamentos de proteção, incluindo status de transferência e atraso, detalhes de origem e destino. Você pode agendar relatórios ou fazer download de relatórios existentes no formato desejado. O botão *Mostrar/Ocultar* permite que você adicione as colunas necessárias aos relatórios, pois elas não são exibidas por padrão.

@@ -13,8 +13,7 @@ summary: Você pode excluir um script do Unified Manager quando o script não fo
 [role="lead"]
 Você pode excluir um script do Unified Manager quando o script não for mais necessário ou válido.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * O script não deve estar associado a um alerta.
 

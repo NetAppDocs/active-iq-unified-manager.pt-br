@@ -13,8 +13,7 @@ summary: Esse fluxo de trabalho fornece um exemplo de como você pode avaliar e 
 [role="lead"]
 Esse fluxo de trabalho fornece um exemplo de como você pode avaliar e resolver um evento off-line de volume que o Unified Manager pode exibir na página de inventário do Gerenciamento de Eventos. Nesse cenário, você é um administrador usando o Unified Manager para solucionar problemas de um ou mais eventos offline de volume.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Os volumes podem ser reportados offline por várias razões:

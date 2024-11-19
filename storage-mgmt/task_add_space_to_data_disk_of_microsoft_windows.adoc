@@ -13,8 +13,7 @@ summary: Se você precisar aumentar a quantidade de espaço em disco para o banc
 [role="lead"]
 Se você precisar aumentar a quantidade de espaço em disco para o banco de dados do Unified Manager, poderá adicionar capacidade à unidade lógica na qual o Unified Manager está instalado.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ter o Privileges administrador do Windows.
 
 Recomendamos que você faça backup do banco de dados do Unified Manager antes de adicionar espaço em disco.

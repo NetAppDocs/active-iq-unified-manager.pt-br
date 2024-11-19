@@ -13,8 +13,7 @@ summary: Você pode criar um relatório para exibir transferências de volume co
 [role="lead"]
 Você pode criar um relatório para exibir transferências de volume com base no tamanho da transferência.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

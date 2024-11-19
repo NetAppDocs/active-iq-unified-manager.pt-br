@@ -13,8 +13,7 @@ summary: Depois de iniciar um trabalho, pode monitorizar o seu progresso a parti
 [role="lead"]
 Depois de iniciar um trabalho, pode monitorizar o seu progresso a partir da página Detalhes do trabalho e monitorizar as tarefas associadas relativamente a possíveis erros.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 .Passos

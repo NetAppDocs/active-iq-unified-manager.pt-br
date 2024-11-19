@@ -13,8 +13,7 @@ summary: 'Você pode criar um relatório que contenha a lista de volumes que atu
 [role="lead"]
 Você pode criar um relatório que contenha a lista de volumes que atualmente residem em agregados FabricPool, que tenham uma recomendação de nuvem de categoria e que tenham uma grande quantidade de dados inativos. Este relatório pode ajudá-lo a decidir se você deve alterar a política de disposição em categorias de certos volumes para "'auto'" ou "'all'" para descarregar mais dados inativos (inativos) para a camada de nuvem.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você precisa ter agregados FabricPool configurados e ter volumes nesses agregados.
 

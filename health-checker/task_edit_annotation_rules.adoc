@@ -13,8 +13,7 @@ summary: Pode editar regras de anotação para modificar os grupos de condiçõe
 [role="lead"]
 Pode editar regras de anotação para modificar os grupos de condições e condições dentro do grupo de condições para adicionar anotações ou remover anotações de objetos de armazenamento.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 As anotações são dissociadas de objetos de armazenamento quando você edita as regras de anotação associadas.

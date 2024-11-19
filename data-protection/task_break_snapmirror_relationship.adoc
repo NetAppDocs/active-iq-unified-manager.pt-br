@@ -13,8 +13,7 @@ summary: É possível interromper uma relação de proteção para interromper a
 [role="lead"]
 É possível interromper uma relação de proteção para interromper as transferências de dados entre um volume de origem e um volume de destino em uma relação do SnapMirror. Você pode interromper um relacionamento quando quiser migrar dados, para recuperação de desastres ou para teste de aplicações. O volume de destino é alterado para um volume de leitura/gravação. Você não pode quebrar um relacionamento SnapVault.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter configurado o Workflow Automation.
 

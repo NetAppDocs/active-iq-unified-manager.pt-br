@@ -13,8 +13,7 @@ summary: Você pode adicionar um cluster ao Active IQ Unified Manager para que v
 [role="lead"]
 Você pode adicionar um cluster ao Active IQ Unified Manager para que você possa monitorar o cluster. Isso inclui a capacidade de obter informações de cluster, como integridade, capacidade, desempenho e configuração do cluster, para que você possa encontrar e resolver quaisquer problemas que possam ocorrer.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Você deve ter a função Administrador do aplicativo ou a função Administrador do armazenamento.
 * Você deve ter as seguintes informações:
 +

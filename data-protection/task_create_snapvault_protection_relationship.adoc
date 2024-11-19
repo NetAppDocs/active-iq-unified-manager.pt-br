@@ -13,8 +13,7 @@ summary: 'Você pode usar a visualização integridade: Todos os volumes para cr
 [role="lead"]
 Você pode usar a visualização integridade: Todos os volumes para criar relacionamentos do SnapVault para um ou mais volumes na mesma VM de storage, a fim de habilitar backups de dados para fins de proteção.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter configurado o Workflow Automation.
 

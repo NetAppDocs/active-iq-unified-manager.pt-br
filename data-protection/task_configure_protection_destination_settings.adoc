@@ -13,8 +13,7 @@ summary: Você pode configurar configurações de eficiência de destino, como d
 [role="lead"]
 Você pode configurar configurações de eficiência de destino, como deduplicação, compactação, crescimento automático e garantia de espaço em um destino de proteção usando a caixa de diálogo Configurações avançadas de destino. Use essas configurações quando quiser maximizar a utilização de espaço em um destino ou volume secundário.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Por padrão, as configurações de eficiência correspondem às do volume de origem, exceto as configurações de compactação em uma relação SnapVault, que são desativadas por padrão.

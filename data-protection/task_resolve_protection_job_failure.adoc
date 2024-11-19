@@ -13,8 +13,7 @@ summary: Esse fluxo de trabalho fornece um exemplo de como você pode identifica
 [role="lead"]
 Esse fluxo de trabalho fornece um exemplo de como você pode identificar e resolver uma falha de tarefa de proteção no painel do Unified Manager.
 
-*O que você vai precisar*
-
+.Antes de começar
 Como algumas tarefas nesse fluxo de trabalho exigem que você faça login usando a função Administrador, você deve estar familiarizado com as funções necessárias para usar várias funcionalidades.
 
 Nesse cenário, você acessa a página Painel para ver se há algum problema com seus trabalhos de proteção. Na área Incidente de proteção, você percebe que há um incidente de trabalho terminado, mostrando um erro Falha no trabalho de proteção em um volume. Investigue este erro para determinar a possível causa e a possível resolução.

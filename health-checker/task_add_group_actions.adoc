@@ -13,8 +13,7 @@ summary: Você pode configurar ações de grupo que deseja aplicar a objetos de 
 [role="lead"]
 Você pode configurar ações de grupo que deseja aplicar a objetos de armazenamento em um grupo. A configuração de ações para um grupo permite economizar tempo, porque você não precisa adicionar essas ações a cada objeto individualmente.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 .Passos

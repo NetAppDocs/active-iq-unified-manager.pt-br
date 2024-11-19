@@ -13,8 +13,7 @@ summary: Você analisa a mensagem de erro de falha do trabalho no campo causa na
 [role="lead"]
 Você analisa a mensagem de erro de falha do trabalho no campo causa na página de detalhes do evento e determina que o trabalho falhou devido a um erro de cópia Snapshot. Em seguida, avance para a página de detalhes de volume / Saúde para obter mais informações.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações.
 
 A mensagem de erro fornecida no campo causa na página de detalhes do evento contém o seguinte texto sobre o trabalho com falha:

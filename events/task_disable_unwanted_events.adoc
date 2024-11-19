@@ -13,8 +13,7 @@ summary: Todos os eventos são ativados por padrão. Você pode desativar evento
 [role="lead"]
 Todos os eventos são ativados por padrão. Você pode desativar eventos globalmente para impedir a geração de notificações para eventos que não são importantes em seu ambiente. Você pode ativar eventos desativados quando quiser retomar o recebimento de notificações para eles.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Quando você desativa eventos, os eventos gerados anteriormente no sistema são marcados como obsoletos e os alertas configurados para esses eventos não são acionados. Quando você ativa eventos desativados, as notificações para esses eventos são geradas a partir do próximo ciclo de monitoramento.

@@ -13,8 +13,7 @@ summary: 'Usando a exibição integridade: Todos os volumes, você pode criar v�
 [role="lead"]
 Usando a exibição integridade: Todos os volumes, você pode criar vários relacionamentos de proteção SnapMirror ao mesmo tempo, selecionando mais de um volume na mesma VM de storage.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter configurado o Workflow Automation.
 

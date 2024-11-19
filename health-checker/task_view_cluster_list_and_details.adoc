@@ -13,8 +13,7 @@ summary: 'Você pode usar a visualização integridade: Todos os clusters para v
 [role="lead"]
 Você pode usar a visualização integridade: Todos os clusters para visualizar o inventário de clusters. A visualização capacidade: Todos os clusters permite visualizar informações resumidas sobre capacidade de storage e utilização em todos os clusters.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Você também pode exibir detalhes de clusters individuais, como a integridade do cluster, capacidade, configuração, LIFs, nós e discos nesse cluster usando a página de detalhes de cluster / integridade.

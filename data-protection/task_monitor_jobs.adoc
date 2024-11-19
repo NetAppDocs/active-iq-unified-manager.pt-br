@@ -13,8 +13,7 @@ summary: Pode utilizar a página trabalhos para monitorizar o estado da tarefa e
 [role="lead"]
 Pode utilizar a página trabalhos para monitorizar o estado da tarefa e para ver as propriedades da tarefa, tais como tipo de serviço de armazenamento, estado, tempo de envio e tempo de conclusão, para determinar se uma tarefa foi concluída com êxito ou não.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 .Passos

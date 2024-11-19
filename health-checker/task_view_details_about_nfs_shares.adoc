@@ -13,8 +13,7 @@ summary: 'É possível visualizar detalhes sobre todos os compartilhamentos NFS,
 [role="lead"]
 É possível visualizar detalhes sobre todos os compartilhamentos NFS, como status, caminho associado ao volume (volumes FlexGroup ou volumes FlexVol), níveis de acesso dos clientes aos compartilhamentos NFS e a política de exportação definida para os volumes exportados. Uso da visualização integridade: Todos os compartilhamentos NFS para ver todos os compartilhamentos NFS em todos os clusters monitorados e usar a página de detalhes de integridade/VM de storage para visualizar todos os compartilhamentos NFS em uma máquina virtual de storage específica (SVM).
 
-*O que você vai precisar*
-
+.Antes de começar
 * A licença NFS deve estar ativada no cluster.
 * As interfaces de rede que atendem aos compartilhamentos NFS devem ser configuradas.
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.

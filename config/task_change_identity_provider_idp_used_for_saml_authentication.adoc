@@ -13,8 +13,7 @@ summary: 'Você pode alterar o provedor de identidade (IDP) que o Unified Manage
 [role="lead"]
 Você pode alterar o provedor de identidade (IDP) que o Unified Manager usa para autenticar usuários remotos.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Você deve ter o URL e os metadados do IDP.
 * Você deve ter acesso ao IDP.
 

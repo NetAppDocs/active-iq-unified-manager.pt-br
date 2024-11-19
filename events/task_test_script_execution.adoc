@@ -13,8 +13,7 @@ summary: Você pode verificar se o script é executado corretamente quando um al
 [role="lead"]
 Você pode verificar se o script é executado corretamente quando um alerta é gerado para um objeto de armazenamento.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter carregado um script no formato de arquivo suportado para o Unified Manager.
 

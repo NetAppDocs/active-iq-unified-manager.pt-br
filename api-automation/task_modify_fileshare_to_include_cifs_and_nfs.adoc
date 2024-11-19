@@ -13,8 +13,7 @@ summary: 'Você pode modificar um compartilhamento de arquivos NFS para dar supo
 [role="lead"]
 Você pode modificar um compartilhamento de arquivos NFS para dar suporte ao protocolo CIFS. Durante a criação do compartilhamento de arquivos, é possível especificar os parâmetros da lista de controle de acesso (ACL) e as regras de política de exportação para o mesmo compartilhamento de arquivos. No entanto, se quiser ativar o CIFS no mesmo volume em que criou um compartilhamento de arquivos NFS, você pode atualizar os parâmetros ACL nesse compartilhamento de arquivos para oferecer suporte ao CIFS.
 
-*O que você vai precisar*
-
+.Antes de começar
 . Um compartilhamento de arquivos NFS deve ter sido criado apenas com os detalhes da política de exportação. Para obter informações, consulte _Gerenciando compartilhamentos de arquivos_ e _modificando cargas de trabalho de armazenamento_.
 . Você deve ter a chave de compartilhamento de arquivos para executar esta operação. Para obter informações sobre como visualizar detalhes do compartilhamento de arquivos e recuperar a chave de compartilhamento de arquivos usando o ID da tarefa, consulte _Provisioning CIFS e compartilhamentos de arquivos NFS_.
 

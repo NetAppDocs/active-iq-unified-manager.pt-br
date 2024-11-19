@@ -15,8 +15,7 @@ Você pode executar uma transferência de linha de base pela primeira vez em um 
 
 *NOTA*: Não é possível inicializar ou atualizar volumes protegidos por grupos de consistência.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Tem de ter configurado o OnCommand Workflow Automation.
 

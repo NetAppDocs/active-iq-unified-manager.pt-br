@@ -13,8 +13,7 @@ summary: A página de detalhes de VM/integridade de storage exibe informações 
 [role="lead"]
 A página de detalhes de VM/integridade de storage exibe informações sobre as cotas de usuário e grupo de usuários configuradas no SVM. Você pode exibir o nome do usuário ou grupo de usuários, os limites definidos nos discos e arquivos, o espaço usado em disco e arquivo e o endereço de e-mail para notificação.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 .Passos

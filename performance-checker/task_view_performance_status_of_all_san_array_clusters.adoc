@@ -13,8 +13,7 @@ summary: 'Você pode usar a visualização desempenho: Todos os clusters para ex
 [role="lead"]
 Você pode usar a visualização desempenho: Todos os clusters para exibir o status de desempenho dos clusters All SAN Array.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Você pode exibir informações gerais de todos os clusters de storage SAN na exibição desempenho: Todos os clusters e detalhes na página Cluster / Performance Explorer.

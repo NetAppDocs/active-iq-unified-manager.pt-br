@@ -13,8 +13,7 @@ summary: Você pode silenciar uma relação de proteção para impedir temporari
 [role="lead"]
 Você pode silenciar uma relação de proteção para impedir temporariamente a ocorrência de transferências de dados. Você pode desativar um relacionamento quando quiser criar uma cópia Snapshot de um volume de destino do SnapMirror que contém um banco de dados e deseja garantir que seu conteúdo esteja estável durante a cópia Snapshot.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter configurado o Workflow Automation.
 

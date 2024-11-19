@@ -13,8 +13,7 @@ summary: Você pode adicionar valores a anotações e, em seguida, associar obje
 [role="lead"]
 Você pode adicionar valores a anotações e, em seguida, associar objetos de armazenamento a um par de nome-valor de anotação específico. Adicionar valores a anotações ajuda a gerenciar objetos de armazenamento de forma mais eficaz.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Não é possível adicionar valores a anotações predefinidas.

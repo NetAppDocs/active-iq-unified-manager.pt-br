@@ -13,8 +13,7 @@ summary: Você pode remover um cluster do Unified Manager usando a página Confi
 [role="lead"]
 Você pode remover um cluster do Unified Manager usando a página Configuração de cluster. Por exemplo, você pode remover um cluster se a descoberta de cluster falhar ou quando quiser desativar um sistema de storage.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ter a função Administrador do aplicativo ou a função Administrador do armazenamento.
 
 Esta tarefa remove o cluster selecionado do Unified Manager. Depois que um cluster é removido, ele não é mais monitorado. A instância do Unified Manager registrada com o cluster removido também não é registrada do cluster.

@@ -13,8 +13,7 @@ summary: Você pode criar um relatório que exibe tendências de transferência 
 [role="lead"]
 Você pode criar um relatório que exibe tendências de transferência de volume em intervalos de tempo específicos.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

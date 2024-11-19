@@ -13,7 +13,9 @@ summary: Você pode criar um relatório para localizar os clusters com a capacid
 [role="lead"]
 Você pode criar um relatório para localizar os clusters com a capacidade LUN mais não alocada, maior que .5 TB, para ajudar a identificar onde é possível adicionar cargas de trabalho adicionais.
 
-*O que você precisará* * você deve ter a função Administrador de aplicativos ou Administrador de armazenamento.
+.Antes de começar
+* Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
+
 
 Use as etapas a seguir para criar uma exibição personalizada que exiba clusters com a capacidade LUN mais não alocada e, em seguida, programe um relatório a ser gerado para essa exibição.
 

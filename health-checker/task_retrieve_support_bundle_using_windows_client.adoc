@@ -13,8 +13,7 @@ summary: Se você for um usuário do Windows, poderá baixar e instalar uma ferr
 [role="lead"]
 Se você for um usuário do Windows, poderá baixar e instalar uma ferramenta para recuperar o pacote de suporte do servidor do Unified Manager. Você pode enviar o pacote de suporte ao suporte técnico para obter um diagnóstico mais detalhado de um problema. FileZilla ou WinSCP são exemplos de ferramentas que você pode usar.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ser o usuário de manutenção para executar esta tarefa.
 
 Você deve usar uma ferramenta que suporte SCP ou SFTP.

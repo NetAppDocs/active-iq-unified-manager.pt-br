@@ -13,8 +13,7 @@ summary: Você pode criar um relatório para encontrar volumes que tenham um cam
 [role="lead"]
 Você pode criar um relatório para encontrar volumes que tenham um caminho de montagem inacessível.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

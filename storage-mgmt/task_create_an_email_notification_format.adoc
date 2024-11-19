@@ -13,8 +13,7 @@ summary: 'Você pode criar um formato de notificação para os e-mails que são 
 [role="lead"]
 Você pode criar um formato de notificação para os e-mails que são enviados para um usuário ou um grupo de usuários quando houver um problema relacionado à cota (limite de software violado ou limite rígido atingido).
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 .Passos

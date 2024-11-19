@@ -13,8 +13,7 @@ summary: Você pode remover uma política de limite de performance definida pelo
 [role="lead"]
 Você pode remover uma política de limite de performance definida pelo usuário de um objeto de storage quando não quiser mais que o Unified Manager monitore o valor do contador de performance.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações.
 
 Você pode remover apenas uma política de cada vez de um objeto selecionado.

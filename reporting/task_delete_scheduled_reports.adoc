@@ -13,8 +13,7 @@ summary: Depois que os relatórios forem agendados, você poderá excluí-los da
 [role="lead"]
 Depois que os relatórios forem agendados, você poderá excluí-los da página Agenda de relatórios.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

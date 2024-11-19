@@ -1,5 +1,5 @@
 ---
-permalink: health-checker/task_restore_mysql_db_on_linux_or_centos.html 
+permalink: health-checker/task_restore_mysql_db_on_linux.html 
 sidebar: sidebar 
 keywords: restore, linux system, mysql, database, backup 
 summary: Se ocorrer perda de dados ou corrupção de dados, você poderá restaurar o Unified Manager para o estado estável anterior com perda mínima de dados. Você pode restaurar o banco de dados do Unified Manager para um sistema Red Hat Enterprise Linux local ou remoto usando o console de manutenção do Unified Manager. 
@@ -13,8 +13,7 @@ summary: Se ocorrer perda de dados ou corrupção de dados, você poderá restau
 [role="lead"]
 Se ocorrer perda de dados ou corrupção de dados, você poderá restaurar o Unified Manager para o estado estável anterior com perda mínima de dados. Você pode restaurar o banco de dados do Unified Manager para um sistema Red Hat Enterprise Linux local ou remoto usando o console de manutenção do Unified Manager.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Você deve ter as credenciais de usuário raiz para o host Linux no qual o Unified Manager está instalado.
 * Você deve ter uma ID de usuário e senha autorizados para fazer login no console de manutenção do servidor do Unified Manager.
 * Você deve ter copiado o arquivo de backup do Unified Manager e o conteúdo do diretório do repositório do banco de dados para o sistema no qual você executará a operação de restauração.

@@ -13,8 +13,7 @@ summary: Para acessar rapidamente um objeto específico, você pode usar o campo
 [role="lead"]
 Para acessar rapidamente um objeto específico, você pode usar o campo *pesquisar todos os objetos de armazenamento* na parte superior da barra de menus. Este método de pesquisa global em todos os objetos permite localizar rapidamente objetos específicos por tipo. Os resultados da pesquisa são classificados por tipo de objeto de armazenamento e você pode filtrá-los ainda mais por objeto usando o menu suspenso.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Você deve ter uma das seguintes funções para executar esta tarefa: Operador, Administrador de aplicativos ou Administrador de armazenamento.
 * Uma pesquisa válida deve conter pelo menos três carateres.
 

@@ -13,8 +13,7 @@ summary: Se a interface de usuário do Unified Manager não estiver em operaçã
 [role="lead"]
 Se a interface de usuário do Unified Manager não estiver em operação ou se for necessário executar funções que não estejam disponíveis na interface do usuário, você poderá acessar o console de manutenção para gerenciar o sistema do Unified Manager.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você precisa ter instalado e configurado o Unified Manager.
 
 Após 15 minutos de inatividade, o console de manutenção faz o logout.

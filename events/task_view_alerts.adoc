@@ -13,8 +13,7 @@ summary: Pode ver a lista de alertas criados para vários eventos a partir da p�
 [role="lead"]
 Pode ver a lista de alertas criados para vários eventos a partir da página Configuração de alertas. Você também pode exibir propriedades de alerta, como a descrição do alerta, o método e a frequência da notificação, os eventos que acionam o alerta, os destinatários de e-mail dos alertas e os recursos afetados, como clusters, agregados e volumes.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 .Passo

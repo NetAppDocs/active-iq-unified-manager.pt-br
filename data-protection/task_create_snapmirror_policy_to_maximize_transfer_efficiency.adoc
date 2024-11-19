@@ -13,8 +13,7 @@ summary: Você pode criar uma política SnapMirror para especificar a prioridade
 [role="lead"]
 Você pode criar uma política SnapMirror para especificar a prioridade de transferência SnapMirror para relacionamentos de proteção. As políticas do SnapMirror permitem maximizar a eficiência de transferência da origem para o destino, atribuindo prioridades para que as transferências de prioridade mais baixa sejam agendadas para serem executadas após as transferências de prioridade normal.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter configurado o Workflow Automation.
 * Esta tarefa pressupõe que você já concluiu a área informações de destino na caixa de diálogo Configurar proteção.

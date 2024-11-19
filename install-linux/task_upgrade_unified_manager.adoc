@@ -13,14 +13,13 @@ summary: Você pode atualizar o Unified Manager baixando e executando o arquivo 
 [role="lead"]
 Você pode atualizar do Unified Manager 9,13 ou 9,14 para 9,16 baixando e executando o arquivo de instalação na plataforma Linux.
 
-*O que você vai precisar*
-
+.Antes de começar
 * O sistema no qual você está atualizando o Unified Manager deve atender aos requisitos de sistema e software.
 +
 link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Requisitos do sistema de hardware"]Consulte .
 
 +
-link:reference_red_hat_and_centos_software_and_installation_requirements.html["Requisitos de software e instalação do Linux"]Consulte .
+link:reference_red_hat_software_and_installation_requirements.html["Requisitos de software e instalação do Linux"]Consulte .
 
 * Você precisa ter uma assinatura do Red Hat Enterprise Linux Subscription Manager.
 * Você deve instalar ou atualizar para a versão correta do OpenJDK antes de atualizar o Unified Manager.
@@ -30,7 +29,7 @@ link:task_upgrade_openjdk_on_linux_ocum.html["Atualizando o JRE no Linux"]Consul
 * Para evitar a perda de dados, você deve ter criado um backup do banco de dados do Unified Manager caso haja algum problema durante a atualização. O NetApp recomenda que você mova o arquivo de backup do `/opt/netapp/data` diretório para um local externo.
 * Durante a atualização, você pode ser solicitado a confirmar se deseja manter as configurações padrão anteriores para reter dados de desempenho por 13 meses ou alterá-los para 6 meses. Ao confirmar, os dados históricos de desempenho são purgados após 6 meses.
 * Você deve ter concluído todas as operações em execução, pois o Unified Manager não está disponível durante o processo de atualização.
-* O MySQL Community Edition é atualizado automaticamente durante a atualização do Unified Manager. Se a versão instalada do MySQL no seu sistema for anterior à 8,0.34, o processo de atualização do Unified Manager atualizará automaticamente o MySQL para 8,0.34.
+* O MySQL Community Edition é atualizado automaticamente durante a atualização do Unified Manager. Se a versão instalada do MySQL no seu sistema for anterior à 8,0.37, o processo de atualização do Unified Manager atualizará automaticamente o MySQL para 8,0.37.
 
 
 .Passos

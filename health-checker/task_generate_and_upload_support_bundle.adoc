@@ -15,8 +15,7 @@ Você pode gerar um pacote de suporte, contendo informações de diagnóstico, p
 
 A partir do Unified Manager 9,8, se o servidor do Unified Manager estiver conetado à Internet, você também poderá fazer o upload do pacote de suporte para o NetApp a partir do console de manutenção.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ter acesso ao console de manutenção como usuário de manutenção.
 
 Como alguns tipos de dados de suporte podem usar uma grande quantidade de recursos de cluster ou levar muito tempo para serem concluídos, ao selecionar o pacote de suporte completo, você pode especificar tipos de dados a serem incluídos ou excluídos para reduzir o tamanho do pacote de suporte. Você também tem a opção de criar um pacote de suporte leve que contém apenas 30 dias de Registros e Registros de banco de dados de configuração -- exclui dados de desempenho, arquivos de gravação de aquisição e despejo de heap do servidor.

@@ -13,8 +13,7 @@ summary: No Unified Manager, você pode identificar quais workloads têm o maior
 [role="lead"]
 No Unified Manager, você pode identificar quais workloads têm o maior desvio no uso de um componente de storage em contenção. A identificação desses workloads ajuda a determinar se esses workloads devem ser movidos para um cluster menos utilizado.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 * Há um evento dinâmico de desempenho novo, reconhecido ou obsoleto.
 

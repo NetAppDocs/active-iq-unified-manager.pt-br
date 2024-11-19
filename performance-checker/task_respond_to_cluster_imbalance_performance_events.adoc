@@ -13,8 +13,7 @@ summary: O Unified Manager gera eventos de aviso de desequilíbrio de cluster qu
 [role="lead"]
 O Unified Manager gera eventos de aviso de desequilíbrio de cluster quando um nó em um cluster está operando com uma carga muito maior do que outros nós e, portanto, potencialmente afetando as latências de workload. Esses eventos definidos pelo sistema oferecem a oportunidade de corrigir possíveis problemas de desempenho antes que muitos workloads sejam afetados pela latência.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 O Unified Manager gera eventos de aviso para violações de políticas de limite de desequilíbrio de cluster comparando o valor de capacidade de desempenho usado para todos os nós do cluster para ver se há uma diferença de carga de 30% entre todos os nós.

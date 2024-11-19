@@ -13,8 +13,7 @@ summary: Você pode editar relacionamentos de proteção existentes para alterar
 [role="lead"]
 Você pode editar relacionamentos de proteção existentes para alterar a taxa de transferência máxima atual, a política de proteção ou o cronograma de proteção. Você pode editar um relacionamento para diminuir a largura de banda usada para transferências ou aumentar a frequência de transferências agendadas porque os dados estão mudando com frequência.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter instalado e configurado o Workflow Automation.
 

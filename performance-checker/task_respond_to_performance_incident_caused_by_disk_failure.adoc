@@ -13,8 +13,7 @@ summary: Você pode usar o Unified Manager para investigar um evento de performa
 [role="lead"]
 Você pode usar o Unified Manager para investigar um evento de performance causado por cargas de trabalho que sobreutilizam um agregado. Você também pode usar o Unified Manager para verificar a integridade do agregado e verificar se eventos recentes de integridade detetados no agregado contribuíram para o evento de desempenho.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 * Deve haver eventos de desempenho novos, reconhecidos ou obsoletos.
 

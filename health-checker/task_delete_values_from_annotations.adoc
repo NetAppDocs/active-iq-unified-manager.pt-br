@@ -13,8 +13,7 @@ summary: Pode eliminar valores associados a anotações personalizadas quando es
 [role="lead"]
 Pode eliminar valores associados a anotações personalizadas quando esse valor já não se aplica à anotação.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * O valor da anotação não deve estar associado a quaisquer regras de anotação ou regras de grupo.
 

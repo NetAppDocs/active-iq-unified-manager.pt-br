@@ -13,8 +13,7 @@ summary: Você pode usar a caixa de diálogo criar pool de recursos para agrupar
 [role="lead"]
 Você pode usar a caixa de diálogo criar pool de recursos para agrupar agregados para fins de provisionamento.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 .Passos

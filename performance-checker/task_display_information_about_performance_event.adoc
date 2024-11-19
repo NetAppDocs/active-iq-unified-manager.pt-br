@@ -13,8 +13,7 @@ summary: Você pode usar a página de inventário de gerenciamento de eventos pa
 [role="lead"]
 Você pode usar a página de inventário de gerenciamento de eventos para exibir uma lista de todos os eventos de desempenho nos clusters que estão sendo monitorados pelo Unified Manager. Ao visualizar essas informações, você pode determinar os eventos mais críticos e, em seguida, detalhar informações detalhadas para determinar a causa do evento.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 

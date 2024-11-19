@@ -13,8 +13,7 @@ summary: Talvez seja necessário reiniciar o Unified Manager depois de fazer alt
 [role="lead"]
 Talvez seja necessário reiniciar o Unified Manager depois de fazer alterações de configuração.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ter o Privileges administrador do Windows.
 
 .Passos

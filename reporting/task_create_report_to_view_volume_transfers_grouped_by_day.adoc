@@ -13,8 +13,7 @@ summary: Você pode criar um relatório para exibir transferências de volume ag
 [role="lead"]
 Você pode criar um relatório para exibir transferências de volume agrupadas por dia.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

@@ -13,8 +13,7 @@ summary: Faça download do arquivo de instalação do Unified Manager no site de
 [role="lead"]
 Faça download do arquivo de instalação do Unified Manager no site de suporte da NetApp para implantar o Unified Manager como um dispositivo virtual.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ter as credenciais de login para o site de suporte da NetApp.
 
 O arquivo de instalação é um `.tar` arquivo que contém um certificado raiz, um `README` arquivo e um `OVA` arquivo que contém o software Unified Manager configurado para um dispositivo virtual.

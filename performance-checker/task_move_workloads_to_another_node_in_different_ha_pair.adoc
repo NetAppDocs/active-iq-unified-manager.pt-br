@@ -13,8 +13,7 @@ summary: Use o Unified Manager para ajudar a identificar um agregado em um nó e
 [role="lead"]
 Use o Unified Manager para ajudar a identificar um agregado em um nó em um par de HA diferente que esteja menos ocupado do que o par de HA em que seus workloads estão em execução no momento. Depois, você pode mover volumes selecionados para agregados no novo par de HA. Mover workloads de alta performance para um agregado em um nó menos ocupado permite que as cargas de trabalho em ambos os nós tenham desempenho mais eficiente.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 * O cluster precisa consistir em, no mínimo, dois pares de HA. Você não pode usar esse processo de correção se tiver apenas um par de HA no cluster.
 * Você precisa ter registrado os nomes dos dois nós no par de HA que estão tendo o problema de performance no momento.

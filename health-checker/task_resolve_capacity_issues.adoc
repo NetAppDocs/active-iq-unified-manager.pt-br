@@ -13,8 +13,7 @@ summary: Este fluxo de trabalho fornece um exemplo de como você pode resolver u
 [role="lead"]
 Este fluxo de trabalho fornece um exemplo de como você pode resolver um problema de capacidade. Nesse cenário, você é um administrador ou operador e acessa a página do Unified ManagerDashboard para ver se algum dos objetos de storage monitorados tem problemas de capacidade. Você deseja determinar a possível causa e resolução do problema.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Na página Painel, você procura um evento de erro ""espaço de volume cheio"" no painel capacidade na lista suspensa eventos.

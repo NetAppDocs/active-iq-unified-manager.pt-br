@@ -13,8 +13,7 @@ summary: 'Na visualização relacionamento: Todas as relações e na página rel
 [role="lead"]
 Na visualização relacionamento: Todas as relações e na página relacionamentos de volume, você pode exibir o status das relações SnapMirror e SnapVault de volume existentes. Você também pode examinar detalhes sobre relacionamentos de proteção, incluindo status de transferência e atraso, detalhes de origem e destino, informações de programação e política, etc.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Você também pode iniciar comandos de relacionamento a partir desta página.

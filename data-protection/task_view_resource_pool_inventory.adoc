@@ -13,8 +13,7 @@ summary: Você pode usar a página pools de recursos para exibir o inventário d
 [role="lead"]
 Você pode usar a página pools de recursos para exibir o inventário do pool de recursos e monitorar a capacidade restante de cada pool de recursos.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 .Passo

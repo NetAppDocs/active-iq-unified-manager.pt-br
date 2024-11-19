@@ -13,8 +13,7 @@ summary: Você pode excluir um grupo do Unified Manager quando o grupo não for 
 [role="lead"]
 Você pode excluir um grupo do Unified Manager quando o grupo não for mais necessário.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Nenhum dos objetos de storage (clusters, SVMs ou volumes) deve estar associado a qualquer regra de grupo associada ao grupo que você deseja excluir.
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 

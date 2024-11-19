@@ -13,8 +13,7 @@ summary: 'Se você é um usuário UNIX ou Linux, você pode recuperar o pacote d
 [role="lead"]
 Se você é um usuário UNIX ou Linux, você pode recuperar o pacote de suporte do seu vApp usando a interface de linha de comando (CLI) no servidor cliente Linux. Você pode usar SCP ou SFTP para recuperar o pacote de suporte.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você deve ser o usuário de manutenção para executar esta tarefa.
 
 Você deve ter gerado um pacote de suporte usando o console de manutenção e ter o nome do pacote de suporte disponível.

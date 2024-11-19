@@ -1,5 +1,5 @@
 ---
-permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html 
+permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_system.html 
 sidebar: sidebar 
 keywords: unified manager, migrate, virtual, appliance, linux system 
 summary: Você pode restaurar um backup de despejo de banco de dados MySQL do Unified Manager de um dispositivo virtual para um sistema Red Hat Enterprise Linux se quiser alterar o sistema operacional do host no qual o Unified Manager está sendo executado. 
@@ -13,8 +13,7 @@ summary: Você pode restaurar um backup de despejo de banco de dados MySQL do Un
 [role="lead"]
 Você pode restaurar um backup de despejo de banco de dados MySQL do Unified Manager de um dispositivo virtual para um sistema Red Hat Enterprise Linux se quiser alterar o sistema operacional do host no qual o Unified Manager está sendo executado.
 
-*O que você vai precisar*
-
+.Antes de começar
 * No dispositivo virtual:
 +
 ** Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
@@ -23,7 +22,7 @@ Você pode restaurar um backup de despejo de banco de dados MySQL do Unified Man
 
 * No sistema Linux:
 +
-** Você deve ter instalado o Unified Manager em um servidor Linux seguindo as instruções no link:../install-linux/concept_install_unified_manager_on_rhel_or_centos.html["Instalar o Unified Manager em sistemas Linux"].
+** Você deve ter instalado o Unified Manager em um servidor Linux seguindo as instruções no link:../install-linux/concept_install_unified_manager_on_rhel.html["Instalar o Unified Manager em sistemas Linux"].
 ** A versão do Unified Manager neste servidor deve ser a mesma do dispositivo virtual a partir do qual você está usando o arquivo de backup.
 ** Não inicie a IU nem configure clusters, usuários ou configurações de autenticação no sistema Linux após a instalação. O arquivo de backup preenche essas informações durante o processo de restauração.
 ** Você deve ter as credenciais de usuário raiz para o host Linux.

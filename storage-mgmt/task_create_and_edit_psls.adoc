@@ -13,8 +13,7 @@ summary: Quando os níveis de Serviço de performance definidos pelo sistema nã
 [role="lead"]
 Quando os níveis de Serviço de performance definidos pelo sistema não correspondem aos requisitos de workload, você pode criar seus próprios níveis de Serviço de performance otimizados para seus workloads.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações.
 * O nome do nível de Serviço de desempenho deve ser exclusivo e você não pode usar as seguintes palavras-chave reservadas:
 +

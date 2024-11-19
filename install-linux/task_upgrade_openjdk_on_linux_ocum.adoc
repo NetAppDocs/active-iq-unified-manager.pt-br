@@ -13,8 +13,7 @@ summary: Você pode atualizar para uma versão mais recente do OpenJDK no servid
 [role="lead"]
 Você pode atualizar para uma versão mais recente do OpenJDK no servidor Linux no qual o Unified Manager está instalado para obter correções para vulnerabilidades de segurança.
 
-*O que você vai precisar*
-
+.Antes de começar
 Você precisa ter o Privileges raiz para o sistema Linux no qual o Unified Manager está instalado.
 
 Você pode atualizar as versões do OpenJDK dentro das famílias de lançamento. Por exemplo, você pode atualizar do OpenJDK 11.0.14 para o OpenJDK 11,0.17, mas não pode atualizar diretamente do OpenJDK 11 para o OpenJDK 12.

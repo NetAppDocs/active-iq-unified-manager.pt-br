@@ -13,8 +13,7 @@ summary: Você pode excluir uma ação de grupo do Unified Manager quando a aç�
 [role="lead"]
 Você pode excluir uma ação de grupo do Unified Manager quando a ação de grupo não for mais necessária.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Quando você exclui a ação de grupo para o limite de integridade do volume, os limites globais são aplicados aos objetos de storage nesse grupo. Quaisquer limites de integridade no nível do objeto definidos no objeto de storage não são afetados.

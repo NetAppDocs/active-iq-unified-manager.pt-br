@@ -13,8 +13,7 @@ summary: Depois de fazer o download do arquivo de instalação, você implanta o
 [role="lead"]
 Depois de fazer o download do arquivo de instalação, você implanta o Unified Manager como um dispositivo virtual. Use o vSphere Web Client para implantar o dispositivo virtual em um servidor ESXi. Quando você implementa o dispositivo virtual, uma máquina virtual é criada.
 
-*O que você vai precisar*
-
+.Antes de começar
 Deve rever os requisitos do sistema. Faça as alterações necessárias antes de implantar o dispositivo virtual do Unified Manager.
 
 link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Requisitos de infraestrutura virtual"]Consulte .

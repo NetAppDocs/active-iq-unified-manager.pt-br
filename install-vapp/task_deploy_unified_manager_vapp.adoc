@@ -13,8 +13,7 @@ summary: A implantação do Unified Manager inclui o download de software, a imp
 [role="lead"]
 A implantação do Unified Manager inclui o download de software, a implantação do dispositivo virtual, a criação de um nome de usuário e senha de manutenção e a execução da configuração inicial na interface da Web.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Você deve verificar e completar os requisitos do sistema para implantação.
 +
 link:concept_requirements_for_installing_unified_manager.html["Requisitos do sistema"]Consulte .

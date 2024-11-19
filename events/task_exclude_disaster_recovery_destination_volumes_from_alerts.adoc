@@ -13,8 +13,7 @@ summary: Ao configurar alertas de volume, você pode especificar uma cadeia de c
 [role="lead"]
 Ao configurar alertas de volume, você pode especificar uma cadeia de carateres na caixa de diálogo Alerta que identifica um volume ou grupo de volumes. No entanto, se você configurou a recuperação de desastres para SVMs, os volumes de origem e destino têm o mesmo nome, então você receberá alertas para ambos os volumes.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 Você pode desativar alertas de volumes de destino de recuperação de desastres excluindo volumes que tenham o nome do SVM de destino. Isso é possível porque o identificador para eventos de volume contém o nome do SVM e o nome do volume no formato "<svm_name>:/<volume_name>".

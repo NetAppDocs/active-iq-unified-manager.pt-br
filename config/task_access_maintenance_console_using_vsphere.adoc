@@ -13,8 +13,7 @@ summary: Se a interface de usuário do Unified Manager não estiver em operaçã
 [role="lead"]
 Se a interface de usuário do Unified Manager não estiver em operação ou se precisar executar funções que não estejam disponíveis na interface do usuário, você poderá acessar o console de manutenção para reconfigurar seu dispositivo virtual.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Você deve ser o usuário de manutenção.
 * O dispositivo virtual deve ser ligado para acessar o console de manutenção.
 

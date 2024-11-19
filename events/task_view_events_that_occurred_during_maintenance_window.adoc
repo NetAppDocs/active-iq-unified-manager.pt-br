@@ -13,8 +13,7 @@ summary: Se necessário, você pode exibir os eventos que foram gerados para tod
 [role="lead"]
 Se necessário, você pode exibir os eventos que foram gerados para todos os objetos de armazenamento durante uma janela de manutenção do Unified Manager. A maioria dos eventos aparecerá no estado Obsoleto assim que a janela de manutenção estiver concluída e todos os recursos do sistema estiverem em backup e em execução.
 
-*O que você vai precisar*
-
+.Antes de começar
 Pelo menos uma janela de manutenção deve ter sido concluída antes de quaisquer eventos estarem disponíveis.
 
 Os eventos que ocorreram durante uma janela de manutenção não aparecem na página de inventário do Gerenciamento de Eventos por padrão.

@@ -13,8 +13,7 @@ summary: Você pode editar regras de grupo para modificar os grupos de condiçã
 [role="lead"]
 Você pode editar regras de grupo para modificar os grupos de condição e as condições dentro de um grupo de condições para adicionar ou remover objetos de armazenamento de ou para um grupo específico.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 .Passos

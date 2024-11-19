@@ -13,8 +13,7 @@ summary: 'Na visualização Saúde: Todos os volumes, você pode monitorar seu i
 [role="lead"]
 Na visualização Saúde: Todos os volumes, você pode monitorar seu inventário de volumes. A visualização capacidade: Todos os volumes permite visualizar informações sobre a capacidade e a utilização de volumes em um cluster.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 
 Você também pode usar a página Detalhes de volume / Saúde para visualizar informações detalhadas sobre volumes monitorados, incluindo a capacidade, eficiência, configuração e proteção dos volumes. Você também pode exibir informações sobre os dispositivos relacionados e alertas relacionados para um volume específico.

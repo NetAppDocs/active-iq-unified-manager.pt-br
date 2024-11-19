@@ -13,8 +13,7 @@ summary: 'Depois de ter silenciado um relacionamento para impedir que as transfe
 [role="lead"]
 Depois de ter silenciado um relacionamento para impedir que as transferências agendadas ocorram, você pode usar *Resume* na página de detalhes de volume / Saúde para reativar as transferências agendadas para que os dados na origem ou no volume primário sejam protegidos. As transferências são retomadas a partir de um ponto de verificação, se houver, no próximo intervalo de transferência programado.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter configurado o Workflow Automation.
 

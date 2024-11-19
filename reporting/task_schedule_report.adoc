@@ -13,8 +13,7 @@ summary: Depois de ter um arquivo de exibição ou Excel que você deseja agenda
 [role="lead"]
 Depois de ter um arquivo de exibição ou Excel que você deseja agendar para geração e distribuição regulares, você pode agendar o relatório.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter configurado as configurações do servidor SMTP na página *Geral* > *notificações* para que o mecanismo de relatórios possa enviar relatórios como anexos de e-mail para a lista de destinatários do servidor Unified Manager.
 * O servidor de e-mail deve estar configurado para permitir que anexos sejam enviados com os e-mails gerados.

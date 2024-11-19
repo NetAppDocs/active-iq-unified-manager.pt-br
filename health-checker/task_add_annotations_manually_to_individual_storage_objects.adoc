@@ -13,8 +13,7 @@ summary: Você pode anotar manualmente volumes, clusters e SVMs selecionados sem
 [role="lead"]
 Você pode anotar manualmente volumes, clusters e SVMs selecionados sem usar regras de anotação. Você pode anotar um único objeto de armazenamento ou vários objetos de armazenamento e especificar a combinação de par de nome-valor necessária para a anotação.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 .Passos

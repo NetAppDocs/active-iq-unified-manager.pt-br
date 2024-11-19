@@ -13,8 +13,7 @@ summary: 'No Unified Manager, é possível identificar quais workloads têm o ma
 [role="lead"]
 No Unified Manager, é possível identificar quais workloads têm o maior desvio no uso de um componente de cluster na contenção. A identificação desses workloads ajuda a entender por que certos volumes no cluster têm tempos de resposta (latência) lentos.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.
 * Deve haver eventos de desempenho dinâmico novos, reconhecidos ou obsoletos.
 

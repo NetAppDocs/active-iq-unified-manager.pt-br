@@ -13,8 +13,7 @@ summary: Quando um volume não é thin Provisioning, ele ocupa a quantidade tota
 [role="lead"]
 Quando um volume não é thin Provisioning, ele ocupa a quantidade total de espaço no disco, conforme definido quando o volume foi criado. A identificação de volumes com thin Provisioning desativado ajuda a decidir se deseja ativar o thin Provisioning em determinados volumes.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 
 

@@ -13,8 +13,7 @@ summary: 'Você pode desinstalar o Unified Manager removendo a máquina virtual 
 [role="lead"]
 Você pode desinstalar o Unified Manager removendo a máquina virtual (VM) na qual o software Unified Manager está instalado.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Você deve ter credenciais para acessar o VMware vCenter Server e o vSphere Web Client.
 * Qualquer conexão ativa do servidor do Unified Manager a um servidor do Workflow Automation deve ser fechada.
 * Todos os clusters (fontes de dados) devem ser removidos do servidor do Unified Manager antes de remover a máquina virtual (VM).

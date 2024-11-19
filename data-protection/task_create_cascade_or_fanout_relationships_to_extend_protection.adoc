@@ -15,8 +15,7 @@ Você pode estender a proteção de um relacionamento existente criando um fanou
 
 Você pode estender a proteção a volumes usando o grupo consistência, que é um contêiner que contém vários volumes para que você possa gerenciar todos os volumes como uma entidade. Você pode exibir o grupo de consistência de sincronização ativa do SnapMirror e a relação de grupo de consistência síncrona na página relacionamentos do Gerenciador Unificado.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você deve ter configurado o Workflow Automation.
 

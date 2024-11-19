@@ -13,8 +13,7 @@ summary: 'Crie um relatório personalizado de amostra para experimentar a explor
 [role="lead"]
 Crie um relatório personalizado de amostra para experimentar a exploração de visualizações e relatórios de agendamento. Esse relatório de início rápido encontra uma lista de volumes que você pode querer migrar para a categoria de nuvem porque há uma quantidade razoável de dados inativos (frios). Você abrirá a exibição desempenho: Todos os volumes, personalizará a exibição usando filtros e colunas, salvará a exibição personalizada como um relatório e agendará o relatório para compartilhar uma vez por semana.
 
-*O que você vai precisar*
-
+.Antes de começar
 * Tem de ter a função Administrador de aplicações ou Administrador de armazenamento.
 * Você precisa ter agregados FabricPool configurados e ter volumes nesses agregados.
 

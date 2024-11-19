@@ -18,8 +18,7 @@ NOTE: As regras do Active IQ também são chamadas de regras seguras do Config A
 
 Quando você estiver instalando ou atualizando o Unified Manager para uma versão específica em um site sem conetividade de rede, as regras do Active IQ empacotadas estarão automaticamente disponíveis para upload. No entanto, é recomendável baixar um novo arquivo de regras aproximadamente uma vez por mês no site de suporte da NetApp para garantir que os eventos atualizados sejam gerados e que seus sistemas de storage continuem a ter um desempenho ideal.
 
-*O que você vai precisar*
-
+.Antes de começar
 * O relatório de eventos do portal Active IQ deve estar ativado. Esta funcionalidade está ativada por predefinição. Para obter informações, link:../config/concept_active_iq_platform_events.html["Ativar eventos do portal Active IQ"]consulte .
 * Você deve baixar o arquivo de regras do site de suporte da NetApp.
 +

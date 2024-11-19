@@ -13,8 +13,7 @@ summary: Você pode excluir um alerta quando ele não for mais necessário. Por 
 [role="lead"]
 Você pode excluir um alerta quando ele não for mais necessário. Por exemplo, você pode excluir um alerta criado para um recurso específico quando esse recurso não for mais monitorado pelo Unified Manager.
 
-*O que você vai precisar*
-
+.Antes de começar
 Tem de ter a função Administrador de aplicações.
 
 .Passos
