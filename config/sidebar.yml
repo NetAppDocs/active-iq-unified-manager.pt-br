@@ -32,8 +32,10 @@ entries:
       url: "/config/task_add_alerts.html"
   - title: Alterar a palavra-passe do utilizador local
     url: "/config/task_change_local_user_password.html"
-  - title: Definir o tempo limite de inatividade da sessão
+  - title: Defina o tempo limite de inatividade da sessão
     url: "/config/task_set_session_inactivity_timeout.html"
+  - title: Defina o tempo limite da sessão através da CLI
+    url: "/config/task_set_session_timeout_CLI.html"
   - title: Alterando o nome do host do Unified Manager
     url: "/config/concept_change_unified_manager_host_name.html"
     entries:

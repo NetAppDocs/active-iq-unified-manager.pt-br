@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: inactivity, timeout 
 summary: 'Você pode especificar o valor de tempo limite de inatividade do Unified Manager para que a sessão seja encerrada automaticamente após um determinado período de tempo. Por padrão, o tempo limite é definido para 4.320 minutos (72 horas).' 
 ---
-= Definir o tempo limite de inatividade da sessão
+= Defina o tempo limite de inatividade da sessão
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Você pode especificar o valor de tempo limite de inatividade do Unified Manager para que a sessão seja encerrada automaticamente após um determinado período de tempo. Por padrão, o tempo limite é definido para 4.320 minutos (72 horas).
+Você pode especificar o valor de tempo limite de inatividade do Unified Manager para que a sessão seja encerrada automaticamente após um determinado período de inatividade. Por padrão, o tempo limite é definido para 4.320 minutos (72 horas).
 
 .Antes de começar
 Tem de ter a função Administrador de aplicações.

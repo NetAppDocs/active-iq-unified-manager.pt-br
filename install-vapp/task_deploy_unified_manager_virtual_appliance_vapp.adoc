@@ -55,12 +55,9 @@ Na página Detalhes da revisão:
 
 +
 ** Verifique os detalhes da seção Publisher. A mensagem *Entrust Code Signing - OVCS2 (certificado confiável)* confirma a integridade do arquivo baixado `OVA`. Se você vir a mensagem *Entrust Code Signing - OVCS2 (Invalid certificate)*, atualize o VMware vCenter Server para a versão 7.0U3E ou superior.
-
-
 +
 Na página Personalizar modelo:
 
-+
 ** Deixe todos os campos em branco ao usar endereçamento DHCP e IPv4.
 ** Marque a caixa ""Ativar endereçamento IPv6 automático"" e deixe todos os outros campos em branco ao usar endereçamento DHCP e IPv6.
 ** Se você quiser usar uma configuração de rede estática, você pode preencher os campos nesta página e essas configurações serão aplicadas durante a implantação. Certifique-se de que o endereço IP é exclusivo para o host no qual ele é implantado, que ele ainda não está em uso e que ele tem uma entrada DNS válida.

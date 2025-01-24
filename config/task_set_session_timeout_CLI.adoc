@@ -1,0 +1,24 @@
+---
+permalink: config/task_set_session_timeout_CLI.html 
+sidebar: sidebar 
+keywords: session timeout, CLI, maximum 
+summary: Você pode definir um valor máximo de tempo limite da sessão para o Unified Manager usando a CLI para que a sessão seja encerrada automaticamente após um determinado período de tempo. 
+---
+= Defina o tempo limite da sessão através da CLI
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode definir um valor máximo de tempo limite da sessão para o Unified Manager usando a CLI para que a sessão seja encerrada automaticamente após um determinado período de tempo. Por padrão, o tempo limite da sessão é definido para o valor máximo, que é de 4.320 minutos (72 horas). Isso significa que sua sessão termina automaticamente após 72 horas, mesmo se você estiver conetado e usando o Unified Manager ativamente.
+
+.Sobre esta tarefa
+Tem de ter a função Administrador de aplicações.
+
+A definição de tempo limite da sessão afeta todas as sessões de utilizador com sessão iniciada.
+
+.Passos
+. Faça login na CLI do Unified Manager digitando o `um cli login` comando. Use um nome de usuário e senha válidos para autenticação.
+. Introduza o `um option set max.session.timeout.value=<in mins>` para modificar o valor de tempo limite da sessão.
+
