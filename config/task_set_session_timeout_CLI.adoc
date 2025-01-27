@@ -20,5 +20,5 @@ A definição de tempo limite da sessão afeta todas as sessões de utilizador c
 
 .Passos
 . Faça login na CLI do Unified Manager digitando o `um cli login` comando. Use um nome de usuário e senha válidos para autenticação.
-. Introduza o `um option set max.session.timeout.value=<in mins>` para modificar o valor de tempo limite da sessão.
+. Digite o `um option set max.session.timeout.value=<in mins>` comando para modificar o valor de tempo limite da sessão.
 
