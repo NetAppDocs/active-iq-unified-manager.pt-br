@@ -5340,7 +5340,6 @@
   <block id="3f49ae06c1af2c81b1e8989e397b26f2" category="paragraph">Indica se o cluster tem um ou mais servidores NTP configurados. Para redundância e melhor serviço, a NetApp recomenda que você associe pelo menos três servidores NTP ao cluster.</block>
   <block id="61aa63eb3ac1c3408640463ee5fe8aa3" category="paragraph">Configurado</block>
   <block id="77b7590086fef2448bd31b90bf127474" category="paragraph">OCSP</block>
-  <block id="17eb499cf93e940dabb77ab4cc167dba" category="paragraph">Indica se existem aplicações no ONTAP que não estão configuradas com OCSP (Protocolo de estado de certificado online) e, por conseguinte, as comunicações não estão encriptadas. As aplicações não compatíveis estão listadas.</block>
   <block id="559944e88ab64748857dfbbb5241e7cb" category="paragraph">Registo de auditoria remota</block>
   <block id="fe81c90ed55ff90f9e976347ff39d039" category="paragraph">Indica se o encaminhamento de registos (Syslog) está encriptado ou não encriptado.</block>
   <block id="07a3a798567f5e260ac46f63e67fd1d1" category="paragraph">Transporte AutoSupport HTTPS</block>
@@ -11989,4 +11988,5 @@
   <block id="87f28bb3e003a131724329ce1f8b7e35" category="paragraph">A definição de tempo limite da sessão afeta todas as sessões de utilizador com sessão iniciada.</block>
   <block id="9a50289207c5c1a11d0959e0985b20cf" category="list-text">Faça login na CLI do Unified Manager digitando o<block ref="e9fa1c3ff424bc99b177f43b6ac2844b" prefix=" " category="inline-code"></block> comando. Use um nome de usuário e senha válidos para autenticação.</block>
   <block id="d0613f9dacd2054b89ab7de88b10e711" category="list-text">Digite o<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block> comando para modificar o valor de tempo limite da sessão.</block>
+  <block id="3d937fc01fa5cc206639b1a0a897e80d" category="paragraph">A partir de 9.14.1, o Active IQ Unified Manager fornece informações de status de protocolo de status de certificado on-line (OCSP) no nível de máquina virtual de armazenamento (SVM, anteriormente conhecido como SVM). Isso significa que a validação OCSP é aplicada a todas as conexões SSL/TLS feitas ao SVM e garante a integridade e validade dos certificados usados nessas conexões.</block>
 </blocks>
