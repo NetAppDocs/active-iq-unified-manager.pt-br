@@ -8035,7 +8035,6 @@
   <block id="97acc1a41f0c48f305dbbeb45d754400" category="admonition">O NetApp não oferece suporte à instalação do Gerenciador Unificado usando ferramentas de terceiros, como o Gerenciador de Configuração do Centro de sistema (SCCM) da Microsoft.</block>
   <block id="8d6a739fdd6cb955643a976d6419979f" category="paragraph">O servidor deve ser dedicado à execução do Unified Manager. Nenhum outro aplicativo deve ser instalado no servidor. É possível que um software antivírus ativo esteja instalado em seu sistema Windows por causa dos regulamentos da empresa. Você deve desativar o software antivírus antes de instalar o Unified Manager para evitar que a instalação falhe.</block>
   <block id="ffbed9334b8ec87b5d47c862a02cb5ec" category="paragraph">Os seguintes pacotes de terceiros são empacotados com o Unified Manager. Se esses pacotes de terceiros não estiverem instalados no sistema, o Unified Manager os instalará como parte da instalação.</block>
-  <block id="3d89b288e65d6d87dbc31d2d93a06f41" category="list-text">p7zip versão 23,01 ou posterior</block>
   <block id="7a296bb9772806c9ddf9f83ed9bb3d5f" category="paragraph">A partir do Unified Manager 9,5, o OpenJDK é fornecido no pacote de instalação do Unified Manager e instalado automaticamente. O Oracle Java não é suportado a partir do Unified Manager 9,5.</block>
   <block id="dd2148991fe37222c2cd074a08be9207" category="paragraph">Se o MySQL estiver pré-instalado, você deve garantir que:</block>
   <block id="a0c0b34e406d28d454ddf495e72c1cb9" category="list-text">Ele está usando a porta padrão.</block>
@@ -11989,4 +11988,5 @@
   <block id="9a50289207c5c1a11d0959e0985b20cf" category="list-text">Faça login na CLI do Unified Manager digitando o<block ref="e9fa1c3ff424bc99b177f43b6ac2844b" prefix=" " category="inline-code"></block> comando. Use um nome de usuário e senha válidos para autenticação.</block>
   <block id="d0613f9dacd2054b89ab7de88b10e711" category="list-text">Digite o<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block> comando para modificar o valor de tempo limite da sessão.</block>
   <block id="3d937fc01fa5cc206639b1a0a897e80d" category="paragraph">A partir de 9.14.1, o Active IQ Unified Manager fornece informações de status de protocolo de status de certificado on-line (OCSP) no nível de máquina virtual de armazenamento (SVM, anteriormente conhecido como SVM). Isso significa que a validação OCSP é aplicada a todas as conexões SSL/TLS feitas ao SVM e garante a integridade e validade dos certificados usados nessas conexões.</block>
+  <block id="af95c5c8b4d0fa2b905341b11918dede" category="list-text">7-zip versão 23,01 ou posterior</block>
 </blocks>
