@@ -294,4 +294,15 @@ WebSocket sobre TCP
  a| 
 Usado para ouvir nessa porta as mensagens recebidas do ONTAP (agente de nuvem). A comunicação através desta porta suporta encriptação fornecida por TLS ou SSL.
 
+
+
+ a| 
+Syslog
+ a| 
+UDP
+ a| 
+514
+ a| 
+Usado pelo Unified Manager para enviar logs de auditoria para um servidor syslog remoto.
+
 |===
