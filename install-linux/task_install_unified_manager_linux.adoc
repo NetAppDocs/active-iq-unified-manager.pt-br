@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager 
 summary: Você pode instalar o Unified Manager em uma plataforma virtual ou física do Red Hat Enterprise Linux. 
 ---
-= Instalar o Unified Manager
+= Instale o Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -39,14 +39,14 @@ O sistema Red Hat Enterprise Linux pode ter todas as versões necessárias do so
 
 
  a| 
-OpenJDK versão 11.0.23
+OpenJDK versão 11.0.25
  a| 
 `java -version`
 
 
 
  a| 
-MySQL 8.0.37 Community Edition
+MySQL 8.4.4 Community Edition
  a| 
 `rpm -qa | grep -i mysql`
 
@@ -58,7 +58,7 @@ p7zip 16,02
 `rpm -qa | grep p7zip`
 
 |===
-. Se a versão instalada do MySQL for anterior ao MySQL 8.0.37 Community Edition, digite o seguinte comando para desinstalá-lo:
+. Se a versão instalada do MySQL for anterior ao MySQL 8.4.4 Community Edition, digite o seguinte comando para desinstalá-lo:
 +
 `rpm -e <mysql_package_name>`
 
@@ -126,7 +126,7 @@ Este comando instala os pacotes .rpm, todos os outros softwares de suporte neces
 Se a instalação falhar com o erro GPG NOKEY , use `rpm --import` para importar as chaves de um URL:
 
 +
-`rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022`
+rpm --import  https://repo.mysql.com/RPM-GPG-KEY-mysql-2023[]
 
 +
 [NOTE]

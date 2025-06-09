@@ -24,7 +24,7 @@ As seguintes versões do VMware ESXi são suportadas:
 
 [NOTE]
 ====
-O Unified Manager OVA em sistemas VMware vSphere executa o Debian os 11 (bullseye) internamente. Para obter informações sobre as versões do hardware da máquina virtual que as versões suportadas dos servidores ESXi podem suportar, consulte a documentação da VMware.
+O Unified Manager OVA em sistemas VMware vSphere executa o Debian OS 12 (bookworm) internamente. Para obter informações sobre as versões do hardware da máquina virtual que as versões suportadas dos servidores ESXi podem suportar, consulte a documentação da VMware.
 
 ====
 As seguintes versões do vSphere são suportadas:

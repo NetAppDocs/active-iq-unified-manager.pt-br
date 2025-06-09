@@ -33,7 +33,7 @@ A partir do Unified Manager 9,5, o OpenJDK é fornecido no pacote de instalaçã
 Certifique-se de que o Microsoft .NET 4.5.2 ou superior esteja instalado no seu sistema antes de iniciar a atualização.
 
 ====
-* O MySQL Community Edition é atualizado automaticamente durante a atualização do Unified Manager. Se a versão instalada do MySQL no seu sistema for anterior à 8,0.37, o processo de atualização do Unified Manager atualizará automaticamente o MySQL para 8,0.37. Você não deve executar uma atualização autônoma de uma versão anterior do MySQL para 8,0.37.
+* O MySQL Community Edition é atualizado automaticamente durante a atualização do Unified Manager. Se a versão instalada do MySQL no seu sistema for anterior à 8,4.4, o processo de atualização do Unified Manager atualizará automaticamente o MySQL para 8,4.4. Você não deve executar uma atualização autônoma de uma versão anterior do MySQL para 8,4.4.
 * Todos os clusters são compatíveis, com exceção dos sistemas ASA R2.
 * Você deve ter o administrador do Windows Privileges. Certifique-se de que o seu nome de utilizador não começa com um ponto de exclamação "!`". Installation of Unified Manager might fail if the user name of user running the installation begins with "`" !".
 * Você deve ter credenciais válidas para fazer login no site de suporte da NetApp.
