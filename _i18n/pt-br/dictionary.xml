@@ -8035,7 +8035,6 @@
   <block id="dd2148991fe37222c2cd074a08be9207" category="paragraph">Se o MySQL estiver pré-instalado, você deve garantir que:</block>
   <block id="a0c0b34e406d28d454ddf495e72c1cb9" category="list-text">Ele está usando a porta padrão.</block>
   <block id="ae6546f7996b91aa7c6e5c482b07f791" category="list-text">Os bancos de dados de amostra não estão instalados.</block>
-  <block id="a7b80eacf1b625bed035aa3b2a92bc46" category="list-text">O nome do serviço é "MYSQL8".</block>
   <block id="f44cea6cd02b888cc6cc539426598769" category="paragraph">Você deve encerrar uma instância em execução do Unified Manager antes de atualizar qualquer software de terceiros. Depois que a instalação de software de terceiros estiver concluída, você poderá reiniciar o Unified Manager.</block>
   <block id="8477864d39c6c8b50036cae20894546f" category="list-text">O Microsoft .NET 4,5.2, ou superior, deve ser instalado.</block>
   <block id="33a0a151920146dd7e37684e9810ec5f" category="list-text">O<block ref="3d801aa532c1cec3ee82d87a99fdf63f" prefix=" " category="inline-code"></block> diretório deve ser configurado com 2 GB de espaço em disco para extrair os arquivos de instalação. Para verificar se o diretório foi criado, execute o seguinte comando na interface de linha de comando:<block ref="269dfafa18b3a1f37602d6a276b07399" prefix=" " category="inline-code"></block></block>
@@ -8156,7 +8155,6 @@
   <block id="31c19d26868a7ff439c08ee8860902af" category="paragraph"><block ref="e61baa5c67d7dd8dca5b3e09283635ed" category="inline-link-rx"></block>.</block>
   <block id="4efb5660712f35a71f61f3b4e61e725a" category="paragraph">O Unified Manager solicita a seguinte mensagem:</block>
   <block id="32f4e1038b4549da08da982f44dd8d0b" category="list-text">Clique em *Yes* e, em seguida, clique em *Next*.</block>
-  <block id="e4ef4ba9b55c3985f475fd7b3b042458" category="list-text">Digite a senha de root do MySQL8 que foi definida durante a instalação e clique em *Next*.</block>
   <block id="f91923991c8993a30a6a751c98474af6" category="list-text">Inicie a IU da Web em uma nova janela em um navegador da Web compatível e faça login para usar a versão atualizada do Unified Manager.</block>
   <block id="95321bf41584f0af5249cfe77a131451" category="list-text">Se tiver um software antivírus ativo instalado no sistema Windows, certifique-se de excluir manualmente os seguintes caminhos da verificação antivírus após a conclusão da atualização:</block>
   <block id="ed656b4cd67ab83186099ee9d974a826" category="paragraph">Para executar uma atualização silenciosa do Unified Manager, execute o seguinte comando:<block ref="ba35301ee702ac52f567f1cb78ab2350" prefix=" " category="inline-code"></block></block>
@@ -12003,4 +12001,6 @@
   <block id="a0e6619df3d203259475fb9e2836a790" category="inline-link-macro">Guia de reforço de segurança para o relatório técnico do NetApp Manageability SDK</block>
   <block id="e7f66239d2584f7db44917f4b82c3d75" category="list-text">Ao instalar o Unified Manager no Windows, instale o Logrotate versão 0.0.0.18. Para obter mais informações, consulte <block ref="613e5c3b9e425f3372aa73a0b93d00d2" category="inline-link-macro-rx"></block>.</block>
   <block id="ba4a3eda92613705933538adb5a397dd" category="list-text">Inicie o Unified Manager.</block>
+  <block id="ce2dd12c3d92be4f64774b3618022463" category="list-text">O nome do serviço é "`MYSQL84`".</block>
+  <block id="c954aa3da908a18730111db3143d3c49" category="list-text">Digite a senha de root do MySQL84 que foi definida durante a instalação e clique em *Next*.</block>
 </blocks>
