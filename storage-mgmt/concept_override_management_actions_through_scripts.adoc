@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: override, management, actions, scripts 
 summary: Você pode criar scripts personalizados e associá-los a alertas para realizar ações específicas para eventos específicos e não optar pelas ações de gerenciamento padrão disponíveis para eles na página ações de gerenciamento ou no painel do Unified Manager. 
 ---
-= Substituindo ações de gerenciamento por meio de scripts
+= Substituir ações de gerenciamento por meio de scripts
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

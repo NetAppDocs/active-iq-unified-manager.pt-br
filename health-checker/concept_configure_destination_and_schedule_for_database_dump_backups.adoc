@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, destination, schedule, database dump, backups, snapshot copy, copies 
 summary: Você pode configurar as configurações de backup de despejo de banco de dados do Unified Manager para definir o caminho de backup do banco de dados, a contagem de retenção e o agendamento de backup. Você pode ativar backups programados diários ou semanais. Por padrão, os backups programados são desativados, mas você deve definir uma programação de backup. 
 ---
-= Configurando o destino e o agendamento para backups de despejo de banco de dados
+= Configurar o destino e a programação para backups de despejo do banco de dados
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

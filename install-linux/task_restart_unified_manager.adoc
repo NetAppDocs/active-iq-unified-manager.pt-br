@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restart, unified manager 
 summary: Talvez seja necessário reiniciar o Unified Manager depois de fazer alterações de configuração. 
 ---
-= Reiniciando o Unified Manager
+= Reiniciar o Gerenciador Unificado
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, node, root, volumes 
 summary: Você pode monitorar o volume raiz do nó usando o Unified Manager. A prática recomendada é que o volume raiz do nó deve ter capacidade suficiente para impedir que o nó caia. 
 ---
-= Compreendendo os volumes raiz dos nós
+= Entenda os volumes raiz do nó
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, remote, logging, audit, logs 
 summary: Pode selecionar a caixa de verificação Ativar registo remoto na caixa de diálogo Configurar registos de auditoria para ativar o registo de auditoria remota. Você pode usar esse recurso para transferir logs de auditoria para um servidor Syslog remoto. Isso permitirá que você gerencie seus logs de auditoria quando houver restrições de espaço. 
 ---
-= Ativar o registo remoto de registos de auditoria
+= Habilitar registro remoto de logs de auditoria
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

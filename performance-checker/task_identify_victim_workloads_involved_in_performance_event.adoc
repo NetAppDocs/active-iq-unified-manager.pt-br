@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, victim workloads, dynamic, performance, event 
 summary: 'No Unified Manager, você pode identificar quais workloads de volume têm o maior desvio no tempo de resposta (latência) causado por um componente de storage na contenção. Identificar essas cargas de trabalho ajuda você a entender por que os aplicativos clientes que os acessam têm tido um desempenho mais lento do que o normal.' 
 ---
-= Identificação das cargas de trabalho da vítima envolvidas em um evento de desempenho dinâmico
+= Identificar cargas de trabalho de vítimas envolvidas em um evento de desempenho dinâmico
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

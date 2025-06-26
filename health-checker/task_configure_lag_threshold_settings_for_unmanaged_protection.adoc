@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, lag, threshold settings, unmanaged, protection, relationships 
 summary: Você pode editar as configurações de aviso de atraso padrão global e limite de integridade de erro para relacionamentos de proteção não gerenciados para que os eventos sejam gerados em intervalos adequados às suas necessidades. 
 ---
-= Configuração de configurações de limite de atraso para relacionamentos de proteção não gerenciados
+= Configurar as configurações de limite de atraso para relacionamentos de proteção não gerenciados
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

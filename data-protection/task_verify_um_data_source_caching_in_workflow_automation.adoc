@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: verify, unified manager, data source, cache, workflow automation 
 summary: Você pode determinar se o armazenamento em cache da fonte de dados do Unified Manager está funcionando corretamente verificando se a aquisição da fonte de dados é bem-sucedida no Workflow Automation. Você pode fazer isso quando integrar o Workflow Automation ao Unified Manager para garantir que a funcionalidade do Workflow Automation esteja disponível após a integração. 
 ---
-= Verificando o armazenamento em cache da fonte de dados do Unified Manager no Workflow Automation
+= Verificar o cache da fonte de dados do Unified Manager no Workflow Automation
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

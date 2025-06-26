@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, scripts 
 summary: Você pode adicionar scripts no Unified Manager e associar os scripts a alertas. Esses scripts são executados automaticamente quando um alerta é gerado e permitem obter informações sobre objetos de armazenamento para os quais o evento é gerado. 
 ---
-= Adicionando scripts
+= Adicionar scripts
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

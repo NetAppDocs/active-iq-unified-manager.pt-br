@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, clusters 
 summary: Você pode modificar as configurações de um cluster existente, como nome do host ou endereço IP, nome de usuário, senha e porta, usando a caixa de diálogo Editar cluster. 
 ---
-= Edição de clusters
+= Editar clusters
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

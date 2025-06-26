@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, performance, capacity, used, values 
 summary: Você pode monitorar os valores de capacidade de performance usados para todos os nós ou para todos os agregados em um cluster, ou visualizar detalhes de um único nó ou agregado. 
 ---
-= Exibindo valores de capacidade de desempenho agregado e nó usados
+= Exibir valores usados de capacidade de desempenho de nó e agregado
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -17,7 +17,7 @@ Os valores de capacidade de desempenho usados são exibidos no Painel, nas pági
 
 image::../media/node_inventory_used_headroom.gif[Uma captura de tela da IU da página desempenho: Todos os agregados]
 
-O monitoramento do contador de capacidade de desempenho usado permite identificar o seguinte:
+Monitorar a capacidade de desempenho utilizada pelo contador permite identificar o seguinte:
 
 * Independentemente de nós ou agregados em qualquer cluster terem um valor usado de alta capacidade de performance
 * Mesmo que nós ou agregados em qualquer cluster tenham eventos usados de capacidade de performance ativa

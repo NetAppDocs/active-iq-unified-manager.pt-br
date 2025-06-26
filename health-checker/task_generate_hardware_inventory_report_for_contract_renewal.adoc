@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: contract, renewal, cluster, inventory report, hardware, generate 
 summary: 'Você pode gerar um relatório que contém uma lista completa de informações de cluster e nó, como números de modelo de hardware e números de série, tipos e contagens de disco, licenças instaladas e muito mais. Este relatório é útil para a renovação de contratos em sites seguros ("dark" sites) que não estejam conetados à plataforma NetAppactive IQ.' 
 ---
-= Gerando um relatório de inventário de hardware para renovação de contrato
+= Gerar um relatório de inventário de hardware para renovação de contrato
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

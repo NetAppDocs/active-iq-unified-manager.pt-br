@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, users, groups 
 summary: É possível excluir um ou mais usuários do banco de dados do servidor de gerenciamento para impedir que usuários específicos acessem o Unified Manager. Você também pode excluir grupos para que todos os usuários do grupo não possam mais acessar o servidor de gerenciamento. 
 ---
-= Eliminar utilizadores ou grupos
+= Excluir usuários ou grupos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

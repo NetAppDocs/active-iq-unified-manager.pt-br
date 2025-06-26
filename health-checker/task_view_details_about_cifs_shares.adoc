@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: smb, cifs, view, shares, details 
 summary: 'Você pode exibir detalhes sobre todos os compartilhamentos SMB/CIFS, como nome do compartilhamento, caminho de junção, contendo objetos, configurações de segurança e políticas de exportação definidas para o compartilhamento. Use a visualização integridade: Todos os compartilhamentos SMB para ver todos os compartilhamentos SMB em todos os clusters monitorados e use a página de detalhes de integridade/VM de storage para exibir todos os compartilhamentos SMB em uma máquina virtual de storage específica (SVM).' 
 ---
-= Exibindo detalhes sobre compartilhamentos SMB/CIFS
+= Ver detalhes sobre ações SMB/CIFS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

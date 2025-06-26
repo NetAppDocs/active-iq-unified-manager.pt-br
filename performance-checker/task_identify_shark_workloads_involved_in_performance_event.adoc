@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, shark workloads, involved, dynamic, performance, event 
 summary: No Unified Manager, você pode identificar quais workloads têm o maior desvio no uso de um componente de storage em contenção. A identificação desses workloads ajuda a determinar se esses workloads devem ser movidos para um cluster menos utilizado. 
 ---
-= Identificação de cargas de trabalho do SHARK envolvidas em um evento de desempenho dinâmico
+= Identificar cargas de trabalho de tubarão envolvidas em um evento de desempenho dinâmico
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

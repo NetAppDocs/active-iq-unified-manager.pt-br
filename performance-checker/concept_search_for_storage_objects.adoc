@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, storage, objects 
 summary: Para acessar rapidamente um objeto específico, você pode usar o campo pesquisar todos os objetos de armazenamento na parte superior da barra de menus. Este método de pesquisa global em todos os objetos permite localizar rapidamente objetos específicos por tipo. Os resultados da pesquisa são classificados por tipo de objeto de armazenamento e você pode filtrá-los usando o menu suspenso. Uma pesquisa válida deve conter pelo menos três carateres. 
 ---
-= A procurar objetos de armazenamento
+= Pesquisar objetos de armazenamento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

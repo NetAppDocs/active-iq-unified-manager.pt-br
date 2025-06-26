@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, users 
 summary: Você pode usar a página usuários para exibir a lista de usuários que gerenciam dados e objetos de storage usando o Unified Manager. Você pode exibir detalhes sobre os usuários, como nome de usuário, tipo de usuário, endereço de e-mail e a função atribuída aos usuários. 
 ---
-= Visualização de usuários
+= Ver usuários
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

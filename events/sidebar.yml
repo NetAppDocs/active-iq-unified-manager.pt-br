@@ -2,7 +2,7 @@
 section: events
 title: Gerenciar eventos e alertas
 entries:
-- title: Gerenciamento de eventos
+- title: Gerenciar eventos
   url: "/events/concept_manage_events.html"
   entries:
   - title: Quais são os eventos da plataforma Active IQ
@@ -16,41 +16,41 @@ entries:
       url: "/events/task_subscribe_to_ontap_ems_events.html"
   - title: O que acontece quando um evento é recebido
     url: "/events/concept_what_happens_when_an_event_is_received.html"
-  - title: Visualização de eventos e detalhes do evento
+  - title: Ver eventos e detalhes dos eventos
     url: "/events/task_view_event_details.html"
-  - title: Exibindo eventos não atribuídos
+  - title: Ver eventos não atribuídos
     url: "/events/task_view_unassigned_events.html"
   - title: Reconhecer e resolver eventos
     url: "/events/task_acknowledge_and_resolve_events.html"
-  - title: Atribuindo eventos a usuários específicos
+  - title: Atribuir eventos a usuários específicos
     url: "/events/task_assign_events_to_specific_users.html"
   - title: Desativar eventos indesejados
     url: "/events/task_disable_unwanted_events.html"
-  - title: Correção de problemas usando as correções automáticas do Unified Manager
+  - title: Corrigir problemas usando correções automáticas do Unified Manager
     url: "/events/task_fix_issues_using_um_automatic_remediations.html"
-  - title: Ativar e desativar relatórios de eventos do Active IQ
+  - title: Habilitar e desabilitar relatórios de eventos do Active IQ
     url: "/events/task_enable_and_disable_active_iq_event_reporting.html"
-  - title: Carregar um novo ficheiro de regras do Active IQ
+  - title: Carregar um novo arquivo de regras do Active IQ
     url: "/events/task_upload_new_active_iq_rules_file.html"
   - title: Como os eventos da plataforma Active IQ são gerados
     url: "/events/concept_how_active_iq_platform_events_are_generated.html"
-  - title: Resolvendo eventos da plataforma Active IQ
+  - title: Resolver eventos da plataforma Active IQ
     url: "/events/concept_resolve_active_iq_platform_events.html"
-  - title: Configuração das configurações de retenção de eventos
+  - title: Configurar definições de retenção de eventos
     url: "/events/task_configure_event_retention_settings.html"
   - title: O que é uma janela de manutenção do Unified Manager
     url: "/events/concept_what_um_maintenance_window_is.html"
     entries:
-    - title: Agendar uma janela de manutenção para desativar as notificações de eventos
+    - title: Agende uma janela de manutenção para desabilitar notificações de eventos
         do cluster
       url: "/events/task_schedule_maintenance_window_to_disable_cluster_notifications.html"
-    - title: Alterar ou cancelar uma janela de manutenção agendada
+    - title: Alterar ou cancelar uma janela de manutenção programada
       url: "/events/task_change_or_cancel_scheduled_maintenance_window.html"
-    - title: Visualização de eventos que ocorreram durante uma janela de manutenção
+    - title: Ver eventos que ocorreram durante uma janela de manutenção
       url: "/events/task_view_events_that_occurred_during_maintenance_window.html"
-  - title: Gerenciamento de eventos de recursos do sistema host
+  - title: Gerenciar eventos de recursos do sistema host
     url: "/events/task_manage_host_system_resource_events.html"
-  - title: Compreender mais sobre eventos
+  - title: Entenda mais sobre os eventos
     url: "/events/concept_understand_more_about_events.html"
     entries:
     - title: Definições de estado do evento
@@ -154,7 +154,7 @@ entries:
       url: "/events/reference_event_setup_page.html"
     - title: Caixa de diálogo Desativar eventos
       url: "/events/reference_disable_events_dialog_box.html"
-- title: Gerenciamento de alertas
+- title: Gerenciar alertas
   url: "/events/concept_manage_alerts.html"
   entries:
   - title: Quais são os alertas
@@ -166,20 +166,19 @@ entries:
     entries:
     - title: Diretrizes para adicionar alertas
       url: "/events/concept_guidelines_for_adding_alerts.html"
-  - title: Adição de alertas para eventos de desempenho
+  - title: Adicionar alertas para eventos de desempenho
     url: "/events/task_add_alerts_for_performance_events.html"
-  - title: Testando alertas
+  - title: Alertas de teste
     url: "/events/task_test_alerts.html"
-  - title: Ativar e desativar alertas para eventos resolvidos e obsoletos
+  - title: Habilitar e desabilitar alertas para eventos Resolvidos e Obsoletos
     url: "/events/task_disable_alerts_for_resolved_and_obsolete_events.html"
-  - title: Exclusão da geração de alertas de volumes de destino de recuperação de
-      desastres
+  - title: Excluir volumes de destino de recuperação de desastres da geração de alertas
     url: "/events/task_exclude_disaster_recovery_destination_volumes_from_alerts.html"
-  - title: Visualização de alertas
+  - title: Ver alertas
     url: "/events/task_view_alerts.html"
   - title: Editar alertas
     url: "/events/task_edit_alerts.html"
-  - title: Eliminar alertas
+  - title: Excluir alertas
     url: "/events/task_delete_alerts.html"
   - title: Descrição das janelas de alerta e caixas de diálogo
     url: "/events/reference_description_of_health_alert_windows_and_dialog_boxes.html"
@@ -190,16 +189,16 @@ entries:
       url: "/events/reference_add_alert_dialog_box.html"
     - title: Caixa de diálogo Editar alerta
       url: "/events/reference_edit_alert_dialog_box.html"
-- title: Gerenciamento de scripts
+- title: Gerenciar scripts
   url: "/events/concept_manage_scripts.html"
   entries:
   - title: Como os scripts funcionam com alertas
     url: "/events/concept_how_scripts_work_with_alerts.html"
-  - title: Adicionando scripts
+  - title: Adicionar scripts
     url: "/events/task_add_scripts.html"
-  - title: Eliminar scripts
+  - title: Excluir scripts
     url: "/events/task_delete_scripts.html"
-  - title: Testando a execução de script
+  - title: Execução do script de teste
     url: "/events/task_test_script_execution.html"
   - title: Comandos de CLI do Unified Manager compatíveis
     url: "/events/reference_supported_unified_manager_cli_commands.html"

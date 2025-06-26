@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, unified manager, web ui 
 summary: Depois de instalar o Unified Manager, você pode acessar a IU da Web para configurar o Unified Manager para começar a monitorar seus sistemas ONTAP. 
 ---
-= Acessando a IU da Web do Unified Manager
+= Acesse a interface da web do Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

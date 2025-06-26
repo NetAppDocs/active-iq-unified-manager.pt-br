@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, protection, relationship, volume, relationships page 
 summary: 'Na página relacionamentos de volume, você pode remover uma relação de proteção para excluir permanentemente uma relação existente entre a origem e o destino selecionados: Por exemplo, quando você deseja criar uma relação usando um destino diferente. Esta operação remove todos os metadados e não pode ser desfeita.' 
 ---
-= Removendo uma relação de proteção da página relacionamentos de volume
+= Remover um relacionamento de proteção da página Relacionamentos de Volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

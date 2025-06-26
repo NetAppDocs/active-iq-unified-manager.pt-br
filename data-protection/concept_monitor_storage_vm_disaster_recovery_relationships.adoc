@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disaster recovery, monitor, storage vm protection, relationships 
 summary: O Active IQ Unified Manager é compatível com o monitoramento de relacionamentos de recuperação de desastres de VM de storage, que oferece recuperação de desastres na granularidade de um nível de VM de storage. A recuperação de desastres da VM de armazenamento permite a recuperação de dados presentes nos volumes constituintes da VM de armazenamento e a recuperação da configuração da VM de armazenamento. 
 ---
-= Monitoramento de relacionamentos de proteção de recuperação de desastres da VM Storage
+= Monitorar relacionamentos de proteção de recuperação de desastres de VM de armazenamento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

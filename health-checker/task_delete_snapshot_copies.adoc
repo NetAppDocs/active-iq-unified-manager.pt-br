@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, snapshot copies 
 summary: Você pode excluir uma cópia Snapshot para economizar espaço ou liberar espaço em disco, ou excluir a cópia Snapshot se ela não for mais necessária. 
 ---
-= Exclusão de cópias Snapshot
+= Excluir cópias Snapshot
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

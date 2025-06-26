@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, relationship, version-flexible, replication 
 summary: Você pode criar uma relação do SnapMirror com a replicação flexível da versão. A replicação flexível da versão permite implementar a proteção do SnapMirror mesmo que os volumes de origem e destino sejam executados em diferentes versões do ONTAP. 
 ---
-= Criando uma relação SnapMirror com replicação flexível de versão
+= Crie um relacionamento SnapMirror com replicação flexível de versão
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

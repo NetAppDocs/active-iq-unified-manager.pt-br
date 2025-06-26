@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provisioning, performance service levels, storage management, enable, disable, policy-based 
 summary: 'A partir do Unified Manager 9,7, você pode provisionar workloads de storage (volumes e LUNs) nos clusters do ONTAP e gerenciar esses workloads com base em níveis de serviço de performance atribuídos. Essa funcionalidade é semelhante à criação de workloads no ONTAP System Manager e à inclusão de políticas de QoS, mas, quando aplicada usando o Unified Manager, você pode provisionar e gerenciar workloads em todos os clusters que sua instância do Unified Manager está monitorando.' 
 ---
-= Ativar e desativar o gerenciamento de armazenamento baseado em políticas
+= Habilitar e desabilitar o gerenciamento de armazenamento baseado em políticas
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

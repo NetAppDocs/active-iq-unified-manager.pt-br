@@ -23,7 +23,7 @@ Depois de fazer uma chamada de API que é executada de forma assíncrona, o cód
 
 
 
-== Consultando o objeto Job associado a uma solicitação de API
+== Consulte o objeto Job associado a uma solicitação de API
 
 O objeto Job retornado na resposta HTTP contém várias propriedades. Você pode consultar a propriedade State para determinar se a solicitação foi concluída com sucesso. Um objeto Job pode estar num dos seguintes estados:
 

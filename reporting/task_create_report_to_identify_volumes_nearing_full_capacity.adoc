@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, identify, volumes, full capacity, snapshot, autodelete, turned off 
 summary: Você pode criar um relatório que contenha a lista de volumes que estão se aproximando da capacidade total com o recurso Snapshot Autodelete desativado. Os resultados podem ajudar a identificar volumes onde você pode querer configurar o Snapshot Autodelete. 
 ---
-= Criação de um relatório para identificar volumes que estão próximos de capacidade total que têm o Snapshot Autodelete desativado
+= Crie um relatório para identificar volumes próximos da capacidade máxima que tenham a Exclusão Automática de Snapshot desativada
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

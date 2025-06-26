@@ -27,7 +27,7 @@ Para obter os requisitos detalhados do sistema, consulte link:../install-vapp/co
 
 
 
-== A instalar o Active IQ Unified Manager
+== Instale o Active IQ Unified Manager
 
 
 

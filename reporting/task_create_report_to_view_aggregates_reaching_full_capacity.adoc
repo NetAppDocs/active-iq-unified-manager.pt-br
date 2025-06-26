@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, reaching, full capacity 
 summary: Você pode criar um relatório para localizar os agregados que estão atingindo a capacidade máxima para adicionar mais capacidade ou mover workloads para outros agregados. 
 ---
-= Criação de um relatório para visualizar agregados que atingem a capacidade total
+= Crie um relatório para visualizar os agregados atingindo a capacidade máxima
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

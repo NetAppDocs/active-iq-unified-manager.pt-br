@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sort, object, inventory, performance, pages 
 summary: Você pode classificar todos os dados em páginas de desempenho de inventário de objetos por qualquer coluna em ordem crescente ou decrescente. Isso permite localizar rapidamente dados de inventário de objetos, o que é útil ao examinar o desempenho ou iniciar um processo de solução de problemas. 
 ---
-= Classificação nas páginas desempenho do inventário de objetos
+= Classificar nas páginas de desempenho do inventário de objetos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

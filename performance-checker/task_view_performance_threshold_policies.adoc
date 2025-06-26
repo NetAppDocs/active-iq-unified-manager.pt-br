@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, threshold, policies 
 summary: Você pode exibir todas as políticas de limite de desempenho definidas atualmente na página limites de desempenho. 
 ---
-= Exibindo políticas de limite de desempenho
+= Ver políticas de limite de desempenho
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: object, inventory, performance, pages 
 summary: Você pode pesquisar strings em páginas de desempenho de inventário de objetos. Use o campo pesquisar localizado no canto superior direito da página para localizar rapidamente dados com base no nome do objeto ou no nome da política. Isso permite localizar rapidamente objetos específicos e seus dados associados, ou localizar rapidamente políticas e exibir dados de objeto de política associados. 
 ---
-= Pesquisar nas páginas desempenho Stock Objeto
+= Pesquisar nas páginas de desempenho do inventário de objetos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: LUN, SnapMirror active sync, Consistency Group, CG 
 summary: Visualização unificada de LUNs protegidas pela sincronização ativa do SnapMirror. 
 ---
-= Monitoramento de LUNs em uma relação de Grupo de consistência
+= Monitorar LUNs em um relacionamento de grupo de consistência
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

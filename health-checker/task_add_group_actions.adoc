@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, group, actions 
 summary: Você pode configurar ações de grupo que deseja aplicar a objetos de armazenamento em um grupo. A configuração de ações para um grupo permite economizar tempo, porque você não precisa adicionar essas ações a cada objeto individualmente. 
 ---
-= Adicionando ações de grupo
+= Adicionar ações de grupo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

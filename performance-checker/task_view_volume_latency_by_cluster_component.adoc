@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume, latency, cluster, component 
 summary: Você pode exibir informações detalhadas de latência de um volume usando a página Explorador de desempenho de volume. O gráfico de latência - contador total mostra a latência total no volume e o gráfico de contagem de latência - discriminação é útil para determinar o impactos da latência de leitura e gravação no volume. 
 ---
-= Visualização da latência do volume por componente do cluster
+= Exibir latência de volume por componente do cluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

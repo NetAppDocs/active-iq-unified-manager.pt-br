@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, health, thresholds 
 summary: Você pode configurar valores de limite de integridade globais para todos os agregados, volumes e qtrees para rastrear quaisquer violações de limites de integridade. 
 ---
-= Gerenciamento de limites de integridade
+= Gerenciar limites de saúde
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

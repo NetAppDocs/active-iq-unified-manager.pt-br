@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, unassigned, events 
 summary: Você pode exibir eventos não atribuídos e, em seguida, atribuir cada um deles a um usuário que pode resolvê-los. 
 ---
-= Exibindo eventos não atribuídos
+= Ver eventos não atribuídos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

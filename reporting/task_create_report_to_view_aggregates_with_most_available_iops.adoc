@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, available, IOPS 
 summary: Este relatório mostra quais agregados têm o IOPS mais disponível por tipo de agregado nos quais você pode provisionar novos workloads. 
 ---
-= Criação de um relatório para visualizar agregados que tenham o IOPS mais disponível
+= Crie um relatório para visualizar agregados que tenham mais IOPS disponíveis
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

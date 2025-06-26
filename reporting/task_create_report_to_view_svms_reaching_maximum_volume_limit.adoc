@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, storage VMs, volume, limit 
 summary: Você pode criar um relatório para localizar SVMs que estão atingindo o limite máximo de volume. 
 ---
-= Criação de um relatório para visualizar VMs de armazenamento atingindo o limite máximo de volume
+= Crie um relatório para visualizar as VMs de armazenamento atingindo o limite máximo de volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

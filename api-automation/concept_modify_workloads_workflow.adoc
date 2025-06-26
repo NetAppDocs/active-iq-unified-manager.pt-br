@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, storage, workloads 
 summary: A modificação de workloads de storage consiste na atualização de LUNs ou compartilhamentos de arquivos com parâmetros ausentes ou na alteração dos parâmetros existentes. 
 ---
-= Como modificar workloads de storage usando APIs
+= Modifique cargas de trabalho de armazenamento usando APIs
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -22,7 +22,7 @@ O fluxo de trabalho pressupõe que o LUN ou o compartilhamento de arquivos tenha
 ====
 
 
-== Modificação de compartilhamentos de arquivo
+== Modificar compartilhamentos de arquivo
 
 Ao modificar um compartilhamento de arquivos, você pode atualizar os seguintes parâmetros:
 
@@ -191,7 +191,7 @@ Veja os detalhes do compartilhamento de arquivo na saída.
 
 
 
-== A atualizar LUNs
+== Atualizar LUNs
 
 Durante a atualização de um LUN, você pode modificar os seguintes parâmetros:
 

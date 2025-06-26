@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, reports 
 summary: 'Você pode baixar relatórios e salvar os dados em uma unidade local ou de rede como um arquivo CSV (valores separados por vírgulas), um arquivo do Microsoft Excel (.XLSX) ou um arquivo PDF. Você pode abrir arquivos CSV e XLSX com aplicativos de Planilha, como o Microsoft Excel, e arquivos PDF com leitores como o Adobe Acrobat.' 
 ---
-= A transferir relatórios
+= Transferir relatórios
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

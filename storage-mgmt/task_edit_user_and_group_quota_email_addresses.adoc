@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, user, group, quota, email, addresses 
 summary: 'É possível modificar os endereços de e-mail com base na cota de usuário associada a clusters, máquinas virtuais de armazenamento (SVMs), volumes, qtrees, usuários ou grupos de usuários. Você pode modificar o endereço de e-mail quando quiser substituir o endereço de e-mail gerado pelas regras especificadas na caixa de diálogo regras para gerar Endereço de e-mail de cota de usuário e grupo.' 
 ---
-= Editando endereços de e-mail de cota de usuário e grupo
+= Editar endereços de e-mail de cotas de usuários e grupos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

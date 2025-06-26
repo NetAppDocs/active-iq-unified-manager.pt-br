@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, dynamic, performance, event, cluster, metrocluster, configuration 
 summary: Você pode usar o Unified Manager para analisar o cluster em uma configuração do MetroCluster na qual um evento de desempenho foi detetado. É possível identificar o nome do cluster, o tempo de deteção de eventos e as cargas de trabalho das vítimas e dos agressores envolvidos. 
 ---
-= Analisando um evento de desempenho dinâmico em um cluster em uma configuração do MetroCluster
+= Analisar um evento de desempenho dinâmico em um cluster em uma configuração MetroCluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

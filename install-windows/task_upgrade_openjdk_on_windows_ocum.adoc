@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: openjdk, jre, upgrade 
 summary: Você pode atualizar para uma versão mais recente do OpenJDK no servidor Windows no qual o Unified Manager está instalado para obter correções para vulnerabilidades de segurança. 
 ---
-= Atualizando o OpenJDK
+= Atualize o OpenJDK
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

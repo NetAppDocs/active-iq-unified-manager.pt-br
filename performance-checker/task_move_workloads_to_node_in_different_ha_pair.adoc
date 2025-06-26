@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, node, different, ha pair 
 summary: 'Use o Unified Manager para ajudar a identificar um agregado em um nó em um par de alta disponibilidade (HA) diferente que tenha mais capacidade de performance livre do que o par de HA em que seus workloads estão em execução no momento. Depois, você pode mover volumes selecionados para agregados no novo par de HA.' 
 ---
-= Movimentação de workloads para um nó em um par de HA diferente
+= Mover cargas de trabalho para um nó em um par de HA diferente
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

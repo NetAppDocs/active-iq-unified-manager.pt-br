@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: clusters, unallocated, LUN, capacity, indentify, additional, workloads 
 summary: Você pode criar um relatório para localizar os clusters com a capacidade LUN mais não alocada, maior que .5 TB, para ajudar a identificar onde é possível adicionar cargas de trabalho adicionais. 
 ---
-= Criação de um relatório para identificar clusters com a capacidade LUN mais não alocada
+= Crie um relatório para identificar clusters com maior capacidade de LUN não alocada
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

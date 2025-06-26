@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, capacity, table, chart 
 summary: Você pode criar um relatório para analisar a capacidade em um arquivo do Excel usando totais somados e o formato de gráfico de colunas agrupadas. 
 ---
-= Criando um relatório para mostrar uma tabela de capacidade agregada e um gráfico
+= Crie um relatório para mostrar uma tabela e um gráfico de capacidade agregada
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

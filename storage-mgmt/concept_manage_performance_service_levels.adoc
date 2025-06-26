@@ -33,7 +33,7 @@ O Unified Manager também oferece três níveis de Performance Service para apli
 ** Extremo para dados de banco de dados
 
 
-* *Definido pelo usuário*: Se os níveis de Serviço de desempenho predefinidos não atenderem aos seus requisitos, você poderá criar novas PSLs para atender às suas necessidades. Para obter informações, link:../storage-mgmt/task_create_and_edit_psls.html["Criando e editando níveis de Serviço de desempenho"]consulte .
+* *Definido pelo usuário*: Se os níveis de Serviço de desempenho predefinidos não atenderem aos seus requisitos, você poderá criar novas PSLs para atender às suas necessidades. Para obter informações, link:../storage-mgmt/task_create_and_edit_psls.html["Criar e editar níveis de serviço de desempenho"]consulte .
 * *Beyond Extreme*: As PSLs Beyond Extreme são as PSLs recomendadas pelo sistema que são sugeridas para cargas de trabalho que exigem IOPs superiores ao Extreme. As cargas de trabalho são analisadas internamente com base em suas IOPS, capacidade e latência, e um Beyond Extreme PSL é recomendado para cada uma dessas cargas de trabalho na tela *Storage > cargas de trabalho > todas as cargas de trabalho*. Você pode aplicar as PSLs às cargas de trabalho para garantir um desempenho ideal.
 +
 Os parâmetros IOPs para as cargas de trabalho são gerados dinamicamente, dependendo do comportamento da carga de trabalho, e anexados ao nome do Beyond Extreme PSL no formato `Beyond Extreme <number-(peak IOPS/TB)> <number(expected IOPS/TB)>`. Por exemplo, se o sistema determinar uma carga de trabalho para ter IOPs de pico e esperados como `106345` `37929` e respetivamente, o Beyond Extreme PSL gerado para a carga de trabalho é nomeado como `Beyond Extreme 106345 37929`. Embora essas PSLs sejam recomendadas pelo sistema, quando você as atribui a cargas de trabalho, essas PSLs são rotuladas como `User-defined` no tipo.
@@ -42,11 +42,11 @@ Os parâmetros IOPs para as cargas de trabalho são gerados dinamicamente, depen
 
 
 
-== Gerenciamento de workloads atribuindo PSLs
+== Gerencie cargas de trabalho atribuindo PSLs
 
 Pode aceder a PSLs a partir da página *Policies* > *Performance Service Levels* e utilizando as APIs do fornecedor de armazenamento. Gerenciar workloads de storage atribuindo PSLs a eles é conveniente, pois você não precisa gerenciar individualmente os workloads de storage. Quaisquer modificações também podem ser gerenciadas reatribuindo outro PSL em vez de gerenciá-los individualmente. O Unified Manager ajuda você a atribuir PSLs em seus workloads com base em avaliações e recomendações internas.
 
-Para obter informações sobre como atribuir PSLs recomendadas pelo sistema a cargas de trabalho, consulte link:..//storage-mgmt/concept_assign_policies_on_workloads.html#assigning-system-recommended-psls-to-workloads["Atribuição de PSLs recomendadas pelo sistema a cargas de trabalho"]
+Para obter informações sobre como atribuir PSLs recomendadas pelo sistema a cargas de trabalho, consulte link:..//storage-mgmt/concept_assign_policies_on_workloads.html#assign-system-recommended-psls-to-workloads["Atribuir PSLs recomendados pelo sistema às cargas de trabalho"]
 
 A página níveis de Serviço de desempenho lista as políticas PSL disponíveis e permite que você as adicione, edite e exclua.
 

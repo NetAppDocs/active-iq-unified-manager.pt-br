@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, saml authentication 
 summary: 'Você pode desativar a autenticação SAML quando quiser parar de autenticar usuários remotos por meio de um provedor de identidade seguro (IDP) antes que eles possam fazer login na IU da Web do Unified Manager. Quando a autenticação SAML está desativada, os provedores de serviços de diretório configurados, como o ative Directory ou LDAP, executam a autenticação de logon.' 
 ---
-= Desativando a autenticação SAML
+= Desativar a autenticação SAML
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

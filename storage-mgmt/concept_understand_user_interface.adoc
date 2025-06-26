@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, user, interface 
 summary: A interface de usuário do Unified Manager consiste principalmente em um painel que fornece uma visualização rápida dos objetos monitorados. A interface do usuário também fornece acesso à visualização de todos os objetos do cluster. 
 ---
-= Compreender a interface do utilizador
+= Entenda a interface do usuário
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

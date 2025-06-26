@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, page 
 summary: Na página relacionamentos de volume, você pode executar uma transferência de linha de base pela primeira vez em um novo relacionamento de proteção ou atualizar um relacionamento se ele já estiver inicializado e você quiser executar uma atualização incremental manual e não programada para transferir imediatamente. 
 ---
-= Inicializando ou atualizando relacionamentos de proteção a partir da página relacionamentos de volume
+= Inicializar ou atualizar relacionamentos de proteção na página Relacionamentos de Volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

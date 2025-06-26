@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, length, time, unified manager, retains, event, performance, data 
 summary: Por padrão, o Unified Manager armazena dados de eventos e dados de performance por 6 meses para todos os clusters monitorados. Após esse tempo, os dados mais antigos são excluídos automaticamente para dar espaço para novos dados. Esse período de tempo padrão funciona bem para a maioria das configurações, mas configurações muito grandes, com muitos clusters e nós, podem precisar reduzir o período de retenção para que o Unified Manager funcione de forma otimizada. 
 ---
-= Alterar a duração do tempo em que o Unified Manager retém os dados de eventos e performance
+= Alterar o período de retenção de dados de eventos e desempenho pelo Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

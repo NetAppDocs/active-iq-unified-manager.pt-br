@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, predefined, time, range 
 summary: Selecionar um intervalo de tempo predefinido é uma forma rápida e eficiente de personalizar e focar a saída de dados ao visualizar dados de desempenho de objetos de cluster. Ao selecionar um intervalo de tempo predefinido, estão disponíveis dados de até 13 meses. 
 ---
-= Selecionar um intervalo de tempo predefinido
+= Selecione um intervalo de tempo predefinido
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

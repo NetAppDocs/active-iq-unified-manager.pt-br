@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: break, snapmirror, relationship, volume, health details 
 summary: Você pode quebrar uma relação de proteção da página de detalhes de volume / Saúde e interromper as transferências de dados entre um volume de origem e destino em uma relação do SnapMirror. Você pode interromper um relacionamento quando quiser migrar dados, para recuperação de desastres ou para teste de aplicações. O volume de destino é alterado para um volume de leitura e gravação. Você não pode quebrar um relacionamento SnapVault. 
 ---
-= Quebrar uma relação de SnapMirror a partir da página de detalhes de volume / Saúde
+= Interromper um relacionamento SnapMirror na página de detalhes Volume/Saúde
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

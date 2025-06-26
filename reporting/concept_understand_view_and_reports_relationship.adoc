@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, view, report, relationship 
 summary: Visualizações e páginas de inventário tornam-se relatórios quando você baixa ou os agenda. 
 ---
-= Compreender a relação de visualização e relatório
+= Entenda a relação de exibição e relatório
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

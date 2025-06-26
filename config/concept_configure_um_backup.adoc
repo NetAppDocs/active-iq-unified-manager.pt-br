@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, unified manager, backup 
 summary: Você pode configurar o recurso de backup no Unified Manager por meio de um conjunto de etapas de configuração a serem executadas nos sistemas host e no console de manutenção por meio. 
 ---
-= Configuração do backup do Unified Manager
+= Configurar backup do Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

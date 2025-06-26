@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, performance, charts, display 
 summary: 'A lista suspensa Choose charts (escolher gráficos) permite selecionar os tipos de gráficos de contador de desempenho a serem exibidos no painel Counter Charts (gráficos de contador). Isso permite que você visualize dados e contadores específicos, com base em seus requisitos de desempenho.' 
 ---
-= Selecionar gráficos de desempenho a apresentar
+= Selecione gráficos de desempenho para exibir
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

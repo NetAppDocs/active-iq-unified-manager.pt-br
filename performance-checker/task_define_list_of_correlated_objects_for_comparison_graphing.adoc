@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: defining, list, correlated, objects, comparison, graphing 
 summary: 'Você pode definir uma lista de objetos correlacionados para comparação de dados e desempenho no painel Counter Chart. Por exemplo, se a máquina virtual de storage (SVM) tiver algum problema de performance, você poderá comparar todos os volumes no SVM para identificar qual volume pode estar causando o problema.' 
 ---
-= Definir a lista de objetos correlacionados para gráficos de comparação
+= Defina a lista de objetos correlacionados para gráficos de comparação
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

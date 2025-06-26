@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, event, details, timeline 
 summary: Você pode exibir todos os eventos e seus detalhes relacionados no painel linha do tempo de Eventos do Performance Explorer. Este é um método rápido e eficiente de visualizar todos os eventos de integridade e desempenho que ocorreram no objeto raiz durante um intervalo de tempo especificado, o que pode ser útil para solucionar problemas de desempenho. 
 ---
-= Exibindo detalhes do evento na linha do tempo de Eventos
+= Ver detalhes do evento na Linha do tempo de eventos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

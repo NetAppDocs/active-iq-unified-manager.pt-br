@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, suggested, remedial actions, volume 
 summary: 'Depois de receber um evento de erro "volume Space Full" (espaço de volume cheio), você analisa as ações corretivas sugeridas na página de detalhes do evento e decide executar uma das ações sugeridas.' 
 ---
-= Executar ações corretivas sugeridas para um volume total
+= Execute as ações corretivas sugeridas para um volume total
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

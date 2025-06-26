@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, performance, threshold, policies, storage, objects 
 summary: Você atribui uma política de limite de desempenho definido pelo usuário a um objeto de storage para que o Unified Manager relate um evento se o valor do contador de desempenho exceder a configuração de política. 
 ---
-= Atribuindo políticas de limite de desempenho a objetos de storage
+= Atribuir políticas de limite de desempenho a objetos de armazenamento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

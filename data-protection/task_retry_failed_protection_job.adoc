@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: retry, failed, protection job 
 summary: Depois de tomar medidas para corrigir um trabalho de proteção com falha, você pode usar tentar novamente para executar o trabalho novamente. Tentar novamente um trabalho cria um novo trabalho usando o ID do trabalho original. 
 ---
-= Tentar novamente um trabalho de proteção com falha
+= Repetir uma tarefa de proteção com falha
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, migrate, virtual, appliance, linux system 
 summary: Você pode restaurar um backup de despejo de banco de dados MySQL do Unified Manager de um dispositivo virtual para um sistema Red Hat Enterprise Linux se quiser alterar o sistema operacional do host no qual o Unified Manager está sendo executado. 
 ---
-= Migração de um dispositivo virtual do Unified Manager para um sistema Linux
+= Migrar um appliance virtual do Unified Manager para um sistema Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

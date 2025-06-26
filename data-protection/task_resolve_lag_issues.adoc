@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, lag, issues 
 summary: Este fluxo de trabalho fornece um exemplo de como você pode resolver um problema de atraso. Nesse cenário, você é um administrador ou operador acessando a página Painel do Unified Manager para ver se há algum problema com seus relacionamentos de proteção e, se eles existem, para encontrar soluções. 
 ---
-= Resolvendo problemas de atraso
+= Resolver problemas de atraso
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

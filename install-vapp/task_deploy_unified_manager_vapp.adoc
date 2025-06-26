@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: deploy, unified manager 
 summary: A implantação do Unified Manager inclui o download de software, a implantação do dispositivo virtual, a criação de um nome de usuário e senha de manutenção e a execução da configuração inicial na interface da Web. 
 ---
-= Implantando o Unified Manager
+= Implantar o Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

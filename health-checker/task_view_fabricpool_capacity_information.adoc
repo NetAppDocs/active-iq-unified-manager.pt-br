@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, fabricPool, cloud tier, mirror tier, capacity, information 
 summary: É possível visualizar as informações de capacidade do FabricPool para clusters, agregados e volumes no inventário de capacidade e performance, bem como nas páginas de detalhes desses objetos. Essas páginas também exibem informações de espelho do FabricPool quando um nível de espelho foi configurado. 
 ---
-= Visualização de informações de capacidade do FabricPool
+= Ver informações sobre a capacidade do FabricPool
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

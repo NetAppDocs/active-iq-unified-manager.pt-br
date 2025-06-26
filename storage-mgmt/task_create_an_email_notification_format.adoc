@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, email, notification, format, user, group, quotas 
 summary: 'Você pode criar um formato de notificação para os e-mails que são enviados para um usuário ou um grupo de usuários quando houver um problema relacionado à cota (limite de software violado ou limite rígido atingido).' 
 ---
-= Criando um formato de notificação por e-mail para cotas de usuários e grupos de usuários
+= Crie um formato de notificação por e-mail para cotas de usuários e grupos de usuários
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

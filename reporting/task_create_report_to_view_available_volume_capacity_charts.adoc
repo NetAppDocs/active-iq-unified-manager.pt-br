@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, available, volume, capacity, charts 
 summary: Você pode criar um relatório para analisar a capacidade de volume disponível em um gráfico do Excel. 
 ---
-= Criando um relatório para exibir gráficos de capacidade de volume disponíveis
+= Crie um relatório para visualizar gráficos de capacidade de volume disponíveis
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

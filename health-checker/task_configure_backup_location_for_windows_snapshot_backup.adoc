@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, backup, location, windows, snapshot copy, copies 
 summary: Você deve configurar o volume para armazenar cópias Snapshot após fazer backup do Unified Manager no Windows. 
 ---
-= Configurando o local de backup para Windows
+= Configurar local de backup para Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

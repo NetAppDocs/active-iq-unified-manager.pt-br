@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, protection, relationship, health, volumes view 
 summary: 'Você pode usar a visualização integridade: Todos os volumes para criar relacionamentos do SnapVault para um ou mais volumes na mesma VM de storage, a fim de habilitar backups de dados para fins de proteção.' 
 ---
-= Criando uma relação de proteção SnapVault a partir da visualização integridade: Todos os volumes
+= Crie um relacionamento de proteção SnapVault na visualização Saúde: Todos os volumes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: abort, active, data protection, transfer, volume health details page 
 summary: Você pode cancelar uma transferência de proteção de dados ativa quando quiser interromper uma replicação do SnapMirror em andamento. Você também pode limpar o ponto de verificação reiniciar para uma transferência se não for uma transferência de linha de base. Você pode cancelar uma transferência quando ela entrar em conflito com outra operação, como uma movimentação de volume. 
 ---
-= Abortar uma transferência ativa de proteção de dados a partir da página de detalhes de volume / Saúde
+= Abortar uma transferência ativa de proteção de dados na página de detalhes de Volume/Saúde
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

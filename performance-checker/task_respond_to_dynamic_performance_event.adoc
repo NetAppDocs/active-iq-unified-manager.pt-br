@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, qos, policy, group, throttling 
 summary: 'Você pode usar o Unified Manager para investigar um evento de performance causado por uma política de qualidade do serviço (QoS) que limita a taxa de transferência de workload (MB/s). A regulagem aumentou os tempos de resposta (latência) das cargas de trabalho de volume no grupo de políticas. Você pode usar as informações do evento para determinar se novos limites nos grupos de políticas são necessários para interromper a limitação.' 
 ---
-= Resposta a um evento de desempenho dinâmico causado pela limitação do grupo de políticas de QoS
+= Responder a um evento de desempenho dinâmico causado pela limitação do grupo de políticas de QoS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

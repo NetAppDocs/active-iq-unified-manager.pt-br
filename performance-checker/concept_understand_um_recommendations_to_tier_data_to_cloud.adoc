@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, unified manager, recommendations, tier, data, cloud 
 summary: 'A exibição desempenho: Todos os volumes exibe informações relacionadas ao tamanho dos dados do usuário armazenados no volume inativo (frio). Em alguns casos, o Unified Manager identifica certos volumes que se beneficiariam ao separar os dados inativos na camada de nuvem (fornecedor de nuvem ou StorageGRID) de um agregado habilitado para FabricPool.' 
 ---
-= Compreensão das recomendações do Unified Manager para categorizar dados na nuvem
+= Entenda as recomendações do Unified Manager para hierarquizar dados na nuvem
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

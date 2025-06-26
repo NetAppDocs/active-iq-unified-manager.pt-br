@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, user 
 summary: Você pode usar as APIs na categoria de segurança para controlar o acesso do usuário a objetos de cluster selecionados no Active IQ Unified Manager. Você pode adicionar usuários locais ou usuários de banco de dados. Você também pode adicionar usuários remotos ou grupos que pertencem a um servidor de autenticação. Com base no Privileges das funções atribuídas aos usuários, eles podem gerenciar os objetos de storage ou exibir os dados no Unified Manager. 
 ---
-= Gerenciamento de usuários usando APIs
+= Gerenciar usuários usando APIs
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

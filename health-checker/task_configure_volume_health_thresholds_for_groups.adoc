@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, volume, health, thresholds, groups 
 summary: Você pode configurar limites de integridade do volume em nível de grupo para capacidade, cópias Snapshot, cotas de qtree, crescimento e inodes. 
 ---
-= Configuração dos limites de integridade do volume para grupos
+= Configurar limites de integridade de volume para grupos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

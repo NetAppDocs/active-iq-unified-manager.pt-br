@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, manage, workloads 
 summary: O recurso de gerenciamento ativo do Active IQ Unified Manager fornece níveis de serviço de performance, políticas de eficiência de storage e APIs do fornecedor de storage para provisionar, monitorar e gerenciar workloads de storage em um data center. 
 ---
-= Provisionamento e gerenciamento de workloads
+= Provisionar e gerenciar cargas de trabalho
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

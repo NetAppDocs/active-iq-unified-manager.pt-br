@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, user-defined, performance, thresholds 
 summary: Os eventos gerados a partir de limites definidos pelo usuário indicam que um contador de desempenho para um determinado objeto de storage, por exemplo, um agregado ou volume, ultrapassou o limite definido na política. Isso indica que o objeto de cluster está enfrentando um problema de desempenho. 
 ---
-= Analisando eventos a partir de limites de desempenho definidos pelo usuário
+= Analisar eventos a partir de limites de desempenho definidos pelo usuário
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

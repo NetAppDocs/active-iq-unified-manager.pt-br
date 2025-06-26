@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: api gateway 
 summary: O recurso API Gateway permite que o Active IQ Unified Manager seja um único plano de controle a partir do qual você pode gerenciar vários clusters ONTAP, sem fazer login neles individualmente. 
 ---
-= Ativando o API Gateway
+= Habilitar gateway de API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, details, nfs shares 
 summary: 'É possível visualizar detalhes sobre todos os compartilhamentos NFS, como status, caminho associado ao volume (volumes FlexGroup ou volumes FlexVol), níveis de acesso dos clientes aos compartilhamentos NFS e a política de exportação definida para os volumes exportados. Uso da visualização integridade: Todos os compartilhamentos NFS para ver todos os compartilhamentos NFS em todos os clusters monitorados e usar a página de detalhes de integridade/VM de storage para visualizar todos os compartilhamentos NFS em uma máquina virtual de storage específica (SVM).' 
 ---
-= Exibição de detalhes sobre compartilhamentos NFS
+= Ver detalhes sobre ações NFS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

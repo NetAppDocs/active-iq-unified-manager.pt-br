@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, charts, compare, volumes, luns, same, qos, policy, group 
 summary: Você pode visualizar os volumes e LUNs que estão nos mesmos grupos de política de QoS e, em seguida, comparar o desempenho em um único gráfico de IOPS, MB/s ou IOPS/TB para identificar quaisquer problemas. 
 ---
-= Exibição de gráficos de desempenho para comparar volumes ou LUNs que estão no mesmo grupo de políticas de QoS
+= Visualize gráficos de desempenho para comparar volumes ou LUNs que estão no mesmo grupo de políticas de QoS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

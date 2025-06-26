@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, unified manager, virtual, appliance, host name 
 summary: O host de rede recebe um nome quando o dispositivo virtual do Unified Manager é implantado pela primeira vez. Você pode alterar o nome do host após a implantação. Se você alterar o nome do host, você também deve regenerar o certificado HTTPS. 
 ---
-= Alterando o nome do host do dispositivo virtual do Unified Manager
+= Alterar o nome do host do appliance virtual do Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

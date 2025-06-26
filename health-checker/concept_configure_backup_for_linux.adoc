@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: netapp, snapshot copy, copies, linux, operate, system, configure, backup 
 summary: Se o Active IQ Unified Manager estiver instalado em uma máquina Linux, você poderá decidir configurar o backup e a restauração usando os snapshots do NetApp. 
 ---
-= Configurando backup no Linux
+= Configurar backup no Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

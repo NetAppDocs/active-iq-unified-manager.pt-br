@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster list, details 
 summary: 'Você pode usar a visualização integridade: Todos os clusters para visualizar o inventário de clusters. A visualização capacidade: Todos os clusters permite visualizar informações resumidas sobre capacidade de storage e utilização em todos os clusters.' 
 ---
-= Visualizar a lista de cluster e os detalhes
+= Veja a lista de clusters e detalhes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

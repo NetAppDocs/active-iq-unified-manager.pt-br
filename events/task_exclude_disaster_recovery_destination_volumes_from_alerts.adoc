@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: exclude, disaster, recovery, destination, volumes, generate, alerts 
 summary: Ao configurar alertas de volume, você pode especificar uma cadeia de carateres na caixa de diálogo Alerta que identifica um volume ou grupo de volumes. No entanto, se você configurou a recuperação de desastres para SVMs, os volumes de origem e destino têm o mesmo nome, então você receberá alertas para ambos os volumes. 
 ---
-= Exclusão da geração de alertas de volumes de destino de recuperação de desastres
+= Excluir volumes de destino de recuperação de desastres da geração de alertas
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

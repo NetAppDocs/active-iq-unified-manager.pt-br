@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager, virtual, appliance 
 summary: Você pode atualizar o dispositivo virtual do Unified Manager 
 ---
-= Atualizando o dispositivo virtual do Unified Manager
+= Atualizar o appliance virtual do Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

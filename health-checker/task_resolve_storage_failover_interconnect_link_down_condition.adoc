@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scan, resolve, storage, failover, interconnect link, conditions 
 summary: Este fluxo de trabalho fornece um exemplo de como você pode procurar, avaliar e resolver condições de link de interconexão de failover de armazenamento downed. Nesse cenário, você é um administrador que usa o Unified Manager para procurar riscos de failover de storage antes de iniciar uma atualização da versão do ONTAP nos nós. 
 ---
-= Verificação e resolução de condições de link de interconexão de failover de armazenamento
+= Verificar e resolver condições de inatividade do link de interconexão de failover de armazenamento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

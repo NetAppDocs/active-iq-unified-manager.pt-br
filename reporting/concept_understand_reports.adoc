@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understanding, reports 
 summary: Os relatórios exibem informações detalhadas sobre armazenamento, rede, qualidade de serviço e relacionamentos de proteção, ajudando você a identificar e resolver possíveis problemas antes que eles ocorram. 
 ---
-= Entendendo relatórios
+= Entenda os relatórios
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

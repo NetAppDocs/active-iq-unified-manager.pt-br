@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: deploy, unified manager, virtual appliance 
 summary: Depois de fazer o download do arquivo de instalação, você implanta o Unified Manager como um dispositivo virtual. Use o vSphere Web Client para implantar o dispositivo virtual em um servidor ESXi. Quando você implementa o dispositivo virtual, uma máquina virtual é criada. 
 ---
-= Implantando o dispositivo virtual do Unified Manager
+= Implante o dispositivo virtual do Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, unified manager, rest, apis 
 summary: O Active IQ Unified Manager fornece APIs REST para você visualizar informações sobre monitoramento e gerenciamento do ambiente de storage. As APIs também permitem provisionar e gerenciar objetos de storage com base em políticas. 
 ---
-= Usando APIs REST do Unified Manager
+= Usar APIs REST do Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

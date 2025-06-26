@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, default, export, policy 
 summary: Você pode criar um relatório para localizar volumes que estejam usando a política de exportação padrão. 
 ---
-= Criando um relatório para exibir volumes que estão usando a política de exportação padrão
+= Crie um relatório para visualizar volumes que estão usando a política de exportação padrão
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

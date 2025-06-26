@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, qos, policy, group, settings, applied, specific, volumes, luns 
 summary: Você pode exibir os grupos de políticas de QoS que foram aplicados aos volumes e LUNs e pode vincular a exibição grupos de políticas de desempenho/QoS para exibir as configurações detalhadas de cada política de QoS. 
 ---
-= Exibindo as configurações do grupo de políticas de QoS aplicadas a volumes ou LUNs específicos
+= Visualize as configurações do grupo de políticas de QoS aplicadas a volumes ou LUNs específicos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

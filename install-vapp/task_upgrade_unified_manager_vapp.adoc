@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager 
 summary: Você pode fazer o upgrade para o Unified Manager no VMware vSphere 
 ---
-= Atualizando o Unified Manager
+= Atualizar o Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

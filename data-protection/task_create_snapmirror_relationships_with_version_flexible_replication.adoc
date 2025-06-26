@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, relationships, version-flexible, replication, backup, option 
 summary: Você pode criar um relacionamento do SnapMirror com a funcionalidade de opção de replicação flexível e backup. A funcionalidade de opção de backup permite que você implemente a proteção SnapMirror e também retenha várias versões de cópias de backup no local de destino. 
 ---
-= Criando relacionamentos do SnapMirror com replicação flexível com versão com opção de backup
+= Crie relacionamentos SnapMirror com replicação flexível de versão com opção de backup
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

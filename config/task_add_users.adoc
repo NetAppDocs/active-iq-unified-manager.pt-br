@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, users 
 summary: Você pode adicionar usuários locais ou usuários de banco de dados usando a página usuários. Você também pode adicionar usuários remotos ou grupos que pertencem a um servidor de autenticação. Você pode atribuir funções a esses usuários e, com base no Privileges das funções, os usuários podem gerenciar os objetos de storage e dados com o Unified Manager, ou exibir os dados em um banco de dados. 
 ---
-= Adicionando usuários
+= Adicionar utilizadores
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, group, volume, relationships, source, failure 
 summary: Você pode criar um relatório que agrupa volumes pelo motivo pelo qual o relacionamento está em um estado não saudável. 
 ---
-= Criar um relatório para agrupar relações de volume por origem da falha
+= Crie um relatório para agrupar relacionamentos de volume por fonte de falha
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

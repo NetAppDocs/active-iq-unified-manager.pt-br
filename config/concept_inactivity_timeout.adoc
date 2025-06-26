@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: inactivity timeout, feature settings 
 summary: Você pode especificar o valor de tempo limite de inatividade para o Active IQ Unified Manager. Após uma inatividade do tempo especificado, o aplicativo é desconetado automaticamente. Esta opção está ativada por predefinição. 
 ---
-= Especificar o tempo limite de inatividade
+= Especificar tempo limite de inatividade
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

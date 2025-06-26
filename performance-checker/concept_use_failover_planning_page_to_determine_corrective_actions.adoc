@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, failover, planning page, determine, corrective, actions 
 summary: Com base nas informações exibidas na página Planejamento de failover de desempenho/nó, você pode tomar medidas para garantir que um failover não faça com que o desempenho de um par de HA caia abaixo de um nível aceitável. 
 ---
-= Usando a página Planejamento de failover de nó para determinar ações corretivas
+= Use a página Planejamento de Failover de Nó para determinar ações corretivas
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

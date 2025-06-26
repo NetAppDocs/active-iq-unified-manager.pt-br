@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, stopped, storage VMs 
 summary: Você pode criar um relatório para exibir uma lista de todos os SVMs paradas. 
 ---
-= Criando um relatório para exibir VMs de armazenamento interrompidas
+= Crie um relatório para visualizar VMs de armazenamento paradas
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

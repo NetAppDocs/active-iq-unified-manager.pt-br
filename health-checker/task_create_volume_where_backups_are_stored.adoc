@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, snapshot copy, copies location 
 summary: Você pode configurar o volume no qual as cópias Snapshot serão armazenadas em um dos clusters do ONTAP usando o Gerenciador de sistemas do ONTAP ou a CLI do ONTAP. 
 ---
-= Configurando o local de cópia Snapshot
+= Configurar local da cópia do instantâneo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resume schedule, transfers, quiesce, relationship,  volume, health details page 
 summary: 'Depois de ter silenciado um relacionamento para impedir que as transferências agendadas ocorram, você pode usar Resume (Retomar) na página volume / detalhes de saúde para reativar as transferências agendadas para que os dados na origem ou no volume primário sejam protegidos. As transferências são retomadas a partir de um ponto de verificação, se houver, no próximo intervalo de transferência programado.' 
 ---
-= Retomar as transferências agendadas numa relação quiesced a partir da página de detalhes de volume / Saúde
+= Retomar transferências agendadas em um relacionamento desativado na página de detalhes de Volume/Saúde
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

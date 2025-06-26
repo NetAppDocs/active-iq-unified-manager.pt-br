@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, protection, relationships, volume, health details page 
 summary: Você pode editar relacionamentos de proteção existentes para alterar a taxa de transferência máxima atual, a política de proteção ou o cronograma de proteção. Você pode editar um relacionamento para diminuir a largura de banda usada para transferências ou aumentar a frequência de transferências agendadas porque os dados estão mudando com frequência. 
 ---
-= Editar relações de proteção a partir da página de detalhes de volume / Saúde
+= Editar relacionamentos de proteção na página Detalhes de volume/saúde
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

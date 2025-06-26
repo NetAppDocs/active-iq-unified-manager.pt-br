@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fix, issues, use, unified manager, automatic, remediations 
 summary: Há certos eventos que o Unified Manager pode diagnosticar cuidadosamente e fornecer uma única resolução usando o botão corrigir. Quando disponíveis, essas resoluções são exibidas no Painel , na página Detalhes do evento e na seleção análise de carga de trabalho no menu de navegação à esquerda. 
 ---
-= Correção de problemas usando a correção automática do Unified Manager
+= Corrigir problemas usando a correção automática do Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

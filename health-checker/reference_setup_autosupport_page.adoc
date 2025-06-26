@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: autosupport, messages, support bundles, technical support 
 summary: A página do AutoSupport permite enviar mensagens AutoSupport predefinidas e sob demanda para sua equipe de suporte técnico, a fim de garantir uma operação correta do seu ambiente e ajudá-lo a manter a integridade do seu ambiente. O AutoSupport está habilitado por padrão e não deve ser desativado, para que você receba os benefícios do NetAppactive IQ. 
 ---
-= Envio de mensagens AutoSupport e pacotes de suporte para o suporte técnico
+= Enviar mensagens de AutoSupport e pacotes de suporte para o suporte técnico
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -22,7 +22,7 @@ Um usuário com função de administrador de storage pode gerar e enviar mensage
 ====
 
 
-== Envio de mensagens AutoSupport sob demanda
+== Enviar mensagens de AutoSupport sob demanda
 
 Você pode gerar e enviar uma mensagem sob demanda para o suporte técnico, para um destinatário de e-mail especificado ou para ambos.
 
@@ -36,7 +36,7 @@ Você pode gerar e enviar uma mensagem sob demanda para o suporte técnico, para
 
 
 
-== Habilitando o AutoSupport periódico
+== Habilitar AutoSupport periódico
 
 Você pode enviar mensagens específicas e predefinidas para o suporte técnico para diagnóstico e resolução de problemas periodicamente. Esta funcionalidade está ativada por predefinição. Se estiver desativado, um administrador ou utilizador de manutenção pode ativar as definições.
 
@@ -49,7 +49,7 @@ Você pode enviar mensagens específicas e predefinidas para o suporte técnico 
 
 
 
-== Carregar pacote de suporte sob demanda
+== Pacote de suporte para upload sob demanda
 
 Você pode gerar e enviar um pacote de suporte para o suporte técnico com base no requisito de solução de problemas. O Unified Manager armazena apenas os dois pacotes de suporte gerados mais recentemente. Pacotes de suporte mais antigos são excluídos do sistema.
 
@@ -72,7 +72,7 @@ Mesmo que você não selecione nenhum tipo de dados, o pacote de suporte ainda s
 
 
 
-== Configurando o servidor proxy HTTP
+== Configurar servidor proxy HTTP
 
 Você pode designar um proxy para fornecer acesso à Internet para enviar conteúdo do AutoSupport para suporte se o seu ambiente não fornecer acesso direto do servidor do Gerenciador Unificado. Esta seção está disponível apenas para usuários de administrador e manutenção.
 

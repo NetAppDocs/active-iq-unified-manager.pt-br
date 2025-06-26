@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quiesce, protection, relationship, volume, relationships page 
 summary: Na página relacionamentos de volume, você pode silenciar uma relação de proteção para impedir temporariamente a ocorrência de transferências de dados. Você pode desativar um relacionamento quando quiser criar uma cópia Snapshot de um volume de destino do SnapMirror que contém um banco de dados e deseja garantir que seu conteúdo esteja estável durante a operação de cópia Instantânea. 
 ---
-= Mantendo uma relação de proteção a partir da página relacionamentos de volume
+= Desative um relacionamento de proteção na página Relacionamentos de Volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

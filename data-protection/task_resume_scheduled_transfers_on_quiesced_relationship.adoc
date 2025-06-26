@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resume, schedule, transfers, quiesce, relationship, volume relationships page 
 summary: Depois de ter silenciado uma relação para impedir que as transferências agendadas ocorram, você pode usar Retomar para reativar transferências agendadas para que os dados na origem ou no volume primário sejam protegidos. As transferências são retomadas a partir de um ponto de verificação, se houver, no próximo intervalo de transferência programado. 
 ---
-= Retomar as transferências agendadas em um relacionamento quiesced da página relacionamentos do volume
+= Retomar transferências agendadas em um relacionamento desativado na página Relacionamentos de Volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

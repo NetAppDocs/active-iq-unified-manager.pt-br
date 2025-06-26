@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: navigating, performance, workflows, unified manager, gui 
 summary: A interface do Unified Manager fornece muitas páginas para a coleta e exibição de informações de desempenho. Você usa o painel de navegação esquerdo para navegar para páginas na GUI e usa guias e links nas páginas para exibir e configurar informações. 
 ---
-= Navegando em workflows de performance na GUI do Unified Manager
+= Navegue pelos fluxos de trabalho de desempenho na GUI do Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

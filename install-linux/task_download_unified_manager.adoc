@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, Unified Manager 
 summary: 'Você deve fazer download do arquivo do Gerenciador Unificado `.zip` no site de suporte da NetApp para instalar o Gerenciador unificado.' 
 ---
-= A transferir o Unified Manager
+= Faça download do Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

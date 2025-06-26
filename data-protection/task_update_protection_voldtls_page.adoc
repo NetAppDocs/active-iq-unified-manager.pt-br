@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, health details page 
 summary: Você pode executar uma transferência de linha de base pela primeira vez em um novo relacionamento de proteção ou atualizar um relacionamento se ele já estiver inicializado e desejar executar uma atualização incremental manual e não programada para transferir dados imediatamente. 
 ---
-= Inicializando ou atualizando relacionamentos de proteção a partir da página de detalhes de volume / Saúde
+= Inicializar ou atualizar relacionamentos de proteção na página de detalhes de Volume/Saúde
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

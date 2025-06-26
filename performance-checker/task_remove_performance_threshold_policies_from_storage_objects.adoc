@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, performance, threshold, policies, storage, objects 
 summary: Você pode remover uma política de limite de performance definida pelo usuário de um objeto de storage quando não quiser mais que o Unified Manager monitore o valor do contador de performance. 
 ---
-= Remoção de políticas de limite de performance de objetos de storage
+= Remover políticas de limite de desempenho de objetos de armazenamento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

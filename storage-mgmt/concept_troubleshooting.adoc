@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: troubleshoot, netapp manageability sdk log rotation issue, windows, logrotate 
 summary: As informações de solução de problemas ajudam a identificar e resolver problemas que você encontra ao usar o Unified Manager. 
 ---
-= Solução de problemas
+= Solucionar problemas
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

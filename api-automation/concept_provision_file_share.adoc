@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, cifs, nfs, file, shares 
 summary: 'Você pode provisionar compartilhamentos CIFS e compartilhamentos de arquivos NFS em suas máquinas virtuais de storage (SVMs) usando as APIs de provisionamento fornecidas como parte do Active IQ Unified Manager. Esse fluxo de trabalho de provisionamento detalha as etapas para recuperar as chaves das SVMs, níveis de Serviço de Performance e políticas de eficiência de Storage antes de criar os compartilhamentos de arquivo.' 
 ---
-= Provisionamento de compartilhamentos de arquivos CIFS e NFS com o uso de APIs
+= Provisionar compartilhamentos de arquivos CIFS e NFS usando APIs
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

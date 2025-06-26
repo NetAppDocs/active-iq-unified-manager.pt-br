@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, events, specific, users 
 summary: Você pode atribuir eventos não atribuídos a você mesmo ou a outros usuários, incluindo usuários remotos. Você pode reatribuir eventos atribuídos a outro usuário, se necessário. Por exemplo, quando ocorrem problemas frequentes em um objeto de storage, você pode atribuir os eventos para esses problemas ao usuário que gerencia esse objeto. 
 ---
-= Atribuindo eventos a usuários específicos
+= Atribuir eventos a usuários específicos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

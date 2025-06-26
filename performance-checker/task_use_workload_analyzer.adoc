@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer 
 summary: Há muitas maneiras de iniciar o analisador de carga de trabalho a partir da interface do usuário. Aqui descrevemos o lançamento da ferramenta a partir do painel de navegação à esquerda. 
 ---
-= Usando o analisador de carga de trabalho
+= Use o analisador de carga de trabalho
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

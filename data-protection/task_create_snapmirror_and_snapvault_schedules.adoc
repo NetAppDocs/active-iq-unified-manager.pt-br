@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, snapvault, schedules 
 summary: Você pode criar agendas básicas ou avançadas de SnapMirror e SnapVault para permitir transferências automáticas de proteção de dados em uma fonte ou volume primário para que as transferências ocorram com mais frequência ou com menos frequência, dependendo da frequência com que os dados mudam em seus volumes. 
 ---
-= Criando agendas SnapMirror e SnapVault
+= Crie agendamentos SnapMirror e SnapVault
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

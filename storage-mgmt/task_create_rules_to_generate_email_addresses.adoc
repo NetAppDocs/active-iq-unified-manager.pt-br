@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, rules, generate, email, addresses 
 summary: 'Você pode criar regras para especificar o endereço de e-mail com base na cota de usuário associada a clusters, máquinas virtuais de armazenamento (SVMs), volumes, qtrees, usuários ou grupos de usuários. Uma notificação é enviada para o endereço de e-mail especificado quando há uma violação de cota.' 
 ---
-= Criando regras para gerar endereços de e-mail
+= Crie regras para gerar endereços de e-mail
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

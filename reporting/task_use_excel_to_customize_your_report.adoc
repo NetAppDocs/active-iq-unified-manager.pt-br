@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: excel, customize, report 
 summary: 'Depois de salvar a exibição, você pode baixá-la no formato Excel Workbook (.xlsx). Ao abrir o arquivo Excel, você pode usar recursos avançados do Excel para personalizar o relatório.' 
 ---
-= Usando o Excel para personalizar seu relatório
+= Use o Excel para personalizar seu relatório
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

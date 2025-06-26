@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, authentication servers 
 summary: Você pode adicionar servidores de autenticação e ativar a autenticação remota no servidor de gerenciamento para que os usuários remotos no servidor de autenticação possam acessar o Unified Manager. 
 ---
-= Adicionando servidores de autenticação
+= Adicionar servidores de autenticação
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

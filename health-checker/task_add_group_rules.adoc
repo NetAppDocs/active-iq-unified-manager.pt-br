@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, group rules 
 summary: 'É possível criar regras de grupo para que um grupo adicione dinamicamente objetos de storage, como volumes, clusters ou máquinas virtuais de armazenamento (SVMs) ao grupo. Você deve configurar pelo menos um grupo de condições com pelo menos uma condição para criar uma regra de grupo.' 
 ---
-= Adicionando regras de grupo
+= Adicionar regras de grupo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

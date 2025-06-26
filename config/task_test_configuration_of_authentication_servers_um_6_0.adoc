@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, configuration, authentication servers 
 summary: Você pode validar a configuração de seus servidores de autenticação para garantir que o servidor de gerenciamento seja capaz de se comunicar com eles. É possível validar a configuração pesquisando um usuário remoto ou grupo remoto de seus servidores de autenticação e autenticando-os usando as configurações configuradas. 
 ---
-= Testando a configuração dos servidores de autenticação
+= Teste a configuração dos servidores de autenticação
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

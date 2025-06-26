@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, total, available, capacity, charts 
 summary: Você pode criar um relatório para analisar a capacidade total e comprometida do armazenamento em um formato de gráfico do Excel. 
 ---
-= Criando um relatório para mostrar gráficos de capacidade total agregado versus disponível
+= Crie um relatório para mostrar gráficos de capacidade total agregada versus capacidade disponível
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

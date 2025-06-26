@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, performance, thresholds, counter, charts, zoom, view 
 summary: A aplicação de limites na Exibição de Zoom de gráficos de Contador fornece uma visualização detalhada das ocorrências de eventos de limite de desempenho. Isso permite que você aplique ou remova limites e visualize imediatamente os resultados, o que pode ser útil ao decidir se a solução de problemas deve ser sua próxima etapa. 
 ---
-= Selecionar limites de desempenho na visualização de zoom de gráficos de contador
+= Selecione os limites de desempenho na visualização de zoom dos gráficos do contador
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

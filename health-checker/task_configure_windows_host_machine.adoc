@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: netapp, snapshot copy, copies windows, configure, windows host machine 
 summary: 'Você precisa configurar sua máquina host do Windows antes de poder usar a captura Instantânea do NetApp para fazer backup e restaurar o Active IQ Unified Manager. Para iniciar o iniciador iSCSI da Microsoft em uma máquina host do Windows, digite "iscsi" na barra de pesquisa e clique em Iniciador iSCSI.' 
 ---
-= Configurando a máquina host do Windows
+= Configurar a máquina host do Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

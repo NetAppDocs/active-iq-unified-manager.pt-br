@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: abort, jobs 
 summary: Pode utilizar a página trabalhos para abortar um trabalho se estiver a demorar demasiado tempo a terminar, se encontrar demasiados erros ou se já não for necessário. Só é possível cancelar um trabalho se o seu estado e tipo permitir. Pode cancelar qualquer trabalho em execução. 
 ---
-= A abortar trabalhos
+= Abortar trabalhos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

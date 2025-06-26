@@ -15,7 +15,7 @@ Depois de atualizar o Unified Manager, você pode desinstalar produtos de tercei
 
 
 
-== Desinstalar o Python
+== Desinstalar Python
 
 .Passos
 . A partir do *Painel de controlo* selecione *programas* > *programas e funcionalidades*.
@@ -25,7 +25,7 @@ Depois de atualizar o Unified Manager, você pode desinstalar produtos de tercei
 
 
 
-== Desinstalar o Microsoft Visual C 2013
+== Desinstalar o Microsoft Visual C++ 2013
 
 .Passos
 . A partir do *Painel de controlo* selecione *programas* > *programas e funcionalidades*.

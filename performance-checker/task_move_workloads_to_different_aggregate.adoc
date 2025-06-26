@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, different, aggregate 
 summary: Use o Unified Manager para ajudar a identificar um agregado que está menos ocupado do que o agregado onde seus workloads atualmente residem e, em seguida, você pode mover volumes selecionados ou LUNs para esse agregado. Mover workloads de alta performance para um agregado menos ocupado ou um agregado com storage flash ativado permite que o workload execute com mais eficiência. 
 ---
-= Movimentação de workloads para um agregado diferente
+= Mover cargas de trabalho para um agregado diferente
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

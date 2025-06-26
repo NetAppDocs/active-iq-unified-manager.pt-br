@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, nodes, running, older versions, ONTAP 
 summary: Você pode criar um relatório para exibir a versão do software ONTAP instalada em todos os nós de cluster para que você possa ver quais nós deve atualizar. 
 ---
-= Criando um relatório para exibir nós que executam versões mais antigas do ONTAP
+= Crie um relatório para visualizar nós executando versões mais antigas do ONTAP
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

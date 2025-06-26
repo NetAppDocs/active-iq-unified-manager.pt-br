@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, svm, iops, traffic, protocol 
 summary: Use a página Performance/SVM Explorer para ver informações detalhadas de IOPS de um SVM. O gráfico de IOPS - contador total mostra o uso total de IOPS no SVM, e o gráfico de contador de falhas IOPS - é útil para determinar o impacto de leitura, gravação e outros IOPS no SVM. 
 ---
-= Visualização do tráfego de IOPS do SVM por protocolo
+= Visualizar tráfego SVM IOPS por protocolo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

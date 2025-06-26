@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, endpoints, access 
 summary: 'Você precisa criar pontos de extremidade de acesso ou interfaces lógicas (LIFs), que são necessárias para provisionar máquinas virtuais de storage (SVMs), LUNs e compartilhamentos de arquivos. Você pode exibir, criar, modificar e excluir os pontos de extremidade de acesso para SVMs, LUNs ou compartilhamentos de arquivos em seu ambiente Active IQ Unified Manager.' 
 ---
-= Gerenciamento de endpoints de acesso usando APIs
+= Gerenciar endpoints de acesso usando APIs
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

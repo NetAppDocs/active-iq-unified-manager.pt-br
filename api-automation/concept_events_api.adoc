@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, system, details 
 summary: A API de eventos permite recuperar os eventos gerados para os clusters monitorados no data center. 
 ---
-= Gerenciamento de eventos e alertas usando APIs
+= Gerencie eventos e alertas usando APIs
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -23,7 +23,7 @@ Ao executar o `GET` método para `/management-server/events` a API, você pode c
 
 Ao executar a OPERAÇÃO DE PATCH para esta API, você pode ativar o fluxo de trabalho de resolução para o evento. Você pode atribuir um evento a si mesmo ou a outro usuário e confirmar o recebimento do evento. Ao executar as etapas nos recursos para resolver o problema que acionou o evento, você pode usar essa API para marcar o evento como resolvido.
 
-Para obter mais informações sobre eventos, link:../events/concept_manage_events.html["Gerenciamento de eventos"]consulte .
+Para obter mais informações sobre eventos, link:../events/concept_manage_events.html["Gerenciar eventos"]consulte .
 
 [cols="4*"]
 |===
@@ -54,11 +54,11 @@ Execute esta API para atribuir um evento ou alterar o estado para reconhecido ou
 |===
 
 
-== Gerenciamento de alertas
+== Gerenciar alertas
 
 Os eventos são gerados automaticamente e continuamente. O Unified Manager gera um alerta somente quando um evento atende a determinados critérios de filtro. Você pode selecionar os eventos para os quais os alertas devem ser gerados. Usando a `/management-server/alerts` API, você pode configurar alertas para enviar notificações automaticamente quando eventos ou eventos específicos de determinados tipos de gravidade ocorrerem.
 
-Para obter mais informações sobre alertas, link:../events/concept_manage_alerts.html["Gerenciamento de alertas"]consulte .
+Para obter mais informações sobre alertas, link:../events/concept_manage_alerts.html["Gerenciar alertas"]consulte .
 
 [cols="4*"]
 |===
@@ -103,11 +103,11 @@ NOTE: Ao selecionar um recurso para adicionar um alerta, observe que a seleção
 
 
 
-== Gerenciamento de scripts
+== Gerenciar scripts
 
 Usando a `/management-server/scripts` API, você também pode associar um alerta a um script que é executado quando um alerta é acionado. Você pode usar scripts para modificar ou atualizar automaticamente vários objetos de armazenamento no Unified Manager. O script está associado a um alerta. Quando um evento aciona um alerta, o script é executado. Você pode carregar scripts personalizados e testar sua execução quando um alerta é gerado. Você pode associar um alerta ao script para que o script seja executado quando um alerta for gerado para um evento no Unified Manager.
 
-Para obter mais informações sobre scripts, link:../events/concept_manage_scripts.html["Gerenciamento de scripts"]consulte .
+Para obter mais informações sobre scripts, link:../events/concept_manage_scripts.html["Gerenciar scripts"]consulte .
 
 [cols="4*"]
 |===

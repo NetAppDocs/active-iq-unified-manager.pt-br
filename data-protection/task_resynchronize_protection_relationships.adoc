@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resynchronize, protection, relationships, volume, relationships page 
 summary: Na página relacionamentos de volume, você pode ressincronizar um relacionamento para recuperar de um evento que desabilitou o volume de origem ou quando deseja alterar a fonte atual para um volume diferente. 
 ---
-= Ressincronizar relacionamentos de proteção a partir da página relacionamentos de volume
+= Ressincronizar relacionamentos de proteção na página Relacionamentos de Volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

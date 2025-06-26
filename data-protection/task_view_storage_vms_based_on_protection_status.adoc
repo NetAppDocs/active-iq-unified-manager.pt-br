@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage vm, view protection status 
 summary: Você pode usar a página Storage VMs do Inventário para visualizar todas as VMs de storage no Active IQ Unified Manager e filtrar as VMs de storage com base em seu status de proteção. 
 ---
-= Visualização de VMs de armazenamento com base no status de proteção
+= Exibir VMs de armazenamento com base no status de proteção
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

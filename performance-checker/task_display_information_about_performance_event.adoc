@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, information, performance, events 
 summary: Você pode usar a página de inventário de gerenciamento de eventos para exibir uma lista de todos os eventos de desempenho nos clusters que estão sendo monitorados pelo Unified Manager. Ao visualizar essas informações, você pode determinar os eventos mais críticos e, em seguida, detalhar informações detalhadas para determinar a causa do evento. 
 ---
-= Exibindo informações sobre eventos de desempenho
+= Exibir informações sobre eventos de desempenho
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

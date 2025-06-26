@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, volumes, cold, data, non-fabricpool, aggregate, identify 
 summary: Você pode criar um relatório para exibir volumes com uma grande quantidade de dados inativos em um agregado que não seja da FabricPool. Isso pode ajudar a identificar volumes que devem ser movidos para um agregado do FabricPool. 
 ---
-= Criação de um relatório para exibir volumes com uma grande quantidade de dados inativos em um agregado que não esteja habilitado para FabricPool
+= Crie um relatório para visualizar volumes com uma grande quantidade de dados inativos em um agregado que não seja habilitado para FabricPool
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

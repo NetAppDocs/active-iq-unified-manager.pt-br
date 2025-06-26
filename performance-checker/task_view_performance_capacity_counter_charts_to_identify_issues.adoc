@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, capacity, counter charts, identify, issues 
 summary: Você pode visualizar gráficos usados de capacidade de performance para nós e agregados na página Performance Explorer. Isso permite visualizar dados detalhados de capacidade de performance para os nós selecionados e agregados para um período de tempo específico. 
 ---
-= Visualização de gráficos de contadores de capacidade de desempenho para identificar problemas
+= Visualize gráficos de contadores de capacidade de desempenho para identificar problemas
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

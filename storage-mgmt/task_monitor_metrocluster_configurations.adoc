@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, configurations 
 summary: Você pode monitorar problemas de conetividade na configuração do MetroCluster. Os detalhes incluem o status dos componentes e a conectividade em um cluster e o status de conectividade entre os clusters na configuração do MetroCluster. 
 ---
-= Monitoramento de configurações do MetroCluster
+= Monitore as configurações do MetroCluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -54,7 +54,7 @@ Se mover o ponteiro sobre o ícone, poderá visualizar informações detalhadas 
 
 Se você descobrir problemas de conetividade na configuração do MetroCluster, faça login no Gerenciador de sistema ou acesse a CLI do ONTAP para resolver os problemas.
 
-Para obter mais informações sobre como determinar a integridade do cluster, link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determining-cluster-health-in-metrocluster-over-fc-configuration["Determinando a integridade do cluster na configuração de MetroCluster em FC"]consulte .
+Para obter mais informações sobre como determinar a integridade do cluster, link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determine-cluster-health-in-metrocluster-over-fc-configuration["Determinar a integridade do cluster no MetroCluster por meio da configuração FC"]consulte .
 
 
 
@@ -99,7 +99,7 @@ NOTE: Somente para uma configuração MetroCluster sobre IP, você pode ter a vi
 *Informações relacionadas*
 
 * link:../health-checker/reference_health_cluster_details_page.html["Página de detalhes de cluster / Saúde"]
-* Para obter informações sobre a visualização *relação:MetroCluster*, link:../storage-mgmt/task_monitor_metrocluster_configurations.html["Monitoramento de configurações do MetroCluster"]consulte .
+* Para obter informações sobre a visualização *relação:MetroCluster*, link:../storage-mgmt/task_monitor_metrocluster_configurations.html["Monitore as configurações do MetroCluster"]consulte .
 * Para obter informações sobre a 1 visualização *relação: Status de transferência do último mês*, link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["Relação: Último 1 mês visualização do Status da transferência"]consulte .
 * Para obter informações sobre a 1 visualização *relação: Taxa de transferência do último mês*, link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["Relação: Último 1 mês visualização da taxa de transferência"]consulte .
 * Para obter informações sobre a visualização *relacionamento: Todas as relações*, link:../data-protection/reference_relationship_all_relationships_view.html["Relacionamento: Todos os relacionamentos são exibidos"]consulte .

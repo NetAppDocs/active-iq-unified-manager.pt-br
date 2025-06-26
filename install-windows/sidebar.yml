@@ -20,9 +20,9 @@ entries:
     url: "/install-windows/concept_browser_and_platform_requirements.html"
   - title: Requisitos de protocolo e porta
     url: "/install-windows/reference_protocol_and_port_requirements.html"
-  - title: Completar a folha de trabalho
+  - title: Complete a Planilha
     url: "/install-windows/reference_complete_worksheet_um.html"
-- title: Instalação, atualização e remoção do software Unified Manager
+- title: Instalar, atualizar e remover o software Unified Manager
   url: "/install-windows/concept_install_upgrade_and_remove_unified_manager_software.html"
   entries:
   - title: Visão geral do processo de instalação
@@ -30,24 +30,24 @@ entries:
   - title: Instalar o Unified Manager no Windows
     url: "/install-windows/concept_install_unified_manager_windows.html"
     entries:
-    - title: Instalar o Unified Manager
+    - title: Instale o Unified Manager
       url: "/install-windows/task_install_unified_manager_on_windows.html"
-    - title: Executando uma instalação autônoma do Unified Manager
+    - title: Executar uma instalação autônoma do Unified Manager
       url: "/install-windows/task_unattended_installation_of_unified_manager.html"
   - title: Alterar a senha do JBoss
     url: "/install-windows/task_change_jboss_password_on_windows.html"
   - title: Caminho de atualização suportado para versões do Unified Manager
     url: "/include/upgrade-path.html"
-  - title: Atualizando o Unified Manager
+  - title: Atualizar o Unified Manager
     url: "/install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html"
-  - title: Atualização de produtos de terceiros
+  - title: Atualizar produtos de terceiros
     url: "/install-windows/concept_upgrade_third_party_products_on_windows_um.html"
     entries:
-    - title: Atualizando o OpenJDK
+    - title: Atualize o OpenJDK
       url: "/install-windows/task_upgrade_openjdk_on_windows_ocum.html"
   - title: Desinstalar produtos de terceiros
     url: "/install-windows/task_uninstall_third_party_products.html"
-  - title: Reiniciando o Unified Manager
+  - title: Reiniciar o Gerenciador Unificado
     url: "/install-windows/task_restart_unified_manager_win.html"
   - title: Desinstalar o Unified Manager
     url: "/install-windows/task_uninstall_unified_manager_win.html"

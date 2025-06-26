@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, backup, snapshot copy, copies maintenance console 
 summary: Para fazer o backup do Active IQ Unified Manager usando a cópia Snapshot, você deve executar algumas etapas de configuração no console de manutenção. 
 ---
-= Configurando o backup por cópia Snapshot do console de manutenção
+= Configurar backup por cópia instantânea do console de manutenção
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

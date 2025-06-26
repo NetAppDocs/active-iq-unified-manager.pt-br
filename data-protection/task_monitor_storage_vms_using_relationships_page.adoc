@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: relationships page, monitor, storage, vm 
 summary: Você pode monitorar as relações de recuperação de desastres da VM de storage na página relacionamentos na SEÇÃO PROTEÇÃO do INVENTÁRIO. Por padrão, a página relacionamentos lista apenas as relações de nível superior à medida que o filtro relações constituintes é aplicado. 
 ---
-= Monitoramento de VMs de armazenamento usando a página relacionamentos
+= Monitorar VMs de armazenamento usando a página Relacionamentos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

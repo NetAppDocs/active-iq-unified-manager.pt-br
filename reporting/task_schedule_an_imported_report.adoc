@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: schedule, imported, reports 
 summary: Você pode agendar relatórios existentes que foram criados e importados em uma versão anterior do Unified Manager. 
 ---
-= Programação de relatórios .rptdesign importados
+= Agendar relatórios .rptdesign importados
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

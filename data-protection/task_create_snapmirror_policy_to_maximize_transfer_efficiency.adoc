@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, policy, maximize, transfer, efficiency 
 summary: Você pode criar uma política SnapMirror para especificar a prioridade de transferência SnapMirror para relacionamentos de proteção. As políticas do SnapMirror permitem maximizar a eficiência de transferência da origem para o destino, atribuindo prioridades para que as transferências de prioridade mais baixa sejam agendadas para serem executadas após as transferências de prioridade normal. 
 ---
-= Criando uma política de SnapMirror para maximizar a eficiência de transferência
+= Crie uma política SnapMirror para maximizar a eficiência de transferência
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

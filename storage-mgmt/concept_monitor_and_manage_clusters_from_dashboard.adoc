@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, manage, clusters, dashboard 
 summary: 'O painel fornece informações gerais cumulativas sobre a integridade atual dos sistemas ONTAP monitorados. O dashboard fornece "painéis" que permitem avaliar a capacidade geral, a performance e a integridade da segurança dos clusters que você está monitorando.' 
 ---
-= Monitoramento e gerenciamento de clusters no painel
+= Monitore e gerencie clusters pelo painel
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

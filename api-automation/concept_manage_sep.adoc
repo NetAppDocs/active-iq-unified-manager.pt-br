@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policy 
 summary: Você pode exibir, criar, modificar e excluir políticas de eficiência de storage usando as APIs do provedor de storage. 
 ---
-= Gerenciamento de políticas de eficiência de storage usando APIs
+= Gerencie políticas de eficiência de armazenamento usando APIs
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

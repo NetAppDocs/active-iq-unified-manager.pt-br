@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: schedule, maintenance, window, disable, cluster, event, notifications 
 summary: Se você tiver um tempo de inatividade planejado para um cluster, por exemplo, para atualizar o cluster ou mover um dos nós, poderá suprimir os eventos e alertas que normalmente seriam gerados durante esse período agendando uma janela de manutenção do Unified Manager. 
 ---
-= Agendar uma janela de manutenção para desativar as notificações de eventos do cluster
+= Agende uma janela de manutenção para desabilitar notificações de eventos do cluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, data, volume, health details page 
 summary: Você pode restaurar arquivos, diretórios ou um volume inteiro sobrescritos ou excluídos de uma cópia Snapshot usando o recurso de restauração na página de detalhes de volume / integridade. 
 ---
-= Restaurar dados utilizando as páginas de detalhes de volume e volume / Saúde
+= Restaurar dados usando as páginas Volume e Detalhes do Volume/Saúde
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restart, unified manager, virtual, machine 
 summary: 'É possível reiniciar a máquina virtual (VM) do Unified Manager a partir do console de manutenção. Você deve reiniciar a VM depois de gerar um novo certificado de segurança ou se houver um problema com a VM.' 
 ---
-= Reiniciando a máquina virtual do Unified Manager
+= Reinicie a máquina virtual do Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

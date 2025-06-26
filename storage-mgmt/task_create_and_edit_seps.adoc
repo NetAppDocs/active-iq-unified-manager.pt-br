@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, edit, storage, efficiency, policies 
 summary: Quando as políticas de eficiência de storage definidas pelo sistema não correspondem aos requisitos de workload, você pode criar suas próprias políticas de eficiência de storage otimizadas para seus workloads. 
 ---
-= Criação e edição de políticas de eficiência de storage
+= Criar e editar políticas de eficiência de armazenamento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, used, breakdown, chart, failover, planning 
 summary: O gráfico detalhado de capacidade de desempenho usada - detalhamento mostra a capacidade de desempenho usada para o nó principal e o nó do parceiro. Ele também mostra a quantidade de capacidade de desempenho livre no nó de takeover estimado. Essas informações ajudam a determinar se você pode ter um problema de desempenho se o nó do parceiro falhar. 
 ---
-= Uso do gráfico de repartição capacidade de desempenho usado para Planejamento de failover
+= Use o gráfico de detalhamento da capacidade de desempenho usada para planejamento de failover
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

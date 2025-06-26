@@ -26,7 +26,7 @@ Alguns dos painéis listados abaixo aparecem no painel com base na sua configura
 
 == Painel ações de gerenciamento
 
-Há certos problemas que o Unified Manager faz o diagnóstico completo e fornece uma única resolução. Quando disponíveis, essas resoluções são exibidas neste painel com um botão *Fix it* ou *Fix All*. Você pode corrigir esses problemas imediatamente a partir do Unified Manager em vez de usar o ONTAP System Manager ou a CLI do ONTAP. Para visualizar todos os problemas, clique em consulte link:concept_fix_ontap_issues_directly_from_unified_manager.html["Correção de problemas do ONTAP diretamente do Unified Manager"] para obter mais informações.
+Há certos problemas que o Unified Manager faz o diagnóstico completo e fornece uma única resolução. Quando disponíveis, essas resoluções são exibidas neste painel com um botão *Fix it* ou *Fix All*. Você pode corrigir esses problemas imediatamente a partir do Unified Manager em vez de usar o ONTAP System Manager ou a CLI do ONTAP. Para visualizar todos os problemas, clique em consulte link:concept_fix_ontap_issues_directly_from_unified_manager.html["Corrija problemas do ONTAP diretamente do Unified Manager"] para obter mais informações.
 
 
 
@@ -118,8 +118,8 @@ link:../events/reference_description_of_event_severity_types.html["Descrição d
 
 link:../performance-checker/concept_sources_of_performance_events.html["Fontes de eventos de desempenho"]
 
-link:../health-checker/concept_manage_cluster_security_objectives.html["Gerenciamento dos objetivos de segurança do cluster"]
+link:../health-checker/concept_manage_cluster_security_objectives.html["Gerenciar objetivos de segurança do cluster"]
 
-link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html["Monitoramento do desempenho do cluster na página de destino do cluster de desempenho"]
+link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html["Monitore o desempenho do cluster na página inicial do Performance Cluster"]
 
-link:../performance-checker/concept_monitor_performance_using_object_performance.html["Monitorando o desempenho usando as páginas Inventário de desempenho"]
+link:../performance-checker/concept_monitor_performance_using_object_performance.html["Monitore o desempenho usando as páginas do Inventário de Desempenho"]

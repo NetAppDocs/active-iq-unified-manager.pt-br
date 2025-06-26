@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, luns 
 summary: 'Você pode criar LUNs compatíveis com os protocolos CIFS/SMB e NFS, em um cluster existente e Storage Virtual Machine (storage VM) na página provisionar Workload.' 
 ---
-= Provisionamento de LUNs
+= Provisionar LUNs
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

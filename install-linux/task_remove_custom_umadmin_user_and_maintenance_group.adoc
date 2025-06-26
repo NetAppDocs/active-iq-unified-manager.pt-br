@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, custom, umadmin, user, maintenance group 
 summary: Se você criou um diretório inicial personalizado para definir seu próprio usuário umadmin e conta de manutenção antes de instalar o Unified Manager, remova esses itens depois de desinstalar o Unified Manager. 
 ---
-= Removendo o usuário personalizado umadmin e o grupo de manutenção
+= Remover o usuário umadmin personalizado e o grupo de manutenção
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

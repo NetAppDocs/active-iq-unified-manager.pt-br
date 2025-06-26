@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reverse, protection, relationships, volume, relationships page 
 summary: Quando um desastre desativa o volume de origem em sua relação de proteção, você pode usar o volume de destino para servir dados convertendo-os em um volume de leitura/gravação enquanto você reparar ou substituir a origem. Quando a origem estiver novamente disponível para receber dados, você poderá usar a operação de ressincronização reversa para estabelecer a relação na direção inversa, sincronizando os dados na origem com os dados no destino de leitura/gravação. 
 ---
-= Reverter relações de proteção a partir da página relacionamentos de volume
+= Relações de proteção reversa na página Relações de Volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

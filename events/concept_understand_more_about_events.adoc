@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, more, events 
 summary: Compreender os conceitos sobre eventos ajuda você a gerenciar seus clusters e objetos de cluster com eficiência e a definir alertas adequadamente. 
 ---
-= Compreender mais sobre eventos
+= Entenda mais sobre os eventos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

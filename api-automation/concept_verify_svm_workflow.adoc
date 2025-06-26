@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: verify, svms, clusters 
 summary: 'Antes de provisionar compartilhamentos de arquivos ou LUNs, você deve verificar se os clusters têm máquinas virtuais de armazenamento (SVMs) criadas neles.' 
 ---
-= Verificação de SVMs em clusters usando APIs
+= Verifique SVMs em clusters usando APIs
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

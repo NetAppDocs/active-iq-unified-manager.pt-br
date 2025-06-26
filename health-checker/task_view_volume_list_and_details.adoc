@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume list, details 
 summary: 'Na visualização Saúde: Todos os volumes, você pode monitorar seu inventário de volumes. A visualização capacidade: Todos os volumes permite visualizar informações sobre a capacidade e a utilização de volumes em um cluster.' 
 ---
-= Visualizar a lista de volumes e os detalhes
+= Veja a lista de volumes e detalhes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

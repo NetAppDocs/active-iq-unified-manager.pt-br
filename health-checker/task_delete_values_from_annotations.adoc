@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, values, annotations 
 summary: Pode eliminar valores associados a anotações personalizadas quando esse valor já não se aplica à anotação. 
 ---
-= Eliminar valores de anotações
+= Excluir valores das anotações
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

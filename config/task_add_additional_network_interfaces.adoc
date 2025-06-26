@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, network, interfaces 
 summary: Você pode adicionar novas interfaces de rede se precisar separar o tráfego de rede. 
 ---
-= Adicionando interfaces de rede
+= Adicionar interfaces de rede
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

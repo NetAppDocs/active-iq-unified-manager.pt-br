@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: setting, graphite, receive, performance, data, unified manager 
 summary: Graphite é uma ferramenta de software aberto para coletar e grafar dados de desempenho de sistemas de computador. Seu servidor e software Graphite devem ser configurados corretamente para receber dados estatísticos do Unified Manager. 
 ---
-= Configurando o Graphite para receber dados de desempenho do Unified Manager
+= Configurar o Graphite para receber dados de desempenho do Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

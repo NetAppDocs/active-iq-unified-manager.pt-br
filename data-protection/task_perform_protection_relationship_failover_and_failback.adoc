@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, protection, relationship, failover, failback 
 summary: Quando um volume de origem em sua relação de proteção é desativado devido a uma falha de hardware ou a um desastre, você pode usar os recursos de relação de proteção no Unified Manager para tornar o destino de proteção leitura/gravação acessível e fazer failover para esse volume até que a origem esteja on-line novamente. Em seguida, você pode retornar à fonte original quando ela estiver disponível para fornecer dados. 
 ---
-= Execução de failover e failback de uma relação de proteção
+= Executar failover e failback de relacionamento de proteção
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, metrics 
 summary: O Active IQ Unified Manager fornece um conjunto de APIs na categoria /data center que permitem visualizar os dados de desempenho de seus clusters e objetos de armazenamento em um data center. Essas APIs recuperam os dados de performance de diferentes objetos de storage, como clusters, nós, LUNs, volumes, agregados e VMs de storage. 
 ---
-= Visualização de métricas de desempenho usando APIs
+= Visualizar métricas de desempenho usando APIs
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -19,7 +19,7 @@ entries:
 - title: Navegando em workflows de performance na GUI do Unified Manager
   url: "/performance-checker/concept_navigate_performance_workflows_in_unified_manager_ui.html"
   entries:
-  - title: Iniciar sessão na IU
+  - title: Faça login na interface do usuário
     url: "/performance-checker/task_log_in_to_gui.html"
   - title: Interface gráfica e caminhos de navegação
     url: "/performance-checker/concept_graphical_interface_and_navigational_paths.html"
@@ -32,18 +32,18 @@ entries:
       url: "/performance-checker/concept_event_investigation_navigation.html"
   - title: A procurar objetos de armazenamento
     url: "/performance-checker/concept_search_for_storage_objects.html"
-  - title: Filtrando o conteúdo da página de inventário
+  - title: Filtrar conteúdo da página de inventário
     url: "/performance-checker/task_filter_inventory_page_content.html"
-- title: Monitoramento do desempenho do cluster no Dashboard
+- title: Monitore o desempenho do cluster no Painel
   url: "/performance-checker/concept_monitor_cluster_performance_from_dashboard.html"
   entries:
-  - title: Compreender os painéis de desempenho no painel de instrumentos
+  - title: Entenda os painéis de desempenho no Dashboard
     url: "/performance-checker/concept_understand_performance_panels_on_dashboard.html"
   - title: Mensagens de banner de desempenho e descrições
     url: "/performance-checker/reference_performance_dashboard_cluster_banner_messages.html"
   - title: Alterar o intervalo de coleta de estatísticas de desempenho
     url: "/performance-checker/task_change_performance_statistics_collection_interval.html"
-- title: Solução de problemas de cargas de trabalho usando o analisador de carga de
+- title: Solucionar problemas de cargas de trabalho usando o analisador de carga de
     trabalho
   url: "/performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html"
   entries:
@@ -51,13 +51,12 @@ entries:
     url: "/performance-checker/reference_what_data_does_workload_analyzer_display.html"
   - title: Quando eu usaria o analisador da carga de trabalho
     url: "/performance-checker/concept_when_would_i_use_workload_analyzer.html"
-  - title: Usando o analisador de carga de trabalho
+  - title: Use o analisador de carga de trabalho
     url: "/performance-checker/task_use_workload_analyzer.html"
-- title: Monitoramento do desempenho do cluster na página de destino do cluster de
-    desempenho
+- title: Monitore o desempenho do cluster na página inicial do Performance Cluster
   url: "/performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html"
   entries:
-  - title: Compreender a página de destino do cluster de desempenho
+  - title: Entenda a página de destino do cluster de desempenho
     url: "/performance-checker/concept_understand_performance_cluster_landing_page.html"
   - title: Página inicial do cluster de desempenho
     url: "/performance-checker/reference_performance_cluster_landing_page.html"
@@ -71,72 +70,71 @@ entries:
         url: "/performance-checker/reference_managed_objects_pane.html"
     - title: Página de melhores performers
       url: "/performance-checker/reference_top_performers_page.html"
-- title: Monitorando o desempenho usando as páginas Inventário de desempenho
+- title: Monitore o desempenho usando as páginas do Inventário de Desempenho
   url: "/performance-checker/concept_monitor_performance_using_object_performance.html"
   entries:
-  - title: Exibindo páginas de inventário de desempenho para todos os objetos de armazenamento
+  - title: Exibir páginas de inventário de desempenho para todos os objetos de armazenamento
     url: "/performance-checker/performance-view-all.html"
-  - title: Refinando o conteúdo da página de inventário de desempenho
+  - title: Refinar o conteúdo da página de inventário de desempenho
     url: "/performance-checker/concept_refine_object_inventory_performance_page_content.html"
     entries:
-    - title: Pesquisar nas páginas desempenho Stock Objeto
+    - title: Pesquisar nas páginas de desempenho do inventário de objetos
       url: "/performance-checker/task_search_on_object_inventory_performance_pages.html"
-    - title: Classificação nas páginas desempenho do inventário de objetos
+    - title: Classificar nas páginas de desempenho do inventário de objetos
       url: "/performance-checker/task_sort_on_object_inventory_performance_pages.html"
-    - title: Filtrando dados nas páginas desempenho do inventário de objetos
+    - title: Filtrar dados nas páginas de desempenho do inventário de objetos
       url: "/performance-checker/task_filter_on_object_inventory_performance_pages.html"
-  - title: Compreensão das recomendações do Unified Manager para categorizar dados
-      na nuvem
+  - title: Entenda as recomendações do Unified Manager para hierarquizar dados na
+      nuvem
     url: "/performance-checker/concept_understand_um_recommendations_to_tier_data_to_cloud.html"
-- title: Monitoramento do desempenho usando as páginas do Performance Explorer
+- title: Monitore o desempenho usando as páginas do Performance Explorer
   url: "/performance-checker/concept_monitor_performance_using_performance_explorer_pages.html"
   entries:
-  - title: Entendendo o objeto raiz
+  - title: Entenda o objeto raiz
     url: "/performance-checker/concept_understand_root_object.html"
   - title: Aplicar filtragem para reduzir a lista de objetos correlacionados na grade
     url: "/performance-checker/concept_apply_filtering_to_correlated_objects.html"
-  - title: Especificar um intervalo de tempo para objetos correlacionados
+  - title: Especifique um intervalo de tempo para objetos correlacionados
     url: "/performance-checker/task_specify_correlated_objects_time_range.html"
     entries:
-    - title: Selecionar um intervalo de tempo predefinido
+    - title: Selecione um intervalo de tempo predefinido
       url: "/performance-checker/task_select_predefined_time_range.html"
-    - title: Especificar um intervalo de tempo personalizado
+    - title: Especifique um intervalo de tempo personalizado
       url: "/performance-checker/task_specify_custom_time_range.html"
-  - title: Definir a lista de objetos correlacionados para gráficos de comparação
+  - title: Defina a lista de objetos correlacionados para gráficos de comparação
     url: "/performance-checker/task_define_list_of_correlated_objects_for_comparison_graphing.html"
   - title: Compreender as tabelas de contadores
     url: "/performance-checker/concept_understand_counter_charts.html"
   - title: Tipos de gráficos de contador de desempenho
     url: "/performance-checker/reference_types_of_performance_counter_charts.html"
-  - title: Selecionar gráficos de desempenho a apresentar
+  - title: Selecione gráficos de desempenho para exibir
     url: "/performance-checker/task_select_performance_charts_to_display.html"
-  - title: Expandir o painel Cartas de contagem
+  - title: Expandir o painel Gráficos de Contadores
     url: "/performance-checker/task_expand_counter_charts_pane.html"
-  - title: Alterar a focagem dos gráficos de contador para um período de tempo mais
-      curto
+  - title: Alterar o foco dos gráficos de contador para um período de tempo mais curto
     url: "/performance-checker/task_change_counter_charts_focus_to_smaller_period_of_time.html"
-  - title: Exibindo detalhes do evento na linha do tempo de Eventos
+  - title: Ver detalhes do evento na Linha do tempo de eventos
     url: "/performance-checker/task_view_event_details_in_performance_explorer_events_timeline.html"
   - title: Contador gráficos Zoom View
     url: "/performance-checker/concept_counter_charts_zoom_view.html"
     entries:
-    - title: Apresentar a vista de zoom das cartas do contador
+    - title: Exibir a visualização de zoom dos gráficos do contador
       url: "/performance-checker/task_display_counter_charts_zoom_view.html"
-    - title: Especificar o intervalo de tempo na Vista Zoom
+    - title: Especifique o intervalo de tempo na visualização do Zoom
       url: "/performance-checker/task_specify_time_range_in_zoom_view.html"
-    - title: Selecionar limites de desempenho na visualização de zoom de gráficos
-        de contador
+    - title: Selecione os limites de desempenho na visualização de zoom dos gráficos
+        do contador
       url: "/performance-checker/task_select_performance_thresholds_in_zoom_view.html"
-  - title: Visualização da latência do volume por componente do cluster
+  - title: Exibir latência de volume por componente do cluster
     url: "/performance-checker/task_view_volume_latency_by_cluster_component.html"
-  - title: Visualização do tráfego de IOPS do SVM por protocolo
+  - title: Visualizar tráfego SVM IOPS por protocolo
     url: "/performance-checker/task_view_svm_iops_traffic_by_protocol.html"
-  - title: Visualização de gráficos de latência de volume e LUN para verificar a garantia
+  - title: Visualize gráficos de volume e latência de LUN para verificar a garantia
       de desempenho
     url: "/performance-checker/task_view_volume_and_lun_latency_charts_to_verify_performance_guarantee.html"
-  - title: Visualização do desempenho de todos os clusters do SAN Array
+  - title: Veja o desempenho de todos os clusters do SAN Array
     url: "/performance-checker/task_view_performance_status_of_all_san_array_clusters.html"
-  - title: Visualização de IOPS do nó com base em workloads que residem somente no
+  - title: Exibir IOPS do nó com base em cargas de trabalho que residem apenas no
       nó local
     url: "/performance-checker/task_view_node_iops_based_on_workloads_on_local_node.html"
   - title: Componentes das páginas de destino do objeto
@@ -146,29 +144,28 @@ entries:
       url: "/performance-checker/reference_summary_page_opm.html"
     - title: Componentes da página Performance Explorer
       url: "/performance-checker/concept_components_of_performance_explorer_page.html"
-- title: Gerenciando o desempenho usando informações de grupo de políticas de QoS
+- title: Gerenciar o desempenho usando informações do grupo de políticas de QoS
   url: "/performance-checker/concept_manage_performance_using_qos_policy_group_information.html"
   entries:
   - title: Como a QoS do storage pode controlar a taxa de transferência de workload
     url: "/performance-checker/concept_how_storage_qos_can_control_workload_throughput.html"
-  - title: Visualização de todos os grupos de políticas de QoS disponíveis em todos
-      os clusters
+  - title: Ver todos os grupos de políticas de QoS disponíveis em todos os clusters
     url: "/performance-checker/task_view_all_qos_policy_groups_available_on_all_clusters.html"
-  - title: Exibindo volumes ou LUNs que estão no mesmo grupo de políticas de QoS
+  - title: Exibir volumes ou LUNs que estão no mesmo grupo de políticas de QoS
     url: "/performance-checker/task_view_volumes_or_luns_in_same_qos_policy_group.html"
-  - title: Exibindo as configurações do grupo de políticas de QoS aplicadas a volumes
+  - title: Visualize as configurações do grupo de políticas de QoS aplicadas a volumes
       ou LUNs específicos
     url: "/performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html"
-  - title: Exibição de gráficos de desempenho para comparar volumes ou LUNs que estão
+  - title: Visualize gráficos de desempenho para comparar volumes ou LUNs que estão
       no mesmo grupo de políticas de QoS
     url: "/performance-checker/task_view_performance_charts_to_compare_volumes_or_luns_in_qos_policy.html"
   - title: Como diferentes tipos de políticas de QoS são exibidos nos gráficos de
       taxa de transferência
     url: "/performance-checker/concept_how_qos_policies_are_displayed_in_throughput_charts.html"
-  - title: Exibindo configurações mínimas e máximas de QoS do workload no Performance
-      Explorer
+  - title: Visualize as configurações mínimas e máximas de QoS da carga de trabalho
+      no Performance Explorer
     url: "/performance-checker/task_view_workload_qos_minimum_and_maximum_settings.html"
-- title: Gerenciamento da performance com a capacidade de performance e as informações
+- title: Gerencie o desempenho usando a capacidade de desempenho e as informações
     de IOPS disponíveis
   url: "/performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html"
   entries:
@@ -178,31 +175,30 @@ entries:
     url: "/performance-checker/concept_what_used_headroom_value_means.html"
   - title: O que é IOPS disponível
     url: "/performance-checker/concept_what_available_iops_is.html"
-  - title: Exibindo valores de capacidade de desempenho agregado e nó usados
+  - title: Exibir valores usados de capacidade de desempenho de nó e agregado
     url: "/performance-checker/concept_view_node_and_aggregate_performance_capacity_used_values.html"
-  - title: Exibindo o nó e agregar valores de IOPS disponíveis
+  - title: Exibir valores de IOPS disponíveis para nós e agregados
     url: "/performance-checker/concept_view_node_and_aggregate_available_iops_values.html"
-  - title: Visualização de gráficos de contadores de capacidade de desempenho para
-      identificar problemas
+  - title: Visualize gráficos de contadores de capacidade de desempenho para identificar
+      problemas
     url: "/performance-checker/task_view_performance_capacity_counter_charts_to_identify_issues.html"
   - title: Condições de limite de performance usadas pela capacidade de performance
     url: "/performance-checker/concept_performance_capacity_used_threshold_conditions.html"
-  - title: Usando o contador de capacidade de desempenho usado para gerenciar o desempenho
+  - title: Utilize o contador de capacidade de desempenho para gerenciar o desempenho
     url: "/performance-checker/concept_use_performance_capacity_used_counter.html"
-- title: Compreender e utilizar a página Planeamento de failover de nó
+- title: Entenda e use a página de planejamento de failover de nó
   url: "/performance-checker/reference_understand_and_use_node_failover_planning_page.html"
   entries:
-  - title: Usando a página Planejamento de failover de nó para determinar ações corretivas
+  - title: Use a página Planejamento de Failover de Nó para determinar ações corretivas
     url: "/performance-checker/concept_use_failover_planning_page_to_determine_corrective_actions.html"
   - title: Componentes da página de Planejamento de failover de nó
     url: "/performance-checker/reference_components_of_node_failover_planning_page.html"
-  - title: Usando uma política de limite com a página Planejamento de failover de
-      nó
+  - title: Use uma política de limite com a página Planejamento de Failover de Nó
     url: "/performance-checker/concept_use_threshold_policy_with_node_failover_planning_page.html"
-  - title: Uso do gráfico de repartição capacidade de desempenho usado para Planejamento
+  - title: Use o gráfico de detalhamento da capacidade de desempenho usada para planejamento
       de failover
     url: "/performance-checker/task_use_perf_capacity_used_breakdown_chart_for_failover_planning.html"
-- title: Coleta de dados e monitoramento do desempenho da carga de trabalho
+- title: Coletar dados e monitorar o desempenho da carga de trabalho
   url: "/performance-checker/concept_collect_data_and_monitor_workload_performance.html"
   entries:
   - title: Tipos de workloads monitorados pelo Unified Manager
@@ -220,7 +216,7 @@ entries:
     url: "/performance-checker/concept_how_cluster_operations_can_affect_workload_latency.html"
   - title: Monitoramento de desempenho das configurações do MetroCluster
     url: "/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html"
-- title: Compreender eventos e alertas de desempenho
+- title: Entenda eventos de desempenho e alertas
   url: "/performance-checker/concept_understand_performance_events_and_alerts.html"
   entries:
   - title: Fontes de eventos de desempenho
@@ -239,7 +235,7 @@ entries:
     url: "/performance-checker/concept_cluster_components_and_why_they_can_be_in_contention.html"
   - title: Funções dos workloads envolvidos em um evento de desempenho
     url: "/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html"
-- title: Gerenciamento dos limites de performance
+- title: Gerenciar limites de desempenho
   url: "/performance-checker/concept_manage_performance_thresholds.html"
   entries:
   - title: Como funcionam as políticas de limite de performance definidas pelo usuário
@@ -250,79 +246,79 @@ entries:
     url: "/performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html"
   - title: Quais objetos e contadores podem ser usados em políticas de limite de combinação
     url: "/performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html"
-  - title: Criação de políticas de limite de performance definidas pelo usuário
+  - title: Crie políticas de limite de desempenho definidas pelo usuário
     url: "/performance-checker/task_create_user_defined_performance_threshold_policies.html"
-  - title: Atribuindo políticas de limite de desempenho a objetos de storage
+  - title: Atribuir políticas de limite de desempenho a objetos de armazenamento
     url: "/performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html"
-  - title: Exibindo políticas de limite de desempenho
+  - title: Ver políticas de limite de desempenho
     url: "/performance-checker/task_view_performance_threshold_policies.html"
-  - title: Editando políticas de limite de performance definidas pelo usuário
+  - title: Editar políticas de limite de desempenho definidas pelo usuário
     url: "/performance-checker/task_edit_user_defined_performance_threshold_policies.html"
-  - title: Remoção de políticas de limite de performance de objetos de storage
+  - title: Remover políticas de limite de desempenho de objetos de armazenamento
     url: "/performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html"
   - title: O que acontece quando uma política de limite de desempenho é alterada
     url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html"
   - title: O que acontece com as políticas de limite de performance quando um objeto
       é movido
     url: "/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html"
-- title: Analisando eventos de desempenho
+- title: Analisar eventos de desempenho
   url: "/performance-checker/concept_analyze_performance_events.html"
   entries:
-  - title: Exibindo informações sobre eventos de desempenho
+  - title: Exibir informações sobre eventos de desempenho
     url: "/performance-checker/task_display_information_about_performance_event.html"
-  - title: Analisando eventos a partir de limites de desempenho definidos pelo usuário
+  - title: Analisar eventos a partir de limites de desempenho definidos pelo usuário
     url: "/performance-checker/concept_analyze_events_from_user_defined_performance_thresholds.html"
     entries:
-    - title: Resposta a eventos de limite de desempenho definidos pelo usuário
+    - title: Responder a eventos de limite de desempenho definidos pelo usuário
       url: "/performance-checker/task_respond_to_user_defined_performance_threshold_events.html"
-  - title: Analisando eventos a partir de limites de desempenho definidos pelo sistema
+  - title: Analisar eventos a partir de limites de desempenho definidos pelo sistema
     url: "/performance-checker/concept_analyze_events_from_system_defined_performance_thresholds.html"
     entries:
-    - title: Resposta a eventos de limite de desempenho definido pelo sistema
+    - title: Responder a eventos de limite de desempenho definidos pelo sistema
       url: "/performance-checker/task_respond_to_system_defined_performance_threshold_events.html"
-    - title: Resposta a eventos de desempenho do grupo de políticas de QoS
+    - title: Responder a eventos de desempenho do grupo de políticas de QoS
       url: "/performance-checker/task_respond_to_system_defined_qos_policy_group_performance_event.html"
-    - title: Entendendo eventos de políticas de QoS adaptáveis que têm um tamanho
-        de bloco definido
+    - title: Entenda eventos de políticas de QoS adaptáveis que têm um tamanho de
+        bloco definido
       url: "/performance-checker/concept_understand_events_from_adaptive_qos_policies.html"
-    - title: Resposta a eventos de desempenho superutilizados pelos recursos do nó
+    - title: Responder a eventos de desempenho de recursos de nó superutilizados
       url: "/performance-checker/task_respond_to_system_defined_node_resources_overutilized.html"
-    - title: Resposta a eventos de desempenho de desequilíbrio do cluster
+    - title: Responder a eventos de desempenho de desequilíbrio de cluster
       url: "/performance-checker/task_respond_to_cluster_imbalance_performance_events.html"
-  - title: Analisando eventos a partir de limites dinâmicos de desempenho
+  - title: Analisar eventos a partir de limites de desempenho dinâmico
     url: "/performance-checker/concept_analyze_events_from_dynamic_performance_thresholds.html"
     entries:
-    - title: Identificação das cargas de trabalho da vítima envolvidas em um evento
-        de desempenho dinâmico
+    - title: Identificar cargas de trabalho de vítimas envolvidas em um evento de
+        desempenho dinâmico
       url: "/performance-checker/task_identify_victim_workloads_involved_in_performance_event.html"
-    - title: Identificação de workloads bully envolvidos em um evento de performance
-        dinâmico
+    - title: Identificar cargas de trabalho agressivas envolvidas em um evento de
+        desempenho dinâmico
       url: "/performance-checker/task_identify_bully_workloads_involved_in_performance_event.html"
-    - title: Identificação de cargas de trabalho do SHARK envolvidas em um evento
-        de desempenho dinâmico
+    - title: Identificar cargas de trabalho de tubarão envolvidas em um evento de
+        desempenho dinâmico
       url: "/performance-checker/task_identify_shark_workloads_involved_in_performance_event.html"
     - title: Análise de eventos de performance para uma configuração do MetroCluster
       url: "/performance-checker/concept_performance_incident_analysis_for_metrocluster_configuration.html"
       entries:
-      - title: Analisando um evento de desempenho dinâmico em um cluster em uma configuração
-          do MetroCluster
+      - title: Analisar um evento de desempenho dinâmico em um cluster em uma configuração
+          MetroCluster
         url: "/performance-checker/task_analyze_performance_incident_on_cluster_in_metrocluster.html"
-      - title: Analisando um evento de desempenho dinâmico para um cluster remoto
-          em uma configuração do MetroCluster
+      - title: Analisar um evento de desempenho dinâmico para um cluster remoto em
+          uma configuração MetroCluster
         url: "/performance-checker/task_analyze_performance_incident_in_metrocluster.html"
-    - title: Resposta a um evento de desempenho dinâmico causado pela limitação do
+    - title: Responder a um evento de desempenho dinâmico causado pela limitação do
         grupo de políticas de QoS
       url: "/performance-checker/task_respond_to_dynamic_performance_event.html"
-    - title: Resposta a um evento de desempenho dinâmico causado por uma falha de
+    - title: Responder a um evento de desempenho dinâmico causado por uma falha de
         disco
       url: "/performance-checker/task_respond_to_performance_incident_caused_by_disk_failure.html"
-    - title: Resposta a um evento de performance dinâmico causado pelo takeover de
+    - title: Responder a um evento de desempenho dinâmico causado pela aquisição do
         HA
       url: "/performance-checker/task_respond_to_performance_incident_caused_by_ha_takeover.html"
-- title: Resolução de eventos de performance
+- title: Resolver eventos de desempenho
   url: "/performance-checker/reference_resolve_performance_events.html"
   entries:
-  - title: Confirmando que a latência está dentro do intervalo esperado
+  - title: Confirme se a latência está dentro do intervalo esperado
     url: "/performance-checker/concept_confirm_that_response_time_is_within_expected_range.html"
   - title: Analisar o impacto das alterações de configuração na performance do workload
     url: "/performance-checker/concept_review_impact_of_configuration_changes.html"
@@ -351,15 +347,15 @@ entries:
     url: "/performance-checker/concept_metrocluster_configuration_health_check.html"
   - title: Verificação da configuração do MetroCluster
     url: "/performance-checker/concept_metrocluster_configuration_verification.html"
-  - title: Movimentação de workloads para um agregado diferente
+  - title: Mover cargas de trabalho para um agregado diferente
     url: "/performance-checker/task_move_workloads_to_different_aggregate.html"
-  - title: Movimentação de workloads para um nó diferente
+  - title: Mover cargas de trabalho para um nó diferente
     url: "/performance-checker/task_move_workloads_to_different_node.html"
-  - title: Movimentação de workloads para um agregado em um nó diferente
+  - title: Mover cargas de trabalho para um agregado em um nó diferente
     url: "/performance-checker/task_move_workloads_to_an_aggregate_on_different_node.html"
-  - title: Movimentação de workloads para um nó em um par de HA diferente
+  - title: Mover cargas de trabalho para um nó em um par de HA diferente
     url: "/performance-checker/task_move_workloads_to_node_in_different_ha_pair.html"
-  - title: Movimentação de workloads para outro nó em um par de HA diferente
+  - title: Mover cargas de trabalho para outro nó em um par de HA diferente
     url: "/performance-checker/task_move_workloads_to_another_node_in_different_ha_pair.html"
   - title: Use as configurações de política de QoS para priorizar o trabalho nesse
       nó
@@ -368,14 +364,14 @@ entries:
     url: "/performance-checker/concept_remove_inactive_volumes_and_luns.html"
   - title: Adicione discos e execute a reconstrução de layout agregado
     url: "/performance-checker/concept_add_disks_and_perform_aggregate_layout_reconstruction.html"
-- title: Configurando uma conexão entre um servidor do Unified Manager e um provedor
+- title: Configurar uma conexão entre um servidor do Unified Manager e um provedor
     de dados externo
   url: "/performance-checker/concept_set_up_connection_between_um_and_external_data_provider.html"
   entries:
   - title: Dados de desempenho que podem ser enviados para um servidor externo
     url: "/performance-checker/reference_performance_data_that_can_be_sent_to_an_external_server.html"
-  - title: Configurando o Graphite para receber dados de desempenho do Unified Manager
+  - title: Configurar o Graphite para receber dados de desempenho do Unified Manager
     url: "/performance-checker/concept_set_up_graphite_to_receive_performance_data.html"
-  - title: Configurando uma conexão de um servidor do Unified Manager para um provedor
+  - title: Configurar uma conexão de um servidor do Unified Manager para um provedor
       de dados externo
     url: "/performance-checker/task_configure_connection_between_um_server_and_external_data_provider.html"

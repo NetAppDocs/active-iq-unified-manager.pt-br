@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, occurred, maintenance, window 
 summary: Se necessário, você pode exibir os eventos que foram gerados para todos os objetos de armazenamento durante uma janela de manutenção do Unified Manager. A maioria dos eventos aparecerá no estado Obsoleto assim que a janela de manutenção estiver concluída e todos os recursos do sistema estiverem em backup e em execução. 
 ---
-= Visualização de eventos que ocorreram durante uma janela de manutenção
+= Ver eventos que ocorreram durante uma janela de manutenção
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

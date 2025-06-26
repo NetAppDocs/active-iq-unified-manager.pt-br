@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, time range, zoom view 
 summary: O controle intervalo de tempo na janela Exibição de Zoom de gráficos de Contador permite especificar um intervalo de data e hora para o gráfico selecionado. Isso permite localizar rapidamente dados específicos com base em um intervalo de tempo predefinido ou em seu próprio intervalo de tempo personalizado. 
 ---
-= Especificar o intervalo de tempo na Vista Zoom
+= Especifique o intervalo de tempo na visualização do Zoom
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

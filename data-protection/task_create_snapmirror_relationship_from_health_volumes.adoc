@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, protection, relationship, health, volumes view 
 summary: 'Usando a exibição integridade: Todos os volumes, você pode criar vários relacionamentos de proteção SnapMirror ao mesmo tempo, selecionando mais de um volume na mesma VM de storage.' 
 ---
-= Criando uma relação de proteção SnapMirror a partir da visualização integridade: Todos os volumes
+= Crie um relacionamento de proteção SnapMirror na visualização Saúde: Todos os volumes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

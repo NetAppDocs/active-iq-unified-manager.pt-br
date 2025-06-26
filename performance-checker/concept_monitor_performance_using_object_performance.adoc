@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitoring, performance, inventory, pages 
 summary: As páginas de desempenho de inventário de objetos exibem informações de desempenho, eventos de desempenho e integridade de objetos para todos os objetos dentro de uma categoria de tipo de objeto. Isso fornece uma visão geral do status de performance de cada objeto em um cluster, por exemplo, para todos os nós ou todos os volumes. 
 ---
-= Monitorando o desempenho usando as páginas Inventário de desempenho
+= Monitore o desempenho usando as páginas do Inventário de Desempenho
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

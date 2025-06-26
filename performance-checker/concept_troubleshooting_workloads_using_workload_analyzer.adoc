@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer, troubleshoot 
 summary: O analisador de carga de trabalho fornece uma maneira de visualizar critérios importantes de integridade e desempenho para uma única carga de trabalho em uma única página para ajudar na solução de problemas. Ao visualizar todos os eventos atuais e passados para um workload, você pode ter uma ideia melhor por que o workload pode estar tendo um problema de performance ou capacidade agora. 
 ---
-= Solução de problemas de cargas de trabalho usando o analisador de carga de trabalho
+= Solucionar problemas de cargas de trabalho usando o analisador de carga de trabalho
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

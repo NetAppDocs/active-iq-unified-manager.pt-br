@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, workloads, add, provision, storage, filter, analyze, performance, capacity, criteria 
 summary: A visualização todos os workloads exibe a lista de todos os workloads disponíveis nos clusters de um data center. 
 ---
-= Visualização de workloads
+= Exibir cargas de trabalho
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

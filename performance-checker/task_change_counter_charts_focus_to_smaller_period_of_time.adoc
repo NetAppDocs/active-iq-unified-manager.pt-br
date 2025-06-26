@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, counter, charts, focus, shorter, period, time 
 summary: 'Pode utilizar o rato para reduzir o intervalo de tempo para focar num determinado período de tempo no painel Counter Chart ou na janela Counter Charts Zoom View (visualização de zoom de gráficos de contador). Isso permite que você veja uma visão mais granular e microscópica de qualquer parte do cronograma de dados, eventos e limites de desempenho.' 
 ---
-= Alterar a focagem dos gráficos de contador para um período de tempo mais curto
+= Alterar o foco dos gráficos de contador para um período de tempo mais curto
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

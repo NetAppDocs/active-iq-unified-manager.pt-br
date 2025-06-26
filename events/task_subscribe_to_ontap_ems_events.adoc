@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: subscribe, ontap, ems events 
 summary: 'Você pode se inscrever para receber eventos do sistema de Gerenciamento de Eventos (EMS) gerados por sistemas instalados com o software ONTAP. Um subconjunto de eventos EMS é relatado automaticamente ao Unified Manager, mas eventos EMS adicionais são relatados somente se você se inscreveu nesses eventos.' 
 ---
-= Subscrever eventos ONTAP EMS
+= Inscreva-se nos eventos do ONTAP EMS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

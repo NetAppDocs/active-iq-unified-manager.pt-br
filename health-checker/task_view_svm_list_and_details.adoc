@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage vm list, details 
 summary: 'Na visualização integridade: Todas as VMs de armazenamento, você pode monitorar seu inventário de máquinas virtuais de armazenamento (SVMs). Você pode usar a página Storage VM / Health details para exibir informações detalhadas sobre SVMs que são monitoradas.' 
 ---
-= Exibindo a lista e os detalhes da VM de armazenamento
+= Ver a lista e os detalhes da VM de armazenamento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

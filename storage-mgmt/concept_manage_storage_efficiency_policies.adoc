@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policies, guidelines, create, custom 
 summary: 'Uma Política de eficiência de storage (SEP) permite definir as características de eficiência de storage de um workload. Você pode atribuir uma SEP a uma carga de trabalho ao criar inicialmente a carga de trabalho ou depois editar a carga de trabalho.' 
 ---
-= Gerenciamento de políticas de eficiência de storage
+= Gerenciar políticas de eficiência de armazenamento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configuring, connection, unified manager, server, external, data, provider 
 summary: O Unified Manager pode enviar dados de desempenho do cluster para um servidor externo. Você pode especificar o tipo de dados estatísticos que são enviados e o intervalo no qual os dados são enviados. 
 ---
-= Configurando uma conexão de um servidor do Unified Manager para um provedor de dados externo
+= Configurar uma conexão de um servidor do Unified Manager para um provedor de dados externo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

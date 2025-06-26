@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, disable, alerts, resolved, obsolete, events 
 summary: 'Para todos os eventos que você configurou para enviar alertas, uma mensagem de alerta é enviada quando esses eventos passam por todos os estados disponíveis: Novo, confirmado, resolvido e Obsoleto. Se você não quiser receber alertas de eventos à medida que eles se movem para os estados resolvidos e obsoletos, você pode configurar uma configuração global para suprimir esses alertas.' 
 ---
-= Ativar e desativar alertas para eventos resolvidos e obsoletos
+= Habilitar e desabilitar alertas para eventos Resolvidos e Obsoletos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

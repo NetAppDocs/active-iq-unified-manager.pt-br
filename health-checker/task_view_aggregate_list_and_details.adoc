@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, aggregate list, details 
 summary: 'Na visualização Saúde: Todos os agregados, você pode monitorar seu inventário de agregados. A visualização capacidade: Todos os agregados permite visualizar informações sobre a capacidade e a utilização de agregados em todos os clusters.' 
 ---
-= Exibindo a lista de agregados e os detalhes
+= Veja a lista agregada e os detalhes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understanding, node, failover, planning page 
 summary: 'A página Planejamento de failover de nó/desempenho estima o impactos no desempenho em um nó se o nó de parceiro de alta disponibilidade (HA) do nó falhar. O Unified Manager baseia as estimativas no desempenho histórico dos nós no par de HA.' 
 ---
-= Compreender e utilizar a página Planeamento de failover de nó
+= Entenda e use a página de planejamento de failover de nó
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

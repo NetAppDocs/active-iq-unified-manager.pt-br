@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: complete, worksheet 
 summary: Antes de instalar e configurar o Unified Manager, você deve ter informações específicas sobre seu ambiente prontamente disponíveis. Pode registar as informações na folha de trabalho. 
 ---
-= Completar a folha de trabalho
+= Complete a Planilha
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

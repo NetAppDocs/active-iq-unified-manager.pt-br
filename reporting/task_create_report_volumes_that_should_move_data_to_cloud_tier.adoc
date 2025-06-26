@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, identify, volumes, FabricPool, aggregates, data, cloud tier 
 summary: 'Você pode criar um relatório que contenha a lista de volumes que atualmente residem em agregados FabricPool, que tenham uma recomendação de nuvem de categoria e que tenham uma grande quantidade de dados inativos. Esse relatório pode ajudar você a decidir se você deve alterar a política de disposição em categorias de certos volumes para "automático" ou "tudo" para transferir mais dados inativos (inativos) para a categoria de nuvem.' 
 ---
-= Criar um relatório para identificar volumes em agregados FabricPool que devem migrar dados para a camada de nuvem
+= Crie um relatório para identificar volumes em agregados do FabricPool que devem mover dados para a camada de nuvem
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

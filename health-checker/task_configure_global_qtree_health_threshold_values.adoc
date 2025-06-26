@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, qtree, health, threshold values 
 summary: Você pode configurar os valores de limite de integridade global para todos os qtrees para rastrear qualquer violação de limite. Eventos apropriados são gerados para violações de limites de integridade e você pode tomar medidas preventivas com base nesses eventos. Você pode configurar os valores globais com base nas configurações de práticas recomendadas para limites que se aplicam a todos os qtrees monitorados. 
 ---
-= Configurando valores de limite de integridade de qtree global
+= Configurar valores de limite de integridade do qtree global
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

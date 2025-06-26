@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global health, threshold settings 
 summary: Você pode configurar condições de limite de integridade globais para capacidade, crescimento, reserva de snapshot, cotas e inodes para monitorar seu agregado, volume e tamanho de qtree com eficiência. Você também pode editar as configurações para gerar eventos para exceder limites de atraso. 
 ---
-= Configurar definições de limites globais de saúde
+= Configurar as definições globais de limite de saúde
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

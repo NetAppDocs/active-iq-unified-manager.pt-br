@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: slo, storage efficiency policy, storage workloads 
 summary: 'A opção de gerenciamento de storage baseado em políticas permite o gerenciamento de storage com base em SLOs (Objetivos de nível de serviço). Esta opção está ativada por predefinição.' 
 ---
-= Habilitando o gerenciamento de storage baseado em políticas
+= Habilite o gerenciamento de storage baseado em políticas
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

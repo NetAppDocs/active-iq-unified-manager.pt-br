@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, events 
 summary: Os eventos ajudam a identificar problemas nos clusters monitorados. 
 ---
-= Gerenciamento de eventos
+= Gerenciar eventos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

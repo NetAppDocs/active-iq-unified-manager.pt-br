@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, annotations 
 summary: Você pode excluir anotações personalizadas e seus valores quando não forem mais necessários. 
 ---
-= Eliminar anotações
+= Excluir anotações
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

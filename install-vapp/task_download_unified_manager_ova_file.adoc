@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, unified manager, installation, file 
 summary: Faça download do arquivo de instalação do Unified Manager no site de suporte da NetApp para implantar o Unified Manager como um dispositivo virtual. 
 ---
-= Download do arquivo de instalação do Unified Manager
+= Baixe o arquivo de instalação do Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

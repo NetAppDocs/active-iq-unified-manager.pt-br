@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary: Você pode gerenciar suas programações de relatórios na página agendas de relatórios. Você pode exibir, modificar ou excluir programações existentes. 
 ---
-= Gerenciamento de programações de relatórios
+= Gerenciar agendamentos de relatórios
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

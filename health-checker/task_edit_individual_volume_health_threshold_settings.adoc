@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, volume, health, threshold, settings 
 summary: Você pode editar as configurações de limite de integridade para capacidade de volume, crescimento, cota e reserva de espaço de um ou mais volumes. Quando um limite é cruzado, os alertas são gerados e você recebe notificações. Essas notificações ajudam você a tomar medidas preventivas com base no evento gerado. 
 ---
-= Editar definições individuais de limite de integridade do volume
+= Editar configurações de limite de integridade de volume individual
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

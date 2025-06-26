@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, database, user 
 summary: Para oferecer suporte a uma conexão entre o Workflow Automation e o Unified Manager, ou para acessar exibições de banco de dados, primeiro é necessário criar um usuário de banco de dados com a função Esquema de integração ou Esquema de Relatório na IU da Web do Unified Manager. 
 ---
-= Criando um usuário de banco de dados
+= Criar um usuário de banco de dados
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

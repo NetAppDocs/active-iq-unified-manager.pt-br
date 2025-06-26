@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster authentication status, user authentication, manage, clusters 
 summary: A página Segurança exibe os tipos de autenticação que estão sendo usados para autenticar usuários em cada cluster e o número de usuários que estão acessando o cluster usando cada tipo. Isso permite verificar se a autenticação do usuário está sendo executada de forma segura, conforme definido pela sua organização. 
 ---
-= Visualização de como a autenticação do usuário está sendo gerenciada em todos os clusters
+= Veja como a autenticação do usuário está sendo gerenciada em todos os clusters
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

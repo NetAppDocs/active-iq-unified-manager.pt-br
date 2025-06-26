@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: check, health, clusters, metrocluster, configuration 
 summary: Use o Unified Manager para verificar a integridade operacional dos clusters e seus componentes em uma configuração do MetroCluster. Se os clusters estiveram envolvidos em um evento de desempenho detetado pelo Unified Manager, o status de integridade pode ajudá-lo a determinar se um problema de hardware ou software contribuiu para o evento. 
 ---
-= Verificação da integridade dos clusters em uma configuração do MetroCluster
+= Verifique a integridade dos clusters em uma configuração MetroCluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -21,7 +21,7 @@ Você pode usar o Active IQ Unified Manager (Unified Manager) para verificar a i
 
 
 
-== Determinando a integridade do cluster na configuração de MetroCluster em FC
+== Determinar a integridade do cluster no MetroCluster por meio da configuração FC
 
 Siga estas etapas para determinar a integridade do cluster em uma configuração MetroCluster sobre FC.
 
@@ -59,7 +59,7 @@ Neste exemplo, se o ícone NVRAM no cluster local ou de parceiros estiver amarel
 
 
 
-== Determinando a integridade do cluster na configuração MetroCluster sobre IP
+== Determinar a integridade do cluster na configuração do MetroCluster sobre IP
 
 Siga estas etapas para determinar a integridade do cluster em uma configuração MetroCluster sobre IP.
 

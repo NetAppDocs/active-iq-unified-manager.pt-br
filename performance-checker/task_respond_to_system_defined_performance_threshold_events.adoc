@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system-defined, performance, threshold, events 
 summary: Você pode usar o Unified Manager para investigar eventos de desempenho causados por um contador de desempenho que cruza um limite de aviso definido pelo sistema. Você também pode usar o Unified Manager para verificar a integridade do componente do cluster para ver se os eventos recentes detetados no componente contribuíram para o evento de desempenho. 
 ---
-= Resposta a eventos de limite de desempenho definido pelo sistema
+= Responder a eventos de limite de desempenho definidos pelo sistema
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: log in, ui, unified manager 
 summary: Você pode fazer login na IU do Unified Manager usando um navegador da Web compatível. 
 ---
-= Iniciar sessão na IU
+= Faça login na interface do usuário
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

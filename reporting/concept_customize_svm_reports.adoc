@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, storage, vm reports 
 summary: Você pode criar relatórios de VM de storage para analisar informações de volume e visualizar a integridade geral e a disponibilidade de storage. Por exemplo, você pode criar relatórios para exibir SVMs atingindo a contagem máxima de volume e analisar SVMs paradas. 
 ---
-= Personalização de relatórios de VM de storage
+= Personalizar relatórios de VM de armazenamento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

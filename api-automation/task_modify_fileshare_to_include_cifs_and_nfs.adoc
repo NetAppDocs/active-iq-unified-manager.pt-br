@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, nfs, file, share, support, cifs 
 summary: 'Você pode modificar um compartilhamento de arquivos NFS para dar suporte ao protocolo CIFS. Durante a criação do compartilhamento de arquivos, é possível especificar os parâmetros da lista de controle de acesso (ACL) e as regras de política de exportação para o mesmo compartilhamento de arquivos. No entanto, se quiser ativar o CIFS no mesmo volume em que criou um compartilhamento de arquivos NFS, você pode atualizar os parâmetros ACL nesse compartilhamento de arquivos para oferecer suporte ao CIFS.' 
 ---
-= Modificação de um compartilhamento de arquivos NFS usando APIs para oferecer suporte a CIFS
+= Modificar um compartilhamento de arquivo NFS usando APIs para oferecer suporte a CIFS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

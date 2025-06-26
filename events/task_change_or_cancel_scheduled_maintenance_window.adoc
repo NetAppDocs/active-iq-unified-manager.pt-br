@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, cancel, scheduled, maintenance, window 
 summary: Se você tiver configurado uma janela de manutenção do Unified Manager para ocorrer no futuro, poderá alterar as horas de início e término ou cancelar a ocorrência da janela de manutenção. 
 ---
-= Alterar ou cancelar uma janela de manutenção agendada
+= Alterar ou cancelar uma janela de manutenção programada
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

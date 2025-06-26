@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, virtual, infrastructure, disaster, recovery, setup, datastores, metrocluster configuration 
 summary: 'Você pode visualizar as métricas de configuração e performance dos datastores hospedados em uma configuração do MetroCluster ou na configuração de recuperação de desastres (SVM DR) de máquina virtual de storage (Storage VM).' 
 ---
-= Visualização da infraestrutura virtual em uma configuração de recuperação de desastres
+= Visualizar infraestrutura virtual em uma configuração de recuperação de desastres
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -19,7 +19,7 @@ Você também pode visualizar os volumes nas ou LUNs em uma configuração de re
 
 
 
-== Visualização de datastores na configuração do MetroCluster
+== Exibir armazenamentos de dados na configuração do MetroCluster
 
 Observe os seguintes pré-requisitos antes de visualizar datastores em uma configuração do MetroCluster:
 
@@ -40,7 +40,7 @@ Siga estas etapas para visualizar armazenamentos de dados:
 
 
 
-== Visualização de armazenamentos de dados na configuração de recuperação de desastres da VM de storage
+== Exibir datastores na configuração de recuperação de desastres da VM de armazenamento
 
 Observe os seguintes pré-requisitos antes de visualizar armazenamentos de dados em uma configuração de recuperação de desastres da VM de storage:
 

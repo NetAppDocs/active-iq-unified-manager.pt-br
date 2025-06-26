@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: bookmark, favorite, help topics 
 summary: Na guia Favoritos da Ajuda, você pode marcar os tópicos da Ajuda que você usa com frequência. Os marcadores de ajuda fornecem acesso rápido aos seus tópicos favoritos. 
 ---
-= Marcar os seus tópicos de Ajuda favoritos
+= Marque seus tópicos de ajuda favoritos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

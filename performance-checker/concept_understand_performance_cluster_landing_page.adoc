@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, cluster, landing page 
 summary: A página de destino do cluster de desempenho fornece uma visão geral de desempenho de alto nível de um cluster selecionado, com ênfase no status de desempenho dos 10 principais objetos dentro do cluster. Os problemas de desempenho são exibidos na parte superior da página, no painel todos os eventos neste cluster. 
 ---
-= Compreender a página de destino do cluster de desempenho
+= Entenda a página de destino do cluster de desempenho
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

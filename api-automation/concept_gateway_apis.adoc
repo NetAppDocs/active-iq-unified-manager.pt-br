@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, ONTAP, APIs, proxy, access 
 summary: As APIs de gateway oferecem a vantagem de usar as credenciais Active IQ Unified Manager para executar APIs REST do ONTAP e gerenciar objetos de storage. Essas APIs estão disponíveis quando o recurso API Gateway está habilitado na IU da Web do Unified Manager. 
 ---
-= Acessando APIs do ONTAP por meio de acesso proxy
+= Acesse APIs ONTAP por meio de acesso proxy
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -70,7 +70,7 @@ O `OPTIONS` método determina se um recurso está disponível. Esta operação p
 |===
 
 
-== Entendendo o encapsulamento do API Gateway
+== Entenda o tunelamento do API Gateway
 
 As APIs de gateway permitem gerenciar objetos do ONTAP por meio do Gerenciador Unificado. O Unified Manager gerencia os clusters e os detalhes de autenticação e redireciona as solicitações para o endpoint REST do ONTAP. A API de gateway transforma a URL e a Hypermedia como o mecanismo de Estado da aplicação (HATEOAS) links no cabeçalho e corpo de resposta com a URL base do gateway API. A API do gateway atua como o URL base do proxy ao qual você adiciona o URL REST do ONTAP e executa o endpoint REST do ONTAP necessário.
 
@@ -102,7 +102,7 @@ A API retorna a lista de volumes de armazenamento nesse cluster. O formato de re
 
 
 
-== Configurando o escopo da API
+== Definir escopo da API
 
 Todas as APIs têm um contexto definido dentro do escopo do cluster. As APIs que operam com base nas VMs de storage também têm o cluster como escopo, ou seja, as operações de API são executadas em uma VM de storage específica em um cluster gerenciado. Ao executar a `/gateways/\{uuid}/\{path}` API, certifique-se de inserir o cluster UUUID (Unified Manager datasource UUID) para o cluster no qual você executa a operação. Para definir o contexto para uma VM de armazenamento específica dentro desse cluster, insira a chave VM de armazenamento como o parâmetro X-Dot-SVM-UUID ou o nome da VM de armazenamento como o parâmetro X-Dot-SVM-Name. O parâmetro é adicionado como o filtro no cabeçalho da cadeia de carateres e a operação é executada dentro do escopo dessa VM de armazenamento dentro desse cluster.
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node list, details 
 summary: 'Você pode usar a visualização integridade: Todos os nós para exibir a lista de nós nos clusters. Você pode usar a página de detalhes de Cluster / Health para exibir informações detalhadas sobre nós que fazem parte do cluster monitorado.' 
 ---
-= Exibindo a lista de nós e os detalhes
+= Ver a lista de nós e detalhes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disk, space, unified manager, database, directory 
 summary: O diretório do banco de dados do Unified Manager contém todos os dados de integridade e desempenho coletados dos sistemas ONTAP. Algumas circunstâncias podem exigir que você aumente o tamanho do diretório do banco de dados. 
 ---
-= Adicionando espaço em disco ao diretório do banco de dados do Unified Manager
+= Adicionar espaço em disco ao diretório do banco de dados do Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

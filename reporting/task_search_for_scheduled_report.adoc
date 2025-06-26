@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, schedule, report 
 summary: Você pode pesquisar relatórios programados por nome, nome de exibição, tipo de objeto ou destinatários. 
 ---
-= Procurar um relatório agendado
+= Pesquisar um relatório agendado
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, broken disks, aggregate 
 summary: Você pode usar a IU da Web do Unified Manager para confirmar ou eliminar a possibilidade de um volume estar offline porque os problemas de disco RAID tornaram seu agregado de host offline. 
 ---
-= Determinando se um volume está offline por causa de discos quebrados em um agregado
+= Determinar se um volume está offline devido a discos quebrados em um agregado
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

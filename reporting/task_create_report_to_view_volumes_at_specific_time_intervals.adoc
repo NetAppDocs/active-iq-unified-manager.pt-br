@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfer, trends, specific, time intervals 
 summary: Você pode criar um relatório que exibe tendências de transferência de volume em intervalos de tempo específicos. 
 ---
-= Criar um relatório para visualizar tendências de transferência de volume em intervalos de tempo específicos
+= Crie um relatório para visualizar tendências de transferência de volume em intervalos de tempo específicos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

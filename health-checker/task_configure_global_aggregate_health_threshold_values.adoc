@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, aggregate, health, threshold values 
 summary: Você pode configurar valores de limite de integridade globais para todos os agregados para rastrear qualquer violação de limite. Eventos apropriados são gerados para violações de limites e você pode tomar medidas preventivas com base nesses eventos. Você pode configurar os valores globais com base nas configurações de práticas recomendadas para limites que se aplicam a todos os agregados monitorados. 
 ---
-= Configurando valores de limite globais de integridade agregada
+= Configurar valores de limite de integridade agregada global
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

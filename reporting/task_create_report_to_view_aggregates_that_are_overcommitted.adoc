@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, overcommitted 
 summary: Você pode criar um relatório para analisar a capacidade de storage e o uso de agregados e visualizar agregados com excesso de comprometimento. 
 ---
-= Criando um relatório para visualizar agregados que estão sobrecomprometidos
+= Crie um relatório para visualizar agregados que estão supercomprometidos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

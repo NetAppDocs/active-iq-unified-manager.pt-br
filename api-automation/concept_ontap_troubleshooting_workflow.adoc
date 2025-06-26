@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: troubleshoot, ontap, volumes, gateway, api 
 summary: As APIs de gateway atuam como um gateway para invocar as APIs do ONTAP para consultar informações sobre seus objetos de armazenamento do ONTAP e tomar medidas corretivas para solucionar os problemas relatados. 
 ---
-= Solução de problemas de volumes do ONTAP usando APIs de gateway
+= Solucionar problemas de volumes ONTAP usando APIs de gateway
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

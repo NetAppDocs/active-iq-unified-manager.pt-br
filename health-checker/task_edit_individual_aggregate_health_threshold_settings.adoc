@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, aggregate, health, threshold, settings 
 summary: Você pode editar as configurações de limite de integridade para capacidade agregada, crescimento e cópias Snapshot de um ou mais agregados. Quando um limite é cruzado, os alertas são gerados e você recebe notificações. Essas notificações ajudam você a tomar medidas preventivas com base no evento gerado. 
 ---
-= Editar configurações individuais de limite de integridade agregado
+= Editar configurações individuais de limite de integridade agregada
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

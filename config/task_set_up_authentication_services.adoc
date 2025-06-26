@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set up, authentication, services 
 summary: 'Os serviços de autenticação permitem a autenticação de usuários remotos ou grupos remotos em um servidor de autenticação antes de fornecer acesso ao Unified Manager. Você pode autenticar usuários usando serviços de autenticação predefinidos (como ative Directory ou OpenLDAP) ou configurando seu próprio mecanismo de autenticação.' 
 ---
-= Configurando serviços de autenticação
+= Configurar serviços de autenticação
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

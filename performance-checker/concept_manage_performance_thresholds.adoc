@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance, thresholds 
 summary: As políticas de limite de performance permitem determinar o ponto em que o Unified Manager gera um evento para informar os administradores de sistema sobre problemas que podem estar afetando a performance do workload. Essas políticas de limite são conhecidas como limites de desempenho definidos pelo usuário. 
 ---
-= Gerenciamento dos limites de performance
+= Gerenciar limites de desempenho
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

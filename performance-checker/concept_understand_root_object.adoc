@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, root, object 
 summary: O objeto raiz é a linha de base contra a qual outras comparações de objetos são feitas. Isso permite visualizar e comparar os dados de outros objetos com o objeto raiz, fornecendo análise de dados de desempenho que ajuda você a solucionar problemas e melhorar o desempenho dos objetos. 
 ---
-= Entendendo o objeto raiz
+= Entenda o objeto raiz
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

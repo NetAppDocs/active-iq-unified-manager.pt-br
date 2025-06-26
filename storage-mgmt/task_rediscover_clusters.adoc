@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rediscover clusters, 
 summary: É possível redescobrir manualmente um cluster a partir da página Configuração do cluster para obter as informações mais recentes sobre a integridade, o status do monitoramento e o status do desempenho do cluster. 
 ---
-= Redescobrir clusters
+= Redescubra clusters
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

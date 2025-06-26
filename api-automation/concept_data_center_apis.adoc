@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, objects, data center 
 summary: As APIS REST na categoria de data center permitem gerenciar objetos de storage em seu data center, como clusters, nós, agregados, VMs de storage, volumes, LUNs, compartilhamentos de arquivos e namespaces. Essas APIs estão disponíveis para consultar a configuração dos objetos, enquanto algumas delas permitem que você execute as operações de adição, exclusão ou modificação desses objetos. 
 ---
-= Gerenciamento de objetos de storage em um data center usando APIs
+= Gerenciar objetos de armazenamento em um data center usando APIs
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

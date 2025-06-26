@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, event, disk, failure 
 summary: Você pode usar o Unified Manager para investigar um evento de performance causado por cargas de trabalho que sobreutilizam um agregado. Você também pode usar o Unified Manager para verificar a integridade do agregado e verificar se eventos recentes de integridade detetados no agregado contribuíram para o evento de desempenho. 
 ---
-= Resposta a um evento de desempenho dinâmico causado por uma falha de disco
+= Responder a um evento de desempenho dinâmico causado por uma falha de disco
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

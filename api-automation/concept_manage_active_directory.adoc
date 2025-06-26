@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, active, directory, mapping 
 summary: Você pode usar as APIs listadas aqui para gerenciar mapeamentos do ative Directory no SVM que são necessários para provisionar compartilhamentos CIFS nas SVMs. Os mapeamentos do ative Directory precisam ser configurados para mapear os SVMs com o ONTAP. 
 ---
-= Gerenciamento do mapeamento do ative Directory usando APIs
+= Gerenciar mapeamento do Active Directory usando APIs
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

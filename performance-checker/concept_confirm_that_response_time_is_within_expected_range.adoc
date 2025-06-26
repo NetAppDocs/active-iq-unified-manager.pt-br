@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: confirm, latency, within, expected, range 
 summary: 'Quando um componente do cluster está na contenção, os workloads de volume que o usam podem ter reduzido o tempo de resposta (latência). Você pode analisar a latência de cada workload de vítima no componente em contenção para confirmar que sua latência real está dentro do intervalo esperado. Você também pode clicar em um nome de volume para exibir os dados históricos do volume.' 
 ---
-= Confirmando que a latência está dentro do intervalo esperado
+= Confirme se a latência está dentro do intervalo esperado
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

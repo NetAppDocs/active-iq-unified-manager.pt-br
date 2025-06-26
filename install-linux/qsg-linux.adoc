@@ -26,7 +26,7 @@ Para obter informações detalhadas sobre os requisitos do sistema e sobre a ins
 
 
 
-== A instalar o Active IQ Unified Manager
+== Instale o Active IQ Unified Manager
 
 
 

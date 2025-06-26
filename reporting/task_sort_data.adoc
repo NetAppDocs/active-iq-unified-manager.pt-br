@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sort, data 
 summary: Para classificar os resultados, clique em uma coluna e indique a ordem ascendente ou descendente. A classificação de dados prioriza as informações necessárias para o relatório. 
 ---
-= Ordenar dados
+= Classificar dados
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

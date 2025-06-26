@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: creating, resource, pools 
 summary: Você pode usar a caixa de diálogo criar pool de recursos para agrupar agregados para fins de provisionamento. 
 ---
-= Criando pools de recursos
+= Criar pools de recursos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

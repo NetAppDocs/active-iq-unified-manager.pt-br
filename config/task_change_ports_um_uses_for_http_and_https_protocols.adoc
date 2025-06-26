@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, ports, unified manager, uses, http, https, protocols 
 summary: As portas padrão que o Unified Manager usa para protocolos HTTP e HTTPS podem ser alteradas após a instalação, se necessário para segurança. As portas padrão são 80 para HTTP e 443 para HTTPS. 
 ---
-= Alterar as portas que o Unified Manager usa para protocolos HTTP e HTTPS
+= Alterar as portas que o Unified Manager usa para os protocolos HTTP e HTTPS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

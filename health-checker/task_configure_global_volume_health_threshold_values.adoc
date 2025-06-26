@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, volume, health, threshold values 
 summary: Você pode configurar os valores de limite de integridade global para todos os volumes para rastrear qualquer violação de limite. Eventos apropriados são gerados para violações de limites de integridade e você pode tomar medidas preventivas com base nesses eventos. Você pode configurar os valores globais com base nas configurações de práticas recomendadas para limites que se aplicam a todos os volumes monitorados. 
 ---
-= Configuração dos valores do limite de integridade do volume global
+= Configurar valores de limite de integridade do volume global
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

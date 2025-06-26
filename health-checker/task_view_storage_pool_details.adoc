@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage pool, details 
 summary: Você pode visualizar os detalhes do pool de storage para monitorar a integridade do pool de storage, o cache total e disponível e as alocações usadas e disponíveis. 
 ---
-= Visualização dos detalhes do pool de armazenamento
+= Veja os detalhes do pool de armazenamento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

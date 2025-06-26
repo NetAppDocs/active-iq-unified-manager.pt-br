@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, bully workloads, dynamic, performance, event 
 summary: 'No Unified Manager, é possível identificar quais workloads têm o maior desvio no uso de um componente de cluster na contenção. A identificação desses workloads ajuda a entender por que certos volumes no cluster têm tempos de resposta (latência) lentos.' 
 ---
-= Identificação de workloads bully envolvidos em um evento de performance dinâmico
+= Identificar cargas de trabalho agressivas envolvidas em um evento de desempenho dinâmico
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

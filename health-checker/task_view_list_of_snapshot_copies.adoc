@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, list, Snapshot copies 
 summary: É possível exibir a lista de cópias Snapshot de um volume selecionado. Você pode usar a lista de cópias Snapshot para calcular a quantidade de espaço em disco que pode ser recuperado se uma ou mais cópias Snapshot forem excluídas e excluir as cópias Snapshot, se necessário. 
 ---
-= Exibição da lista de cópias Snapshot
+= Ver a lista de cópias do Snapshot
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

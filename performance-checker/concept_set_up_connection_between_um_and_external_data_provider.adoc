@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: setting, connection, between, unified manager, server, external, data, provider 
 summary: Uma conexão entre um servidor do Unified Manager e um provedor de dados externo permite que você envie dados de desempenho de cluster para um servidor externo para que os gerentes de armazenamento possam traçar as métricas de desempenho usando software de terceiros. 
 ---
-= Configurando uma conexão entre um servidor do Unified Manager e um provedor de dados externo
+= Configurar uma conexão entre um servidor do Unified Manager e um provedor de dados externo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

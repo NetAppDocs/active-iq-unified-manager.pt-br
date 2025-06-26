@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, full 
 summary: 'Você pode criar um relatório para destacar os agregados que estão 80% ou mais completos.' 
 ---
-= Criar um relatório para visualizar agregados que estejam 80% ou mais completos
+= Crie um relatório para visualizar agregados que estão 80% ou mais cheios
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

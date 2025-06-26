@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, upgrade, remove, unified manager, software 
 summary: Você pode instalar o software Unified Manager, atualizar para uma versão mais recente do software ou remover o aplicativo Unified Manager. 
 ---
-= Instalação, atualização e remoção do software Unified Manager
+= Instalar, atualizar e remover o software Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

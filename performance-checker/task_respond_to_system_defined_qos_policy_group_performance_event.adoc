@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: qos, policy, group, performance, events 
 summary: 'O Unified Manager gera eventos de aviso de política de QoS quando a taxa de transferência de workload (IOPS, IOPS/TB ou Mbps) excedeu a configuração definida de política de QoS ONTAP e a latência de workload está sendo afetada. Esses eventos definidos pelo sistema oferecem a oportunidade de corrigir possíveis problemas de desempenho antes que muitos workloads sejam afetados pela latência.' 
 ---
-= Resposta a eventos de desempenho do grupo de políticas de QoS
+= Responder a eventos de desempenho do grupo de políticas de QoS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

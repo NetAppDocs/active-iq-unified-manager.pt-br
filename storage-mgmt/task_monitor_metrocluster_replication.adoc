@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, replication 
 summary: Você pode monitorar e diagnosticar a condição geral de integridade das conexões lógicas enquanto espelha os dados. Você pode identificar os problemas ou qualquer risco que interrompe o espelhamento de componentes de cluster, como agregados, nós e máquinas virtuais de storage. 
 ---
-= Monitoramento da replicação do MetroCluster
+= Monitorar a replicação do MetroCluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -20,7 +20,7 @@ O cluster local e remoto na configuração do MetroCluster deve ser adicionado a
 
 
 
-== Visualização da replicação para configurações MetroCluster sobre IP
+== Exibir replicação para configurações do MetroCluster sobre IP
 
 Para configurações MetroCluster sobre IP, o status da replicação de dados é exibido na exibição de peek de topologia de um cluster protegido pelo MetroCluster sobre IP a partir das seguintes exibições no painel de navegação esquerdo do Unified Manager:
 
@@ -28,11 +28,11 @@ Para configurações MetroCluster sobre IP, o status da replicação de dados é
 * *Proteção* > *relacionamentos* > *relacionamento: Vista MetroCluster*
 
 
-Para obter informações, link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip["Monitore problemas de conetividade no MetroCluster sobre IP"]consulte .
+Para obter informações, link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip-configuration["Monitore problemas de conetividade no MetroCluster sobre IP"]consulte .
 
 
 
-== Visualização da replicação para MetroCluster em configurações de FC
+== Exibir replicação para MetroCluster sobre configurações de FC
 
 Siga estas etapas para determinar quaisquer problemas na replicação de dados para a configuração MetroCluster em FC.
 

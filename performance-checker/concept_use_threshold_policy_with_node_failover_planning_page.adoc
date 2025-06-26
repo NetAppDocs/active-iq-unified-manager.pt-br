@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: threshold, policy, node, failover, planning page 
 summary: Você pode criar uma política de limite de nó para que você possa ser notificado na página Planejamento de failover de nó/desempenho quando um potencial failover degradar o desempenho do nó de aquisição para um nível inaceitável. 
 ---
-= Usando uma política de limite com a página Planejamento de failover de nó
+= Use uma política de limite com a página Planejamento de Failover de Nó
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

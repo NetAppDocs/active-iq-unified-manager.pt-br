@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, protection, job failure 
 summary: Esse fluxo de trabalho fornece um exemplo de como você pode identificar e resolver uma falha de tarefa de proteção no painel do Unified Manager. 
 ---
-= Resolução de uma falha de trabalho de proteção
+= Resolver uma falha de trabalho de proteção
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

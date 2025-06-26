@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager 
 summary: Você pode atualizar o Unified Manager baixando e executando o arquivo de instalação na plataforma Windows. 
 ---
-= Atualizando o Unified Manager
+= Atualizar o Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

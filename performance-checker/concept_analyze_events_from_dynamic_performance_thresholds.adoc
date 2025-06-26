@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, dynamic, performance, thresholds 
 summary: 'Os eventos gerados a partir de limites dinâmicos indicam que o tempo de resposta (latência) real para uma carga de trabalho é muito alto ou muito baixo, em comparação com o intervalo de tempo de resposta esperado. Você usa a página de detalhes do evento para analisar o evento de desempenho e tomar medidas corretivas, se necessário, para retornar o desempenho ao normal.' 
 ---
-= Analisando eventos a partir de limites dinâmicos de desempenho
+= Analisar eventos a partir de limites de desempenho dinâmico
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, user-defined, performance, threshold, policies 
 summary: Você cria políticas de limite de desempenho para objetos de armazenamento de modo que as notificações sejam enviadas quando um contador de desempenho exceder um valor específico. A notificação de evento identifica que o cluster está enfrentando um problema de desempenho. 
 ---
-= Criação de políticas de limite de performance definidas pelo usuário
+= Crie políticas de limite de desempenho definidas pelo usuário
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
