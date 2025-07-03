@@ -12061,4 +12061,5 @@
   <block id="ed97ebceba7070144972b95aa06b0982" category="sidebar">Use a pesquisa para refinar sua visualização</block>
   <block id="3ffec53aa0a5fd71bd60b00ba2df8977" category="sidebar">Crie um relatório para visualizar agregados que estão quase cheios</block>
   <block id="b4ee4946f5a0d9d41aa0bd6a3d717e4b" category="sidebar">Corrija ou gerencie problemas do ONTAP diretamente do Unified Manager</block>
+  <block id="545d96f4f0d0b5202dd1df85c81c6d09" category="paragraph">Usado para ouvir nessa porta as mensagens recebidas do ONTAP (agente de nuvem). A comunicação por esta porta suporta criptografia fornecida por TLS ou SSL.</block>
 </blocks>
