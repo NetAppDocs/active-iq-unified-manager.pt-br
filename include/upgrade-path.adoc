@@ -22,6 +22,7 @@ Por exemplo, se a versão instalada for o Unified Manager 9,9 e você quiser atu
 .Exemplo de caminho de atualização:
 . Atualização 9,11 -> 9,13
 . Atualização 9,13 -> 9,14
+. Atualização 9,13 -> 9,16
 . Atualização 9,14 -> 9,16
 
 
