@@ -27,7 +27,7 @@ Ao usar o nome do host, ele deve ser resolvido para o endereço IP de gerenciame
 Essa conta deve ter a função _admin_ com acesso ao aplicativo definido como _ontapi_, _console_ e _http_.
 
 ** Você deve saber o número da porta para se conetar ao cluster usando o protocolo HTTPS (normalmente a porta 443).
-** O cluster deve estar executando o software ONTAP versão 9,1 ou superior.
+** O cluster deve estar executando o software ONTAP versão 9.9 ou superior.
 ** Você precisa ter espaço adequado no servidor do Unified Manager. Você é impedido de adicionar um cluster ao servidor quando mais de 90% de espaço já estiver consumido.
 ** Você tem os certificados necessários:
 +

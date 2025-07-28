@@ -7546,7 +7546,6 @@
   <block id="32e5c16a2c1109e106990eafe2e5051a" category="summary">Guia de início rápido do Unified Manager na plataforma VMware vSphere.</block>
   <block id="6e9d444f5a98d00ae31eff389dc819fa" category="doc">Instruções de início rápido para instalações VMware</block>
   <block id="d92bb0fdb003a277ed75c5c3745b9f31" category="paragraph">Você pode baixar o<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> arquivo que contém um certificado raiz, um<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> arquivo e um<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> arquivo e implantar o Unified Manager como um dispositivo virtual.</block>
-  <block id="c73b4673fd357d50ad7fe6b46f0de007" category="list-text">Sistema operacional: VMware ESXi 7,0 e 8,0</block>
   <block id="a2d94c8de89a700634c79d7c9d4fc2c0" category="list-text">RAM: 12 GB</block>
   <block id="a2992f349299086d8d17ee3b7a471aa7" category="list-text">CPU: Total de 9572 MHz</block>
   <block id="781c32908473254b5a4d86a06486a7b7" category="list-text">Espaço livre em disco: 5 GB (provisionamento fino), 152 GB (provisionamento espesso)</block>
@@ -7570,10 +7569,7 @@
   <block id="78c155206ed695d069f0b647fdcec524" category="paragraph">Endereço IP do servidor ESXi</block>
   <block id="6e20e72b50c870b4bf0884ff43d8c4fa" category="paragraph">A porta padrão para MySQL, 3306, é restrita apenas ao localhost durante a instalação do Unified Manager em sistemas VMware vSphere. Isso não afeta nenhum cenário de atualização, onde a configuração anterior é mantida. Esta configuração pode ser modificada e a conexão pode ser disponibilizada a outros hosts usando a<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> opção no console de manutenção. Para obter informações, <block ref="7a82f5d486f644c03667de7815d5d25c" category="inline-link-macro-rx"></block>consulte . As portas usadas para comunicação HTTP e HTTPS (portas 80 e 443) podem ser alteradas usando o console de manutenção do Unified Manager. Para obter mais informações, <block ref="1ea31912406b3a6cc1e16f90a586273f" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="add00995c60192dd032b1173fc3f8673" category="admonition">Se você estiver usando essa porta ou qualquer outra porta para se conetar ao VMware vCenter Server ou ao servidor ESXi, verifique se a porta está disponível e pode ser conetada em um site seguro.</block>
-  <block id="dbd6da6968cef7b169b16a1afe565d31" category="summary">O sistema VMware vSphere no qual você instala o Unified Manager requer versões específicas do sistema operacional e software de suporte.</block>
   <block id="8b938ebd5a735fe9f035c2df4274494f" category="doc">Requisitos de software e instalação da VMware</block>
-  <block id="c1fb97df43f8780895ba7cc4ed9916c5" category="paragraph">As seguintes versões do VMware ESXi são suportadas:</block>
-  <block id="992457c87959064e1a1fd8702290dfc5" category="list-text">ESXi 7,0 e 8,0</block>
   <block id="cc52616bf744b78f139542e4d55938e0" category="paragraph">As seguintes versões do vSphere são suportadas:</block>
   <block id="fb0cd9631dee3f83386725234b971c75" category="list-text">VMware vCenter Server 7,0 e 8,0</block>
   <block id="0ad9e3bfb76fe781c444c61d823d6ca3" category="paragraph">Consulte a Matriz de interoperabilidade para obter a lista completa e mais atual de versões ESXi suportadas.</block>
@@ -7668,11 +7664,8 @@
   <block id="1dbab26c4cc554e2d686240dce4e1c32" category="summary">É possível reiniciar a máquina virtual (VM) do Unified Manager a partir do console de manutenção. Você deve reiniciar a VM depois de gerar um novo certificado de segurança ou se houver um problema com a VM.</block>
   <block id="69ce6df093b147c7a25a04bf00305588" category="list-text">O dispositivo virtual deve ser ligado.</block>
   <block id="a7e118ba2e133d1563cd19a15fe2a116" category="list-text">Você deve estar conetado ao console de manutenção do Unified Manager como usuário de manutenção.</block>
-  <block id="e073e6fe06cef770bc889b346bc6998f" category="paragraph">Você também pode reiniciar a máquina virtual do vSphere usando a opção VMware *Restart Guest*.</block>
   <block id="b6398bd7f47d9122f52612a31a850312" category="list-text">No console de manutenção, selecione *Configuração do sistema* &gt; *Reboot Virtual Machine*.</block>
   <block id="874e5f2c9cf179740df1c1b0a4b0a120" category="list-text">Inicie a IU da Web do Unified Manager a partir do seu navegador e inicie sessão.</block>
-  <block id="2a3a1fb09f0975179216fde1cbd8dc57" category="inline-link">Referência do VMware vSphere PowerCLI Cmdlets: Restart-VMGuest</block>
-  <block id="89cc3af736280ef7a3e6fc0e835ec56a" category="paragraph"><block ref="89cc3af736280ef7a3e6fc0e835ec56a" category="inline-link-rx"></block></block>
   <block id="b09592db93e99e16c02d56499bcc0e46" category="summary">Você pode fazer o upgrade para o Unified Manager no VMware vSphere</block>
   <block id="366c5ab2a2994621800849cabe981121" category="paragraph">Durante o processo de atualização, o Unified Manager não está disponível. Você deve concluir todas as operações em execução antes de atualizar o Unified Manager.</block>
   <block id="165614b596769629e2b5d0efa723fdc8" category="inline-link-macro">Faça o download da imagem ISO do Unified Manager</block>
@@ -7744,8 +7737,6 @@
   <block id="794b0fbf4e314ba18f71dba00d68d9b8" category="paragraph">Usado para ouvir nessa porta as mensagens recebidas do ONTAP (agente de nuvem).</block>
   <block id="00595c0d01d488a33a068852a0c6b2b8" category="paragraph">56443</block>
   <block id="cd91ff9e0f252c06c8c6dc37f1c29ba7" category="paragraph">Usado para ouvir nessa porta as mensagens recebidas do ONTAP (agente em nuvem). A comunicação por essa porta suporta criptografia fornecida pelo TLS ou SSL.</block>
-  <block id="d5ab8dc7ef67ca92e41d730982c5c602" category="paragraph">9000</block>
-  <block id="c566a5dbb0e92fc14cf27c5abc3316bd" category="paragraph">Usado para iniciar a interface de UI de gerenciamento AMQP nesta página.</block>
   <block id="633bb5b6eca1c435199c472c91160f36" category="paragraph">A porta padrão para MySQL, 3306, é restrita apenas ao localhost durante a instalação do Unified Manager em sistemas Windows. Ative o firewall para restringir o acesso à porta MySQL, 3306, uma vez concluída a instalação. Isso não afeta nenhum cenário de atualização, onde a configuração anterior é mantida. Esta configuração pode ser modificada e a conexão pode ser disponibilizada a outros hosts usando a<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> opção no console de manutenção. Para obter informações, <block ref="7a82f5d486f644c03667de7815d5d25c" category="inline-link-macro-rx"></block>consulte . As portas usadas para comunicação HTTP e HTTPS (portas 80 e 443) podem ser alteradas usando o console de manutenção do Unified Manager. Para obter mais informações, <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="5c481563f3b57863c0a290b809a1e6ff" category="paragraph">Usado para ouvir nessa porta as mensagens recebidas do ONTAP (agente de nuvem). A comunicação através desta porta suporta encriptação fornecida por TLS ou SSL.</block>
   <block id="e3ba6c64064adba107328f731ffc579e" category="summary">Para a instalação bem-sucedida do Unified Manager no Windows, você deve garantir que o sistema no qual o Unified Manager está sendo instalado atenda aos requisitos de software.</block>
@@ -12063,4 +12054,10 @@
   <block id="b4ee4946f5a0d9d41aa0bd6a3d717e4b" category="sidebar">Corrija ou gerencie problemas do ONTAP diretamente do Unified Manager</block>
   <block id="545d96f4f0d0b5202dd1df85c81c6d09" category="paragraph">Usado para ouvir nessa porta as mensagens recebidas do ONTAP (agente de nuvem). A comunicação por esta porta suporta criptografia fornecida por TLS ou SSL.</block>
   <block id="de7079b453dbd6e52c0ba80b1c38eae2" category="list-text">Atualização 9,13 -&gt; 9,16</block>
+  <block id="6863825296946543c03f7677ae94e41c" category="list-text">Sistema operacional: VMware ESXi 8.0</block>
+  <block id="d381353a5c1648d3cc56488d652df409" category="summary">O sistema VMware vSphere no qual você instala o Unified Manager requer uma versão específica do sistema operacional e versões específicas do software de suporte.</block>
+  <block id="94ff556e321c8409983ed2abadc3024e" category="paragraph">O sistema operacional suportado é o VMware ESXi 8.0.</block>
+  <block id="bb65d6ae4d44bbfd4567a82b59ce222d" category="inline-link">o cmdlet Restart-VMGuest na referência do CMDLET VMware vSphere PowerCLI da Broadcom.</block>
+  <block id="7681f55359343e6988de3e9f6957a814" category="paragraph">Você também pode reiniciar a máquina virtual a partir do vSphere usando a opção VMware *Restart Guest*. Consulte <block ref="3b382a46b6e2c7a5212af2816922c4d0" category="inline-link-rx"></block></block>
+  <block id="342a7198ff8437c0b83702e716edd98f" category="list-text">O cluster deve estar executando o software ONTAP versão 9.9 ou superior.</block>
 </blocks>

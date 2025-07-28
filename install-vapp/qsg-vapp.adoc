@@ -17,7 +17,7 @@ Você pode baixar o `.tar` arquivo que contém um certificado raiz, um `README` 
 
 == Requisitos do sistema
 
-* Sistema operacional: VMware ESXi 7,0 e 8,0
+* Sistema operacional: VMware ESXi 8.0
 * RAM: 12 GB
 * CPU: Total de 9572 MHz
 * Espaço livre em disco: 5 GB (provisionamento fino), 152 GB (provisionamento espesso)
