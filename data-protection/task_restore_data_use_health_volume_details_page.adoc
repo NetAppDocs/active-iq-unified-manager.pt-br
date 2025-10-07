@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/task_restore_data_use_health_volume_details_page.html 
 sidebar: sidebar 
-keywords: restore, data, volume, health details page 
+keywords: restore, data, volume, health details page, console 
 summary: Você pode restaurar arquivos, diretórios ou um volume inteiro sobrescritos ou excluídos de uma cópia Snapshot usando o recurso de restauração na página de detalhes de volume / integridade. 
 ---
 = Restaurar dados usando as páginas Volume e Detalhes do Volume/Saúde
@@ -57,7 +57,7 @@ O processo de restauração é iniciado. Um trabalho é criado no back-end para 
 +
 [NOTE]
 ====
-Se uma operação de restauração falhar entre clusters de HA do Cloud Volumes ONTAP com um erro NDMP, talvez seja necessário adicionar uma rota explícita da AWS no cluster de destino para que o destino possa se comunicar com o LIF de gerenciamento de cluster do sistema de origem. Execute esta etapa de configuração usando o BlueXP .
+Se uma operação de restauração falhar entre clusters do Cloud Volumes ONTAP HA com um erro NDMP, talvez seja necessário adicionar uma rota AWS explícita no cluster de destino para que o destino possa se comunicar com o LIF de gerenciamento de cluster do sistema de origem. Execute esta etapa de configuração usando o NetApp Console.
 
 ====
 
