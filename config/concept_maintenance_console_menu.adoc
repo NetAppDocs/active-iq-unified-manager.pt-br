@@ -21,6 +21,7 @@ Dependendo do sistema operacional no qual você instalou o Unified Manager, o co
 +
 .. Suporte/Diagnóstico
 .. Repor certificado de servidor
+.. Regenerar certificado do cliente
 .. Fornecedor de dados externo
 .. Restauro de cópia de segurança
 .. Configuração do intervalo de polling de desempenho

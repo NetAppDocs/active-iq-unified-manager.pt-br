@@ -4,10 +4,10 @@ indexpage:
   summary: Documentação para Active IQ Unified Manager
   keywords: aiqum docs, um docs, unified manager, active iq, oncommand, storage, windows,
     linux,  vmware vsphere, vapp, configure
-  lead: Com o Active IQ Unified Manager (Unified Manager e anteriormente OnCommand
-    Unified Manager), você monitora e gerencia a integridade e a performance dos sistemas
-    de storage da ONTAP em uma única interface. Esta biblioteca de documentação inclui
-    informações para a versão 9,16.
+  lead: O Active IQ Unified Manager (Unified Manager e anteriormente OnCommand Unified
+    Manager) permite que você monitore e gerencie a integridade e o desempenho dos
+    seus sistemas de armazenamento ONTAP a partir de uma única interface. Esta biblioteca
+    de documentação inclui informações para a versão 9.18.
   tiles:
   - title: Comece agora
     links:

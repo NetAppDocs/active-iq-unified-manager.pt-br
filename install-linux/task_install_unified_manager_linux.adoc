@@ -39,7 +39,7 @@ O sistema Red Hat Enterprise Linux pode ter todas as versões necessárias do so
 
 
  a| 
-OpenJDK versão 11.0.25
+OpenJDK versão 17.0.14+6
  a| 
 `java -version`
 
@@ -87,7 +87,7 @@ Os `.rpm` módulos necessários para o Unified Manager são descompactados para 
 O script de pré-instalação verifica se o sistema tem uma assinatura válida do Red Hat Enterprise Linux e se ele tem acesso aos repositórios de software necessários. Se o script identificar quaisquer problemas, você deve corrigir os problemas antes de instalar o Unified Manager.
 
 +
-Para o sistema Red Hat Enterprise Linux 8, se você tiver repositórios internos com JDK 11 - OpenJDK, p7zip e outros pacotes de software fornecidos pelo repositório AppStream, você deve desativar o repositório AppStream e instalar o MySQL Community Server. Execute o seguinte comando:
+Para um sistema Red Hat Enterprise Linux 8, se você tiver repositórios internos com JDK 17 - OpenJDK, p7zip e outros pacotes de software fornecidos pelo repositório AppStream, você deve desabilitar seu repositório AppStream e instalar o MySQL Community Server. Execute o seguinte comando:
 
 +
 [listing]

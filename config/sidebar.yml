@@ -101,6 +101,8 @@ entries:
     url: "/config/task_change_ports_um_uses_for_http_and_https_protocols.html"
   - title: Adicionar interfaces de rede
     url: "/config/task_add_additional_network_interfaces.html"
+  - title: Regenerar o certificado do cliente
+    url: "/config/task_regenerate_client_certificate.html"
   - title: Adicionar espaço em disco ao diretório do banco de dados do Unified Manager
     url: "/config/concept_add_disk_space_to_um_database_directory.html"
     entries:
