@@ -22,8 +22,8 @@ Dependendo do sistema operacional no qual você instalou o Unified Manager, o co
 .. Suporte/Diagnóstico
 .. Repor certificado de servidor
 .. Regenerar certificado do cliente
-.. Fornecedor de dados externo
 .. Restauro de cópia de segurança
+.. Fornecedor de dados externo
 .. Configuração do intervalo de polling de desempenho
 .. Desativar a autenticação SAML
 .. Exibir/alterar portas de aplicativos

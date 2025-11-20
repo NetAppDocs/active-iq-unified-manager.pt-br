@@ -7844,8 +7844,6 @@
   <block id="27a27fa27099c3dd7d2e0cb3d56381f0" category="paragraph">Você deve ter o Privileges de administrador do Windows para o sistema no qual o Unified Manager está instalado.</block>
   <block id="863843d0337c17ec7301aee27dad4298" category="paragraph">Você pode atualizar as versões do OpenJDK dentro das famílias de lançamento. Por exemplo, você pode atualizar do OpenJDK 11.0.16 para o OpenJDK 11,0.18, mas não pode atualizar diretamente do OpenJDK 11 para o OpenJDK 12.</block>
   <block id="13e3592e5e441ee49815c64ebd90f10f" category="list-text">Baixe a versão apropriada do OpenJDK (64 bits) do site OpenJDK para o sistema de destino.</block>
-  <block id="e3ea195a19318267cdc1d27ad9b8642c" category="inline-link-macro">Início de sessão da conta Oracle</block>
-  <block id="4f4395612db3fd87fa732ad4576c0447" category="admonition">Uma conta Oracle é necessária para baixar o arquivo. Se você não tiver uma conta Oracle, vá para <block ref="f286dce8bc3d39b38609ac0c11f4f840" category="inline-link-macro-rx"></block> a página para criar uma.</block>
   <block id="7d7f701fa4b6dfcc4812f34ebd909b72" category="list-text">Expanda o<block ref="adcdbd79a8d84175c229b192aadc02f2" prefix=" " category="inline-code"></block> ficheiro.</block>
   <block id="aa2b11ad1dd4cd77a6434da6fa1398a2" category="list-text">Copie os diretórios e arquivos do diretório resultante<block ref="30c81266c64bb09194fbb76d80c99fc1" prefix=" " category="inline-code"></block> (por exemplo,<block ref="20ea71c4664ee137228518ed973e20e3" prefix=" " category="inline-code"></block> para o local onde o Java está instalado. Exemplo:<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
   <block id="4ce60e4b06ffbfa5ed76fd9dbdcbe958" category="list-text">Inicie os serviços do Unified Manager usando o console dos Serviços do Windows:</block>
@@ -12073,4 +12071,6 @@
   <block id="cab005a3a8fcca5d1016f0afd9a771d8" category="paragraph">Para mais informações, consulte o<block ref="da4f101b8c06e4396ddd68eddc14d3e5" category="inline-link-rx"></block> .</block>
   <block id="96e464bda0daed17138b41cdc463c582" category="sidebar">O Active IQ Unified Manager (Unified Manager e anteriormente OnCommand Unified Manager) permite que você monitore e gerencie a integridade e o desempenho dos seus sistemas de armazenamento ONTAP a partir de uma única interface. Esta biblioteca de documentação inclui informações para a versão 9.18.</block>
   <block id="87d04c66d3151ccf32f27e7b5929e83f" category="sidebar">Documentação do Active IQ Unified Manager 9.18</block>
+  <block id="76851a5fa412a2e834b5c4b3b3fd04c5" category="inline-link-macro">a página de login da conta Oracle</block>
+  <block id="85f96417c9ffad8261e8a1065c0612b0" category="admonition">É necessária uma conta Oracle para baixar o arquivo. Se você não possui uma conta Oracle, acesse <block ref="8a9d737434e1792055aa606e96405bae" category="inline-link-macro-rx"></block> para criar um.</block>
 </blocks>

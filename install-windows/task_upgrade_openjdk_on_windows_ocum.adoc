@@ -26,7 +26,7 @@ Por exemplo, baixe o `jdk-17.0.15_windows-x64_bin.zip` arquivo delink:https://ww
 
 +
 
-NOTE: Uma conta Oracle é necessária para baixar o arquivo. Se você não tiver uma conta Oracle, vá para link:https://login.oracle.com/mysso/signon.jsp?request_id=007["Início de sessão da conta Oracle"] a página para criar uma.
+NOTE: É necessária uma conta Oracle para baixar o arquivo. Se você não possui uma conta Oracle, acesse link:https://signon.oracle.com/signin["a página de login da conta Oracle"] para criar um.
 
 . Use o console dos Serviços do Windows para interromper os seguintes serviços do Unified Manager:
 +
