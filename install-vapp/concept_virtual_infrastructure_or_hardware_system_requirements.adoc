@@ -23,7 +23,7 @@ A tabela a seguir exibe os valores recomendados para recursos de memória, CPU e
  a| 
 RAM
  a| 
-12 GB (requisito mínimo de 8 GB)
+12 GB
 
 
 
@@ -51,7 +51,7 @@ Espaço livre em disco
 |===
 O Unified Manager pode ser instalado em sistemas com uma pequena quantidade de memória, mas os 12 GB de RAM recomendados garantem que haja memória suficiente disponível para um desempenho ideal e que o sistema possa acomodar clusters e objetos de armazenamento adicionais à medida que sua configuração cresce. Você não deve definir limites de memória na VM em que o Unified Manager é implantado e não deve habilitar recursos (por exemplo, baloneamento) que impeçam o software de utilizar a memória alocada no sistema.
 
-Além disso, há um limite para o número de nós que uma única instância do Unified Manager pode monitorar antes de instalar uma segunda instância do Unified Manager. Para obter mais informações, link:https://www.netapp.com/pdf.html?item=/media/13504-tr4621pdf.pdf["Guia de práticas recomendadas do Unified Manager"^]consulte .
+Além disso, há um limite para o número de nós que uma única instância do Unified Manager pode monitorar antes de você instalar uma segunda instância do Unified Manager. Para limites de nós, recomendações de CPU e memória, consulte link:https://www.netapp.com/pdf.html?item=/media/13504-tr4621pdf.pdf["Guia de Melhores Práticas do Unified Manager"^].
 
 A troca de páginas de memória afeta negativamente o desempenho do sistema e do aplicativo de gerenciamento. A concorrência por recursos de CPU indisponíveis devido à utilização geral do host pode degradar o desempenho.
 
