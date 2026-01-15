@@ -7079,7 +7079,6 @@
   <block id="687d97208bee730c33801be1d460abf6" category="paragraph"><block ref="687d97208bee730c33801be1d460abf6" category="inline-link-rx"></block></block>
   <block id="8c9d08852e8e1febedc693013a4f0f93" category="summary">O fluxo de trabalho de instalação descreve as tarefas que você deve executar antes de usar o Unified Manager.</block>
   <block id="d8b2824dd58b8684d7afebae57a9ec15" category="doc">Visão geral do processo de instalação</block>
-  <block id="f9ec3a034f84a9fd8183effde4332a5c" category="image-alt">instale o fluxo no rhel</block>
   <block id="bed7b91a2df8076097fedfb7b87f92e7" category="doc">Descrição geral da sequência de instalação</block>
   <block id="677bb67b43e56c44269810a302788b34" category="paragraph">Estas seções descrevem cada um dos itens mostrados no fluxo de trabalho abaixo.</block>
   <block id="322f88fdb47136f0505af3e29d2c5649" category="image-alt">fluxo geral de instalação de um</block>
@@ -7089,7 +7088,6 @@
   <block id="0ec2ec39d2c135b1be6b5e3369fdb93a" category="paragraph">Para obter mais detalhes sobre como aplicar medidas de segurança ao servidor do Unified Manager, consulte o artigo da base de dados de Conhecimento.</block>
   <block id="0328f5059c2649ddd81024488e9569d1" category="inline-link">Capacidade de suporte para medidas de segurança aplicadas ao Active IQ Unified Manager for Clustered Data ONTAP</block>
   <block id="b32d5840e4f6ebdca60abb8f5a2e9c6b" category="paragraph"><block ref="b32d5840e4f6ebdca60abb8f5a2e9c6b" category="inline-link-rx"></block></block>
-  <block id="4b9d5e4986edb2a9d0749936a3c5a16a" category="summary">O sistema deve ter acesso a determinados repositórios para que o programa de instalação possa acessar e instalar todas as dependências de software necessárias.</block>
   <block id="a1829ad08a395f5bd291b0c7562b2a29" category="summary">Você pode atualizar produtos de terceiros, como JRE, no Unified Manager quando instalado em sistemas Linux.</block>
   <block id="1c07aad8c135f1160c0e64c5a58afc4c" category="paragraph">Você pode atualizar produtos de terceiros, como JRE, quando o Unified Manager já estiver instalado em sistemas Linux.</block>
   <block id="88f52a8d98ed293c3b3467272c571594" category="paragraph">As empresas que desenvolvem esses produtos de terceiros relatam vulnerabilidades de segurança regularmente. Você pode atualizar para versões mais recentes deste software em sua própria programação.</block>
@@ -7261,7 +7259,6 @@
   <block id="f7e4f466dd93f7fcac14a9d6f34be286" category="section-title">Software de terceiros</block>
   <block id="b39eb8b293aab19c862c53f0897b4ab2" category="paragraph">O Unified Manager é implantado em um servidor web WildFly. O WildFly 26.1.3 é empacotado e configurado com o Unified Manager.</block>
   <block id="7357f7d7e3e2aa8fbcd5222429988b84" category="paragraph">Os seguintes pacotes de terceiros são necessários, mas não estão incluídos no Unified Manager. Esses pacotes são instalados automaticamente pelo<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block> instalador durante a instalação, desde que você tenha configurado os repositórios como mencionado nas seções a seguir.</block>
-  <block id="d1e7aabda60322abe75bf0db2ca50764" category="list-text">p7zip versão 16,02 ou posterior (a partir do repositório Red Hat extra Packages for Enterprise Linux)</block>
   <block id="78381976b37490cec80cd2fe2b00d51a" category="paragraph">Você deve encerrar uma instância em execução do Unified Manager antes de atualizar qualquer software de terceiros. Depois que a instalação de software de terceiros estiver concluída, você poderá reiniciar o Unified Manager.</block>
   <block id="c30f25a04cc49fee8fee2b51222074ae" category="section-title">Requisitos de autorização do utilizador</block>
   <block id="1d30f5af628840472be4ef70e300d02d" category="paragraph">A instalação do Unified Manager em um sistema Linux pode ser realizada pelo usuário raiz ou por usuários não-root usando o<block ref="d338b3f0f405eb5e51c8cc1e5ca66f02" prefix=" " category="inline-code"></block> comando.</block>
@@ -7353,8 +7350,6 @@
   <block id="fc6a57067ea7fdf362320a9b8f280942" category="cell">Comando para verificar o software e a versão</block>
   <block id="d349bda8382351b9fe435583c56eca3b" category="paragraph"><block ref="5d7f69486483ec9123c78fb391309819" prefix="" category="inline-code"></block></block>
   <block id="ebf01eb8c517f12e8cecc2a481529448" category="paragraph"><block ref="7f9bf2e99a8d8e1e6888945897f010c5" prefix="" category="inline-code"></block></block>
-  <block id="a795b555665b99a19e8172dcea1db7f8" category="paragraph">p7zip 16,02</block>
-  <block id="a7257213829973c5c49764d7424d2afc" category="paragraph"><block ref="2716004941fb00eb3e80a25c453a6559" prefix="" category="inline-code"></block></block>
   <block id="13403dd457b6243a3c87fe19d5c61014" category="paragraph"><block ref="e86ff1899b2b7a0c086b469d5767a681" prefix="" category="inline-code"></block></block>
   <block id="de62e757ceb412d713be5a4d33f999bc" category="paragraph">Se você receber erros de dependência, você deve adicionar a<block ref="d2eda1225eb659226e58328548ddc811" prefix=" " category="inline-code"></block> opção para desinstalar o componente.</block>
   <block id="3d07560c3dc428c1a0c49eb9c78954c3" category="list-text">Navegue até o diretório em que você baixou o arquivo de instalação<block ref="daf4de58883c030f033f07e61debf025" prefix=" " category="inline-code"></block> e expanda o pacote do Unified Manager:</block>
@@ -7411,9 +7406,6 @@
   <block id="2d2e49557d138f6d4b83fc5fc6f0f807" category="list-text">Faça login como usuário raiz no servidor no qual você deseja remover o Unified Manager.</block>
   <block id="8f4432edf3215369a9b366b08a0e80f1" category="list-text">Pare e remova o Unified Manager do servidor:</block>
   <block id="92293bf5efcb21ac9b8873fb38c0d536" category="paragraph"><block ref="34e06dcfa6e59d1a388cf2738f2769cc" prefix="" category="inline-code"></block></block>
-  <block id="4d55dfc0876750b5ffe6e60061566609" category="paragraph">Esta etapa remove todos os pacotes RPM do NetApp associados. Ele não remove os módulos de software pré-requisito, como Java, MySQL e p7zip.</block>
-  <block id="e5dbc5a1e11d941b151de8ab8fa95686" category="list-text">*Opcional:* se apropriado, remova os módulos de software de suporte, como Java, MySQL e p7zip:</block>
-  <block id="be712dac487b0060ebc7a7d4ea36b896" category="paragraph"><block ref="6864ceff184ce6252bf47dc8bfd9c50c" prefix="" category="inline-code"></block></block>
   <block id="4ccc693abf0d23c0d512da6d155ea5e9" category="paragraph">Após a conclusão desta operação, o software é removido. Todos os dados do<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> diretório são movidos para<block ref="919186d74363b18c363ecab464977d75" prefix=" " category="inline-code"></block> a pasta após a desinstalação. A desinstalação do Unified Manager também remove os pacotes Java e MySQL, a menos que os pacotes sejam necessários e usados por qualquer outra aplicação no sistema. No entanto, os dados MySQL não são excluídos.</block>
   <block id="688dd421579f9ca49f8068cf7c5fc387" category="summary">Talvez seja necessário reiniciar o Unified Manager depois de fazer alterações de configuração.</block>
   <block id="bd4c43ed11101c9806bd4fded878628b" category="list-text">Faça login como usuário raiz no servidor no qual você deseja reiniciar o serviço Unified Manager.</block>
@@ -11448,19 +11440,13 @@
   <block id="57149177e572f9b5329f85c287861767" category="paragraph">Usado pelo Unified Manager para enviar logs de auditoria para um servidor syslog remoto.</block>
   <block id="a683cc8dbb0bb0e6b1793e6ba834ff32" category="inline-link">Depois de atualizar o Java no host Active IQ Unified Manager, os serviços não serão iniciados</block>
   <block id="09baf90eb42ecfec3f212db12b09fe09" category="list-text">Você deve instalar apenas uma versão do Java em seu host do Unified Manager; caso contrário, o sistema poderá não conseguir determinar qual versão usar. <block ref="c8da8190d4ab26608407458b2e410255" category="inline-link-rx"></block>Consulte .</block>
-  <block id="3e0906413eedf8b016028a08671c72cf" category="list-text">MySQL Community Edition versão 8.4.4 (do repositório MySQL)</block>
   <block id="c6e03671790b21aa5876d21988481dc1" category="doc">Alterar a senha do JBoss</block>
-  <block id="bd4a61bec4ddf1fbfa9ff823fe338a7f" category="paragraph">MySQL 8.4.4 Community Edition</block>
-  <block id="e0b87bd877fb05ad9598493d9e9618f7" category="list-text">Se a versão instalada do MySQL for anterior ao MySQL 8.4.4 Community Edition, digite o seguinte comando para desinstalá-lo:</block>
   <block id="892bed2d06f89704c4604de031dae65b" category="paragraph">rpm --import <block ref="0f882f512220ee48fb3a2d37bf184d7b" category="inline-link-rx"></block></block>
   <block id="649100e0f61e7b197f0fa124dfd04ad0" category="doc">Configurar manualmente o repositório MySQL</block>
   <block id="7364abf9a3cfe2b121a7cea83050498f" category="paragraph"><block ref="e4721391d8c98496e77286760a370cbd" prefix="" category="inline-code"></block></block>
   <block id="a241a6b1d78a908e027ae227ba4afac8" category="paragraph"><block ref="ab96ce67a2bc362f79a7dc9a5d898d60" prefix="" category="inline-code"></block></block>
   <block id="ae96596167d0d8d8e2ef4039fbef6053" category="paragraph"><block ref="2cc661b5745d2b0218deba4ff43b2854" prefix="" category="inline-code"></block></block>
-  <block id="9ab7720d6cb446ae235fa693146b2a7f" category="list-text">O MySQL Community Edition é atualizado automaticamente durante a atualização do Unified Manager. Se a versão instalada do MySQL no seu sistema for anterior à 8,4.4, o processo de atualização do Unified Manager atualizará automaticamente o MySQL para 8,4.4.</block>
   <block id="8cfa73f7b5a63cd662382021f2aaef95" category="paragraph">O Unified Manager OVA em sistemas VMware vSphere executa o Debian OS 12 (bookworm) internamente. Para obter informações sobre as versões do hardware da máquina virtual que as versões suportadas dos servidores ESXi podem suportar, consulte a documentação da VMware.</block>
-  <block id="46f31bcfb93fcb60053430763035aa12" category="list-text">MySQL Community Edition versão 8.4.4</block>
-  <block id="cd50fb2ed09ac3c33e778054edb9cc6a" category="list-text">O MySQL Community Edition é atualizado automaticamente durante a atualização do Unified Manager. Se a versão instalada do MySQL no seu sistema for anterior à 8,4.4, o processo de atualização do Unified Manager atualizará automaticamente o MySQL para 8,4.4. Você não deve executar uma atualização autônoma de uma versão anterior do MySQL para 8,4.4.</block>
   <block id="0d36f8c0424fdbfdd6f9a12cbba4ee8d" category="summary">Solução de problemas: siga estas etapas para resolver o problema de rotação de log</block>
   <block id="a8bfd2afda4e15a2a1e73c27bdc332e8" category="doc">Problema de rotação de log do NetApp Manageability SDK em sistemas Windows</block>
   <block id="5aeab31ef19d5a368133d1cbd8bd66be" category="paragraph">Depois de adicionar um cluster baseado na API ONTAPI ao Unified Manager em um sistema operacional Windows, o <block ref="dbc60675af8648f05c2a3d903b31f558" prefix=" " category="inline-code"></block> o tamanho do arquivo aumenta e excede o limite de 10 MB.</block>
@@ -11544,7 +11530,6 @@
   <block id="950c932fbfaf16c880b9e3159698ec46" category="doc">Alterar a senha de umadmin em sistemas Linux</block>
   <block id="a3e7325bdc8802d2b97616abd100af4b" category="doc">Alterar o nome do host do appliance virtual do Unified Manager</block>
   <block id="82bc72116c72c5f85d83649146b03942" category="doc">Configurar logs de auditoria</block>
-  <block id="2b7e49b4350106b0d5c726624daba76c" category="paragraph">Se pretender ativar o registo remoto, deve selecionar *Ativar registo remoto*. /// 2025-6-11, OTHERDOC-133</block>
   <block id="fe3124ca1009da3f18337e7bbf1d954a" category="doc">Configurar o Unified Manager para enviar notificações de alerta</block>
   <block id="98abf53c0218d7ca977c214d35e15ff6" category="doc">Criar um usuário de banco de dados</block>
   <block id="f44fbeb51f975c8f5b5f1f3cacce95b0" category="doc">Excluir servidores de autenticação</block>
@@ -11751,7 +11736,6 @@
   <block id="0b6c920f47b112f0004be65d480c5f89" category="doc">Ver a lista e os detalhes da VM de armazenamento</block>
   <block id="3a54c48731287149929ccba8046ed457" category="doc">Veja a lista de volumes e detalhes</block>
   <block id="1c76f6f3be155bbb404ddc93da5ed6b1" category="doc">Instalar, atualizar e remover o software Unified Manager</block>
-  <block id="03f88644651c7265a75ee9d17c5192e4" category="doc">Configurar repositórios de software necessários</block>
   <block id="a60cb8b157602423cec8d20b7e790c1b" category="doc">Atualizar produtos de terceiros após a instalação do Unified Manager</block>
   <block id="f671b8cc8bc68a8083599cb63cfca3dc" category="doc">Atualizar o Unified Manager no Red Hat Enterprise Linux</block>
   <block id="eceb68056a5242b04d79baae7a08bb3b" category="section-title">Instale o Active IQ Unified Manager</block>
@@ -12047,10 +12031,7 @@
   <block id="53379802a4d81e82337b2c52ccf2deb3" category="list-text">Atualização 9.14 ou 9.16 -&gt; 9.18</block>
   <block id="6787fe3d88502c7e30ca4888c36420e1" category="list-text">Red Hat Enterprise Linux versões 8.x e 9.6, baseadas na arquitetura x86_64.</block>
   <block id="074a139785c8177508b3b6c1771be1b9" category="list-text">OpenJDK versão 17.0.14+6 (do repositório Red Hat Extra Enterprise Linux Server)</block>
-  <block id="948c8178d91f242a451ca7273fc88d8c" category="list-text">Python 3.12 (do repositório Red Hat Extra Enterprise Linux Server)</block>
   <block id="effd4488452f14b70bc4664d81f2c4cf" category="paragraph">OpenJDK versão 17.0.14+6</block>
-  <block id="8256b84d74aa30fc3663195b5024bed9" category="paragraph">Para um sistema Red Hat Enterprise Linux 8, se você tiver repositórios internos com JDK 17 - OpenJDK, p7zip e outros pacotes de software fornecidos pelo repositório AppStream, você deve desabilitar seu repositório AppStream e instalar o MySQL Community Server. Execute o seguinte comando:</block>
-  <block id="5c9461ab22e592eab1219f858610847e" category="paragraph">Para um sistema Red Hat Enterprise Linux 8, se você tiver repositórios internos com java-17-openjdk, p7zip e outros pacotes de software fornecidos pelo repositório AppStream, será necessário desabilitar seu repositório AppStream e instalar o MySQL Community Server. Execute o seguinte comando:</block>
   <block id="b052ad2f2a24341b706280b74b01f4cf" category="paragraph">Você pode atualizar do Unified Manager 9.14 ou 9.16 para o 9.18 baixando e executando o arquivo de instalação na plataforma Linux.</block>
   <block id="21965413ff0ccad2726549ebe4781cf5" category="paragraph">Você pode atualizar o Active IQ Unified Manager para a versão 9.18 somente a partir da versão 9.14 ou 9.16.</block>
   <block id="7e473733141d48a79308def35ea0692d" category="paragraph">Você pode atualizar o appliance virtual Active IQ Unified Manager das versões 9.14 ou 9.16 para 9.18.</block>
@@ -12074,4 +12055,50 @@
   <block id="8cf21208b286d8f7b61877ce31cfeacd" category="paragraph">Além disso, há um limite para o número de nós que uma única instância do Unified Manager pode monitorar antes de você instalar uma segunda instância do Unified Manager. Para limites de nós, recomendações de CPU e memória, consulte <block ref="2eee8552956d66b159af233732000339" category="inline-link-macro-rx"></block>.</block>
   <block id="72473e7783768c475b1bae8307882647" category="paragraph">Além disso, há um limite para o número de nós que uma única instância do Unified Manager pode monitorar antes de você instalar uma segunda instância do Unified Manager. Para limites de nós, recomendações de CPU e memória, consulte<block ref="8175e2f559de1060f0bed41c5845504d" category="inline-link-rx"></block>.</block>
   <block id="89b5277f8d4fd00ec520a15062f36ee4" category="list-text">Observe que, se você adicionar uma Máquina Virtual de Armazenamento (SVM) ou um cluster aos recursos de um alerta, os objetos filhos não serão adicionados automaticamente. Por exemplo, se você adicionar um cluster aos recursos de um alerta, o alerta não adicionará automaticamente os nós ou LUNs.</block>
+  <block id="72351f5aa135c1d7ffc7c5b47be4a6d2" category="doc">Configurar os registros de auditoria do Unified Manager</block>
+  <block id="aca31ed102e613948a8b22994dddc430" category="paragraph">Para ativar o registro remoto, selecione *Ativar registro remoto*.</block>
+  <block id="cb76e5d36c6cc17b94dee092ff59b087" category="doc">Regenerar o certificado do cliente do Unified Manager</block>
+  <block id="7d2851cca28635a1e83630f7d2e3fc63" category="inline-link">Gerenciar certificados ONTAP com o System Manager</block>
+  <block id="86df35e9b1dffd9ed39a46a4d7ffe7a1" category="paragraph">*Informações relacionadas* <block ref="c4ecef6f58bc214b3174de3e354d0911" category="inline-link-rx"></block></block>
+  <block id="3e4eb743748e538f59a50a73d5f8b602" category="doc">Defina o tempo limite de inatividade da sessão do Unified Manager.</block>
+  <block id="e8c80cc36155ada87dc563a78796b92f" category="image-alt">instalar fluxo no rhel 2026</block>
+  <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">O sistema precisa ter acesso a determinados repositórios e pacotes para que o programa de instalação possa acessar e instalar todas as dependências de software necessárias.</block>
+  <block id="f0041b2df6c7d0abc50865b06c257260" category="doc">Configure o software necessário para o Unified Manager.</block>
+  <block id="9ca50ce4ceb954680a475273fb837226" category="list-text">MySQL Community Edition versão 8.4.7 (do repositório MySQL)</block>
+  <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3 (do repositório Red Hat Extra Enterprise Linux Server)</block>
+  <block id="bff93131b836db7dbfe3c0ef47a3bdfb" category="inline-link-macro">Configure o pacote de software 7-Zip.</block>
+  <block id="461c8ff1de784c3f512e2bab8a2bb39d" category="list-text">7zip versão 7z2301-linux-x64. Para obter mais informações, consulte <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>.</block>
+  <block id="e015944bfff042d3f68ba5273a29764f" category="summary">Para instalar o Unified Manager com sucesso em um sistema Red Hat Enterprise Linux (RHEL), seu sistema deve estar configurado com acesso ao pacote 7-zip.</block>
+  <block id="85dda2f348fcdccc0aaeab4cbe8f599f" category="doc">Configure o pacote de software 7-Zip para o Unified Manager.</block>
+  <block id="f4545e72494a629211274696dc51101a" category="paragraph">Para instalar o Unified Manager com sucesso em um sistema Red Hat Enterprise Linux, seu sistema deve estar configurado com acesso ao pacote de software 7-zip. Se houver acesso à rede e o URL do 7-Zip estiver desbloqueado por um firewall, o 7-Zip será baixado automaticamente para o seu sistema durante um processo de instalação ou atualização. A NetApp recomenda o método de download automático.</block>
+  <block id="69e854a4bf0030976395f03271128807" category="paragraph">Certifique-se de que o seguinte URL esteja desbloqueado no seu firewall para permitir que o Unified Manager baixe automaticamente o pacote de software 7-zip:<block ref="149f97a3106ff103273136be2377c5c5" prefix=" " category="inline-code"></block></block>
+  <block id="37c1dac21aa18b5553076dd69c0d4f88" category="paragraph">Alternativamente, você pode pré-instalar o 7-Zip.</block>
+  <block id="dad151810e18734c54fd2f0e00f48c91" category="section-title">Pré-instale o pacote 7-zip.</block>
+  <block id="4893fd0ca34d784ae71835c4e0223807" category="paragraph">Você pode pré-instalar o 7-Zip baixando-o manualmente ou usando um script incluído. Escolha um dos dois métodos a seguir:</block>
+  <block id="6cc776293d96324d6f1a61ae6a739d54" category="section-title">Baixar usando um script incluído</block>
+  <block id="3e35624a3e4eef29b898f6e604523b20" category="list-text">Execute o<block ref="d2ff91d1eda2e6d2a3670a78f9c369d2" prefix=" " category="inline-code"></block> Script que está incluído no arquivo zip do Unified Manager.</block>
+  <block id="b5a21d29e8eead4e58d13826ea7cd73b" category="section-title">Baixar manualmente</block>
+  <block id="d9dc731703437706cbe8aa4307fd2a27" category="paragraph">Certifique-se de baixar o pacote 7-zip somente do site oficial.</block>
+  <block id="7d42e6eade30679ccf2871c8cdd42d82" category="list-text">Baixe o pacote 7-zip (versão 23.01) do site oficial:</block>
+  <block id="c54bd88d3ce8cde15bb13de5d7938001" category="paragraph"><block ref="149f97a3106ff103273136be2377c5c5" prefix="" category="inline-code"></block></block>
+  <block id="11386e8eb4c06ded373ad806362fd87f" category="list-text">Copie o arquivo para sua máquina virtual RHEL:</block>
+  <block id="8546a6ff2e10ec778904583e758315c0" category="list-text">Extraia o arquivo:</block>
+  <block id="5ef71a99412d7fdd7718e1339dc9af67" category="list-text">Mova o<block ref="4af58bcd3997fcf30a03d97e4cac2156" prefix=" " category="inline-code"></block> arquivo para o<block ref="2a4b26260ce1651934b15eaf5a82d57f" prefix=" " category="inline-code"></block> diretório:</block>
+  <block id="f36c9656dfe6d8b4341b27eee5cba4cd" category="list-text">Definir permissões de execução:</block>
+  <block id="9c0f95d6de9186b24cce94c1c19ad0bb" category="section-title">Verifique a instalação.</block>
+  <block id="d0eba9fa9af1130797e7b097e86e1cf9" category="paragraph">Verifique se o pacote 7-Zip foi instalado corretamente em seu sistema:</block>
+  <block id="3d96d3e1fe880ce5fb91ceb1a04daf8f" category="paragraph">MySQL 8.4.7 Edição Comunitária</block>
+  <block id="7942c3cbff858fefeeae13af0754ce91" category="paragraph">7-zip</block>
+  <block id="bd4785a5ccc39256a5803dad4bd14553" category="paragraph"><block ref="e3b6ff30090579304f8b0ef931234002" prefix="" category="inline-code"></block></block>
+  <block id="230ac9fdbbe8b31d21322b2382325f25" category="list-text">Se a versão instalada do MySQL for anterior ao MySQL 8.4.7 Community Edition, digite o seguinte comando para desinstalá-lo:</block>
+  <block id="9e8e56b6decd77cb1c6c67922d0ea568" category="paragraph">Para um sistema Red Hat Enterprise Linux 8, se você tiver repositórios internos com JDK 17 - OpenJDK, 7-zip e outros pacotes de software fornecidos pelo repositório AppStream, você deve desativar o repositório AppStream e instalar o MySQL Community Server. Execute o seguinte comando:</block>
+  <block id="dc2549c9552cf4727398a4c12030d976" category="paragraph">Para um sistema Red Hat Enterprise Linux 8, se você tiver repositórios internos com java-17-openjdk, 7-zip e outros pacotes de software fornecidos pelo repositório AppStream, você deve desativar o repositório AppStream e instalar o MySQL Community Server. Execute o seguinte comando:</block>
+  <block id="85a7833c7b3c47e46293fd6b5df674cf" category="paragraph">Esta etapa remove todos os pacotes NetApp RPM associados. Ele não remove os módulos de software pré-requisitos, como Java, MySQL e 7zip.</block>
+  <block id="95570f21954a110ac5842214143555f2" category="list-text">*Opcional:* Se apropriado, remova os módulos de software de suporte, como Java, MySQL e 7zip:</block>
+  <block id="9be3489c55784ee9bb690eb74a862d91" category="paragraph"><block ref="4b4071a6e6d8cc80744e78638c7ce679" prefix="" category="inline-code"></block></block>
+  <block id="54b48a732c6188d2bcadf3f1d35f5767" category="list-text">Você deve instalar ou atualizar para a versão correta do 7-Zip antes de atualizar o Unified Manager. Ver <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>.</block>
+  <block id="7efa98bf218af7d91336f05884607943" category="list-text">O MySQL Community Edition é atualizado automaticamente durante a atualização do Unified Manager. Se a versão instalada do MySQL no seu sistema for anterior à 8.4.7, o processo de atualização do Unified Manager atualizará automaticamente o MySQL para a 8.4.7.</block>
+  <block id="1e4ae16efa77dcf7b5345478d2ccb141" category="list-text">MySQL Community Edition versão 8.4.7</block>
+  <block id="7e32873dbcea7d787665ade5210a7e5e" category="list-text">O MySQL Community Edition é atualizado automaticamente durante a atualização do Unified Manager. Se a versão instalada do MySQL no seu sistema for anterior à 8.4.7, o processo de atualização do Unified Manager atualizará automaticamente o MySQL para a 8.4.7. Você não deve executar uma atualização autônoma de uma versão anterior do MySQL para 8.4.7.</block>
+  <block id="3fdc1149ca052bb0caeb62195f6366e2" category="sidebar">Instale o software necessário</block>
 </blocks>

@@ -13,4 +13,4 @@ summary: O fluxo de trabalho de instalação descreve as tarefas que você deve 
 [role="lead"]
 O fluxo de trabalho de instalação descreve as tarefas que você deve executar antes de usar o Unified Manager.
 
-image::../media/install_flow_on_rhel.gif[instale o fluxo no rhel]
+image::../media/install_flow_on_rhel_2026.png[instalar fluxo no rhel 2026]

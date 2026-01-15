@@ -1,0 +1,81 @@
+---
+permalink: install-linux/task_configure_7zip_package.html 
+sidebar: sidebar 
+keywords: manually, configure, 7-zip package, RHEL, Linux, bundled script 
+summary: 'Para instalar o Unified Manager com sucesso em um sistema Red Hat Enterprise Linux (RHEL), seu sistema deve estar configurado com acesso ao pacote 7-zip.' 
+---
+= Configure o pacote de software 7-Zip para o Unified Manager.
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Para instalar o Unified Manager com sucesso em um sistema Red Hat Enterprise Linux, seu sistema deve estar configurado com acesso ao pacote de software 7-zip. Se houver acesso à rede e o URL do 7-Zip estiver desbloqueado por um firewall, o 7-Zip será baixado automaticamente para o seu sistema durante um processo de instalação ou atualização. A NetApp recomenda o método de download automático.
+
+Certifique-se de que o seguinte URL esteja desbloqueado no seu firewall para permitir que o Unified Manager baixe automaticamente o pacote de software 7-zip:
+`https://7-zip.org/a/7z2301-linux-x64.tar.xz`
+
+Alternativamente, você pode pré-instalar o 7-Zip.
+
+
+
+== Pré-instale o pacote 7-zip.
+
+Você pode pré-instalar o 7-Zip baixando-o manualmente ou usando um script incluído. Escolha um dos dois métodos a seguir:
+
+
+
+=== Baixar usando um script incluído
+
+.Passo
+. Execute o `install7zip.sh` Script que está incluído no arquivo zip do Unified Manager.
+
+
+
+
+=== Baixar manualmente
+
+Certifique-se de baixar o pacote 7-zip somente do site oficial.
+
+.Passos
+. Baixe o pacote 7-zip (versão 23.01) do site oficial:
++
+`https://7-zip.org/a/7z2301-linux-x64.tar.xz`
+
+. Copie o arquivo para sua máquina virtual RHEL:
++
+[source, CLI]
+----
+7z2301-linux-x64.tar.xz
+----
+. Extraia o arquivo:
++
+[source, CLI]
+----
+sudo tar -xf 7z2301-linux-x64.tar.xz
+----
+. Mova o `7zz` arquivo para o `/usr/bin/` diretório:
++
+[source, CLI]
+----
+sudo cp 7zz /usr/bin/
+----
+. Definir permissões de execução:
++
+[source, CLI]
+----
+sudo chmod 755 /usr/bin/7zz
+----
+
+
+
+
+== Verifique a instalação.
+
+Verifique se o pacote 7-Zip foi instalado corretamente em seu sistema:
+
+[source, CLI]
+----
+7zz -version
+----
