@@ -19,7 +19,19 @@ Tem de ter a função Administrador de aplicações ou Administrador de armazena
 
 NOTE: Observe os seguintes pontos:
 
-* Não é possível restaurar fluxos de ficheiros NTFS.
+* Não é possível restaurar um diretório ou um volume a partir de um snapshot em nenhum dos seguintes cenários:
++
+** A opção *Sim, preservar todas as cópias instantâneas* está selecionada.
+** Você está usando uma conta LDAP para monitorar o cluster.
+** Você está conectado como um usuário de domínio.
+** Sua conta está configurada para autenticação SAML.
+** Você está usando o protocolo NDMP.
++
+Para obter mais detalhes, consulte o artigo da Knowledge Base https://kb.netapp.com/on-prem/ontap/DP/NDMP/NDMP-KBs/How_to_configure_NDMP_authentication_in_the_SVM-scope_previously_known_as_Vserver-scope_mode["Como configurar autenticação NDMP no modo 'SVM-scope'"^].
+
+
+
+* Não é possível restaurar fluxos de arquivos NTFS.
 * A opção de restauração não está disponível quando:
 +
 ** O ID do volume é desconhecido: Por exemplo, quando você tem uma relação entre clusters e o cluster de destino ainda não foi descoberto.
