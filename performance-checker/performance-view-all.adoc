@@ -91,7 +91,7 @@ A seguir estão alguns campos importantes na visualização desempenho: Todos os
 ** HDD (FabricPool). Combina HDDs e uma camada de nuvem
 ** VMDisk (SDS). Discos virtuais dentro de uma máquina virtual
 ** VMDisk (FabricPool). Combina discos virtuais e uma camada de nuvem
-** LUN (FlexArray)
+** LUN
 
 
 * Relatório de dados inativos: Se a capacidade de relatório de dados inativos está ativada ou desativada neste agregado. Quando ativado, os volumes desse agregado exibem a quantidade de dados inativos na exibição desempenho: Todos os volumes. O valor neste campo é "N/A" quando a versão do ONTAP não suporta relatórios de dados inativos.
