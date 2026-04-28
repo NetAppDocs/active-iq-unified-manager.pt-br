@@ -272,4 +272,37 @@ UDP
  a| 
 Usado pelo Unified Manager para enviar logs de auditoria para um servidor syslog remoto.
 
+
+
+ a| 
+AMQP QPID broker
+ a| 
+TCP/IP
+ a| 
+56072
+ a| 
+Usado para comunicação de mensagens internas.
+
+
+
+ a| 
+AMQP QPID broker
+ a| 
+WebSocket sobre TCP
+ a| 
+56080
+ a| 
+Usado para ouvir nessa porta as mensagens recebidas do ONTAP (agente de nuvem).
+
+
+
+ a| 
+AMQP QPID broker
+ a| 
+WebSocket sobre TCP
+ a| 
+56443
+ a| 
+Usado para ouvir nessa porta as mensagens recebidas do ONTAP (agente de nuvem). A comunicação por esta porta suporta criptografia fornecida por TLS ou SSL.
+
 |===
