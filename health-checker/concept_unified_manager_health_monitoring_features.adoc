@@ -43,9 +43,6 @@ O Unified Manager inclui os seguintes recursos:
 * Relatar a criação e o gerenciamento de informações de objetos de storage, como capacidade física e lógica, utilização, economia de espaço, desempenho e eventos relacionados
 * Integração com o OnCommand Workflow Automation para executar fluxos de trabalho
 +
-O repositório de automação do storage contém pacotes de fluxo de trabalho de storage automatizado certificados pela NetApp, desenvolvidos para uso com o OnCommand Workflow Automation (WFA). Você pode baixar os pacotes e depois importá-los para O WFA para executá-los. Os fluxos de trabalho automatizados estão disponíveis aqui:
-
-+
-https://automationstore.netapp.com["Armazenamento de automação de storage"]
+https://mysupport.netapp.com/site/products/all/details/ocwfa/downloads-tab["Download WFA"^]
 
 

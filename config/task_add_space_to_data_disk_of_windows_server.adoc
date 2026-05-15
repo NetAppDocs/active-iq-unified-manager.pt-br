@@ -32,7 +32,7 @@ Em um servidor físico, adicione capacidade à unidade lógica na qual o servido
  a| 
 Siga as etapas no tópico da Microsoft:
 
-https://technet.microsoft.com/en-us/library/cc771473(v=ws.11).aspx["Estender um volume básico"]
+https://technet.microsoft.com/en-us/library/cc771473(v=ws.11).aspx["Estender um volume básico"^]
 
 
 
@@ -41,7 +41,7 @@ Em um servidor físico, adicione uma unidade de disco rígido.
  a| 
 Siga as etapas no tópico da Microsoft:
 
-https://msdn.microsoft.com/en-us/library/dd163551.aspx["Adicionar unidades de disco rígido"]
+https://msdn.microsoft.com/en-us/library/dd163551.aspx["Adicionar unidades de disco rígido"^]
 
 
 
@@ -50,7 +50,7 @@ Em uma máquina virtual, aumente o tamanho de uma partição de disco.
  a| 
 Siga as etapas no tópico VMware:
 
-https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1004071["Aumentando o tamanho de uma partição de disco"]
+https://knowledge.broadcom.com/external/article/323136/increasing-the-size-of-a-virtual-disk-pa.html["Aumentando o tamanho de uma partição de disco"^]
 
 |===
 

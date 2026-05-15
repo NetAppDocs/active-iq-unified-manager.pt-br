@@ -1420,14 +1420,11 @@
   <block id="a3ec58cb7e9bf89ef726ec0d99330264" category="paragraph">Em um servidor físico, adicione capacidade à unidade lógica na qual o servidor do Unified Manager está instalado.</block>
   <block id="58e7b60f294b271a4bc9c01cccff27e5" category="paragraph">Siga as etapas no tópico da Microsoft:</block>
   <block id="97424b0770e65ad13c37e9c4e0bf64e7" category="inline-link">Estender um volume básico</block>
-  <block id="3771c84b1045d5ccd8689f90b09f9ac1" category="paragraph"><block ref="3771c84b1045d5ccd8689f90b09f9ac1" category="inline-link-rx"></block></block>
   <block id="bc78f8459cc3f99966ec858559866c73" category="paragraph">Em um servidor físico, adicione uma unidade de disco rígido.</block>
   <block id="ccdf2f614d8c68d046e904c7e5c8f784" category="inline-link">Adicionar unidades de disco rígido</block>
-  <block id="6f7d162b9b4778023baeb8b3f6e0072c" category="paragraph"><block ref="6f7d162b9b4778023baeb8b3f6e0072c" category="inline-link-rx"></block></block>
   <block id="6c4f6491c1007de757c7587546b655d2" category="paragraph">Em uma máquina virtual, aumente o tamanho de uma partição de disco.</block>
   <block id="1c9690b8244451e91730c655ec71a542" category="paragraph">Siga as etapas no tópico VMware:</block>
   <block id="5254296818aa13c00d8252c86b324630" category="inline-link">Aumentando o tamanho de uma partição de disco</block>
-  <block id="301c0a1773cbd034466e002644e3ab94" category="paragraph"><block ref="7d192e27a5a594f0b284619bff944ea7" category="inline-link-rx"></block></block>
   <block id="37947a9d67ea66a417a551a4f0800274" category="summary">Você pode adicionar usuários locais ou usuários de banco de dados usando a página usuários. Você também pode adicionar usuários remotos ou grupos que pertencem a um servidor de autenticação. Você pode atribuir funções a esses usuários e, com base no Privileges das funções, os usuários podem gerenciar os objetos de storage e dados com o Unified Manager, ou exibir os dados em um banco de dados.</block>
   <block id="e12cdb6af9280f76fbd409784aba300f" category="doc">Adicionando usuários</block>
   <block id="df8f985e9f295a745eb487a476d19b5c" category="list-text">Para adicionar um utilizador ou grupo remoto, tem de ter ativado a autenticação remota e configurado o servidor de autenticação.</block>
@@ -2685,7 +2682,6 @@
   <block id="1f5e9c649d2f26220ed8c963c7cdbc02" category="list-text">Clique com o botão direito do rato no destino e selecione *Break* no menu.</block>
   <block id="d2ba963299d610a7a252e6f4e69c60f5" category="list-text">Na topologia, verifique se o relacionamento está quebrado.</block>
   <block id="d1de0a7d7acb6c1e6d558f461b1c08b0" category="summary">Você pode configurar uma conexão segura entre o OnCommand Workflow Automation (WFA) e o Unified Manager. A conexão com o Workflow Automation permite que você use recursos de proteção, como fluxos de trabalho de configuração do SnapMirror e do SnapVault, bem como comandos para gerenciar relacionamentos do SnapMirror.</block>
-  <block id="0c6e4a96f43d5868275a60909a3a24fc" category="inline-link">Pacote WFA para gerenciar ONTAP</block>
   <block id="5b7d25b9e226028347921818ce714ea3" category="list-text">Você deve ter o nome do usuário do banco de dados que criou no Unified Manager para oferecer suporte às conexões DO WFA e do Unified Manager.</block>
   <block id="0baffa2d6dab374e8ae870aa23680370" category="paragraph">Esse usuário do banco de dados deve ter sido atribuído a função de usuário do esquema de integração.</block>
   <block id="209a170f4735b61e63946462f4cc839b" category="list-text">Você deve ser atribuído a função Administrador ou a função arquiteto no Workflow Automation.</block>
@@ -5087,9 +5083,6 @@
   <block id="076790dbfc4444ac90e62b970a3c9217" category="list-text">Anotações para objetos de armazenamento</block>
   <block id="53715e24fcf7438bf8bb2d96e3d34de8" category="list-text">Relatar a criação e o gerenciamento de informações de objetos de storage, como capacidade física e lógica, utilização, economia de espaço, desempenho e eventos relacionados</block>
   <block id="42c75971e03568e6221b99dd63d98865" category="list-text">Integração com o OnCommand Workflow Automation para executar fluxos de trabalho</block>
-  <block id="6750b5b2c975d66813d2ea8952f0bae1" category="paragraph">O repositório de automação do storage contém pacotes de fluxo de trabalho de storage automatizado certificados pela NetApp, desenvolvidos para uso com o OnCommand Workflow Automation (WFA). Você pode baixar os pacotes e depois importá-los para O WFA para executá-los. Os fluxos de trabalho automatizados estão disponíveis aqui:</block>
-  <block id="0479c8cefca250b39d519545313f1b42" category="inline-link">Armazenamento de automação de storage</block>
-  <block id="63f4e00d9f003710efd37fe0fad569e9" category="paragraph"><block ref="63f4e00d9f003710efd37fe0fad569e9" category="inline-link-rx"></block></block>
   <block id="97926c3c0aa12ad373dbf69a58ced1a0" category="summary">Uma anotação é uma cadeia de texto (o nome) que é atribuída a outra cadeia de texto (o valor). Cada par de nome-valor de anotação pode ser dinamicamente associado a objetos de armazenamento utilizando regras de anotação. Quando você associa objetos de armazenamento a anotações predefinidas, você pode filtrar e exibir os eventos relacionados a eles. É possível aplicar anotações a clusters, volumes e máquinas virtuais de storage (SVMs).</block>
   <block id="f31908a421aec1cdd05ce7a0e75cdd0d" category="doc">Quais são as anotações</block>
   <block id="a5f6dad6e945be3098b200fbe9769c43" category="paragraph">Cada nome de anotação pode ter vários valores; cada par de nome-valor pode ser associado a um objeto de armazenamento através de regras.</block>
@@ -11413,7 +11406,6 @@
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">Antes de começar</block>
   <block id="403384bc7be1a7f4e22bd05d0f8b3ec8" category="paragraph">* O que. Antes de começar</block>
   <block id="1b377a56a4ae0b95c40511aa64336c41" category="list-text">A versão instalada do Workflow Automation deve ser 5,1.1P6 ou superior.</block>
-  <block id="9e24238c9686e244d38d02ad1f557aca" category="paragraph">O "WFA pack for Management Clustered Data ONTAP" está incluído no WFA 5,1.1P6, portanto, não há necessidade de baixar este pacote da Loja de Automação NetAppStorage e instalá-lo separadamente em seu SERVIDOR WFA, como era necessário no passado.<block ref="33bb079f56da49206dfe05941d30882d" category="inline-link-rx"></block></block>
   <block id="c8fd24815f6093e46c1cb75855be5d43" category="list-text">Você deve ter instalado o Unified Manager em um servidor Linux seguindo as instruções no <block ref="55b3ec865696a24c30e5b2e799e3e5eb" category="inline-link-macro-rx"></block>.</block>
   <block id="eb0a89add4cd78412c29a6c06287ca71" category="paragraph">O Unified Manager usa<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block> o utilitário para instalar o software e qualquer software dependente. Como existem várias imagens do Red Hat Enterprise Linux, os pacotes instalados dependem do software presente nas imagens. O<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block> utilitário determina os pacotes de software dependentes para instalação. Se precisar de mais informações sobre os pacotes de software dependentes, consulte o <block ref="f1a81936de546e8d25edd5d0aa76c791" category="inline-link-macro-rx"></block>.</block>
   <block id="8ed8853f67b146f3f04807d3865ef602" category="list-text">Certifique-se de baixar a versão correta do arquivo de instalação para o seu sistema Red Hat Enterprise Linux. Com base se você tem o Red Hat Enterprise Linux 8 ou 9 instalado, certifique-se de baixar a versão apropriada do arquivo Unified Manager<block ref="daf4de58883c030f033f07e61debf025" prefix=" " category="inline-code"></block>.</block>
@@ -12110,4 +12102,10 @@
   <block id="10c63a870bc95c46a742e43842ec8048" category="paragraph">Para obter mais detalhes, consulte o artigo da Knowledge Base<block ref="b3c8348c93a87962cb210001996297e2" category="inline-link-rx"></block>.</block>
   <block id="8da4b54a11c14f3b7f3fc9138371f1c0" category="list-text">Não é possível restaurar fluxos de arquivos NTFS.</block>
   <block id="c6655c77ef7f9737d998381c1db5e05b" category="paragraph">Para todos os eventos que você configurou para enviar alertas, uma mensagem de alerta é enviada quando esses eventos transitam por todos os estados disponíveis: Novo, Resolvido e Obsoleto. Se você não quiser receber alertas para eventos que passam para os estados Resolvido e Obsoleto, você pode configurar uma configuração global para suprimir esses alertas.</block>
+  <block id="42429633f87d83134a274916f6a034c2" category="paragraph"><block ref="42429633f87d83134a274916f6a034c2" category="inline-link-rx"></block></block>
+  <block id="7735c39e24fb37c1d079ba9e3a91c264" category="paragraph"><block ref="7735c39e24fb37c1d079ba9e3a91c264" category="inline-link-rx"></block></block>
+  <block id="7c84ac4946087f09b4a17998f1e830e8" category="paragraph"><block ref="7c84ac4946087f09b4a17998f1e830e8" category="inline-link-rx"></block></block>
+  <block id="af050e52c447cd52b4b2f1ffdc032f19" category="inline-link">Download WFA</block>
+  <block id="94d13f29f9fba88b1b0d477b50fbcb23" category="paragraph">O pacote "WFA para gerenciamento de Clustered Data ONTAP" está incluído no WFA 5.1.1P6, portanto, não é necessário baixar este pacote da NetAppStorage Automation Store e instalá-lo separadamente em seu servidor WFA, como era necessário anteriormente.<block ref="205df40c4c09810da80912824982d64d" category="inline-link-rx"></block></block>
+  <block id="b51ca7d8abeeddcb10f579ebf26d482d" category="paragraph"><block ref="b51ca7d8abeeddcb10f579ebf26d482d" category="inline-link-rx"></block></block>
 </blocks>
