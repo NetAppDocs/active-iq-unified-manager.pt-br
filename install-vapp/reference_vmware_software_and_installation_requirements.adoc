@@ -21,7 +21,7 @@ O sistema operacional suportado é o VMware ESXi 8.0.
 
 [NOTE]
 ====
-O Unified Manager OVA em sistemas VMware vSphere executa o Debian OS 12 (bookworm) internamente. Para obter informações sobre as versões do hardware da máquina virtual que as versões suportadas dos servidores ESXi podem suportar, consulte a documentação da VMware.
+Unified Manager OVA em sistemas VMware vSphere executa internamente o sistema operacional Debian OS 13 (Trixie). Para obter informações sobre as versões de hardware de máquina virtual que as versões suportadas dos servidores ESXi podem suportar, consulte a documentação da VMware.
 
 ====
 As seguintes versões do vSphere são suportadas:

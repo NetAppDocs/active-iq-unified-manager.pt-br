@@ -1333,7 +1333,6 @@
   <block id="2cd66e4cb1059caf02b4b6194a8ee5dd" category="paragraph">O endereço IP de gerenciamento de cluster deve ser o LIF de gerenciamento de cluster da máquina virtual de storage administrativo (SVM). Se você usar um LIF de gerenciamento de nós, a operação falhará.</block>
   <block id="81bd0e8291ca755124cc9a7da825fd2f" category="list-text">O cluster deve estar executando o software ONTAP versão 9,1 ou superior.</block>
   <block id="ef449751178f433197590c3c5074c337" category="list-text">Nome de usuário e senha do administrador do ONTAP</block>
-  <block id="6bb4bacb8a95b59b89d6baf47ca57e37" category="paragraph">Essa conta deve ter a função _admin_ com acesso ao aplicativo definido como _ontapi_, _console_ e _http_.</block>
   <block id="a76dce9421f54828d6c4fec13fc1a2e1" category="list-text">O número da porta para se conetar ao cluster usando o protocolo HTTPS (normalmente a porta 443)</block>
   <block id="7a86121751ce8ab08ea100213e2a180e" category="list-text">Você tem os certificados necessários:</block>
   <block id="0f6a90196aeb078d6e39cee51dd32bde" category="inline-link-macro">Gerando um certificado de segurança HTTPS</block>
@@ -11437,7 +11436,6 @@
   <block id="7364abf9a3cfe2b121a7cea83050498f" category="paragraph"><block ref="e4721391d8c98496e77286760a370cbd" prefix="" category="inline-code"></block></block>
   <block id="a241a6b1d78a908e027ae227ba4afac8" category="paragraph"><block ref="ab96ce67a2bc362f79a7dc9a5d898d60" prefix="" category="inline-code"></block></block>
   <block id="ae96596167d0d8d8e2ef4039fbef6053" category="paragraph"><block ref="2cc661b5745d2b0218deba4ff43b2854" prefix="" category="inline-code"></block></block>
-  <block id="8cfa73f7b5a63cd662382021f2aaef95" category="paragraph">O Unified Manager OVA em sistemas VMware vSphere executa o Debian OS 12 (bookworm) internamente. Para obter informações sobre as versões do hardware da máquina virtual que as versões suportadas dos servidores ESXi podem suportar, consulte a documentação da VMware.</block>
   <block id="0d36f8c0424fdbfdd6f9a12cbba4ee8d" category="summary">Solução de problemas: siga estas etapas para resolver o problema de rotação de log</block>
   <block id="a8bfd2afda4e15a2a1e73c27bdc332e8" category="doc">Problema de rotação de log do NetApp Manageability SDK em sistemas Windows</block>
   <block id="5aeab31ef19d5a368133d1cbd8bd66be" category="paragraph">Depois de adicionar um cluster baseado na API ONTAPI ao Unified Manager em um sistema operacional Windows, o <block ref="dbc60675af8648f05c2a3d903b31f558" prefix=" " category="inline-code"></block> o tamanho do arquivo aumenta e excede o limite de 10 MB.</block>
@@ -12108,4 +12106,6 @@
   <block id="af050e52c447cd52b4b2f1ffdc032f19" category="inline-link">Download WFA</block>
   <block id="94d13f29f9fba88b1b0d477b50fbcb23" category="paragraph">O pacote "WFA para gerenciamento de Clustered Data ONTAP" está incluído no WFA 5.1.1P6, portanto, não é necessário baixar este pacote da NetAppStorage Automation Store e instalá-lo separadamente em seu servidor WFA, como era necessário anteriormente.<block ref="205df40c4c09810da80912824982d64d" category="inline-link-rx"></block></block>
   <block id="b51ca7d8abeeddcb10f579ebf26d482d" category="paragraph"><block ref="b51ca7d8abeeddcb10f579ebf26d482d" category="inline-link-rx"></block></block>
+  <block id="59c721a4f6c44ca8cb60ecf288219ca8" category="paragraph">Esta conta deve ter a função _admin_ com acesso ao aplicativo definido como _ontapi_, _amqp_, _console_ e _http_.</block>
+  <block id="42448273f40a0cdbd38a68c84477f81c" category="paragraph">Unified Manager OVA em sistemas VMware vSphere executa internamente o sistema operacional Debian OS 13 (Trixie). Para obter informações sobre as versões de hardware de máquina virtual que as versões suportadas dos servidores ESXi podem suportar, consulte a documentação da VMware.</block>
 </blocks>
