@@ -19,6 +19,7 @@ Os volumes FlexGroup e seus componentes estão excluídos.
 
 
 
+[[workloads-overview]]
 == Visão geral dos workloads
 
 A página Visão geral das cargas de trabalho exibe a visão geral das cargas de trabalho no data center e a visão geral de espaço e desempenho do data center.
@@ -29,6 +30,7 @@ A página Visão geral das cargas de trabalho exibe a visão geral das cargas de
 
 
 
+[[all-workloads-view]]
 == Visualização de todos os workloads
 
 A página *armazenamento > cargas de trabalho > todas as cargas de trabalho* lista as cargas de trabalho de armazenamento associadas aos clusters do ONTAP gerenciados pelo Unified Manager.
@@ -46,6 +48,7 @@ A página também permite que você atribua políticas de eficiência de storage
 
 
 
+[[adding-or-provisioning-storage-workloads]]
 === Adição ou provisionamento de workloads de storage
 
 Você pode adicionar ou provisionar os workloads de storage a LUNs compatíveis (compatíveis com protocolos iSCSI e FCP), compartilhamentos de arquivos NFS e compartilhamentos de SMB.
@@ -57,6 +60,7 @@ Você pode adicionar ou provisionar os workloads de storage a LUNs compatíveis 
 
 
 
+[[viewing-and-filtering-workloads]]
 === Visualização e filtragem de workloads
 
 Na tela todos os workloads, você pode visualizar todos os workloads no data center ou pesquisar workloads de storage específicos com base nas PSLs ou nos nomes deles. Pode utilizar o ícone de filtro para introduzir condições específicas para a sua pesquisa. Você pode pesquisar por diferentes condições de filtro, como pelo cluster de host ou VM de armazenamento. A opção *Capacity Total* permite a filtragem pela capacidade total das cargas de trabalho (por MB). No entanto, nesse caso, o número de cargas de trabalho retornadas pode variar, porque a capacidade total é comparada em um nível de byte.
@@ -67,6 +71,7 @@ A página também permite visualizar os detalhes de performance de um workload. 
 
 
 
+[[analyzing-performance-and-capacity-criteria-for-a-workload]]
 === Análise de critérios de performance e capacidade de um workload
 
 O botão *Analyze Workload* (analisar carga de trabalho) na janela pop-up *IOPS Analysis* (análise de carga de trabalho) leva você à página Workload Analysis (análise de carga de trabalho), onde você pode selecionar um intervalo de tempo e exibir as tendências de latência, taxa de transferência e capacidade para a carga de trabalho selecionada. Para obter mais informações sobre o analisador de carga de trabalho, link:..//performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html["Solução de problemas de cargas de trabalho usando o analisador de carga de trabalho"]consulte .

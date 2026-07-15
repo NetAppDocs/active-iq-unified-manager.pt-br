@@ -22,6 +22,7 @@ Você deve carregar a chave privada junto com a cadeia de certificados porque es
 
 
 
+[[format-for-loading-a-certificate-with-an-ec-key-pair]]
 == Formato para carregar um certificado com um par de chaves EC
 
 As curvas permitidas são "prime256v1" e "ecp384r1". Amostra de certificado com um par EC gerado externamente:
@@ -49,6 +50,7 @@ As curvas permitidas são "prime256v1" e "ecp384r1". Amostra de certificado com 
 ----
 
 
+[[format-for-loading-a-certificate-with-an-rsa-key-pair]]
 == Formato para carregar um certificado com um par de chaves RSA
 
 Os tamanhos de chave permitidos para o par de chaves RSA pertencentes ao certificado de host são 2048, 3072 e 4096. Certificado com um par de chaves *RSA gerado externamente*:
@@ -75,6 +77,7 @@ Depois que o certificado for carregado, você deverá reiniciar a instância do 
 
 
 
+[[checks-while-uploading-externally-generated-certificates]]
 == Verifica durante o carregamento de certificados gerados externamente
 
 O sistema executa verificações ao carregar um certificado gerado usando ferramentas externas. Se alguma das verificações falhar, o certificado será rejeitado. Há também validação incluída para os certificados que são gerados a partir do CSR dentro do produto e para os certificados que são gerados usando ferramentas externas.

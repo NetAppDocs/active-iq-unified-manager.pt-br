@@ -53,24 +53,27 @@ Espaço livre em disco
 |===
 O Unified Manager pode ser instalado em sistemas com uma pequena quantidade de memória, mas os 12 GB de RAM recomendados garantem que haja memória suficiente disponível para um desempenho ideal e que o sistema possa acomodar clusters e objetos de armazenamento adicionais à medida que sua configuração cresce. Você não deve definir limites de memória na VM em que o Unified Manager é implantado e não deve habilitar recursos (por exemplo, baloneamento) que impeçam o software de utilizar a memória alocada no sistema.
 
-Além disso, há um limite para o número de nós que uma única instância do Unified Manager pode monitorar antes de você instalar uma segunda instância do Unified Manager. Para limites de nós, recomendações de CPU e memória, consulte https://www.netapp.com/pdf.html?item=/media/13504-tr4621pdf.pdf["Guia de Melhores Práticas do Unified Manager"^].
+Além disso, existe um limite para o número de nós que uma única instância do Unified Manager pode monitorar antes de você instalar uma segunda instância do Unified Manager. Para limites de nós, recomendações de CPU e memória, consulte  https://www.netapp.com/pdf.html?item=/media/13504-tr4621.pdf["Guia de Melhores Práticas do Unified Manager"^].
 
 A troca de páginas de memória afeta negativamente o desempenho do sistema e do aplicativo de gerenciamento. A concorrência por recursos de CPU indisponíveis devido à utilização geral do host pode degradar o desempenho.
 
 
 
+[[requirement-for-dedicated-use]]
 == Requisito para uso dedicado
 
 O sistema físico ou virtual no qual você instala o Unified Manager deve ser usado exclusivamente para o Unified Manager e não deve ser compartilhado com outros aplicativos. Outras aplicações podem consumir recursos do sistema e reduzir drasticamente a performance do Unified Manager.
 
 
 
+[[space-requirements-for-backups]]
 == Requisitos de espaço para backups
 
 Se você planeja usar o recurso de backup e restauração do Unified Manager, atribua capacidade adicional para que o diretório ou disco "data" tenha 150 GB de espaço. Um backup pode ser gravado em um destino local ou em um destino remoto. A prática recomendada é identificar um local remoto externo ao sistema host do Unified Manager que tenha no mínimo 150 GB de espaço.
 
 
 
+[[requirements-for-host-connectivity]]
 == Requisitos para conectividade de host
 
 O sistema físico ou o sistema virtual no qual você instala o Unified Manager deve ser configurado de tal forma que você possa obter com êxito `ping` o nome do host a partir do próprio host. No caso da configuração do IPv6, você deve verificar se `ping6` o nome do host é bem-sucedido para garantir que a instalação do Unified Manager seja bem-sucedida.

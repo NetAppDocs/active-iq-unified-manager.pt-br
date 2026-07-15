@@ -15,6 +15,7 @@ Você pode baixar o `.tar` arquivo que contém um certificado raiz, um `README` 
 
 
 
+[[system-requirements]]
 == Requisitos do sistema
 
 * Sistema operacional: VMware ESXi 8.0
@@ -27,10 +28,12 @@ Para obter os requisitos detalhados do sistema, consulte link:../install-vapp/co
 
 
 
+[[install-active-iq-unified-manager]]
 == Instale o Active IQ Unified Manager
 
 
 
+[[download-the-installer]]
 === Baixe o instalador
 
 . Baixe o `.tar` arquivo que contém um certificado raiz, um `README` arquivo e um `OVA` arquivo.
@@ -40,12 +43,14 @@ Para obter os requisitos detalhados do sistema, consulte link:../install-vapp/co
 
 
 
+[[verify-integrity]]
 === Verifique a integridade
 
 Você pode verificar a integridade `OVA` do arquivo seguindo as etapas fornecidas no `README` arquivo.
 
 
 
+[[install-unified-manager]]
 === Instale o Unified Manager
 
 . No vSphere Client, clique em *File > Deploy OVF Template*.

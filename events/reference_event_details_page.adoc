@@ -40,6 +40,7 @@ As seções informações de eventos, Diagnóstico do sistema e ações sugerida
 
 
 
+[[command-buttons]]
 == Botões de comando
 
 Os botões de comando permitem executar as seguintes tarefas:

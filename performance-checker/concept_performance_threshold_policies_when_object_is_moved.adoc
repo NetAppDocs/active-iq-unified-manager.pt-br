@@ -26,6 +26,7 @@ Se você mover um objeto para um cluster diferente, a política de limite defini
 ====
 
 
+[[threshold-policy-functionality-during-ha-takeover-and-giveback]]
 == Funcionalidade de política de limite durante o takeover de HA e a giveback
 
 Quando uma operação de takeover ou giveback ocorre em uma configuração de alta disponibilidade (HA), os objetos movidos de um nó para o outro nó mantêm suas políticas de limite da mesma maneira que nas operações de movimentação manual. Como o Unified Manager verifica se há alterações na configuração do cluster a cada 15 minutos, o impacto do switchover para o novo nó não é identificado até a próxima votação da configuração de cluster.
@@ -37,12 +38,14 @@ Se uma operação de aquisição e giveback ocorrerem dentro do período de cole
 ====
 
 
+[[threshold-policy-functionality-during-aggregate-relocation]]
 == Funcionalidade de política de limite durante a realocação de agregados
 
 Se você mover um agregado de um nó para outro usando o `aggregate relocation start` comando, as políticas de limite único e de combinação serão mantidas em todos os objetos e a parte do nó da política de limite será aplicada ao novo nó.
 
 
 
+[[threshold-policy-functionality-during-metrocluster-switchover]]
 == Funcionalidade de política de limite durante o switchover do MetroCluster
 
 Os objetos que se movem de um cluster para outro cluster em uma configuração do MetroCluster não mantêm suas configurações de política de limite definidas pelo usuário. Se necessário, você pode aplicar políticas de limite nos volumes e LUNs movidos para o cluster de parceiros. Depois que um objeto é movido de volta para o cluster original, a política de limite definida pelo usuário é reaplicada automaticamente.

@@ -15,6 +15,7 @@ Alguns contadores de desempenho comuns, como IOPS e MB/s, podem ter limites defi
 
 
 
+[[available-performance-counters]]
 == Contadores de desempenho disponíveis
 
 |===

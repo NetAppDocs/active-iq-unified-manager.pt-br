@@ -49,6 +49,7 @@ O nome do pacote de suporte é fornecido a você quando você o gera usando o co
 
 
 
+[[examples]]
 == Exemplos
 
 O exemplo a seguir usa SCP para recuperar o pacote de suporte:

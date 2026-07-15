@@ -15,6 +15,7 @@ As APIs listadas aqui permitem visualizar uma lista consolidada de workloads de 
 
 
 
+[[view-storage-workloads]]
 == Visualizar workloads de storage
 
 Use o método a seguir para visualizar todos os workloads de storage em todos os clusters do data center. Para obter informações sobre como filtrar a resposta com base em colunas específicas, consulte a documentação de referência da API disponível na instância do Unified Manager.
@@ -34,6 +35,7 @@ OBTER
 |===
 
 
+[[view-storage-workloads-summary]]
 == Veja o resumo dos workloads de storage
 
 Use o método a seguir para avaliar a capacidade usada, a capacidade disponível, o IOPS usado, o IOPS disponível e o número de workloads de storage gerenciados por cada nível de Serviço de Performance. Os workloads de storage exibidos podem ser para qualquer LUN, compartilhamento de arquivos NFS ou compartilhamento CIFS. A API fornece uma visão geral dos workloads de storage, uma visão geral dos workloads de storage provisionados pelo Unified Manager, uma visão geral do data center, uma visão geral do espaço total, usado e disponível e IOPS no data center, em termos de níveis de serviço de performance atribuídos. As informações recebidas em resposta a essa API são usadas para preencher o painel na IU do Unified Manager.

@@ -17,12 +17,14 @@ Nem todas as janelas contêm todos os elementos nos diagramas a seguir.
 
 
 
+[[object-list-window-layout]]
 == Layout da janela da lista de objetos
 
 image::../media/object_list.png[lista de objetos]
 
 
 
+[[object-details-window-layout]]
 == Layout da janela de detalhes do objeto
 
 image::../media/object_details.gif[detalhes do objeto]

@@ -41,6 +41,7 @@ Não é possível reconhecer ou resolver um evento obsoleto.
 
 
 
+[[example-of-different-states-of-an-event]]
 == Exemplo de estados diferentes de um evento
 
 Os exemplos a seguir ilustram as alterações manuais e automáticas do estado do evento.

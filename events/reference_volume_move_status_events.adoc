@@ -15,6 +15,7 @@ Os eventos de status de movimentação de volume informam sobre o status da movi
 
 
 
+[[impact-area-capacity]]
 == Área de impactos: Capacidade
 
 |===

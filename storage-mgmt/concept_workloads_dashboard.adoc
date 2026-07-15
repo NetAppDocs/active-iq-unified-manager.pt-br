@@ -28,6 +28,7 @@ A página cargas de trabalho tem as duas seções a seguir:
 
 
 
+[[workloads-overview-section]]
 == Seção de visão geral das cargas de trabalho
 
 A seção visão geral de cargas de trabalho fornece informações gerais cumulativas sobre as cargas de trabalho de storage. O status dos workloads de storage é exibido com base nos níveis de Serviço de desempenho atribuídos e não atribuídos.
@@ -54,6 +55,7 @@ A subseção conformidade por níveis de serviço de desempenho exibe o número 
 
 
 
+[[data-center-overview-section]]
 == Seção de visão geral do data center
 
 A seção de visão geral do data center representa graficamente a capacidade disponível e usada e as IOPS de todos os clusters no data center. Usando esses dados, você deve gerenciar a capacidade e o IOPS dos workloads de storage. A seção também exibe as seguintes informações para os workloads de storage em todos os clusters:

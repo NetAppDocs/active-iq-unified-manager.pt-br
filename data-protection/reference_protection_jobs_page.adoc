@@ -15,6 +15,7 @@ A página trabalhos permite visualizar o estado atual e outras informações sob
 
 
 
+[[command-buttons]]
 == Botões de comando
 
 Os botões de comando permitem executar as seguintes tarefas:
@@ -35,6 +36,7 @@ Atualiza a lista de trabalhos e as informações associadas a eles.
 
 
 
+[[jobs-list]]
 == Lista de trabalhos
 
 A lista trabalhos apresenta, em formato tabular, uma lista dos trabalhos em curso. Por predefinição, a lista apresenta apenas os trabalhos gerados na semana passada. Pode utilizar a ordenação e a filtragem de colunas para personalizar os trabalhos apresentados.

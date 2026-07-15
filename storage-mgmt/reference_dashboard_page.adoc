@@ -24,12 +24,14 @@ Alguns dos painéis listados abaixo aparecem no painel com base na sua configura
 ====
 
 
+[[management-actions-panel]]
 == Painel ações de gerenciamento
 
 Há certos problemas que o Unified Manager faz o diagnóstico completo e fornece uma única resolução. Quando disponíveis, essas resoluções são exibidas neste painel com um botão *Fix it* ou *Fix All*. Você pode corrigir esses problemas imediatamente a partir do Unified Manager em vez de usar o ONTAP System Manager ou a CLI do ONTAP. Para visualizar todos os problemas, clique em consulte link:concept_fix_ontap_issues_directly_from_unified_manager.html["Corrija problemas do ONTAP diretamente do Unified Manager"] para obter mais informações.
 
 
 
+[[capacity-panel]]
 == Painel de capacidade
 
 Ao visualizar todos os clusters, esse painel exibe a capacidade física usada (depois de aplicar a economia de eficiência de storage) e a capacidade física disponível (não incluindo a possível economia em eficiência de storage) para cada cluster, o número de dias até que os discos estejam cheios e a taxa de redução de dados (sem cópias Snapshot) com base nas configurações de eficiência de storage da ONTAP configuradas. Ele também lista a capacidade usada para todas as categorias de nuvem configuradas. Clicar no gráfico de barras leva você à página de inventário de agregados para esse cluster. Ao clicar no texto "dias até completo", você exibe uma mensagem que identifica o agregado com o menor número de dias de capacidade restantes; clique no nome do agregado para ver mais detalhes.
@@ -38,6 +40,7 @@ Ao exibir um único cluster, esse painel exibe a capacidade física usada e a ca
 
 
 
+[[performance-capacity-panel]]
 == Painel capacidade de desempenho
 
 Ao visualizar todos os clusters, esse painel exibe o valor da capacidade de desempenho para cada cluster (média sobre as 1 horas anteriores) e o número de dias até que a capacidade de desempenho atinja o limite superior (com base na taxa de crescimento diária). Clicar no gráfico de barras leva você à página de inventário de nós para esse cluster. Observe que a página de inventário de nós exibe a média da capacidade de desempenho nas 72 horas anteriores. Ao clicar no texto "dias até completo", você exibe uma mensagem que identifica o nó com o menor número de dias de capacidade de desempenho restantes; clique no nome do nó para ver mais detalhes.
@@ -46,18 +49,21 @@ Ao exibir um único cluster, esse painel exibe os valores de porcentagem de capa
 
 
 
+[[workload-iops-panel]]
 == Painel IOPS do workload
 
 Ao exibir um único cluster, esse painel exibe o número total de cargas de trabalho atualmente em execução em um determinado intervalo de IOPS e indica o número de cada tipo de disco quando você passa o cursor sobre o gráfico.
 
 
 
+[[workload-performance-panel]]
 == Painel Performance do workload
 
 Esse painel exibe o número total de workloads em conformidade e não conformes atribuídos a cada política de nível de serviço de desempenho (PSL). Ele também exibe o número de cargas de trabalho que não recebem um PSL. Clicar em um gráfico de barras leva você aos workloads em conformidade atribuídos a essa política na página workloads. Clicar no número que segue o gráfico de barras leva você aos workloads em conformidade e não conformes atribuídos a essa política.
 
 
 
+[[security-panel]]
 == Painel de segurança
 
 O painel Segurança apresenta o status de segurança de alto nível para todos os clusters ou um único cluster, dependendo da exibição atual. Este painel apresenta:
@@ -75,6 +81,7 @@ A conformidade baseia-se no https://www.netapp.com/pdf.html?item=/media/10674-tr
 
 
 
+[[data-protection-panel]]
 == Painel de proteção de dados
 
 Esse painel exibe o resumo de proteção de dados de um único ou todos os clusters em um data center. Ele exibe o número total de eventos de proteção de dados, eventos MetroCluster e número de eventos ativos levantados nas últimas 24 horas no ONTAP. Clicar no link de cada um desses eventos leva você à página de detalhes do evento. Você pode clicar no link *Exibir tudo* para exibir todos os eventos de proteção ativa na página de inventário do Gerenciamento de Eventos. O painel exibe:
@@ -96,6 +103,7 @@ Para obter mais informações, link:../data-protection/view-protection-status.ht
 
 
 
+[[usage-overview-panel]]
 == Painel Visão geral de utilização
 
 Ao visualizar todos os clusters, você pode optar por exibir clusters classificados por IOPS mais alto, maior taxa de transferência (MB/s) ou maior capacidade física usada.

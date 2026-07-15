@@ -17,6 +17,7 @@ Ao configurar o Unified Manager para usar um provedor de identidade (IDP) para e
 
 
 
+[[supported-encryption-standards]]
 == Padrões de criptografia suportados
 
 * AES (Advanced Encryption Standard): AES-128 e AES-256
@@ -25,6 +26,7 @@ Ao configurar o Unified Manager para usar um provedor de identidade (IDP) para e
 
 
 
+[[validated-identity-providers]]
 == Provedores de identidade validados
 
 * Shibboleth
@@ -33,6 +35,7 @@ Ao configurar o Unified Manager para usar um provedor de identidade (IDP) para e
 
 
 
+[[adfs-configuration-requirements]]
 == Requisitos de configuração ADFS
 
 * Você deve definir três regras de reivindicação na ordem a seguir, necessárias para que o Unified Manager analise respostas ADFS SAML para essa entrada confiável de parte confiável.
@@ -83,6 +86,7 @@ http://www.torivar.com/2016/03/22/adfs-3-0-disable-revocation-check-windows-2012
 
 
 
+[[other-configuration-requirements]]
 == Outros requisitos de configuração
 
 * O desvio do relógio do Unified Manager é definido para 5 minutos, portanto, a diferença de tempo entre o servidor IDP e o servidor do Unified Manager não pode ser superior a 5 minutos ou a autenticação falhará.

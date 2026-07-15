@@ -15,6 +15,7 @@ Você precisa criar pontos de extremidade de acesso ou interfaces lógicas (LIFs
 
 
 
+[[view-access-endpoints]]
 == Exibir endpoints de acesso
 
 Você pode exibir uma lista dos pontos de extremidade de acesso no ambiente do Unified Manager usando o método a seguir. Para consultar uma lista de pontos de extremidade de acesso de um determinado SVM, LUN ou compartilhamento de arquivos, você precisa inserir o identificador exclusivo para o SVM, LUN ou compartilhamento de arquivos. Você também pode inserir a chave de endpoint de acesso exclusiva para recuperar os detalhes do endpoint de acesso específico.
@@ -36,6 +37,7 @@ OBTER
 |===
 
 
+[[add-access-endpoints]]
 == Adicione pontos de extremidade de acesso
 
 Você pode criar endpoints de acesso personalizados e atribuir propriedades necessárias a ele. Você deve inserir os detalhes do endpoint de acesso que deseja criar como parâmetros de entrada. Você pode usar essa API, o Gerenciador de sistema ou a CLI do ONTAP para criar um ponto de extremidade de acesso em cada nó. Os endereços IPv4 e IPv6 são suportados para a criação de endpoints de acesso.
@@ -60,6 +62,7 @@ POST
 |===
 
 
+[[delete-access-endpoints]]
 == Eliminar pontos de extremidade de acesso
 
 Você pode excluir um endpoint de acesso específico usando o seguinte método. Você precisa fornecer a chave de endpoint de acesso como um parâmetro de entrada para excluir um endpoint de acesso específico.
@@ -79,6 +82,7 @@ ELIMINAR
 |===
 
 
+[[modify-access-endpoints]]
 == Modificar endpoints de acesso
 
 Você pode modificar um endpoint de acesso e atualizar suas propriedades usando o seguinte método. Você precisa fornecer a chave de endpoint de acesso para modificar um endpoint de acesso específico. Você também precisa inserir a propriedade que deseja atualizar, juntamente com seu valor.

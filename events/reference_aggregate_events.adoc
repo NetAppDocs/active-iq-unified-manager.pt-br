@@ -15,6 +15,7 @@ Os eventos agregados fornecem informações sobre o status dos agregados para qu
 
 
 
+[[impact-area-availability]]
 == Área de impactos: Disponibilidade
 
 Um asterisco (*) identifica eventos EMS que foram convertidos para eventos do Unified Manager.
@@ -145,6 +146,7 @@ Erro
 |===
 
 
+[[impact-area-capacity]]
 == Área de impactos: Capacidade
 
 |===
@@ -229,6 +231,7 @@ Aviso
 |===
 
 
+[[impact-area-configuration]]
 == Área de impactos: Configuração
 
 |===
@@ -269,6 +272,7 @@ Informações
 |===
 
 
+[[impact-area-performance]]
 == Área de impactos: Desempenho
 
 |===

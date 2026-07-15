@@ -22,6 +22,7 @@ Se você estiver recebendo eventos desnecessários de qualquer política de limi
 
 
 
+[[cluster-threshold-policies]]
 == Políticas de limite de cluster
 
 As políticas de limite de performance do cluster definido pelo sistema são atribuídas, por padrão, a cada cluster monitorado pelo Unified Manager:
@@ -44,6 +45,7 @@ Ele faz isso comparando o valor de capacidade usado para todos os agregados no c
 
 
 
+[[node-threshold-policies]]
 == Políticas de limite de nó
 
 As políticas de limite de performance de nós definidos pelo sistema são atribuídas, por padrão, a todos os nós dos clusters que estão sendo monitorados pelo Unified Manager:
@@ -79,6 +81,7 @@ A política ""fragmentação de disco de nós"" analisa agregados somente HDD; a
 
 
 
+[[aggregate-threshold-policies]]
 == Políticas de limite de agregado
 
 A política de limite de desempenho agregado definido pelo sistema é atribuída por padrão a cada agregado nos clusters que estão sendo monitorados pelo Unified Manager:
@@ -105,6 +108,7 @@ A política de "discos agregados sobre-utilizados" analisa agregados somente HDD
 ====
 
 
+[[workload-latency-threshold-policies]]
 == Políticas de limite de latência do workload
 
 As políticas de limite de latência de workload definidas pelo sistema são atribuídas a qualquer workload que tenha uma política de nível de Serviço de Performance configurada que tenha um valor definido de "'latência esperada'":
@@ -120,6 +124,7 @@ Isso ocorre procurando cargas de trabalho que excederam o valor de latência esp
 
 
 
+[[qos-threshold-policies]]
 == Políticas de limite de QoS
 
 As políticas de limite de performance de QoS definidas pelo sistema são atribuídas a qualquer workload que tenha uma política de taxa de transferência máxima de QoS ONTAP configurada (IOPS, IOPS/TB ou MB/s). O Unified Manager aciona um evento quando o valor da taxa de transferência de workload é 15% menor do que o valor de QoS configurado:

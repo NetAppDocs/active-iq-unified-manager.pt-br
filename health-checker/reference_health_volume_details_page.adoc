@@ -17,6 +17,7 @@ Tem de ter a função Administrador de aplicações ou Administrador de armazena
 
 
 
+[[command-buttons]]
 == Botões de comando
 
 Os botões de comando permitem executar as seguintes tarefas para o volume selecionado:
@@ -106,6 +107,7 @@ Permite navegar para a visualização Saúde: Todos os volumes.
 
 
 
+[[capacity-tab]]
 == Separador capacidade
 
 A guia capacidade exibe detalhes sobre o volume selecionado, como sua capacidade física, capacidade lógica, configurações de limite, capacidade de cota e informações sobre qualquer operação de movimentação de volume:
@@ -308,6 +310,7 @@ Também apresenta o número de operações de movimentação de volume que são 
 
 
 
+[[configuration-tab]]
 == Separador Configuration (Configuração)
 
 A guia Configuração exibe detalhes sobre o volume selecionado, como política de exportação, tipo RAID, capacidade e recursos relacionados à eficiência de armazenamento do volume:
@@ -422,6 +425,7 @@ Especifica se as cópias Snapshot automáticas estão ativadas ou desativadas.
 
 
 
+[[protection-tab]]
 == Patilha de proteçãoão
 
 A guia proteção exibe detalhes de proteção sobre o volume selecionado, como informações de atraso, tipo de relacionamento e topologia da relação.
@@ -659,6 +663,7 @@ Esse gráfico não está disponível para volumes que estão em relacionamentos 
 
 
 
+[[history-area]]
 == Área de história
 
 A área Histórico exibe gráficos que fornecem informações sobre a capacidade e as reservas de espaço do volume selecionado. Além disso, você pode clicar no botão *Exportar* para criar um relatório em formato CSV para o gráfico que você está visualizando.
@@ -689,6 +694,7 @@ Exibe o limite de aviso de reserva instantânea e instantâneo como gráficos de
 
 
 
+[[events-list]]
 == Lista de eventos
 
 A lista Eventos exibe detalhes sobre eventos novos e reconhecidos:
@@ -709,12 +715,14 @@ Exibe o tempo decorrido desde que o evento foi gerado. Se o tempo decorrido exce
 
 
 
+[[related-annotations-pane]]
 == Painel Anotações relacionadas
 
 O painel Anotações relacionadas permite-lhe visualizar detalhes da anotação associados ao volume selecionado. Os detalhes incluem o nome da anotação e os valores da anotação que são aplicados ao volume. Também pode remover anotações manuais do painel Anotações relacionadas.
 
 
 
+[[related-devices-pane]]
 == Painel dispositivos relacionados
 
 O painel dispositivos relacionados permite exibir e navegar para SVMs, agregados, qtrees, LUNs e cópias Snapshot relacionadas ao volume:
@@ -763,12 +771,14 @@ Exibe o nome e a capacidade do volume pai de um volume FlexClone selecionado. O 
 
 
 
+[[related-groups-pane]]
 == Painel grupos relacionados
 
 O painel grupos relacionados permite exibir a lista de grupos associados ao volume selecionado.
 
 
 
+[[related-alerts-pane]]
 == Painel Alertas relacionados
 
 O painel Alertas relacionados permite visualizar a lista de alertas criados para o volume selecionado. Você também pode adicionar um alerta clicando no link Adicionar alerta ou editar um alerta existente clicando no nome do alerta.

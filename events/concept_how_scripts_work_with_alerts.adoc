@@ -36,6 +36,7 @@ Você pode usar os argumentos em seus scripts e coletar informações de eventos
 
 
 
+[[example-for-obtaining-arguments-from-scripts]]
 == Exemplo para obter argumentos de scripts
 
 [listing]

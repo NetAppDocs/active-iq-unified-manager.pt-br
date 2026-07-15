@@ -15,6 +15,7 @@ A página Resumo exibe gráficos de contador que contêm detalhes sobre os event
 
 
 
+[[charts-and-counter-statistics]]
 == Gráficos e estatísticas de contador
 
 Os gráficos de resumo fornecem uma visão geral rápida e de alto nível para o último período de 72 horas e ajudam você a identificar possíveis problemas que exigem mais investigação.
@@ -135,6 +136,7 @@ O gráfico do contador de utilização exibe a porcentagem de utilização do ob
 
 
 
+[[events]]
 == Eventos
 
 A tabela de histórico de eventos, quando aplicável, lista os eventos mais recentes que ocorreram nesse objeto. Clicar no nome do evento exibe detalhes do evento na página Detalhes do evento.

@@ -21,6 +21,7 @@ Todos os campos nessas páginas podem ser usados em visualizações personalizad
 
 
 
+[[performance-all-clusters-view]]
 == Desempenho: Visualização de todos os clusters
 
 A exibição desempenho: Todos os clusters exibe uma visão geral dos eventos de desempenho, dados e informações de configuração de cada cluster monitorado por uma instância do Unified Manager. Essa página permite monitorar a performance dos clusters e solucionar problemas de performance e eventos de limite.
@@ -44,6 +45,7 @@ NOTE: Se forem instaladas versões diferentes do software ONTAP nos nós do clus
 
 
 
+[[performance-all-volumes-view]]
 == Performance: Visualização de todos os volumes
 
 A exibição desempenho: Todos os volumes exibe uma visão geral dos eventos de performance, dados de contador e informações de configuração de cada volume do FlexVol volume e do FlexGroup que está sendo monitorado por uma instância do Unified Manager. Isso permite que você monitore rapidamente a performance dos volumes e solucione problemas de performance e eventos de limite.
@@ -75,6 +77,7 @@ Consulte os links a seguir para obter mais informações:
 
 
 
+[[performance-all-aggregates-view]]
 == Performance: Visualização de todos os agregados
 
 A visualização desempenho: Todos os agregados exibe uma visão geral dos eventos de performance, dados e informações de configuração de cada agregado monitorado por uma instância do Unified Manager. Essa página permite monitorar a performance de agregados e solucionar problemas de performance e eventos de limite.
@@ -102,6 +105,7 @@ A seguir estão alguns campos importantes na visualização desempenho: Todos os
 
 
 
+[[performance-all-nodes-view]]
 == Performance: Visualização de todos os nós
 
 A visualização desempenho: Todos os nós exibe uma visão geral dos eventos de performance, dados e informações de configuração de cada nó que está sendo monitorado por uma instância do Unified Manager. Isso permite que você monitore rapidamente a performance de seus nós e solucione problemas de performance e eventos de limite.
@@ -120,6 +124,7 @@ Consulte os links a seguir para obter mais informações:
 
 
 
+[[performance-all-storage-vms-view]]
 == Performance: Visualização de todas as VMs de storage
 
 A visualização desempenho: Todas as VMs de storage exibe uma visão geral dos eventos de performance, dados e informações de configuração de cada máquina virtual de storage (SVM) que está sendo monitorada por uma instância do Unified Manager. Isso permite que você monitore rapidamente a performance de seus SVMs e solucione problemas de performance e eventos de limite. O campo latência desta página relata o tempo médio de resposta para todas as solicitações de e/S, expresso em milissegundos por operação.
@@ -135,6 +140,7 @@ Consulte os links a seguir para obter mais informações:
 
 
 
+[[performance-all-luns-view]]
 == Performance: Visualização de todos os LUNs
 
 A visualização desempenho: Todos os LUNs exibe uma visão geral dos eventos de performance, dados e informações de configuração de cada LUN que está sendo monitorado por uma instância do Unified Manager. Isso permite que você monitore rapidamente a performance dos LUNs e solucione problemas de performance e eventos de limite.
@@ -154,6 +160,7 @@ Consulte os links a seguir para obter mais informações:
 
 
 
+[[performance-all-nvme-namespaces-view]]
 == Performance: Visualização de todos os namespaces NVMe
 
 A visualização desempenho: Todos os namespaces NVMe exibe uma visão geral dos eventos de performance, dados e informações de configuração de cada namespace NVMe que está sendo monitorado por uma instância do Unified Manager. Isso permite que você monitore rapidamente a performance e a integridade dos namespaces e solucione problemas e eventos de limite.
@@ -168,6 +175,7 @@ Consulte os links a seguir para obter mais informações:
 
 
 
+[[performance-all-network-interfaces-view]]
 == Desempenho: Visualização de todas as interfaces de rede
 
 A exibição desempenho: Todas as interfaces de rede exibe uma visão geral dos eventos de desempenho, dados e informações de configuração para cada interface de rede (LIF) que está sendo monitorada por essa instância do Unified Manager. Esta página permite que você monitore rapidamente o desempenho de suas interfaces e solucione problemas de desempenho e eventos de limite. A seguir estão alguns campos importantes na exibição desempenho: Todas as interfaces de rede.
@@ -184,6 +192,7 @@ NOTE: As interfaces listadas nesta página incluem Data LIFs, Cluster LIFs, Node
 
 
 
+[[performance-all-ports-view]]
 == Desempenho: Exibição de todas as portas
 
 A exibição desempenho: Todas as portas exibe uma visão geral dos eventos de desempenho, dados e informações de configuração de cada porta que está sendo monitorada por uma instância do Unified Manager. Isso permite que você monitore rapidamente o desempenho de suas portas e solucione problemas de desempenho e eventos de limite. Para uma função de porta, a função de porta de rede é exibida, seja dados ou Cluster. As portas FCP não podem ter uma função e a função é exibida como N/A.
@@ -199,6 +208,7 @@ Consulte os links a seguir para obter mais informações:
 
 
 
+[[performance-qos-policy-groups-view]]
 == Desempenho: Exibição de grupos de diretiva QoS
 
 A visualização grupos de políticas de QoS exibe os grupos de políticas de QoS disponíveis nos clusters que o Unified Manager está monitorando. Isso inclui políticas tradicionais de QoS, políticas de QoS adaptáveis e políticas de QoS atribuídas pelo uso de níveis de serviço de performance.

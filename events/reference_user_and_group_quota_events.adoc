@@ -15,6 +15,7 @@ Os eventos de cota de usuário e grupo fornecem informações sobre a capacidade
 
 
 
+[[impact-area-capacity]]
 == Área de impactos: Capacidade
 
 |===

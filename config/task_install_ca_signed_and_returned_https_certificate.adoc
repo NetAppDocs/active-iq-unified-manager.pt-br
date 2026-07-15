@@ -41,6 +41,7 @@ Para obter informações, link:concept_install_https_certificate_generated_using
 
 
 
+[[example-certificate-chain]]
 == Exemplo de cadeia de certificados
 
 O exemplo a seguir mostra como o arquivo de cadeia de certificados pode aparecer:

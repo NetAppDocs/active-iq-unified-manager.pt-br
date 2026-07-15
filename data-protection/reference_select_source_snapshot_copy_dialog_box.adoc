@@ -15,6 +15,7 @@ Use a caixa de diálogo Selecionar cópia Snapshot de origem para selecionar uma
 
 
 
+[[default]]
 == Padrão
 
 Permite selecionar o comportamento padrão para determinar qual cópia Snapshot é usada para inicializar, atualizar e ressincronizar transferências para relacionamentos SnapVault e SnapMirror.
@@ -87,6 +88,7 @@ Transfere todas as cópias Snapshot do volume secundário para o volume terciár
 |===
 
 
+[[existing-snapshot-copy]]
 == Cópia Snapshot existente
 
 Permite selecionar uma cópia Snapshot existente na lista se a seleção de cópia Snapshot for permitida para essa operação.
@@ -169,6 +171,7 @@ A seleção de cópia Snapshot de origem não é compatível com volumes de prot
 |===
 
 
+[[command-buttons]]
 == Botões de comando
 
 Os botões de comando permitem executar as seguintes tarefas:

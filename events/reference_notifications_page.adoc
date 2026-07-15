@@ -17,6 +17,7 @@ Tem de ter a função Administrador de aplicações ou Administrador de armazena
 
 
 
+[[email]]
 == E-mail
 
 Esta área permite configurar as seguintes definições de e-mail para notificação de alerta:
@@ -29,6 +30,7 @@ Especifica o endereço de e-mail a partir do qual a notificação de alerta é e
 
 
 
+[[smtp-server]]
 == SMTP Server
 
 Esta área permite configurar as seguintes definições do servidor SMTP:
@@ -64,6 +66,7 @@ Marcar esta caixa fornece comunicação segura entre o servidor SMTP e o servido
 
 
 
+[[snmp]]
 == SNMP
 
 Esta área permite configurar as seguintes definições de trap SNMP:

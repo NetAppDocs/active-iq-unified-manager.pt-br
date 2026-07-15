@@ -78,6 +78,7 @@ Número de cargas de trabalho de storage que foram atribuídas à SEP
 |===
 
 
+[[guidelines-for-creating-a-custom-storage-efficiency-policy]]
 == Diretrizes para criar uma política de eficiência de storage personalizada
 
 Se os SEPs existentes não atenderem aos requisitos de política para suas cargas de trabalho de storage, você poderá criar uma SEP personalizada. No entanto, é recomendável que você tente usar os SEPs definidos pelo sistema para suas cargas de trabalho de storage e apenas crie SEPs personalizados, se necessário.

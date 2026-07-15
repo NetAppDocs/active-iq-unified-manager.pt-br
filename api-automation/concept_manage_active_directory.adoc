@@ -15,6 +15,7 @@ Você pode usar as APIs listadas aqui para gerenciar mapeamentos do ative Direct
 
 
 
+[[view-active-directory-mappings]]
 == Exibir mapeamentos do ative Directory
 
 Você pode exibir os detalhes de configuração dos mapeamentos do ative Directory para um SVM usando o método a seguir. Para visualizar os mapeamentos do ative Directory em um SVM, é necessário inserir a chave SVM. Para consultar os detalhes de um mapeamento específico, você deve inserir a chave de mapeamento.
@@ -36,6 +37,7 @@ OBTER
 |===
 
 
+[[add-active-directory-mapping]]
 == Adicionar mapeamento do ative Directory
 
 Você pode criar mapeamentos do ative Directory em um SVM usando o método a seguir. Você deve inserir os detalhes do mapeamento como os parâmetros de entrada.

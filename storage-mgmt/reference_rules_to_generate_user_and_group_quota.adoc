@@ -15,12 +15,14 @@ A página regras para gerar endereço de e-mail de cota de usuário e grupo perm
 
 
 
+[[rules-area]]
 == Área de regras
 
 Você deve definir as regras para um endereço de e-mail de cota. Você também pode adicionar comentários para explicar as regras.
 
 
 
+[[how-you-define-rules]]
 == Como você define regras
 
 Você deve inserir as regras na ordem em que deseja executá-las. Se o critério da primeira regra for atendido, o endereço de e-mail será gerado com base nessa regra. Se o critério não for cumprido, então o critério para a próxima regra é considerado, e assim por diante. Cada linha lista uma regra separada. A regra padrão é a última regra da lista. Você pode alterar a ordem de prioridade das regras. No entanto, não é possível alterar a ordem da regra padrão.
@@ -39,12 +41,14 @@ Se mais de um usuário tiver a mesma cota, os nomes dos usuários serão exibido
 
 
 
+[[how-you-add-comments]]
 == Como você adiciona comentários
 
 Você pode adicionar comentários para explicar as regras. Você deve usar no início de cada comentário e cada linha lista um comentário separado.
 
 
 
+[[rules-syntax]]
 == Sintaxe de regras
 
 A sintaxe da regra deve ser uma das seguintes:
@@ -61,6 +65,7 @@ se é uma palavra-chave e é minúscula. O operador pode conter ou O ID de e-mai
 
 
 
+[[command-buttons]]
 == Botões de comando
 
 Os botões de comando permitem salvar, validar ou cancelar as regras criadas:

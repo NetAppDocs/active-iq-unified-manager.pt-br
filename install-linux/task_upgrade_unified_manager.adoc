@@ -90,6 +90,7 @@ Insira o endereço IP ou URL especificado em uma nova janela de um navegador da 
 
 
 
+[[additional-steps-to-perform-for-missing-packages]]
 == Etapas adicionais a serem executadas para pacotes ausentes
 
 Se houver algum pacote ausente detetado em seu site durante a atualização, ou se seu sistema não estiver conetado à Internet, ou se você não estiver usando os repositórios Red Hat Enterprise Linux, execute as etapas a seguir para determinar se você está faltando quaisquer pacotes necessários e baixe esses pacotes.

@@ -15,6 +15,7 @@ Os eventos de compartimentos fornecem informações sobre o status dos compartim
 
 
 
+[[impact-area-availability]]
 == Área de impactos: Disponibilidade
 
 |===
@@ -72,6 +73,7 @@ Aviso
 |===
 
 
+[[impact-area-configuration]]
 == Área de impactos: Configuração
 
 |===

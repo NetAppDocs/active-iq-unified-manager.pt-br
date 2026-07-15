@@ -15,6 +15,7 @@ Esta tabela fornece uma lista abrangente das visualizações e páginas de inven
 
 
 
+[[active-iq-unified-manager-reports]]
 == Relatórios do Active IQ Unified Manager
 
 [cols="2*"]

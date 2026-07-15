@@ -15,6 +15,7 @@ Você pode editar propriedades de alerta, como o recurso com o qual o alerta est
 
 
 
+[[name]]
 == Nome
 
 Esta área permite editar o nome e a descrição do alerta.
@@ -35,6 +36,7 @@ Permite ativar ou desativar o alerta.
 
 
 
+[[resources]]
 == Recursos
 
 Essa área permite selecionar um recurso individual ou agrupar os recursos com base em uma regra dinâmica para a qual você deseja acionar o alerta. Você pode pesquisar recursos selecionando um tipo de recurso na lista suspensa ou especificar o nome exato do recurso para exibir um recurso específico.
@@ -57,6 +59,7 @@ A guia Excluir é exibida somente quando você seleciona todos os recursos de um
 
 
 
+[[events]]
 == Eventos
 
 Esta área permite-lhe selecionar os eventos para os quais pretende acionar os alertas. Você pode acionar um alerta para eventos com base em uma gravidade específica ou em um conjunto de eventos.
@@ -73,6 +76,7 @@ Permite selecionar eventos cujo nome contém os carateres especificados.
 
 
 
+[[actions]]
 == Ações
 
 Esta área permite especificar o método de notificação e a frequência da notificação.
@@ -106,6 +110,7 @@ Permite associar um script ao alerta. Este script é executado quando um alerta 
 
 
 
+[[command-buttons]]
 == Botões de comando
 
 * *Guardar*

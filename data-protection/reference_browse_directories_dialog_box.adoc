@@ -39,6 +39,7 @@ Apresenta os nomes das pastas disponíveis para o volume selecionado. Clicar em 
 
 
 
+[[command-buttons]]
 == Botões de comando
 
 Os botões de comando permitem executar as seguintes tarefas:

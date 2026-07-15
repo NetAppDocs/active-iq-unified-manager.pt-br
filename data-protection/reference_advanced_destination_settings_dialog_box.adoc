@@ -15,6 +15,7 @@ Você pode usar a caixa de diálogo Configurações avançadas de destino para a
 
 
 
+[[space-guarantee]]
 == Garantia de espaço
 
 Garante que espaço suficiente seja alocado no volume de destino para que as transferências de dados sejam sempre bem-sucedidas. A configuração de garantia de espaço pode ser uma das seguintes:

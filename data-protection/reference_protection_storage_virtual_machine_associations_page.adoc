@@ -26,6 +26,7 @@ Você pode associar SVMs de três maneiras:
 
 
 
+[[create-storage-vm-associations]]
 == Crie associações de VM de armazenamento
 
 O assistente criar associações de máquinas virtuais de armazenamento permite que aplicativos de proteção de parceiros associem uma VM de armazenamento de origem a uma VM de armazenamento de destino para uso com relacionamentos SnapMirror e SnapVault. Os aplicativos de parceiros usam essas associações no momento do provisionamento inicial de volumes de destino para determinar quais recursos selecionar.dd
@@ -74,6 +75,7 @@ Escolha essa opção quando quiser criar uma associação entre uma VM de armaze
 
 
 
+[[delete-storage-vm-associations]]
 == Excluir associações de VM de armazenamento
 
 Você pode excluir associações de VM de armazenamento para aplicativos parceiros para remover a relação de provisionamento secundário entre VM de armazenamento de origem e destino; por exemplo, você pode fazer isso quando a VM de armazenamento de destino estiver cheia e desejar criar novas associações de proteção de VM de armazenamento.

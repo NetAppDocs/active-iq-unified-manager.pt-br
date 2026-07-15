@@ -17,6 +17,7 @@ Antes de provisionar os volumes de compartilhamento de arquivos, verifique se o 
 
 
 
+[[view-file-shares]]
 == Ver compartilhamentos de arquivo
 
 Você pode usar o método a seguir para exibir os volumes de compartilhamento de arquivos disponíveis no ambiente do Unified Manager. Quando você adicionou um cluster do ONTAP como fonte de dados no Active IQ Unified Manager, as cargas de trabalho de storage desses clusters são adicionadas automaticamente à instância do Unified Manager. Essa API recupera os compartilhamentos de arquivo automaticamente e manualmente adicionados à instância do Unified Manager. Você pode exibir os detalhes de um compartilhamento de arquivos específico executando essa API com a chave de compartilhamento de arquivos.
@@ -38,6 +39,7 @@ OBTER
 |===
 
 
+[[add-file-shares]]
 == Adicionar compartilhamentos de arquivo
 
 Use o método a seguir para adicionar compartilhamentos de arquivos CIFS e NFS no SVM. Você deve inserir os detalhes do compartilhamento de arquivo que deseja criar, como os parâmetros de entrada. Você não pode usar essa API para adicionar volumes do FlexGroup.
@@ -64,6 +66,7 @@ Dependendo se os parâmetros da lista de controle de acesso (ACL) ou os parâmet
 
 
 
+[[delete-file-shares]]
 == Excluir compartilhamentos de arquivo
 
 Você pode usar o seguinte método para excluir um compartilhamento de arquivo específico. Você precisa inserir a chave de compartilhamento de arquivo como um parâmetro de entrada para excluir um compartilhamento de arquivo específico.
@@ -83,6 +86,7 @@ ELIMINAR
 |===
 
 
+[[modify-file-shares]]
 == Modificar compartilhamentos de arquivo
 
 Você pode usar o seguinte método para modificar um compartilhamento de arquivo e atualizar suas propriedades.

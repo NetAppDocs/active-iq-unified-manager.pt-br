@@ -17,6 +17,7 @@ O Unified Manager monitora a latência de e/S (tempo de resposta) e IOPS (opera�
 
 
 
+[[event-analysis]]
 == Análise de eventos
 
 O Unified Manager realiza as seguintes análises, usando as estatísticas de desempenho dos 15 dias anteriores, para identificar os workloads da vítima, os workloads bully e o componente do cluster envolvido em um evento:
@@ -49,6 +50,7 @@ Um único volume pode ser envolvido em mais de um evento ao mesmo tempo.
 ====
 
 
+[[event-state]]
 == Estado do evento
 
 Os eventos podem estar em um dos seguintes estados:
@@ -65,12 +67,14 @@ Indica que o evento já não está ativo. O problema que causa o evento foi corr
 
 
 
+[[event-notification]]
 == Notificação de evento
 
 Os eventos são exibidos na página Painel e em muitas outras páginas na interface do usuário, e os alertas desses eventos são enviados para endereços de e-mail especificados. Você pode exibir informações de análise detalhadas sobre um evento e obter sugestões para resolvê-lo na página de detalhes do evento e na página análise de carga de trabalho.
 
 
 
+[[event-interaction]]
 == Interação de eventos
 
 Na página Detalhes do evento e na página análise de carga de trabalho, você pode interagir com eventos das seguintes maneiras:

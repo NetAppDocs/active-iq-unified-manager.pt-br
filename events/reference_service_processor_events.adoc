@@ -15,6 +15,7 @@ Os eventos do processador de serviço fornecem informações sobre o status do p
 
 
 
+[[impact-area-availability]]
 == Área de impactos: Disponibilidade
 
 |===

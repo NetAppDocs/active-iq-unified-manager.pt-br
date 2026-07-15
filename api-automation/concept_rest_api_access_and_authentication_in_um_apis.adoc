@@ -106,6 +106,7 @@ Para emitir solicitações HTTP de um navegador da Web, você precisa usar plugi
 
 
 
+[[authentication]]
 == Autenticação
 
 O Unified Manager suporta o esquema básico de autenticação HTTP para APIs. Para um fluxo seguro de informações (solicitação e resposta), as APIS REST são acessíveis somente por HTTPS. O servidor de API fornece um certificado SSL autoassinado a todos os clientes para verificação do servidor. Este certificado pode ser substituído por um certificado personalizado (ou certificado CA).

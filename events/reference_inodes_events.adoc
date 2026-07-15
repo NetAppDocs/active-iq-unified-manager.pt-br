@@ -15,6 +15,7 @@ Os eventos do inode fornecem informações quando o inode está cheio ou quase c
 
 
 
+[[impact-area-capacity]]
 == Área de impactos: Capacidade
 
 |===

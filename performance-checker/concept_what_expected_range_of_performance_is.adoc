@@ -21,6 +21,7 @@ Ao longo de vários dias, o aumento e a diminuição da atividade de workload de
 
 
 
+[[how-the-latency-forecast-is-formed]]
 == Como a previsão de latência é formada
 
 O Unified Manager deve coletar no mínimo 3 dias de atividade do workload antes que ele possa iniciar a análise e antes que a previsão de latência do tempo de resposta de e/S possa ser exibida na GUI. A coleta de dados mínima necessária não é responsável por todas as alterações que ocorrem na atividade da carga de trabalho. Após coletar os primeiros 3 dias de atividade, o Unified Manager ajusta a previsão de latência a cada 24 horas às 12:00 da manhã para refletir as alterações na atividade do workload e estabelecer um limite de performance dinâmico mais preciso.

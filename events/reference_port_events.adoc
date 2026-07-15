@@ -15,6 +15,7 @@ Os eventos de porta fornecem status sobre as portas do cluster para que você po
 
 
 
+[[impact-area-availability]]
 == Área de impactos: Disponibilidade
 
 |===
@@ -33,6 +34,7 @@ Crítico
 |===
 
 
+[[impact-area-performance]]
 == Área de impactos: Desempenho
 
 |===

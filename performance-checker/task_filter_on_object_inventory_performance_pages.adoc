@@ -57,6 +57,7 @@ Você pode adicionar filtros usando o painel filtragem.
 
 
 
+[[filtering-example]]
 == Exemplo de filtragem
 
 A ilustração mostra o painel filtragem com três filtros. O botão * Adicionar filtro * é exibido quando você tem menos do que o máximo de quatro filtros.

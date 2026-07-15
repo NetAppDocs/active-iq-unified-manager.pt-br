@@ -23,6 +23,7 @@ Você também pode Planejar os requisitos de armazenamento dos objetos de cluste
 
 
 
+[[physical-and-logical-capacity]]
 == Capacidade física e lógica
 
 O Unified Manager faz uso dos conceitos de espaço físico e lógico usados para objetos de storage do ONTAP.
@@ -33,6 +34,7 @@ O Unified Manager faz uso dos conceitos de espaço físico e lógico usados para
 
 
 
+[[capacity-measurement-units]]
 == Unidades de medição da capacidade
 
 O Unified Manager calcula a capacidade de armazenamento com base em unidades binárias de 1024 (2,10) bytes. No ONTAP 9.10,0 e anterior, essas unidades foram exibidas como KB, MB, GB, TB e PB. A partir do ONTAP 9.10,1, eles são exibidos no Gerenciador Unificado como KiB, MIB, GiB, TIB e PIB.

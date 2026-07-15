@@ -15,6 +15,7 @@ Os componentes da página Planejamento de failover de desempenho/nó são exibid
 
 
 
+[[performance-statistics-grid]]
 == Grade de estatísticas de desempenho
 
 A página Planejamento de failover de desempenho/nó exibe uma grade contendo estatísticas de latência, IOPS, utilização e capacidade de desempenho usada.
@@ -49,6 +50,7 @@ Você pode clicar no nome do nó Parceiro se quiser que ele se torne o objeto ra
 
 
 
+[[comparing-pane]]
 == Painel de comparação
 
 A lista a seguir descreve os componentes exibidos no painel de comparação por padrão:

@@ -15,6 +15,7 @@ Você pode usar a caixa de diálogo agregados para selecionar os agregados que d
 
 
 
+[[command-buttons]]
 == Botões de comando
 
 Os botões de comando permitem executar as seguintes tarefas:
@@ -31,6 +32,7 @@ Descarta as alterações e fecha a caixa de diálogo agregados.
 
 
 
+[[aggregates-list]]
 == Lista de agregados
 
 A lista de agregados exibe (em formato tabular) os nomes e propriedades dos agregados monitorados.

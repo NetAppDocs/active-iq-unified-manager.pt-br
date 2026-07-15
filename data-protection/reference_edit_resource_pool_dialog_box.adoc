@@ -15,6 +15,7 @@ Você pode usar a caixa de diálogo Editar pool de recursos para alterar o nome 
 
 
 
+[[text-boxes]]
 == Caixas de texto
 
 As caixas de texto permitem alterar as seguintes informações para o pool de recursos selecionado:
@@ -31,6 +32,7 @@ Permite-lhe introduzir uma nova descrição.
 
 
 
+[[command-buttons]]
 == Botões de comando
 
 Os botões de comando permitem executar as seguintes tarefas:

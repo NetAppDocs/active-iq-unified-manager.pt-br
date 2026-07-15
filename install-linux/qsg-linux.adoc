@@ -15,6 +15,7 @@ Você pode baixar o pacote de instalação e instalar o Unified Manager em uma p
 
 
 
+[[system-requirements]]
 == Requisitos do sistema
 
 * Sistema operacional: Red Hat Enterprise Linux versões 8.x e 9,4, baseado na arquitetura x86_64, instalado usando o ambiente base "servidor com GUI" da opção *seleção de Software* do instalador do SO
@@ -26,10 +27,12 @@ Para obter informações detalhadas sobre os requisitos do sistema e sobre a ins
 
 
 
+[[install-active-iq-unified-manager]]
 == Instale o Active IQ Unified Manager
 
 
 
+[[download-the-installer]]
 === Baixe o instalador
 
 . Faça o download do `ActiveIQUnifiedManager-<version>.zip` pacote de instalação juntamente com o certificado de assinatura de código (`.pem`) e a assinatura digital (`.sig`) .
@@ -41,6 +44,7 @@ Para obter informações detalhadas sobre os requisitos do sistema e sobre a ins
 
 
 
+[[verify-integrity]]
 === Verifique a integridade
 
 Execute os seguintes comandos para verificar a integridade do pacote de instalação:
@@ -51,6 +55,7 @@ Execute os seguintes comandos para verificar a integridade do pacote de instala�
 
 
 
+[[verify-repository-configuration]]
 === Verifique a configuração do repositório
 
 Os procedimentos para configurar um repositório Red Hat Enterprise Linux são específicos do site. Você pode usar o `pre_install_check.sh` script incluído no pacote de instalação para verificar a configuração do seu sistema operacional. Se o seu sistema estiver conetado à Internet, você receberá automaticamente instruções para configurar o repositório Red Hat Enterprise Linux.
@@ -59,6 +64,7 @@ Os procedimentos para configurar um repositório Red Hat Enterprise Linux são e
 
 
 
+[[install-unified-manager]]
 === Instale o Unified Manager
 
 O Unified Manager usa `yum` o utilitário para instalar o software e qualquer software dependente. Como existem várias imagens do Red Hat Enterprise Linux, os pacotes instalados dependem do software presente nas imagens. O `yum` utilitário determina os pacotes de software dependentes para instalação. Se precisar de mais informações sobre os pacotes de software dependentes, consulte o link:../install-linux/reference_red_hat_software_and_installation_requirements.html["Requisitos de software e instalação do Linux"].

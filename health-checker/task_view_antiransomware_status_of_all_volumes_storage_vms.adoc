@@ -20,6 +20,7 @@ Para obter mais informações sobre os diferentes status anti-ransomware, link:h
 
 
 
+[[view-security-details-of-all-volumes-with-anti-ransomware-detection]]
 == Veja os detalhes de segurança de todos os volumes com a detecção antirransomware
 
 .Passos
@@ -33,6 +34,7 @@ NOTE: O antirransomware não é compatível com volumes off-line, volumes restri
 
 
 
+[[view-security-details-of-all-storage-vms-with-anti-ransomware-detection]]
 == Veja os detalhes de segurança de todas as VMs de storage com a detecção antirransomware
 
 .Passos

@@ -15,6 +15,7 @@ A caixa de diálogo Inicializar/Atualizar permite que você execute uma transfer
 
 
 
+[[transfer-options-tab]]
 == Guia Opções de transferência
 
 A guia Opções de transferência permite alterar a prioridade de inicialização de uma transferência e alterar a largura de banda usada durante as transferências.
@@ -46,6 +47,7 @@ Quando selecionada, a largura de banda da rede é limitada ao valor especificado
 
 
 
+[[source-snapshot-copies-tab]]
 == Guia cópias Snapshot de origem
 
 A guia cópias Snapshot de origem exibe as seguintes informações sobre a cópia Snapshot de origem usada para a transferência da linha de base:
@@ -70,6 +72,7 @@ Exibe a cópia Snapshot usada para a transferência de dados. Clicar no valor c�
 
 
 
+[[command-buttons]]
 == Botões de comando
 
 Os botões de comando permitem executar as seguintes tarefas:

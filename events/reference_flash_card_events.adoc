@@ -15,6 +15,7 @@ Os eventos do cartão flash fornecem informações sobre o status das placas fla
 
 
 
+[[impact-area-availability]]
 == Área de impactos: Disponibilidade
 
 |===

@@ -22,6 +22,7 @@ Uma regra de anotação é um critério que você define para anotar objetos de 
 
 
 
+[[conditions]]
 == Condições
 
 Você pode criar vários grupos de condições e cada grupo de condições pode ter uma ou mais condições. Pode aplicar todos os grupos de condições definidos numa regra de anotação de uma anotação para anotar objetos de armazenamento.
@@ -72,6 +73,7 @@ Quando você seleciona a anotação como um operando para qualquer objeto de arm
 
 
 
+[[example-of-an-annotation-rule-with-conditions]]
 == Exemplo de uma regra de anotação com condições
 
 Considere uma regra de anotação com um grupo de condições para um volume com as duas seguintes condições:
@@ -84,12 +86,14 @@ Esta regra de anotação anota todos os volumes que incluem "'vol'" em seus nome
 
 
 
+[[condition-groups]]
 == Grupos de condições
 
 Os grupos de condição são executados usando OU lógico e, em seguida, aplicados a objetos de armazenamento. Os objetos de armazenamento devem atender aos requisitos de um dos grupos de condições a serem anotados. Os objetos de armazenamento que atendem às condições de todos os grupos de condições são anotados. Você pode usar grupos de condições para aumentar o escopo dos objetos de armazenamento a serem anotados.
 
 
 
+[[example-of-an-annotation-rule-with-condition-groups]]
 == Exemplo de uma regra de anotação com grupos de condições
 
 Considere uma regra de anotação com dois grupos de condições para um volume; cada grupo contém as seguintes duas condições:

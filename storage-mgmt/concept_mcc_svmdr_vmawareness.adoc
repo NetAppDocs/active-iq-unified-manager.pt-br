@@ -19,6 +19,7 @@ Você também pode visualizar os volumes nas ou LUNs em uma configuração de re
 
 
 
+[[view-datastores-in-metrocluster-configuration]]
 == Exibir armazenamentos de dados na configuração do MetroCluster
 
 Observe os seguintes pré-requisitos antes de visualizar datastores em uma configuração do MetroCluster:
@@ -40,6 +41,7 @@ Siga estas etapas para visualizar armazenamentos de dados:
 
 
 
+[[view-datastores-in-storage-vm-disaster-recovery-configuration]]
 == Exibir datastores na configuração de recuperação de desastres da VM de armazenamento
 
 Observe os seguintes pré-requisitos antes de visualizar armazenamentos de dados em uma configuração de recuperação de desastres da VM de storage:
@@ -75,6 +77,7 @@ Siga estas etapas para visualizar armazenamentos de dados:
 
 
 
+[[unsupported-scenarios]]
 == Cenários não suportados
 
 * Para uma configuração do MetroCluster, observe as seguintes limitações:

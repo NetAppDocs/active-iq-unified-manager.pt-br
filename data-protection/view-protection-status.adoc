@@ -31,6 +31,7 @@ Clicar nos eventos desta página leva-o à página de detalhes do evento. Você 
 
 
 
+[[view-protection-status-of-volumes-protected-by-snapshot-copies]]
 == Ver o status de proteção de volumes protegidos por cópias Snapshot
 
 *Visão geral das cópias Snapshot*: Uma visão geral dos volumes protegidos por cópias Snapshot, como:
@@ -49,6 +50,7 @@ Clicar nos eventos desta página leva-o à página de detalhes do evento. Você 
 
 
 
+[[points-to-note-for-snapshot-copies]]
 === Pontos a observar para cópias Snapshot
 
 * Para contar os volumes protegidos por cópias Snapshot, os volumes de origem e destino são considerados.
@@ -60,6 +62,7 @@ Clicar nos eventos desta página leva-o à página de detalhes do evento. Você 
 
 
 
+[[view-protection-status-for-snapmirror-relationships]]
 == Exibir status de proteção para relacionamentos do SnapMirror
 
 *Visão geral do SnapMirror*: Uma visão geral dos volumes protegidos pelas políticas do SnapMirror, como:
@@ -80,6 +83,7 @@ Clicar nos eventos desta página leva-o à página de detalhes do evento. Você 
 
 
 
+[[points-to-note-for-snapmirror-relationships]]
 === Pontos a serem observados para relacionamentos SnapMirror
 
 * Para contagem de relações SnapMirror, os volumes de origem, que são ativados para leitura e escrita, são contados. Os volumes de destino e raiz não são considerados.
@@ -92,6 +96,7 @@ Clicar nos eventos desta página leva-o à página de detalhes do evento. Você 
 
 
 
+[[view-clusters-protected-by-metrocluster-configuration]]
 == Visualize clusters protegidos pela configuração do MetroCluster
 
 O painel *proteção MetroCluster* na página *proteção de dados* exibe o número de clusters protegidos ou não pela configuração MetroCluster em FC ou IP no seu site. Clicar nos gráficos de barras neste painel leva você à página clusters onde os detalhes do cluster são filtrados com base nos clusters protegidos ou desprotegidos. Para obter informações sobre como monitorar a configuração do MetroCluster, link:../storage-mgmt/task_monitor_metrocluster_configurations.html["Monitoramento de configurações do MetroCluster"]consulte .

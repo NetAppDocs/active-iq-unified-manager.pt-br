@@ -15,6 +15,7 @@ Os eventos do cluster fornecem informações sobre o status dos clusters, o que 
 
 
 
+[[impact-area-availability]]
 == Área de impactos: Disponibilidade
 
 Um asterisco (*) identifica eventos EMS que foram convertidos para eventos do Unified Manager.
@@ -156,6 +157,7 @@ Informações
 |===
 
 
+[[impact-area-capacity]]
 == Área de impactos: Capacidade
 
 |===
@@ -207,6 +209,7 @@ Erro
 |===
 
 
+[[impact-area-configuration]]
 == Área de impactos: Configuração
 
 |===
@@ -395,6 +398,7 @@ Informativo
 |===
 
 
+[[impact-area-performance]]
 == Área de impactos: Desempenho
 
 |===
@@ -468,6 +472,7 @@ Aviso
 |===
 
 
+[[impact-area-security]]
 == Área de impactos: Segurança
 
 |===

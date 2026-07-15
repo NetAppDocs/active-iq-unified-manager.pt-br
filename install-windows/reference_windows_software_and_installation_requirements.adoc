@@ -16,6 +16,7 @@ Para a instalação bem-sucedida do Unified Manager no Windows, você deve garan
 
 
 
+[[operating-system-software]]
 == Software do sistema operativo
 
 Você pode instalar o Unified Manager nas seguintes edições do Windows:
@@ -42,6 +43,7 @@ O servidor deve ser dedicado à execução do Unified Manager. Nenhum outro apli
 
 
 
+[[third-party-software]]
 == Software de terceiros
 
 Os seguintes pacotes de terceiros são empacotados com o Unified Manager. Se esses pacotes de terceiros não estiverem instalados no sistema, o Unified Manager os instalará como parte da instalação.
@@ -74,6 +76,7 @@ Você deve encerrar uma instância em execução do Unified Manager antes de atu
 ====
 
 
+[[installation-requirements]]
 == Requisitos de instalação
 
 * O Microsoft .NET 4,5.2, ou superior, deve ser instalado.
