@@ -37,11 +37,11 @@ NOTE: Os scanners de vulnerabilidade (como Qualys) podem levar ao alto uso da CP
 [[third-party-software]]
 == Software de terceiros
 
-O Unified Manager é implantado em um servidor web WildFly. O WildFly 26.1.3 é empacotado e configurado com o Unified Manager.
+O Unified Manager é implantado em um servidor web WildFly. O WildFly 27.0.1.Final é fornecido e configurado juntamente com o Unified Manager.
 
 Os seguintes pacotes de terceiros são necessários, mas não estão incluídos no Unified Manager. Esses pacotes são instalados automaticamente pelo `yum` instalador durante a instalação, desde que você tenha configurado os repositórios como mencionado nas seções a seguir.
 
-* MySQL Community Edition versão 8.4.7 (do repositório MySQL)
+* MySQL Community Edition versão 8.4.10 (do repositório MySQL)
 * OpenJDK versão 17.0.14+6 (do repositório Red Hat Extra Enterprise Linux Server)
 * Python 3.13.3 (do repositório Red Hat Extra Enterprise Linux Server)
 * 7zip versão 7z2301-linux-x64. Para obter mais informações, consulte link:task_configure_7zip_package.html["Configure o pacote de software 7-Zip."].

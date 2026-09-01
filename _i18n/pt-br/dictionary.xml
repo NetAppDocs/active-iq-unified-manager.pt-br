@@ -7248,7 +7248,6 @@
   <block id="2466264a3b3e9cd0747d6419241007ef" category="paragraph">O servidor deve ser dedicado à execução do Unified Manager. Nenhum outro aplicativo deve ser instalado no servidor. É possível que o scanner de vulnerabilidade como o Qualys esteja instalado em seu sistema Linux por causa dos regulamentos da empresa. Você deve desativar o scanner de vulnerabilidades antes de instalar o Unified Manager para evitar que a instalação falhe.</block>
   <block id="7c6fa12173c375a840189f157e3cf098" category="admonition">Os scanners de vulnerabilidade (como Qualys) podem levar ao alto uso da CPU ao digitalizar a máquina virtual (VM) internamente (onde o Unified Manager e o verificador de vulnerabilidades estão instalados na mesma VM) ou externamente (onde o Unified Manager e o verificador de vulnerabilidades estão instalados em dois servidores diferentes e o verificador de vulnerabilidade verifica a VM onde o Unified Manager está instalado). Esse problema geralmente faz com que a VM não responda e afete os serviços do Unified Manager. Portanto, o NetApp recomenda desativar o scanner de vulnerabilidades na VM onde o Gerenciador Unificado está instalado. Se a desativação do scanner não for uma opção, digitalize a VM durante o horário comercial e reinicie os serviços após a conclusão da digitalização.</block>
   <block id="f7e4f466dd93f7fcac14a9d6f34be286" category="section-title">Software de terceiros</block>
-  <block id="b39eb8b293aab19c862c53f0897b4ab2" category="paragraph">O Unified Manager é implantado em um servidor web WildFly. O WildFly 26.1.3 é empacotado e configurado com o Unified Manager.</block>
   <block id="7357f7d7e3e2aa8fbcd5222429988b84" category="paragraph">Os seguintes pacotes de terceiros são necessários, mas não estão incluídos no Unified Manager. Esses pacotes são instalados automaticamente pelo<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block> instalador durante a instalação, desde que você tenha configurado os repositórios como mencionado nas seções a seguir.</block>
   <block id="78381976b37490cec80cd2fe2b00d51a" category="paragraph">Você deve encerrar uma instância em execução do Unified Manager antes de atualizar qualquer software de terceiros. Depois que a instalação de software de terceiros estiver concluída, você poderá reiniciar o Unified Manager.</block>
   <block id="c30f25a04cc49fee8fee2b51222074ae" category="section-title">Requisitos de autorização do utilizador</block>
@@ -11400,7 +11399,6 @@
   <block id="33e8b626195d8e65e8a07472d5254939" category="list-text">Todos os clusters são compatíveis, com exceção dos sistemas ASA R2.</block>
   <block id="d2dc935b8c37a6fe50f8b17f0fb9d07d" category="list-text">Transfira o ficheiro de instalação do Unified Manager Windows ou o ficheiro zip para um diretório de destino no sistema Windows. Extraia o arquivo zip, se necessário, e navegue até o diretório onde o arquivo de instalação está localizado. Clique com o botão direito do rato e execute o ficheiro executável (.exe) do instalador do Unified Manager como administrador.</block>
   <block id="9d8f72b258db1905ee26b8543db626af" category="paragraph">As etapas necessárias para adicionar capacidade ao diretório de dados são diferentes dependendo se o Unified Manager está sendo executado em um servidor VMware ESXi, em um servidor Red Hat Linux ou em um servidor Microsoft Windows.</block>
-  <block id="54ff3f05b478604e2dbd1f521328559d" category="list-text">Microsoft Visual C&amp; n.o 43;&amp; n.o 43; Redistributable Packages for Visual Studio 2015 versão 14.26.28720.3</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">Antes de começar</block>
   <block id="403384bc7be1a7f4e22bd05d0f8b3ec8" category="paragraph">* O que. Antes de começar</block>
   <block id="1b377a56a4ae0b95c40511aa64336c41" category="list-text">A versão instalada do Workflow Automation deve ser 5,1.1P6 ou superior.</block>
@@ -12024,7 +12022,6 @@
   <block id="21965413ff0ccad2726549ebe4781cf5" category="paragraph">Você pode atualizar o Active IQ Unified Manager para a versão 9.18 somente a partir da versão 9.14 ou 9.16.</block>
   <block id="7e473733141d48a79308def35ea0692d" category="paragraph">Você pode atualizar o appliance virtual Active IQ Unified Manager das versões 9.14 ou 9.16 para 9.18.</block>
   <block id="8cd86d5cc1d7f96f096a4fd291bb6b49" category="list-text">Python 3.13.3</block>
-  <block id="bf5c4735a7e8e52a987541b7e8480ae8" category="list-text">7-zip versão 24.09 ou posterior</block>
   <block id="9326ef08a2cce5f24e4147815b8da2ec" category="list-text">Selecione *Desinstalar este programa*.  Desinstale qualquer versão do Python, exceto a 3.13.3.  Certifique-se de manter a versão 3.13.3 do Python.</block>
   <block id="b81c3af237acc4744b6e92fee57771e0" category="inline-link-macro">página de downloads do Oracle Java SE 17 Archive</block>
   <block id="885b083e37169e9e86b9244a1e9616e4" category="paragraph">Por exemplo, baixe o<block ref="e8f39d9e2a4ab6624a21e71fb252a9a9" prefix=" " category="inline-code"></block> arquivo de<block ref="d88dbe6bf412b9681e16c6a0a4b735ac" category="inline-link-macro-rx"></block> .</block>
@@ -12049,7 +12046,6 @@
   <block id="e8c80cc36155ada87dc563a78796b92f" category="image-alt">instalar fluxo no rhel 2026</block>
   <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">O sistema precisa ter acesso a determinados repositórios e pacotes para que o programa de instalação possa acessar e instalar todas as dependências de software necessárias.</block>
   <block id="f0041b2df6c7d0abc50865b06c257260" category="doc">Configure o software necessário para o Unified Manager.</block>
-  <block id="9ca50ce4ceb954680a475273fb837226" category="list-text">MySQL Community Edition versão 8.4.7 (do repositório MySQL)</block>
   <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3 (do repositório Red Hat Extra Enterprise Linux Server)</block>
   <block id="bff93131b836db7dbfe3c0ef47a3bdfb" category="inline-link-macro">Configure o pacote de software 7-Zip.</block>
   <block id="461c8ff1de784c3f512e2bab8a2bb39d" category="list-text">7zip versão 7z2301-linux-x64. Para obter mais informações, consulte <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>.</block>
@@ -12072,19 +12068,14 @@
   <block id="f36c9656dfe6d8b4341b27eee5cba4cd" category="list-text">Definir permissões de execução:</block>
   <block id="9c0f95d6de9186b24cce94c1c19ad0bb" category="section-title">Verifique a instalação.</block>
   <block id="d0eba9fa9af1130797e7b097e86e1cf9" category="paragraph">Verifique se o pacote 7-Zip foi instalado corretamente em seu sistema:</block>
-  <block id="3d96d3e1fe880ce5fb91ceb1a04daf8f" category="paragraph">MySQL 8.4.7 Edição Comunitária</block>
   <block id="7942c3cbff858fefeeae13af0754ce91" category="paragraph">7-zip</block>
   <block id="bd4785a5ccc39256a5803dad4bd14553" category="paragraph"><block ref="e3b6ff30090579304f8b0ef931234002" prefix="" category="inline-code"></block></block>
-  <block id="230ac9fdbbe8b31d21322b2382325f25" category="list-text">Se a versão instalada do MySQL for anterior ao MySQL 8.4.7 Community Edition, digite o seguinte comando para desinstalá-lo:</block>
   <block id="9e8e56b6decd77cb1c6c67922d0ea568" category="paragraph">Para um sistema Red Hat Enterprise Linux 8, se você tiver repositórios internos com JDK 17 - OpenJDK, 7-zip e outros pacotes de software fornecidos pelo repositório AppStream, você deve desativar o repositório AppStream e instalar o MySQL Community Server. Execute o seguinte comando:</block>
   <block id="dc2549c9552cf4727398a4c12030d976" category="paragraph">Para um sistema Red Hat Enterprise Linux 8, se você tiver repositórios internos com java-17-openjdk, 7-zip e outros pacotes de software fornecidos pelo repositório AppStream, você deve desativar o repositório AppStream e instalar o MySQL Community Server. Execute o seguinte comando:</block>
   <block id="85a7833c7b3c47e46293fd6b5df674cf" category="paragraph">Esta etapa remove todos os pacotes NetApp RPM associados. Ele não remove os módulos de software pré-requisitos, como Java, MySQL e 7zip.</block>
   <block id="95570f21954a110ac5842214143555f2" category="list-text">*Opcional:* Se apropriado, remova os módulos de software de suporte, como Java, MySQL e 7zip:</block>
   <block id="9be3489c55784ee9bb690eb74a862d91" category="paragraph"><block ref="4b4071a6e6d8cc80744e78638c7ce679" prefix="" category="inline-code"></block></block>
   <block id="54b48a732c6188d2bcadf3f1d35f5767" category="list-text">Você deve instalar ou atualizar para a versão correta do 7-Zip antes de atualizar o Unified Manager. Ver <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>.</block>
-  <block id="7efa98bf218af7d91336f05884607943" category="list-text">O MySQL Community Edition é atualizado automaticamente durante a atualização do Unified Manager. Se a versão instalada do MySQL no seu sistema for anterior à 8.4.7, o processo de atualização do Unified Manager atualizará automaticamente o MySQL para a 8.4.7.</block>
-  <block id="1e4ae16efa77dcf7b5345478d2ccb141" category="list-text">MySQL Community Edition versão 8.4.7</block>
-  <block id="7e32873dbcea7d787665ade5210a7e5e" category="list-text">O MySQL Community Edition é atualizado automaticamente durante a atualização do Unified Manager. Se a versão instalada do MySQL no seu sistema for anterior à 8.4.7, o processo de atualização do Unified Manager atualizará automaticamente o MySQL para a 8.4.7. Você não deve executar uma atualização autônoma de uma versão anterior do MySQL para 8.4.7.</block>
   <block id="3fdc1149ca052bb0caeb62195f6366e2" category="sidebar">Instale o software necessário</block>
   <block id="ef7e8c761b3774b5f1be9fac2702eee1" category="list-text">Não é possível restaurar um diretório ou um volume a partir de um snapshot em nenhum dos seguintes cenários:</block>
   <block id="1682df86d53dde8a42b648d552487863" category="list-text">A opção *Sim, preservar todas as cópias instantâneas* está selecionada.</block>
@@ -12109,4 +12100,14 @@
   <block id="a6824bb8a91547b80941460f296740e6" category="paragraph">Além disso, existe um limite para o número de nós que uma única instância do Unified Manager pode monitorar antes de você instalar uma segunda instância do Unified Manager. Para limites de nós, recomendações de CPU e memória, consulte o <block ref="d981367ba2af9a1ad0ffd7e97f42a3c3" category="inline-link-rx"></block>.</block>
   <block id="10fcd7df2705cd02d708b0d542e4de06" category="paragraph">Além disso, existe um limite para o número de nós que uma única instância do Unified Manager pode monitorar antes de você instalar uma segunda instância do Unified Manager. Para limites de nós, recomendações de CPU e memória, consulte <block ref="104d951f677faee57cc0f1a91faece05" category="inline-link-macro-rx"></block>.</block>
   <block id="0cfb3eeec6906f18db7d4afb307803d7" category="paragraph">Além disso, existe um limite para o número de nós que uma única instância do Unified Manager pode monitorar antes de você instalar uma segunda instância do Unified Manager. Para limites de nós, recomendações de CPU e memória, consulte <block ref="6876c7da67397aff652dc3a6ccdbcf26" category="inline-link-rx"></block>.</block>
+  <block id="18fbc72e34f6db6cc2a91021a22f6685" category="paragraph">O Unified Manager é implantado em um servidor web WildFly. O WildFly 27.0.1.Final é fornecido e configurado juntamente com o Unified Manager.</block>
+  <block id="b4f0bab6ced5839d1e92ed79131b11a2" category="list-text">MySQL Community Edition versão 8.4.10 (do repositório MySQL)</block>
+  <block id="b615c4e0b0d7c85d2dee3a6fd975b521" category="paragraph">O MySQL 8.4.10 Community Edition</block>
+  <block id="97393a61ddf5f5207980a27b12ed3e8a" category="list-text">Se a versão do MySQL instalada for anterior à MySQL 8.4.10 Community Edition, digite o seguinte comando para desinstalá-lo:</block>
+  <block id="bcdcfd5bc4aef222651ee23de0c085ab" category="list-text">O MySQL Community Edition é atualizado automaticamente durante a atualização do Unified Manager. Se a versão do MySQL instalada no seu sistema for anterior à 8.4.10, o processo de atualização do Unified Manager atualizará automaticamente o MySQL para 8.4.10.</block>
+  <block id="c76f3bc063be89828b42e514a84a8002" category="list-text">Pacotes redistribuíveis do Microsoft Visual C++ para Visual Studio 2015 versão 14.29.30133.0</block>
+  <block id="1e908f9a2431bb5d3c2c424f38255dfb" category="list-text">MySQL Community Edition versão 8.4.10</block>
+  <block id="6c400d4faf41f7de8a4c911b51918555" category="list-text">OpenJDK versão 17.0.15+6</block>
+  <block id="d99d6f4a4a2deff3d04c76cf2a1ab80a" category="list-text">7-zip versão 25.01 ou posterior</block>
+  <block id="0906e47b7d8a1a05c090ca9c48a976c3" category="list-text">O MySQL Community Edition é atualizado automaticamente durante a atualização do Unified Manager. Se a versão do MySQL instalada no seu sistema for anterior à 8.4.10, o processo de atualização do Unified Manager atualizará automaticamente o MySQL para 8.4.10. Você não deve executar uma atualização independente de uma versão anterior do MySQL para 8.4.10.</block>
 </blocks>
