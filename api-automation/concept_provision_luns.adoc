@@ -15,7 +15,7 @@ Você pode provisionar LUNs nas máquinas virtuais de storage (SVMs) usando as A
 
 O diagrama a seguir ilustra as etapas em um fluxo de trabalho de provisionamento de LUN.
 
-image::../media/create_luns.gif[criar luns]
+image::../media/create_luns.gif[Um diagrama que mostra o fluxo de trabalho para a criação de um LUN, incluindo Storage VM, nível de serviço e etapas de igroup]
 
 [NOTE]
 ====

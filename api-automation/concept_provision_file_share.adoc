@@ -15,7 +15,7 @@ Você pode provisionar compartilhamentos CIFS e compartilhamentos de arquivos NF
 
 O diagrama a seguir ilustra cada etapa em um fluxo de trabalho de provisionamento de compartilhamento de arquivos. Ele inclui provisionamento de compartilhamentos de arquivos CIFS e NFS.
 
-image::../media/create_fileshares.gif[criar ficheiros]
+image::../media/create_fileshares.gif[Um diagrama que mostra um fluxo de trabalho de provisionamento de compartilhamento de arquivos CIFS e NFS, desde a configuração do SVM até a criação do compartilhamento]
 
 [NOTE]
 ====

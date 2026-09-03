@@ -25,4 +25,4 @@ Dependendo de como você configura as configurações na página Configuração 
 
 Este fluxo de trabalho é mostrado no diagrama a seguir.
 
-image::../media/um_perf_threshold_event_flow.gif[fluxo de evento de limite de um perf]
+image::../media/um_perf_threshold_event_flow.gif[Um diagrama que mostra o processamento de eventos de limite, desde a coleta do contador até a notificação por e-mail]

@@ -15,4 +15,4 @@ O fluxo de trabalho de instalação descreve as tarefas que você deve executar 
 
 Estas seções descrevem cada um dos itens mostrados no fluxo de trabalho abaixo.
 
-image::../media/overall_um_install_flow.png[fluxo geral de instalação de um]
+image::../media/overall_um_install_flow.png[Um diagrama que mostra a instalação do Unified Manager, a configuração inicial e os fluxos de trabalho das configurações administrativas]

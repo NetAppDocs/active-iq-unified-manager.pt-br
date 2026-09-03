@@ -15,7 +15,7 @@ Quando um objeto de storage no data center atravessa um limite, você recebe uma
 
 Esse fluxo de trabalho toma o exemplo de um volume como objeto de recurso. Você pode usar as `events` APIs para recuperar a lista de eventos relacionados a um volume, analisar os problemas críticos para esse volume e, em seguida, tomar medidas corretivas para corrigir o problema.
 
-image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[lidar com problemas relacionados a eventos de um fluxograma de objeto de armazenamento]
+image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[Um fluxograma que mostra a análise de eventos de volume, desde a listagem dos eventos até a ação corretiva e o encerramento]
 
 Siga estas etapas para determinar os problemas em seu volume antes de tomar as medidas corretivas.
 

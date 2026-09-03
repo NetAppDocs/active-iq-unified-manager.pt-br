@@ -33,13 +33,13 @@ Esses objetos são representados em uma visualização de topologia de VM.
 
 *Virtualização VMware no ONTAP*
 
-image::../media/vm_deployment.gif[implantação de vm]
+image::../media/vm_deployment.gif[Um diagrama que mostra hosts VMware, VMs, datastores, VMDKs, rede IP e conexões de armazenamento]
 
 *Fluxo de trabalho do usuário*
 
 O diagrama a seguir exibe um caso de uso típico do uso da exibição de topologia da VM:
 
-image::../media/vm_workflow.gif[fluxo de trabalho da vm]
+image::../media/vm_workflow.gif[Um diagrama que mostra um fluxo de trabalho para localizar a latência de aplicativos de VM nas camadas de computação, rede e armazenamento]
 
 
 

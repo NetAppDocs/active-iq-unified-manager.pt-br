@@ -22,7 +22,7 @@ Um backup de despejo de banco de dados consiste em um único arquivo no diretór
 
 Na primeira vez que você gera um backup de banco de dados, um único arquivo é criado no diretório de backup e um arquivo de backup completo é criado no diretório de repositório de banco de dados. Da próxima vez que você gerar um backup, um único arquivo é criado no diretório de backup e um arquivo de backup incremental é criado no diretório de repositório de banco de dados que contém as diferenças do arquivo de backup completo. Esse processo continua à medida que você cria backups adicionais, até a configuração de retenção máxima, como mostrado na figura a seguir.
 
-image::../media/database_backup.gif[backup de banco de dados]
+image::../media/database_backup.gif[Um diagrama que mostra três arquivos de diretório de backup apontando para arquivos completos e incrementais no repositório de banco de dados]
 
 [NOTE]
 ====

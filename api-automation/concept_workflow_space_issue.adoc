@@ -19,7 +19,7 @@ Um método para determinar a falta de espaço em seus agregados é verificar se 
 
 O fluxograma a seguir ilustra o processo de recuperação de informações sobre volumes com o modo automático ativado:
 
-image::../media/space_utilization.gif[utilização de espaço]
+image::../media/space_utilization.gif[Um fluxograma para identificar volumes com modo de dimensionamento automático ativado e sobrecarregados em agregados de cluster]
 
 Esse fluxo pressupõe que os clusters já tenham sido criados no ONTAP e adicionados ao Unified Manager.
 

@@ -20,11 +20,11 @@ Nem todas as janelas contêm todos os elementos nos diagramas a seguir.
 [[object-list-window-layout]]
 == Layout da janela da lista de objetos
 
-image::../media/object_list.png[lista de objetos]
+image::../media/object_list.png[Uma captura de tela da janela da lista de objetos do Active IQ Unified Manager com controles de navegação, pesquisa, filtro e relatório rotulados]
 
 
 
 [[object-details-window-layout]]
 == Layout da janela de detalhes do objeto
 
-image::../media/object_details.gif[detalhes do objeto]
+image::../media/object_details.gif[Uma captura de tela que mostra uma janela de detalhes de volume do Active IQ Unified Manager com guias, detalhes de capacidade, objetos relacionados, histórico e eventos]

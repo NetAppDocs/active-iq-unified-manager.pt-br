@@ -13,4 +13,4 @@ summary: O fluxo de trabalho de implantação descreve as tarefas que você deve
 [role="lead"]
 O fluxo de trabalho de implantação descreve as tarefas que você deve executar antes de usar o Unified Manager.
 
-image::../media/deployment_sequence_oc_6_0.gif[sequência de implantação oc 6 0]
+image::../media/deployment_sequence_oc_6_0.gif[Um diagrama que mostra os pré-requisitos de implantação do Unified Manager, a implantação do appliance e as etapas de configuração inicial]

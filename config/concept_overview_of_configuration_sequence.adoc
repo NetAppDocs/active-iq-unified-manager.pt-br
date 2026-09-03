@@ -13,4 +13,4 @@ summary: O fluxo de trabalho de configuração descreve as tarefas que você dev
 [role="lead"]
 O fluxo de trabalho de configuração descreve as tarefas que você deve executar antes de usar o Unified Manager.
 
-image::../media/post_install_flow.png[fluxo de pós-instalação]
+image::../media/post_install_flow.png[Um diagrama que mostra o fluxo de trabalho de configuração inicial do Unified Manager e as tarefas de configurações administrativas]
