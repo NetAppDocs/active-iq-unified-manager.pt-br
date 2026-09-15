@@ -12110,4 +12110,5 @@
   <block id="e1f09e41d18a2f354b0f54a78d35a0c0" category="image-alt">Um diagrama que mostra um fluxo de trabalho para localizar a latência de aplicativos de VM nas camadas de computação, rede e armazenamento</block>
   <block id="090c8104c89a24e16b32214c066c6f21" category="image-alt">Uma captura de tela da janela da lista de objetos do Active IQ Unified Manager com controles de navegação, pesquisa, filtro e relatório rotulados</block>
   <block id="fd5189ced6c908af40fee28d211b4c0a" category="image-alt">Uma captura de tela que mostra uma janela de detalhes de volume do Active IQ Unified Manager com guias, detalhes de capacidade, objetos relacionados, histórico e eventos</block>
+  <block id="ebe5a1b0891ca6dea431768b7ab00971" category="paragraph">Você deve remover um cluster do Unified Manager antes de desativá-lo. Se o cluster já estiver offline ou inacessível quando você tentar removê-lo, o Unified Manager não poderá se comunicar com o cluster para remover o registro do aplicativo e as assinaturas do Event Management System (EMS) configuradas. Isso fará com que o processo de remoção falhe ou pare de responder antes da conclusão.</block>
 </blocks>
