@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, source, snapshot, copy, dialog box 
 summary: Use a caixa de diálogo Selecionar cópia Snapshot de origem para selecionar uma cópia Snapshot específica para transferir dados entre relacionamentos de proteção ou selecione o comportamento padrão, que varia dependendo se você está inicializando, atualizando ou ressincronizando um relacionamento e se o relacionamento é um SnapMirror ou SnapVault. 
 ---
-= Selecione a caixa de diálogo cópia Instantânea de origem
+= Use a caixa de diálogo Selecionar Cópia de Snapshot da Origem no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

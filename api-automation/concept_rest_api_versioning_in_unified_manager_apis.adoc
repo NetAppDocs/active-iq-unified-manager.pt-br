@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: api, version, active iq, unified, manager 
 summary: As URIs da API REST no Active IQ Unified Manager especifica um número de versão. Por exemplo, /v2/datacenter/svm/svms. O número de versão v2 em /v2/datacenter/svm/svms indica a versão da API usada em uma versão específica. O número da versão minimiza o impactos das alterações da API no software cliente, enviando de volta uma resposta que o cliente pode processar. 
 ---
-= Versão da API no Active IQ Unified Manager
+= Entenda os números de versão da API no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

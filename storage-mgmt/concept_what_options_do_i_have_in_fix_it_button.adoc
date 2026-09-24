@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fix it,fix all 
 summary: A página ações de gerenciamento fornece o botão corrigir ou corrigir tudo para corrigir problemas sobre os quais o Unified Manager foi notificado por meio de um evento. 
 ---
-= Que opções tenho quando vejo o botão corrigir ou corrigir tudo
+= Saiba mais sobre as opções de botão "Corrigir" e "Corrigir tudo" no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

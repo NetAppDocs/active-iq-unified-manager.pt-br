@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: different, types, qos, policies, display, throughput, charts 
 summary: 'Você pode exibir as configurações de política de qualidade do serviço (QoS) definidas pelo ONTAP que foram aplicadas a um volume ou LUN nos gráficos de desempenho e análise de carga de trabalho IOPS, IOPS/TB e MB/s. As informações exibidas nos gráficos são diferentes dependendo do tipo de política de QoS que foi aplicada à carga de trabalho.' 
 ---
-= Como diferentes tipos de políticas de QoS são exibidos nos gráficos de taxa de transferência
+= Visualize as políticas de QoS em gráficos de throughput com o Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

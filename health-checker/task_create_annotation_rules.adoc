@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, annotation rules 
 summary: 'Você pode criar regras de anotação que o Unified Manager usa para anotar dinamicamente objetos de armazenamento, como volumes, clusters ou máquinas virtuais de armazenamento (SVMs).' 
 ---
-= Criar regras de anotação
+= Crie regras de anotação no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

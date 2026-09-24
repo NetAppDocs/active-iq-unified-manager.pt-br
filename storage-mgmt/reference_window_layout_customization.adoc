@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: window, layout, customization 
 summary: O Active IQ Unified Manager permite personalizar o layout das informações nas páginas de objetos de armazenamento e rede. Ao personalizar as janelas, pode controlar quais os dados que podem ser visualizados e como os dados são apresentados. 
 ---
-= Personalização do layout da janela
+= Personalizando o layout da janela no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

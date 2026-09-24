@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: support and diagnostics, menu 
 summary: O menu suporte e Diagnóstico permite gerar um pacote de suporte que pode ser enviado ao suporte técnico para assistência na solução de problemas. 
 ---
-= Menu suporte e Diagnóstico
+= Utilize o menu Suporte e Diagnóstico no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, event, retention, settings 
 summary: Você pode especificar o número de meses em que um evento é retido no servidor do Unified Manager antes de ser excluído automaticamente. 
 ---
-= Configurar definições de retenção de eventos
+= Configure as configurações de retenção de eventos no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

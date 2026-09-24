@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: browse, directories, dialog box 
 summary: Você pode usar a caixa de diálogo Procurar diretórios quando quiser restaurar dados para um diretório em um cluster e SVM diferente da origem original. O cluster de origem e o volume originais são selecionados por padrão. 
 ---
-= Caixa de diálogo Procurar diretórios
+= Utilize a caixa de diálogo Procurar diretórios no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

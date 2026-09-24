@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: qos, policy, settings, prioritize, work, node 
 summary: 'Você pode definir um limite em um grupo de políticas de QoS para controlar o limite de taxa de transferência de e/S por segundo (IOPS) ou Mbps para os workloads nele contidos. Se as cargas de trabalho estiverem em um grupo de políticas sem limite definido, como o grupo de políticas padrão ou o limite definido não atender às suas necessidades, você poderá aumentar o limite definido ou mover as cargas de trabalho para um grupo de políticas novo ou existente que tenha o limite desejado.' 
 ---
-= Use as configurações de política de QoS para priorizar o trabalho nesse nó
+= Use as configurações de política de QoS para priorizar as cargas de trabalho dos nós no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

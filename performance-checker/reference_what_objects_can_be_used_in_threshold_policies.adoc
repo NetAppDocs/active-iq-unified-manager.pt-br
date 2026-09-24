@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: objects, counters, combination, threshold, policies 
 summary: Apenas alguns contadores de desempenho podem ser usados em conjunto em políticas de combinação. Quando os contadores de desempenho primário e secundário são especificados, ambos os contadores de desempenho devem exceder seus limites máximos antes que um evento seja gerado. 
 ---
-= Quais objetos e contadores podem ser usados em políticas de limite de combinação
+= Compreenda os objetos de política de limite combinado e os contadores no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

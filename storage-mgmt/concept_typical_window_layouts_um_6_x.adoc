@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: typical, window, layouts, object, list, details 
 summary: 'Entender os layouts típicos de janelas ajuda você a navegar e usar o Active IQ Unified Manager de forma eficaz. A maioria das janelas do Unified Manager é semelhante a um dos dois layouts gerais: Lista de objetos ou detalhes. A configuração de exibição recomendada é de pelo menos 1280 por 1024 pixels.' 
 ---
-= Layouts de janela típicos
+= Layouts de janela típicos no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

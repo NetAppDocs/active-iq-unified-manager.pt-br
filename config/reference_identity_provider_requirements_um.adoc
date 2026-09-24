@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identity, provider, requirements 
 summary: 'Ao configurar o Unified Manager para usar um provedor de identidade (IDP) para executar a autenticação SAML para todos os usuários remotos, você precisa estar ciente de algumas configurações necessárias para que a conexão com o Unified Manager seja bem-sucedida.' 
 ---
-= Requisitos do provedor de identidade
+= Utilize um provedor de identidade no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

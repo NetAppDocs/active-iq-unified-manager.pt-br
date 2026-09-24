@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove unified manager 
 summary: 'Você pode desinstalar o Unified Manager removendo a máquina virtual (VM) na qual o software Unified Manager está instalado.' 
 ---
-= Remover o Unified Manager
+= Remover Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

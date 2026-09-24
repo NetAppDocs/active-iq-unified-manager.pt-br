@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: uploading scripts, api gateway, slo or policy-based storage management, timeout, active iq platform events 
 summary: A página Configurações de recursos permite ativar e desativar recursos específicos no Active IQ Unified Manager. Isso inclui criar e gerenciar objetos de armazenamento com base em políticas, ativar o gateway da API, carregar scripts para gerenciar alertas, cronometrar uma sessão da IU da Web com base no tempo de inatividade e desativar o recebimento de eventos da plataforma Active IQ. 
 ---
-= Gerir definições de funcionalidades
+= Saiba mais sobre as configurações de recursos no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

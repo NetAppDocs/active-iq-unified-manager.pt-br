@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, data, volume, health details page, console 
 summary: Você pode restaurar arquivos, diretórios ou um volume inteiro sobrescritos ou excluídos de uma cópia Snapshot usando o recurso de restauração na página de detalhes de volume / integridade. 
 ---
-= Restaurar dados usando as páginas Volume e Detalhes do Volume/Saúde
+= Restaure os dados usando as páginas de detalhes de Volume e Volume/Integridade em Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

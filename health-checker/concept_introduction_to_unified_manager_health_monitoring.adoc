@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: introduction, active iq, unified manager, health, monitor 
 summary: 'O Active IQ Unified Manager (antigo Gerenciador Unificado de OnCommand) ajuda você a monitorar um grande número de sistemas que executam o software ONTAP por meio de uma interface de usuário centralizada. A infraestrutura de servidor do Unified Manager oferece escalabilidade, capacidade de suporte e recursos aprimorados de monitoramento e notificação.' 
 ---
-= Introdução ao monitoramento da saúde do Active IQ Unified Manager
+= Saiba mais sobre o monitoramento de integridade do Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, threshold, policies 
 summary: Você pode exibir todas as políticas de limite de desempenho definidas atualmente na página limites de desempenho. 
 ---
-= Ver políticas de limite de desempenho
+= Visualize as políticas de limite de desempenho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

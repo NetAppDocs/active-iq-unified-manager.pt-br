@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, components, why, contention 
 summary: 'Você pode identificar problemas de desempenho do cluster quando um componente do cluster entra em contenção. O desempenho de workloads que usam o componente diminui e seu tempo de resposta (latência) para solicitações do cliente aumenta, o que aciona um evento no Unified Manager.' 
 ---
-= Componentes do cluster e por que eles podem estar na contenção
+= Compreenda os componentes do cluster e a contenção no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

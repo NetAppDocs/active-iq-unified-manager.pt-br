@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: group rules, work, groups 
 summary: 'Uma regra de grupo é um critério que você define para permitir que objetos de armazenamento (volumes, clusters ou SVMs) sejam incluídos em um grupo específico. Você pode usar grupos de condições ou condições para definir a regra de grupo para um grupo.' 
 ---
-= Como as regras de grupo funcionam para grupos
+= Entenda como as regras de grupo funcionam para grupos no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

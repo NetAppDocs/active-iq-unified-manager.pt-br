@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: review, impact, configuration, changes, workload, performance 
 summary: Alterações de configuração no cluster, como um disco com falha, failover de HA ou um volume movido, podem afetar negativamente a performance do volume e causar maior latência. 
 ---
-= Analisar o impacto das alterações de configuração na performance do workload
+= Avalie como as alterações de configuração afetam o desempenho da carga de trabalho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

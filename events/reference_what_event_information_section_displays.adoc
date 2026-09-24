@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, information, section, displays 
 summary: Você usa a seção informações do evento na página de detalhes do evento para exibir os detalhes sobre um evento selecionado, como a gravidade do evento, o nível de impactos, a área de impactos e a origem do evento. 
 ---
-= O que a seção informações do evento exibe
+= Saiba mais sobre a seção Informações do Evento no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

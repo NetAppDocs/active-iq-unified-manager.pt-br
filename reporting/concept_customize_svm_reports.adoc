@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, storage, vm reports 
 summary: Você pode criar relatórios de VM de storage para analisar informações de volume e visualizar a integridade geral e a disponibilidade de storage. Por exemplo, você pode criar relatórios para exibir SVMs atingindo a contagem máxima de volume e analisar SVMs paradas. 
 ---
-= Personalizar relatórios de VM de armazenamento
+= Personalize os relatórios de máquinas virtuais de armazenamento no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

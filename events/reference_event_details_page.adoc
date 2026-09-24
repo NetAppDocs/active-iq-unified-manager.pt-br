@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, details, page 
 summary: Na página de detalhes do evento, você pode exibir os detalhes de um evento selecionado, como a gravidade do evento, o nível de impactos, a área de impactos e a origem do evento. Você também pode exibir informações adicionais sobre possíveis correções para resolver o problema. 
 ---
-= Página de detalhes do evento
+= Saiba mais sobre a página de detalhes do evento no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

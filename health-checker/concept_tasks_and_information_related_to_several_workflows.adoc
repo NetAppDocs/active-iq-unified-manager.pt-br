@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: tasks, information, workflows 
 summary: 'Algumas tarefas e textos de referência que podem ajudá-lo a entender e concluir um fluxo de trabalho são comuns a muitos fluxos de trabalho no Unified Manager, incluindo adicionar e revisar notas sobre um evento, atribuir um evento, reconhecer e resolver eventos, além de detalhes sobre volumes, máquinas virtuais de storage (SVMs), agregados e assim por diante.' 
 ---
-= Tarefas e informações relacionadas a vários fluxos de trabalho
+= Compreenda as informações comuns aos fluxos de trabalho do Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

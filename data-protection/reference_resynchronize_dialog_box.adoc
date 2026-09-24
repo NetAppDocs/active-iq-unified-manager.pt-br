@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resynchronize, dialog box 
 summary: A caixa de diálogo Resincronizar permite que você sincronize novamente os dados em um relacionamento SnapMirror ou SnapVault que foi quebrado anteriormente e, em seguida, o destino foi feito um volume de leitura/gravação. Você também pode ressincronizar quando uma cópia Snapshot comum necessária no volume de origem for excluída, causando falha nas atualizações do SnapMirror ou do SnapVault. 
 ---
-= Ressincronizar a caixa de diálogo
+= Utilize a caixa de diálogo de ressincronização no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

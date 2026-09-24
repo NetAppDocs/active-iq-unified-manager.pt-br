@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event management, system, 
 summary: 'O sistema de Gerenciamento de Eventos (EMS) coleta dados de eventos de diferentes partes do kernel do ONTAP e fornece mecanismos de encaminhamento de eventos. Esses eventos do ONTAP podem ser relatados como eventos EMS no Unified Manager. O monitoramento e o gerenciamento centralizados facilitam a configuração de eventos críticos do EMS e notificações de alerta com base nesses eventos do EMS.' 
 ---
-= Quais são os eventos do sistema de Gestão de Eventos
+= Saiba mais sobre eventos do Sistema de Gerenciamento de Eventos no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

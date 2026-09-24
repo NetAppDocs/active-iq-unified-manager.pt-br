@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, behavior, switchover, switchback 
 summary: Os eventos que acionam um switchover ou switchback fazem com que os volumes ativos sejam movidos de um cluster para o outro cluster no grupo de recuperação de desastres. Os volumes no cluster que estavam ativos e fornecendo dados aos clientes são interrompidos, e os volumes no outro cluster são ativados e começam a fornecer dados. O Unified Manager monitora apenas os volumes ativos e em execução. 
 ---
-= Comportamento do volume durante o switchover e o switchback
+= Saiba mais sobre o comportamento do volume durante o switchover e o switchback no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

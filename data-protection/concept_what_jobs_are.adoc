@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs 
 summary: Um trabalho é uma série de tarefas que você pode monitorar usando o Unified Manager. A visualização de trabalhos e respetivas tarefas associadas permite-lhe determinar se foram concluídos com êxito. 
 ---
-= Quais são os empregos
+= Saiba mais sobre os jobs no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

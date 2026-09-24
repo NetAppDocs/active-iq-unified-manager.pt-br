@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, refine, view 
 summary: Depois de ter a visualização desejada, você pode refinar ainda mais os resultados usando o campo pesquisar para se concentrar nos resultados que deseja incluir no relatório. 
 ---
-= Usando a pesquisa para refinar sua visualização
+= Pesquise para refinar sua visualização no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

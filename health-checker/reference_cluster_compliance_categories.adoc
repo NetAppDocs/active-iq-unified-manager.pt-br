@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster compliance, categories 
 summary: Esta tabela descreve os parâmetros de conformidade de segurança do cluster que o Unified Manager avalia, a recomendação do NetApp e se o parâmetro afeta a determinação geral do cluster que está sendo queixa ou não. 
 ---
-= Categorias de conformidade de cluster
+= Compreenda as categorias de conformidade de cluster no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

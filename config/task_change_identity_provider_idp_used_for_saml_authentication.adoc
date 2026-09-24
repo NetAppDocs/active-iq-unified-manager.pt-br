@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, identity, provider, used, saml, authentication 
 summary: 'Você pode alterar o provedor de identidade (IDP) que o Unified Manager usa para autenticar usuários remotos.' 
 ---
-= Alterar o provedor de identidade usado para autenticação SAML
+= Altere o provedor de identidade de autenticação SAML no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

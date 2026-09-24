@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, performance, statistics, collection, interval 
 summary: O intervalo de coleta padrão para estatísticas de desempenho é de 5 minutos. Você pode alterar esse intervalo para 10 ou 15 minutos se achar que coleções de clusters grandes não estão finalizadas dentro do tempo padrão. Essa configuração afeta a coleção de estatísticas de todos os clusters que essa instância do Unified Manager está monitorando. 
 ---
-= Alterar o intervalo de coleta de estatísticas de desempenho
+= Altere o intervalo de coleta de estatísticas de desempenho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, counters, tracked, thresholds 
 summary: Alguns contadores de desempenho comuns, como IOPS e MB/s, podem ter limites definidos para todos os objetos de armazenamento. Existem outros contadores que podem ter limites definidos apenas para determinados objetos de armazenamento. 
 ---
-= Quais contadores de desempenho podem ser rastreados usando limites
+= Entenda os contadores de desempenho monitorados por meio de limites no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

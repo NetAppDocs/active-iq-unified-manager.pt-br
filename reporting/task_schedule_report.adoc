@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: report, schedule 
 summary: Depois de ter um arquivo de exibição ou Excel que você deseja agendar para geração e distribuição regulares, você pode agendar o relatório. 
 ---
-= Agendar um relatório
+= Agende um relatório no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

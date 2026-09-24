@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, maintenance, window 
 summary: Você define uma janela de manutenção do Unified Manager para suprimir eventos e alertas para um período de tempo específico quando você agendar a manutenção do cluster e não deseja receber uma série de notificações indesejadas. 
 ---
-= O que é uma janela de manutenção do Unified Manager
+= Saiba mais sobre as janelas de manutenção do Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

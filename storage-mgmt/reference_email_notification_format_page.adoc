@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: email, notification, format, page 
 summary: 'A página formato de notificação por e-mail exibe as regras do e-mail que é enviado para um usuário ou grupo de usuários quando há um problema relacionado à cota (limite de software violado ou limite rígido atingido).' 
 ---
-= Página formato de notificação por e-mail
+= Saiba mais sobre a página Formato de Notificação por E-mail no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

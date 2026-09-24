@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, dialog box 
 summary: A caixa de diálogo Inicializar/Atualizar permite que você execute uma transferência de linha de base pela primeira vez em um novo relacionamento de proteção ou atualize um relacionamento se ele já estiver inicializado e você quiser executar uma atualização incremental manual, não programada. 
 ---
-= Caixa de diálogo Inicializar/Atualizar
+= Utilize a caixa de diálogo Inicializar/Atualizar no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

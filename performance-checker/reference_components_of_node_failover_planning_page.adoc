@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: components, node, failover, planning page, performance, statistics, grid 
 summary: Os componentes da página Planejamento de failover de desempenho/nó são exibidos em uma grade e no painel de comparação. Essas seções permitem avaliar o impacto de um failover de nó na performance do nó de takeover. 
 ---
-= Componentes da página de Planejamento de failover de nó
+= Analise os componentes da página de Planejamento de Failover de Desempenho/Nó no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

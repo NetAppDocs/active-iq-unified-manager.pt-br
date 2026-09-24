@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, failover, settings, events, impact area, availability 
 summary: 'Os eventos de configurações de failover de armazenamento (SFO) fornecem informações sobre se o failover de armazenamento está desativado ou não configurado para que você possa monitorar possíveis problemas. Os eventos são agrupados por área de impactos e incluem o nome do evento e da armadilha, o nível de impactos, o tipo de origem e a gravidade.' 
 ---
-= Eventos de configurações de failover de storage
+= Saiba mais sobre eventos de configurações de failover de armazenamento no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

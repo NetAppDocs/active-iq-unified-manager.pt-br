@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: audit, logging 
 summary: Você pode detetar se os logs de auditoria foram comprometidos com o uso de logs de auditoria. Todas as atividades realizadas por um utilizador são monitorizadas e registadas nos registos de auditoria. As auditorias são realizadas para todas as interfaces de usuário e funcionalidades do Active IQ Unified Manager das APIs expostas publicamente. 
 ---
-= Registo de auditoria
+= Saiba mais sobre os registros de auditoria no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

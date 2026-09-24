@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, aggregates, resource pools 
 summary: 'Você pode remover agregados de um pool de recursos existente: Por exemplo, quando você deseja usar um agregado para algum outro propósito.' 
 ---
-= Remover agregados de pools de recursos
+= Remover agregados de pools de recursos em Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: regenerate, https certificate, dialog, box 
 summary: A caixa de diálogo regenerar certificado HTTPS permite personalizar as informações de segurança e, em seguida, gerar um novo certificado HTTPS com essas informações. 
 ---
-= Caixa de diálogo regenerar certificado HTTPS
+= Regenerar a caixa de diálogo de certificado HTTPS em Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

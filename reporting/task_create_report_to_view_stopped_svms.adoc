@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, stopped, storage VMs 
 summary: Você pode criar um relatório para exibir uma lista de todos os SVMs paradas. 
 ---
-= Crie um relatório para visualizar VMs de armazenamento paradas
+= Crie um relatório para visualizar as VMs de armazenamento interrompidas no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

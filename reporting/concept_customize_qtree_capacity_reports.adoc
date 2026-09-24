@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, qtree, capacity, reports 
 summary: Esses relatórios personalizados de amostra são usados para ajudá-lo a identificar e responder a possíveis problemas relacionados à capacidade do Qtree. 
 ---
-= Personalize relatórios de capacidade do Qtree
+= Personalize os relatórios de capacidade do Qtree no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

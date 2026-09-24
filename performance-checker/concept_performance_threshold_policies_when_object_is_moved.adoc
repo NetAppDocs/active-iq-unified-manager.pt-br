@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policies, object, moved 
 summary: Como as políticas de limite de performance são atribuídas a objetos de storage, se você mover um objeto, todas as políticas de limite atribuídas permanecerão anexadas ao objeto após a conclusão da migração. Por exemplo, se você mover um volume ou LUN para um agregado diferente, as políticas de limite ainda estarão ativas para o volume ou LUN no novo agregado. 
 ---
-= O que acontece com as políticas de limite de performance quando um objeto é movido
+= Gerencie políticas de limite ao mover objetos no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

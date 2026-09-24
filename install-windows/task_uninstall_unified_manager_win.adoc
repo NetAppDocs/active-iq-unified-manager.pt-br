@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: uninstall, unified manager 
 summary: Você pode desinstalar o Unified Manager usando o assistente programas e recursos ou executando uma desinstalação autônoma da interface da linha de comando. 
 ---
-= Desinstalar o Unified Manager
+= Desinstale o Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

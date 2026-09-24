@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, inaccessible, mount, path 
 summary: Você pode criar um relatório para encontrar volumes que tenham um caminho de montagem inacessível. 
 ---
-= Crie um relatório para visualizar volumes que tenham um caminho de montagem inacessível
+= Crie um relatório para visualizar os volumes que possuem um caminho de montagem inacessível no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: relationship, 1 month, transfer status, view 
 summary: 'O modo de exibição relacionamento: Último status de transferência de 1 meses permite analisar as tendências de transferência ao longo de um período de tempo para volumes e VMs de armazenamento em relacionamentos assíncronos. Esta página também mostra se a transferência foi um sucesso ou uma falha.' 
 ---
-= Relação: Último 1 mês visualização do Status da transferência
+= Exibir a visualização do status de transferência do último mês no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

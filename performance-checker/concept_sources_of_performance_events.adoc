@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sources, performance, events 
 summary: Eventos de performance são problemas relacionados à performance de workload em um cluster. Eles ajudam a identificar objetos de storage com tempos de resposta lentos, também conhecidos como alta latência. Juntamente com outros eventos de saúde que ocorreram ao mesmo tempo, você pode determinar os problemas que podem ter causado ou contribuído para os tempos de resposta lentos. 
 ---
-= Fontes de eventos de desempenho
+= Identifique as fontes de eventos de desempenho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

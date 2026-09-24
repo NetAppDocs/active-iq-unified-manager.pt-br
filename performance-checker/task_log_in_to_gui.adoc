@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: log in, ui, unified manager 
 summary: Você pode fazer login na IU do Unified Manager usando um navegador da Web compatível. 
 ---
-= Faça login na interface do usuário
+= Faça login na interface do usuário do Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

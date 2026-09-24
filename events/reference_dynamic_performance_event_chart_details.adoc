@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, event, chart, details 
 summary: Para eventos de desempenho dinâmico, a seção Diagnóstico do sistema da página de detalhes do evento lista as principais cargas de trabalho com a maior latência ou uso do componente do cluster que está em disputa. As estatísticas de desempenho baseiam-se no tempo em que o evento de desempenho foi detetado até a última vez que o evento foi analisado. Os gráficos também exibem estatísticas históricas de desempenho para o componente do cluster que está em disputa. 
 ---
-= Detalhes do gráfico de eventos de desempenho dinâmico
+= Saiba mais sobre eventos de desempenho dinâmico no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

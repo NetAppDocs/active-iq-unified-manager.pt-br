@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, performance, events, pane, counter 
 summary: O painel de eventos de desempenho do cluster exibe estatísticas de desempenho e todos os eventos ativos do cluster. Isso é mais útil quando você monitora seus clusters e todos os eventos e performance relacionados ao cluster. 
 ---
-= Painel de eventos de desempenho do cluster
+= Analise o painel de eventos de desempenho do cluster no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

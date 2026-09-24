@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, nested groups, remote, authentication 
 summary: Se a autenticação remota estiver ativada, você poderá desativar a autenticação de grupo aninhado para que somente usuários individuais, e não membros de grupo, possam se autenticar remotamente no Unified Manager. Você pode desativar grupos aninhados quando quiser melhorar o tempo de resposta de autenticação do ative Directory. 
 ---
-= Desabilitar grupos aninhados da autenticação remota
+= Desative grupos aninhados na autenticação remota no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

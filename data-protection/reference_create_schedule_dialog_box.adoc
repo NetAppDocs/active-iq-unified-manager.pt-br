@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, schedule, dialog box 
 summary: A caixa de diálogo criar agendamento permite criar um cronograma de proteção básico ou avançado para transferências de relacionamento do SnapMirror e do SnapVault. Você pode criar uma nova programação para aumentar a frequência de transferências de dados devido a atualizações de dados frequentes ou pode criar uma programação menos frequente quando os dados são alterados com pouca frequência. 
 ---
-= Caixa de diálogo criar Agendamento
+= Utilize a caixa de diálogo Criar Agendamento no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

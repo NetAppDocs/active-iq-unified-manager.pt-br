@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: logs, troubleshooting 
 summary: Os logs do sistema permitem analisar as causas de falhas e problemas de solução de problemas que podem surgir durante a execução das APIs. 
 ---
-= Registos para resolução de problemas
+= Solucione problemas com registros do sistema no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

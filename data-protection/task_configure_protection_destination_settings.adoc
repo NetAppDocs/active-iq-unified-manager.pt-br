@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, destination, efficiency, settings 
 summary: Você pode configurar configurações de eficiência de destino, como deduplicação, compactação, crescimento automático e garantia de espaço em um destino de proteção usando a caixa de diálogo Configurações avançadas de destino. Use essas configurações quando quiser maximizar a utilização de espaço em um destino ou volume secundário. 
 ---
-= Configurar as definições de eficiência do destino
+= Configure as configurações de eficiência do destino no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

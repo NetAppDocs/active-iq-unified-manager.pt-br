@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: snapshot copy, copies, restore, using, netapp, snapshots 
 summary: Uma cópia Snapshot do NetApp cria uma imagem pontual do banco de dados e dos arquivos de configuração que você pode usar para restaurar em caso de falha do sistema ou perda de dados. Você agenda periodicamente uma cópia Snapshot para ser gravada em um volume em um dos clusters do ONTAP, para que tenha sempre uma cópia atual. 
 ---
-= Faça backup e restauração usando snapshots NetApp
+= Backup e restauração usando NetApp Snapshots no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

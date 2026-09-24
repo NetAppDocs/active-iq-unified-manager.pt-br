@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: advanced, secondary, settings, dialog box 
 summary: Você pode usar a caixa de diálogo Configurações secundárias avançadas para habilitar a replicação flexível de versão, backup de várias cópias e configurações relacionadas ao espaço em um volume secundário. Você pode usar a caixa de diálogo Configurações secundárias avançadas quando quiser alterar Ativar ou desativar as configurações atuais. 
 ---
-= Caixa de diálogo Configurações secundárias avançadas
+= Utilize a caixa de diálogo Configurações Secundárias Avançadas no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

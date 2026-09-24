@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managing, performance, performance, capacity, available, iops, information 
 summary: A capacidade de desempenho indica quanto rendimento você pode obter de um recurso sem superar o desempenho útil desse recurso. Quando vista usando contadores de performance existentes, a capacidade de performance é o ponto em que você obtém a utilização máxima de um nó ou agregado antes que a latência se torne um problema. 
 ---
-= Gerencie o desempenho usando a capacidade de desempenho e as informações de IOPS disponíveis
+= Gerencie a capacidade de desempenho e os IOPS disponíveis no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

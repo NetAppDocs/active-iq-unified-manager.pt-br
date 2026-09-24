@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: definitions, user types 
 summary: Um tipo de usuário especifica o tipo de conta que o usuário detém e inclui usuários remotos, grupos remotos, usuários locais, usuários de banco de dados e usuários de manutenção. Cada um desses tipos tem sua própria função, que é atribuída por um usuário com a função de Administrador. 
 ---
-= Definições dos tipos de utilizador
+= Saiba mais sobre os tipos de usuários no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

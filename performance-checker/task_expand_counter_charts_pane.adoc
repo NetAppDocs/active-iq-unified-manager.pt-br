@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expand, counter, charts, pane 
 summary: Você pode expandir o painel gráficos de contador para que os gráficos sejam maiores e mais legíveis. 
 ---
-= Expandir o painel Gráficos de Contadores
+= Expanda o painel Gráficos de Contadores no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, performance, counter, charts 
 summary: Existem gráficos de desempenho padrão que exibem os valores do contador para o objeto de armazenamento selecionado. Cada um dos gráficos do contador de avarias exibe os valores totais separados em ler, escrever e outras categorias. Além disso, alguns gráficos de contador de avarias apresentam detalhes adicionais quando o gráfico é apresentado na vista Zoom. 
 ---
-= Tipos de gráficos de contador de desempenho
+= Entenda os tipos de gráficos de contadores de desempenho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

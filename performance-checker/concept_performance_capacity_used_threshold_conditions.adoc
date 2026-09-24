@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, threshold, conditions 
 summary: Você pode criar políticas de limite de performance definidas pelo usuário para que os eventos sejam acionados quando o valor de capacidade de performance usada para um nó ou agregado exceder a configuração de limite de capacidade de performance definida. 
 ---
-= Condições de limite de performance usadas pela capacidade de performance
+= Configure os limites de capacidade de desempenho utilizados no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

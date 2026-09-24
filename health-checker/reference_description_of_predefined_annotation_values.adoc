@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, predefined, annotation values 
 summary: A prioridade de dados é uma anotação predefinida que tem os valores Missão crítica, alta e baixa. Esses valores permitem anotar objetos de armazenamento com base na prioridade dos dados que eles contêm. Não é possível editar ou eliminar os valores de anotação predefinidos. 
 ---
-= Descrição dos valores de anotação predefinidos
+= Compreenda os valores de anotação predefinidos no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

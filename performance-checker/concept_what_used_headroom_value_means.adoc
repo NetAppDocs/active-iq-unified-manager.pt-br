@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, value, means 
 summary: O valor da capacidade de desempenho usado ajuda a identificar os nós e agregados que estão sendo sobreutilizados ou subutilizados atualmente. Isso permite redistribuir workloads para aumentar a eficiência dos recursos de storage. 
 ---
-= O que significa o valor da capacidade de desempenho utilizada
+= Utilize o valor de capacidade de desempenho usado no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

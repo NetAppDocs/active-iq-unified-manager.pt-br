@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, event, analysis, metrocluster, configuration 
 summary: Você pode usar o Unified Manager para analisar um evento de desempenho para uma configuração do MetroCluster. Você pode identificar as cargas de trabalho envolvidas no evento e analisar as ações sugeridas para resolvê-lo. 
 ---
-= Análise de eventos de performance para uma configuração do MetroCluster
+= Analise o MetroCluster eventos de desempenho com o Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

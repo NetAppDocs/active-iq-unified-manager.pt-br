@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: support bundle, web ui, maintenance console 
 summary: Você deve enviar um pacote de suporte quando o problema que você tem exigir diagnóstico e solução de problemas mais detalhados do que uma mensagem AutoSupport fornece. Você pode enviar um pacote de suporte ao suporte técnico usando a IU da Web e o console de manutenção do Unified Manager. 
 ---
-= Envie um pacote de suporte por meio da interface da web e do console de manutenção
+= Envie um pacote de suporte através da interface web e do console de manutenção no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

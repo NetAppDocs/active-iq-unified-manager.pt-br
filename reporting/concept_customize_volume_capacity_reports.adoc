@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, volume, capacity reports 
 summary: Esses relatórios personalizados de amostra são usados para ajudá-lo a identificar e responder a possíveis problemas relacionados à capacidade de volume e desempenho. 
 ---
-= Personalizar relatórios de capacidade de volume
+= Personalize os relatórios de capacidade de volume no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: metrocluster, connectivity, events, impact area, availability 
 summary: Os eventos de conectividade fornecem informações sobre a conectividade entre os componentes de um cluster e entre clusters em uma configuração do MetroCluster para que você possa monitorar se há problemas em potencial. Os eventos são agrupados por área de impactos e incluem o nome do evento e da armadilha, o nível de impactos, o tipo de origem e a gravidade. 
 ---
-= Eventos de conetividade MetroCluster
+= Saiba mais sobre os eventos de conectividade do MetroCluster no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

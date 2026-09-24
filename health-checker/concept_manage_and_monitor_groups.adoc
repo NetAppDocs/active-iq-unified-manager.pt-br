@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, monitor, groups 
 summary: É possível criar grupos no Unified Manager para gerenciar objetos de storage. 
 ---
-= Gerenciar e monitorar grupos
+= Gerencie e monitore grupos no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

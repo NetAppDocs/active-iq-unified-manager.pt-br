@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer 
 summary: Há muitas maneiras de iniciar o analisador de carga de trabalho a partir da interface do usuário. Aqui descrevemos o lançamento da ferramenta a partir do painel de navegação à esquerda. 
 ---
-= Use o analisador de carga de trabalho
+= Utilize o analisador de carga de trabalho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

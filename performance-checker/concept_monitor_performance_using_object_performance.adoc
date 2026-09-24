@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitoring, performance, inventory, pages 
 summary: As páginas de desempenho de inventário de objetos exibem informações de desempenho, eventos de desempenho e integridade de objetos para todos os objetos dentro de uma categoria de tipo de objeto. Isso fornece uma visão geral do status de performance de cada objeto em um cluster, por exemplo, para todos os nós ou todos os volumes. 
 ---
-= Monitore o desempenho usando as páginas do Inventário de Desempenho
+= Monitore o desempenho de objetos usando as páginas de Inventário de Desempenho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

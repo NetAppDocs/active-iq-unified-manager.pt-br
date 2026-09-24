@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, quotas, dialog, boxes 
 summary: 'Você pode usar a opção apropriada na guia cotas de usuário e grupo na exibição integridade: Todas as VMs de armazenamento para configurar o formato da notificação de e-mail enviada quando ocorre um problema relacionado à cota e configurar regras para especificar endereços de e-mail com base na cota de usuário.' 
 ---
-= Descrição das caixas de diálogo cotas
+= Utilize a caixa de diálogo Cotas no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

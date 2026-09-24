@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: available, iops, total iops, aggregate iops, volume iops 
 summary: O contador de IOPS disponível identifica o número restante de IOPS que pode ser adicionado a um nó ou a um agregado antes que o recurso atinja seu limite. O total de IOPS que um nó pode fornecer é baseado nas caraterísticas físicas do nó, por exemplo, o número de CPUs, a velocidade da CPU e a quantidade de RAM. O total de IOPS que um agregado pode fornecer é baseado nas propriedades físicas dos discos, por exemplo, um disco SATA, SAS ou SSD. 
 ---
-= O que é IOPS disponível
+= Entenda as IOPS disponíveis no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

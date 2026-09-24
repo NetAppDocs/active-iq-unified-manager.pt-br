@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, security, certificates 
 summary: Você pode configurar o HTTPS no servidor do Unified Manager para monitorar e gerenciar seus clusters em uma conexão segura. 
 ---
-= Gerenciar certificados de segurança
+= Gerencie certificados de segurança no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

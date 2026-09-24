@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dashboard page, 
 summary: 'A página do Dashboard tem "painéis" que exibem a capacidade, a performance e a integridade da segurança de alto nível dos clusters que você está monitorando. Esta página também fornece um painel ações de gerenciamento que lista as correções que o Unified Manager pode fazer para resolver determinados eventos.' 
 ---
-= Página do painel de instrumentos
+= Saiba mais sobre a página do painel de controle do Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

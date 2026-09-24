@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager ,rest api, reporting 
 summary: Você pode usar as APIS REST para ajudar a gerenciar clusters visualizando as informações de integridade, capacidade, desempenho e segurança capturadas pelo Unified Manager. 
 ---
-= APIs REST do Unified Manager que podem ser usadas para geração de relatórios
+= Use as APIs REST do Active IQ Unified Manager para geração de relatórios
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

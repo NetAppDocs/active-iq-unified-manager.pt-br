@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enclosures, events, impact area, availability, configuration 
 summary: Os eventos de compartimentos fornecem informações sobre o status dos compartimentos de gaveta de disco em seu data center para que você possa monitorar possíveis problemas. Os eventos são agrupados por área de impactos e incluem o nome do evento e da armadilha, o nível de impactos, o tipo de origem e a gravidade. 
 ---
-= Eventos de cercos
+= Saiba mais sobre eventos de enclausuramento no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

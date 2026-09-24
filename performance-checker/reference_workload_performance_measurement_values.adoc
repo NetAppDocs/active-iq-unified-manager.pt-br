@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload, performance, measurement, values 
 summary: O Unified Manager mede o desempenho de workloads em um cluster com base em valores estatísticos históricos e esperados, que formam a previsão de latência de valores para as cargas de trabalho. Ele compara os valores estatísticos reais de workload com a previsão de latência para determinar quando a performance do workload é muito alta ou muito baixa. Uma carga de trabalho que não está funcionando como esperado aciona um evento de desempenho dinâmico para notificá-lo. 
 ---
-= Valores de medição de performance de workload
+= Compreenda os valores de medição de desempenho da carga de trabalho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: alert, setup, page, command buttons, list view, details area 
 summary: A página Configuração de alertas exibe uma lista de alertas e fornece informações sobre o nome, o status, o método de notificação e a frequência de notificação do alerta. Você também pode adicionar, editar, remover, ativar ou desativar alertas desta página. 
 ---
-= Página Configuração de alerta
+= Saiba mais sobre a página de Configuração de Alertas no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, performance, monitoring, features 
 summary: O Unified Manager coleta e analisa estatísticas de performance de sistemas que executam o software ONTAP. Ele usa limites de desempenho dinâmicos e limites de desempenho definidos pelo usuário para monitorar uma variedade de contadores de desempenho em vários componentes do cluster. 
 ---
-= Recursos de monitoramento de desempenho do Unified Manager
+= Explore os recursos de monitoramento de desempenho do Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

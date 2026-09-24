@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, corrective action, storage failover, interconnect links 
 summary: Ao exibir a página de detalhes do evento de um evento relacionado ao failover de armazenamento, você pode revisar as informações resumidas da página para determinar a urgência do evento, a possível causa do problema e a possível resolução do problema. 
 ---
-= Executar ação corretiva para links de interconexão de failover de armazenamento inativos
+= Execute a ação corretiva para uma falha no link de interconexão de failover de armazenamento no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

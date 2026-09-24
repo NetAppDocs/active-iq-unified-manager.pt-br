@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, replication 
 summary: Você pode monitorar e diagnosticar a condição geral de integridade das conexões lógicas enquanto espelha os dados. Você pode identificar os problemas ou qualquer risco que interrompe o espelhamento de componentes de cluster, como agregados, nós e máquinas virtuais de storage. 
 ---
-= Monitorar a replicação do MetroCluster
+= Monitore a replicação do MetroCluster no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

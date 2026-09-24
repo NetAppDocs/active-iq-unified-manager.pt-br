@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, job, details 
 summary: Depois de iniciar um trabalho, pode monitorizar o seu progresso a partir da página Detalhes do trabalho e monitorizar as tarefas associadas relativamente a possíveis erros. 
 ---
-= Ver detalhes do trabalho
+= Veja os detalhes do trabalho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

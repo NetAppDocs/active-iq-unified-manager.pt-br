@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, setup, page, command, buttons, list, view 
 summary: A página Configuração do evento exibe a lista de eventos desativados e fornece informações como o tipo de objeto associado e a gravidade do evento. Você também pode executar tarefas como desabilitar ou habilitar eventos globalmente. 
 ---
-= Página Configuração do evento
+= Saiba mais sobre a página de Configuração de Eventos no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

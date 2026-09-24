@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: definitions, user roles 
 summary: O usuário de manutenção ou o administrador de aplicativos atribui uma função a cada usuário. Cada função contém determinados Privileges. O escopo das atividades que você pode executar no Unified Manager depende da função atribuída e de qual Privileges a função contém. 
 ---
-= Definições de funções de utilizador
+= Saiba mais sobre as funções de usuário no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

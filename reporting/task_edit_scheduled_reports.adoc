@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: editing, schedule, reports 
 summary: Depois que os relatórios forem agendados, você poderá editá-los na página Agenda de relatórios. 
 ---
-= Editar relatórios agendados
+= Edite relatórios agendados no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data mirror, status, definitions 
 summary: As configurações do MetroCluster oferecem espelhamento de dados e a capacidade adicional de iniciar um failover se um local inteiro ficar indisponível. O status do espelhamento de dados entre os clusters em uma configuração do MetroCluster pode ser normal ou Espelhamento indisponível. A compreensão do status permite que você gerencie suas configurações do MetroCluster com eficiência. 
 ---
-= Definições de status de espelhamento de dados para MetroCluster em FC
+= Saiba mais sobre o MetroCluster por espelhamento de dados FC no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

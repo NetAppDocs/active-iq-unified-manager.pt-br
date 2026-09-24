@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data center manager, third-party, products, upgrade 
 summary: Você pode atualizar produtos de terceiros, como JRE, no Unified Manager quando instalado em sistemas Windows. 
 ---
-= Atualizar produtos de terceiros
+= Atualize produtos de terceiro no Active IQ Unified Manager no Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

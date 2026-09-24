@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, relationship, dialog box 
 summary: Você pode editar um relacionamento de proteção existente para alterar a taxa de transferência máxima, a política de proteção ou o cronograma de proteção. 
 ---
-= Caixa de diálogo Editar relação
+= Editar uma relação de proteção no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

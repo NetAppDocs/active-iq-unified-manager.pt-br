@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, installation sequence 
 summary: O fluxo de trabalho de instalação descreve as tarefas que você deve executar antes de usar o Unified Manager. 
 ---
-= Descrição geral da sequência de instalação
+= Veja a sequência de instalação do Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance view 
 summary: visualização de performance de todos os objetos de storage 
 ---
-= Exibir páginas de inventário de desempenho para todos os objetos de armazenamento
+= Visualize as páginas de inventário de desempenho para todos os objetos de storage no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, volume, health, thresholds, groups 
 summary: Você pode configurar limites de integridade do volume em nível de grupo para capacidade, cópias Snapshot, cotas de qtree, crescimento e inodes. 
 ---
-= Configurar limites de integridade de volume para grupos
+= Configure os limites de integridade de volume para grupos no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs, page 
 summary: A página trabalhos permite visualizar o estado atual e outras informações sobre todos os trabalhos de proteção de aplicativos de parceiros que estão sendo executados no momento, bem como os trabalhos concluídos. Pode utilizar estas informações para ver quais trabalhos ainda estão a ser executados e se um trabalho foi bem-sucedido ou falhou. 
 ---
-= Página de trabalhos
+= Saiba mais sobre a página de jobs no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

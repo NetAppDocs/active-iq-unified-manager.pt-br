@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, active, events, notification, bell 
 summary: O sino de notificação na barra de menus fornece uma maneira rápida de exibir os eventos ativos mais importantes que o Unified Manager está rastreando. 
 ---
-= Visualizar eventos ativos no sino de notificação
+= Visualize os eventos ativos a partir do ícone de notificação no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

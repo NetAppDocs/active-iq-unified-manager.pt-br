@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: windows, log rotation issue, Netapp Manageability SDK 
 summary: 'Solução de problemas: siga estas etapas para resolver o problema de rotação de log' 
 ---
-= Problema de rotação de log do NetApp Manageability SDK em sistemas Windows
+= Resolva um problema de rotação de logs do NetApp Manageability SDK no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

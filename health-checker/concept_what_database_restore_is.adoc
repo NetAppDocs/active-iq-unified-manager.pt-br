@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, database, restore 
 summary: Uma restauração de banco de dados MySQL é o processo de restauração de um arquivo de backup do Unified Manager existente no mesmo ou em um servidor do Unified Manager diferente. Execute a operação de restauração a partir do console de manutenção do Unified Manager. 
 ---
-= O que é uma restauração de banco de dados
+= Saiba mais sobre restauração de banco de dados no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

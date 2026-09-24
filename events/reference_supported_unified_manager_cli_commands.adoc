@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: supported, unified manager, cli, commands, cmd, um cli, um run, 
 summary: Como administrador de storage, você pode usar os comandos de CLI para executar consultas nos objetos de storage, por exemplo, em clusters, agregados, volumes, qtrees e LUNs. 
 ---
-= Comandos de CLI do Unified Manager compatíveis
+= Saiba mais sobre os comandos da CLI do Active IQ Unified Manager compatíveis
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

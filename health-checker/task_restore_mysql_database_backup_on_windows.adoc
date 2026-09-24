@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, windows, mysql, database, backup 
 summary: Em caso de perda de dados ou corrupção de dados, você pode usar o recurso de restauração para restaurar o Unified Manager para o estado estável anterior, com perda mínima. Você pode restaurar o banco de dados MySQL do Unified Manager para um sistema Windows local ou um sistema Windows remoto usando o console de manutenção do Unified Manager. 
 ---
-= Restaurar um backup de banco de dados MySQL no Windows
+= Restaurar um backup de banco de dados MySQL no Windows no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

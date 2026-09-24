@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: requirements, install, unified manager 
 summary: Antes de iniciar o processo de instalação, verifique se o servidor no qual você deseja instalar o Unified Manager atende aos requisitos específicos de software, hardware, CPU e memória. 
 ---
-= Requisitos para instalar o Unified Manager
+= Certifique-se de que o servidor atenda aos requisitos de instalação do Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

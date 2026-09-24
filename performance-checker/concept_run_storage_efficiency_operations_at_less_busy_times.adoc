@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: run, storage, efficiency, operations, less, busy, times 
 summary: Você pode modificar a política ou a programação que lida com operações de eficiência de storage para execução quando os workloads de volume afetados estiverem menos ocupados. 
 ---
-= Execute operações de eficiência de storage em momentos menos ocupados
+= Agende operações de eficiência de storage para horários de menor movimento no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data, continuity, collection, cycle 
 summary: Um ciclo de coleta de continuidade de dados recupera dados de desempenho fora do ciclo de coleta de desempenho do cluster em tempo real que é executado, por padrão, a cada cinco minutos. As coletas de continuidade de dados permitem que o Unified Manager preencha lacunas de dados estatísticos que ocorrem quando não foi possível coletar dados em tempo real. 
 ---
-= O que é um ciclo de coleta de continuidade de dados
+= Compreenda os ciclos de coleta de continuidade de dados no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

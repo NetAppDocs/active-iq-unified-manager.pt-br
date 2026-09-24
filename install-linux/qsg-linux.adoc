@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quick start guide, getting started, QSG, Linux QSG, RHEL QSG, quick installation 
 summary: Guia de início rápido para Unified Manager na plataforma Linux. 
 ---
-= Instruções de início rápido para instalações Linux
+= Comece a usar o Active IQ Unified Manager no Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

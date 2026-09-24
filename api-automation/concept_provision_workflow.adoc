@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workflow, workload, management 
 summary: 'Com o Active IQ Unified Manager, você pode provisionar e modificar workloads de storage (LUNs, compartilhamentos de arquivos NFS e compartilhamentos CIFS). O provisionamento consiste em várias etapas, desde a criação da Storage Virtual Machine (SVM) até a aplicação de políticas de nível de serviço de performance e eficiência de storage nos workloads de storage. A modificação de cargas de trabalho consiste nas etapas para modificar parâmetros específicos e habilitar recursos adicionais neles.' 
 ---
-= Workflows de API para gerenciamento de workload
+= Provisione e modifique cargas de trabalho de armazenamento no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

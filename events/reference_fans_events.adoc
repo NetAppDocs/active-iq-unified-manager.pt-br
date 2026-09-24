@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fans, events, impact, area, availability 
 summary: Os eventos de fãs fornecem informações sobre os fãs de status nos nós do seu data center para que você possa monitorar se há problemas em potencial. Os eventos são agrupados por área de impactos e incluem o nome do evento e da armadilha, o nível de impactos, o tipo de origem e a gravidade. 
 ---
-= Eventos de fãs
+= Saiba mais sobre eventos de ventoinhas no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

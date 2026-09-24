@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: check, client, network, issues 
 summary: Quando os clientes conectados a volumes em um cluster aumentam suas solicitações de e/S, o cluster precisa trabalhar mais para atender à demanda. O aumento da demanda no cluster pode colocar um componente na contenção, aumentar a latência dos workloads que o usam e acionar um evento no Unified Manager. 
 ---
-= Verifique se há problemas de cliente ou rede
+= Entenda como problemas de cliente ou de rede afetam o desempenho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

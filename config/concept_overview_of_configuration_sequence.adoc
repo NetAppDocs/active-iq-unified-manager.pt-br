@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, configuration, sequence 
 summary: O fluxo de trabalho de configuração descreve as tarefas que você deve executar antes de usar o Unified Manager. 
 ---
-= Descrição geral da sequência de configuração
+= Saiba mais sobre a sequência de configuração no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

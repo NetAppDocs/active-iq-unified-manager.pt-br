@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, reaching, full capacity 
 summary: Você pode criar um relatório para localizar os agregados que estão atingindo a capacidade máxima para adicionar mais capacidade ou mover workloads para outros agregados. 
 ---
-= Crie um relatório para visualizar os agregados atingindo a capacidade máxima
+= Crie um relatório para visualizar os agregados que atingiram a capacidade máxima no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

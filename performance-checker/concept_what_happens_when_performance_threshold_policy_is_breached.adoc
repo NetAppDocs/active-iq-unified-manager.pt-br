@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policy, breached 
 summary: Quando um valor de contador excede seu valor limite de desempenho definido pelo período de tempo especificado na duração, o limite é violado e um evento é relatado. 
 ---
-= O que acontece quando uma política de limite de desempenho é violada
+= Responda às políticas de limite de desempenho violadas no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

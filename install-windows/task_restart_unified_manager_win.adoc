@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restart, unified manager 
 summary: Talvez seja necessário reiniciar o Unified Manager depois de fazer alterações de configuração. 
 ---
-= Reiniciar o Gerenciador Unificado
+= Reinicie o Active IQ Unified Manager no Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

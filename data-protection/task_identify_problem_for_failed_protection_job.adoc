@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, problem, perform, corrective actions, failed, protection job 
 summary: Você analisa a mensagem de erro de falha do trabalho no campo causa na página de detalhes do evento e determina que o trabalho falhou devido a um erro de cópia Snapshot. Em seguida, avance para a página de detalhes de volume / Saúde para obter mais informações. 
 ---
-= Identificar o problema e executar ações corretivas para um trabalho de proteção com falha
+= Identifique o problema e execute ações corretivas para uma tarefa de proteção com falha no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system-defined, performance, threshold, policies, cluster, node. aggregate, qos 
 summary: O Unified Manager fornece algumas políticas de limite padrão que monitoram o desempenho do cluster e geram eventos automaticamente. Essas políticas são habilitadas por padrão e geram eventos de aviso ou informações quando os limites de desempenho monitorados são violados. 
 ---
-= Tipos de políticas de limite de performance definidas pelo sistema
+= Compreenda as políticas de limite de desempenho definidas pelo sistema no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

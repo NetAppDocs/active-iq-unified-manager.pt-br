@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, aggregate, health details page 
 summary: Você pode usar a página de detalhes de agregado / integridade para exibir informações detalhadas sobre o agregado selecionado, como a capacidade, informações de disco, detalhes de configuração e eventos gerados. Você também pode exibir informações sobre os objetos relacionados e alertas relacionados para esse agregado. 
 ---
-= Página de detalhes agregados / Saúde
+= Visualize a página de detalhes de agregado/de saúde no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

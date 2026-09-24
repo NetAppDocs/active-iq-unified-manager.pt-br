@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quota, limits 
 summary: Limites de cota de usuário são valores que o servidor do Unified Manager usa para avaliar se o consumo de espaço por um usuário está se aproximando do limite ou atingiu o limite definido pela cota do usuário. Se o limite de software for cruzado ou se o limite rígido for atingido, o servidor do Unified Manager gera eventos de cota de usuário. 
 ---
-= Quais são os limites de cota
+= Saiba mais sobre os limites de cota no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

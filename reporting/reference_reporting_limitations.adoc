@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reporting, limitations 
 summary: Existem algumas limitações com a nova funcionalidade de relatórios do Active IQ Unified Manager, das quais você deve estar ciente. 
 ---
-= Limitações de relatórios
+= Compreenda as limitações de geração de relatórios no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

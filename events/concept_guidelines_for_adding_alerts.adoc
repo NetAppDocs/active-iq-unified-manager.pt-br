@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: guidelines, adding, alerts 
 summary: Você pode adicionar alertas com base em um recurso, como um cluster, nó, agregado ou volume, e eventos de um tipo de gravidade específico. Como prática recomendada, você pode adicionar um alerta para qualquer um dos seus objetos críticos depois de adicionar o cluster ao qual o objeto pertence. 
 ---
-= Diretrizes para adicionar alertas
+= Diretrizes para adicionar alertas no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

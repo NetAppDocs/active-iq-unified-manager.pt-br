@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: saml authentication page 
 summary: 'Você pode usar a página Autenticação SAML para configurar o Unified Manager para autenticar usuários remotos usando SAML por meio de um provedor de identidade seguro (IDP) antes que eles possam fazer login na IU da Web do Unified Manager.' 
 ---
-= Página Autenticação SAML
+= Utilize a página de autenticação SAML no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

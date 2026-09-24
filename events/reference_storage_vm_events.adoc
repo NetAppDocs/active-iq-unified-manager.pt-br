@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, vm events, impact area, availability, configuration, performance, security 
 summary: 'Os eventos de VM de storage fornecem informações sobre o status de suas VMs de storage (SVMs), para que você possa monitorar se há problemas em potencial. Os eventos são agrupados por área de impactos e incluem o nome do evento e da armadilha, o nível de impactos, o tipo de origem e a gravidade.' 
 ---
-= Eventos de VM de storage
+= Saiba mais sobre eventos de VMs de armazenamento no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

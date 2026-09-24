@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, deployment, process 
 summary: O fluxo de trabalho de implantação descreve as tarefas que você deve executar antes de usar o Unified Manager. 
 ---
-= Visão geral do processo de implantação
+= Saiba mais sobre o processo de implantação do Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

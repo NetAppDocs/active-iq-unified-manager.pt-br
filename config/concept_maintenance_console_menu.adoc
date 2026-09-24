@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: maintenance, console, menus 
 summary: O console de manutenção consiste em diferentes menus que permitem manter e gerenciar recursos especiais e configurações do servidor do Unified Manager. 
 ---
-= Menus da consola de manutenção
+= Saiba mais sobre os menus do console de manutenção no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

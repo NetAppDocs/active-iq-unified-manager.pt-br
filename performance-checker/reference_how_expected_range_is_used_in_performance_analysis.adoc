@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: latency, forecast, performance, analysis 
 summary: 'O Unified Manager usa a previsão de latência para representar a atividade típica de latência de e/S (tempo de resposta) dos workloads monitorados. Ele alerta quando a latência real de um workload está acima dos limites superiores da previsão de latência, que aciona um evento de performance dinâmico, para que você possa analisar o problema de performance e tomar medidas corretivas para resolvê-lo.' 
 ---
-= Como a previsão de latência é usada na análise de desempenho
+= Utilize a previsão de latência para análise de desempenho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

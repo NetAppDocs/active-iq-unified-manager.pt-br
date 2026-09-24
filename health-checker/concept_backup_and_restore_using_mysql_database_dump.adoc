@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, restore, using, mysql, database, dump, snapshot copy, copies 
 summary: Um backup de despejo de banco de dados MySQL é uma cópia do banco de dados Active IQ Unified Manager e arquivos de configuração que você pode usar em caso de falha do sistema ou perda de dados. Pode programar uma cópia de segurança para ser escrita num destino local ou num destino remoto. É altamente recomendável que você defina um local remoto externo ao sistema host Active IQ Unified Manager. 
 ---
-= Faça backup e restauração usando um despejo de banco de dados MySQL
+= Backup e restauração usando um dump do banco de dados MySQL no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: http, status, code, active iq, unified manager 
 summary: Ao executar as APIs ou solucionar problemas, você deve estar ciente dos vários códigos de status HTTP e códigos de erro usados pelas APIs do Active IQ Unified Manager. 
 ---
-= Códigos de status HTTP usados no Active IQ Unified Manager
+= Saiba mais sobre os códigos de status HTTP do Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

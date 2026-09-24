@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, protect, relationships, windows, dialog boxes 
 summary: Você pode visualizar e gerenciar detalhes relacionados à proteção, como pools de recursos, associações de SVM e tarefas de proteção. Você pode usar a página limites de integridade apropriados para configurar valores de limites globais de integridade para agregados, volumes e relacionamentos. 
 ---
-= Descrição das janelas de relacionamentos de proteção e caixas de diálogo
+= Gerencie os detalhes de proteção no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

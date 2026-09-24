@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: relationship, 1 month, transfer rate, view 
 summary: 'O modo de exibição relação: Taxa de transferência de 1 meses último permite analisar a quantidade de volume de dados que é transferido diariamente para volumes em relacionamentos assíncronos. Esta página também fornece detalhes sobre transferências diárias e o tempo necessário para concluir a operação de transferência de volumes e VMs de armazenamento.' 
 ---
-= Relação: Último 1 mês visualização da taxa de transferência
+= Exibir a relação: visualização da taxa de transferência do último mês no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

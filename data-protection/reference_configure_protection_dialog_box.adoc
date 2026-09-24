@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, protection, dialog box 
 summary: Você pode usar a caixa de diálogo Configurar proteção para criar relacionamentos SnapMirror e SnapVault para todos os volumes de leitura, gravação e proteção de dados nos clusters para garantir que os dados em um volume de origem ou volume primário sejam replicados. 
 ---
-= Caixa de diálogo Configurar proteção
+= Utilize a caixa de diálogo Configurar Proteção no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, monitor, clusters, cluster object, health 
 summary: O Unified Manager usa consultas periódicas de API e um mecanismo de coleta de dados para coletar dados dos clusters. Ao adicionar clusters ao banco de dados do Unified Manager, você pode monitorar e gerenciar esses clusters para verificar se há riscos de disponibilidade e capacidade. 
 ---
-= Gerenciamento e monitoramento de clusters e integridade de objetos do cluster
+= Gerencie e monitore clusters e a integridade de objetos de cluster no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

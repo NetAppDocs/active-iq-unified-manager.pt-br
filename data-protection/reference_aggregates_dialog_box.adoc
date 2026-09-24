@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aggregates, dialog box 
 summary: Você pode usar a caixa de diálogo agregados para selecionar os agregados que deseja adicionar ao pool de recursos. 
 ---
-= Caixa de diálogo agregados
+= Utilize a caixa de diálogo de agregações no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

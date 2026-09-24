@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, virtual, infrastructure, disaster, recovery, setup, datastores, metrocluster configuration 
 summary: 'Você pode visualizar as métricas de configuração e performance dos datastores hospedados em uma configuração do MetroCluster ou na configuração de recuperação de desastres (SVM DR) de máquina virtual de storage (Storage VM).' 
 ---
-= Visualizar infraestrutura virtual em uma configuração de recuperação de desastres
+= Visualize a infraestrutura virtual em um cenário de recuperação de desastres com o Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

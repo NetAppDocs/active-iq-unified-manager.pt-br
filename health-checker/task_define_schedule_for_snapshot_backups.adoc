@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: define, backup, schedule, linux, windows, snapshot copy, copies 
 summary: Você pode configurar a programação em que as cópias Snapshot do Unified Manager são criadas usando a IU do Unified Manager. 
 ---
-= Defina um agendamento de backup para Linux e Windows
+= Defina um cronograma de backup para Linux e Windows no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

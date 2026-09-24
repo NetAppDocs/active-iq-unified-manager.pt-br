@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, cluster, landing page 
 summary: A página de destino do cluster de desempenho exibe o status de desempenho de alto nível de um cluster selecionado. A página permite acessar detalhes completos de cada contador de desempenho para os objetos de armazenamento no cluster selecionado. 
 ---
-= Página inicial do cluster de desempenho
+= Analise a página inicial do Cluster de Desempenho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

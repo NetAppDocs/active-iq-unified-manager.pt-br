@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager 
 summary: Você pode fazer o upgrade para o Unified Manager no VMware vSphere 
 ---
-= Atualizar o Unified Manager
+= Atualize o Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

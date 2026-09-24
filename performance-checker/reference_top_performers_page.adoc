@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: top, performers, page 
 summary: 'A página principais executores exibe os objetos de armazenamento que têm o desempenho mais alto ou o desempenho mais baixo, com base no contador de desempenho selecionado. Por exemplo, na categoria VMs de armazenamento, você pode exibir os SVMs que têm o IOPS mais alto, a latência mais alta ou os MB/s. mais baixos Esta página também mostra se algum dos melhores artistas tem algum evento de desempenho ativo (novo ou reconhecido).' 
 ---
-= Página de melhores performers
+= Veja a página dos Melhores Desempenhos em Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

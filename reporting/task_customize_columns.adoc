@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, columns 
 summary: Use Mostrar/Ocultar para escolher as colunas que deseja usar no relatório. Arraste as colunas na página de inventário para reorganizá-las. 
 ---
-= Personalizar colunas
+= Personalize as colunas em um relatório no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

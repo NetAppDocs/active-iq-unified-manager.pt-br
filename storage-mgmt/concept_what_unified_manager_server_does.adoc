@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, server, does 
 summary: 'A infraestrutura de servidor do Unified Manager consiste em uma unidade de coleta de dados, um banco de dados e um servidor de aplicativos. Ele fornece serviços de infraestrutura como descoberta, monitoramento, controle de acesso baseado em funções (RBAC), auditoria e logs.' 
 ---
-= O que o servidor Unified Manager faz
+= Saiba mais sobre o servidor Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

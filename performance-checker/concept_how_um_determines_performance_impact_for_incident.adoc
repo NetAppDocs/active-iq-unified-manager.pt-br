@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, determines, performance, impact, event 
 summary: 'O Unified Manager usa o desvio na atividade, utilização, taxa de transferência de gravação, uso de componentes do cluster ou latência de e/S (tempo de resposta) para um workload a fim de determinar o nível de impacto na performance do workload. Essas informações determinam a função de cada carga de trabalho no evento e como eles são classificados na página de detalhes do evento.' 
 ---
-= Como o Unified Manager determina o impacto no desempenho de um evento
+= Entenda como o Active IQ Unified Manager determina o impacto no desempenho de um evento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

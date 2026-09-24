@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, groups 
 summary: Você pode excluir um grupo do Unified Manager quando o grupo não for mais necessário. 
 ---
-= Excluir grupos
+= Excluir grupos no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

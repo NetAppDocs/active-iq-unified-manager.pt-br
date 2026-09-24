@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rules, generate, user, group, quota, email, address, page, area, define, add comments, syntax, command buttons 
 summary: A página regras para gerar endereço de e-mail de cota de usuário e grupo permite criar regras para especificar endereços de e-mail com base na cota de usuário associada a clusters, SVMs, volumes, qtrees, usuários ou grupos de usuários. Uma notificação é enviada para o endereço de e-mail especificado quando uma cota é violada. 
 ---
-= Regras para gerar a página Endereço de e-mail de cota de usuário e grupo
+= Saiba mais sobre as regras de cota de endereços de e-mail no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asynchronous, mirror, vault, relationship, events, impact area, protection 
 summary: Os eventos de relacionamento de espelhamento assíncrono e cofre fornecem informações sobre o status de suas relações assíncronas do SnapMirror e do Vault para que você possa monitorar possíveis problemas. Os eventos Asynchronous Mirror e Vault relation são compatíveis tanto para relacionamentos de proteção de volume quanto Storage VM. Mas apenas as relações do Vault não são suportadas para recuperação de desastres da Storage VM. Os eventos são agrupados por área de impactos e incluem o nome do evento e da armadilha, o nível de impactos, o tipo de origem e a gravidade. 
 ---
-= Eventos de relacionamento com o Asynchronous Mirror e o Vault
+= Saiba mais sobre eventos de relação de espelhamento assíncrono e Vault no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

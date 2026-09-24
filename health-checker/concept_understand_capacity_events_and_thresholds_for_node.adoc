@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, events, thresholds, node, root, aggregates 
 summary: Você pode monitorar o agregado de raiz de nó usando o Unified Manager. A prática recomendada é provisionar rapidamente o volume raiz no agregado raiz para evitar que o nó pare. 
 ---
-= Entenda eventos e limites para agregados de raiz de nó
+= Compreenda os eventos e limites para agregados de raiz de nó no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

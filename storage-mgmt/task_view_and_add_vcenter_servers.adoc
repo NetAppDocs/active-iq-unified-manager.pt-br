@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, add, vcenter, server 
 summary: 'Para visualizar e solucionar problemas de desempenho das máquinas virtuais (VMs), os vCenter Servers associados devem ser adicionados à sua instância do Active IQ Unified Manager.' 
 ---
-= Visualizar e adicionar o vCenter Server
+= Visualize e adicione servidores vCenter no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

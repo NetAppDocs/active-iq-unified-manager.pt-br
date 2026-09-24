@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, annotations, manually, individual, storage objects 
 summary: Você pode anotar manualmente volumes, clusters e SVMs selecionados sem usar regras de anotação. Você pode anotar um único objeto de armazenamento ou vários objetos de armazenamento e especificar a combinação de par de nome-valor necessária para a anotação. 
 ---
-= Adicionar anotações manualmente a objetos de armazenamento individuais
+= Adicione anotações manualmente a objetos de storage individuais no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

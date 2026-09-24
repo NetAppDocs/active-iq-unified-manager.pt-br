@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, remote, authentication 
 summary: Você pode habilitar a autenticação remota para que o servidor do Unified Manager possa se comunicar com seus servidores de autenticação. Os usuários do servidor de autenticação podem acessar a interface gráfica do Unified Manager para gerenciar objetos e dados de storage. 
 ---
-= Ativar autenticação remota
+= Ative a autenticação remota no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

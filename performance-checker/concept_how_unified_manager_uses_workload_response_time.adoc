@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, workload, latency, identify, performance, issues 
 summary: 'A latência do workload (tempo de resposta) é o tempo necessário para um volume em um cluster responder a solicitações de e/S de aplicativos clientes. O Unified Manager usa a latência para detectar e alertar você sobre eventos de performance.' 
 ---
-= Como o Unified Manager usa a latência do workload para identificar problemas de performance
+= Use a latência da carga de trabalho para identificar problemas de desempenho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

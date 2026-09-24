@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, default, export, policy 
 summary: Você pode criar um relatório para localizar volumes que estejam usando a política de exportação padrão. 
 ---
-= Crie um relatório para visualizar volumes que estão usando a política de exportação padrão
+= Crie um relatório para visualizar volumes usando a política de exportação padrão no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

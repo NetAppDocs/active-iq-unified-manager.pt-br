@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, capacity, health, thresholds 
 summary: Um limite de integridade da capacidade de storage é o ponto em que o servidor do Unified Manager gera eventos para relatar qualquer problema de capacidade com objetos de storage. Você pode configurar alertas para enviar notificações sempre que tais eventos ocorrerem. 
 ---
-= Quais são os limites de integridade da capacidade de storage
+= Saiba mais sobre os limites de integridade da capacidade de storage no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

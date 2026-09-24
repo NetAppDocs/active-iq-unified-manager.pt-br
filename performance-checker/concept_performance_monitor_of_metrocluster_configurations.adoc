@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, monitor, metrocluster, throughput 
 summary: Com o Unified Manager, você monitora a taxa de transferência de gravação entre clusters em uma configuração do MetroCluster para identificar workloads com uma taxa de transferência de gravação alta. Se esses workloads de alta performance fizerem com que outros volumes no cluster local tenham tempos de resposta de e/S altos, o Unified Manager acionará eventos de desempenho para notificá-lo. 
 ---
-= Monitoramento de desempenho das configurações do MetroCluster
+= Monitore o desempenho do MetroCluster com o Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

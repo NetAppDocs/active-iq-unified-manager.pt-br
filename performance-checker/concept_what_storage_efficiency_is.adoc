@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, efficiency 
 summary: 'A eficiência de storage permite armazenar a quantidade máxima de dados pelo menor custo possível, além de acomodar o crescimento rápido dos dados e consumir menos espaço. A estratégia da NetApp para eficiência de storage é baseada na base incorporada da virtualização de storage e no storage unificado fornecida pelo sistema operacional ONTAP central e pelo sistema de arquivos Write Anywhere File Layout (WAFL).' 
 ---
-= Qual é a eficiência de storage
+= Entenda a eficiência de storage no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

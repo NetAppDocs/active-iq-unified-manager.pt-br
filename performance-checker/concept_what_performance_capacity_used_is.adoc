@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, used 
 summary: O contador de capacidade de desempenho usado ajuda a identificar se o desempenho de um nó ou de um agregado está atingindo um ponto em que o desempenho pode degradar se as cargas de trabalho aumentarem. Ele também pode mostrar se um nó ou agregado está sendo usado em excesso durante períodos específicos de tempo. A capacidade de performance usada é semelhante à utilização, mas a primeira fornece mais informações sobre os recursos de performance disponíveis em um recurso físico para uma carga de trabalho específica. 
 ---
-= Qual é a capacidade de desempenho utilizada
+= Entenda o contador de capacidade de desempenho usada no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

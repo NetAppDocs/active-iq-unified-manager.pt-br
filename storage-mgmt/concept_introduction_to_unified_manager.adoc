@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: introduction, active iq unified manager 
 summary: 'O Active IQ Unified Manager (anteriormente chamado Gerenciador Unificado de OnCommand) permite que você monitore e gerencie a integridade e a performance dos sistemas de storage da ONTAP com uma única interface.' 
 ---
-= Introdução ao Active IQ Unified Manager
+= Saiba mais sobre o Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

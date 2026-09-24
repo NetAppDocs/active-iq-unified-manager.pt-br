@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, annotations, dynamically 
 summary: 'Ao criar anotações personalizadas, o Unified Manager associa dinamicamente clusters, máquinas virtuais de armazenamento (SVMs) e volumes às anotações usando regras. Essas regras atribuem automaticamente as anotações a objetos de armazenamento.' 
 ---
-= Adicionar anotações dinamicamente
+= Adicione anotações dinamicamente no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

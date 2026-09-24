@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, nodes, running, older versions, ONTAP 
 summary: Você pode criar um relatório para exibir a versão do software ONTAP instalada em todos os nós de cluster para que você possa ver quais nós deve atualizar. 
 ---
-= Crie um relatório para visualizar nós executando versões mais antigas do ONTAP
+= Crie um relatório para visualizar os nós que executam versões antigas do ONTAP no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

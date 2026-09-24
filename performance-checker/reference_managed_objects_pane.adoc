@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managed, objects, pane 
 summary: O painel objetos gerenciados na guia Resumo de desempenho fornece uma visão geral de nível superior dos tipos e contagens de objetos de storage para o cluster. Esse painel permite rastrear o status dos objetos em cada cluster. 
 ---
-= Painel objetos gerenciados
+= Analise o painel Objetos Gerenciados no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

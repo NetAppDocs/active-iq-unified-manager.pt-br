@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Common, unified, manager, health, workflows, tasks 
 summary: 'Alguns fluxos de trabalho administrativos e tarefas comuns associados ao Unified Manager incluem a seleção dos clusters de storage que devem ser monitorados; o diagnóstico de condições que afetam negativamente a disponibilidade, a capacidade e a proteção dos dados; a restauração de dados perdidos; a configuração e o gerenciamento de volumes; e o agrupamento e o envio de dados de diagnóstico para o suporte técnico (quando necessário).' 
 ---
-= Tarefas e workflows de integridade do Unified Manager comuns
+= Compreenda os fluxos de trabalho e tarefas comuns de saúde do Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

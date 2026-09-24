@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, state, definitions 
 summary: O estado de um evento ajuda a identificar se é necessária uma ação corretiva adequada. Um evento pode ser novo, reconhecido, resolvido ou Obsoleto. Observe que eventos novos e reconhecidos são considerados eventos ativos. 
 ---
-= Definições de estado do evento
+= Estados de eventos no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

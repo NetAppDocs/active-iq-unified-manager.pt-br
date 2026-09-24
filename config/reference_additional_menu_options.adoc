@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: additional menu, options 
 summary: As opções de menu a seguir permitem executar várias tarefas administrativas no servidor do Unified Manager. 
 ---
-= Opções de menu adicionais
+= Saiba mais sobre as opções adicionais do menu do console de manutenção no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

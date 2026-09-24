@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, quota, process 
 summary: As quotas podem ser suaves ou difíceis. As cotas flexíveis fazem com que o ONTAP envie uma notificação quando os limites especificados forem excedidos e as cotas rígidas impedem que uma operação de gravação seja bem-sucedida quando os limites especificados forem excedidos. 
 ---
-= Visão geral do processo de cota
+= Saiba mais sobre o processo de cotas do Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

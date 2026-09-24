@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, user, roles, capabilities 
 summary: Com base na função de usuário atribuída, você pode determinar quais operações podem ser executadas no Unified Manager. 
 ---
-= Funções e recursos de usuário do Unified Manager
+= Saiba mais sobre funções e capacidades de usuário no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

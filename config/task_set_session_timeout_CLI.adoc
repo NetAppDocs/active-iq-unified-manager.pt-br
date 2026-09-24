@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: session timeout, CLI, maximum 
 summary: Você pode definir um valor máximo de tempo limite da sessão para o Unified Manager usando a CLI para que a sessão seja encerrada automaticamente após um determinado período de tempo. 
 ---
-= Defina o tempo limite da sessão através da CLI
+= Defina o tempo limite da sessão usando a CLI no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

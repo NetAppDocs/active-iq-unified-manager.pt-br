@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, event, impact, areas 
 summary: 'Os eventos são categorizados em seis áreas de impactos (disponibilidade, capacidade, configuração, desempenho, proteção e segurança) para que você possa se concentrar nos tipos de eventos pelos quais você é responsável.' 
 ---
-= Descrição das áreas de impactos de eventos
+= Saiba mais sobre as áreas de impacto de eventos no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expected, range, performance, latency, forecast, formed 
 summary: A previsão de latência é uma previsão do que os valores de desempenho superior e inferior devem ser em um momento específico. Para a latência do workload, os valores superiores formam o limite de performance. Quando o valor real cruza o limite de performance, o Unified Manager aciona um evento de performance dinâmico. 
 ---
-= Qual é a faixa de desempenho esperada
+= Entenda como o Active IQ Unified Manager calcula a faixa de desempenho esperada
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

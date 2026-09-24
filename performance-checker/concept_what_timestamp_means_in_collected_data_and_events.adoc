@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: timestamp, means, collected, data, events 
 summary: O carimbo de data/hora que aparece nos dados de integridade e desempenho coletados, ou que aparece como hora de deteção de um evento, é baseado na hora do cluster do ONTAP, ajustada ao fuso horário definido no navegador da Web. 
 ---
-= O que significa o timestamp em dados e eventos coletados
+= Saiba mais sobre os registros de data e hora nos dados e eventos coletados no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

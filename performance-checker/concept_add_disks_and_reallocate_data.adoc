@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disks, reallocate, data 
 summary: Você pode adicionar discos a um agregado para aumentar a capacidade de storage e o desempenho desse agregado. Depois de adicionar os discos, você verá uma melhoria no desempenho de leitura somente depois de realocá-los entre os discos adicionados. 
 ---
-= Adicionar discos e realocar dados
+= Entenda como a adição de discos afeta a realocação de dados no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

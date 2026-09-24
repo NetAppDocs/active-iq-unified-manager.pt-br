@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, troubleshoot, data availability 
 summary: O Unified Manager monitora a confiabilidade com a qual os usuários autorizados podem acessar seus dados armazenados, emite alertas sobre condições que bloqueiam ou impedem esse acesso e permite diagnosticar essas condições e atribuir e rastrear sua resolução. 
 ---
-= Monitorar e solucionar problemas de disponibilidade de dados
+= Monitore e solucione problemas de disponibilidade de dados no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

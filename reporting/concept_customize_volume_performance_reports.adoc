@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, volume, performance, reports 
 summary: Esses relatórios personalizados de amostra são usados para ajudá-lo a identificar e responder a possíveis problemas relacionados ao desempenho de volume. 
 ---
-= Personalize relatórios de desempenho de volume
+= Personalize os relatórios de desempenho de volume no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policy, changed 
 summary: Se você ajustar o valor do contador ou a duração de uma política de limite de desempenho existente, a alteração de política será aplicada a todos os objetos de armazenamento que usam a diretiva. A nova configuração ocorre imediatamente e o Unified Manager começa a comparar os valores do contador de desempenho com as novas configurações de limite para todos os dados de desempenho recém-coletados. 
 ---
-= O que acontece quando uma política de limite de desempenho é alterada
+= Entenda as alterações nas políticas de limite de desempenho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

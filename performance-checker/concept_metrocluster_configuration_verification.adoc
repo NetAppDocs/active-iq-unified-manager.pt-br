@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: metrocluster, configuration, verification 
 summary: Você pode evitar problemas de desempenho de workloads espelhados em uma configuração do MetroCluster garantindo que a configuração do MetroCluster esteja configurada corretamente. Você também pode melhorar a performance do workload alterando a configuração ou atualizando componentes de software ou hardware. 
 ---
-= Verificação da configuração do MetroCluster
+= Verifique as configurações do MetroCluster no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

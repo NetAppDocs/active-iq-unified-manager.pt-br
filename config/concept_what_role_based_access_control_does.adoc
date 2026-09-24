@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: role-based, access, control 
 summary: 'O controle de acesso baseado em função (RBAC) permite que os administradores gerenciem grupos de usuários definindo funções. Se você precisar restringir o acesso para funcionalidades específicas aos administradores selecionados, você deverá configurar contas de administrador para eles. Se você quiser restringir as informações que os administradores podem exibir e as operações que podem executar, você deve aplicar funções às contas de administrador criadas.' 
 ---
-= Que controle de acesso baseado em função faz
+= Saiba mais sobre controle de acesso baseado em funções no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-O controle de acesso baseado em função (RBAC) permite que os administradores gerenciem grupos de usuários definindo funções. Se você precisar restringir o acesso para funcionalidades específicas aos administradores selecionados, você deverá configurar contas de administrador para eles. Se você quiser restringir as informações que os administradores podem exibir e as operações que podem executar, você deve aplicar funções às contas de administrador criadas.
+O RBAC (controle de acesso baseado em funções) oferece a capacidade de controlar quem tem acesso a vários recursos e funcionalidades no servidor do Active IQ Unified Manager. O RBAC permite que os administradores gerenciem grupos de usuários definindo funções. Se você precisar restringir o acesso a funcionalidades específicas para administradores selecionados, será necessário configurar contas de administrador para eles. Se você quiser restringir as informações que os administradores podem visualizar e as operações que podem executar, será necessário aplicar funções às contas de administrador que você criar.
 
 O servidor de gerenciamento usa o RBAC para login de usuário e permissões de função. Se você não alterou as configurações padrão do servidor de gerenciamento para acesso administrativo ao usuário, não será necessário fazer login para visualizá-las.
 

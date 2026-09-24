@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager, windows 
 summary: É importante que você entenda a sequência de etapas para baixar e instalar o Unified Manager no Windows. 
 ---
-= Instalar o Unified Manager no Windows
+= Instale o Active IQ Unified Manager no Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

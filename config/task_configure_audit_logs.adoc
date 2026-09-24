@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, audit logs 
 summary: Você pode usar o botão Configurar na seção Logs de auditoria para configurar a política de rolagem para arquivos de log de auditoria e também ativar o log remoto para os Logs de auditoria. 
 ---
-= Configurar os registros de auditoria do Unified Manager
+= Configurar os registros de auditoria do Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

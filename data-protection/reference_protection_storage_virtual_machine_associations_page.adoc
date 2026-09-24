@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: svm, association, page 
 summary: A página de associação Storage VM permite visualizar associações de VM de armazenamento existentes entre VMs de armazenamento de origem e destino. 
 ---
-= Entenda as associações de VM de armazenamento
+= Gerencie as associações de máquinas virtuais de armazenamento no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

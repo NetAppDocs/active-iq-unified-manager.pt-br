@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, relationships, metrocluster 
 summary: 'A exibição relação: Todas as relações exibe informações sobre relacionamentos de proteção no sistema de armazenamento.' 
 ---
-= Relacionamento: Todos os relacionamentos são exibidos
+= Exibir a relação: visualização de todas as relações no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

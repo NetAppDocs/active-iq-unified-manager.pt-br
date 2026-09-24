@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, alerts 
 summary: Você pode configurar alertas para enviar notificações automaticamente quando eventos ou eventos específicos de determinados tipos de gravidade ocorrerem. Você também pode associar um alerta a um script que é executado quando um alerta é acionado. 
 ---
-= Gerenciar alertas
+= Saiba mais sobre alertas no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

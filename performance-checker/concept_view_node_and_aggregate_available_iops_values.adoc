@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, available, iops, values 
 summary: Você pode monitorar os valores de IOPS disponíveis para todos os nós ou para todos os agregados em um cluster, ou visualizar detalhes de um único nó ou agregado. 
 ---
-= Exibir valores de IOPS disponíveis para nós e agregados
+= Visualize os valores de IOPS disponíveis para nós e agregados no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

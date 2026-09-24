@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, events, alerts 
 summary: Os eventos de desempenho são notificações que o Unified Manager gera automaticamente quando ocorre uma condição predefinida ou quando um valor do contador de desempenho cruza um limite. Os eventos ajudam a identificar problemas de desempenho nos clusters monitorados. 
 ---
-= Entenda eventos de desempenho e alertas
+= Compreenda os eventos e alertas de desempenho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

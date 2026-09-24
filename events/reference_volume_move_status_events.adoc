@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, move, status, events, impact area, capacity 
 summary: Os eventos de status de movimentação de volume informam sobre o status da movimentação de volume para que você possa monitorar possíveis problemas. Os eventos são agrupados por área de impactos e incluem o nome do evento e da armadilha, o nível de impactos, o tipo de origem e a gravidade. 
 ---
-= Eventos de status de movimentação de volume
+= Saiba mais sobre eventos de status de movimentação de volume no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

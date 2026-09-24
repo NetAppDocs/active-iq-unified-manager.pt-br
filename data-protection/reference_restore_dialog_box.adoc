@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, dialog box 
 summary: Você pode usar a caixa de diálogo Restaurar para restaurar dados para um volume de uma cópia Snapshot específica. 
 ---
-= Caixa de diálogo Restaurar
+= Utilize a caixa de diálogo Restaurar no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, group, volume, relationships, source, failure 
 summary: Você pode criar um relatório que agrupa volumes pelo motivo pelo qual o relacionamento está em um estado não saudável. 
 ---
-= Crie um relatório para agrupar relacionamentos de volume por fonte de falha
+= Crie um relatório para agrupar as relações de volume por origem da falha no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

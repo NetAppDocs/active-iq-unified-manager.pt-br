@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: complete, worksheet, installation, information, unified manager 
 summary: Antes de instalar e configurar o Unified Manager, você deve ter informações específicas sobre seu ambiente prontamente disponíveis. Pode registar as informações na folha de trabalho. 
 ---
-= Complete a Planilha
+= Preencha a planilha no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

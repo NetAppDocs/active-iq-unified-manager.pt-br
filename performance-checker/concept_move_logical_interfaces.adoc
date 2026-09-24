@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, logical, interfaces, lifs 
 summary: 'Mover interfaces lógicas (LIFs) para uma porta menos ocupada pode ajudar a melhorar o balanceamento de carga, auxiliar nas operações de manutenção e ajuste de desempenho e reduzir o acesso indireto.' 
 ---
-= Mover interfaces lógicas (LIFs)
+= Mova os LIFs para melhorar o desempenho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

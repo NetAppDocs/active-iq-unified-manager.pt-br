@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: network configuration menu 
 summary: 'O menu Network Configuration (Configuração de rede) permite gerir as definições de rede. Você deve usar esse menu quando a interface de usuário do Unified Manager não estiver disponível.' 
 ---
-= Menu Network Configuration (Configuração da rede)
+= Menu de configuração de rede no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

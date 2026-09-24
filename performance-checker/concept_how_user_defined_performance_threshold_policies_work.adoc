@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user-defined, performance, threshold, policies, work 
 summary: 'Você define políticas de limite de performance em objetos de storage (por exemplo, em agregados e volumes) para que um evento possa ser enviado ao administrador de storage para informar ao administrador de que o cluster está com um problema de performance.' 
 ---
-= Como funcionam as políticas de limite de performance definidas pelo usuário
+= Utilize políticas de limite de desempenho definidas pelo usuário no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

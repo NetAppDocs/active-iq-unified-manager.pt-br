@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, storage, workloads 
 summary: A modificação de workloads de storage consiste na atualização de LUNs ou compartilhamentos de arquivos com parâmetros ausentes ou na alteração dos parâmetros existentes. 
 ---
-= Modifique cargas de trabalho de armazenamento usando APIs
+= Modifique as cargas de trabalho de armazenamento usando APIs no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

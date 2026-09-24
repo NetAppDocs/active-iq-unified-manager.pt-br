@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reorder, group actions 
 summary: Você pode alterar a ordem das ações de grupo que devem ser aplicadas aos objetos de armazenamento em um grupo. As ações de grupo são aplicadas a objetos de armazenamento sequencialmente com base em sua classificação. A classificação mais baixa é atribuída à ação de grupo que você configurou por último. Você pode alterar a classificação da ação do grupo dependendo de seus requisitos. 
 ---
-= Reordenar ações de grupo
+= Reordene as ações do grupo no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

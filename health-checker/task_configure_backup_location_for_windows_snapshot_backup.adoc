@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, backup, location, windows, snapshot copy, copies 
 summary: Você deve configurar o volume para armazenar cópias Snapshot após fazer backup do Unified Manager no Windows. 
 ---
-= Configurar local de backup para Windows
+= Configure um local de backup para o Active IQ Unified Manager no Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: login banner, feature settings 
 summary: Este recurso permite que sua organização exiba qualquer informação, como, quem tem permissão de acesso ao sistema e os termos e condições de uso durante o login e logout. 
 ---
-= Adicionar banner de login
+= Adicione um banner de login no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

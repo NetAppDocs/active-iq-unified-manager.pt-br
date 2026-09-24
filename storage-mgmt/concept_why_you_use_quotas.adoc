@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, quotas 
 summary: Você pode usar cotas para limitar o uso de recursos em volumes do FlexVol, fornecer notificações quando o uso de recursos atingir níveis específicos ou controlar o uso dos recursos. 
 ---
-= Por que você usa cotas
+= Saiba mais sobre cotas no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, event, windows, dialog boxes 
 summary: Eventos notificá-lo sobre quaisquer problemas em seu ambiente. Você pode usar a página de inventário de Gerenciamento de Eventos e a página de detalhes do evento para monitorar todos os eventos. Você pode usar a caixa de diálogo Opções de configuração de notificação para configurar a notificação. Pode utilizar a página Configuração de eventos para desativar ou ativar eventos. 
 ---
-= Descrição das janelas de eventos e caixas de diálogo
+= Saiba mais sobre janelas de eventos e caixas de diálogo no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

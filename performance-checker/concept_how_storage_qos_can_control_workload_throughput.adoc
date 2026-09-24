@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, qos, control, workload, throughput 
 summary: 'Você pode criar um grupo de políticas de qualidade do serviço (QoS) para controlar o limite de e/S por segundo (IOPS) ou taxa de transferência (MB/s) para os workloads nele contidos. Se as cargas de trabalho estiverem em um grupo de políticas sem limite definido, como o grupo de políticas padrão ou o limite definido não atender às suas necessidades, você poderá aumentar o limite ou mover as cargas de trabalho para um grupo de políticas novo ou existente que tenha o limite desejado.' 
 ---
-= Como a QoS do storage pode controlar a taxa de transferência de workload
+= Controle a taxa de transferência da carga de trabalho com QoS de storage no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

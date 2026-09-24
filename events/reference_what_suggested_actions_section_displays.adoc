@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: suggest, actions, section, displays 
 summary: A seção ações sugeridas da página de detalhes do evento fornece possíveis razões para o evento e sugere algumas ações para que você possa tentar resolver o evento por conta própria. As ações sugeridas são personalizadas com base no tipo de evento ou tipo de limite que foi violado. 
 ---
-= O que a seção ações sugeridas é exibida
+= Saiba mais sobre as ações sugeridas no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

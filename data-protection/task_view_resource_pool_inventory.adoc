@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, resource pools, inventory 
 summary: Você pode usar a página pools de recursos para exibir o inventário do pool de recursos e monitorar a capacidade restante de cada pool de recursos. 
 ---
-= Ver inventário de pools de recursos
+= Visualize o inventário do pool de recursos no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

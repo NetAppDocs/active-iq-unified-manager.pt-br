@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, cluster, performance, performance, cluster, landing, page 
 summary: A página de destino do cluster de desempenho exibe o status de desempenho de alto nível de um cluster selecionado que está sendo monitorado por uma instância do Unified Manager. Esta página permite avaliar o desempenho geral de um cluster específico e anotar, localizar ou atribuir rapidamente para resolução quaisquer eventos específicos de cluster identificados. 
 ---
-= Monitore o desempenho do cluster na página inicial do Performance Cluster
+= Monitore o desempenho do cluster na página inicial de desempenho do cluster no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

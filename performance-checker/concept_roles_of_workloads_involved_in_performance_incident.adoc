@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: roles, workloads, involved, performance, event 
 summary: O Unified Manager usa funções para identificar o envolvimento de um workload em um evento de performance. Os papéis incluem vítimas, agressores e tubarões. Uma carga de trabalho definida pelo usuário pode ser uma vítima, um valentão e um tubarão ao mesmo tempo. 
 ---
-= Funções dos workloads envolvidos em um evento de desempenho
+= Identifique funções de carga de trabalho em eventos de desempenho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

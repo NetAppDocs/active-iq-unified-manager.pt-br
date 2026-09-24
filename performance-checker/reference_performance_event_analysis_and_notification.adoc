@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, event, analysis, notification 
 summary: Os eventos de desempenho notificam você sobre problemas de desempenho de e/S em uma carga de trabalho causada pela contenção em um componente do cluster. O Unified Manager analisa o evento para identificar todos os workloads envolvidos, o componente em contenção e se o evento ainda é um problema que talvez você precise resolver. 
 ---
-= Análise e notificação de eventos de performance
+= Analise eventos de desempenho e notificações no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

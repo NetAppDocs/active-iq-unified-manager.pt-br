@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, shelf, events, impact area, availability 
 summary: Os eventos do compartimento de armazenamento informam se o compartimento de armazenamento apresenta alterações anormais, para que você possa monitorar se há problemas em potencial. Os eventos são agrupados por área de impactos e incluem o nome do evento e da armadilha, o nível de impactos, o tipo de origem e a gravidade. 
 ---
-= Eventos de prateleira de armazenamento
+= Saiba mais sobre eventos de armazenamento em prateleiras no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

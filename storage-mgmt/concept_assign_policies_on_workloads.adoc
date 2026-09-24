@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls 
 summary: 'Você pode atribuir políticas de eficiência de storage (SEPs) e níveis de serviço de performance (PSLs) a workloads de storage na página todos os workloads usando as diferentes opções de navegação.' 
 ---
-= Atribuir políticas a cargas de trabalho
+= Atribua políticas às cargas de trabalho no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

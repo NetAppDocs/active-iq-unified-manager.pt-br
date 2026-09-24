@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, health details page 
 summary: 'A página de detalhes de cluster/integridade fornece informações detalhadas sobre um cluster selecionado, como detalhes de integridade, capacidade e configuração. Você também pode exibir informações sobre as interfaces de rede (LIFs), nós, discos, dispositivos relacionados e alertas relacionados para o cluster.' 
 ---
-= Página de detalhes de cluster / Saúde
+= Visualize a página de detalhes do cluster/saúde em Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

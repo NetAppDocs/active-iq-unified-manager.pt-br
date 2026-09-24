@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: snapshot, events, impact area, availability 
 summary: Os eventos de snapshot fornecem informações sobre o status dos snapshots, o que permite monitorar os snapshots em busca de possíveis problemas. Os eventos são agrupados por área de impactos e incluem o nome do evento, o nome da armadilha, o nível de impactos, o tipo de origem e a gravidade. 
 ---
-= Eventos de snapshot
+= Saiba mais sobre eventos de Snapshot no Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
