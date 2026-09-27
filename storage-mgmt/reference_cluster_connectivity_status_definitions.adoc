@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_cluster_connectivity_status_definitions.html 
 sidebar: sidebar 
 keywords: cluster, connectivity, status, definitions 
-summary: 'A conetividade entre os clusters em uma configuração do MetroCluster pode ser um dos seguintes status: Ideal, impactado ou inativo. Compreender os Estados de conetividade permite-lhe gerir eficazmente as suas configurações do MetroCluster.' 
+summary: Compreenda os status de conectividade entre clusters em uma configuração do MetroCluster, como Ideal, Impactado ou Inativo. 
 ---
 = Entenda a conectividade do cluster em uma configuração do MetroCluster sobre FC no Active IQ Unified Manager
 :allow-uri-read: 

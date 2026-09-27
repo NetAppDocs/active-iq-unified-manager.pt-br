@@ -83,7 +83,7 @@ Restaura os dados selecionados para um novo local:
 +
 ** Restaurar caminho
 +
-Especifica um caminho alternativo para restaurar os dados selecionados. O caminho já deve existir. Você pode usar o botão *Procurar* para navegar até o local onde deseja que os dados sejam restaurados ou pode inserir o caminho manualmente usando o cluster de formatos://svm/volume/caminho.
+Especifica um caminho alternativo para restaurar os dados selecionados. O caminho já deve existir. Você pode usar o botão *Procurar* para navegar até o local onde deseja restaurar os dados ou pode inserir o caminho manualmente usando o formato `cluster://svm/volume/path`.
 
 ** Preservar a hierarquia de diretórios
 +

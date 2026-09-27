@@ -3,13 +3,13 @@ section: data-protection
 title: Proteger e restaurar dados
 entries:
 - title: Criar e solucionar problemas de relacionamentos de proteção
-  url: "/data-protection/concept_create_and_monitor_protection_relationships.html"
   entries:
   - title: Tipos de proteção SnapMirror
     url: "/data-protection/concept_types_of_snapmirror_protection.html"
   - title: Configurar relacionamentos de proteção no Unified Manager
-    url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
     entries:
+    - title: Saiba mais sobre como estabelecer relações de proteção
+      url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
     - title: Configurar uma conexão entre o Workflow Automation e o Unified Manager
       url: "/data-protection/task_configure_connection_between_workflow_automation_um.html"
     - title: Verificar o cache da fonte de dados do Unified Manager no Workflow Automation
@@ -20,8 +20,9 @@ entries:
     - title: Remover a configuração do OnCommand Workflow Automation do Unified Manager
       url: "/data-protection/task_remove_workflow_automation.html"
   - title: Executar failover e failback de relacionamento de proteção
-    url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     entries:
+    - title: Saiba mais sobre failover e failback
+      url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     - title: Interromper um relacionamento SnapMirror na página de detalhes de integridade
         do volume
       url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
@@ -35,16 +36,18 @@ entries:
         do volume
       url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
   - title: Resolver uma falha de trabalho de proteção
-    url: "/data-protection/task_resolve_protection_job_failure.html"
     entries:
+    - title: Aprenda como resolver uma falha na tarefa de proteção
+      url: "/data-protection/task_resolve_protection_job_failure.html"
     - title: Identificar o problema e executar ações corretivas para um trabalho de
         proteção com falha
       url: "/data-protection/task_identify_problem_for_failed_protection_job.html"
   - title: Resolver problemas de atraso
     url: "/data-protection/task_resolve_lag_issues.html"
 - title: Gerenciar e monitorar relacionamentos de proteção
-  url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
   entries:
+  - title: Aprenda sobre como gerenciar e monitorar relações de proteção
+    url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
   - title: Exibir status de proteção de volume
     url: "/data-protection/view-protection-status.html"
   - title: Exibir relacionamentos de proteção de volume
@@ -133,8 +136,10 @@ entries:
     url: "/data-protection/task_delete_resource_pools.html"
   - title: Monitorar relacionamentos de proteção de recuperação de desastres de VM
       de armazenamento
-    url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
     entries:
+    - title: Saiba mais sobre os relacionamentos de recuperação de desastres de máquinas
+        virtuais de storage
+      url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
     - title: Monitorar VMs de armazenamento usando a página Relacionamentos
       url: "/data-protection/task_monitor_storage_vms_using_relationships_page.html"
     - title: Exibir relacionamentos de proteção na página VMs de armazenamento
@@ -156,7 +161,6 @@ entries:
   - title: Repetir uma tarefa de proteção com falha
     url: "/data-protection/task_retry_failed_protection_job.html"
   - title: Descrição das janelas de relacionamentos de proteção e caixas de diálogo
-    url: "/data-protection/reference_description_of_protection_relationships_window.html"
     entries:
     - title: Página de pools de recursos
       url: "/data-protection/reference_resource_pools_page.html"

@@ -3,15 +3,17 @@ section: install-windows
 title: Instale o Unified Manager em sistemas Windows
 entries:
 - title: Introdução ao Active IQ Unified Manager
-  url: "/install-windows/concept_introduction_to_unified_manager.html"
   entries:
+  - title: Saiba mais sobre o Active IQ Unified Manager
+    url: "/install-windows/concept_introduction_to_unified_manager.html"
   - title: O que o servidor Unified Manager faz
     url: "/install-windows/concept_what_unified_manager_server_does.html"
   - title: Descrição geral da sequência de instalação
     url: "/install-windows/concept_overview_of_installation_sequence_um.html"
 - title: Requisitos para instalar o Unified Manager
-  url: "/install-windows/concept_requirements_for_installing_unified_manager.html"
   entries:
+  - title: Entenda os requisitos para instalar o Unified Manager
+    url: "/install-windows/concept_requirements_for_installing_unified_manager.html"
   - title: Requisitos de infraestrutura virtual e sistema de hardware
     url: "/install-windows/concept_virtual_infrastructure_or_hardware_system_requirements.html"
   - title: Requisitos de software e instalação do Windows
@@ -23,12 +25,10 @@ entries:
   - title: Complete a Planilha
     url: "/install-windows/reference_complete_worksheet_um.html"
 - title: Instalar, atualizar e remover o software Unified Manager
-  url: "/install-windows/concept_install_upgrade_and_remove_unified_manager_software.html"
   entries:
   - title: Visão geral do processo de instalação
     url: "/install-windows/concept_overview_of_installation_process_on_windows.html"
   - title: Instalar o Unified Manager no Windows
-    url: "/install-windows/concept_install_unified_manager_windows.html"
     entries:
     - title: Instale o Unified Manager
       url: "/install-windows/task_install_unified_manager_on_windows.html"
@@ -41,8 +41,9 @@ entries:
   - title: Atualizar o Unified Manager
     url: "/install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html"
   - title: Atualizar produtos de terceiros
-    url: "/install-windows/concept_upgrade_third_party_products_on_windows_um.html"
     entries:
+    - title: Saiba mais sobre como atualizar produtos de terceiros
+      url: "/install-windows/concept_upgrade_third_party_products_on_windows_um.html"
     - title: Atualize o OpenJDK
       url: "/install-windows/task_upgrade_openjdk_on_windows_ocum.html"
   - title: Desinstalar produtos de terceiros

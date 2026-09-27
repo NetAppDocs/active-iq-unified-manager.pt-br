@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_details_about_nfs_shares.html 
 sidebar: sidebar 
 keywords: view, details, nfs shares 
-summary: 'É possível visualizar detalhes sobre todos os compartilhamentos NFS, como status, caminho associado ao volume (volumes FlexGroup ou volumes FlexVol), níveis de acesso dos clientes aos compartilhamentos NFS e a política de exportação definida para os volumes exportados. Uso da visualização integridade: Todos os compartilhamentos NFS para ver todos os compartilhamentos NFS em todos os clusters monitorados e usar a página de detalhes de integridade/VM de storage para visualizar todos os compartilhamentos NFS em uma máquina virtual de storage específica (SVM).' 
+summary: 'Veja detalhes sobre os compartilhamentos NFS, como status, caminho do volume, níveis de acesso do cliente e política de exportação, usando a visualização "Todos os Compartilhamentos NFS" na página "Saúde".' 
 ---
 = Veja detalhes sobre os compartilhamentos NFS no Active IQ Unified Manager
 :allow-uri-read: 

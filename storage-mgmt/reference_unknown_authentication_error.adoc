@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_unknown_authentication_error.html 
 sidebar: sidebar 
 keywords: unknown, authentication, error 
-summary: 'Solução de problemas: Erro de autenticação desconhecido' 
+summary: Solucione um erro de autenticação desconhecido. 
 ---
 = Resolver um erro de autenticação desconhecido no Active IQ Unified Manager
 :allow-uri-read: 

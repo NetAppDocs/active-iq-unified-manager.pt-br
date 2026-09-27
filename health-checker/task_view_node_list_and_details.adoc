@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_node_list_and_details.html 
 sidebar: sidebar 
 keywords: view, node list, details 
-summary: 'Você pode usar a visualização integridade: Todos os nós para exibir a lista de nós nos clusters. Você pode usar a página de detalhes de Cluster / Health para exibir informações detalhadas sobre nós que fazem parte do cluster monitorado.' 
+summary: 'Use a visualização "Todos os nós" na página "Saúde" para ver a lista de nós em seus clusters e a página "Detalhes de integridade do cluster" para obter informações detalhadas sobre os nós.' 
 ---
 = Visualize a lista de nós e detalhes no Active IQ Unified Manager
 :allow-uri-read: 

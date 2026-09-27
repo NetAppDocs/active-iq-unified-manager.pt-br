@@ -2,7 +2,7 @@
 permalink: performance-checker/concept_understand_um_recommendations_to_tier_data_to_cloud.html 
 sidebar: sidebar 
 keywords: understand, unified manager, recommendations, tier, data, cloud 
-summary: 'A exibição desempenho: Todos os volumes exibe informações relacionadas ao tamanho dos dados do usuário armazenados no volume inativo (frio). Em alguns casos, o Unified Manager identifica certos volumes que se beneficiariam ao separar os dados inativos na camada de nuvem (fornecedor de nuvem ou StorageGRID) de um agregado habilitado para FabricPool.' 
+summary: 'A visualização "Todos os Volumes" na página Desempenho mostra o tamanho dos dados inativos (frios) e identifica os volumes que se beneficiariam da disposição em camadas em uma camada de nuvem do FabricPool.' 
 ---
 = Analise as recomendações do Active IQ Unified Manager para o armazenamento em camadas de dados na nuvem
 :allow-uri-read: 

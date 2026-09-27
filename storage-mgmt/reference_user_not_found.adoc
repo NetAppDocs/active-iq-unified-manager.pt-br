@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_user_not_found.html 
 sidebar: sidebar 
 keywords: user, not, found 
-summary: 'Solução de problemas: Usuário não encontrado' 
+summary: Solucione o erro de usuário não encontrado. 
 ---
 = Resolver o erro "Usuário não encontrado" no Active IQ Unified Manager
 :allow-uri-read: 

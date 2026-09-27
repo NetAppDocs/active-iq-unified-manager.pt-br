@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_cluster_list_and_details.html 
 sidebar: sidebar 
 keywords: view, cluster list, details 
-summary: 'Você pode usar a visualização integridade: Todos os clusters para visualizar o inventário de clusters. A visualização capacidade: Todos os clusters permite visualizar informações resumidas sobre capacidade de storage e utilização em todos os clusters.' 
+summary: 'Use a visualização "Todos os Clusters" na página "Saúde" para ver o inventário do seu cluster e a visualização "Todos os Clusters" na página "Capacidade" para obter detalhes sobre a capacidade de storage e a utilização.' 
 ---
 = Visualize a lista de clusters e detalhes no Active IQ Unified Manager
 :allow-uri-read: 

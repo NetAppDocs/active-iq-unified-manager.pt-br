@@ -2,7 +2,7 @@
 permalink: data-protection/task_create_snapmirror_relationship_from_health_volumes.html 
 sidebar: sidebar 
 keywords: create, snapmirror, protection, relationship, health, volumes view 
-summary: 'Usando a exibição integridade: Todos os volumes, você pode criar vários relacionamentos de proteção SnapMirror ao mesmo tempo, selecionando mais de um volume na mesma VM de storage.' 
+summary: 'Use a visualização "Todos os Volumes" na página "Saúde" para criar várias relações de proteção do SnapMirror de uma só vez para volumes na mesma máquina virtual de storage.' 
 ---
 = Crie uma relação do SnapMirror a partir da visualização Saúde: Todos os Volumes no Active IQ Unified Manager
 :allow-uri-read: 

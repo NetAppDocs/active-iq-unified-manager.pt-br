@@ -3,11 +3,13 @@ section: reporting
 title: Gerar relatórios personalizados
 entries:
 - title: Relatórios do Unified Manager
-  url: "/reporting/concept_unified_manager_reporting.html"
   entries:
+  - title: Saiba mais sobre os relatórios do Unified Manager
+    url: "/reporting/concept_unified_manager_reporting.html"
   - title: Pontos de acesso para geração de relatórios
-    url: "/reporting/concept_report_access_points.html"
     entries:
+    - title: Explore maneiras de acessar os recursos de geração de relatórios
+      url: "/reporting/concept_report_access_points.html"
     - title: Bancos de dados do Unified Manager acessíveis para relatórios personalizados
       url: "/reporting/concept_unified_manager_databases_accessible_for_reporting.html"
     - title: APIs REST do Unified Manager que podem ser usadas para geração de relatórios
@@ -21,7 +23,6 @@ entries:
   - title: Limitações do relatório
     url: "/reporting/reference_reporting_limitations.html"
 - title: Trabalhar com relatórios
-  url: "/reporting/concept_work_with_reports.html"
   entries:
   - title: Fluxo de trabalho do relatório
     url: "/reporting/concept_report_work_flow.html"
@@ -30,8 +31,9 @@ entries:
   - title: Pesquisar um relatório agendado
     url: "/reporting/task_search_for_scheduled_report.html"
   - title: Personalizar relatórios
-    url: "/reporting/concept_customize_reports.html"
     entries:
+    - title: Saiba mais sobre como personalizar relatórios
+      url: "/reporting/concept_customize_reports.html"
     - title: Personalizar colunas
       url: "/reporting/task_customize_columns.html"
     - title: Filtrar dados
@@ -45,25 +47,28 @@ entries:
   - title: Transferir relatórios
     url: "/reporting/task_download_reports.html"
 - title: Agendar relatórios
-  url: "/reporting/concept_schedule_reports.html"
   entries:
+  - title: Saiba mais sobre como agendar relatórios
+    url: "/reporting/concept_schedule_reports.html"
   - title: Agendar um relatório
-    url: "/reporting/task_schedule_report.html"
     entries:
+    - title: Criar um agendamento de relatório
+      url: "/reporting/task_schedule_report.html"
     - title: Agendar relatórios .rptdesign importados
       url: "/reporting/task_schedule_an_imported_report.html"
   - title: Gerenciar agendamentos de relatórios
-    url: "/reporting/task_manage_report_schedules.html"
     entries:
+    - title: Visualize, edite e exclua cronogramas de relatórios
+      url: "/reporting/task_manage_report_schedules.html"
     - title: Editar relatórios agendados
       url: "/reporting/task_edit_scheduled_reports.html"
     - title: Excluir relatórios agendados
       url: "/reporting/task_delete_scheduled_reports.html"
 - title: Exemplos de relatórios personalizados
-  url: "/reporting/concept_sample_custom_reports.html"
   entries:
+  - title: Entenda exemplos de relatórios personalizados
+    url: "/reporting/concept_sample_custom_reports.html"
   - title: Personalizar relatórios de armazenamento em cluster
-    url: "/reporting/concept_customize_cluster_storage_reports.html"
     entries:
     - title: Crie um relatório para visualizar a capacidade por modelo de cluster
       url: "/reporting/task_create_report_to_view_capacity_by_cluster_model.html"
@@ -77,7 +82,6 @@ entries:
         do ONTAP
       url: "/reporting/task_create_report_view_nodes_running_older_versions_of_ontap.html"
   - title: Personalizar relatórios de capacidade agregada
-    url: "/reporting/concept_customize_aggregate_capacity_reports.html"
     entries:
     - title: Crie um relatório para visualizar os agregados atingindo a capacidade
         máxima
@@ -87,7 +91,6 @@ entries:
     - title: Crie um relatório para visualizar agregados que estão supercomprometidos
       url: "/reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html"
   - title: Personalizar relatórios de capacidade de volume
-    url: "/reporting/concept_customize_volume_capacity_reports.html"
     entries:
     - title: Crie um relatório para identificar volumes próximos da capacidade máxima
         que tenham a Exclusão Automática de Snapshot desativada
@@ -99,13 +102,13 @@ entries:
         que devem mover dados para a camada de nuvem
       url: "/reporting/task_create_report_volumes_that_should_move_data_to_cloud_tier.html"
   - title: Personalize relatórios de capacidade do Qtree
-    url: "/reporting/concept_customize_qtree_capacity_reports.html"
     entries:
     - title: Crie um relatório para visualizar qtrees que estão quase cheios
       url: "/reporting/task_create_report_to_view_qtrees_that_are_nearly_full.html"
   - title: Personalizar relatórios de compartilhamento NFS
-    url: "/reporting/concept_customize_nfs_share_reports.html"
     entries:
+    - title: Saiba mais sobre como personalizar relatórios de compartilhamento NFS
+      url: "/reporting/concept_customize_nfs_share_reports.html"
     - title: Crie um relatório para visualizar volumes que tenham um caminho de montagem
         inacessível
       url: "/reporting/task_create_report_to_view_volumes_with_an_inaccessible_junction_path.html"
@@ -113,16 +116,19 @@ entries:
         de exportação padrão
       url: "/reporting/task_create_report_to_view_volumes_with_default_export_policy.html"
   - title: Personalizar relatórios de VM de armazenamento
-    url: "/reporting/concept_customize_svm_reports.html"
     entries:
+    - title: Saiba mais sobre como personalizar relatórios de máquinas virtuais de
+        storage
+      url: "/reporting/concept_customize_svm_reports.html"
     - title: Crie um relatório para visualizar as VMs de armazenamento atingindo o
         limite máximo de volume
       url: "/reporting/task_create_report_to_view_svms_reaching_maximum_volume_limit.html"
     - title: Crie um relatório para visualizar VMs de armazenamento paradas
       url: "/reporting/task_create_report_to_view_stopped_svms.html"
   - title: Personalize relatórios de relacionamento de volume
-    url: "/reporting/concept_customize_volume_relationship_reports.html"
     entries:
+    - title: Saiba mais sobre como personalizar relatórios de relacionamento de volume
+      url: "/reporting/concept_customize_volume_relationship_reports.html"
     - title: Crie um relatório para agrupar relacionamentos de volume por fonte de
         falha
       url: "/reporting/task_create_report_volume_relationships_source_of_failure.html"
@@ -141,14 +147,14 @@ entries:
         por dia
       url: "/reporting/task_create_report_to_view_volume_transfers_grouped_by_day.html"
   - title: Personalize relatórios de desempenho de volume
-    url: "/reporting/concept_customize_volume_performance_reports.html"
     entries:
     - title: Crie um relatório para visualizar volumes com uma grande quantidade de
         dados inativos em um agregado que não seja habilitado para FabricPool
       url: "/reporting/task_create_report_for_volumes_with_high_amount_of_cold_data.html"
 - title: Exemplos de relatórios do Microsoft Excel
-  url: "/reporting/concept_sample_microsoft_excel_reports.html"
   entries:
+  - title: Entenda relatórios de exemplo do Microsoft Excel
+    url: "/reporting/concept_sample_microsoft_excel_reports.html"
   - title: Crie um relatório para mostrar uma tabela e um gráfico de capacidade agregada
     url: "/reporting/task_create_report_to_view_capacity.html"
   - title: Crie um relatório para mostrar gráficos de capacidade total agregada versus

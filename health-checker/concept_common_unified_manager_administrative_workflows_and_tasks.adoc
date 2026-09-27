@@ -2,7 +2,7 @@
 permalink: health-checker/concept_common_unified_manager_administrative_workflows_and_tasks.html 
 sidebar: sidebar 
 keywords: Common, unified, manager, health, workflows, tasks 
-summary: 'Alguns fluxos de trabalho administrativos e tarefas comuns associados ao Unified Manager incluem a seleção dos clusters de storage que devem ser monitorados; o diagnóstico de condições que afetam negativamente a disponibilidade, a capacidade e a proteção dos dados; a restauração de dados perdidos; a configuração e o gerenciamento de volumes; e o agrupamento e o envio de dados de diagnóstico para o suporte técnico (quando necessário).' 
+summary: Aprenda sobre fluxos de trabalho administrativos comuns, incluindo o monitoramento de clusters, o diagnóstico de problemas de disponibilidade e capacidade e o envio de dados de diagnóstico para o suporte. 
 ---
 = Compreenda os fluxos de trabalho e tarefas comuns de saúde do Active IQ Unified Manager
 :allow-uri-read: 
@@ -35,7 +35,7 @@ Se os problemas de capacidade de armazenamento de volume forem exibidos na pági
 
 * Configuração, monitoramento e diagnóstico de problemas de relacionamento de proteção
 +
-Depois de criar e configurar relações de proteção, os administradores de armazenamento podem visualizar os potenciais problemas relacionados às relações de proteção, o estado atual das relações de proteção, as informações de sucesso do trabalho de proteção atual e histórico sobre as relações afetadas e conselhos para resolução de problemas. Consulte link:../data-protection/concept_create_and_monitor_protection_relationships.html["Criação, monitoramento e solução de problemas de relacionamentos de proteção"] para obter mais informações.
+Após criar e configurar os relacionamentos de proteção, os administradores de storage podem visualizar os possíveis problemas relacionados aos relacionamentos de proteção, o estado atual dos relacionamentos de proteção, as informações atuais e históricas de sucesso do trabalho de proteção sobre os relacionamentos afetados e orientações para solução de problemas. Consulte link:../data-protection/concept_manage_and_monitor_protection_relationships.html["Aprenda sobre como gerenciar e monitorar relações de proteção"] para obter mais informações.
 
 * Criar arquivos de backup e restaurar dados de arquivos de backup.
 * Associar objetos de armazenamento a anotações

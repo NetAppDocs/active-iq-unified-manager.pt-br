@@ -2,7 +2,7 @@
 permalink: performance-checker/concept_verify_qos_policy_group.html 
 sidebar: sidebar 
 keywords: verify, volumes, qos, policy, group, unusually, high, activity 
-summary: 'Você pode analisar as cargas de trabalho no grupo de políticas qualidade do serviço (QoS) com a maior alteração na atividade para determinar se mais de um workload causou o evento. Você também pode ver se outros workloads ainda estão excedendo o limite de taxa de transferência definido ou se eles estão de volta ao intervalo de atividade esperado.' 
+summary: 'Analise as cargas de trabalho em um grupo de política de Qualidade de Serviço (QoS) com a maior variação de atividade para determinar qual carga de trabalho causou o evento.' 
 ---
 = Analise os volumes de alta atividade em um grupo de políticas de QoS no Active IQ Unified Manager
 :allow-uri-read: 

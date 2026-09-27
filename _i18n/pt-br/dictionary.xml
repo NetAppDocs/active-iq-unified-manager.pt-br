@@ -338,7 +338,6 @@
   <block id="4bee94e31086661241a8de346c2a1970" category="paragraph">Você pode usar o seguinte método para excluir uma Política de eficiência de armazenamento específica. Não é possível excluir uma Política de eficiência de storage se ela for atribuída a uma carga de trabalho ou se for a única Política de eficiência de storage disponível. Você precisa fornecer o ID exclusivo da Política de eficiência de armazenamento como um parâmetro de entrada para excluir uma Política de eficiência de armazenamento específica.</block>
   <block id="b1c9487e84cf1882dd11b52aebc72a6b" category="section-title">Modificar políticas de eficiência de storage</block>
   <block id="dbe3f36b091e617190bcc3ce4ebc6684" category="paragraph">Você pode usar o seguinte método para modificar uma Política de eficiência de armazenamento e atualizar suas propriedades. Não é possível modificar uma Política de eficiência de storage definida pelo sistema ou atribuída a uma carga de trabalho. Você precisa fornecer o ID exclusivo da Política de eficiência de storage para modificar uma Política de eficiência de storage específica. Além disso, você precisa fornecer a propriedade que você deseja atualizar, juntamente com seu valor.</block>
-  <block id="d8e9e862087ebf8f8e32a5917b7772d7" category="summary">As APIs descritas aqui abrangem várias funções de administração de storage, como visualização de workloads de storage, criação de LUNs e compartilhamentos de arquivos, gerenciamento de níveis de Serviço de Performance e políticas de eficiência de storage e atribuição de políticas para workloads de storage.</block>
   <block id="9131ee660ce5285a2e90a2ee97242aac" category="summary">O Active IQ Unified Manager fornece um conjunto de APIs na categoria /data center que permitem visualizar os dados de desempenho de seus clusters e objetos de armazenamento em um data center. Essas APIs recuperam os dados de performance de diferentes objetos de storage, como clusters, nós, LUNs, volumes, agregados e VMs de storage.</block>
   <block id="6599d19e3535a7d2b9ecce284d2bfafb" category="paragraph">O Active IQ Unified Manager fornece um conjunto de APIs<block ref="421c6b1deaca622954bad1afb1e1282e" prefix=" " category="inline-code"></block> na categoria que permitem visualizar os dados de performance dos clusters e objetos de storage em um data center. Essas APIs recuperam os dados de performance de diferentes objetos de storage, como clusters, nós, LUNs, volumes, agregados, VMs de storage, interfaces FC, portas FC, portas Ethernet e interfaces IP.</block>
   <block id="c6b41365405623d61cf5118b58df4a06" category="paragraph"><block ref="ae3b848d2daecffc635ae20b0b882d8f" prefix=" " category="inline-code"></block>As APIs e<block ref="5499d39c8a3e99c1ec14ac7775d7c27c" prefix=" " category="inline-code"></block> oferecem visualizações diferentes das métricas de performance, usando as quais, você pode detalhar diferentes níveis de detalhes para os seguintes objetos de storage em seu data center:</block>
@@ -789,7 +788,6 @@
   <block id="fdbf079c63115ef2826cccf88d60ad1d" category="list-text">OpenLDAP</block>
   <block id="a745c70e1ac02cbc0c5b4e7d1349059c" category="paragraph">Você pode selecionar o serviço de autenticação necessário e adicionar os servidores de autenticação apropriados para permitir que os usuários remotos no servidor de autenticação acessem o Unified Manager. As credenciais para usuários remotos ou grupos são mantidas pelo servidor de autenticação. O servidor de gerenciamento usa o LDAP (Lightweight Directory Access Protocol) para autenticar usuários remotos no servidor de autenticação configurado.</block>
   <block id="4928ff494d1fef4e158c9143249c4a6a" category="paragraph">Para usuários locais criados no Unified Manager, o servidor de gerenciamento mantém seu próprio banco de dados de nomes de usuário e senhas. O servidor de gerenciamento executa a autenticação e não usa o ative Directory ou o OpenLDAP para autenticação.</block>
-  <block id="166019a1b30f1eef3de504d56cb45235" category="summary">Em algum momento, talvez você queira alterar o nome do host do sistema no qual você instalou o Unified Manager. Por exemplo, você pode querer renomear o host para identificar mais facilmente seus servidores do Unified Manager por tipo, grupo de trabalho ou grupo de cluster monitorado.</block>
   <block id="cae711e2d20a76c0a0f37127c924cd4b" category="summary">Você pode configurar o recurso de backup no Unified Manager por meio de um conjunto de etapas de configuração a serem executadas nos sistemas host e no console de manutenção por meio.</block>
   <block id="774a33c1a55d71fb62a4119758d65674" category="inline-link-macro">Gerenciamento de operações de backup e restauração</block>
   <block id="24dde324c273e6fbdb5e05a5335b2997" category="paragraph">Para obter informações sobre as etapas de configuração, <block ref="b867a7663a8e0fd154dcc2c6962f7760" category="inline-link-macro-rx"></block>consulte .</block>
@@ -842,8 +840,6 @@
   <block id="dd441ca9450a58c2c7b09ab86e8f7a28" category="list-text">Controle o acesso à porta MySQL 3306</block>
   <block id="fef46e5063ce3dc78b8ae64fa474241d" category="list-text">Saia</block>
   <block id="1402547c38db13164f3e84c70829014c" category="paragraph">Selecione o número na lista para aceder à opção de menu específica. Por exemplo, para backup e restauração, selecione _4_.</block>
-  <block id="41a9e9d8647d9b0031e95a417ce0ff1f" category="summary">Você pode ativar a autenticação usando LDAP ou ative Directory no servidor do Unified Manager e configurá-la para funcionar com seus servidores para autenticar usuários remotos.</block>
-  <block id="081aad09b163af228b77c97e10a98363" category="paragraph">Para ativar a autenticação remota, configurar serviços de autenticação e adicionar severs de autenticação, consulte a seção anterior em *Configurando o Unified Manager para enviar notificações de alerta*.</block>
   <block id="61151232d0c563e7d462efa3b8121d44" category="summary">A página Configurações de recursos permite ativar e desativar recursos específicos no Active IQ Unified Manager. Isso inclui criar e gerenciar objetos de armazenamento com base em políticas, ativar o gateway da API, carregar scripts para gerenciar alertas, cronometrar uma sessão da IU da Web com base no tempo de inatividade e desativar o recebimento de eventos da plataforma Active IQ.</block>
   <block id="147594470b4a539239c606cedb7e3c61" category="paragraph">A página Configurações de recursos permite ativar e desativar recursos específicos no Active IQ Unified Manager. Isso inclui criar e gerenciar objetos de armazenamento com base em políticas, ativar o gateway de API e o banner de login, fazer upload de scripts para gerenciar alertas, agendar uma sessão de IU da Web com base no tempo de inatividade e desativar o recebimento de eventos da plataforma Active IQ.</block>
   <block id="2167e67404410b821d5265975f4e3887" category="paragraph">A página Configurações de recursos só está disponível para usuários com função Administrador de aplicativos.</block>
@@ -851,12 +847,8 @@
   <block id="fb6331a1354bef99ac73fa7fc92102b8" category="paragraph">Para obter informações sobre o carregamento de scripts, <block ref="ea22e7600d2ae121b752ed698b741a63" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="1856837ae2b017e7bb420bf22bc62ab2" category="summary">Depois de configurar as configurações de autenticação remota, é possível ativar a autenticação SAML (Security Assertion Markup Language) para que os usuários remotos sejam autenticados por um provedor de identidade seguro (IDP) antes que eles possam acessar a IU da Web do Unified Manager.</block>
   <block id="f6012b3b22654023e89b5066cce09cd3" category="paragraph">Observe que somente usuários remotos terão acesso à interface gráfica do usuário do Unified Manager depois que a autenticação SAML for ativada. Os utilizadores locais e os utilizadores de manutenção não poderão aceder à IU. Essa configuração não afeta os usuários que acessam o console de manutenção.</block>
-  <block id="79abcc44d842a51cae5a0281764346f2" category="summary">Você pode configurar o HTTPS no servidor do Unified Manager para monitorar e gerenciar seus clusters em uma conexão segura.</block>
-  <block id="369d42629beea2ad70c23667467de925" category="summary">Você pode criar funções e atribuir recursos para controlar o acesso do usuário a objetos de cluster selecionados. É possível identificar usuários que têm os recursos necessários para acessar objetos selecionados em um cluster. Somente esses usuários têm acesso para gerenciar os objetos do cluster.</block>
-  <block id="e097d9836e6942eb333688aa40c458db" category="paragraph">Você pode criar funções e atribuir recursos para controlar o acesso do usuário ao Active IQ Unified Manager. Você pode identificar usuários que têm os recursos necessários para acessar objetos selecionados no Unified Manager. Somente os usuários que têm essas funções e recursos podem gerenciar os objetos no Unified Manager.</block>
   <block id="17468e66f6f6fa8f16ad4f7b18e16de5" category="summary">O fluxo de trabalho de configuração descreve as tarefas que você deve executar antes de usar o Unified Manager.</block>
   <block id="4803eca8e03e70fa406180caf3f66361" category="doc">Descrição geral da sequência de configuração</block>
-  <block id="4b4d4348e829eaf3a0de3ed56cd0de9b" category="summary">Você pode usar a página certificado HTTPS para exibir os certificados de segurança atuais e gerar novos certificados HTTPS.</block>
   <block id="9d8906bca89b5ca3210e219efa4a8a9e" category="doc">Descrições de páginas para gerenciamento de certificados</block>
   <block id="77273a1dbc5b7995f53447170b7df6c6" category="summary">A opção de gerenciamento de storage baseado em políticas permite o gerenciamento de storage com base em SLOs (Objetivos de nível de serviço). Esta opção está ativada por predefinição.</block>
   <block id="af3dc670b45b19025716149691d46896" category="paragraph">A opção *Gerenciamento de armazenamento baseado em políticas* permite o gerenciamento de armazenamento com base nos objetivos de nível de serviço (SLOs). Esta opção está ativada por predefinição.</block>
@@ -900,7 +892,6 @@
   <block id="ed50b6c27ea6774acb9bc2157caa9349" category="list-text">Restaure o banco de dados e as configurações do Unified Manager a partir de uma versão com backup anterior.</block>
   <block id="d84f20522f498cc7a6ae799804c6f34b" category="doc">O que o utilizador de manutenção faz</block>
   <block id="efda670c67789e92e3014018aaa67999" category="paragraph">O usuário de manutenção, ou usuário umadmin, também pode acessar o console de manutenção do Unified Manager.</block>
-  <block id="2c6bc67c55ca1b8f948ebbd441af2d3b" category="doc">O que é RBAC</block>
   <block id="fab41e9ef314e732a9597c043a1badc6" category="summary">O controle de acesso baseado em função (RBAC) permite que os administradores gerenciem grupos de usuários definindo funções. Se você precisar restringir o acesso para funcionalidades específicas aos administradores selecionados, você deverá configurar contas de administrador para eles. Se você quiser restringir as informações que os administradores podem exibir e as operações que podem executar, você deve aplicar funções às contas de administrador criadas.</block>
   <block id="7da198f282c84c377df6baa2894512ef" category="doc">Que controle de acesso baseado em função faz</block>
   <block id="d56ba2fc5510d8132d7f7a55ca0e68a5" category="paragraph">O servidor de gerenciamento usa o RBAC para login de usuário e permissões de função. Se você não alterou as configurações padrão do servidor de gerenciamento para acesso administrativo ao usuário, não será necessário fazer login para visualizá-las.</block>
@@ -1778,7 +1769,6 @@
   <block id="e40d8e84fd893ec98d71d4046f1316c2" category="list-text">Atualize o novo FQDN do servidor do Unified Manager para<block ref="87c87cf6d619384b83d30c00fef160b6" prefix=" " category="inline-code"></block> os arquivos e.<block ref="d07cb58ff16c781417267dfeb5765e17" prefix=" " category="inline-code"></block></block>
   <block id="185d98d32cfce583609a16baa988f86b" category="list-text">Reinicie o servidor web Apache Tomcat e aguarde até que a porta 8005 fique online.</block>
   <block id="c45574dbd668bbe1dbaef2f9ca3a9622" category="list-text">Faça login no Unified Manager e verifique se a autenticação SAML funciona como esperado por meio do IDP.</block>
-  <block id="d1ba0e66678266ac2bfdc09f3fe23824" category="summary">Você pode usar o console de manutenção para configurar as configurações de rede, configurar e gerenciar o sistema no qual o Unified Manager está instalado e executar outras tarefas de manutenção que ajudam a prevenir e solucionar possíveis problemas.</block>
   <block id="678a80e003e568f26edb7d0c39902856" category="summary">Você pode comparar os detalhes do certificado HTTPS com o certificado recuperado em seu navegador para garantir que a conexão criptografada do navegador com o Unified Manager não esteja sendo intercetada.</block>
   <block id="e35aa1a138f9b558c345d18e215f2316" category="paragraph">Você pode comparar os detalhes do certificado HTTPS com o certificado recuperado em seu navegador para garantir que a conexão criptografada do navegador com o Unified Manager não esteja sendo intercetada.</block>
   <block id="c1ab51be5a6309604a096df41188c0c3" category="paragraph">Tem de ter a função Operador, Administrador de aplicações ou Administrador de armazenamento.</block>
@@ -1786,8 +1776,6 @@
   <block id="624530d800c5329e213e8aa55be61dc2" category="paragraph">O certificado HTTPS é exibido na parte superior da página</block>
   <block id="9ec1369b4b2741084df17d6ae86365cf" category="paragraph">Se você precisar exibir informações mais detalhadas sobre o certificado de segurança do que as exibidas na página certificado HTTPS, poderá exibir o certificado de conexão no navegador.</block>
   <block id="9d19bbbe96bf0dd33613026b68d00f6a" category="summary">Você pode usar a página usuários para exibir a lista de usuários que gerenciam dados e objetos de storage usando o Unified Manager. Você pode exibir detalhes sobre os usuários, como nome de usuário, tipo de usuário, endereço de e-mail e a função atribuída aos usuários.</block>
-  <block id="3912f4e1ad31862162c0d2c881440cd1" category="summary">Com o Unified Manager, você cria relacionamentos de proteção, monitora e soluciona problemas de proteção espelhada e de backup de dados armazenados em clusters gerenciados, além de restaurar os dados quando substituídos ou perdidos.</block>
-  <block id="e56ac40426fbb16f4024976e611d39ab" category="doc">Criação, monitoramento e solução de problemas de relacionamentos de proteção</block>
   <block id="9cd469e9d4dad57b0e51649e522b4289" category="summary">Com o Active IQ Unified Manager, você cria relacionamentos de proteção, monitora e soluciona problemas de relacionamentos SnapMirror e SnapVault em clusters gerenciados e restaura dados quando eles são sobrescritos ou perdidos.</block>
   <block id="9604e7464c99868fc92ca55677ed64e9" category="paragraph">Para operações do SnapMirror, existem dois tipos de replicação:</block>
   <block id="288aae25bc408055f50c21c991903a44" category="list-text">Assíncrono</block>
@@ -2135,7 +2123,6 @@
   <block id="9ff08ddb6834cddf05c4ad264693902a" category="paragraph">Exibe a programação associada a cada etiqueta de cópia Snapshot. Se um rótulo tiver mais de uma programação associada a ele, as programações desse rótulo serão exibidas em uma lista separada por vírgulas. Se você selecionar vários volumes com o mesmo rótulo, mas com horários diferentes, a programação exibirá "vários" para indicar que mais de um agendamento está associado aos volumes selecionados.</block>
   <block id="988d8301b444f4ecd189432e72f16995" category="list-text">Contagem retenção destino</block>
   <block id="94baf63dbc1848830cc2609c3df1d942" category="paragraph">Exibe o número de cópias Snapshot com o rótulo especificado que são retidas no secundário SnapVault. As contagens de retenção para rótulos com várias programações exibem a soma de contagens de retenção de cada etiqueta e par de programação. Se você selecionar vários volumes com duas ou mais políticas de cópia Snapshot local, a contagem de retenção estará vazia.</block>
-  <block id="28d59a31e0c455868121ba1f0071cbca" category="summary">Você pode visualizar e gerenciar detalhes relacionados à proteção, como pools de recursos, associações de SVM e tarefas de proteção. Você pode usar a página limites de integridade apropriados para configurar valores de limites globais de integridade para agregados, volumes e relacionamentos.</block>
   <block id="0dfcebea8fa1e701a2e1e7629f57777b" category="doc">Descrição das janelas de relacionamentos de proteção e caixas de diálogo</block>
   <block id="4a15dff59cc24772c11142eaf855d814" category="summary">Você pode editar um relacionamento de proteção existente para alterar a taxa de transferência máxima, a política de proteção ou o cronograma de proteção.</block>
   <block id="4da25ef7eba260737e69f53657e05d68" category="doc">Caixa de diálogo Editar relação</block>
@@ -2558,7 +2545,6 @@
   <block id="1b3a3f92fbb9524d7e5cddd6ab8e2ff8" category="list-text">*Localização alternativa*</block>
   <block id="ec2401f9a02066ade56349fa8ffcdc68" category="paragraph">Restaura os dados selecionados para um novo local:</block>
   <block id="dea5b83df1bb0b61c0180cc1e26f2326" category="list-text">Restaurar caminho</block>
-  <block id="d591d92c35cfa4c99c4bed1c192ca7ef" category="paragraph">Especifica um caminho alternativo para restaurar os dados selecionados. O caminho já deve existir. Você pode usar o botão *Procurar* para navegar até o local onde deseja que os dados sejam restaurados ou pode inserir o caminho manualmente usando o cluster de formatos://svm/volume/caminho.</block>
   <block id="c9e89914575b6cbaa0810769d7ba09ed" category="list-text">Preservar a hierarquia de diretórios</block>
   <block id="f1bf52366ed8a29ea276c73d44cc195a" category="paragraph">Quando marcada, preserva a estrutura do arquivo ou diretório original. Por exemplo, se a origem for /A/B/C/myFile.txt e o destino for /X/Y/Z, o Unified Manager restaura os dados usando a seguinte estrutura de diretórios no destino: /X/Y/Z/A/B/C/myfile.txt.</block>
   <block id="6f3bdb3c9c9b67e5d9f7a0ed469f8cc9" category="paragraph">Descarta suas seleções e fecha a caixa de diálogo Restaurar.</block>
@@ -3286,8 +3272,6 @@
   <block id="c2888580567d017d68042ecb1ce64f8c" category="paragraph">Você pode usar os argumentos em seus scripts e coletar informações de eventos relacionados ou modificar objetos de armazenamento.</block>
   <block id="147c9842f922a693132b970d94139607" category="section-title">Exemplo para obter argumentos de scripts</block>
   <block id="be8e8dd31e7fe51957233d03573d3445" category="paragraph">Quando um alerta é gerado, este script é executado e a seguinte saída é exibida:</block>
-  <block id="42d323be222c31104efdd346bfa00930" category="summary">Você pode configurar alertas para enviar notificações automaticamente quando eventos ou eventos específicos de determinados tipos de gravidade ocorrerem. Você também pode associar um alerta a um script que é executado quando um alerta é acionado.</block>
-  <block id="a989b80ae6afb9e9b422c72ae554cd03" category="summary">Os eventos ajudam a identificar problemas nos clusters monitorados.</block>
   <block id="d8ed574acc4d4f102e9fc39ec13e996f" category="summary">Você pode usar scripts para modificar ou atualizar automaticamente vários objetos de armazenamento no Unified Manager. O script está associado a um alerta. Quando um evento aciona um alerta, o script é executado. Você pode carregar scripts personalizados e testar sua execução quando um alerta é gerado.</block>
   <block id="423e28d718371feeaef24d7b802207d1" category="paragraph">A capacidade de carregar scripts para o Unified Manager e executá-los é ativada por padrão. Se a sua organização não quiser permitir esta funcionalidade por motivos de segurança, pode desativar esta funcionalidade a partir de *Gestão de armazenamento* &gt; *Definições de funcionalidade*.</block>
   <block id="acc1b75e838c92553ffef2766f931392" category="inline-link-macro">Ativar e desativar a capacidade de carregar scripts</block>
@@ -3298,7 +3282,6 @@
   <block id="4601240ca052a78e31e094f76f334b6a" category="image-alt">Uma captura de tela da interface do usuário que mostra as ações que você deve executar e a ação que o Unified Manager executa ao resolver eventos.</block>
   <block id="0e0dea3909c8e70050c5fc144debdd08" category="paragraph">Ao executar uma resolução manual, você deve fazer login no Gerenciador do sistema ou na interface da linha de comando do ONTAP para corrigir o problema. Você poderá verificar o problema somente depois que o cluster gerar uma nova mensagem do AutoSupport à meia-noite.</block>
   <block id="5133ed34dc41fac7f900bb32c7fb439f" category="paragraph">Ao executar uma resolução semi-automática usando o botão *Fix it*, você pode verificar se a correção foi bem-sucedida em poucas horas.</block>
-  <block id="d5115a56160e45240d2698485e7e3777" category="summary">Compreender os conceitos sobre eventos ajuda você a gerenciar seus clusters e objetos de cluster com eficiência e a definir alertas adequadamente.</block>
   <block id="7eacb6a87618ec8163880b27a04d7583" category="summary">O Unified Manager pode exibir eventos que foram descobertos pela plataforma Active IQ. Esses eventos são criados executando um conjunto de regras contra as mensagens do AutoSupport geradas a partir de todos os sistemas de storage monitorados pelo Unified Manager.</block>
   <block id="ebb95d2a9119f0d7bee3c66596045522" category="doc">Quais são os eventos da plataforma Active IQ</block>
   <block id="588704bda665f3ccab44e8ebb68cdb60" category="paragraph">Para obter mais informações, <block ref="a7cbe932e3456d652c1a312788f8c1a7" category="inline-link-macro-rx"></block>consulte .</block>
@@ -3596,11 +3579,8 @@
   <block id="06a775643a6a7284bba46046a5d41861" category="list-text">*Informação*</block>
   <block id="b227e72fa8cc586e3d9dd47ac70a42c4" category="paragraph">O evento ocorre quando um novo objeto é descoberto ou quando uma ação do usuário é executada. Por exemplo, quando qualquer objeto de armazenamento é excluído ou quando há alterações de configuração, o evento com informações de tipo de gravidade é gerado.</block>
   <block id="17eb380d4321b09594e5bab3bdf98ed4" category="paragraph">Os eventos de informação são enviados diretamente do ONTAP quando deteta uma alteração de configuração.</block>
-  <block id="9e3b3d32e8f20a5d84c0e35ac994c1c0" category="summary">Eventos notificá-lo sobre quaisquer problemas em seu ambiente. Você pode usar a página de inventário de Gerenciamento de Eventos e a página de detalhes do evento para monitorar todos os eventos. Você pode usar a caixa de diálogo Opções de configuração de notificação para configurar a notificação. Pode utilizar a página Configuração de eventos para desativar ou ativar eventos.</block>
   <block id="bf77b539a9cbc23c20c190040353b031" category="doc">Descrição das janelas de eventos e caixas de diálogo</block>
-  <block id="74de15f9cecf758bf5ea88c7c521769a" category="summary">Você deve configurar alertas para receber notificações sobre eventos usando a caixa de diálogo Adicionar alerta. Também pode ver a lista de alertas na página Configuração de alertas.</block>
   <block id="faaeaaa707e021a5daefebc0257c2bef" category="doc">Descrição das janelas de alerta e caixas de diálogo</block>
-  <block id="b6a1b7ab92b7809cd6b5fa6d25778eb0" category="summary">A página Scripts permite adicionar scripts ao Unified Manager.</block>
   <block id="2958a2a0b4f88e4844c280ad73c42393" category="doc">Descrição das janelas de script e caixas de diálogo</block>
   <block id="681a7bc92fd0fd5aa6d22eadc8776c36" category="summary">A caixa de diálogo Desativar eventos exibe a lista de tipos de eventos para os quais você pode desativar eventos. Você pode desativar eventos para um tipo de evento com base em uma gravidade específica ou em um conjunto de eventos.</block>
   <block id="62a6fd86d1b20229e427a6923e030916" category="doc">Caixa de diálogo Desativar eventos</block>
@@ -3907,7 +3887,6 @@
   <block id="fc25dd6aa0918d39b8b3e623f46087bb" category="doc">Inodes eventos</block>
   <block id="31a5557266babf72ff34662c506a54f8" category="paragraph">Inodes quase Full (ocumEvtInodesAlmostFull)</block>
   <block id="1c2fabe9f7b8dab5e75a81066523d90f" category="paragraph">Inodes Full (ocumEvtInodesFull)</block>
-  <block id="983709e41d8a9f3a7ed87f61343974ee" category="summary">Você pode usar a lista de eventos para se familiarizar mais com categorias de eventos, nomes de eventos e o tipo de gravidade de cada evento que você pode ver no Unified Manager. Os eventos são listados em ordem alfabética por categoria de objeto.</block>
   <block id="da7c1532d24bac89950570832d779dd0" category="doc">Lista de eventos e tipos de gravidade</block>
   <block id="f8a42b473afe129308d5016bf3269010" category="summary">Os eventos de interface de rede fornecem informações sobre o status de sua interface de rede (LIFs), para que você possa monitorar possíveis problemas. Os eventos são agrupados por área de impactos e incluem o nome do evento e da armadilha, o nível de impactos, o tipo de origem e a gravidade.</block>
   <block id="dd5afc8a091cfcbf34e813f7850399e0" category="doc">Eventos de interface de rede (LIF)</block>
@@ -4277,7 +4256,6 @@
   <block id="05ad9204c314bae9e7a6d4098c82cee4" category="paragraph">O monitoramento anti-ransomware da VM de armazenamento está desativado (antiRansomwareSvmStateDisabled)</block>
   <block id="fe852079d1ba676f60751bdeddb72bff" category="paragraph">O monitoramento anti-ransomware da VM de armazenamento está ativado (modo de aprendizado) (antiRansomwareSvmStateDryrun)</block>
   <block id="f7e075e183584d0b0a22a6a8085b289e" category="paragraph">VM de armazenamento adequado para monitorização anti-ransomware (modo de Aprendizagem) (ocumEvtSvmArwCandidate)</block>
-  <block id="a0f263b9cc09522b877ec0d8c725a9d9" category="summary">Como administrador de storage, você pode usar os comandos de CLI para executar consultas nos objetos de storage, por exemplo, em clusters, agregados, volumes, qtrees e LUNs.</block>
   <block id="7b05b25764cb695e65f3cd6f5ade3e3b" category="paragraph">Como administrador de storage, você pode usar os comandos de CLI para executar consultas nos objetos de storage, por exemplo, em clusters, agregados, volumes, qtrees e LUNs. Você pode usar os comandos CLI para consultar o banco de dados interno do Unified Manager e o banco de dados do ONTAP. Você também pode usar comandos CLI em scripts que são executados no início ou no final de uma operação ou que são executados quando um alerta é acionado.</block>
   <block id="0a98ad8ed7d796fca5f8440b6bfbc64e" category="paragraph">Todos os comandos devem ser precedidos com o comando<block ref="e9fa1c3ff424bc99b177f43b6ac2844b" prefix=" " category="inline-code"></block> e um nome de usuário e senha válidos para autenticação.</block>
   <block id="159e979b9af8e11071d96adc2e429f87" category="admonition">Para executar o comando _um RUN_, certifique-se de que sua conta tenha acesso ao aplicativo _console_.</block>
@@ -4629,7 +4607,6 @@
   <block id="11f16b78e60994673dd0b090a6f3d15c" category="list-text">O script não deve estar associado a um alerta.</block>
   <block id="a2a8a88cba3fe7547667681315deb37f" category="list-text">Na página *Scripts*, selecione o script que deseja excluir e clique em *Delete*.</block>
   <block id="7c9ad1a164b570f461a0915f548e32ec" category="list-text">Na caixa de diálogo *Aviso*, confirme a exclusão clicando em *Sim*.</block>
-  <block id="b6d7b3d374f0eb0f8bc28abda4c13835" category="summary">Para todos os eventos que você configurou para enviar alertas, uma mensagem de alerta é enviada quando esses eventos passam por todos os estados disponíveis: Novo, confirmado, resolvido e Obsoleto. Se você não quiser receber alertas de eventos à medida que eles se movem para os estados resolvidos e obsoletos, você pode configurar uma configuração global para suprimir esses alertas.</block>
   <block id="e6c1e402aa18363c1918db2d06150ef2" category="paragraph">Por padrão, os alertas não são enviados para eventos à medida que se movem para os estados resolvido e Obsoleto.</block>
   <block id="7ed7790eca956b7e497698b1e3d6541d" category="list-text">Na página *Configuração de alerta*, execute uma das seguintes ações usando o controle deslizante ao lado do item *Alertas para eventos resolvidos e obsoletos*:</block>
   <block id="4a384aa43d0b2706200690abf285d0a0" category="cell">Para...</block>
@@ -4832,7 +4809,6 @@
   <block id="0139a98f6e0579c352b31c7b55dab82a" category="list-text">Diagnósticos e gerenciamento de problemas de capacidade de volume</block>
   <block id="922341f19068faa5b454e09095be1e91" category="paragraph">Se os problemas de capacidade de armazenamento de volume forem exibidos na página Painel, os administradores de armazenamento poderão seguir os links incorporados para exibir as tendências atuais e históricas relacionadas à capacidade de armazenamento do volume afetado, exibir conselhos de solução de problemas e atribuir resolução de problemas a outros administradores.</block>
   <block id="38ab7145c9b312e9e1a5380622546696" category="list-text">Configuração, monitoramento e diagnóstico de problemas de relacionamento de proteção</block>
-  <block id="7680e8653656c48f3243310c83932b54" category="paragraph">Depois de criar e configurar relações de proteção, os administradores de armazenamento podem visualizar os potenciais problemas relacionados às relações de proteção, o estado atual das relações de proteção, as informações de sucesso do trabalho de proteção atual e histórico sobre as relações afetadas e conselhos para resolução de problemas. Consulte <block ref="4e76243b1e59b37cf4420efe0ce8dc5b" category="inline-link-macro-rx"></block> para obter mais informações.</block>
   <block id="b16a008feac2fca1e9fd0af37cfb7886" category="list-text">Criar arquivos de backup e restaurar dados de arquivos de backup.</block>
   <block id="50f1945f83f8faaf1e24a4851b01f6bc" category="list-text">Associar objetos de armazenamento a anotações</block>
   <block id="dee1e75ffa4cde3d8824fa5a6144248f" category="paragraph">Ao associar objetos de storage a anotações, os administradores de storage podem filtrar e exibir os eventos relacionados aos objetos de storage, o que permite que os administradores de storage priorizem e resolvam os problemas associados aos eventos.</block>
@@ -4977,8 +4953,6 @@
   <block id="acfba856147d2a51cbb72344a612c283" category="paragraph">TIB</block>
   <block id="ba69b8afbdbf040ecf7dcec9f875a8d5" category="paragraph">1024 * 1024 * 1024 * 1024</block>
   <block id="d02e677260a5c4b279dec46a93e7224b" category="paragraph">1.099.511.627.776 bytes</block>
-  <block id="aab48123e19f96b4938a6aa960c608a9" category="summary">O Unified Manager usa consultas periódicas de API e um mecanismo de coleta de dados para coletar dados dos clusters. Ao adicionar clusters ao banco de dados do Unified Manager, você pode monitorar e gerenciar esses clusters para verificar se há riscos de disponibilidade e capacidade.</block>
-  <block id="55def22757c6b9a04f8da81c6641c0ba" category="summary">É possível criar grupos no Unified Manager para gerenciar objetos de storage.</block>
   <block id="ecd514ccc8e1bec464b27e24ad5ec3f8" category="summary">Você pode criar backups do Active IQ Unified Manager e usar o recurso de restauração para restaurar o backup para o mesmo sistema (local) ou um novo sistema (remoto) em caso de falha do sistema ou perda de dados.</block>
   <block id="234e1588d8422d16007efd552778a3cb" category="paragraph">Há três métodos de backup e restauração dependendo do sistema operacional no qual você instalou o Unified Manager e com base no número de clusters e nós sendo gerenciados:</block>
   <block id="64d354dc5879cf570ce7b4ef676e75bd" category="cell">Sistema operacional</block>
@@ -5002,14 +4976,11 @@
   <block id="349b5120a9ed5730c85dd33d0233bfa1" category="paragraph">Além de informar o status de segurança, o Unified Manager também gera eventos de segurança para qualquer cluster ou SVM que tenha violações de segurança. Você pode rastrear esses problemas na página de inventário do Gerenciamento de Eventos e configurar alertas para esses eventos para que o administrador de armazenamento seja notificado quando novos eventos de segurança ocorrerem.</block>
   <block id="15b9361b9fb7038f56e85f3904037d8c" category="inline-link-macro">Quais critérios de segurança estão sendo avaliados</block>
   <block id="73b0a806553de78dab50c46ee23d2d6e" category="paragraph">Para obter mais informações, <block ref="4f6ed7f86648f318e59e4c56ac086948" category="inline-link-macro-rx"></block>consulte .</block>
-  <block id="bd37599e63c8c9f71cc8df057a0449bd" category="summary">Você pode configurar valores de limite de integridade globais para todos os agregados, volumes e qtrees para rastrear quaisquer violações de limites de integridade.</block>
   <block id="99a772793453f34c9a7d6b0f0859a0f9" category="summary">O Unified Manager monitora a confiabilidade com a qual os usuários autorizados podem acessar seus dados armazenados, emite alertas sobre condições que bloqueiam ou impedem esse acesso e permite diagnosticar essas condições e atribuir e rastrear sua resolução.</block>
   <block id="f3f7260876e5e86bbeab29e5a2aa1b6c" category="paragraph">Os tópicos de fluxo de trabalho de disponibilidade nesta seção descrevem exemplos de como um administrador de storage pode usar a IU da Web do Unified Manager para descobrir, diagnosticar e atribuir para resolução condições de hardware e software que afetam negativamente a disponibilidade dos dados.</block>
   <block id="455ad634ce8b8212ed8e9698be4457ae" category="summary">Você pode usar a interface de usuário do Active IQ Unified Manager para gerar backup sob demanda sempre que necessário. O backup sob demanda permite que você crie instantaneamente um backup usando o método de backup existente. O backup sob demanda não diferencia entre o MySQL ou o backup baseado no NetApp Snapshot.</block>
   <block id="e8fc5d30f4401ba24ebb009ab746942a" category="doc">Backup sob demanda para Unified Manager</block>
   <block id="c8fbd2e1f267c35ae8ee00676c333977" category="paragraph">Você pode executar o backup sob demanda usando o botão *Backup Now* na página Backup do banco de dados. O backup sob demanda não depende das programações que você configurou para o Active IQ Unified Manager.</block>
-  <block id="3fa18313144d7f96d30533346553d44a" category="summary">Você pode criar e aplicar regras de anotação a objetos de armazenamento para que você possa identificar e filtrar esses objetos com base no tipo de anotação aplicada e sua prioridade.</block>
-  <block id="37e0f32458fc30744fd90ddfe6ca28cd" category="summary">Algumas tarefas e textos de referência que podem ajudá-lo a entender e concluir um fluxo de trabalho são comuns a muitos fluxos de trabalho no Unified Manager, incluindo adicionar e revisar notas sobre um evento, atribuir um evento, reconhecer e resolver eventos, além de detalhes sobre volumes, máquinas virtuais de storage (SVMs), agregados e assim por diante.</block>
   <block id="a47af708af924c3e98858f93842d0278" category="doc">Tarefas e informações relacionadas a vários fluxos de trabalho</block>
   <block id="d44aaf9fc8b7b474d77879bc4e8cd00a" category="summary">Esta seção contém informações sobre as duas interfaces de usuário fornecidas pelo Active IQ Unified Manager para solucionar problemas de capacidade, disponibilidade e proteção de storage de dados. As duas UIs são a IU da Web do Unified Manager e o console de manutenção.</block>
   <block id="ec731d5e7e0cf391407e9c8ac3e4caed" category="doc">Interfaces do Unified Manager usadas para gerenciar a integridade do sistema de storage</block>
@@ -5027,8 +4998,6 @@
   <block id="2bff5bcae094d4c1fca66b645c79b006" category="admonition">A funcionalidade de monitorar agregados de raiz de nós não estará disponível se os clusters executarem a versão ONTAP 9.14,1 ou posterior.</block>
   <block id="0125458c79fbece2c69bd8f9b2e42965" category="summary">É possível adicionar clusters ao banco de dados do Unified Manager para monitorar os clusters quanto à disponibilidade, capacidade e outros detalhes, como uso da CPU, estatísticas de interface, espaço livre em disco, uso de qtree e ambiente de chassi.</block>
   <block id="1f71f2dddc78f11345d26a52622fcdf5" category="paragraph">Os eventos são gerados se o status for anormal ou quando um limite predefinido for violado. Se configurado para isso, o Unified Manager envia uma notificação para um destinatário especificado quando um evento aciona um alerta.</block>
-  <block id="af97b464ed741302dba625389e090a6c" category="summary">É possível criar grupos no Unified Manager para gerenciar objetos de storage. Entender os conceitos sobre grupos e como as regras de grupo permitem adicionar objetos de armazenamento a um grupo ajudará você a gerenciar os objetos de armazenamento em seu ambiente.</block>
-  <block id="b13bafc1be544d2808e9da0ba3f87f08" category="summary">Entender os conceitos sobre anotações ajuda você a gerenciar os eventos relacionados aos objetos de armazenamento em seu ambiente.</block>
   <block id="c709409f087df8d92bf79b678b53982f" category="summary">Você pode monitorar o volume raiz do nó usando o Unified Manager. A prática recomendada é que o volume raiz do nó deve ter capacidade suficiente para impedir que o nó caia.</block>
   <block id="1aafd50acd3eec04290825cc7070495e" category="paragraph">Quando a capacidade usada do volume raiz do nó excede 80% da capacidade total do volume raiz do nó, o evento espaço quase cheio do volume raiz do nó é gerado. Você pode configurar um alerta para o evento para receber uma notificação. Você pode tomar as medidas apropriadas para impedir que o nó fique inativo usando o Gerenciador de sistema do ONTAP ou a CLI do ONTAP.</block>
   <block id="9f05e01be7e6790732b731bbb5ffe318" category="admonition">A funcionalidade de monitoramento de volumes de raiz de nós não está disponível se os clusters executarem a versão ONTAP 9.14,1 ou posterior.</block>
@@ -6409,7 +6378,6 @@
   <block id="72e8695d13b69b54434c819a8722c1bf" category="list-text">Selecione *Action Type* como o limite de integridade do volume.</block>
   <block id="bc9ffd5a146ccd83ac4f3cf1955b6ae4" category="list-text">Selecione a categoria para a qual deseja definir o limite.</block>
   <block id="ca02a612306a4d8556d50d511b4e11f9" category="list-text">Introduza os valores necessários para o limiar de saúde.</block>
-  <block id="8b5c53741ace59564e91943c6402cc3a" category="summary">Você precisa configurar sua máquina host do Windows antes de poder usar a captura Instantânea do NetApp para fazer backup e restaurar o Active IQ Unified Manager. Para iniciar o iniciador iSCSI da Microsoft em uma máquina host do Windows, digite "iscsi" na barra de pesquisa e clique em Iniciador iSCSI.</block>
   <block id="1248b2e744f7fb1ee933bde0f938b102" category="paragraph">Você precisa configurar sua máquina host do Windows antes de poder usar a captura Instantânea do NetApp para fazer backup e restaurar o Active IQ Unified Manager. Para iniciar o iniciador iSCSI da Microsoft em uma máquina host do Windows, digite "iscsi" na barra de pesquisa e clique em *Iniciador iSCSI*.</block>
   <block id="f59c0adda3b9640a8678653e8048637e" category="paragraph">Você deve limpar todas as configurações anteriores na máquina host.</block>
   <block id="34f7e7c2649322ad73b758a14fe6338b" category="paragraph">Se você estiver tentando iniciar o iniciador iSCSI em uma nova instalação do Windows, será solicitado a confirmação e, na confirmação, a caixa de diálogo Propriedades iSCSI será exibida. Se for uma instalação do Windows existente, a caixa de diálogo Propriedades iSCSI será exibida com um destino inativo ou tentando se conetar. Portanto, você precisará garantir que todas as configurações anteriores no host do Windows sejam removidas.</block>
@@ -6602,7 +6570,6 @@
   <block id="697f4653a992617dd4712ec69a7d6bc2" category="paragraph">Se o servidor do Unified Manager não estiver conetado à Internet ou se você não conseguir carregar o pacote de suporte por qualquer outro motivo, poderá recuperá-lo e enviá-lo manualmente. Você pode recuperá-lo usando um cliente SFTP ou usando comandos CLI UNIX ou Linux. Em instalações do Windows, você pode usar a Área de trabalho Remota (RDP) para recuperar o pacote de suporte.</block>
   <block id="caa975f681ad52d1effd3184e3cca2ad" category="paragraph">O pacote de suporte gerado reside no diretório /support em sistemas VMware, em /opt/NetApp/data/support/ em sistemas Linux, e no suporte a NetApp em sistemas Windows.</block>
   <block id="46472d79d5eac00ef6d5a1362f52b3ce" category="paragraph"><block ref="46472d79d5eac00ef6d5a1362f52b3ce" category="inline-link-macro-rx"></block></block>
-  <block id="a1fcf7b0487549139338b1e2a01dfa90" category="summary">Você pode gerar um relatório que contém uma lista completa de informações de cluster e nó, como números de modelo de hardware e números de série, tipos e contagens de disco, licenças instaladas e muito mais. Este relatório é útil para a renovação de contratos em sites seguros ("dark" sites) que não estejam conetados à plataforma NetAppactive IQ.</block>
   <block id="5c12f12423d7cd4928b54ca46f3b1c4c" category="doc">Gerando um relatório de inventário de hardware para renovação de contrato</block>
   <block id="ea47586537d9a627f67dc204857cc1ee" category="paragraph">Você pode gerar um relatório que contém uma lista completa de informações de cluster e nó, como números de modelo de hardware e números de série, tipos e contagens de disco, licenças instaladas e muito mais. Este relatório é útil para a renovação de contratos em sites seguros ("dark" sites) que não estão conetados à plataforma NetAppactive IQ.</block>
   <block id="b2d7c51446fe4051f38af85b8b7f2fc4" category="list-text">No painel de navegação esquerdo, clique em *Storage* &gt; *Nodes*.</block>
@@ -6839,8 +6806,6 @@
   <block id="007ab34676feda9652180bff20f3ceb5" category="list-text"><block ref="007ab34676feda9652180bff20f3ceb5" category="inline-link-macro-rx"></block></block>
   <block id="d1f76e665fdd430d5969d3e2f36d46f9" category="inline-link-macro">Performance: Visualização de todos os agregados</block>
   <block id="7120162c48c02217114f6bf570a90efd" category="list-text"><block ref="7120162c48c02217114f6bf570a90efd" category="inline-link-macro-rx"></block></block>
-  <block id="cd8b3d3744695ca73f8c29af659a98a7" category="inline-link-macro">Personalização de relatórios de capacidade agregada</block>
-  <block id="0f5a3a105039f308680a5aca67778787" category="list-text"><block ref="0f5a3a105039f308680a5aca67778787" category="inline-link-macro-rx"></block></block>
   <block id="2dbe6bc08eeaacfcdd6eb2fa5758971e" category="summary">Você pode exibir todos os eventos de segurança ativos e, em seguida, atribuir cada um deles a um usuário que pode resolver o problema. Além disso, se houver certos eventos de segurança que você não deseja receber, esta lista pode ajudá-lo a identificar os eventos que deseja desativar.</block>
   <block id="da71eb4b8e434f438366c469380ee04f" category="list-text">No menu Exibir, selecione *Eventos de segurança ativos*.</block>
   <block id="2c7d4b596a2ce9eecf120c5af53e6d11" category="paragraph">A página exibe todos os eventos de Segurança novos e reconhecidos que foram gerados nos últimos 7 dias.</block>
@@ -7045,7 +7010,6 @@
   <block id="ac57cc1d3f1615aebd022c9ed2e64abe" category="paragraph"><block ref="ac57cc1d3f1615aebd022c9ed2e64abe" category="inline-link-rx"></block></block>
   <block id="828bdb5493ae90894dc7332edf8cde5e" category="paragraph">Para todos os navegadores, a desativação dos bloqueadores pop-up garante que os recursos do software sejam exibidos corretamente.</block>
   <block id="5daa5e1fcf40ce18b66f6bcc86e1fc79" category="paragraph">Se você planeja configurar o Unified Manager para autenticação SAML, para que um provedor de identidade (IDP) possa autenticar usuários, você deve verificar a lista de navegadores suportados pelo IDP também.</block>
-  <block id="52d79db225dfcf2c566661e9d8c9b0da" category="summary">É importante que você entenda que a sequência de etapas para baixar e instalar o Unified Manager varia de acordo com o cenário de instalação.</block>
   <block id="f696145a54e424214c1c269032a174b3" category="summary">Em sistemas Linux, você pode instalar o software Unified Manager, atualizar para uma versão mais recente do software ou remover o Unified Manager.</block>
   <block id="8338761d720291f500aed82c16439446" category="summary">O Active IQ Unified Manager (anteriormente chamado Gerenciador Unificado de OnCommand) permite que você monitore e gerencie a integridade e a performance dos sistemas de storage da ONTAP com uma única interface. Você pode implantar o Unified Manager em um servidor Linux, em um servidor Windows ou como um dispositivo virtual em um host VMware.</block>
   <block id="629c4e4b9e06105de1ee6910b4520fa4" category="doc">Introdução ao Active IQ Unified Manager</block>
@@ -7490,8 +7454,6 @@
   <block id="6b749e1d94f532680ad5ca3ff3bd464d" category="paragraph"><block ref="303764e367313f5dd43bf8a1afee6961" prefix="" category="inline-code"></block></block>
   <block id="d37d0b63e336071083beff10d6864144" category="list-text">Inicie o servidor do Unified Manager. Execute estes comandos:</block>
   <block id="ccb2222b0ddd075041c68e90def28092" category="paragraph">Esse processo conclui o processo de atualização do Unified Manager. Insira o endereço IP ou URL especificado em uma nova janela de um navegador da Web compatível para iniciar a IU da Web do Unified Manager e, em seguida, faça login usando o mesmo nome de usuário de manutenção (umadmin) e senha definidos anteriormente.</block>
-  <block id="90bb491fbeff708e2e5dc4390c2d45dd" category="summary">Nos sistemas VMware vSphere, você pode instalar o software Unified Manager, atualizar para uma versão mais recente do software ou remover o dispositivo virtual do Unified Manager.</block>
-  <block id="a5014d3257e026e655ee770d9b9b474b" category="paragraph">Nos sistemas VMware vSphere, você pode instalar o Unified Manager, atualizar para uma versão mais recente do software ou remover o vApp (Unified Manager virtual Appliance).</block>
   <block id="2216048a705ad9a52409473a75b4d6ad" category="summary">O fluxo de trabalho de implantação descreve as tarefas que você deve executar antes de usar o Unified Manager.</block>
   <block id="3890f9f0f1b24b11ec99c5302bb245a3" category="paragraph">Para obter mais informações, consulte<block ref="ae0acc7a1cf35a69eb7b42685c902841" category="inline-link-rx"></block></block>
   <block id="a9b0dbc9157d19751650d85b8273cae0" category="list-text">5 GB (thin Provisioning)</block>
@@ -7650,9 +7612,6 @@
   <block id="2b1a8d2d6cbc885621b02e96d3f25a43" category="paragraph">Você é desconetado automaticamente do console de manutenção.</block>
   <block id="c8df6e5305c2cf95dcc9f8d6c0a038a3" category="list-text">*Opcional:* Faça login no console de manutenção e verifique a versão do Unified Manager.</block>
   <block id="bc9aaa7aae8f5b33a5613d0b03def13f" category="paragraph">Você pode iniciar a IU da Web em uma nova janela em um navegador da Web compatível e fazer login para usar a versão atualizada do Unified Manager. Observe que você precisa esperar que o processo de descoberta termine antes de executar qualquer tarefa na IU.</block>
-  <block id="6605fc759866ab4c0dbffd94c7ca51ff" category="summary">É importante que você entenda a sequência de etapas para baixar e instalar o Unified Manager no Windows.</block>
-  <block id="6934506078026f313f5366d7d0899031" category="summary">Você pode instalar o software Unified Manager, atualizar para uma versão mais recente do software ou remover o aplicativo Unified Manager.</block>
-  <block id="89e3093deb573e631e9912227e8a119e" category="paragraph">Você pode instalar o Unified Manager, atualizar para uma versão mais recente ou remover o aplicativo Unified Manager.</block>
   <block id="29c81145f8df4c302d2a5db797d28b64" category="paragraph"><block ref="29c81145f8df4c302d2a5db797d28b64" category="inline-link-rx"></block></block>
   <block id="ca7a90443f716119f581e53c33117768" category="paragraph"><block ref="ca7a90443f716119f581e53c33117768" category="inline-link-rx"></block></block>
   <block id="19f37b6c4f24bb13df7dd127a8bef89e" category="summary">Você pode atualizar produtos de terceiros, como JRE, no Unified Manager quando instalado em sistemas Windows.</block>
@@ -8307,7 +8266,6 @@
   <block id="f69a52308dbacd01b2df722f87983fe6" category="list-text">Integridade do sistema, como movimentos de volume, compactação de dados etc.</block>
   <block id="a958d90799298fa5b2378fe18b48de56" category="list-text">Volumes não monitorizados</block>
   <block id="5a98beb6ff76d10c12ec2e0108d5e329" category="paragraph">Os dados de performance para workloads definidos pelo sistema são exibidos na GUI somente quando o componente de cluster usado por esses workloads está na contenção. Por exemplo, você não pode pesquisar o nome de uma carga de trabalho definida pelo sistema para exibir seus dados de performance na GUI.</block>
-  <block id="72563a114421d5c552819f674bfc5377" category="summary">Há duas interfaces de usuário fornecidas pelo Active IQ Unified Manager para monitorar e solucionar problemas de performance de storage de dados: A interface de usuário da Web e o console de manutenção.</block>
   <block id="4a6543511f6b6ff2d29a6c6c7a97bdc7" category="doc">Interfaces do Unified Manager usadas para gerenciar a performance do sistema de storage</block>
   <block id="a3421e617632dd7471d3046fe6d43d1c" category="summary">Os gráficos no painel gráficos de contador permitem visualizar e comparar dados de desempenho para o objeto raiz e para os objetos que você adicionou da grade de objetos correlacionados. Isso pode ajudá-lo a entender as tendências de desempenho e isolar e resolver problemas de desempenho.</block>
   <block id="6a88d9059c34fb159d07ff457dd27d90" category="doc">Compreender as tabelas de contadores</block>
@@ -8419,7 +8377,6 @@
   <block id="9fa2a125145ce4707706859c5d640093" category="paragraph">O evento da política de limite definido pelo sistema alerta você para o fato de que um failover fará com que a latência do nó de takeover aumente para um nível inaceitável. Quando você vê um evento gerado por essa diretiva para um nó específico, você pode navegar para a página Planejamento de failover de Performance/nó para esse nó para exibir o valor de latência previsto devido a um failover.</block>
   <block id="601fab415a5c8d44f511b8b4596921b7" category="paragraph">Além de usar essa política de limite definida pelo sistema, você pode criar políticas de limite usando o contador "capacidade de desempenho usada - aquisição" e, em seguida, aplicar a política aos nós selecionados. Especificar um limite inferior a 200% permite que você receba um evento antes que o limite para a política definida pelo sistema seja violado. Você também pode especificar o período mínimo de tempo para o qual o limite é excedido para menos de 30 minutos se quiser ser notificado antes que o evento de política definido pelo sistema seja gerado.</block>
   <block id="879603369cd2f5b44fcfb3c7f6abd116" category="paragraph">Por exemplo, você pode definir uma política de limite para gerar um evento de aviso se a capacidade combinada de performance usada pelos nós em um par de HA exceder 175% por mais de 10 minutos. Você pode aplicar essa política ao Node1 e ao Node2, que formam um par de HA. Depois de receber uma notificação de evento de aviso para Node1 ou Node2, você pode visualizar a página Planejamento de failover de nó/desempenho para esse nó para avaliar o impactos estimado no desempenho no nó de aquisição. Você pode tomar medidas corretivas para evitar sobrecarregar o nó de takeover se ocorrer um failover. Se você agir quando a capacidade combinada de performance usada pelos nós for inferior a 200%, a latência do nó de takeover não atinge um nível inaceitável mesmo que um failover ocorra durante esse período.</block>
-  <block id="5a0655841e7a6403311674d5e01aa003" category="summary">Você pode analisar as cargas de trabalho no grupo de políticas qualidade do serviço (QoS) com a maior alteração na atividade para determinar se mais de um workload causou o evento. Você também pode ver se outros workloads ainda estão excedendo o limite de taxa de transferência definido ou se eles estão de volta ao intervalo de atividade esperado.</block>
   <block id="108996a47a494b1edffaf879f72e7acf" category="doc">Verifique se outros volumes no grupo de políticas de QoS têm atividade excepcionalmente alta</block>
   <block id="927c85638637b4418f4206e7048cb4a2" category="paragraph">Você pode analisar os workloads no grupo de políticas de qualidade do serviço (QoS) que tem a alteração mais alta na atividade para determinar se mais de um workload causou o evento. Você também pode ver se outros workloads ainda estão excedendo o limite de taxa de transferência definido ou se eles estão de volta ao intervalo de atividade esperado.</block>
   <block id="769d20ca7e6783d914750e8af6b9c711" category="paragraph">Na página de detalhes do evento, na seção Diagnóstico do sistema, você pode classificar as cargas de trabalho por desvio de pico na atividade para exibir as cargas de trabalho com a alteração mais alta na atividade na parte superior da tabela. Essas cargas de trabalho podem ser os "bullies" cuja atividade excedeu o limite definido e pode ter causado o evento.</block>
@@ -8791,7 +8748,6 @@
   <block id="b59d0baa58235bae69e40a15434850fe" category="list-text"><block ref="b59d0baa58235bae69e40a15434850fe" category="inline-link-macro-rx"></block></block>
   <block id="4e3ea467fce65521296297b4a803bd9a" category="summary">Você pode usar as ações sugeridas para tentar resolver eventos de desempenho por conta própria. As três primeiras sugestões são sempre exibidas, e as ações sob a quarta sugestão são específicas para o tipo de evento exibido.</block>
   <block id="47c16704561dc4f5756ddd81e59b03f9" category="paragraph">Os links *Help me do this* fornecem informações adicionais para cada ação sugerida, incluindo instruções para executar uma ação específica. Algumas das ações podem envolver o uso dos comandos do Unified Manager, do ONTAP System Manager, do OnCommand Workflow Automation, da CLI do ONTAP ou uma combinação dessas ferramentas.</block>
-  <block id="effa6ec295d256166212c21ed1967250" category="summary">A página Resumo exibe gráficos de contador que contêm detalhes sobre os eventos e o desempenho por objeto para o período de 72 horas anterior. Esses dados não são atualizados automaticamente, mas são atualizados a partir do último carregamento da página. Os gráficos na página Resumo respondem à pergunta preciso procurar mais?</block>
   <block id="84ca298df72ab058f684940ba6fc7883" category="paragraph">A página Resumo exibe gráficos de contador que contêm detalhes sobre os eventos e o desempenho por objeto para o período de 72 horas anterior. Esses dados não são atualizados automaticamente, mas são atualizados a partir do último carregamento da página. Os gráficos na página Resumo respondem à pergunta _preciso procurar mais?_</block>
   <block id="928a3ee10cac32e26a95e3b617e56177" category="section-title">Gráficos e estatísticas de contador</block>
   <block id="b43dd1a22516489da0059dd81579258c" category="paragraph">Os gráficos de resumo fornecem uma visão geral rápida e de alto nível para o último período de 72 horas e ajudam você a identificar possíveis problemas que exigem mais investigação.</block>
@@ -9732,19 +9688,13 @@
   <block id="62f8662ca1ad633f186e31e0d4873505" category="paragraph">Para obter mais informações sobre como ajustar as configurações de QoS, consulte<block ref="8b5b4dee150c1781ecff4cc00d8b0ae8" category="inline-link-rx"></block></block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="doc">Notas de lançamento</block>
   <block id="12dc360fa3d8165171389ee06172a133" category="inline-link">Notas de versão do Active IQ Unified Manager</block>
-  <block id="f869c5ebf4dab96af5c925d450b297fc" category="summary">Esses relatórios personalizados de amostra são usados para ajudá-lo a identificar e responder a possíveis problemas relacionados à capacidade de armazenamento agregado.</block>
-  <block id="3d9f8138f17e1d3282f0e4926b433f0d" category="paragraph">Os relatórios nesta seção são apenas exemplos para ajudá-lo a entender como criar relatórios sobre capacidade agregada para ajudá-lo a monitorar os recursos do sistema de armazenamento.</block>
-  <block id="96aeeb6ea929356f485d93717faef0eb" category="summary">Os exemplos de relatórios de armazenamento de cluster nesta seção são apenas exemplos para ajudá-lo a entender como criar relatórios sobre a capacidade do cluster para ajudá-lo a monitorar os recursos do sistema de armazenamento.</block>
   <block id="92841229fe10023d61254e3025763e1b" category="summary">Você pode personalizar relatórios de compartilhamento NFS para analisar informações sobre políticas e regras de exportação de NFS para volumes em seus sistemas de storage. Por exemplo, você pode personalizar relatórios para exibir volumes com caminhos de montagem inacessíveis e volumes com a política de exportação padrão.</block>
-  <block id="b43af741dbae1838a692f1c1ea700ca3" category="summary">Esses relatórios personalizados de amostra são usados para ajudá-lo a identificar e responder a possíveis problemas relacionados à capacidade do Qtree.</block>
   <block id="85ea07cf45dddd1bb4cfccaec4331e00" category="summary">Há muitas maneiras de personalizar as exibições para criar um relatório que contenha todas as informações necessárias para gerenciar os clusters do ONTAP.</block>
   <block id="234b12bf7e76391cb11df24bc3450c8c" category="paragraph">Comece com uma página de inventário padrão ou uma exibição personalizada e, em seguida, personalize-a adicionando ou removendo colunas, alterando a ordem da coluna, filtrando os dados ou classificando em uma coluna específica em ordem ascendente ou descendente.</block>
   <block id="822199e84782118372be247348a5b0ea" category="paragraph">A partir do Unified Manager 9,8, você também pode baixar a exibição no Excel para personalizá-la usando recursos avançados. Quando terminar, carregue o ficheiro Excel personalizado. Se você agendar um relatório usando essa exibição, ele usará o arquivo Excel personalizado para criar relatórios robustos que você pode compartilhar.</block>
   <block id="5fdb72b02bf56b0f25e5533dcb28dd93" category="paragraph">Para obter mais informações sobre como personalizar relatórios usando o Excel, consulte _exemplos de relatórios do Microsoft Excel_.</block>
   <block id="2d16dd28e6a42b42f4f69330c58067e3" category="paragraph">Você deve ter a função Administrador de aplicativos ou Administrador de armazenamento para gerenciar relatórios.</block>
   <block id="f97ca7012585860c1c86cfd1f25dd679" category="summary">Você pode criar relatórios de VM de storage para analisar informações de volume e visualizar a integridade geral e a disponibilidade de storage. Por exemplo, você pode criar relatórios para exibir SVMs atingindo a contagem máxima de volume e analisar SVMs paradas.</block>
-  <block id="29c7333e782dea789336ad2e1c014685" category="summary">Esses relatórios personalizados de amostra são usados para ajudá-lo a identificar e responder a possíveis problemas relacionados à capacidade de volume e desempenho.</block>
-  <block id="427bcb62e2bd1c94ae6a83f6e7a71b6a" category="summary">Esses relatórios personalizados de amostra são usados para ajudá-lo a identificar e responder a possíveis problemas relacionados ao desempenho de volume.</block>
   <block id="1722107bc696f6ba2477da1c1b696c95" category="summary">O relatório Inventário de relacionamentos de volume permite analisar os detalhes do inventário de armazenamento em um cluster, entender o grau de proteção necessário para os volumes e filtrar os detalhes do volume com base na origem da falha, padrão e programações.</block>
   <block id="52be5acc39d8a7670dbcd31c91338f2a" category="summary">Você pode coletar informações no Unified Manager sobre seus clusters para criar relatórios a partir da IU, consultas de banco de dados MySQL e APIs REST.</block>
   <block id="5fc482204e2b114b41ae634b60c74659" category="doc">Pontos de acesso para geração de relatórios</block>
@@ -9808,7 +9758,6 @@
   <block id="ca052022489bbd210e8a60ce37a5bec0" category="paragraph">A partir desta versão do Active IQ Unified Manager, as seguintes melhorias são feitas nos relatórios:</block>
   <block id="99f6c134450910f231df5cbcadc79807" category="list-text">O e-mail é enviado para um relatório de acordo com a programação configurada. Mesmo quando você gera um relatório sob demanda, você receberá um e-mail.</block>
   <block id="4796336d242a4665c4972cb3508bc536" category="list-text">O nome do arquivo do relatório e os metadados do relatório incluem o nome do host de onde o relatório foi gerado. Mesmo que alguém altere o nome do arquivo, ainda assim você pode identificar o nome do host de onde o relatório foi gerado devido a esse aprimoramento.</block>
-  <block id="d83294a3729568ee795a306512eeb4ae" category="summary">Saiba como encontrar e personalizar visualizações de página de inventário em relatórios programados compartilháveis.</block>
   <block id="cf34db983c807f1b3f9a4ea61d46d60a" category="summary">Você pode usar as APIS REST para ajudar a gerenciar clusters visualizando as informações de integridade, capacidade, desempenho e segurança capturadas pelo Unified Manager.</block>
   <block id="d4ebc5d6d732b6ec32a446521b4a3d9a" category="doc">APIs REST do Unified Manager que podem ser usadas para geração de relatórios</block>
   <block id="bc284f9f2dda2417b7038eecc87d4d2c" category="paragraph">As APIs REST são expostas por meio da página da Web do Swagger. Você pode acessar a página da Web do Swagger para exibir a documentação da API REST do Unified Manager, bem como emitir manualmente uma chamada de API. Na IU da Web do Unified Manager, na barra de menus, clique no botão *Ajuda* e selecione *Documentação da API*. Para obter informações sobre as APIs REST do Unified Manager, <block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block>consulte .</block>
@@ -10329,9 +10278,6 @@
   <block id="bfed0c706b720121e6928abae36764b8" category="list-text">Integra-se ao OnCommand Workflow Automation para executar fluxos de trabalho de proteção automatizada.</block>
   <block id="04babb42025de93d7ed95daeae2f8266" category="list-text">Capacidade de criar novos workloads, como um LUN ou compartilhamento de arquivos, diretamente do Unified Manager e atribuir um nível de Serviço de Performance para definir os objetivos de desempenho e storage para os usuários que acessam a aplicação usando esse workload.</block>
   <block id="a26d614c9e0553f09a3b94b7c06f9fff" category="summary">Capacidade física e lógica das unidades de medição de capacidade</block>
-  <block id="5978d74a2d776716d6a10f2b8ff228c1" category="summary">O suporte de monitoramento para configurações do MetroCluster na IU da Web do Unified Manager permite verificar se há problemas de conetividade na configuração do MetroCluster. Descobrir um problema de conetividade cedo permite que você gerencie suas configurações do MetroCluster com eficiência.</block>
-  <block id="e8758725a8a19f259ad3d888980dce5c" category="paragraph">O suporte a monitoramento para configurações do MetroCluster na IU da Web do Unified Manager permite verificar se há problemas de conectividade nas configurações do MetroCluster em FC e IP. Descobrir um problema de conetividade cedo permite que você gerencie suas configurações do MetroCluster com eficiência.</block>
-  <block id="e8e6a4dc5e729ecead86e2fb5b7001d6" category="summary">É possível gerenciar os clusters do ONTAP usando o Unified Manager para monitorar, adicionar, editar e remover clusters.</block>
   <block id="66576d2d96c5af7a461b297c7c1fee81" category="summary">Cálculos e gerenciamento de nível de serviço de desempenho.</block>
   <block id="8552175c85e7998c59b8494bc1ae857d" category="paragraph">Um nível de serviço de desempenho (PSL) permite definir os objetivos de desempenho e armazenamento de um workload. Você pode atribuir um PSL a uma carga de trabalho ao criar inicialmente a carga de trabalho ou depois editar a carga de trabalho.</block>
   <block id="184ab5bd8865091b7cda3174a886cc26" category="paragraph">O gerenciamento e o monitoramento de recursos de storage são baseados nos objetivos de nível de serviço (SLOs). Os SLOs são definidos por contratos de nível de serviço baseados no desempenho e na capacidade exigidos. No Gerenciador Unificado, os SLOs referem-se às definições de PSL dos aplicativos que estão sendo executados no storage NetApp. Os serviços de storage são diferenciados com base no desempenho e na utilização dos recursos subjacentes. Um PSL é uma descrição dos objetivos do serviço de storage. Um PSL permite que o provedor de storage especifique os objetivos de desempenho e capacidade para a carga de trabalho. Quando você atribui um PSL em um workload, o workload correspondente no ONTAP é gerenciado por seus objetivos de performance e capacidade. Cada PSL é regido por IOPs mínimos de pico, esperados e absolutos e latência esperada.</block>
@@ -10420,7 +10366,6 @@
   <block id="13dad109d2c35826c8f759dea4d8e3f4" category="paragraph">Fornece alta taxa de transferência com a menor latência.</block>
   <block id="530ce618180542dfb8f22273bad27f6f" category="paragraph">Ideal para dados de aplicativos de banco de dados, como informações de tabela de banco de dados e metadados.</block>
   <block id="7f2bbe4bef9df4c8b49a5603e31b0022" category="paragraph">24576</block>
-  <block id="c8af6ec34ad2c054d72953bfcb333d10" category="summary">Você pode usar cotas de usuário e grupo para limitar a quantidade de espaço em disco ou o número de arquivos que um usuário ou um grupo de usuários podem usar. Você pode exibir informações de cota de usuário e grupo de usuários, como o uso de disco e arquivo e os vários limites definidos nos discos.</block>
   <block id="f946b2af1bfce2267cbc4a3c2d8c81c4" category="summary">Uma Política de eficiência de storage (SEP) permite definir as características de eficiência de storage de um workload. Você pode atribuir uma SEP a uma carga de trabalho ao criar inicialmente a carga de trabalho ou depois editar a carga de trabalho.</block>
   <block id="ec6cd40c58d4be15fb7f8ebe27c8ba52" category="paragraph">A eficiência de storage inclui tecnologias como thin Provisioning, deduplicação e compressão de dados que aumentam a utilização do storage e diminuem os custos de storage. Ao criar SEPs, você pode usar essas tecnologias de economia de espaço individualmente ou em conjunto para obter a máxima eficiência de storage. Quando você associa as políticas aos workloads de storage, as configurações de política especificadas são atribuídas a elas. Com o Unified Manager, você pode atribuir SEPs definidos pelo sistema e definidos pelo usuário para otimizar os recursos de storage no data center.</block>
   <block id="02a01bfd12168f8ece9d9c293c9bbae5" category="paragraph">O Unified Manager fornece dois SEPs definidos pelo sistema: Alto e baixo. Esses SEPs são aplicáveis à maioria das cargas de trabalho de storage em um data center. No entanto, você pode criar suas próprias políticas se os SEPs definidos pelo sistema não atenderem aos seus requisitos.</block>
@@ -10565,13 +10510,11 @@
   <block id="642fa7ffa5c8279944eb98b2c97822c4" category="list-text">Atribua políticas a workloads de storage a partir da página workloads</block>
   <block id="6cadccc84da38bfa5d917b1cd5991c21" category="inline-link-macro">Gerenciamento de storage baseado em políticas</block>
   <block id="fd20d4b7d2ab504e544b30c37c130f81" category="paragraph"><block ref="fd20d4b7d2ab504e544b30c37c130f81" category="inline-link-macro-rx"></block></block>
-  <block id="043eedf4072f9e2466440138f81e7ab9" category="summary">As informações de solução de problemas ajudam a identificar e resolver problemas que você encontra ao usar o Unified Manager.</block>
   <block id="944499a7db0fb7ece7f13babcbfa2029" category="summary">Entender os layouts típicos de janelas ajuda você a navegar e usar o Active IQ Unified Manager de forma eficaz. A maioria das janelas do Unified Manager é semelhante a um dos dois layouts gerais: Lista de objetos ou detalhes. A configuração de exibição recomendada é de pelo menos 1280 por 1024 pixels.</block>
   <block id="998b0f0721a85f1887ad21211d13755d" category="doc">Layouts de janela típicos</block>
   <block id="f5d0d6012440752411c07b7aee29cd3d" category="paragraph">Nem todas as janelas contêm todos os elementos nos diagramas a seguir.</block>
   <block id="16faa1bfdfc3c23fd9c85afc8d128775" category="section-title">Layout da janela da lista de objetos</block>
   <block id="4138fb3a63b46db04d955eab74245d6d" category="section-title">Layout da janela de detalhes do objeto</block>
-  <block id="b97bb074fb53596c9c077d008b947aaf" category="summary">Entender os conceitos sobre cotas ajuda você a gerenciar suas cotas de usuário e cotas de grupo de usuários de forma eficiente.</block>
   <block id="cfaaafe5f6e435dccd750d1732e2b80a" category="summary">A interface de usuário do Unified Manager consiste principalmente em um painel que fornece uma visualização rápida dos objetos monitorados. A interface do usuário também fornece acesso à visualização de todos os objetos do cluster.</block>
   <block id="605d06ffbb7b67366593490b2ea886c2" category="paragraph">Pode selecionar uma vista preferida e utilizar os botões de ação, conforme necessário. A configuração da tela é salva em um espaço de trabalho para que toda a funcionalidade necessária esteja disponível quando você iniciar o Unified Manager. No entanto, quando você navega de uma exibição para outra e, em seguida, navega para trás, a exibição pode não ser a mesma.</block>
   <block id="8a13d1a5338f1794b0454274eb4286a1" category="summary">O Active IQ Unified Manager fornece APIs REST para você visualizar informações sobre monitoramento e gerenciamento do ambiente de storage. As APIs também permitem provisionar e gerenciar objetos de storage com base em políticas.</block>
@@ -10664,7 +10607,6 @@
   <block id="2f734682fdea508840194360acbbeffb" category="paragraph">A capacidade usada e o IOPS são recuperados em termos da capacidade total usada e da performance de todos os workloads de storage nos clusters.</block>
   <block id="c7cf63776699beed177c8d6ccc5cd79e" category="paragraph">O IOPS disponível é calculado com base na latência esperada e nos níveis de Serviço de desempenho recomendados nos nós. Ele inclui o IOPS disponível para todos os níveis de serviço de performance cuja latência esperada é menor ou igual à sua própria latência esperada.</block>
   <block id="ea261153033425edab1a02b9950edee4" category="paragraph">A capacidade disponível é calculada com base na latência esperada e nos níveis de Serviço de desempenho recomendados em agregados. Ele inclui a capacidade disponível para todos os níveis de Serviço de Performance cuja latência esperada é menor ou igual a sua própria latência esperada.</block>
-  <block id="337930ae0771c912aef51058b393b6af" category="summary">A conetividade entre os clusters em uma configuração do MetroCluster pode ser um dos seguintes status: Ideal, impactado ou inativo. Compreender os Estados de conetividade permite-lhe gerir eficazmente as suas configurações do MetroCluster.</block>
   <block id="45a153fd0ead31ffde063c1f449b0d5b" category="paragraph">A conectividade entre os clusters em uma configuração de MetroCluster em FC pode ser um dos seguintes status: Ideal, impactado ou inativo. Compreender os Estados de conetividade permite-lhe gerir eficazmente as suas configurações do MetroCluster.</block>
   <block id="3469305ea3a1c509615e7602d8aee430" category="cell">Estado da conetividade</block>
   <block id="7f181d17e5151df833c62235f25606f9" category="cell">Ícone apresentado</block>
@@ -10769,7 +10711,6 @@
   <block id="48c450ff1af42d12eacf5503a24e4635" category="list-text">*Restaurar para padrões de fábrica*</block>
   <block id="6413948bb26add68dcbecbcfe54d0f48" category="paragraph">Permite restaurar o formato de notificação para os valores padrão de fábrica.</block>
   <block id="656afdf405d012337913a1f554486bbf" category="paragraph">Guarda as alterações efetuadas no formato de notificação.</block>
-  <block id="af06d22b339b3378a25899ee64f782a9" category="summary">Solução de problemas: Problema com a adição de LDAP usando outros serviços de autenticação</block>
   <block id="f8c7955493ba86fcced30f572e78ef85" category="doc">Problema com a adição de LDAP usando outros serviços de autenticação</block>
   <block id="d574cdb8f39f9bda55a3db785d43a212" category="paragraph">Quando você seleciona outros como o serviço de autenticação, o usuário e a classe de objeto do grupo retêm os valores do modelo selecionado anteriormente. Se o servidor LDAP não usar os mesmos valores, a operação pode falhar.</block>
   <block id="3bef6104c92bf17bdfdf66c9a257bbfc" category="paragraph">*Causa*</block>
@@ -10809,7 +10750,6 @@
   <block id="896784460a8417f0c97b7c588dd6156a" category="paragraph">Valida a sintaxe da regra criada. Se houver erros durante a validação, a regra que gera o erro é exibida juntamente com uma mensagem de erro.</block>
   <block id="0c8f11a90d3686695990cdf432861161" category="paragraph">Permite restaurar as regras de endereço para os valores padrão de fábrica.</block>
   <block id="1393f38606bc49afa854a3391fda7a44" category="paragraph">Valida a sintaxe da regra e salva a regra se não houver erros. Se houver erros durante a validação, a regra que gera o erro é exibida juntamente com uma mensagem de erro.</block>
-  <block id="d535a648f3a63ed10fdc7f2579617e0f" category="summary">Solução de problemas: Erro de autenticação desconhecido</block>
   <block id="aa1daa474c7a5ca26676f22debadc497" category="doc">Erro de autenticação desconhecido</block>
   <block id="155987fb3970b6856df9321343d0de60" category="paragraph">Quando você está executando uma operação relacionada à autenticação, como adicionar, editar, excluir ou testar usuários ou grupos remotos, a seguinte mensagem de erro pode ser exibida:<block ref="fce9446a8861a0ac234bc4dcaea37f13" prefix=" " category="inline-code"></block></block>
   <block id="603985874695e48f0f343eddd9f00df0" category="paragraph">Esse problema pode ocorrer se você tiver definido um valor incorreto para as seguintes opções:</block>
@@ -10817,7 +10757,6 @@
   <block id="060da96d80fee55ff1ba4b2a4090edc2" category="list-text">Vincular Nome distinto do serviço de autenticação OpenLDAP</block>
   <block id="c84714dfd70074a24b74d7abfbc9b8cc" category="list-text">Com base no serviço de autenticação que selecionou, introduza as informações adequadas para Nome de administrador ou Nome distinto vincular.</block>
   <block id="6258d99b9f3a4784670501794c5baba7" category="list-text">Clique em *Test Authentication* para testar a autenticação com os detalhes especificados.</block>
-  <block id="5a1829b996821d842e0c63ffd9f17a89" category="summary">Solução de problemas: Usuário não encontrado</block>
   <block id="b846d1144d90307e0cfa35b918a98a98" category="doc">Utilizador não encontrado</block>
   <block id="d26fa69be0f704c9189ab877b46c91a2" category="paragraph">Quando você está executando uma operação relacionada à autenticação, como adicionar, editar, excluir ou testar usuários ou grupos remotos, a seguinte mensagem de erro é exibida:<block ref="36af25f06e0e932c8fb7d84abb3cd9dd" prefix=" " category="inline-code"></block></block>
   <block id="9eea7085dc7eea5cbe6d8c4bb4d18575" category="paragraph">Este problema pode ocorrer se o utilizador existir no servidor AD ou no servidor LDAP e se tiver definido o nome distinto base para um valor incorreto.</block>
@@ -11244,7 +11183,6 @@
   <block id="5088a593884b9f5b6d52f0765c1c1554" category="sidebar">Instalar e atualizar em sistemas Windows</block>
   <block id="40a3a0e70dc43e9efc5b6e90644739dd" category="sidebar">Configurar o Unified Manager</block>
   <block id="65c111a1825897e67ec3ff98b2dcf4e3" category="sidebar">Gerir definições de funcionalidades</block>
-  <block id="9e6b6e7742d96ad773931b8a78e9e6f3" category="sidebar">Gerenciar o acesso baseado em funções</block>
   <block id="d8be01b779b72fb7ad353d45426e7fe3" category="sidebar">Monitoramento de desempenho</block>
   <block id="eb7e776ba84f97e32ca2522829847d83" category="sidebar">Limites de performance</block>
   <block id="e4b3ba4cc2976d5d2c21b446db787620" category="sidebar">Desempenho do cluster</block>
@@ -11255,8 +11193,6 @@
   <block id="8af3b43a5a64432d35c94880633df02f" category="sidebar">Monitoramento de integridade de objetos e storage</block>
   <block id="dcb83accddabcabf987373583a058d0d" category="sidebar">Infraestrutura virtual</block>
   <block id="8b03ab143dde9355a51949d8bb9ca578" category="sidebar">Configurações do MetroCluster</block>
-  <block id="138596885ef6a770335b0f958ce9d084" category="sidebar">Integridade de objetos de cluster e clusters</block>
-  <block id="90d18dd78a87b153d16c1819d4028f7c" category="sidebar">Limites de integridade</block>
   <block id="c1a5720865a9f4d704047c6a3994bba0" category="sidebar">Envie mensagens AutoSupport e pacotes de suporte</block>
   <block id="9c8007a675a79a50e15e5f8b518142de" category="sidebar">Monitoramento de proteção de dados</block>
   <block id="bf54949621b6403edf2732fa98614df6" category="sidebar">Configure a relação de proteção</block>
@@ -11276,7 +11212,6 @@
   <block id="2938c7f7e560ed972f8a4f68e80ff834" category="sidebar">Painel de instrumentos</block>
   <block id="74b4081b8a74cd9f44a771845c7c885f" category="sidebar">Fluxo de trabalho do evento</block>
   <block id="52b908547ee09cb59aaf164c198a5e2f" category="sidebar">Eventos da plataforma Active IQ</block>
-  <block id="838d44a8410719f3471f499e2bddcc48" category="sidebar">Eventos e tipos de gravidade</block>
   <block id="25b95061d817f1cd4aeac25ef4d89f69" category="sidebar">Eventos de correção</block>
   <block id="62aaa6a933d2ff8ba87b5093233576f7" category="sidebar">Remediação automática</block>
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Mais recursos</block>
@@ -11314,7 +11249,6 @@
   <block id="9578fa84ff359de78da764edb1c96f57" category="sidebar">Definições de estado da conetividade do cluster</block>
   <block id="baf5d44e1d7facdf126425b9dacabd71" category="sidebar">Definições de status de espelhamento de dados</block>
   <block id="84f1453e00902cf14e28a64b61cac9e8" category="paragraph">As etapas necessárias para adicionar capacidade ao diretório de dados são diferentes dependendo se o Unified Manager está sendo executado em um servidor VMware ESXi, em um servidor Red Hat ou em um servidor Microsoft Windows.</block>
-  <block id="2a5129ebe6b5dc34b957c83a73eb711b" category="paragraph">As etapas necessárias para alterar o nome do host são diferentes dependendo se o Unified Manager está sendo executado em um servidor VMware ESXi, em um servidor Red Hat Linux ou em um servidor Microsoft Windows.</block>
   <block id="66e2670683df3625173edd7d8c448cc5" category="summary">O usuário de manutenção é criado durante a instalação do Unified Manager em um sistema Red Hat Enterprise Linux. O nome de usuário de manutenção é o usuário "umadmin". O usuário de manutenção tem a função Administrador do aplicativo na IU da Web e esse usuário pode criar usuários subsequentes e atribuir-lhes funções.</block>
   <block id="c018578cad8e79727cbd716c87816ba4" category="paragraph">O usuário de manutenção é criado durante a instalação do Unified Manager em um sistema Red Hat Enterprise Linux. O nome de usuário de manutenção é o usuário "umadmin". O usuário de manutenção tem a função Administrador do aplicativo na IU da Web e esse usuário pode criar usuários subsequentes e atribuir-lhes funções.</block>
   <block id="90306e6d8bec17a4aa414c3b49fc97a1" category="paragraph">Criado durante a configuração inicial do Unified Manager. O usuário de manutenção cria usuários adicionais e atribui funções. O utilizador de manutenção é também o único utilizador com acesso à consola de manutenção. Quando o Unified Manager é instalado em um sistema Red Hat Enterprise Linux, o usuário de manutenção recebe o nome de usuário "umadmin".</block>
@@ -11356,7 +11290,6 @@
   <block id="85e1cde38f7710ac3710a0ca4b341ad5" category="list-text">Todos os clusters são compatíveis, com exceção dos sistemas ASA R2.</block>
   <block id="a6f8396e876411d4ce52d9a1c9c7726e" category="list-text">Transfira o ficheiro de instalação do Unified Manager Windows ou o ficheiro zip para um diretório de destino no sistema Windows.</block>
   <block id="8f1edca040f984e1b9d6867249003ff5" category="list-text">Extraia o arquivo zip, se necessário, e navegue até o diretório onde o arquivo de instalação está localizado.</block>
-  <block id="c42aef995ff40406a5f5bd4e18b841c5" category="summary">Como desinstalar produtos de terceiros, incluindo Python e Microsoft Visual C.</block>
   <block id="6e0f8dcf3bf0d57785709c49aa46d41b" category="paragraph">Depois de atualizar o Unified Manager, você pode desinstalar produtos de terceiros, como Python ou Microsoft Visual C 2013. Isso é opcional.</block>
   <block id="a49f65adc5b5fb777c87058a91fd08a1" category="list-text">A partir do *Painel de controlo* selecione *programas* &gt; *programas e funcionalidades*.</block>
   <block id="2135c569ee3f102b46d835b22fa7351c" category="list-text">Selecione Python na lista de programas.</block>
@@ -11368,7 +11301,6 @@
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">Antes de começar</block>
   <block id="403384bc7be1a7f4e22bd05d0f8b3ec8" category="paragraph">* O que. Antes de começar</block>
   <block id="1b377a56a4ae0b95c40511aa64336c41" category="list-text">A versão instalada do Workflow Automation deve ser 5,1.1P6 ou superior.</block>
-  <block id="c8fd24815f6093e46c1cb75855be5d43" category="list-text">Você deve ter instalado o Unified Manager em um servidor Linux seguindo as instruções no <block ref="55b3ec865696a24c30e5b2e799e3e5eb" category="inline-link-macro-rx"></block>.</block>
   <block id="eb0a89add4cd78412c29a6c06287ca71" category="paragraph">O Unified Manager usa<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block> o utilitário para instalar o software e qualquer software dependente. Como existem várias imagens do Red Hat Enterprise Linux, os pacotes instalados dependem do software presente nas imagens. O<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block> utilitário determina os pacotes de software dependentes para instalação. Se precisar de mais informações sobre os pacotes de software dependentes, consulte o <block ref="f1a81936de546e8d25edd5d0aa76c791" category="inline-link-macro-rx"></block>.</block>
   <block id="8ed8853f67b146f3f04807d3865ef602" category="list-text">Certifique-se de baixar a versão correta do arquivo de instalação para o seu sistema Red Hat Enterprise Linux. Com base se você tem o Red Hat Enterprise Linux 8 ou 9 instalado, certifique-se de baixar a versão apropriada do arquivo Unified Manager<block ref="daf4de58883c030f033f07e61debf025" prefix=" " category="inline-code"></block>.</block>
   <block id="19c4a5941b195c20d40b06f049672572" category="paragraph"><block ref="cf70fd654b04a0c92e5d4b7fed50b3d9" category="inline-link-macro-rx"></block>Consulte .</block>
@@ -11377,7 +11309,6 @@
   <block id="732f8b59fb176e61ded542460f2b84e0" category="paragraph"><block ref="bf806cbb1cb8f7651ccd8a97025996a8" prefix="" category="inline-code"></block></block>
   <block id="3717278eaf7b770b8c5c946fe5b23f12" category="list-text">Baixe o repositório MySQL apropriado para sua instalação. Para a versão 8, faça o download em:</block>
   <block id="5c17ea3e79e1636d2840d1f9fab25337" category="paragraph">Se você já instalou o Unified Manager em um sistema Red Hat Enterprise Linux 7.x e precisa atualizar para o Red Hat Enterprise Linux 8.x, siga um dos procedimentos listados neste tópico. Em ambos os casos, você deve criar um backup do Unified Manager no sistema Red Hat Enterprise Linux 7.x e, em seguida, restaurar o backup em um sistema Red Hat Enterprise Linux 8.x. Observe que as versões suportadas do Red Hat Enterprise Linux são de 8,0 a 8,10.</block>
-  <block id="c6e74cf56812c87ccc3bc2f6640b0b6f" category="paragraph"><block ref="f09744d7bd837929fda35b3531c47312" category="inline-link-macro-rx"></block>Consulte .</block>
   <block id="a788801886ad9ba3f0d1aa6f0272e0aa" category="doc">Defina o tempo limite de inatividade da sessão</block>
   <block id="5b864f90874a257a247b735985d967ca" category="paragraph">Você pode especificar o valor de tempo limite de inatividade do Unified Manager para que a sessão seja encerrada automaticamente após um determinado período de inatividade. Por padrão, o tempo limite é definido para 4.320 minutos (72 horas).</block>
   <block id="bc684223e8f110b5631ba7afdab7edf8" category="summary">Você pode definir um valor máximo de tempo limite da sessão para o Unified Manager usando a CLI para que a sessão seja encerrada automaticamente após um determinado período de tempo.</block>
@@ -11399,7 +11330,6 @@
   <block id="7364abf9a3cfe2b121a7cea83050498f" category="paragraph"><block ref="e4721391d8c98496e77286760a370cbd" prefix="" category="inline-code"></block></block>
   <block id="a241a6b1d78a908e027ae227ba4afac8" category="paragraph"><block ref="ab96ce67a2bc362f79a7dc9a5d898d60" prefix="" category="inline-code"></block></block>
   <block id="ae96596167d0d8d8e2ef4039fbef6053" category="paragraph"><block ref="2cc661b5745d2b0218deba4ff43b2854" prefix="" category="inline-code"></block></block>
-  <block id="0d36f8c0424fdbfdd6f9a12cbba4ee8d" category="summary">Solução de problemas: siga estas etapas para resolver o problema de rotação de log</block>
   <block id="a8bfd2afda4e15a2a1e73c27bdc332e8" category="doc">Problema de rotação de log do NetApp Manageability SDK em sistemas Windows</block>
   <block id="5aeab31ef19d5a368133d1cbd8bd66be" category="paragraph">Depois de adicionar um cluster baseado na API ONTAPI ao Unified Manager em um sistema operacional Windows, o <block ref="dbc60675af8648f05c2a3d903b31f558" prefix=" " category="inline-code"></block> o tamanho do arquivo aumenta e excede o limite de 10 MB.</block>
   <block id="45e4d43f3921d93a4b17af11a66a4dea" category="paragraph">Esse problema pode ocorrer se a rotação do log não ocorrer.</block>
@@ -11414,9 +11344,7 @@
   <block id="6b58c1940f3237f8b68aff9dee0612c0" category="section-title">Consulte o objeto Job associado a uma solicitação de API</block>
   <block id="38263a28ce7341901e4c14482d893025" category="section-title">Visualizar e modificar eventos</block>
   <block id="394d507cce41d6ae3633fc43f6715634" category="inline-link-macro">Gerenciar eventos</block>
-  <block id="6abb3025099e03dc81e219a31cd2d8ea" category="paragraph">Para obter mais informações sobre eventos, <block ref="c0f3f78c9dfa509920adca3905a0ba53" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="685b0f2db45e4fc09a06ccb4695806de" category="section-title">Gerenciar alertas</block>
-  <block id="d1944becba685cf8683fb918bd55a951" category="paragraph">Para obter mais informações sobre alertas, <block ref="ff05cde0ec41fde9b33c0e5302e3a935" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="3a3e30f8426f78f1290bc68b262b49f2" category="section-title">Gerenciar scripts</block>
   <block id="1e98553b8d12285682ae1fb3e2c366cb" category="paragraph">Para obter mais informações sobre scripts, <block ref="3945877c4ec08006fadc171d5a251e0e" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="2c5dc21619b8de9598f14d50791916dd" category="doc">Acesse APIs ONTAP por meio de acesso proxy</block>
@@ -11459,9 +11387,7 @@
   <block id="e58f76bb3aa10bda70c691a09d6ca45d" category="doc">Alterar as portas que o Unified Manager usa para os protocolos HTTP e HTTPS</block>
   <block id="2c6741db08918b4e7bd7be67209e6ef1" category="doc">Alterar o nome do host do Unified Manager em sistemas Linux</block>
   <block id="950c932fbfaf16c880b9e3159698ec46" category="doc">Alterar a senha de umadmin em sistemas Linux</block>
-  <block id="a3e7325bdc8802d2b97616abd100af4b" category="doc">Alterar o nome do host do appliance virtual do Unified Manager</block>
   <block id="82bc72116c72c5f85d83649146b03942" category="doc">Configurar logs de auditoria</block>
-  <block id="fe3124ca1009da3f18337e7bbf1d954a" category="doc">Configurar o Unified Manager para enviar notificações de alerta</block>
   <block id="98abf53c0218d7ca977c214d35e15ff6" category="doc">Criar um usuário de banco de dados</block>
   <block id="f44fbeb51f975c8f5b5f1f3cacce95b0" category="doc">Excluir servidores de autenticação</block>
   <block id="68adfbdc30164a8ca4e4b35511afca41" category="doc">Excluir usuários ou grupos</block>
@@ -11576,7 +11502,6 @@
   <block id="9214819c8de8c2a1e68e955fe68a8d6f" category="doc">Verifique a integridade dos clusters em uma configuração MetroCluster</block>
   <block id="3589d76dadc305fce3086a09071c2e97" category="section-title">Determinar a integridade do cluster no MetroCluster por meio da configuração FC</block>
   <block id="b545c3b796582c3fd91c425935b98a0b" category="section-title">Determinar a integridade do cluster na configuração do MetroCluster sobre IP</block>
-  <block id="66cdb361233211f7999d5e3e7a9228ee" category="doc">Configurar local de backup para Windows</block>
   <block id="265d29ed9f06d8829bc11a8cb67fba83" category="doc">Configurar condições para regras de anotação</block>
   <block id="aa3f3001fa4c94c979a656271ceef011" category="doc">Configurar valores de limite de integridade agregada global</block>
   <block id="1a711a45ca49ae9760027b676f030b79" category="doc">Configurar as definições globais de limite de saúde</block>
@@ -11586,7 +11511,6 @@
   <block id="824b4cae0fe08e508ebea7e2e19447a2" category="doc">Configurar backup por cópia instantânea do console de manutenção</block>
   <block id="282a1358573d405589e8faee8409043f" category="doc">Configurar limites de integridade de volume para grupos</block>
   <block id="3fb9bf737d745286898338e5f303398f" category="doc">Criar regras de anotação</block>
-  <block id="3b3e254547f070cbc2ed5a742e103ff1" category="doc">Configurar local da cópia do instantâneo</block>
   <block id="5be13d3ccaef9515fb50bb2692e13979" category="doc">Defina um agendamento de backup para Linux e Windows</block>
   <block id="51b081370e0adf72662b98df369265b3" category="doc">Excluir regras de anotação</block>
   <block id="33c18e336a8f40d4c835cd720730e77d" category="doc">Excluir anotações</block>
@@ -11609,7 +11533,6 @@
   <block id="b607dce58afdbf4fdd5bc6f939c41e73" category="doc">Gerar e carregar um pacote de suporte</block>
   <block id="3658416cd97c7673eeb5f11d1c08a0a5" category="doc">Gerar um relatório de inventário de hardware para renovação de contrato</block>
   <block id="0c037b40d394632e7bc09fc7de801365" category="doc">Executar ação corretiva para links de interconexão de failover de armazenamento inativos</block>
-  <block id="1015ad7e53ddd6eceb233d1b239fee9f" category="doc">Executar ações de diagnóstico para condições de volume offline</block>
   <block id="032b7c9be27bd45ae71fc749a2afbf38" category="doc">Execute as ações corretivas sugeridas para um volume total</block>
   <block id="c8a8b2f1db5cacc25fed1aa395f4555b" category="doc">Reordenar regras de anotação</block>
   <block id="2d4fbd8ee246544ec2eef79571f6aed8" category="doc">Reordenar ações de grupo</block>
@@ -11623,8 +11546,6 @@
   <block id="c9ded998f6e8b38cb013b956eb46d8b5" category="doc">Recupere o pacote de suporte usando um cliente Windows</block>
   <block id="a4506a7e1d76e7e27acb868a1740c69c" category="doc">Envie um pacote de suporte por meio da interface da web e do console de manutenção</block>
   <block id="744a1f5edce2d86abca28f259a26863f" category="doc">Envie um pacote de suporte para o suporte técnico</block>
-  <block id="5cc9606a13793154b8a21c4d8dacd7c9" category="doc">Especifique o local de destino para cópias do Snapshot</block>
-  <block id="74569cc3f6cefa498d936958d88905a5" category="doc">Especifique o local de destino para cópias de instantâneo no Windows</block>
   <block id="1ec94287b697efac833a4d73ca3d176f" category="doc">Modificar o tipo de backup</block>
   <block id="d4ebbfa69fa9d7309eecee87a9207082" category="doc">Veja a lista agregada e os detalhes</block>
   <block id="37c6bc247580228ae479e91df577d411" category="doc">Ver todos os eventos de segurança ativos</block>
@@ -11952,7 +11873,6 @@
   <block id="aca31ed102e613948a8b22994dddc430" category="paragraph">Para ativar o registro remoto, selecione *Ativar registro remoto*.</block>
   <block id="7d2851cca28635a1e83630f7d2e3fc63" category="inline-link">Gerenciar certificados ONTAP com o System Manager</block>
   <block id="86df35e9b1dffd9ed39a46a4d7ffe7a1" category="paragraph">*Informações relacionadas* <block ref="c4ecef6f58bc214b3174de3e354d0911" category="inline-link-rx"></block></block>
-  <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">O sistema precisa ter acesso a determinados repositórios e pacotes para que o programa de instalação possa acessar e instalar todas as dependências de software necessárias.</block>
   <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3 (do repositório Red Hat Extra Enterprise Linux Server)</block>
   <block id="bff93131b836db7dbfe3c0ef47a3bdfb" category="inline-link-macro">Configure o pacote de software 7-Zip.</block>
   <block id="461c8ff1de784c3f512e2bab8a2bb39d" category="list-text">7zip versão 7z2301-linux-x64. Para obter mais informações, consulte <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>.</block>
@@ -12050,7 +11970,6 @@
   <block id="330c586e3cf6ca7b792e71451b347f2a" category="doc">Gerencie LUNs usando APIs no Active IQ Unified Manager</block>
   <block id="0b498f4c86114a8d86a6f294c6ef88d8" category="doc">Gerencie os níveis de serviço de desempenho usando APIs no Active IQ Unified Manager</block>
   <block id="5c06dfd47a373f2720f9daf65f49abe2" category="doc">Gerencie políticas de eficiência de armazenamento usando APIs no Active IQ Unified Manager</block>
-  <block id="9a059cf8542681c45f3c9ac092b3c338" category="doc">Analise as APIs de administração de armazenamento no Active IQ Unified Manager</block>
   <block id="a644bbf08605085bd8a5cdf376974b43" category="doc">Visualize métricas de desempenho usando APIs no Active IQ Unified Manager</block>
   <block id="f5ca4c100a8f248f6e3ecdf56fa6c763" category="doc">Modifique as cargas de trabalho de armazenamento usando APIs no Active IQ Unified Manager</block>
   <block id="7830205b499fe991f7bdb91955ce0f75" category="doc">Solucione problemas dos volumes ONTAP usando as APIs de gateway do Active IQ Unified Manager</block>
@@ -12076,20 +11995,15 @@
   <block id="c0ed2c8ab6a460c2375f5e5d58499a05" category="doc">Saiba mais sobre o recurso API Gateway no Active IQ Unified Manager</block>
   <block id="ac955911d0f754875f74ac112c0af065" category="doc">Saiba mais sobre os registros de auditoria no Active IQ Unified Manager</block>
   <block id="fba6c91bf794e0babdca90d6471a67ae" category="doc">Autentique com o Active Directory ou OpenLDAP no Active IQ Unified Manager</block>
-  <block id="3866df1bac2cb128b41bd561b97075da" category="doc">Alterar o nome do host do Active IQ Unified Manager</block>
   <block id="d4b960c3535e282ce85c82f9cc6f047f" category="doc">Configurar o Active IQ Unified Manager backup</block>
   <block id="2bd8e128d8a1eac920d0b22bbca6a870" category="doc">Saiba mais sobre como configurar o Active IQ Unified Manager</block>
   <block id="14078dbe09a0d583317c9c30b6b63570" category="doc">Especifique o tempo limite de inatividade no Active IQ Unified Manager</block>
   <block id="08259ebdba5f5ec23d9d6695c4725e72" category="doc">Saiba mais sobre certificados HTTPS gerados usando ferramentas externas no Active IQ Unified Manager Unified Manager</block>
   <block id="cfd76692c8b8c940c44afcfdd099124b" category="doc">Adicione um banner de login no Active IQ Unified Manager</block>
   <block id="0b6fac564afd567fa9448a8c6f4bd328" category="doc">Saiba mais sobre os menus do console de manutenção no Active IQ Unified Manager</block>
-  <block id="d766961b8d7212f0954f55e7583c3ea0" category="doc">Ative a autenticação no Active IQ Unified Manager</block>
   <block id="451c801bdeef9faaddcefd06f5389075" category="doc">Saiba mais sobre as configurações de recursos no Active IQ Unified Manager</block>
   <block id="50b8767678de7956c07fa9c9981816e4" category="doc">Ative a autenticação SAML no Active IQ Unified Manager</block>
-  <block id="2a089b11e833e1ed82120292ee5336a2" category="doc">Gerencie certificados de segurança no Active IQ Unified Manager</block>
-  <block id="48727c7a2750c4a628441c22d22e7f21" category="doc">Gerencie o acesso de usuários no Active IQ Unified Manager</block>
   <block id="558ee5aab1d6df4968febb66facbc08d" category="doc">Saiba mais sobre a sequência de configuração no Active IQ Unified Manager</block>
-  <block id="2c86b375c0a3b46d1d47cfae003613ba" category="doc">Utilize a página de Certificado HTTPS no Active IQ Unified Manager</block>
   <block id="e7deaf81d671947add80b5ea992be64c" category="doc">Habilite o gerenciamento de storage baseado em políticas no Active IQ Unified Manager</block>
   <block id="907cbda05a1be185a20eebfd42797da5" category="doc">Ative e desative as configurações de segurança para conformidade no Active IQ Unified Manager</block>
   <block id="41d9b7b6bb12ab79120100210e89d450" category="doc">Funcionalidades de diagnóstico do usuário no Active IQ Unified Manager</block>
@@ -12153,10 +12067,8 @@
   <block id="51ff887fb67bda640687e68b9f3c4503" category="doc">Configure os serviços de autenticação no Active IQ Unified Manager</block>
   <block id="5be4051030888384dbc3b78f9e4b7cc4" category="doc">Teste a configuração dos servidores de autenticação no Active IQ Unified Manager</block>
   <block id="e21f8f9712496e6a7a862bb5f56f8d60" category="doc">Atualize as configurações de autenticação SAML após uma alteração no certificado de segurança do Active IQ Unified Manager</block>
-  <block id="4cf1d09e6179d1b0482a3dc0081eae1a" category="doc">Use o Active IQ Unified Manager console de manutenção</block>
   <block id="6bbd6c7f32c6c75ae8472c88ce5bf10b" category="doc">Visualize o certificado de segurança HTTPS no Active IQ Unified Manager</block>
   <block id="563dc82c461ed282a00b25f24bc03e88" category="doc">Visualizar usuários no Active IQ Unified Manager</block>
-  <block id="3bcb978335c18b8b9ecdebdf58ca591d" category="doc">Saiba como criar e monitorar relações de proteção no Active IQ Unified Manager</block>
   <block id="dadae39cf2e4b77c99c5ab121ed94783" category="doc">Saiba como gerenciar e monitorar relações de proteção no Active IQ Unified Manager</block>
   <block id="8a0f63a220aa3141a819b5bbb950e9ae" category="doc">Saiba mais sobre as relações de recuperação de desastres de máquinas virtuais de armazenamento no Active IQ Unified Manager</block>
   <block id="624153d2d07564649b89911b7d0fb8fb" category="doc">Requisitos de SVM e de pool de recursos para suportar serviços de storage no Active IQ Unified Manager</block>
@@ -12173,7 +12085,6 @@
   <block id="9fa792e3b79be2fbea6fdfe88122f38d" category="doc">Utilize a caixa de diálogo Criar Agendamento no Active IQ Unified Manager</block>
   <block id="849fe714f8ca4df92ca2cfad09c3ef38" category="doc">Use a caixa de diálogo Criar SnapMirror Policy no Active IQ Unified Manager</block>
   <block id="db382d7ddacc47f6972cddcfb1078f97" category="doc">Use a caixa de diálogo Criar SnapVault Policy no Active IQ Unified Manager</block>
-  <block id="169641426cee7744eb86f9c31b73748f" category="doc">Gerencie os detalhes de proteção no Active IQ Unified Manager</block>
   <block id="3047bb9d929d2a0870f2f2ccaa5b09f2" category="doc">Editar uma relação de proteção no Active IQ Unified Manager</block>
   <block id="6c070986f112b7db3c4dedc38aa8e06b" category="doc">Utilize a caixa de diálogo Editar pool de recursos no Active IQ Unified Manager</block>
   <block id="ac2f8bac1ed026f36e92c53a8f34b913" category="doc">Utilize a caixa de diálogo Inicializar/Atualizar no Active IQ Unified Manager</block>
@@ -12249,10 +12160,8 @@
   <block id="3ad72e22b2aa226c488e08b09f84eb60" category="doc">Como o Active IQ Unified Manager calcula o status do objeto</block>
   <block id="179241ab3d77f843e02aacd28af58262" category="doc">Como os scripts funcionam com alertas no Active IQ Unified Manager</block>
   <block id="8708fa0602cb9410b5053bc0952546bf" category="doc">Saiba mais sobre alertas no Active IQ Unified Manager</block>
-  <block id="2296b637f2700435bbe84fcb15b77099" category="doc">Gerencie eventos no Active IQ Unified Manager</block>
   <block id="c1a5dcbb60e58e0bc5350f268c42aac0" category="doc">Gerencie scripts no Active IQ Unified Manager</block>
   <block id="b333e15de726f713da53980f8698e761" category="doc">Resolva eventos da plataforma Active IQ no Active IQ Unified Manager</block>
-  <block id="7380fe530aa4a3c60b08eea18a7b9cbe" category="doc">Saiba mais sobre eventos no Active IQ Unified Manager</block>
   <block id="8799da4bf2e5c7d532706bb0479fdc04" category="doc">Saiba mais sobre os eventos da plataforma Active IQ no Active IQ Unified Manager</block>
   <block id="59640a06895a14dcd0c3404af1730cce" category="doc">Saiba mais sobre eventos do Sistema de Gerenciamento de Eventos no Active IQ Unified Manager</block>
   <block id="634b81b6afc922e6282b1ed930a2b7bb" category="doc">Entenda como o Active IQ Unified Manager lida com um evento recebido</block>
@@ -12266,9 +12175,6 @@
   <block id="34c23c37f8eaec38e466855e150ffe72" category="doc">Saiba mais sobre as áreas de impacto de eventos no Active IQ Unified Manager</block>
   <block id="90c45bf252894e0465b702350a71363e" category="doc">Saiba mais sobre os níveis de impacto de eventos no Active IQ Unified Manager</block>
   <block id="4b212a54e1505d0bf1de75a2b826095f" category="doc">Saiba mais sobre os tipos de gravidade de eventos no Active IQ Unified Manager</block>
-  <block id="ab26ab1b7c87a0ecd16cad94074afb4b" category="doc">Saiba mais sobre janelas de eventos e caixas de diálogo no Active IQ Unified Manager</block>
-  <block id="5f933d494c6b0841e39f2069e2836477" category="doc">Utilize a caixa de diálogo Adicionar Alerta no Active IQ Unified Manager</block>
-  <block id="575c0756d35068e0ac115f8ce68e098f" category="doc">Janelas de script e caixas de diálogo em o Active IQ Unified Manager</block>
   <block id="aa692ee1b95eaeca447a0afe773bc89e" category="doc">Desative a caixa de diálogo Eventos no Active IQ Unified Manager</block>
   <block id="8f1bc362aa989ade0ecb39b550d06342" category="doc">Saiba mais sobre eventos de disco no Active IQ Unified Manager</block>
   <block id="f80b43d65e919dbba43109c92a2b8165" category="doc">Saiba mais sobre eventos de desempenho dinâmico no Active IQ Unified Manager</block>
@@ -12281,7 +12187,6 @@
   <block id="e4f17a0bc5c9a1c6f9a2f45fe737935e" category="doc">Saiba mais sobre eventos de ventoinhas no Active IQ Unified Manager</block>
   <block id="04be133590fe5d67226aca41258e1399" category="doc">Saiba mais sobre eventos de flash card no Active IQ Unified Manager</block>
   <block id="8fed2de29b392fb571b49232c42b564b" category="doc">Saiba mais sobre eventos de inodes no Active IQ Unified Manager</block>
-  <block id="2c8a42f7aeadd3708c694d7f0b7e41ab" category="doc">Saiba mais sobre a lista de eventos no Active IQ Unified Manager</block>
   <block id="088f543a0d07f03fdf74dd6c7e4487db" category="doc">Eventos de interface de rede no Active IQ Unified Manager</block>
   <block id="b6241628a873b3fef00f6ae8f9c3ad07" category="doc">Saiba mais sobre os eventos LUN no Active IQ Unified Manager</block>
   <block id="22534d0a95a4459662f56e1f2b090a85" category="doc">Saiba mais sobre a página de Scripts no Active IQ Unified Manager</block>
@@ -12350,20 +12255,13 @@
   <block id="2418b961ebed8eed367a63a3ec284fe3" category="doc">Entenda como as regras de grupo funcionam para grupos no Active IQ Unified Manager</block>
   <block id="2e72ad14631e2caf5b07909ea85abed0" category="doc">Entenda como os scripts funcionam com alertas no Active IQ Unified Manager</block>
   <block id="89a616f7484da49d84dca63cd4d66c5c" category="doc">Saiba mais sobre o monitoramento de integridade do Active IQ Unified Manager</block>
-  <block id="34365a3fc2592f8661e0d62c079ae279" category="doc">Gerencie e monitore clusters e a integridade de objetos de cluster no Active IQ Unified Manager</block>
-  <block id="0159ce6672a34849d014c2082de48324" category="doc">Gerencie e monitore grupos no Active IQ Unified Manager</block>
   <block id="1037bb811299fc9906b73b483b648356" category="doc">Gerencie as operações de backup e restauração no Active IQ Unified Manager</block>
   <block id="a36ebd8dc7a0eb4835a4040512b0c7f8" category="doc">Gerencie os objetivos de segurança do cluster no Active IQ Unified Manager</block>
-  <block id="b2daa139f28a8c8365e223ad0c8337b9" category="doc">Gerencie os limites de saúde no Active IQ Unified Manager</block>
   <block id="c615801ec0d6c9a409b2fbe6674de211" category="doc">Monitore e solucione problemas de disponibilidade de dados no Active IQ Unified Manager</block>
   <block id="e21b50c8660a5c3d3f811548c4ff796b" category="doc">Entenda o backup sob demanda para o Active IQ Unified Manager</block>
-  <block id="62230696acb222f720425104f2541ce5" category="doc">Priorize objetos de armazenamento usando anotações no Active IQ Unified Manager</block>
-  <block id="58031992f1245bf5dd129d9a6e61fe5a" category="doc">Compreenda as informações comuns aos fluxos de trabalho do Active IQ Unified Manager</block>
   <block id="149002f2bdeea05fc44c2e2e71e44f15" category="doc">Use as interfaces do Active IQ Unified Manager para gerenciar a integridade do sistema de storage</block>
   <block id="6d4709b82b6a7ea08249e040bb227a3c" category="doc">Compreenda os eventos e limites para agregados de raiz de nó no Active IQ Unified Manager</block>
   <block id="1e08671b677f06498a000132381254c3" category="doc">Entenda o monitoramento de clusters no Active IQ Unified Manager</block>
-  <block id="bdb4862b66b36dc266a10b739e854c57" category="doc">Entenda os grupos no Active IQ Unified Manager</block>
-  <block id="d53836e00b387c148a8e2a0918cee1f1" category="doc">Compreenda as anotações no Active IQ Unified Manager</block>
   <block id="586267483960638c992f99b0f72660c3" category="doc">Compreenda os volumes raiz dos nós no Active IQ Unified Manager</block>
   <block id="6e2a3ac514199a3d8f025c8490388210" category="doc">Entenda o quorum e o epsilon em clusters ONTAP no Active IQ Unified Manager</block>
   <block id="f6a30972e73c1bbcb35774eac544ede5" category="doc">Entenda os recursos de monitoramento de integridade do Active IQ Unified Manager</block>
@@ -12466,13 +12364,11 @@
   <block id="e8efcc1ee69032b712ac7ee4ab110086" category="doc">Veja a lista de volumes e detalhes no Active IQ Unified Manager</block>
   <block id="879a0713cfae0b7ba1b8964f6808ddc9" category="doc">Utilize o caminho de atualização compatível para as versões do Active IQ Unified Manager</block>
   <block id="7cce07ca0323e998f6bd8bbb12d77087" category="doc">Use navegadores compatíveis com o Active IQ Unified Manager</block>
-  <block id="a5d30961a7f2071bd48571cbaa2c9cf2" category="doc">Instale o Active IQ Unified Manager em sistemas Linux</block>
   <block id="c689e7b64152a1bba97fb2edd20c845e" category="doc">Instale, atualize e remova o Active IQ Unified Manager</block>
   <block id="64e88b614a54ea3b3f6898a073ae7acb" category="doc">Saiba mais sobre o Active IQ Unified Manager</block>
   <block id="565af86c01ad7ce14e46d75f939591e7" category="doc">Entenda a sequência de instalação do Active IQ Unified Manager no Red Hat Enterprise Linux</block>
   <block id="3a18b8c6562abe629867a6e413ec1477" category="doc">Veja a sequência de instalação do Active IQ Unified Manager</block>
   <block id="4897bd68f064fb7b102341961c09bd7f" category="doc">Compreenda os requisitos para instalar o Active IQ Unified Manager</block>
-  <block id="4b50d92781c98c22737903c30847e6ed" category="doc">Configure o software necessário para o Active IQ Unified Manager</block>
   <block id="172a418384d967aaecffb2c44fc739e4" category="doc">Atualize produtos de terceiro após instalar o Active IQ Unified Manager</block>
   <block id="8bd4e35fc17333bce0ee595d12386ee2" category="doc">Atualize o Active IQ Unified Manager no Red Hat Enterprise Linux</block>
   <block id="f8bc942d8e727d6d6670386379507631" category="doc">Compreenda a infraestrutura virtual e os requisitos de hardware para o Active IQ Unified Manager</block>
@@ -12497,7 +12393,6 @@
   <block id="6507e665e3c4245b259fd2237fcdccef" category="doc">Atualize o OpenJDK no Linux para o Active IQ Unified Manager</block>
   <block id="c1295643d064d27a35919741f1aa93c9" category="doc">Atualize o Active IQ Unified Manager</block>
   <block id="0a2d88856e7a2fc6bc8d9a9e31aec4d7" category="doc">Utilize navegadores compatíveis no Active IQ Unified Manager</block>
-  <block id="6bca007fd8ccffe3e8e3086281a83f72" category="doc">Instalação, atualização e remoção do Active IQ Unified Manager no VMware vSphere</block>
   <block id="8879e221bc3f347e63525f5e75c0d012" category="doc">Saiba mais sobre o processo de implantação do Active IQ Unified Manager</block>
   <block id="ef99d4f18bc9777708d1a4c274c52396" category="doc">Saiba mais sobre a sequência de instalação do Active IQ Unified Manager</block>
   <block id="7beb9b0b3c4e52647e5a15193fbb8fe1" category="doc">Certifique-se de que o servidor atenda aos requisitos de instalação do Active IQ Unified Manager</block>
@@ -12686,14 +12581,9 @@
   <block id="1e9b378280fabbdb24c0b4cf2870a4a5" category="doc">Visualize volumes ou LUNs dentro do mesmo grupo de política de QoS no Active IQ Unified Manager</block>
   <block id="4c53b1d20e3e17d5c553822382225466" category="doc">Visualize as configurações mínimas e máximas de QoS da carga de trabalho no Active IQ Unified Manager</block>
   <block id="9d2a37adaf61ff87e59e0f07495ca089" category="doc">Notas de versão do Active IQ Unified Manager</block>
-  <block id="42295b8fd789480238bc0645425e0a86" category="doc">Personalize os relatórios de capacidade agregada no Active IQ Unified Manager</block>
-  <block id="4d23b38954c463594278f59636a32c2d" category="doc">Personalize os relatórios de armazenamento em cluster no Active IQ Unified Manager</block>
   <block id="d7ff0f638484cd6f82c4396b32c481a8" category="doc">Personalize os relatórios de compartilhamento NFS no Active IQ Unified Manager</block>
-  <block id="84dadb73d2d74cb436944bdaac2ae82a" category="doc">Personalize os relatórios de capacidade do Qtree no Active IQ Unified Manager</block>
   <block id="bc1c66d2139e3188d1e2286e7101b5fb" category="doc">Personalize relatórios no Active IQ Unified Manager</block>
   <block id="73c4f931a734e9431ea93439c3c89b62" category="doc">Personalize os relatórios de máquinas virtuais de armazenamento no Active IQ Unified Manager</block>
-  <block id="2ca85616768242ee5f27995f7be28a3d" category="doc">Personalize os relatórios de capacidade de volume no Active IQ Unified Manager</block>
-  <block id="0110261dba06c9a5c92b8df83c955b00" category="doc">Personalize os relatórios de desempenho de volume no Active IQ Unified Manager</block>
   <block id="d4d70344cc35f77918160b0d1cdd05b2" category="doc">Personalize os relatórios de relacionamento de volume no Active IQ Unified Manager</block>
   <block id="066b83339f158e15fc03b82bb3af4966" category="doc">Descubra três maneiras de acessar os recursos de geração de relatórios no Active IQ Unified Manager</block>
   <block id="1076abf58c242329455d30cb451e97a2" category="doc">Compreenda os fluxos de trabalho de relatórios no Active IQ Unified Manager</block>
@@ -12704,7 +12594,6 @@
   <block id="214a61e544aca57b18945ca52f2e07a0" category="doc">Compreenda a relação entre visualização e relatório no Active IQ Unified Manager</block>
   <block id="b4c02ae9bdb9ff4e238ad974b750f25a" category="doc">Acesse bancos de dados para gerar relatórios personalizados no Active IQ Unified Manager</block>
   <block id="73b1ac0a25ca974072b51efe291ffe18" category="doc">Saiba mais sobre os relatórios do Active IQ Unified Manager</block>
-  <block id="4266ef197fbc2b59e1541d0613f78189" category="doc">Trabalhe com relatórios no Active IQ Unified Manager</block>
   <block id="d8ae7f271e865d9b72fe89f322ae70f7" category="doc">Use as APIs REST do Active IQ Unified Manager para geração de relatórios</block>
   <block id="873516a3ea19b608e6af836d619c65dc" category="doc">Compreenda as limitações de geração de relatórios no Active IQ Unified Manager</block>
   <block id="2f6a9104b0d4bd30ca815ed6b1dcab42" category="doc">Saiba mais sobre os tipos de relatórios no Active IQ Unified Manager</block>
@@ -12754,10 +12643,7 @@
   <block id="7ca01b1ac376706b273a4cf788375a30" category="doc">Gerencie problemas ou recursos do ONTAP diretamente do Active IQ Unified Manager</block>
   <block id="30e67b48ee82967d2556bdb312fc7819" category="doc">Aprenda como funciona o processo de descoberta de clusters no Active IQ Unified Manager</block>
   <block id="2ba128b2fec458400febbe2160eb1614" category="doc">Saiba mais sobre monitoramento de saúde no Active IQ Unified Manager</block>
-  <block id="077819aa397f2ae293340d1c685b8c24" category="doc">Gerencie e monitore as configurações do MetroCluster no Active IQ Unified Manager</block>
-  <block id="edf26b4c45fd428e701e46dac013d52d" category="doc">Gerencie clusters ONTAP no Active IQ Unified Manager</block>
   <block id="4ec8078e44bf0dfb5ebd52d97a0d9091" category="doc">Gerencie os níveis de serviço de desempenho no Active IQ Unified Manager</block>
-  <block id="23cfca5ba97b2ec7a677b275ed531d9b" category="doc">Gerencie cotas de usuários e grupos no Active IQ Unified Manager</block>
   <block id="2e9726d3e65c8a02f6082a16361c03b8" category="doc">Gerencie as políticas de eficiência de armazenamento no Active IQ Unified Manager</block>
   <block id="c5b583f7ee012ce588a7d1c9d5032976" category="doc">Visualize a infraestrutura virtual em um cenário de recuperação de desastres com o Active IQ Unified Manager</block>
   <block id="45894598593972b28181aaa1f369bc08" category="doc">Monitore e gerencie clusters a partir do painel de controle no Active IQ Unified Manager</block>
@@ -12766,7 +12652,6 @@
   <block id="14e53d4357f09223ab6158cfbdeaeada" category="doc">Substitua as ações de gerenciamento com scripts no Active IQ Unified Manager</block>
   <block id="5138d9f16d5f659c8aea0ba65666730c" category="doc">Saiba mais sobre o processo de cotas do Active IQ Unified Manager</block>
   <block id="fb6db5f9b3abbb6c7f81a8fb30ab01be" category="doc">Provisione e gerencie cargas de trabalho no Active IQ Unified Manager</block>
-  <block id="178c2dd6c0a5ba758b908d4a61687988" category="doc">Solucione problemas do Active IQ Unified Manager</block>
   <block id="e858d547a9b0048c79dc8e5d6acf97c1" category="doc">Layouts de janela típicos no Active IQ Unified Manager</block>
   <block id="c98ad2a500751b972c5c3cfdc828fd7e" category="doc">Saiba mais sobre a interface de usuário do Active IQ Unified Manager</block>
   <block id="1be5a81f0301b52049c18615ebd14ace" category="doc">Use as APIs REST do Active IQ Unified Manager</block>
@@ -12822,4 +12707,135 @@
   <block id="e2759540dff477e9074a50116daa1200" category="sidebar">Saiba mais sobre o processo de implantação do Unified Manager</block>
   <block id="693cd77d8b73573c6a24bb3a3e66378a" category="sidebar">Fluxo de trabalho de implantação do appliance virtual do Unified Manager</block>
   <block id="2c3b3d06e66cca95f441e028f5e75e98" category="sidebar">Fluxo de trabalho de atualização do appliance virtual do Unified Manager</block>
+  <block id="1f2cecda91b81527c1f6b89813af69de" category="inline-link-macro">Saiba mais sobre os eventos da plataforma Active IQ</block>
+  <block id="e406c6dc4d14cf6290026de6223c8528" category="paragraph">Para obter mais informações sobre eventos, consulte <block ref="249e15fc9fa0f30a37aead3fa6310729" category="inline-link-macro-rx"></block>.</block>
+  <block id="994105756220e6295eef7b40bb2f9bbb" category="inline-link-macro">Saiba mais sobre alertas</block>
+  <block id="d4f59399c822bf3cf5b3084d9790f5b9" category="paragraph">Para obter mais informações sobre alertas, consulte <block ref="889e0ca813c52ebaa25158e14ee3fadc" category="inline-link-macro-rx"></block>.</block>
+  <block id="0c2e0dcdb1bf962ba3ad904caf2a34c7" category="summary">Analise os requisitos de associação de SVM e de pool de recursos necessários para dar suporte a uma topologia de proteção em um serviço de storage parceiro.</block>
+  <block id="50fe8c5075550e32ae6b98cf9c83f558" category="summary">A visualização "Todos os relacionamentos" na página "Relacionamentos" exibe informações sobre os relacionamentos de proteção no sistema de storage.</block>
+  <block id="11cdf1e057a7a5e309b5e90a2aafe053" category="summary">A visualização "Taxa de transferência do último mês" na página "Relacionamento" mostra o volume diário de transferência de dados e o tempo de transferência para volumes em relacionamentos assíncronos.</block>
+  <block id="cc275fe4f7f4c92a542faf92bcb2fa4f" category="summary">A visualização "Status de Transferência do Último 1 mês" na página "Relacionamento" mostra as tendências de transferência e o status de sucesso ou falha para relacionamentos assíncronos.</block>
+  <block id="a270e28eece676bb4f8b1ddd27db10e1" category="paragraph">Especifica um caminho alternativo para restaurar os dados selecionados. O caminho já deve existir. Você pode usar o botão *Procurar* para navegar até o local onde deseja restaurar os dados ou pode inserir o caminho manualmente usando o formato<block ref="2e0e7b3eb9a82f46d86829cc2d1bdebb" prefix=" " category="inline-code"></block>.</block>
+  <block id="1b7c01bf98c59037ac9aa53937d1c744" category="summary">Use a visualização "Todos os Volumes" na página "Saúde" para criar várias relações de proteção do SnapMirror de uma só vez para volumes na mesma máquina virtual de storage.</block>
+  <block id="7bbff8a952a31530550ae5b3960f101f" category="summary">Use a visualização Todos os Volumes na página Integridade para criar relacionamentos do SnapVault para um ou mais volumes na mesma VM de armazenamento para backups de dados.</block>
+  <block id="31d03431f4175f67d588127cdb5ceee0" category="summary">Faça failover para um destino de proteção quando um volume de origem ficar indisponível e, em seguida, faça failback para a origem original assim que ela estiver disponível.</block>
+  <block id="c06335ef38fc3cc788d73c8398e80b1c" category="summary">Remova agregados de um pool de recursos existente, por exemplo, quando quiser usar um agregado para outra finalidade.</block>
+  <block id="ad7c458bbb1b6a95918ac655045ebcf7" category="summary">Na página Relações de Volume, remova permanentemente uma relação de proteção entre uma origem e um destino. Esta ação não pode ser desfeita.</block>
+  <block id="b40d1183e80f063c9c0f9ded60011abb" category="summary">Remova permanentemente uma relação de proteção entre uma origem e um destino selecionados. Esta ação remove todos os metadados e não pode ser desfeita.</block>
+  <block id="084def276eaf84b68ec1a0cc23473e93" category="summary">Visualize o status dos relacionamentos de volume SnapMirror e SnapVault, incluindo o status de transferência e atraso, origem e destino, e detalhes da programação.</block>
+  <block id="bd20513f3f0d0ff9f68f5c82a53c0923" category="summary">Use comandos da CLI para executar consultas em objetos de armazenamento, como clusters, agregados, volumes, qtrees e LUNs.</block>
+  <block id="0f2b5faceaa3512020edadb1e681a001" category="summary">Configure uma definição global para suprimir alertas de eventos que passem para os estados Resolvido e Obsoleto.</block>
+  <block id="4d198c7709176485c41c7c34715a43b2" category="summary">Aprenda sobre fluxos de trabalho administrativos comuns, incluindo o monitoramento de clusters, o diagnóstico de problemas de disponibilidade e capacidade e o envio de dados de diagnóstico para o suporte.</block>
+  <block id="1c3c164352f638448ebeac858bb85b06" category="inline-link-macro">Aprenda sobre como gerenciar e monitorar relações de proteção</block>
+  <block id="1287b89cfab66fd71ddf8f3ff5b17ad2" category="paragraph">Após criar e configurar os relacionamentos de proteção, os administradores de storage podem visualizar os possíveis problemas relacionados aos relacionamentos de proteção, o estado atual dos relacionamentos de proteção, as informações atuais e históricas de sucesso do trabalho de proteção sobre os relacionamentos afetados e orientações para solução de problemas. Consulte <block ref="c3bc01c01750eb0a8bfb1487703ee2de" category="inline-link-macro-rx"></block> para obter mais informações.</block>
+  <block id="5755a42db823d9a9c3bfae686b85a4b0" category="summary">Gere um relatório com detalhes do hardware do cluster e dos nós para renovação de contrato em sites seguros não conectados à plataforma Active IQ.</block>
+  <block id="582a90e2ef75b3fdceeb88577f6ccafd" category="list-text">Você deve ter instalado o Unified Manager em um servidor Linux seguindo as instruções em <block ref="a82c42d891bec1a50003088b16ad78b6" category="inline-link-macro-rx"></block>.</block>
+  <block id="1b52744945d3187a626105eab0333d38" category="summary">Use a visualização "Todos os Agregados" na página "Saúde" para monitorar seu inventário de agregados e a visualização "Todos os Agregados" na página "Capacidade" para obter detalhes sobre capacidade e utilização.</block>
+  <block id="9c97a9b53732ddb3f07413bca60e861e" category="list-text"><block ref="9c97a9b53732ddb3f07413bca60e861e" category="inline-link-macro-rx"></block></block>
+  <block id="677193e0fe10d421b2a8327fc3336355" category="summary">Use a visualização "Todos os Clusters" na página "Saúde" para ver o inventário do seu cluster e a visualização "Todos os Clusters" na página "Capacidade" para obter detalhes sobre a capacidade de storage e a utilização.</block>
+  <block id="f7ce19fb9daa86a154d895a8cf702536" category="summary">Veja detalhes sobre compartilhamentos SMB/CIFS, como nome do compartilhamento, caminho de junção, configurações de segurança e políticas de exportação, usando a visualização "Todos os compartilhamentos SMB" na página "Saúde".</block>
+  <block id="e4ed0a1249c20c78f2857307787e0457" category="summary">Veja detalhes sobre os compartilhamentos NFS, como status, caminho do volume, níveis de acesso do cliente e política de exportação, usando a visualização "Todos os Compartilhamentos NFS" na página "Saúde".</block>
+  <block id="348e465e30e728a64b49da11eca50fe1" category="summary">Use a visualização "Todos os nós" na página "Saúde" para ver a lista de nós em seus clusters e a página "Detalhes de integridade do cluster" para obter informações detalhadas sobre os nós.</block>
+  <block id="45d3b02a268cf604654588f4b31a7c0e" category="summary">Use a visualização "Todas as VMs de armazenamento" na página "Saúde" para monitorar seu inventário de SVMs e a página "Detalhes de saúde da VM de armazenamento" para obter informações detalhadas sobre as SVMs.</block>
+  <block id="19218b3321604efc38b96a2e4c6f8aa5" category="summary">Use a visualização "Todos os Volumes" na página "Saúde" para monitorar seu inventário de volumes e a visualização "Todos os Volumes" na página "Capacidade" para obter detalhes sobre capacidade e utilização.</block>
+  <block id="c3b09fd60d5a573bab5153f94904411b" category="summary">Ao instalar o Unified Manager no Red Hat Enterprise Linux, os usuários umadmin, jboss e mysql são criados.</block>
+  <block id="f35ae7a6f880cce207016443bcdaa407" category="paragraph">Consulte <block ref="24706567e2334dd85692b77b012ee196" category="inline-link-macro-rx"></block>.</block>
+  <block id="0acc5168c17620d8a838dfdbd1c34f08" category="summary">Desinstale produtos de terceiros, incluindo o Python e o ambiente de execução do Microsoft Visual C++ 2013.</block>
+  <block id="863acf19bbf0a039e1fcb80787eeed97" category="summary">Use o Unified Manager para monitorar o desempenho de dois tipos de carga de trabalho: definidas pelo usuário e definidas pelo sistema.</block>
+  <block id="0c7cdaa95b18f9afba925cd7b59a90c2" category="summary">O Active IQ Unified Manager oferece duas interfaces, a interface web e o console de manutenção, para monitoramento e solução de problemas de desempenho do storage.</block>
+  <block id="eb8f863eb8d82bda4b17c564a8a6676e" category="summary">A visualização "Todos os Volumes" na página Desempenho mostra o tamanho dos dados inativos (frios) e identifica os volumes que se beneficiariam da disposição em camadas em uma camada de nuvem do FabricPool.</block>
+  <block id="b797a33b3edd7561c79a9e037b2ef000" category="summary">Analise as cargas de trabalho em um grupo de política de Qualidade de Serviço (QoS) com a maior variação de atividade para determinar qual carga de trabalho causou o evento.</block>
+  <block id="05c2d1323a20729e013552e633ddaba2" category="summary">A página Resumo exibe gráficos de contadores com detalhes de eventos e desempenho por objeto no período anterior de 72 horas, atualizados até o último carregamento.</block>
+  <block id="36e858c4e4eb2417b2da6dec591a1477" category="summary">Use a visualização "Todos os Clusters" na página "Desempenho" para exibir o status de desempenho de todos os seus clusters do All SAN Array.</block>
+  <block id="448a3c973005111616b72deac50a3ed2" category="summary">Crie um relatório para destacar os agregados que estão com 80% ou mais de sua capacidade preenchida.</block>
+  <block id="f4163a3761287cbf634d806d7f0b1907" category="summary">Crie um relatório de exemplo que identifique volumes para mover para a camada de nuvem, personalize a visualização, salve-o como um relatório e agende-o para compartilhamento semanal.</block>
+  <block id="a2dbc52f1ef06b87a98d75f91f74611a" category="summary">Aprenda os layouts típicos das janelas do Unified Manager, a lista de objetos ou os detalhes, e a configuração de exibição recomendada para uma navegação eficaz.</block>
+  <block id="14736ee84f666c601882eabcc55ddd6f" category="summary">Compreenda os status de conectividade entre clusters em uma configuração do MetroCluster, como Ideal, Impactado ou Inativo.</block>
+  <block id="d0ec6a08cabea2147f84ebf62988ebac" category="summary">Configure o formato das notificações por e-mail relacionadas à cota e as regras para especificar endereços de e-mail na visualização "All Storage VMs" na página "Health".</block>
+  <block id="61f4ef9a7c10a541ae69f8f80fd5f4a4" category="summary">Solucione um problema ao adicionar LDAP usando outros serviços de autenticação.</block>
+  <block id="4109620fb5807c56709e6d651b894b81" category="summary">Solucione um erro de autenticação desconhecido.</block>
+  <block id="35cf58eecbec64b19d48ed96ac08ebcc" category="summary">Solucione o erro de usuário não encontrado.</block>
+  <block id="bd9fb116d2569cf7ca742e8e1ac35949" category="summary">Siga estas etapas para resolver o problema de rotação de logs do Windows.</block>
+  <block id="6b807ca4b2fa992a5714ccb354eae8b5" category="sidebar">Compreenda os fluxos de trabalho comuns da API para gerenciamento de storage</block>
+  <block id="cdc259ec35b06103b7ef523953f723cb" category="sidebar">Provisionar e modificar cargas de trabalho de storage</block>
+  <block id="c07d43dfefc3701214c83c800767302f" category="sidebar">Modifique as cargas de trabalho de storage usando APIs</block>
+  <block id="19a5158f1235c29843008925adb7baf8" category="sidebar">Configurar notificações</block>
+  <block id="ed4f67ad4f08ff5cf972942d9c2fdf38" category="sidebar">Adicionar espaço de disco</block>
+  <block id="f034b099fa1e7abeb6770338f5f4b9eb" category="sidebar">Saiba mais sobre como estabelecer relações de proteção</block>
+  <block id="ab0308e8f8cbd9bcf4b4a28e9f734f38" category="sidebar">Saiba mais sobre failover e failback</block>
+  <block id="eb4860d1f323cd85312e058cf5dedbd9" category="sidebar">Aprenda como resolver uma falha na tarefa de proteção</block>
+  <block id="9d8741f91473027c0bad290cdab7feb9" category="sidebar">Saiba mais sobre os relacionamentos de recuperação de desastres de máquinas virtuais de storage</block>
+  <block id="da20a7cdee9006fb951d2c9f24840b06" category="sidebar">Saiba mais sobre eventos do sistema de gerenciamento de eventos</block>
+  <block id="d14a1c344d7eb472a063e88d0c7bd1f5" category="sidebar">Saiba mais sobre as janelas de manutenção do Unified Manager</block>
+  <block id="e967dc0df8a7ab95b51344dc04437723" category="sidebar">Saiba mais sobre a página de detalhes do evento</block>
+  <block id="2beae0fbb1e00c0acc326ed6b8ba0a69" category="sidebar">Adicione alertas no Unified Manager</block>
+  <block id="76e9b00b25e9b43e9e49c1d25a36a9f5" category="sidebar">Saiba mais sobre o gerenciamento de scripts</block>
+  <block id="eb2c74f1bad8e301d545e58813716f67" category="sidebar">Saiba mais sobre o monitoramento de clusters</block>
+  <block id="d98244b53b00d11c95baf3fac840b49e" category="sidebar">Compreenda os fluxos de trabalho e tarefas comuns de integridade.</block>
+  <block id="a709f54e85c35a15a81b68c02da98b0d" category="sidebar">Saiba mais sobre monitoramento e solução de problemas de disponibilidade de dados</block>
+  <block id="589792bf3b7e52e4d75b47072d0a965b" category="sidebar">Resolva as condições de link de interconexão de failover de storage inativo</block>
+  <block id="5f4790855c35f96228e7011b43c89932" category="sidebar">Aprenda como resolver problemas de volume offline</block>
+  <block id="a93084986507516aca62ce30e5febafb" category="sidebar">Aprenda como realizar ações de diagnóstico para condições de volume offline</block>
+  <block id="8f5d7e84456f0abf73921f663728e8bb" category="sidebar">Aprenda como resolver problemas de capacidade</block>
+  <block id="a20150fa66de6d3ab2baca49aa602060" category="sidebar">Aprenda a configurar as configurações globais de limite de integridade</block>
+  <block id="b5be3ece6c6bf7a626319e1714290647" category="sidebar">Saiba mais sobre como gerenciar objetivos de segurança de cluster</block>
+  <block id="5c95051ce42ea8550702cfa8acf968bf" category="sidebar">Entenda como o Unified Manager avalia os critérios de segurança</block>
+  <block id="8d7f94b7f406e3d514d6a741a266b015" category="sidebar">Aprenda sobre operações de backup e restauração</block>
+  <block id="64c2534ca89c0e19bffea4582c5059dc" category="sidebar">Aprenda sobre backup e restauração usando um dump de banco de dados MySQL</block>
+  <block id="7885e86afdc34d916b3154eb99fa5225" category="sidebar">Aprenda sobre backup e restauração usando os Snapshots do NetApp</block>
+  <block id="5359fcc3268216150edb9845a571b52a" category="sidebar">Saiba mais sobre como enviar um pacote de suporte</block>
+  <block id="cc05dc505475aeb5d0a90dea2a674232" category="sidebar">Entenda os requisitos para instalar o Unified Manager</block>
+  <block id="8f8e7d765b1236f0cb41f4122eb296fb" category="sidebar">Visão geral da instalação, atualização e remoção do software Unified Manager</block>
+  <block id="41e1a0598507ac53a4be66377d4e1258" category="sidebar">Entenda como atualizar o Unified Manager no Red Hat Enterprise Linux</block>
+  <block id="55d5b5f8fb92f18a723360d3a4c16b82" category="sidebar">Saiba mais sobre como atualizar produtos de terceiros</block>
+  <block id="e5aa7eb9a550fb4dc246ac46b8ae6b0c" category="sidebar">Saiba mais sobre monitoramento de desempenho</block>
+  <block id="bfb123e6e813a33d2751497fa3e0a97e" category="sidebar">Navegue pelos fluxos de trabalho de desempenho na interface gráfica do usuário</block>
+  <block id="f5ba0e68c2d123991026ed6f0053b15d" category="sidebar">Explore a interface gráfica e os caminhos de navegação</block>
+  <block id="0d016a506e4e90c77b4c3f5509de3aef" category="sidebar">Sobre o monitoramento de desempenho do cluster a partir do Dashboard</block>
+  <block id="fa01de135bbb7197b84633724cbc7da4" category="sidebar">Sobre o analisador de carga de trabalho</block>
+  <block id="5efe7baacb006c17f22269d9cef5204c" category="sidebar">Sobre o monitoramento do desempenho do cluster na página inicial do cluster</block>
+  <block id="270fcdef6a48b7b405ffdcc25973faea" category="sidebar">Analise a página inicial do cluster de desempenho</block>
+  <block id="38625d8c096fdc53da2e68e20d96bd40" category="sidebar">Consulte a página de resumo do cluster de desempenho</block>
+  <block id="3ab089a3703541260dda7420abef501b" category="sidebar">Monitore o desempenho de objetos usando as páginas de inventário de desempenho</block>
+  <block id="73757dc49f3a6b44dcee7ec58a790fa3" category="sidebar">Entenda como aprimorar o conteúdo da página de inventário de desempenho</block>
+  <block id="677b3660fde70686dae43d18ae70023d" category="sidebar">Entenda as páginas do Explorador de Desempenho</block>
+  <block id="1bfc9215d9c46284942c4a60ae1acf87" category="sidebar">Aprenda como especificar um intervalo de tempo para objetos correlacionados</block>
+  <block id="b0be532fb8bf91bea9131d22784b5885" category="sidebar">Saiba mais sobre a visualização ampliada dos gráficos de contador</block>
+  <block id="28bd6d4ebb6d39b0fd22cf20a1cefb96" category="sidebar">Analise os componentes das páginas de destino do objeto</block>
+  <block id="a8a778fcbe373438fac92171f8975331" category="sidebar">Saiba mais sobre o gerenciamento de desempenho do grupo de políticas de QoS</block>
+  <block id="300e4320ff6033a06ce6cd55fae4008d" category="sidebar">Gerenciar a capacidade de desempenho e os IOPS disponíveis</block>
+  <block id="9f8efbe947ec95c945057b4ee9c44501" category="sidebar">Visão geral da página de planejamento de failover de nós</block>
+  <block id="d1d7dc3fa1da362a052f348e0fa43f31" category="sidebar">Saiba como o Unified Manager coleta dados de desempenho da carga de trabalho</block>
+  <block id="0fd134df68c15a37ce11e827d8533d03" category="sidebar">Saiba mais sobre eventos e alertas de desempenho</block>
+  <block id="ea6e1bdb8200e4ba19e4b137575bc66f" category="sidebar">Compreenda as políticas de limite de desempenho</block>
+  <block id="b50c4dd19fb586e9007a35626b15d8f3" category="sidebar">Aprenda a analisar eventos de desempenho</block>
+  <block id="2ba9e7395c5b7e6a360ba1c2793643f8" category="sidebar">Sobre eventos de limites de desempenho definidos pelo usuário</block>
+  <block id="11903d24e3b202008ebc6191054e5fdd" category="sidebar">Sobre eventos de limites de desempenho definidos pelo sistema</block>
+  <block id="6b3c439dbceb4279f5a78ee593027908" category="sidebar">Sobre eventos de limites de desempenho dinâmicos</block>
+  <block id="2d019d34820bb97abad97458b1487bbf" category="sidebar">Analisar eventos de desempenho do MetroCluster</block>
+  <block id="9ae6e9a218ac391524f29e5a262edc11" category="sidebar">Saiba mais sobre como resolver eventos de desempenho</block>
+  <block id="ff55960185a4b69b8e51342c29a41623" category="sidebar">Agende as operações de eficiência de storage durante os horários menos movimentados</block>
+  <block id="11a5e36bc3b6ebad0498bd960773468f" category="sidebar">Saiba mais sobre como se conectar a um provedor de dados externo</block>
+  <block id="37b4dbe75d0c5e5c2654fb06fa78d8db" category="sidebar">Saiba mais sobre os relatórios do Unified Manager</block>
+  <block id="060e533d3d7eab83627aa666bd3f05d9" category="sidebar">Explore maneiras de acessar os recursos de geração de relatórios</block>
+  <block id="d5401a9ab2ff863b3356b25b679c9537" category="sidebar">Saiba mais sobre como personalizar relatórios</block>
+  <block id="026e4d5d301ac34d9d2059ea2d2d1bac" category="sidebar">Saiba mais sobre como agendar relatórios</block>
+  <block id="69c80827be24f640ef8097a823957632" category="sidebar">Criar um agendamento de relatório</block>
+  <block id="94eac6c7a92d1e79b6042de86d03e2d5" category="sidebar">Visualize, edite e exclua cronogramas de relatórios</block>
+  <block id="152244161940003464ada1e9b1bddc7a" category="sidebar">Entenda exemplos de relatórios personalizados</block>
+  <block id="132e444e5a3b8b21e30657d6d584d2e4" category="sidebar">Saiba mais sobre como personalizar relatórios de compartilhamento NFS</block>
+  <block id="81f488871d927553cdeab1351963df5a" category="sidebar">Saiba mais sobre como personalizar relatórios de máquinas virtuais de storage</block>
+  <block id="49124fedc51f989179dfdc74d25e7290" category="sidebar">Saiba mais sobre como personalizar relatórios de relacionamento de volume</block>
+  <block id="b3c6a123e39688ba794e61950e707ad7" category="sidebar">Entenda relatórios de exemplo do Microsoft Excel</block>
+  <block id="59c7b6e88719b99787990d11e794ec5c" category="sidebar">Saiba mais sobre o servidor Unified Manager</block>
+  <block id="b39806e068472d705dd76d56a7a0c2ec" category="sidebar">Aprenda sobre a interface de usuário</block>
+  <block id="163b89feffcee2ad110fca0e27a7fa8b" category="sidebar">Painéis do dashboard</block>
+  <block id="7178e937817a220e4cfc672825b49984" category="sidebar">Gerencie problemas e recursos do ONTAP</block>
+  <block id="3901ddf2c82db9ecf52c59d610b26aa9" category="sidebar">Saiba mais sobre o monitoramento da infraestrutura virtual da VMware</block>
+  <block id="51b25f9b65ff8f2f9cf19b65f23a4e4d" category="sidebar">Aprenda sobre provisionamento e gerenciamento de cargas de trabalho</block>
+  <block id="5965eebc74f4b74f427c0dfbf56a11a1" category="sidebar">Saiba mais sobre o painel de cargas de trabalho</block>
+  <block id="8a65dc701b1bfa436ce33931c344fab2" category="sidebar">Saiba mais sobre os níveis de serviço de desempenho</block>
+  <block id="a6e16397851d52fce837670c7fe5c107" category="sidebar">Saiba mais sobre as políticas de eficiência de storage</block>
+  <block id="442ea426f05852b9149238a396ebc980" category="sidebar">Use a caixa de diálogo Quotas</block>
+  <block id="d476210c705af2dbde35b19ec388481b" category="sidebar">Saiba como adicionar espaço de disco ao diretório do banco de dados</block>
 </blocks>

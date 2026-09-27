@@ -2,7 +2,7 @@
 permalink: performance-checker/reference_summary_page_opm.html 
 sidebar: sidebar 
 keywords: summary page, charts, counter, statistics 
-summary: A página Resumo exibe gráficos de contador que contêm detalhes sobre os eventos e o desempenho por objeto para o período de 72 horas anterior. Esses dados não são atualizados automaticamente, mas são atualizados a partir do último carregamento da página. Os gráficos na página Resumo respondem à pergunta preciso procurar mais? 
+summary: A página Resumo exibe gráficos de contadores com detalhes de eventos e desempenho por objeto no período anterior de 72 horas, atualizados até o último carregamento. 
 ---
 = Analise a página de Resumo de Desempenho em Active IQ Unified Manager
 :allow-uri-read: 

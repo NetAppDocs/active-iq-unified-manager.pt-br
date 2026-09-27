@@ -2,7 +2,7 @@
 permalink: reporting/task_create_report_to_view_aggregates_that_are_nearly_full.html 
 sidebar: sidebar 
 keywords: create, report, view, aggregates, full 
-summary: 'Você pode criar um relatório para destacar os agregados que estão 80% ou mais completos.' 
+summary: 'Crie um relatório para destacar os agregados que estão com 80% ou mais de sua capacidade preenchida.' 
 ---
 = Crie um relatório para visualizar agregados que estejam com 80% ou mais de sua capacidade preenchida no Active IQ Unified Manager
 :allow-uri-read: 
