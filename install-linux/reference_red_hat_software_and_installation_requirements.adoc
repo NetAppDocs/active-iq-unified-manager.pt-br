@@ -11,7 +11,7 @@ summary: O sistema Linux no qual você instala o Unified Manager requer versões
 
 
 [role="lead"]
-O sistema Linux no qual você instala o Unified Manager requer versões específicas do sistema operacional e software de suporte.
+O sistema Linux no qual você instala o Unified Manager requer versões específicas do sistema operacional e do software de suporte. Para instalações em Linux, o Unified Manager pode ser instalado somente em um sistema operacional Red Hat Enterprise Linux. Ele não pode ser instalado em nenhum outro sistema operacional.
 
 
 
@@ -20,14 +20,14 @@ O sistema Linux no qual você instala o Unified Manager requer versões específ
 
 O sistema Linux deve ter as seguintes versões do sistema operacional e o software de suporte instalado:
 
-* Red Hat Enterprise Linux versões 8.x e 9.6, baseadas na arquitetura x86_64.
+* As versões 8.x e 9.6 do Red Hat Enterprise Linux, baseadas na arquitetura x86_64
 
 
 Consulte a Matriz de interoperabilidade para obter a lista completa e mais atual das versões Linux suportadas do Red Hat Enterprise.
 
-http://mysupport.netapp.com/matrix["mysupport.NetApp.com/matrix"^]
+https://mysupport.netapp.com/matrix["NetApp Matriz de interoperabilidade"^]
 
-O servidor deve ser dedicado à execução do Unified Manager. Nenhum outro aplicativo deve ser instalado no servidor. É possível que o scanner de vulnerabilidade como o Qualys esteja instalado em seu sistema Linux por causa dos regulamentos da empresa. Você deve desativar o scanner de vulnerabilidades antes de instalar o Unified Manager para evitar que a instalação falhe.
+O servidor deve ser dedicado exclusivamente à execução do Unified Manager. Nenhum outro aplicativo deve ser instalado no servidor. Em alguns ambientes, um scanner de vulnerabilidades como o Qualys é instalado no sistema Linux devido à política da empresa. Você deve desativar o scanner de vulnerabilidades antes de instalar o Unified Manager para evitar falhas na instalação.
 
 
 NOTE: Os scanners de vulnerabilidade (como Qualys) podem levar ao alto uso da CPU ao digitalizar a máquina virtual (VM) internamente (onde o Unified Manager e o verificador de vulnerabilidades estão instalados na mesma VM) ou externamente (onde o Unified Manager e o verificador de vulnerabilidades estão instalados em dois servidores diferentes e o verificador de vulnerabilidade verifica a VM onde o Unified Manager está instalado). Esse problema geralmente faz com que a VM não responda e afete os serviços do Unified Manager. Portanto, o NetApp recomenda desativar o scanner de vulnerabilidades na VM onde o Gerenciador Unificado está instalado. Se a desativação do scanner não for uma opção, digitalize a VM durante o horário comercial e reinicie os serviços após a conclusão da digitalização.
